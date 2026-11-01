@@ -18,3 +18,6 @@ Scope: 24 stories of FC - Mobile UI Design and HCP - Mobile UI Design (outdated 
 - `KNOWN_ISSUES.md` — read this before relying on a screen; `STORY_EXAMPLE_Setting.md` — what one finished story contains; `VERIFY.md` — automatic per-story checks
 ## Tools (`tools/`)
 figkiwi.py (decode Figma clipboard), clip_to_screens.py, build_assets.py, figsvg.py, split_story.py, crop_*.py, build_texts.py, assign_texts.py, contact_sheet.py, verify.py
+
+## Flutter check
+`tools/story_to_flutter.py <_story> flutter_check` generates Dart for every screen from tree.json, renders it with `flutter test` and diffs it against screen@2x.png (report in flutter_check/out/report.json).

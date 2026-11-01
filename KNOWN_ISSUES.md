@@ -34,3 +34,8 @@ Profile, Course, Calendar, Videos, Workshop, Setting, Dementia Resources, Search
   The 14 About 'Research Team - Out date' screens were skipped on purpose. Node ids are in screens.json (node_id) so any screen can be re-copied.
 - 2x VALIDATION: every screen@2x.png was downscaled and compared with its screen@1x.png (opaque pixels, mean abs diff <= 8/255). Unvalidated copies (23, mostly video-call/photo overlays and
   Chatbot/Home variants, plus outdated About screens) were deleted instead of kept, so 385 verified 2x images remain. A missing screen@2x.png means 'use screen@1x.png / CSS'.
+- FLUTTER FIDELITY CHECK (tools/story_to_flutter.py + flutter_check/): tree.json -> Dart (Stack/Positioned, exact geometry, text styles, SVG icons via flutter_svg) -> rendered with flutter test at 2x -> pixel-diffed against screen@2x.png.
+  Story Setting, 15 screens: mean abs diff 0.43-1.15 /255 and 0.44-1.9% of pixels differing by >24 on 12 screens (remaining diff = text anti-aliasing, SF Pro status-bar font, 1px glyph offsets).
+  3 screens are worse (S10 4.3, S11 2.2, S14 2.9 /255): (a) text inside component instances can have style overrides that come from shared text styles (not present in clipboard data), so size/weight is taken from the master (bold 16 instead of regular 14);
+  (b) Roboto has no Arabic/CJK glyphs (use Noto in the real app); (c) some component opacity states. Use styles_all.css / texts.json (CSS font data) for those text styles.
+  flutter_check/out/report.json has the per-screen numbers.
