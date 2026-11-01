@@ -23,3 +23,6 @@ Profile, Course, Calendar, Videos, Workshop, Setting, Dementia Resources, Search
 - About 24_Login_3, 35_Login_5, 36_How to use this page: tree/texts/CSS are correct (frames sit outside every exported section, at root (7051,582) and (7598,582)); their PNG crops were wrong and were removed (image_missing=true). Re-export those 3 PNGs from Figma if needed.
 - Component properties (visibility/text toggles) and instance swaps are now applied: Setting/01 texts match the design exactly.
 - About 24_Login_3 and 35_Login_5: image copied from 03_Login (node trees verified identical: same sizes, fills, texts, auto layout). Only 36_How to use this page still has no PNG.
+- How to read ocr_confirmed: texts_real comes straight from Figma data, so the string is authoritative. ocr_confirmed=false (37.4%) mostly means OCR could not read that line on the PNG
+  (small 12px grey text, white text on photos, dates/numbers) - sampled 30 cases were all plausible real strings ('6.2.1 Younger onset dementia', '05:07', '85 Views', 'Back'...).
+  Treat only generic names ('Item', 'Label', 'Label radio', 'Enter note') as possible placeholders from unresolved component text.
