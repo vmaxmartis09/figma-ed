@@ -41,7 +41,7 @@ for tj in glob.glob(R + '/*/*/_story/screens/*/tree.json') + glob.glob(R + '/*/*
                         pts = [(0, 0), (W, 0), (0, H), (W, H)]
                         if tr: pts = [(tr[0] * a + tr[2] * b, tr[1] * a + tr[3] * b) for a, b in pts]
                         x0, x1 = min(q[0] for q in pts) - p, max(q[0] for q in pts) + p; y0, y1 = min(q[1] for q in pts) - p, max(q[1] for q in pts) + p
-                        open(os.path.join(idir, fn), 'w').write(f'<svg xmlns="http://www.w3.org/2000/svg" width="{x1-x0:g}" height="{y1-y0:g}" viewBox="{x0:g} {y0:g} {x1-x0:g} {y1-y0:g}">{frag}</svg>')
+                        open(os.path.join(idir, fn), 'w').write(f'<svg xmlns="http://www.w3.org/2000/svg" width="{x1-x0:g}" height="{y1-y0:g}" viewBox="0 0 {x1-x0:g} {y1-y0:g}"><g transform="translate({-x0:g} {-y0:g})">{frag}</g></svg>')
                         e['svg'] = 'icons/' + fn
                 except Exception as ex: e['svg_error'] = str(ex)[:60]
                 out.append(e)

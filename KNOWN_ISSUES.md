@@ -26,3 +26,4 @@ Profile, Course, Calendar, Videos, Workshop, Setting, Dementia Resources, Search
 - How to read ocr_confirmed: texts_real comes straight from Figma data, so the string is authoritative. ocr_confirmed=false (37.4%) mostly means OCR could not read that line on the PNG
   (small 12px grey text, white text on photos, dates/numbers) - sampled 30 cases were all plausible real strings ('6.2.1 Younger onset dementia', '05:07', '85 Views', 'Back'...).
   Treat only generic names ('Item', 'Label', 'Label radio', 'Enter note') as possible placeholders from unresolved component text.
+- Line 4 / Frame box: SVGs are valid (QuickLook renders Line 4; ImageMagick's built-in renderer does not). 'Frame box' has no fill or stroke, so it is empty by design.
