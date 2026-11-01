@@ -26,7 +26,7 @@ for l in open(S + '/stories.tsv'):
                     if ImageStat.Stat(im).stddev[0] < 3: r['blank'] += 1
                 except Exception: r['badsize'] += 1
             for t in sc[:i]:  # nested duplicate: same size box almost same position
-                if abs(t['x'] - s['x']) < 4 and abs(t['y'] - s['y']) < 4: r['dup'] += 1; break
+                if abs(t['x'] - s['x']) < 4 and abs(t['y'] - s['y']) < 4 and t['width'] == s['width'] and t['height'] == s['height']: r['dup'] += 1; break
     for x in glob.glob(d + '/*/'):
         if os.path.basename(x.rstrip('/')) == '_story': continue
         if os.path.exists(x + '.done') or os.path.exists(x + 'styles_all.css'): r['old_items'] += 1
