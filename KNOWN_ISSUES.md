@@ -22,3 +22,4 @@ Profile, Course, Calendar, Videos, Workshop, Setting, Dementia Resources, Search
   verify those against the PNG. assets.json 'svg' points to the file, 'library_svg' to the exported Library SVG when one exists.
 - About 24_Login_3, 35_Login_5, 36_How to use this page: tree/texts/CSS are correct (frames sit outside every exported section, at root (7051,582) and (7598,582)); their PNG crops were wrong and were removed (image_missing=true). Re-export those 3 PNGs from Figma if needed.
 - Component properties (visibility/text toggles) and instance swaps are now applied: Setting/01 texts match the design exactly.
+- About 24_Login_3 and 35_Login_5: image copied from 03_Login (node trees verified identical: same sizes, fills, texts, auto layout). Only 36_How to use this page still has no PNG.
