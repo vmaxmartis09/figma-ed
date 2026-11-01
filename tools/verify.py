@@ -7,10 +7,14 @@ rows = []
 for l in open(S + '/stories.tsv'):
     page, pj, name, d = l.rstrip('\n').split('\t'); O = d + '/_story'
     r = {'page': page, 'story': d.replace(R + '/', ''), 'css': os.path.getsize(O + '/story_all.css') if os.path.exists(O + '/story_all.css') else 0,
-         'png': os.path.exists(O + '/story.png'), 'screens': 0, 'cropped': 0, 'blank': 0, 'badsize': 0, 'dup': 0, 'old_items': 0, 'old_done': 0}
+         'png': os.path.exists(O + '/story.png') or bool(glob.glob(O + '/sections/*.png')), 'screens': 0, 'cropped': 0, 'blank': 0, 'badsize': 0, 'dup': 0, 'old_items': 0, 'old_done': 0}
     j = O + '/screens/screens.json'
     if os.path.exists(j):
-        sc = json.load(open(j)); r['screens'] = len(sc)
+        sc = json.load(open(j))
+        try: secs = json.load(open(O + '/sections.json'))
+        except Exception: secs = []
+        sc = [x for x in sc if not (isinstance(x.get('section'), int) and x['section'] < len(secs) and 'out date' in secs[x['section']]['name'].lower())]
+        r['screens'] = len(sc)
         for i, s in enumerate(sc):
             f = glob.glob(O + '/screens/' + s['folder'] + '/screen@*.png')
             if f:
