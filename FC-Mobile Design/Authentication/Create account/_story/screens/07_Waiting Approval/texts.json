@@ -2,7 +2,7 @@
  "screen": "Waiting Approval",
  "texts": [
   {
-   "text": "Time",
+   "text": "9:41",
    "verified_by_ocr": false,
    "ocr_candidate": "Awaiting Admin Approval",
    "style": "Default/Body/Bold",
@@ -12,7 +12,9 @@
    "line_height": "22px",
    "letter_spacing": "-0.408px",
    "color": "#121212",
-   "text_align": "center"
+   "text_align": "center",
+   "layer_name": "Time",
+   "text_source": "figma_clipboard"
   },
   {
    "text": "Link text",
@@ -68,7 +70,9 @@
    "line_height": "22px",
    "letter_spacing": null,
    "color": "#FFFFFF",
-   "text_align": "center"
+   "text_align": "center",
+   "layer_name": "Button text",
+   "text_source": "figma_clipboard"
   }
  ],
  "ocr_lines": [
@@ -80,6 +84,30 @@
   "Log in"
  ],
  "texts_real": [
+  {
+   "text": "9:41",
+   "layer": "Time",
+   "path": "Waiting Approval/Status Bar (iPhone)/🧰/Time (iPhone)/Time",
+   "x": 27.0,
+   "y": 18.0,
+   "w": 54.0,
+   "h": 22.0,
+   "font_family": "SF Pro Text",
+   "font_style": "Semibold",
+   "font_size": 17.0,
+   "line_height": {
+    "value": 22.0,
+    "units": "PIXELS"
+   },
+   "letter_spacing": {
+    "value": -0.40799999237060547,
+    "units": "PIXELS"
+   },
+   "align": "CENTER",
+   "color": "#121212",
+   "opacity": 1,
+   "ocr_confirmed": true
+  },
   {
    "text": "Awaiting Admin Approval",
    "layer": "Title",
@@ -101,7 +129,8 @@
    },
    "align": "CENTER",
    "color": "#121212",
-   "opacity": 1
+   "opacity": 1,
+   "ocr_confirmed": true
   },
   {
    "text": "Your request is reviewed.  You will be notified by email within 24–48 hours. Please check your inbox  ",
@@ -124,7 +153,32 @@
    },
    "align": "CENTER",
    "color": "#555555",
-   "opacity": 1
+   "opacity": 1,
+   "ocr_confirmed": true
+  },
+  {
+   "text": "Button text",
+   "layer": "Button text",
+   "path": "Waiting Approval/Container/Content Container/Button Container/Button Wrapper/Button/Base button/Primary/Button text",
+   "x": 165.5,
+   "y": 443.0,
+   "w": 44.0,
+   "h": 22.0,
+   "font_family": "Roboto",
+   "font_style": "SemiBold",
+   "font_size": 16.0,
+   "line_height": {
+    "value": 22.0,
+    "units": "PIXELS"
+   },
+   "letter_spacing": {
+    "value": 0.0,
+    "units": "PERCENT"
+   },
+   "align": "CENTER",
+   "color": "#FFFFFF",
+   "opacity": 1,
+   "ocr_confirmed": false
   }
  ]
 }

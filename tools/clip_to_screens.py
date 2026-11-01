@@ -19,7 +19,17 @@ def paint(p):
     if t == 'SOLID': return {'type': t, 'color': hexc(p['color']), **({'opacity': p['opacity']} if p.get('opacity', 1) != 1 else {})}
     if t.startswith('GRADIENT'): return {'type': t, 'stops': [{'pos': s['position'], 'color': hexc(s['color'])} for s in p.get('stops', [])]}
     return {'type': t}
-def reduce(n):
+GK = lambda d: (d['sessionID'], d['localID'])
+def okey(n): return GK(n['overrideKey']) if n.get('overrideKey') else g(n)
+def paths(lst, field='guidPath'):
+    out = {}
+    for o in lst or []:
+        gp = tuple(GK(x) for x in o.get(field, {}).get('guids', []))
+        out.setdefault(gp, {}).update({k: v for k, v in o.items() if k != field})
+    return out
+def reduce(n, ov=None, depth=0):
+    n = dict(n)
+    if ov and ov.get(()): n.update({k: v for k, v in ov[()].items() if k not in ('guid',)})
     t = n['transform']; o = {'name': n['name'], 'type': n['type'], 'x': round(t['m02'], 2), 'y': round(t['m12'], 2), 'w': n['size']['x'], 'h': n['size']['y']}
     if n.get('rotation') or abs(t['m01']) > 1e-6 or abs(t['m10']) > 1e-6: o['transform'] = [t['m00'], t['m01'], t['m10'], t['m11']]
     if not n.get('visible', True): o['visible'] = False
@@ -34,7 +44,25 @@ def reduce(n):
     if ef: o['effects'] = ef
     if n['type'] == 'TEXT':
         td = n.get('textData', {}); o['text'] = {'characters': td.get('characters'), 'fontSize': n.get('fontSize'), 'font': n.get('fontName'), 'lineHeight': n.get('lineHeight'), 'letterSpacing': n.get('letterSpacing'), 'alignH': n.get('textAlignHorizontal'), 'alignV': n.get('textAlignVertical'), 'case': n.get('textCase'), 'decoration': n.get('textDecoration'), 'autoResize': n.get('textAutoResize')}
-    ch = [reduce(c) for c in kids.get(g(n), []) if c['type'] != 'SYMBOL' or True]
+    if n['type'] == 'INSTANCE' and not kids.get(g(n)) and n.get('symbolData') and depth < 12:
+        sym = by.get(GK(n['symbolData']['symbolID']))
+        mine = paths(n['symbolData'].get('symbolOverrides')); der = paths(n.get('derivedSymbolData'))
+        merged = {}
+        for src in (der, mine):
+            for pth, f in src.items(): merged.setdefault(pth, {}).update(f)
+        for pth, f in (ov or {}).items():
+            if pth: merged.setdefault(pth, {}).update(f)
+        ch = []
+        if sym is not None:
+            for c in kids.get(g(sym), []):
+                kc = okey(c); sub = {(q[1:] if q and q[0] == kc else q): f for q, f in merged.items() if q}
+                ch.append(reduce(c, sub, depth + 1))
+    else:
+        sub_all = ov or {}
+        ch = []
+        for c in kids.get(g(n), []):
+            kc = okey(c); sub = {(q[1:] if q and q[0] == kc else q): f for q, f in sub_all.items() if q}
+            ch.append(reduce(c, sub, depth))
     if ch: o['children'] = ch
     return o
 def absxy(n, root):
@@ -49,7 +77,9 @@ def _par(n):
 _sc0 = json.load(open(D + '/screens/screens.json'))[0]
 root = next(n for n in nc if 'size' in n and _par(n) is not None and _par(n)['type'] == 'CANVAS' and abs(n['size']['x'] - _sc0['rootW']) < 1.5 and abs(n['size']['y'] - _sc0['rootH']) < 1.5)
 rid = g(root)
-sc = json.load(open(D + '/screens/screens.json')); used = set(); matched = tot_t = real_t = 0
+sc = json.load(open(D + '/screens/screens.json')); used = set()
+_ocr = json.load(open(D + '/ocr_all.json')) if os.path.exists(D + '/ocr_all.json') else {}
+_nm = lambda t: re.sub(r'[^0-9a-zA-ZÀ-ỿ؀-ۿ一-鿿]+', '', t or '').lower(); matched = tot_t = real_t = 0
 cands = [n for n in nc if n['type'] in ('FRAME', 'SYMBOL', 'INSTANCE', 'COMPONENT')]
 for s in sc:
     w, h = float(s['width'][:-2]), float(s['height'][:-2]); nm = re.sub(r'^\d+_', '', s['folder'])
@@ -62,15 +92,18 @@ for s in sc:
     used.add(g(best)); matched += 1
     tree = reduce(best); open(f"{D}/screens/{s['folder']}/tree.json", 'w').write(json.dumps(tree, ensure_ascii=False, indent=1))
     texts = []
-    def walk(n, path, ox, oy):
-        x, y = ox + n['x'], oy + n['y']
-        if n['type'] == 'TEXT' and n.get('text') and not n.get('visible') is False:
+    def walk(n, path, ox, oy, hid=False):
+        x, y = ox + n['x'], oy + n['y']; hid = hid or n.get('visible') is False or n.get('opacity') == 0
+        if n['type'] == 'TEXT' and n.get('text') and not hid:
             t = n['text']; fill = (n.get('fills') or [{}])[0]
             texts.append({'text': t['characters'], 'layer': n['name'], 'path': '/'.join(path), 'x': round(x, 2), 'y': round(y, 2), 'w': n['w'], 'h': n['h'],
                           'font_family': (t['font'] or {}).get('family'), 'font_style': (t['font'] or {}).get('style'), 'font_size': t['fontSize'],
                           'line_height': t['lineHeight'], 'letter_spacing': t['letterSpacing'], 'align': t['alignH'], 'color': fill.get('color'), 'opacity': n.get('opacity', 1)})
-        for c in n.get('children', []): walk(c, path + [c['name']], x if n is not tree else 0, y if n is not tree else 0)
+        for c in n.get('children', []): walk(c, path + [c['name']], x if n is not tree else 0, y if n is not tree else 0, hid)
     walk(tree, [tree['name']], 0, 0)
+    _f = glob.glob(f"{D}/screens/{s['folder']}/screen@*.png"); _ab = os.path.abspath(_f[0]) if _f else None
+    _j = ''.join(_nm(l['text']) for l in _ocr.get(_ab, []))
+    for t in texts: t['ocr_confirmed'] = bool(_nm(t['text'])) and _nm(t['text']) in _j
     tj = f"{D}/screens/{s['folder']}/texts.json"
     if os.path.exists(tj):
         data = json.load(open(tj)); pool = {}

@@ -2,7 +2,7 @@
  "screen": "Create workshop-review-confirm",
  "texts": [
   {
-   "text": "Time",
+   "text": "9:41",
    "verified_by_ocr": true,
    "style": "Default/Body/Bold",
    "font_family": "SF Pro Text",
@@ -12,10 +12,11 @@
    "letter_spacing": "-0.408px",
    "color": "#FFFFFF",
    "text_align": "center",
-   "text_source": "ocr_exact"
+   "text_source": "figma_clipboard",
+   "layer_name": "Time"
   },
   {
-   "text": "Back",
+   "text": "Cancel",
    "verified_by_ocr": true,
    "style": "Body L/Regular",
    "font_family": "Roboto",
@@ -25,10 +26,11 @@
    "letter_spacing": null,
    "color": "#FFFFFF",
    "text_align": null,
-   "text_source": "ocr_exact"
+   "text_source": "figma_clipboard",
+   "layer_name": "Back"
   },
   {
-   "text": "Title",
+   "text": "New Workshop",
    "verified_by_ocr": false,
    "ocr_candidate": "Time",
    "style": "Heading 7/Bold",
@@ -39,7 +41,8 @@
    "letter_spacing": "-0.01em",
    "color": "#FFFFFF",
    "text_align": "center",
-   "text_source": "layer_name"
+   "text_source": "figma_clipboard",
+   "layer_name": "Title"
   },
   {
    "text": "Step 3:",
@@ -197,7 +200,7 @@
    "letter_spacing": null,
    "color": "#8B5ECB",
    "text_align": null,
-   "text_source": "ocr_sequence",
+   "text_source": "figma_clipboard",
    "layer_name": "Mental support"
   },
   {
@@ -285,7 +288,7 @@
    "layer_name": "One day before"
   },
   {
-   "text": "Create workshop",
+   "text": "Button text",
    "verified_by_ocr": false,
    "ocr_candidate": "Online",
    "style": "Body L/Semi",
@@ -296,11 +299,11 @@
    "letter_spacing": null,
    "color": "#FFFFFF",
    "text_align": "center",
-   "text_source": "ocr_sequence",
+   "text_source": "figma_clipboard",
    "layer_name": "Button text"
   },
   {
-   "text": "Back",
+   "text": "Button text",
    "verified_by_ocr": false,
    "ocr_candidate": "Online",
    "style": "Body L/Semi",
@@ -311,7 +314,7 @@
    "letter_spacing": null,
    "color": "#1999A4",
    "text_align": "center",
-   "text_source": "ocr_sequence",
+   "text_source": "figma_clipboard",
    "layer_name": "Button text"
   }
  ],
@@ -343,6 +346,102 @@
  ],
  "texts_real": [
   {
+   "text": "9:41",
+   "layer": "Time",
+   "path": "Create workshop-review-confirm/Top Navigation/Status Bar (iPhone)/🧰/Time (iPhone)/Time",
+   "x": 27.0,
+   "y": 18.0,
+   "w": 54.0,
+   "h": 22.0,
+   "font_family": "SF Pro Text",
+   "font_style": "Semibold",
+   "font_size": 17.0,
+   "line_height": {
+    "value": 22.0,
+    "units": "PIXELS"
+   },
+   "letter_spacing": {
+    "value": -0.40799999237060547,
+    "units": "PIXELS"
+   },
+   "align": "CENTER",
+   "color": "#FFFFFF",
+   "opacity": 1,
+   "ocr_confirmed": true
+  },
+  {
+   "text": "Cancel",
+   "layer": "Back",
+   "path": "Create workshop-review-confirm/Top Navigation/Bottom/Left Action/Back",
+   "x": 40.0,
+   "y": 79.0,
+   "w": 49.0,
+   "h": 22.0,
+   "font_family": "Roboto",
+   "font_style": "Regular",
+   "font_size": 16.0,
+   "line_height": {
+    "value": 22.0,
+    "units": "PIXELS"
+   },
+   "letter_spacing": {
+    "value": 0.0,
+    "units": "PERCENT"
+   },
+   "align": null,
+   "color": "#FFFFFF",
+   "opacity": 1,
+   "ocr_confirmed": true
+  },
+  {
+   "text": "New Workshop",
+   "layer": "Title",
+   "path": "Create workshop-review-confirm/Top Navigation/Bottom/Title",
+   "x": 100.0,
+   "y": 77.0,
+   "w": 200.0,
+   "h": 26.0,
+   "font_family": "Roboto",
+   "font_style": "Bold",
+   "font_size": 20.0,
+   "line_height": {
+    "value": 26.0,
+    "units": "PIXELS"
+   },
+   "letter_spacing": {
+    "value": -1.0,
+    "units": "PERCENT"
+   },
+   "align": "CENTER",
+   "color": "#FFFFFF",
+   "opacity": 1,
+   "ocr_confirmed": true
+  },
+  {
+   "text": "Setting",
+   "layer": "Setting",
+   "path": "Create workshop-review-confirm/Top Navigation/Bottom/Right Action/Setting",
+   "x": 308.0,
+   "y": 79.0,
+   "w": 51.0,
+   "h": 22.0,
+   "font_family": "Roboto",
+   "font_style": "Regular",
+   "font_size": 16.0,
+   "line_height": {
+    "value": 22.0,
+    "units": "PIXELS"
+   },
+   "letter_spacing": {
+    "value": 0.0,
+    "units": "PERCENT"
+   },
+   "align": null,
+   "color": "#FFFFFF",
+   "opacity": 1,
+   "ocr_confirmed": false
+  },
+  {
    "text": "Step 3:",
    "layer": "Step number",
    "path": "Create workshop-review-confirm/Progress bar/Progress bar info/Step number",
@@ -363,7 +462,8 @@
    },
    "align": null,
    "color": "#121212",
-   "opacity": 1
+   "opacity": 1,
+   "ocr_confirmed": true
   },
   {
    "text": "Review & Confirmation",
@@ -386,7 +486,8 @@
    },
    "align": null,
    "color": "#121212",
-   "opacity": 1
+   "opacity": 1,
+   "ocr_confirmed": true
   },
   {
    "text": "03/03",
@@ -409,7 +510,8 @@
    },
    "align": null,
    "color": "#555555",
-   "opacity": 1
+   "opacity": 1,
+   "ocr_confirmed": true
   },
   {
    "text": "Review & Confirmation",
@@ -432,7 +534,8 @@
    },
    "align": "CENTER",
    "color": "#121212",
-   "opacity": 1
+   "opacity": 1,
+   "ocr_confirmed": true
   },
   {
    "text": "Understanding Dementia",
@@ -455,7 +558,8 @@
    },
    "align": null,
    "color": "#121212",
-   "opacity": 1
+   "opacity": 1,
+   "ocr_confirmed": true
   },
   {
    "text": "Date",
@@ -478,7 +582,8 @@
    },
    "align": null,
    "color": "#555555",
-   "opacity": 1
+   "opacity": 1,
+   "ocr_confirmed": true
   },
   {
    "text": "15/072026",
@@ -501,7 +606,8 @@
    },
    "align": "RIGHT",
    "color": "#121212",
-   "opacity": 1
+   "opacity": 1,
+   "ocr_confirmed": true
   },
   {
    "text": "Time",
@@ -524,7 +630,8 @@
    },
    "align": null,
    "color": "#555555",
-   "opacity": 1
+   "opacity": 1,
+   "ocr_confirmed": true
   },
   {
    "text": "10:00 AM – 12:00 AM",
@@ -547,7 +654,8 @@
    },
    "align": "RIGHT",
    "color": "#121212",
-   "opacity": 1
+   "opacity": 1,
+   "ocr_confirmed": true
   },
   {
    "text": "Mode",
@@ -570,7 +678,32 @@
    },
    "align": null,
    "color": "#555555",
-   "opacity": 1
+   "opacity": 1,
+   "ocr_confirmed": true
+  },
+  {
+   "text": "Online",
+   "layer": "Mental support",
+   "path": "Create workshop-review-confirm/Content/Frame/Frame/Frame/Frame/Component 4/Mental support",
+   "x": 304.0,
+   "y": 405.0,
+   "w": 35.0,
+   "h": 18.0,
+   "font_family": "Roboto",
+   "font_style": "SemiBold",
+   "font_size": 12.0,
+   "line_height": {
+    "value": 18.0,
+    "units": "PIXELS"
+   },
+   "letter_spacing": {
+    "value": 0.0,
+    "units": "PERCENT"
+   },
+   "align": null,
+   "color": "#1999A4",
+   "opacity": 1,
+   "ocr_confirmed": true
   },
   {
    "text": "Max Attendees",
@@ -593,7 +726,8 @@
    },
    "align": null,
    "color": "#555555",
-   "opacity": 1
+   "opacity": 1,
+   "ocr_confirmed": true
   },
   {
    "text": "04/30",
@@ -616,7 +750,8 @@
    },
    "align": "RIGHT",
    "color": "#121212",
-   "opacity": 1
+   "opacity": 1,
+   "ocr_confirmed": true
   },
   {
    "text": "Brief description",
@@ -639,7 +774,8 @@
    },
    "align": null,
    "color": "#121212",
-   "opacity": 1
+   "opacity": 1,
+   "ocr_confirmed": true
   },
   {
    "text": "An interactive workshop to share strategies and experiences for living well using iSupport-D. Participants will engage in peer-to-peer learning and professional guidance session.",
@@ -662,7 +798,8 @@
    },
    "align": null,
    "color": "#121212",
-   "opacity": 1
+   "opacity": 1,
+   "ocr_confirmed": true
   },
   {
    "text": "Reminder frequency",
@@ -685,7 +822,8 @@
    },
    "align": null,
    "color": "#121212",
-   "opacity": 1
+   "opacity": 1,
+   "ocr_confirmed": true
   },
   {
    "text": "One day before",
@@ -708,7 +846,56 @@
    },
    "align": null,
    "color": "#121212",
-   "opacity": 1
+   "opacity": 1,
+   "ocr_confirmed": true
+  },
+  {
+   "text": "Button text",
+   "layer": "Button text",
+   "path": "Create workshop-review-confirm/Form Footer/Action container/Button/Base button/Primary/Button text",
+   "x": 126.5,
+   "y": 767.0,
+   "w": 122.0,
+   "h": 22.0,
+   "font_family": "Roboto",
+   "font_style": "SemiBold",
+   "font_size": 16.0,
+   "line_height": {
+    "value": 22.0,
+    "units": "PIXELS"
+   },
+   "letter_spacing": {
+    "value": 0.0,
+    "units": "PERCENT"
+   },
+   "align": "CENTER",
+   "color": "#FFFFFF",
+   "opacity": 1,
+   "ocr_confirmed": false
+  },
+  {
+   "text": "Button text",
+   "layer": "Button text",
+   "path": "Create workshop-review-confirm/Form Footer/Action container/Button/Base button/Primary/Button text",
+   "x": 169.5,
+   "y": 833.0,
+   "w": 36.0,
+   "h": 22.0,
+   "font_family": "Roboto",
+   "font_style": "SemiBold",
+   "font_size": 16.0,
+   "line_height": {
+    "value": 22.0,
+    "units": "PIXELS"
+   },
+   "letter_spacing": {
+    "value": 0.0,
+    "units": "PERCENT"
+   },
+   "align": "CENTER",
+   "color": "#1999A4",
+   "opacity": 1,
+   "ocr_confirmed": false
   }
  ]
 }

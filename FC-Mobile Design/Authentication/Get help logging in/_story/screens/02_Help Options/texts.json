@@ -2,7 +2,7 @@
  "screen": "Help Options",
  "texts": [
   {
-   "text": "Time",
+   "text": "9:41",
    "verified_by_ocr": false,
    "ocr_candidate": "Reset my password?",
    "style": "Default/Body/Bold",
@@ -12,7 +12,9 @@
    "line_height": "22px",
    "letter_spacing": "-0.408px",
    "color": "#121212",
-   "text_align": "center"
+   "text_align": "center",
+   "layer_name": "Time",
+   "text_source": "figma_clipboard"
   },
   {
    "text": "What do you need help with?",
@@ -45,7 +47,11 @@
    "text_source": "figma_clipboard"
   },
   {
-   "text": "Label",
+   "text": [
+    "Reset my password?",
+    "Change my email address",
+    "Contact us"
+   ],
    "verified_by_ocr": false,
    "ocr_candidate": "Already have an account? Log in",
    "style": "Body L/Regular",
@@ -55,7 +61,9 @@
    "line_height": "22px",
    "letter_spacing": null,
    "color": "#121212",
-   "text_align": null
+   "text_align": null,
+   "layer_name": "Label",
+   "text_source": "figma_clipboard"
   },
   {
    "text": "Already have an account?",
@@ -73,7 +81,7 @@
    "text_source": "figma_clipboard"
   },
   {
-   "text": "Link text",
+   "text": "Log in",
    "verified_by_ocr": false,
    "ocr_candidate": "Contact us",
    "style": "Body L/Medium (Under)",
@@ -83,7 +91,9 @@
    "line_height": "22px",
    "letter_spacing": null,
    "color": "#1999A4",
-   "text_align": "center"
+   "text_align": "center",
+   "layer_name": "Link text",
+   "text_source": "figma_clipboard"
   }
  ],
  "ocr_lines": [
@@ -99,6 +109,30 @@
   "Already have an account? Log in"
  ],
  "texts_real": [
+  {
+   "text": "9:41",
+   "layer": "Time",
+   "path": "Help Options/Main Container/Header Container/Status Bar (iPhone)/🧰/Time (iPhone)/Time",
+   "x": 27.0,
+   "y": 18.0,
+   "w": 54.0,
+   "h": 22.0,
+   "font_family": "SF Pro Text",
+   "font_style": "Semibold",
+   "font_size": 17.0,
+   "line_height": {
+    "value": 22.0,
+    "units": "PIXELS"
+   },
+   "letter_spacing": {
+    "value": -0.40799999237060547,
+    "units": "PIXELS"
+   },
+   "align": "CENTER",
+   "color": "#121212",
+   "opacity": 1,
+   "ocr_confirmed": true
+  },
   {
    "text": "What do you need help with?",
    "layer": "Form Title",
@@ -120,7 +154,8 @@
    },
    "align": "CENTER",
    "color": "#121212",
-   "opacity": 1
+   "opacity": 1,
+   "ocr_confirmed": true
   },
   {
    "text": "Choose what you need help with",
@@ -143,7 +178,80 @@
    },
    "align": "CENTER",
    "color": "#555555",
-   "opacity": 1
+   "opacity": 1,
+   "ocr_confirmed": true
+  },
+  {
+   "text": "Reset my password?",
+   "layer": "Label",
+   "path": "Help Options/Main Container/Header Container/Content Container/Check list/Checkbox Item/Frame 1000004542/Label",
+   "x": 16.0,
+   "y": 235.0,
+   "w": 148.0,
+   "h": 22.0,
+   "font_family": "Roboto",
+   "font_style": "Regular",
+   "font_size": 16.0,
+   "line_height": {
+    "value": 22.0,
+    "units": "PIXELS"
+   },
+   "letter_spacing": {
+    "value": 0.0,
+    "units": "PERCENT"
+   },
+   "align": null,
+   "color": "#121212",
+   "opacity": 1,
+   "ocr_confirmed": true
+  },
+  {
+   "text": "Change my email address",
+   "layer": "Label",
+   "path": "Help Options/Main Container/Header Container/Content Container/Check list/Checkbox Item/Frame 1000004542/Label",
+   "x": 16.0,
+   "y": 289.0,
+   "w": 184.0,
+   "h": 22.0,
+   "font_family": "Roboto",
+   "font_style": "Regular",
+   "font_size": 16.0,
+   "line_height": {
+    "value": 22.0,
+    "units": "PIXELS"
+   },
+   "letter_spacing": {
+    "value": 0.0,
+    "units": "PERCENT"
+   },
+   "align": null,
+   "color": "#121212",
+   "opacity": 1,
+   "ocr_confirmed": true
+  },
+  {
+   "text": "Contact us",
+   "layer": "Label",
+   "path": "Help Options/Main Container/Header Container/Content Container/Check list/Checkbox Item/Frame 1000004542/Label",
+   "x": 16.0,
+   "y": 343.0,
+   "w": 77.0,
+   "h": 22.0,
+   "font_family": "Roboto",
+   "font_style": "Regular",
+   "font_size": 16.0,
+   "line_height": {
+    "value": 22.0,
+    "units": "PIXELS"
+   },
+   "letter_spacing": {
+    "value": 0.0,
+    "units": "PERCENT"
+   },
+   "align": null,
+   "color": "#121212",
+   "opacity": 1,
+   "ocr_confirmed": true
   },
   {
    "text": "Already have an account?",
@@ -166,7 +274,32 @@
    },
    "align": null,
    "color": "#121212",
-   "opacity": 1
+   "opacity": 1,
+   "ocr_confirmed": true
+  },
+  {
+   "text": "Log in",
+   "layer": "Link text",
+   "path": "Help Options/Main Container/Footer Container/Footer Link Container/Footer Text and Link/Link/Link text",
+   "x": 258.5,
+   "y": 797.0,
+   "w": 44.0,
+   "h": 22.0,
+   "font_family": "Roboto",
+   "font_style": "Medium",
+   "font_size": 16.0,
+   "line_height": {
+    "value": 22.0,
+    "units": "PIXELS"
+   },
+   "letter_spacing": {
+    "value": 0.0,
+    "units": "PERCENT"
+   },
+   "align": "CENTER",
+   "color": "#1999A4",
+   "opacity": 1,
+   "ocr_confirmed": true
   }
  ]
 }

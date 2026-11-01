@@ -2,7 +2,7 @@
  "screen": "For HP: Choose type of account",
  "texts": [
   {
-   "text": "Time",
+   "text": "9:41",
    "verified_by_ocr": false,
    "ocr_candidate": "Healthcare",
    "style": "Default/Body/Bold",
@@ -12,7 +12,9 @@
    "line_height": "22px",
    "letter_spacing": "-0.408px",
    "color": "#212121",
-   "text_align": "center"
+   "text_align": "center",
+   "layer_name": "Time",
+   "text_source": "figma_clipboard"
   },
   {
    "text": "Who are you login as?",
@@ -30,7 +32,10 @@
    "text_source": "figma_clipboard"
   },
   {
-   "text": "No time",
+   "text": [
+    "Family carer",
+    "Healthcare professional"
+   ],
    "verified_by_ocr": false,
    "ocr_candidate": "iSupport-D",
    "style": "Heading 7/Bold",
@@ -40,7 +45,9 @@
    "line_height": "26px",
    "letter_spacing": "-0.01em",
    "color": "#121212",
-   "text_align": null
+   "text_align": null,
+   "layer_name": "No time",
+   "text_source": "figma_clipboard"
   },
   {
    "text": "Label radio",
@@ -53,10 +60,15 @@
    "line_height": "22px",
    "letter_spacing": null,
    "color": "#121212",
-   "text_align": null
+   "text_align": null,
+   "layer_name": "Label radio",
+   "text_source": "figma_clipboard"
   },
   {
-   "text": "No time",
+   "text": [
+    "Family carer",
+    "Healthcare professional"
+   ],
    "verified_by_ocr": false,
    "ocr_candidate": "iSupport-D",
    "style": "Heading 7/Bold",
@@ -66,7 +78,9 @@
    "line_height": "26px",
    "letter_spacing": null,
    "color": null,
-   "text_align": null
+   "text_align": null,
+   "layer_name": "No time",
+   "text_source": "figma_clipboard"
   },
   {
    "text": "Button text",
@@ -79,7 +93,9 @@
    "line_height": "22px",
    "letter_spacing": null,
    "color": "#FFFFFF",
-   "text_align": "center"
+   "text_align": "center",
+   "layer_name": "Button text",
+   "text_source": "figma_clipboard"
   }
  ],
  "ocr_lines": [
@@ -93,6 +109,30 @@
   "Get started"
  ],
  "texts_real": [
+  {
+   "text": "9:41",
+   "layer": "Time",
+   "path": "For HP: Choose type of account/Status Bar (iPhone)/🧰/Time (iPhone)/Time",
+   "x": 27.0,
+   "y": 18.0,
+   "w": 54.0,
+   "h": 22.0,
+   "font_family": "SF Pro Text",
+   "font_style": "Semibold",
+   "font_size": 17.0,
+   "line_height": {
+    "value": 22.0,
+    "units": "PIXELS"
+   },
+   "letter_spacing": {
+    "value": -0.40799999237060547,
+    "units": "PIXELS"
+   },
+   "align": "CENTER",
+   "color": "#212121",
+   "opacity": 1,
+   "ocr_confirmed": true
+  },
   {
    "text": "Who are you login as?",
    "layer": "Login Prompt",
@@ -114,7 +154,128 @@
    },
    "align": "CENTER",
    "color": "#121212",
-   "opacity": 1
+   "opacity": 1,
+   "ocr_confirmed": true
+  },
+  {
+   "text": "Family carer",
+   "layer": "No time",
+   "path": "For HP: Choose type of account/Options Container/Selection Container/Radio buton bar/No time",
+   "x": 92.0,
+   "y": 266.0,
+   "w": 203.0,
+   "h": 26.0,
+   "font_family": "Roboto",
+   "font_style": "Bold",
+   "font_size": 20.0,
+   "line_height": {
+    "value": 26.0,
+    "units": "PIXELS"
+   },
+   "letter_spacing": {
+    "value": -1.0,
+    "units": "PERCENT"
+   },
+   "align": null,
+   "color": "#121212",
+   "opacity": 1,
+   "ocr_confirmed": true
+  },
+  {
+   "text": "Label radio",
+   "layer": "Label radio",
+   "path": "For HP: Choose type of account/Options Container/Selection Container/Radio buton bar/Radio Button/Label radio",
+   "x": 343.0,
+   "y": 268.0,
+   "w": 79.0,
+   "h": 22.0,
+   "font_family": "Roboto",
+   "font_style": "Regular",
+   "font_size": 16.0,
+   "line_height": {
+    "value": 22.0,
+    "units": "PIXELS"
+   },
+   "letter_spacing": {
+    "value": 0.0,
+    "units": "PERCENT"
+   },
+   "align": null,
+   "color": "#121212",
+   "opacity": 1,
+   "ocr_confirmed": false
+  },
+  {
+   "text": "Healthcare professional",
+   "layer": "No time",
+   "path": "For HP: Choose type of account/Options Container/Selection Container/Radio buton bar/No time",
+   "x": 92.0,
+   "y": 369.0,
+   "w": 203.0,
+   "h": 52.0,
+   "font_family": "Roboto",
+   "font_style": "Bold",
+   "font_size": 20.0,
+   "line_height": {
+    "value": 26.0,
+    "units": "PIXELS"
+   },
+   "letter_spacing": {
+    "value": -1.0,
+    "units": "PERCENT"
+   },
+   "align": null,
+   "color": "#121212",
+   "opacity": 1,
+   "ocr_confirmed": true
+  },
+  {
+   "text": "Label radio",
+   "layer": "Label radio",
+   "path": "For HP: Choose type of account/Options Container/Selection Container/Radio buton bar/Radio Button/Label radio",
+   "x": 343.0,
+   "y": 384.0,
+   "w": 79.0,
+   "h": 22.0,
+   "font_family": "Roboto",
+   "font_style": "Regular",
+   "font_size": 16.0,
+   "line_height": {
+    "value": 22.0,
+    "units": "PIXELS"
+   },
+   "letter_spacing": {
+    "value": 0.0,
+    "units": "PERCENT"
+   },
+   "align": null,
+   "color": "#121212",
+   "opacity": 1,
+   "ocr_confirmed": false
+  },
+  {
+   "text": "Button text",
+   "layer": "Button text",
+   "path": "For HP: Choose type of account/Button/Base button/Primary/Button text",
+   "x": 147.0,
+   "y": 727.0,
+   "w": 81.0,
+   "h": 22.0,
+   "font_family": "Roboto",
+   "font_style": "SemiBold",
+   "font_size": 16.0,
+   "line_height": {
+    "value": 22.0,
+    "units": "PIXELS"
+   },
+   "letter_spacing": {
+    "value": 0.0,
+    "units": "PERCENT"
+   },
+   "align": "CENTER",
+   "color": "#FFFFFF",
+   "opacity": 1,
+   "ocr_confirmed": false
   }
  ]
 }

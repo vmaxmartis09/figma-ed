@@ -2,7 +2,7 @@
  "screen": "Survey Q4",
  "texts": [
   {
-   "text": "Time",
+   "text": "9:41",
    "verified_by_ocr": false,
    "ocr_candidate": "Question 4",
    "style": "Default/Body/Bold",
@@ -13,7 +13,8 @@
    "letter_spacing": "-0.408px",
    "color": "#121212",
    "text_align": "center",
-   "text_source": "layer_name"
+   "text_source": "figma_clipboard",
+   "layer_name": "Time"
   },
   {
    "text": "Question 4",
@@ -76,10 +77,7 @@
    "layer_name": "Header subtitle"
   },
   {
-   "text": [
-    "What is one thing we could improve to better support you? (optional)",
-    "Scroll to continue"
-   ],
+   "text": "What is one thing we could improve to better support you? (optional)",
    "verified_by_ocr": false,
    "ocr_candidate": "better support you? (optional)",
    "style": "Body L/Semi",
@@ -94,7 +92,11 @@
    "layer_name": "Label"
   },
   {
-   "text": "Message",
+   "text": [
+    "0",
+    "/",
+    "2000"
+   ],
    "verified_by_ocr": false,
    "ocr_candidate": "Question 4",
    "style": "Body S/Regular",
@@ -105,10 +107,11 @@
    "letter_spacing": null,
    "color": "#828282",
    "text_align": null,
-   "text_source": "layer_name"
+   "text_source": "figma_clipboard",
+   "layer_name": "Message"
   },
   {
-   "text": "Text value",
+   "text": "text value",
    "verified_by_ocr": false,
    "ocr_candidate": "better support you? (optional)",
    "style": "Body L/Regular",
@@ -119,13 +122,11 @@
    "letter_spacing": null,
    "color": null,
    "text_align": null,
-   "text_source": "layer_name"
+   "text_source": "figma_clipboard",
+   "layer_name": "Text value"
   },
   {
-   "text": [
-    "What is one thing we could improve to better support you? (optional)",
-    "Scroll to continue"
-   ],
+   "text": "What is one thing we could improve to better support you? (optional)",
    "verified_by_ocr": false,
    "ocr_candidate": "better support you? (optional)",
    "style": "Body L/Regular",
@@ -140,10 +141,7 @@
    "layer_name": "Label"
   },
   {
-   "text": [
-    "What is one thing we could improve to better support you? (optional)",
-    "Scroll to continue"
-   ],
+   "text": "What is one thing we could improve to better support you? (optional)",
    "verified_by_ocr": false,
    "ocr_candidate": "better support you? (optional)",
    "style": "Body L/Regular",
@@ -169,7 +167,8 @@
    "letter_spacing": null,
    "color": "#FFFFFF",
    "text_align": "center",
-   "text_source": "layer_name"
+   "text_source": "figma_clipboard",
+   "layer_name": "Button text"
   },
   {
    "text": "Link text",
@@ -238,6 +237,30 @@
  ],
  "texts_real": [
   {
+   "text": "9:41",
+   "layer": "Time",
+   "path": "Survey Q4/Screen/Container/Status Bar (iPhone)/🧰/Time (iPhone)/Time",
+   "x": 27.0,
+   "y": 18.0,
+   "w": 54.0,
+   "h": 22.0,
+   "font_family": "SF Pro Text",
+   "font_style": "Semibold",
+   "font_size": 17.0,
+   "line_height": {
+    "value": 22.0,
+    "units": "PIXELS"
+   },
+   "letter_spacing": {
+    "value": -0.40799999237060547,
+    "units": "PIXELS"
+   },
+   "align": "CENTER",
+   "color": "#121212",
+   "opacity": 1,
+   "ocr_confirmed": true
+  },
+  {
    "text": "Question 4",
    "layer": "Step label",
    "path": "Survey Q4/Screen/Container/Progress bar/Progress bar info/Step label",
@@ -258,7 +281,8 @@
    },
    "align": null,
    "color": "#121212",
-   "opacity": 1
+   "opacity": 1,
+   "ocr_confirmed": true
   },
   {
    "text": "03/04",
@@ -281,7 +305,8 @@
    },
    "align": null,
    "color": "#555555",
-   "opacity": 1
+   "opacity": 1,
+   "ocr_confirmed": true
   },
   {
    "text": "Help us improve iSupport-D",
@@ -304,7 +329,8 @@
    },
    "align": "CENTER",
    "color": "#121212",
-   "opacity": 1
+   "opacity": 1,
+   "ocr_confirmed": true
   },
   {
    "text": "Your response will only take a few minutes.",
@@ -327,7 +353,8 @@
    },
    "align": "CENTER",
    "color": "#555555",
-   "opacity": 1
+   "opacity": 1,
+   "ocr_confirmed": true
   },
   {
    "text": "What is one thing we could improve to better support you? (optional)",
@@ -350,16 +377,89 @@
    },
    "align": null,
    "color": "#121212",
-   "opacity": 1
+   "opacity": 1,
+   "ocr_confirmed": true
   },
   {
-   "text": "Scroll to continue",
-   "layer": "Label",
-   "path": "Survey Q4/Screen/Form/Frame 1000004580/Label",
-   "x": 16.0,
-   "y": 703.0,
-   "w": 124.0,
-   "h": 22.0,
+   "text": "0",
+   "layer": "Message",
+   "path": "Survey Q4/Screen/Footer Container/Frame/Text area/Container/Header/Count/Message",
+   "x": 312.0,
+   "y": 267.0,
+   "w": 8.0,
+   "h": 18.0,
+   "font_family": "Inter",
+   "font_style": "Regular",
+   "font_size": 12.0,
+   "line_height": {
+    "value": 18.0,
+    "units": "PIXELS"
+   },
+   "letter_spacing": {
+    "value": 0.0,
+    "units": "PERCENT"
+   },
+   "align": null,
+   "color": "#828282",
+   "opacity": 1,
+   "ocr_confirmed": true
+  },
+  {
+   "text": "/",
+   "layer": "Message",
+   "path": "Survey Q4/Screen/Footer Container/Frame/Text area/Container/Header/Count/Message",
+   "x": 322.0,
+   "y": 267.0,
+   "w": 5.0,
+   "h": 18.0,
+   "font_family": "Inter",
+   "font_style": "Regular",
+   "font_size": 12.0,
+   "line_height": {
+    "value": 18.0,
+    "units": "PIXELS"
+   },
+   "letter_spacing": {
+    "value": 0.0,
+    "units": "PERCENT"
+   },
+   "align": null,
+   "color": "#828282",
+   "opacity": 1,
+   "ocr_confirmed": false
+  },
+  {
+   "text": "2000",
+   "layer": "Message",
+   "path": "Survey Q4/Screen/Footer Container/Frame/Text area/Container/Header/Count/Message",
+   "x": 329.0,
+   "y": 267.0,
+   "w": 30.0,
+   "h": 18.0,
+   "font_family": "Inter",
+   "font_style": "Regular",
+   "font_size": 12.0,
+   "line_height": {
+    "value": 18.0,
+    "units": "PIXELS"
+   },
+   "letter_spacing": {
+    "value": 0.0,
+    "units": "PERCENT"
+   },
+   "align": null,
+   "color": "#828282",
+   "opacity": 1,
+   "ocr_confirmed": true
+  },
+  {
+   "text": "text value",
+   "layer": "Text value",
+   "path": "Survey Q4/Screen/Footer Container/Frame/Text area/Container/Input/Text value",
+   "x": 28.0,
+   "y": 299.0,
+   "w": 319.0,
+   "h": 66.0,
    "font_family": "Roboto",
    "font_style": "Regular",
    "font_size": 16.0,
@@ -373,7 +473,56 @@
    },
    "align": null,
    "color": "#A8A8A8",
-   "opacity": 1
+   "opacity": 1,
+   "ocr_confirmed": false
+  },
+  {
+   "text": "This is help text",
+   "layer": "Message",
+   "path": "Survey Q4/Screen/Footer Container/Frame/Text area/Help text/Message",
+   "x": 16.0,
+   "y": 377.0,
+   "w": 343.0,
+   "h": 20.0,
+   "font_family": "Roboto",
+   "font_style": "Regular",
+   "font_size": 14.0,
+   "line_height": {
+    "value": 20.0,
+    "units": "PIXELS"
+   },
+   "letter_spacing": {
+    "value": 0.0,
+    "units": "PERCENT"
+   },
+   "align": null,
+   "color": "#6A6A6A",
+   "opacity": 1,
+   "ocr_confirmed": false
+  },
+  {
+   "text": "Button text",
+   "layer": "Button text",
+   "path": "Survey Q4/Screen/Form/Checkbox container/Account prompt container/Button/Base button/Primary/Button text",
+   "x": 161.5,
+   "y": 727.0,
+   "w": 52.0,
+   "h": 22.0,
+   "font_family": "Roboto",
+   "font_style": "SemiBold",
+   "font_size": 16.0,
+   "line_height": {
+    "value": 22.0,
+    "units": "PIXELS"
+   },
+   "letter_spacing": {
+    "value": 0.0,
+    "units": "PERCENT"
+   },
+   "align": "CENTER",
+   "color": "#FFFFFF",
+   "opacity": 1,
+   "ocr_confirmed": false
   }
  ]
 }

@@ -14,3 +14,5 @@ Profile, Course, Calendar, Videos, Workshop, Setting, Dementia Resources, Search
 - NEW: tree.json + texts_real (real text, exact geometry) are generated for 424/427 screens from Figma's clipboard data (tools/figkiwi.py, tools/clip_to_screens.py).
   Still without tree: About 24_Login_3, 35_Login_5, 36_How to use this page (frames not found at the expected place; 36 exists at root-relative (7598,582) but outside any exported section image).
 - Old text_source values (ocr_exact/ocr_sequence/layer_name) in texts.json are superseded by texts_real; 'figma_clipboard' marks entries filled from the real text.
+- texts_real (from Figma clipboard data, instances expanded with overrides): 13,519 text nodes across 24 stories; 7,529 (56%) are also confirmed by OCR on the screen image (ocr_confirmed=true).
+  The rest may be hidden/placeholder layers or text OCR could not read; treat ocr_confirmed=false as 'verify on Figma'. Known example: Setting/01 shows '3','2' where the design shows 'Every day','08:00 AM' (override not resolved).

@@ -2,7 +2,7 @@
  "screen": "Notification - Op1",
  "texts": [
   {
-   "text": "Time",
+   "text": "9:41",
    "verified_by_ocr": false,
    "ocr_candidate": "to review.",
    "style": "Default/Body/Bold",
@@ -13,7 +13,8 @@
    "letter_spacing": "-0.408px",
    "color": "#FFFFFF",
    "text_align": "center",
-   "text_source": "layer_name"
+   "text_source": "figma_clipboard",
+   "layer_name": "Time"
   },
   {
    "text": "Back",
@@ -26,10 +27,11 @@
    "letter_spacing": null,
    "color": "#FFFFFF",
    "text_align": null,
-   "text_source": "layer_name"
+   "text_source": "figma_clipboard",
+   "layer_name": "Back"
   },
   {
-   "text": "Title",
+   "text": "Notifications (4)",
    "verified_by_ocr": false,
    "ocr_candidate": "to review.",
    "style": "Heading 7/Bold",
@@ -40,7 +42,8 @@
    "letter_spacing": "-0.01em",
    "color": "#FFFFFF",
    "text_align": "center",
-   "text_source": "layer_name"
+   "text_source": "figma_clipboard",
+   "layer_name": "Title"
   },
   {
    "text": [
@@ -65,13 +68,9 @@
    "text": [
     "Retake care need assessment",
     "Continue your learning",
-    "Helpful information is available",
-    "Action needed",
-    "Time to learn",
     "New contact invitation",
     "Join a group",
     "Join an event",
-    "We'd love your feedback",
     "Doctor appointment"
    ],
    "verified_by_ocr": false,
@@ -115,7 +114,6 @@
     "9:00 am",
     "3:00 pm",
     "11:00 am",
-    "Sun, 10:30 am",
     "Sun, 8:00 am"
    ],
    "verified_by_ocr": false,
@@ -135,13 +133,9 @@
    "text": [
     "Retake care need assessment",
     "Continue your learning",
-    "Helpful information is available",
-    "Action needed",
-    "Time to learn",
     "New contact invitation",
     "Join a group",
     "Join an event",
-    "We'd love your feedback",
     "Doctor appointment"
    ],
    "verified_by_ocr": false,
@@ -252,7 +246,8 @@
    "letter_spacing": null,
    "color": "#1999A4",
    "text_align": "center",
-   "text_source": "layer_name"
+   "text_source": "figma_clipboard",
+   "layer_name": "Button text"
   },
   {
    "text": "Button text",
@@ -266,7 +261,8 @@
    "letter_spacing": null,
    "color": "#FFFFFF",
    "text_align": "center",
-   "text_source": "layer_name"
+   "text_source": "figma_clipboard",
+   "layer_name": "Button text"
   },
   {
    "text": "Dementia carers AU",
@@ -379,6 +375,102 @@
  ],
  "texts_real": [
   {
+   "text": "9:41",
+   "layer": "Time",
+   "path": "Notification - Op1/Frame 1000004930/Top Navigation/Status Bar (iPhone)/🧰/Time (iPhone)/Time",
+   "x": 27.0,
+   "y": 18.0,
+   "w": 54.0,
+   "h": 22.0,
+   "font_family": "SF Pro Text",
+   "font_style": "Semibold",
+   "font_size": 17.0,
+   "line_height": {
+    "value": 22.0,
+    "units": "PIXELS"
+   },
+   "letter_spacing": {
+    "value": -0.40799999237060547,
+    "units": "PIXELS"
+   },
+   "align": "CENTER",
+   "color": "#FFFFFF",
+   "opacity": 1,
+   "ocr_confirmed": true
+  },
+  {
+   "text": "Back",
+   "layer": "Back",
+   "path": "Notification - Op1/Frame 1000004930/Top Navigation/Bottom/Left Action/Back",
+   "x": 40.0,
+   "y": 79.0,
+   "w": 36.0,
+   "h": 22.0,
+   "font_family": "Roboto",
+   "font_style": "Regular",
+   "font_size": 16.0,
+   "line_height": {
+    "value": 22.0,
+    "units": "PIXELS"
+   },
+   "letter_spacing": {
+    "value": 0.0,
+    "units": "PERCENT"
+   },
+   "align": null,
+   "color": "#FFFFFF",
+   "opacity": 1,
+   "ocr_confirmed": true
+  },
+  {
+   "text": "Notifications (4)",
+   "layer": "Title",
+   "path": "Notification - Op1/Frame 1000004930/Top Navigation/Bottom/Title",
+   "x": 100.0,
+   "y": 77.0,
+   "w": 200.0,
+   "h": 26.0,
+   "font_family": "Roboto",
+   "font_style": "Bold",
+   "font_size": 20.0,
+   "line_height": {
+    "value": 26.0,
+    "units": "PIXELS"
+   },
+   "letter_spacing": {
+    "value": -1.0,
+    "units": "PERCENT"
+   },
+   "align": "CENTER",
+   "color": "#FFFFFF",
+   "opacity": 1,
+   "ocr_confirmed": true
+  },
+  {
+   "text": "Setting",
+   "layer": "Setting",
+   "path": "Notification - Op1/Frame 1000004930/Top Navigation/Bottom/Right Action/Setting",
+   "x": 308.0,
+   "y": 79.0,
+   "w": 51.0,
+   "h": 22.0,
+   "font_family": "Roboto",
+   "font_style": "Regular",
+   "font_size": 16.0,
+   "line_height": {
+    "value": 22.0,
+    "units": "PIXELS"
+   },
+   "letter_spacing": {
+    "value": 0.0,
+    "units": "PERCENT"
+   },
+   "align": null,
+   "color": "#FFFFFF",
+   "opacity": 1,
+   "ocr_confirmed": false
+  },
+  {
    "text": "Today",
    "layer": "Heading",
    "path": "Notification - Op1/Frame 1000004930/Container/Container/Heading",
@@ -399,7 +491,8 @@
    },
    "align": null,
    "color": "#121212",
-   "opacity": 1
+   "opacity": 1,
+   "ocr_confirmed": true
   },
   {
    "text": "Retake care need assessment",
@@ -422,7 +515,8 @@
    },
    "align": null,
    "color": "#121212",
-   "opacity": 1
+   "opacity": 1,
+   "ocr_confirmed": true
   },
   {
    "text": "Would you like to retake care need assessment? Please tap here.",
@@ -445,7 +539,8 @@
    },
    "align": null,
    "color": "#555555",
-   "opacity": 1
+   "opacity": 1,
+   "ocr_confirmed": true
   },
   {
    "text": "10:00 am",
@@ -468,7 +563,8 @@
    },
    "align": null,
    "color": "#555555",
-   "opacity": 1
+   "opacity": 1,
+   "ocr_confirmed": true
   },
   {
    "text": "Continue your learning",
@@ -491,7 +587,8 @@
    },
    "align": null,
    "color": "#555555",
-   "opacity": 1
+   "opacity": 1,
+   "ocr_confirmed": true
   },
   {
    "text": "Your unfinished learning is still waiting for you. Tap to keep going.",
@@ -514,7 +611,8 @@
    },
    "align": null,
    "color": "#555555",
-   "opacity": 1
+   "opacity": 1,
+   "ocr_confirmed": true
   },
   {
    "text": "9:00 am",
@@ -537,214 +635,8 @@
    },
    "align": null,
    "color": "#555555",
-   "opacity": 1
-  },
-  {
-   "text": "Helpful information is available",
-   "layer": "Notification Title",
-   "path": "Notification - Op1/Frame 1000004930/Container/Container/Container/Notification/Notification Content/Notification Text/Notification Header/Notification Title",
-   "x": 72.0,
-   "y": 329.0,
-   "w": 255.0,
-   "h": 22.0,
-   "font_family": "Roboto",
-   "font_style": "SemiBold",
-   "font_size": 16.0,
-   "line_height": {
-    "value": 22.0,
-    "units": "PIXELS"
-   },
-   "letter_spacing": {
-    "value": 0.0,
-    "units": "PERCENT"
-   },
-   "align": null,
-   "color": "#121212",
-   "opacity": 1
-  },
-  {
-   "text": "A new message has been prepared for you. Open it to learn more.",
-   "layer": "Notification Body",
-   "path": "Notification - Op1/Frame 1000004930/Container/Container/Container/Notification/Notification Content/Notification Text/Notification Header/Notification Body Container/Notification Body",
-   "x": 72.0,
-   "y": 355.0,
-   "w": 255.0,
-   "h": 40.0,
-   "font_family": "Roboto",
-   "font_style": "Regular",
-   "font_size": 14.0,
-   "line_height": {
-    "value": 20.0,
-    "units": "PIXELS"
-   },
-   "letter_spacing": {
-    "value": 0.0,
-    "units": "PERCENT"
-   },
-   "align": null,
-   "color": "#555555",
-   "opacity": 1
-  },
-  {
-   "text": "9:00 am",
-   "layer": "Notification Time",
-   "path": "Notification - Op1/Frame 1000004930/Container/Container/Container/Notification/Notification Content/Notification Text/Notification Time",
-   "x": 72.0,
-   "y": 403.0,
-   "w": 44.0,
-   "h": 18.0,
-   "font_family": "Roboto",
-   "font_style": "Regular",
-   "font_size": 12.0,
-   "line_height": {
-    "value": 18.0,
-    "units": "PIXELS"
-   },
-   "letter_spacing": {
-    "value": 0.0,
-    "units": "PERCENT"
-   },
-   "align": null,
-   "color": "#555555",
-   "opacity": 1
-  },
-  {
-   "text": "Action needed",
-   "layer": "Notification Title",
-   "path": "Notification - Op1/Frame 1000004930/Container/Container/Container/Notification/Notification Content/Notification Text/Notification Header/Notification Title",
-   "x": 72.0,
-   "y": 461.0,
-   "w": 255.0,
-   "h": 22.0,
-   "font_family": "Roboto",
-   "font_style": "Regular",
-   "font_size": 16.0,
-   "line_height": {
-    "value": 22.0,
-    "units": "PIXELS"
-   },
-   "letter_spacing": {
-    "value": 0.0,
-    "units": "PERCENT"
-   },
-   "align": null,
-   "color": "#555555",
-   "opacity": 1
-  },
-  {
-   "text": "Please review this message and select the option that best applies to you.",
-   "layer": "Notification Body",
-   "path": "Notification - Op1/Frame 1000004930/Container/Container/Container/Notification/Notification Content/Notification Text/Notification Header/Notification Body Container/Notification Body",
-   "x": 72.0,
-   "y": 487.0,
-   "w": 255.0,
-   "h": 40.0,
-   "font_family": "Roboto",
-   "font_style": "Regular",
-   "font_size": 14.0,
-   "line_height": {
-    "value": 20.0,
-    "units": "PIXELS"
-   },
-   "letter_spacing": {
-    "value": 0.0,
-    "units": "PERCENT"
-   },
-   "align": null,
-   "color": "#555555",
-   "opacity": 1
-  },
-  {
-   "text": "9:00 am",
-   "layer": "Notification Time",
-   "path": "Notification - Op1/Frame 1000004930/Container/Container/Container/Notification/Notification Content/Notification Text/Notification Time",
-   "x": 72.0,
-   "y": 535.0,
-   "w": 44.0,
-   "h": 18.0,
-   "font_family": "Roboto",
-   "font_style": "Regular",
-   "font_size": 12.0,
-   "line_height": {
-    "value": 18.0,
-    "units": "PIXELS"
-   },
-   "letter_spacing": {
-    "value": 0.0,
-    "units": "PERCENT"
-   },
-   "align": null,
-   "color": "#555555",
-   "opacity": 1
-  },
-  {
-   "text": "Time to learn",
-   "layer": "Notification Title",
-   "path": "Notification - Op1/Frame 1000004930/Container/Container/Container/Notification/Notification Content/Notification Text/Notification Header/Notification Title",
-   "x": 72.0,
-   "y": 329.0,
-   "w": 255.0,
-   "h": 22.0,
-   "font_family": "Roboto",
-   "font_style": "Regular",
-   "font_size": 16.0,
-   "line_height": {
-    "value": 22.0,
-    "units": "PIXELS"
-   },
-   "letter_spacing": {
-    "value": 0.0,
-    "units": "PERCENT"
-   },
-   "align": null,
-   "color": "#555555",
-   "opacity": 1
-  },
-  {
-   "text": "Take a few minutes today to explore your recommended learning content.",
-   "layer": "Notification Body",
-   "path": "Notification - Op1/Frame 1000004930/Container/Container/Container/Notification/Notification Content/Notification Text/Notification Header/Notification Body Container/Notification Body",
-   "x": 72.0,
-   "y": 355.0,
-   "w": 255.0,
-   "h": 40.0,
-   "font_family": "Roboto",
-   "font_style": "Regular",
-   "font_size": 14.0,
-   "line_height": {
-    "value": 20.0,
-    "units": "PIXELS"
-   },
-   "letter_spacing": {
-    "value": 0.0,
-    "units": "PERCENT"
-   },
-   "align": null,
-   "color": "#555555",
-   "opacity": 1
-  },
-  {
-   "text": "9:00 am",
-   "layer": "Notification Time",
-   "path": "Notification - Op1/Frame 1000004930/Container/Container/Container/Notification/Notification Content/Notification Text/Notification Time",
-   "x": 72.0,
-   "y": 403.0,
-   "w": 44.0,
-   "h": 18.0,
-   "font_family": "Roboto",
-   "font_style": "Regular",
-   "font_size": 12.0,
-   "line_height": {
-    "value": 18.0,
-    "units": "PIXELS"
-   },
-   "letter_spacing": {
-    "value": 0.0,
-    "units": "PERCENT"
-   },
-   "align": null,
-   "color": "#555555",
-   "opacity": 1
+   "opacity": 1,
+   "ocr_confirmed": true
   },
   {
    "text": "Yesterday",
@@ -767,7 +659,8 @@
    },
    "align": null,
    "color": "#121212",
-   "opacity": 1
+   "opacity": 1,
+   "ocr_confirmed": true
   },
   {
    "text": "New contact invitation",
@@ -790,7 +683,8 @@
    },
    "align": null,
    "color": "#121212",
-   "opacity": 1
+   "opacity": 1,
+   "ocr_confirmed": true
   },
   {
    "text": "Someone would like to connect with you. Open your notifications to review.",
@@ -813,7 +707,8 @@
    },
    "align": null,
    "color": "#555555",
-   "opacity": 1
+   "opacity": 1,
+   "ocr_confirmed": true
   },
   {
    "text": "Emily Carter",
@@ -836,7 +731,8 @@
    },
    "align": null,
    "color": "#121212",
-   "opacity": 1
+   "opacity": 1,
+   "ocr_confirmed": true
   },
   {
    "text": "emilycarter",
@@ -859,7 +755,8 @@
    },
    "align": null,
    "color": "#828282",
-   "opacity": 1
+   "opacity": 1,
+   "ocr_confirmed": true
   },
   {
    "text": "Sydney",
@@ -882,7 +779,8 @@
    },
    "align": null,
    "color": "#828282",
-   "opacity": 1
+   "opacity": 1,
+   "ocr_confirmed": true
   },
   {
    "text": "English",
@@ -905,7 +803,56 @@
    },
    "align": null,
    "color": "#828282",
-   "opacity": 1
+   "opacity": 1,
+   "ocr_confirmed": false
+  },
+  {
+   "text": "Button text",
+   "layer": "Button text",
+   "path": "Notification - Op1/Frame 1000004930/Container/Container/Container/Notification/Notification Content/Notification Text/Notification Header/Contact Information Container/Notification Button Container/Button/Base button/Primary/Button text",
+   "x": 114.75,
+   "y": 670.0,
+   "w": 54.0,
+   "h": 22.0,
+   "font_family": "Roboto",
+   "font_style": "SemiBold",
+   "font_size": 16.0,
+   "line_height": {
+    "value": 22.0,
+    "units": "PIXELS"
+   },
+   "letter_spacing": {
+    "value": 0.0,
+    "units": "PERCENT"
+   },
+   "align": "CENTER",
+   "color": "#1999A4",
+   "opacity": 1,
+   "ocr_confirmed": false
+  },
+  {
+   "text": "Button text",
+   "layer": "Button text",
+   "path": "Notification - Op1/Frame 1000004930/Container/Container/Container/Notification/Notification Content/Notification Text/Notification Header/Contact Information Container/Notification Button Container/Button/Base button/Primary/Button text",
+   "x": 231.75,
+   "y": 670.0,
+   "w": 51.0,
+   "h": 22.0,
+   "font_family": "Roboto",
+   "font_style": "SemiBold",
+   "font_size": 16.0,
+   "line_height": {
+    "value": 22.0,
+    "units": "PIXELS"
+   },
+   "letter_spacing": {
+    "value": 0.0,
+    "units": "PERCENT"
+   },
+   "align": "CENTER",
+   "color": "#FFFFFF",
+   "opacity": 1,
+   "ocr_confirmed": false
   },
   {
    "text": "3:00 pm",
@@ -928,7 +875,8 @@
    },
    "align": null,
    "color": "#555555",
-   "opacity": 1
+   "opacity": 1,
+   "ocr_confirmed": true
   },
   {
    "text": "Join a group",
@@ -951,7 +899,8 @@
    },
    "align": null,
    "color": "#121212",
-   "opacity": 1
+   "opacity": 1,
+   "ocr_confirmed": true
   },
   {
    "text": "You've been invited to connect with a support group. Open now to accept or decline.",
@@ -974,7 +923,8 @@
    },
    "align": null,
    "color": "#555555",
-   "opacity": 1
+   "opacity": 1,
+   "ocr_confirmed": true
   },
   {
    "text": "Dementia carers AU",
@@ -997,7 +947,8 @@
    },
    "align": "CENTER",
    "color": "#121212",
-   "opacity": 1
+   "opacity": 1,
+   "ocr_confirmed": true
   },
   {
    "text": "FC Group",
@@ -1020,7 +971,8 @@
    },
    "align": null,
    "color": "#828282",
-   "opacity": 1
+   "opacity": 1,
+   "ocr_confirmed": true
   },
   {
    "text": "20 members ",
@@ -1043,7 +995,8 @@
    },
    "align": null,
    "color": "#828282",
-   "opacity": 1
+   "opacity": 1,
+   "ocr_confirmed": true
   },
   {
    "text": "Sarah invited you to join this group",
@@ -1066,7 +1019,56 @@
    },
    "align": null,
    "color": "#121212",
-   "opacity": 1
+   "opacity": 1,
+   "ocr_confirmed": true
+  },
+  {
+   "text": "Button text",
+   "layer": "Button text",
+   "path": "Notification - Op1/Frame 1000004930/Container/Container/Container/Notification/Notification Content/Notification Text/Notification Header/Group Invitation Container/Notification Button Container/Button/Base button/Primary/Button text",
+   "x": 114.75,
+   "y": 1084.0,
+   "w": 54.0,
+   "h": 22.0,
+   "font_family": "Roboto",
+   "font_style": "SemiBold",
+   "font_size": 16.0,
+   "line_height": {
+    "value": 22.0,
+    "units": "PIXELS"
+   },
+   "letter_spacing": {
+    "value": 0.0,
+    "units": "PERCENT"
+   },
+   "align": "CENTER",
+   "color": "#1999A4",
+   "opacity": 1,
+   "ocr_confirmed": false
+  },
+  {
+   "text": "Button text",
+   "layer": "Button text",
+   "path": "Notification - Op1/Frame 1000004930/Container/Container/Container/Notification/Notification Content/Notification Text/Notification Header/Group Invitation Container/Notification Button Container/Button/Base button/Primary/Button text",
+   "x": 218.75,
+   "y": 1084.0,
+   "w": 77.0,
+   "h": 22.0,
+   "font_family": "Roboto",
+   "font_style": "SemiBold",
+   "font_size": 16.0,
+   "line_height": {
+    "value": 22.0,
+    "units": "PIXELS"
+   },
+   "letter_spacing": {
+    "value": 0.0,
+    "units": "PERCENT"
+   },
+   "align": "CENTER",
+   "color": "#FFFFFF",
+   "opacity": 1,
+   "ocr_confirmed": false
   },
   {
    "text": "11:00 am",
@@ -1089,7 +1091,8 @@
    },
    "align": null,
    "color": "#555555",
-   "opacity": 1
+   "opacity": 1,
+   "ocr_confirmed": true
   },
   {
    "text": "Join an event",
@@ -1112,7 +1115,8 @@
    },
    "align": null,
    "color": "#121212",
-   "opacity": 1
+   "opacity": 1,
+   "ocr_confirmed": true
   },
   {
    "text": "A new peer support event has been shared with you. Click here to view it in your calendar.",
@@ -1135,7 +1139,8 @@
    },
    "align": null,
    "color": "#555555",
-   "opacity": 1
+   "opacity": 1,
+   "ocr_confirmed": true
   },
   {
    "text": "10:00 am",
@@ -1158,7 +1163,8 @@
    },
    "align": null,
    "color": "#555555",
-   "opacity": 1
+   "opacity": 1,
+   "ocr_confirmed": true
   },
   {
    "text": "19/04/2026",
@@ -1181,76 +1187,8 @@
    },
    "align": null,
    "color": "#121212",
-   "opacity": 1
-  },
-  {
-   "text": "We'd love your feedback",
-   "layer": "Notification Title",
-   "path": "Notification - Op1/Frame 1000004930/Container/Container/Container/Notification/Notification Content/Notification Text/Notification Header/Notification Title",
-   "x": 72.0,
-   "y": 1379.0,
-   "w": 271.0,
-   "h": 22.0,
-   "font_family": "Roboto",
-   "font_style": "Regular",
-   "font_size": 16.0,
-   "line_height": {
-    "value": 22.0,
-    "units": "PIXELS"
-   },
-   "letter_spacing": {
-    "value": 0.0,
-    "units": "PERCENT"
-   },
-   "align": null,
-   "color": "#555555",
-   "opacity": 1
-  },
-  {
-   "text": "Please take a moment to complete our regular experience survey.",
-   "layer": "Notification Body",
-   "path": "Notification - Op1/Frame 1000004930/Container/Container/Container/Notification/Notification Content/Notification Text/Notification Header/Notification Body Container/Notification Body",
-   "x": 72.0,
-   "y": 1405.0,
-   "w": 271.0,
-   "h": 40.0,
-   "font_family": "Roboto",
-   "font_style": "Regular",
-   "font_size": 14.0,
-   "line_height": {
-    "value": 20.0,
-    "units": "PIXELS"
-   },
-   "letter_spacing": {
-    "value": 0.0,
-    "units": "PERCENT"
-   },
-   "align": null,
-   "color": "#555555",
-   "opacity": 1
-  },
-  {
-   "text": "Sun, 10:30 am",
-   "layer": "Notification Time",
-   "path": "Notification - Op1/Frame 1000004930/Container/Container/Container/Notification/Notification Content/Notification Text/Notification Time",
-   "x": 72.0,
-   "y": 1453.0,
-   "w": 76.0,
-   "h": 18.0,
-   "font_family": "Roboto",
-   "font_style": "Regular",
-   "font_size": 12.0,
-   "line_height": {
-    "value": 18.0,
-    "units": "PIXELS"
-   },
-   "letter_spacing": {
-    "value": 0.0,
-    "units": "PERCENT"
-   },
-   "align": null,
-   "color": "#555555",
-   "opacity": 1
+   "opacity": 1,
+   "ocr_confirmed": true
   },
   {
    "text": "Doctor appointment",
@@ -1273,7 +1211,8 @@
    },
    "align": null,
    "color": "#555555",
-   "opacity": 1
+   "opacity": 1,
+   "ocr_confirmed": true
   },
   {
    "text": "Reminder: your event is coming up soon.",
@@ -1296,7 +1235,8 @@
    },
    "align": null,
    "color": "#555555",
-   "opacity": 1
+   "opacity": 1,
+   "ocr_confirmed": true
   },
   {
    "text": "Sun, 8:00 am",
@@ -1319,7 +1259,8 @@
    },
    "align": null,
    "color": "#555555",
-   "opacity": 1
+   "opacity": 1,
+   "ocr_confirmed": true
   }
  ]
 }

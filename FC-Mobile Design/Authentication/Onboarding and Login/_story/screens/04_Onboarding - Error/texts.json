@@ -2,7 +2,7 @@
  "screen": "Onboarding - Error",
  "texts": [
   {
-   "text": "Time",
+   "text": "9:41",
    "verified_by_ocr": false,
    "ocr_candidate": "MimiE (Mandarin)",
    "style": "Default/Body/Bold",
@@ -12,7 +12,9 @@
    "line_height": "22px",
    "letter_spacing": "-0.408px",
    "color": "#FFFFFF",
-   "text_align": "center"
+   "text_align": "center",
+   "layer_name": "Time",
+   "text_source": "figma_clipboard"
   },
   {
    "text": "Choose your language",
@@ -113,10 +115,18 @@
    "line_height": "22px",
    "letter_spacing": null,
    "color": "#121212",
-   "text_align": null
+   "text_align": null,
+   "layer_name": "Label radio",
+   "text_source": "figma_clipboard"
   },
   {
-   "text": "No time",
+   "text": [
+    "粵語 (Cantonese)",
+    "普通话 (Mandarin)",
+    "English",
+    "Italiano (Italian)",
+    "Tiếng Việt (Vietnamese)"
+   ],
    "verified_by_ocr": false,
    "ocr_candidate": "Next",
    "style": "Body L/Regular",
@@ -126,7 +136,9 @@
    "line_height": "22px",
    "letter_spacing": null,
    "color": "#121212",
-   "text_align": null
+   "text_align": null,
+   "layer_name": "No time",
+   "text_source": "figma_clipboard"
   },
   {
    "text": "Button text",
@@ -139,7 +151,9 @@
    "line_height": "22px",
    "letter_spacing": null,
    "color": "#1999A4",
-   "text_align": "center"
+   "text_align": "center",
+   "layer_name": "Button text",
+   "text_source": "figma_clipboard"
   }
  ],
  "ocr_lines": [
@@ -155,6 +169,30 @@
   "Next"
  ],
  "texts_real": [
+  {
+   "text": "9:41",
+   "layer": "Time",
+   "path": "Onboarding - Error/Frame 1000004659/Component 1/Status Bar (iPhone)/🧰/Time (iPhone)/Time",
+   "x": 27.0,
+   "y": 18.0,
+   "w": 54.0,
+   "h": 22.0,
+   "font_family": "SF Pro Text",
+   "font_style": "Semibold",
+   "font_size": 17.0,
+   "line_height": {
+    "value": 22.0,
+    "units": "PIXELS"
+   },
+   "letter_spacing": {
+    "value": -0.40799999237060547,
+    "units": "PIXELS"
+   },
+   "align": "CENTER",
+   "color": "#FFFFFF",
+   "opacity": 1,
+   "ocr_confirmed": true
+  },
   {
    "text": "Choose your language",
    "layer": "Title",
@@ -176,7 +214,8 @@
    },
    "align": "CENTER",
    "color": "#FFFFFF",
-   "opacity": 1
+   "opacity": 1,
+   "ocr_confirmed": true
   },
   {
    "text": "Please select a language to continue.",
@@ -199,53 +238,8 @@
    },
    "align": null,
    "color": "#222222",
-   "opacity": 1
-  },
-  {
-   "text": "Call to Action Link",
-   "layer": "Text",
-   "path": "Onboarding - Error/Frame 1000004659/Frame 1000004657/Language Selection Container/Alert/CTA group/Text",
-   "x": 60.0,
-   "y": 317.0,
-   "w": 98.0,
-   "h": 18.0,
-   "font_family": "Roboto",
-   "font_style": "SemiBold",
-   "font_size": 12.0,
-   "line_height": {
-    "value": 18.0,
-    "units": "PIXELS"
-   },
-   "letter_spacing": {
-    "value": 0.0,
-    "units": "PERCENT"
-   },
-   "align": null,
-   "color": "#BF2B2B",
-   "opacity": 1
-  },
-  {
-   "text": "Call to Action Link",
-   "layer": "Text",
-   "path": "Onboarding - Error/Frame 1000004659/Frame 1000004657/Language Selection Container/Alert/CTA group/Text",
-   "x": 182.0,
-   "y": 317.0,
-   "w": 98.0,
-   "h": 18.0,
-   "font_family": "Roboto",
-   "font_style": "SemiBold",
-   "font_size": 12.0,
-   "line_height": {
-    "value": 18.0,
-    "units": "PIXELS"
-   },
-   "letter_spacing": {
-    "value": 0.0,
-    "units": "PERCENT"
-   },
-   "align": null,
-   "color": "#BF2B2B",
-   "opacity": 1
+   "opacity": 1,
+   "ocr_confirmed": true
   },
   {
    "text": "العربية ",
@@ -268,7 +262,8 @@
    },
    "align": null,
    "color": "#121212",
-   "opacity": 1
+   "opacity": 1,
+   "ocr_confirmed": false
   },
   {
    "text": "(Arabic)",
@@ -291,7 +286,296 @@
    },
    "align": null,
    "color": "#121212",
-   "opacity": 1
+   "opacity": 1,
+   "ocr_confirmed": false
+  },
+  {
+   "text": "Label radio",
+   "layer": "Label radio",
+   "path": "Onboarding - Error/Frame 1000004659/Frame 1000004657/Language Selection Container/Languages List/Radio buton bar/Radio Button/Label radio",
+   "x": 343.0,
+   "y": 262.0,
+   "w": 79.0,
+   "h": 22.0,
+   "font_family": "Roboto",
+   "font_style": "Regular",
+   "font_size": 16.0,
+   "line_height": {
+    "value": 22.0,
+    "units": "PIXELS"
+   },
+   "letter_spacing": {
+    "value": 0.0,
+    "units": "PERCENT"
+   },
+   "align": null,
+   "color": "#121212",
+   "opacity": 1,
+   "ocr_confirmed": false
+  },
+  {
+   "text": "粵語 (Cantonese)",
+   "layer": "No time",
+   "path": "Onboarding - Error/Frame 1000004659/Frame 1000004657/Language Selection Container/Languages List/Radio buton bar/No time",
+   "x": 40.0,
+   "y": 330.0,
+   "w": 255.0,
+   "h": 22.0,
+   "font_family": "Roboto",
+   "font_style": "Regular",
+   "font_size": 16.0,
+   "line_height": {
+    "value": 22.0,
+    "units": "PIXELS"
+   },
+   "letter_spacing": {
+    "value": 0.0,
+    "units": "PERCENT"
+   },
+   "align": null,
+   "color": "#121212",
+   "opacity": 1,
+   "ocr_confirmed": true
+  },
+  {
+   "text": "Label radio",
+   "layer": "Label radio",
+   "path": "Onboarding - Error/Frame 1000004659/Frame 1000004657/Language Selection Container/Languages List/Radio buton bar/Radio Button/Label radio",
+   "x": 343.0,
+   "y": 330.0,
+   "w": 79.0,
+   "h": 22.0,
+   "font_family": "Roboto",
+   "font_style": "Regular",
+   "font_size": 16.0,
+   "line_height": {
+    "value": 22.0,
+    "units": "PIXELS"
+   },
+   "letter_spacing": {
+    "value": 0.0,
+    "units": "PERCENT"
+   },
+   "align": null,
+   "color": "#121212",
+   "opacity": 1,
+   "ocr_confirmed": false
+  },
+  {
+   "text": "普通话 (Mandarin)",
+   "layer": "No time",
+   "path": "Onboarding - Error/Frame 1000004659/Frame 1000004657/Language Selection Container/Languages List/Radio buton bar/No time",
+   "x": 40.0,
+   "y": 398.0,
+   "w": 255.0,
+   "h": 22.0,
+   "font_family": "Roboto",
+   "font_style": "Regular",
+   "font_size": 16.0,
+   "line_height": {
+    "value": 22.0,
+    "units": "PIXELS"
+   },
+   "letter_spacing": {
+    "value": 0.0,
+    "units": "PERCENT"
+   },
+   "align": null,
+   "color": "#121212",
+   "opacity": 1,
+   "ocr_confirmed": false
+  },
+  {
+   "text": "Label radio",
+   "layer": "Label radio",
+   "path": "Onboarding - Error/Frame 1000004659/Frame 1000004657/Language Selection Container/Languages List/Radio buton bar/Radio Button/Label radio",
+   "x": 343.0,
+   "y": 398.0,
+   "w": 79.0,
+   "h": 22.0,
+   "font_family": "Roboto",
+   "font_style": "Regular",
+   "font_size": 16.0,
+   "line_height": {
+    "value": 22.0,
+    "units": "PIXELS"
+   },
+   "letter_spacing": {
+    "value": 0.0,
+    "units": "PERCENT"
+   },
+   "align": null,
+   "color": "#121212",
+   "opacity": 1,
+   "ocr_confirmed": false
+  },
+  {
+   "text": "English",
+   "layer": "No time",
+   "path": "Onboarding - Error/Frame 1000004659/Frame 1000004657/Language Selection Container/Languages List/Radio buton bar/No time",
+   "x": 40.0,
+   "y": 466.0,
+   "w": 255.0,
+   "h": 22.0,
+   "font_family": "Roboto",
+   "font_style": "Regular",
+   "font_size": 16.0,
+   "line_height": {
+    "value": 22.0,
+    "units": "PIXELS"
+   },
+   "letter_spacing": {
+    "value": 0.0,
+    "units": "PERCENT"
+   },
+   "align": null,
+   "color": "#121212",
+   "opacity": 1,
+   "ocr_confirmed": true
+  },
+  {
+   "text": "Label radio",
+   "layer": "Label radio",
+   "path": "Onboarding - Error/Frame 1000004659/Frame 1000004657/Language Selection Container/Languages List/Radio buton bar/Radio Button/Label radio",
+   "x": 343.0,
+   "y": 466.0,
+   "w": 79.0,
+   "h": 22.0,
+   "font_family": "Roboto",
+   "font_style": "Regular",
+   "font_size": 16.0,
+   "line_height": {
+    "value": 22.0,
+    "units": "PIXELS"
+   },
+   "letter_spacing": {
+    "value": 0.0,
+    "units": "PERCENT"
+   },
+   "align": null,
+   "color": "#121212",
+   "opacity": 1,
+   "ocr_confirmed": false
+  },
+  {
+   "text": "Italiano (Italian)",
+   "layer": "No time",
+   "path": "Onboarding - Error/Frame 1000004659/Frame 1000004657/Language Selection Container/Languages List/Radio buton bar/No time",
+   "x": 40.0,
+   "y": 534.0,
+   "w": 255.0,
+   "h": 22.0,
+   "font_family": "Roboto",
+   "font_style": "Regular",
+   "font_size": 16.0,
+   "line_height": {
+    "value": 22.0,
+    "units": "PIXELS"
+   },
+   "letter_spacing": {
+    "value": 0.0,
+    "units": "PERCENT"
+   },
+   "align": null,
+   "color": "#121212",
+   "opacity": 1,
+   "ocr_confirmed": true
+  },
+  {
+   "text": "Label radio",
+   "layer": "Label radio",
+   "path": "Onboarding - Error/Frame 1000004659/Frame 1000004657/Language Selection Container/Languages List/Radio buton bar/Radio Button/Label radio",
+   "x": 343.0,
+   "y": 534.0,
+   "w": 79.0,
+   "h": 22.0,
+   "font_family": "Roboto",
+   "font_style": "Regular",
+   "font_size": 16.0,
+   "line_height": {
+    "value": 22.0,
+    "units": "PIXELS"
+   },
+   "letter_spacing": {
+    "value": 0.0,
+    "units": "PERCENT"
+   },
+   "align": null,
+   "color": "#121212",
+   "opacity": 1,
+   "ocr_confirmed": false
+  },
+  {
+   "text": "Tiếng Việt (Vietnamese)",
+   "layer": "No time",
+   "path": "Onboarding - Error/Frame 1000004659/Frame 1000004657/Language Selection Container/Languages List/Radio buton bar/No time",
+   "x": 40.0,
+   "y": 602.0,
+   "w": 255.0,
+   "h": 22.0,
+   "font_family": "Roboto",
+   "font_style": "Regular",
+   "font_size": 16.0,
+   "line_height": {
+    "value": 22.0,
+    "units": "PIXELS"
+   },
+   "letter_spacing": {
+    "value": 0.0,
+    "units": "PERCENT"
+   },
+   "align": null,
+   "color": "#121212",
+   "opacity": 1,
+   "ocr_confirmed": true
+  },
+  {
+   "text": "Label radio",
+   "layer": "Label radio",
+   "path": "Onboarding - Error/Frame 1000004659/Frame 1000004657/Language Selection Container/Languages List/Radio buton bar/Radio Button/Label radio",
+   "x": 343.0,
+   "y": 602.0,
+   "w": 79.0,
+   "h": 22.0,
+   "font_family": "Roboto",
+   "font_style": "Regular",
+   "font_size": 16.0,
+   "line_height": {
+    "value": 22.0,
+    "units": "PIXELS"
+   },
+   "letter_spacing": {
+    "value": 0.0,
+    "units": "PERCENT"
+   },
+   "align": null,
+   "color": "#121212",
+   "opacity": 1,
+   "ocr_confirmed": false
+  },
+  {
+   "text": "Button text",
+   "layer": "Button text",
+   "path": "Onboarding - Error/Frame 1000004658/Progress bar/Button/Base button/Primary/Button text",
+   "x": 170.5,
+   "y": 723.0,
+   "w": 34.0,
+   "h": 22.0,
+   "font_family": "Roboto",
+   "font_style": "SemiBold",
+   "font_size": 16.0,
+   "line_height": {
+    "value": 22.0,
+    "units": "PIXELS"
+   },
+   "letter_spacing": {
+    "value": 0.0,
+    "units": "PERCENT"
+   },
+   "align": "CENTER",
+   "color": "#1999A4",
+   "opacity": 1,
+   "ocr_confirmed": false
   }
  ]
 }

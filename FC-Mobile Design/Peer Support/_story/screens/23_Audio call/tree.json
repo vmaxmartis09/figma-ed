@@ -41,6 +41,325 @@
      "type": "SOLID",
      "color": "#EEFBFC"
     }
+   ],
+   "children": [
+    {
+     "name": "🧰/Time (iPhone)",
+     "type": "INSTANCE",
+     "x": 27.0,
+     "y": 18.0,
+     "w": 54.0,
+     "h": 21.0,
+     "strokeWeight": 1.0,
+     "strokeAlign": "INSIDE",
+     "horizontalConstraint": "CENTER",
+     "verticalConstraint": "CENTER",
+     "frameMaskDisabled": true,
+     "children": [
+      {
+       "name": "Time",
+       "type": "TEXT",
+       "x": 0.0,
+       "y": 0.0,
+       "w": 54.0,
+       "h": 22.0,
+       "strokeAlign": "CENTER",
+       "verticalConstraint": "CENTER",
+       "fills": [
+        {
+         "type": "SOLID",
+         "color": "#121212"
+        }
+       ],
+       "text": {
+        "characters": "9:41",
+        "fontSize": 17.0,
+        "font": {
+         "family": "SF Pro Text",
+         "style": "Semibold",
+         "postscript": "SFProText-Semibold"
+        },
+        "lineHeight": {
+         "value": 22.0,
+         "units": "PIXELS"
+        },
+        "letterSpacing": {
+         "value": -0.40799999237060547,
+         "units": "PIXELS"
+        },
+        "alignH": "CENTER",
+        "alignV": "TOP",
+        "case": null,
+        "decoration": null,
+        "autoResize": "HEIGHT"
+       }
+      }
+     ]
+    },
+    {
+     "name": "🧰/Cellular,Wifi,Battery (iPhone)",
+     "type": "INSTANCE",
+     "x": 270.74,
+     "y": 22.0,
+     "w": 78.26138305664062,
+     "h": 13.0,
+     "strokeWeight": 1.0,
+     "strokeAlign": "INSIDE",
+     "frameMaskDisabled": true,
+     "children": [
+      {
+       "name": "Battery",
+       "type": "FRAME",
+       "x": 50.93,
+       "y": 0.0,
+       "w": 27.32803726196289,
+       "h": 13.0,
+       "strokeAlign": "CENTER",
+       "horizontalConstraint": "SCALE",
+       "verticalConstraint": "SCALE",
+       "children": [
+        {
+         "name": "Border",
+         "type": "ROUNDED_RECTANGLE",
+         "x": 0.0,
+         "y": 0.0,
+         "w": 25.0,
+         "h": 13.0,
+         "opacity": 0.3499999940395355,
+         "cornerRadius": 3.5,
+         "strokeWeight": 1.0,
+         "strokeAlign": "INSIDE",
+         "horizontalConstraint": "SCALE",
+         "verticalConstraint": "SCALE",
+         "strokes": [
+          {
+           "type": "SOLID",
+           "color": "#121212"
+          }
+         ]
+        },
+        {
+         "name": "Cap",
+         "type": "VECTOR",
+         "x": 26.0,
+         "y": 4.67,
+         "w": 1.328037977218628,
+         "h": 4.0,
+         "opacity": 0.4000000059604645,
+         "strokeAlign": "CENTER",
+         "horizontalConstraint": "SCALE",
+         "verticalConstraint": "SCALE",
+         "fills": [
+          {
+           "type": "SOLID",
+           "color": "#121212"
+          }
+         ]
+        },
+        {
+         "name": "Capacity",
+         "type": "ROUNDED_RECTANGLE",
+         "x": 2.0,
+         "y": 2.0,
+         "w": 21.0,
+         "h": 9.0,
+         "cornerRadius": 1.3333333730697632,
+         "strokeAlign": "CENTER",
+         "horizontalConstraint": "SCALE",
+         "verticalConstraint": "SCALE",
+         "fills": [
+          {
+           "type": "SOLID",
+           "color": "#121212"
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "name": "Wifi",
+       "type": "BOOLEAN_OPERATION",
+       "x": 26.6,
+       "y": 0.67,
+       "w": 17.00001335144043,
+       "h": 12.0,
+       "strokeAlign": "CENTER",
+       "horizontalConstraint": "SCALE",
+       "verticalConstraint": "SCALE",
+       "fills": [
+        {
+         "type": "SOLID",
+         "color": "#121212"
+        }
+       ],
+       "children": [
+        {
+         "name": "Wifi-path",
+         "type": "VECTOR",
+         "x": 0.0,
+         "y": 0.0,
+         "w": 17.0,
+         "h": 5.0,
+         "strokeAlign": "CENTER",
+         "horizontalConstraint": "SCALE",
+         "verticalConstraint": "SCALE",
+         "fills": [
+          {
+           "type": "SOLID",
+           "color": "#000000"
+          }
+         ]
+        },
+        {
+         "name": "Wifi-path",
+         "type": "VECTOR",
+         "x": 3.0,
+         "y": 4.0,
+         "w": 11.0,
+         "h": 4.0,
+         "strokeAlign": "CENTER",
+         "horizontalConstraint": "SCALE",
+         "verticalConstraint": "SCALE",
+         "fills": [
+          {
+           "type": "SOLID",
+           "color": "#000000"
+          }
+         ]
+        },
+        {
+         "name": "Wifi-path",
+         "type": "VECTOR",
+         "x": 6.0,
+         "y": 8.0,
+         "w": 5.0,
+         "h": 4.0,
+         "strokeAlign": "CENTER",
+         "horizontalConstraint": "SCALE",
+         "verticalConstraint": "SCALE",
+         "fills": [
+          {
+           "type": "SOLID",
+           "color": "#000000"
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "name": "Cellular Connection",
+       "type": "BOOLEAN_OPERATION",
+       "x": 0.0,
+       "y": 0.67,
+       "w": 19.200000762939453,
+       "h": 12.0,
+       "strokeAlign": "CENTER",
+       "horizontalConstraint": "SCALE",
+       "verticalConstraint": "SCALE",
+       "fills": [
+        {
+         "type": "SOLID",
+         "color": "#121212"
+        }
+       ],
+       "children": [
+        {
+         "name": "Cellular-Connection-path",
+         "type": "VECTOR",
+         "x": 0.0,
+         "y": 7.4,
+         "w": 3.200000047683716,
+         "h": 4.599999904632568,
+         "strokeAlign": "CENTER",
+         "horizontalConstraint": "SCALE",
+         "verticalConstraint": "SCALE",
+         "fills": [
+          {
+           "type": "SOLID",
+           "color": "#000000"
+          }
+         ]
+        },
+        {
+         "name": "Cellular-Connection-path",
+         "type": "VECTOR",
+         "x": 5.3,
+         "y": 5.0,
+         "w": 3.200000047683716,
+         "h": 7.0,
+         "strokeAlign": "CENTER",
+         "horizontalConstraint": "SCALE",
+         "verticalConstraint": "SCALE",
+         "fills": [
+          {
+           "type": "SOLID",
+           "color": "#000000"
+          }
+         ]
+        },
+        {
+         "name": "Cellular-Connection-path",
+         "type": "VECTOR",
+         "x": 10.7,
+         "y": 2.4,
+         "w": 3.200000047683716,
+         "h": 9.600000381469727,
+         "strokeAlign": "CENTER",
+         "horizontalConstraint": "SCALE",
+         "verticalConstraint": "SCALE",
+         "fills": [
+          {
+           "type": "SOLID",
+           "color": "#000000"
+          }
+         ]
+        },
+        {
+         "name": "Cellular-Connection-path",
+         "type": "VECTOR",
+         "x": 16.0,
+         "y": 0.0,
+         "w": 3.200000047683716,
+         "h": 12.0,
+         "strokeAlign": "CENTER",
+         "horizontalConstraint": "SCALE",
+         "verticalConstraint": "SCALE",
+         "fills": [
+          {
+           "type": "SOLID",
+           "color": "#000000"
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "name": "Floating island",
+     "type": "ROUNDED_RECTANGLE",
+     "x": 125.0,
+     "y": 11.0,
+     "w": 127.0,
+     "h": 37.0,
+     "visible": false,
+     "cornerRadius": 18.5,
+     "rectangleTopLeftCornerRadius": 18.5,
+     "rectangleTopRightCornerRadius": 18.5,
+     "rectangleBottomLeftCornerRadius": 18.5,
+     "rectangleBottomRightCornerRadius": 18.5,
+     "strokeWeight": 1.0,
+     "strokeAlign": "INSIDE",
+     "stackPositioning": "ABSOLUTE",
+     "horizontalConstraint": "CENTER",
+     "verticalConstraint": "CENTER",
+     "fills": [
+      {
+       "type": "SOLID",
+       "color": "#000000"
+      }
+     ]
+    }
    ]
   },
   {
@@ -402,7 +721,124 @@
          "stackSpacing": 4.0,
          "stackCounterAlignItems": "CENTER",
          "stackCounterSizing": "RESIZE_TO_FIT_WITH_IMPLICIT_SIZE",
-         "frameMaskDisabled": true
+         "frameMaskDisabled": true,
+         "children": [
+          {
+           "name": "Frame 40198",
+           "type": "FRAME",
+           "x": 0.0,
+           "y": 0.0,
+           "w": 48.0,
+           "h": 48.0,
+           "cornerRadius": 100.0,
+           "rectangleTopLeftCornerRadius": 100.0,
+           "rectangleTopRightCornerRadius": 100.0,
+           "rectangleBottomLeftCornerRadius": 100.0,
+           "rectangleBottomRightCornerRadius": 100.0,
+           "strokeWeight": 1.0,
+           "strokeAlign": "INSIDE",
+           "stackMode": "HORIZONTAL",
+           "stackPaddingRight": 12.0,
+           "stackPaddingBottom": 12.0,
+           "stackPrimaryAlignItems": "CENTER",
+           "stackCounterAlignItems": "CENTER",
+           "stackPrimarySizing": "FIXED",
+           "frameMaskDisabled": true,
+           "fills": [
+            {
+             "type": "SOLID",
+             "color": "#F1F1F1"
+            }
+           ],
+           "children": [
+            {
+             "name": "ic-speaker-off",
+             "type": "INSTANCE",
+             "x": 12.0,
+             "y": 12.0,
+             "w": 24.0,
+             "h": 24.0,
+             "strokeWeight": 1.0,
+             "strokeAlign": "INSIDE",
+             "frameMaskDisabled": true,
+             "children": [
+              {
+               "name": "Vector",
+               "type": "VECTOR",
+               "x": 2.0,
+               "y": 4.0,
+               "w": 20.0,
+               "h": 15.999991416931152,
+               "strokeAlign": "CENTER",
+               "horizontalConstraint": "SCALE",
+               "verticalConstraint": "SCALE",
+               "fills": [
+                {
+                 "type": "SOLID",
+                 "color": "#6A6A6A"
+                }
+               ]
+              }
+             ]
+            }
+           ]
+          },
+          {
+           "name": "Label",
+           "type": "FRAME",
+           "x": 8.5,
+           "y": 52.0,
+           "w": 31.0,
+           "h": 18.0,
+           "strokeWeight": 1.0,
+           "strokeAlign": "INSIDE",
+           "stackMode": "HORIZONTAL",
+           "stackSpacing": 8.0,
+           "stackPrimaryAlignItems": "CENTER",
+           "stackCounterAlignItems": "CENTER",
+           "stackCounterSizing": "RESIZE_TO_FIT_WITH_IMPLICIT_SIZE",
+           "frameMaskDisabled": true,
+           "children": [
+            {
+             "name": "11",
+             "type": "TEXT",
+             "x": 0.0,
+             "y": 0.0,
+             "w": 31.0,
+             "h": 18.0,
+             "strokeAlign": "CENTER",
+             "fills": [
+              {
+               "type": "SOLID",
+               "color": "#6A6A6A"
+              }
+             ],
+             "text": {
+              "characters": "Label",
+              "fontSize": 12.0,
+              "font": {
+               "family": "Noto Sans KR",
+               "style": "Regular",
+               "postscript": ""
+              },
+              "lineHeight": {
+               "value": 18.0,
+               "units": "PIXELS"
+              },
+              "letterSpacing": {
+               "value": 0.0,
+               "units": "PERCENT"
+              },
+              "alignH": "CENTER",
+              "alignV": "BOTTOM",
+              "case": null,
+              "decoration": null,
+              "autoResize": "WIDTH_AND_HEIGHT"
+             }
+            }
+           ]
+          }
+         ]
         },
         {
          "name": "Icon Buttons / Actionable",
@@ -461,7 +897,27 @@
              "w": 24.0,
              "h": 24.0,
              "strokeWeight": 1.0,
-             "strokeAlign": "INSIDE"
+             "strokeAlign": "INSIDE",
+             "children": [
+              {
+               "name": "Vector",
+               "type": "VECTOR",
+               "x": 4.25,
+               "y": 0.25,
+               "w": 15.5,
+               "h": 23.5,
+               "strokeWeight": 1.5,
+               "strokeAlign": "CENTER",
+               "horizontalConstraint": "SCALE",
+               "verticalConstraint": "SCALE",
+               "fills": [
+                {
+                 "type": "SOLID",
+                 "color": "#121212"
+                }
+               ]
+              }
+             ]
             }
            ]
           },
@@ -579,7 +1035,27 @@
              "w": 24.0,
              "h": 24.0,
              "strokeWeight": 1.0,
-             "strokeAlign": "INSIDE"
+             "strokeAlign": "INSIDE",
+             "children": [
+              {
+               "name": "Vector",
+               "type": "VECTOR",
+               "x": 0.25,
+               "y": 0.25,
+               "w": 23.5,
+               "h": 23.5,
+               "strokeWeight": 1.5,
+               "strokeAlign": "CENTER",
+               "horizontalConstraint": "SCALE",
+               "verticalConstraint": "SCALE",
+               "fills": [
+                {
+                 "type": "SOLID",
+                 "color": "#121212"
+                }
+               ]
+              }
+             ]
             }
            ]
           },
@@ -1079,7 +1555,27 @@
        "h": 34.0,
        "strokeWeight": 1.0,
        "strokeAlign": "INSIDE",
-       "frameMaskDisabled": true
+       "frameMaskDisabled": true,
+       "children": [
+        {
+         "name": "Home Indicator",
+         "type": "ROUNDED_RECTANGLE",
+         "x": 121.0,
+         "y": 21.0,
+         "w": 134.0,
+         "h": 5.0,
+         "cornerRadius": 100.0,
+         "strokeAlign": "CENTER",
+         "horizontalConstraint": "CENTER",
+         "verticalConstraint": "MAX",
+         "fills": [
+          {
+           "type": "SOLID",
+           "color": "#000000"
+          }
+         ]
+        }
+       ]
       }
      ]
     }

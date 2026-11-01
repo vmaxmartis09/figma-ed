@@ -27,7 +27,594 @@
    "strokeWeight": 1.0,
    "strokeAlign": "INSIDE",
    "stackMode": "VERTICAL",
-   "frameMaskDisabled": true
+   "frameMaskDisabled": true,
+   "children": [
+    {
+     "name": "Status Bar (iPhone)",
+     "type": "INSTANCE",
+     "x": 0.0,
+     "y": 0.0,
+     "w": 375.0,
+     "h": 53.0,
+     "strokeWeight": 1.0,
+     "strokeAlign": "INSIDE",
+     "stackMode": "HORIZONTAL",
+     "stackSpacing": 205.0,
+     "stackPaddingRight": 26.0,
+     "stackPaddingBottom": 14.0,
+     "stackPrimaryAlignItems": "SPACE_EVENLY",
+     "stackCounterAlignItems": "CENTER",
+     "stackPrimarySizing": "FIXED",
+     "stackCounterSizing": "RESIZE_TO_FIT_WITH_IMPLICIT_SIZE",
+     "frameMaskDisabled": true,
+     "fills": [
+      {
+       "type": "SOLID",
+       "color": "#1999A4"
+      }
+     ],
+     "children": [
+      {
+       "name": "🧰/Time (iPhone)",
+       "type": "INSTANCE",
+       "x": 27.0,
+       "y": 18.0,
+       "w": 54.0,
+       "h": 21.0,
+       "strokeWeight": 1.0,
+       "strokeAlign": "INSIDE",
+       "horizontalConstraint": "CENTER",
+       "verticalConstraint": "CENTER",
+       "frameMaskDisabled": true,
+       "children": [
+        {
+         "name": "Time",
+         "type": "TEXT",
+         "x": 0.0,
+         "y": 0.0,
+         "w": 54.0,
+         "h": 22.0,
+         "strokeAlign": "CENTER",
+         "verticalConstraint": "CENTER",
+         "fills": [
+          {
+           "type": "SOLID",
+           "color": "#FFFFFF"
+          }
+         ],
+         "text": {
+          "characters": "9:41",
+          "fontSize": 17.0,
+          "font": {
+           "family": "SF Pro Text",
+           "style": "Semibold",
+           "postscript": "SFProText-Semibold"
+          },
+          "lineHeight": {
+           "value": 22.0,
+           "units": "PIXELS"
+          },
+          "letterSpacing": {
+           "value": -0.40799999237060547,
+           "units": "PIXELS"
+          },
+          "alignH": "CENTER",
+          "alignV": "TOP",
+          "case": null,
+          "decoration": null,
+          "autoResize": "HEIGHT"
+         }
+        }
+       ]
+      },
+      {
+       "name": "🧰/Cellular,Wifi,Battery (iPhone)",
+       "type": "INSTANCE",
+       "x": 285.74,
+       "y": 22.0,
+       "w": 78.26138305664062,
+       "h": 13.0,
+       "strokeWeight": 1.0,
+       "strokeAlign": "INSIDE",
+       "frameMaskDisabled": true,
+       "children": [
+        {
+         "name": "Battery",
+         "type": "FRAME",
+         "x": 50.93,
+         "y": 0.0,
+         "w": 27.32803726196289,
+         "h": 13.0,
+         "strokeAlign": "CENTER",
+         "horizontalConstraint": "SCALE",
+         "verticalConstraint": "SCALE",
+         "children": [
+          {
+           "name": "Border",
+           "type": "ROUNDED_RECTANGLE",
+           "x": 0.0,
+           "y": 0.0,
+           "w": 25.0,
+           "h": 13.0,
+           "opacity": 0.3499999940395355,
+           "cornerRadius": 3.5,
+           "strokeWeight": 1.0,
+           "strokeAlign": "INSIDE",
+           "horizontalConstraint": "SCALE",
+           "verticalConstraint": "SCALE",
+           "strokes": [
+            {
+             "type": "SOLID",
+             "color": "#FFFFFF"
+            }
+           ]
+          },
+          {
+           "name": "Cap",
+           "type": "VECTOR",
+           "x": 26.0,
+           "y": 4.67,
+           "w": 1.328037977218628,
+           "h": 4.0,
+           "opacity": 0.4000000059604645,
+           "strokeAlign": "CENTER",
+           "horizontalConstraint": "SCALE",
+           "verticalConstraint": "SCALE",
+           "fills": [
+            {
+             "type": "SOLID",
+             "color": "#FFFFFF"
+            }
+           ]
+          },
+          {
+           "name": "Capacity",
+           "type": "ROUNDED_RECTANGLE",
+           "x": 2.0,
+           "y": 2.0,
+           "w": 21.0,
+           "h": 9.0,
+           "cornerRadius": 1.3333333730697632,
+           "strokeAlign": "CENTER",
+           "horizontalConstraint": "SCALE",
+           "verticalConstraint": "SCALE",
+           "fills": [
+            {
+             "type": "SOLID",
+             "color": "#FFFFFF"
+            }
+           ]
+          }
+         ]
+        },
+        {
+         "name": "Wifi",
+         "type": "BOOLEAN_OPERATION",
+         "x": 26.6,
+         "y": 0.67,
+         "w": 17.00001335144043,
+         "h": 12.0,
+         "strokeAlign": "CENTER",
+         "horizontalConstraint": "SCALE",
+         "verticalConstraint": "SCALE",
+         "fills": [
+          {
+           "type": "SOLID",
+           "color": "#FFFFFF"
+          }
+         ],
+         "children": [
+          {
+           "name": "Wifi-path",
+           "type": "VECTOR",
+           "x": 0.0,
+           "y": 0.0,
+           "w": 17.0,
+           "h": 5.0,
+           "strokeAlign": "CENTER",
+           "horizontalConstraint": "SCALE",
+           "verticalConstraint": "SCALE",
+           "fills": [
+            {
+             "type": "SOLID",
+             "color": "#000000"
+            }
+           ]
+          },
+          {
+           "name": "Wifi-path",
+           "type": "VECTOR",
+           "x": 3.0,
+           "y": 4.0,
+           "w": 11.0,
+           "h": 4.0,
+           "strokeAlign": "CENTER",
+           "horizontalConstraint": "SCALE",
+           "verticalConstraint": "SCALE",
+           "fills": [
+            {
+             "type": "SOLID",
+             "color": "#000000"
+            }
+           ]
+          },
+          {
+           "name": "Wifi-path",
+           "type": "VECTOR",
+           "x": 6.0,
+           "y": 8.0,
+           "w": 5.0,
+           "h": 4.0,
+           "strokeAlign": "CENTER",
+           "horizontalConstraint": "SCALE",
+           "verticalConstraint": "SCALE",
+           "fills": [
+            {
+             "type": "SOLID",
+             "color": "#000000"
+            }
+           ]
+          }
+         ]
+        },
+        {
+         "name": "Cellular Connection",
+         "type": "BOOLEAN_OPERATION",
+         "x": 0.0,
+         "y": 0.67,
+         "w": 19.200000762939453,
+         "h": 12.0,
+         "strokeAlign": "CENTER",
+         "horizontalConstraint": "SCALE",
+         "verticalConstraint": "SCALE",
+         "fills": [
+          {
+           "type": "SOLID",
+           "color": "#FFFFFF"
+          }
+         ],
+         "children": [
+          {
+           "name": "Cellular-Connection-path",
+           "type": "VECTOR",
+           "x": 0.0,
+           "y": 7.4,
+           "w": 3.200000047683716,
+           "h": 4.599999904632568,
+           "strokeAlign": "CENTER",
+           "horizontalConstraint": "SCALE",
+           "verticalConstraint": "SCALE",
+           "fills": [
+            {
+             "type": "SOLID",
+             "color": "#000000"
+            }
+           ]
+          },
+          {
+           "name": "Cellular-Connection-path",
+           "type": "VECTOR",
+           "x": 5.3,
+           "y": 5.0,
+           "w": 3.200000047683716,
+           "h": 7.0,
+           "strokeAlign": "CENTER",
+           "horizontalConstraint": "SCALE",
+           "verticalConstraint": "SCALE",
+           "fills": [
+            {
+             "type": "SOLID",
+             "color": "#000000"
+            }
+           ]
+          },
+          {
+           "name": "Cellular-Connection-path",
+           "type": "VECTOR",
+           "x": 10.7,
+           "y": 2.4,
+           "w": 3.200000047683716,
+           "h": 9.600000381469727,
+           "strokeAlign": "CENTER",
+           "horizontalConstraint": "SCALE",
+           "verticalConstraint": "SCALE",
+           "fills": [
+            {
+             "type": "SOLID",
+             "color": "#000000"
+            }
+           ]
+          },
+          {
+           "name": "Cellular-Connection-path",
+           "type": "VECTOR",
+           "x": 16.0,
+           "y": 0.0,
+           "w": 3.200000047683716,
+           "h": 12.0,
+           "strokeAlign": "CENTER",
+           "horizontalConstraint": "SCALE",
+           "verticalConstraint": "SCALE",
+           "fills": [
+            {
+             "type": "SOLID",
+             "color": "#000000"
+            }
+           ]
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "name": "Floating island",
+       "type": "ROUNDED_RECTANGLE",
+       "x": 125.0,
+       "y": 11.0,
+       "w": 127.0,
+       "h": 37.0,
+       "visible": false,
+       "cornerRadius": 18.5,
+       "rectangleTopLeftCornerRadius": 18.5,
+       "rectangleTopRightCornerRadius": 18.5,
+       "rectangleBottomLeftCornerRadius": 18.5,
+       "rectangleBottomRightCornerRadius": 18.5,
+       "strokeWeight": 1.0,
+       "strokeAlign": "INSIDE",
+       "stackPositioning": "ABSOLUTE",
+       "horizontalConstraint": "CENTER",
+       "verticalConstraint": "CENTER",
+       "fills": [
+        {
+         "type": "SOLID",
+         "color": "#000000"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "name": "Bottom",
+     "type": "FRAME",
+     "x": 0.0,
+     "y": 53.0,
+     "w": 375.0,
+     "h": 70.0,
+     "strokeWeight": 1.0,
+     "strokeAlign": "INSIDE",
+     "stackMode": "HORIZONTAL",
+     "stackSpacing": 8.0,
+     "stackPaddingRight": 16.0,
+     "stackPaddingBottom": 24.0,
+     "stackPrimaryAlignItems": "SPACE_EVENLY",
+     "stackCounterAlignItems": "CENTER",
+     "stackPrimarySizing": "FIXED",
+     "stackCounterSizing": "RESIZE_TO_FIT_WITH_IMPLICIT_SIZE",
+     "frameMaskDisabled": true,
+     "fills": [
+      {
+       "type": "SOLID",
+       "color": "#1999A4"
+      }
+     ],
+     "children": [
+      {
+       "name": "Left Action",
+       "type": "FRAME",
+       "x": 16.0,
+       "y": 24.0,
+       "w": 76.0,
+       "h": 22.0,
+       "strokeWeight": 1.0,
+       "strokeAlign": "INSIDE",
+       "stackMode": "HORIZONTAL",
+       "stackSpacing": 4.0,
+       "stackCounterAlignItems": "CENTER",
+       "stackPrimarySizing": "FIXED",
+       "stackCounterSizing": "RESIZE_TO_FIT_WITH_IMPLICIT_SIZE",
+       "frameMaskDisabled": true,
+       "children": [
+        {
+         "name": "chevron-left",
+         "type": "INSTANCE",
+         "x": 0.0,
+         "y": 1.0,
+         "w": 20.0,
+         "h": 20.0,
+         "strokeWeight": 1.0,
+         "strokeAlign": "INSIDE",
+         "children": [
+          {
+           "name": "Vector",
+           "type": "VECTOR",
+           "x": 5.83,
+           "y": 2.5,
+           "w": 8.333333015441895,
+           "h": 15.0,
+           "strokeWeight": 1.5,
+           "strokeAlign": "CENTER",
+           "horizontalConstraint": "SCALE",
+           "verticalConstraint": "SCALE",
+           "fills": [
+            {
+             "type": "SOLID",
+             "color": "#FFFFFF"
+            }
+           ]
+          }
+         ]
+        },
+        {
+         "name": "Back",
+         "type": "TEXT",
+         "x": 24.0,
+         "y": 0.0,
+         "w": 36.0,
+         "h": 22.0,
+         "strokeWeight": 0.4000000059604645,
+         "strokeAlign": "CENTER",
+         "fills": [
+          {
+           "type": "SOLID",
+           "color": "#FFFFFF"
+          }
+         ],
+         "text": {
+          "characters": "Back",
+          "fontSize": 16.0,
+          "font": {
+           "family": "Roboto",
+           "style": "Regular",
+           "postscript": "Roboto-Regular"
+          },
+          "lineHeight": {
+           "value": 22.0,
+           "units": "PIXELS"
+          },
+          "letterSpacing": {
+           "value": 0.0,
+           "units": "PERCENT"
+          },
+          "alignH": null,
+          "alignV": "TOP",
+          "case": null,
+          "decoration": null,
+          "autoResize": "WIDTH_AND_HEIGHT"
+         }
+        }
+       ]
+      },
+      {
+       "name": "Title",
+       "type": "TEXT",
+       "x": 100.0,
+       "y": 24.0,
+       "w": 175.0,
+       "h": 26.0,
+       "visible": false,
+       "strokeWeight": 0.4000000059604645,
+       "strokeAlign": "CENTER",
+       "stackChildPrimaryGrow": 1.0,
+       "fills": [
+        {
+         "type": "SOLID",
+         "color": "#FFFFFF"
+        }
+       ],
+       "text": {
+        "characters": "Peter Stone",
+        "fontSize": 20.0,
+        "font": {
+         "family": "Roboto",
+         "style": "Bold",
+         "postscript": "Roboto-Bold"
+        },
+        "lineHeight": {
+         "value": 26.0,
+         "units": "PIXELS"
+        },
+        "letterSpacing": {
+         "value": -1.0,
+         "units": "PERCENT"
+        },
+        "alignH": "CENTER",
+        "alignV": "TOP",
+        "case": null,
+        "decoration": null,
+        "autoResize": "HEIGHT"
+       }
+      },
+      {
+       "name": "Right Action",
+       "type": "FRAME",
+       "x": 283.0,
+       "y": 25.0,
+       "w": 76.0,
+       "h": 20.0,
+       "strokeWeight": 1.0,
+       "strokeAlign": "INSIDE",
+       "stackMode": "HORIZONTAL",
+       "stackSpacing": 4.0,
+       "stackPrimaryAlignItems": "MAX",
+       "stackCounterAlignItems": "CENTER",
+       "stackPrimarySizing": "FIXED",
+       "stackCounterSizing": "RESIZE_TO_FIT_WITH_IMPLICIT_SIZE",
+       "frameMaskDisabled": true,
+       "children": [
+        {
+         "name": "settings",
+         "type": "INSTANCE",
+         "x": 56.0,
+         "y": 0.0,
+         "w": 20.0,
+         "h": 20.0,
+         "strokeWeight": 1.0,
+         "strokeAlign": "INSIDE",
+         "children": [
+          {
+           "name": "Vector",
+           "type": "VECTOR",
+           "x": 0.21,
+           "y": 0.21,
+           "w": 19.58333396911621,
+           "h": 19.58333396911621,
+           "strokeWeight": 1.5,
+           "strokeAlign": "CENTER",
+           "horizontalConstraint": "SCALE",
+           "verticalConstraint": "SCALE",
+           "fills": [
+            {
+             "type": "SOLID",
+             "color": "#FFFFFF"
+            }
+           ]
+          }
+         ]
+        },
+        {
+         "name": "Setting",
+         "type": "TEXT",
+         "x": 25.0,
+         "y": 0.0,
+         "w": 51.0,
+         "h": 22.0,
+         "visible": false,
+         "strokeWeight": 0.4000000059604645,
+         "strokeAlign": "CENTER",
+         "fills": [
+          {
+           "type": "SOLID",
+           "color": "#FFFFFF"
+          }
+         ],
+         "text": {
+          "characters": "Setting",
+          "fontSize": 16.0,
+          "font": {
+           "family": "Roboto",
+           "style": "Regular",
+           "postscript": "Roboto-Regular"
+          },
+          "lineHeight": {
+           "value": 22.0,
+           "units": "PIXELS"
+          },
+          "letterSpacing": {
+           "value": 0.0,
+           "units": "PERCENT"
+          },
+          "alignH": null,
+          "alignV": "TOP",
+          "case": null,
+          "decoration": null,
+          "autoResize": "WIDTH_AND_HEIGHT"
+         }
+        }
+       ]
+      }
+     ]
+    }
+   ]
   },
   {
    "name": "🧰/Home Indicator (iPhone)",
@@ -44,6 +631,26 @@
     {
      "type": "SOLID",
      "color": "#FFFFFF"
+    }
+   ],
+   "children": [
+    {
+     "name": "Home Indicator",
+     "type": "ROUNDED_RECTANGLE",
+     "x": 121.0,
+     "y": 21.0,
+     "w": 134.0,
+     "h": 5.0,
+     "cornerRadius": 100.0,
+     "strokeAlign": "CENTER",
+     "horizontalConstraint": "CENTER",
+     "verticalConstraint": "MAX",
+     "fills": [
+      {
+       "type": "SOLID",
+       "color": "#000000"
+      }
+     ]
     }
    ]
   },
@@ -103,6 +710,579 @@
         {
          "type": "SOLID",
          "color": "#FDECEC"
+        }
+       ],
+       "children": [
+        {
+         "name": "Title",
+         "type": "FRAME",
+         "x": 44.0,
+         "y": 16.0,
+         "w": 283.0,
+         "h": 22.0,
+         "strokeWeight": 1.0,
+         "strokeAlign": "INSIDE",
+         "stackMode": "HORIZONTAL",
+         "stackSpacing": 8.0,
+         "stackPaddingRight": 20.0,
+         "stackPrimarySizing": "FIXED",
+         "stackCounterSizing": "RESIZE_TO_FIT_WITH_IMPLICIT_SIZE",
+         "frameMaskDisabled": true,
+         "children": [
+          {
+           "name": "Title",
+           "type": "TEXT",
+           "x": 0.0,
+           "y": 0.0,
+           "w": 263.0,
+           "h": 22.0,
+           "strokeAlign": "CENTER",
+           "stackChildPrimaryGrow": 1.0,
+           "fills": [
+            {
+             "type": "SOLID",
+             "color": "#121212"
+            }
+           ],
+           "text": {
+            "characters": "This is a notification title ",
+            "fontSize": 16.0,
+            "font": {
+             "family": "Roboto",
+             "style": "Bold",
+             "postscript": "Roboto-Bold"
+            },
+            "lineHeight": {
+             "value": 22.0,
+             "units": "PIXELS"
+            },
+            "letterSpacing": {
+             "value": 0.0,
+             "units": "PERCENT"
+            },
+            "alignH": null,
+            "alignV": "TOP",
+            "case": null,
+            "decoration": null,
+            "autoResize": "HEIGHT"
+           }
+          }
+         ]
+        },
+        {
+         "name": "description",
+         "type": "TEXT",
+         "x": 44.0,
+         "y": 46.0,
+         "w": 319.0,
+         "h": 66.0,
+         "visible": false,
+         "strokeAlign": "CENTER",
+         "fills": [
+          {
+           "type": "SOLID",
+           "color": "#121212"
+          }
+         ],
+         "text": {
+          "characters": "Vestibulum ante ipsum primis in faucibus orci luctusea duis in lorem placerata malesuada odio quise dapibusea.",
+          "fontSize": 16.0,
+          "font": {
+           "family": "Roboto",
+           "style": "Regular",
+           "postscript": "Roboto-Regular"
+          },
+          "lineHeight": {
+           "value": 22.0,
+           "units": "PIXELS"
+          },
+          "letterSpacing": {
+           "value": 0.0,
+           "units": "PERCENT"
+          },
+          "alignH": null,
+          "alignV": "TOP",
+          "case": null,
+          "decoration": null,
+          "autoResize": "HEIGHT"
+         }
+        },
+        {
+         "name": "Error",
+         "type": "INSTANCE",
+         "x": 15.0,
+         "y": 21.0,
+         "w": 16.0,
+         "h": 16.0,
+         "cornerRadius": 100.0,
+         "rectangleTopLeftCornerRadius": 100.0,
+         "rectangleTopRightCornerRadius": 100.0,
+         "rectangleBottomLeftCornerRadius": 100.0,
+         "rectangleBottomRightCornerRadius": 100.0,
+         "strokeWeight": 3.0,
+         "strokeAlign": "OUTSIDE",
+         "stackMode": "HORIZONTAL",
+         "stackSpacing": 10.0,
+         "stackPaddingRight": 7.0,
+         "stackPaddingBottom": 4.0,
+         "stackCounterAlignItems": "CENTER",
+         "stackPrimarySizing": "FIXED",
+         "stackPositioning": "ABSOLUTE",
+         "frameMaskDisabled": true,
+         "fills": [
+          {
+           "type": "SOLID",
+           "color": "#D93434"
+          }
+         ],
+         "strokes": [
+          {
+           "type": "SOLID",
+           "color": "#FAC2C2"
+          }
+         ],
+         "children": [
+          {
+           "name": "Group",
+           "type": "FRAME",
+           "x": 7.0,
+           "y": 3.5,
+           "w": 2.0,
+           "h": 9.0,
+           "strokeWeight": 1.0,
+           "strokeAlign": "INSIDE",
+           "children": [
+            {
+             "name": "Vector",
+             "type": "VECTOR",
+             "x": 0.0,
+             "y": 7.0,
+             "w": 2.0,
+             "h": 2.0,
+             "strokeWeight": 1.0,
+             "strokeAlign": "INSIDE",
+             "horizontalConstraint": "SCALE",
+             "verticalConstraint": "SCALE",
+             "fills": [
+              {
+               "type": "SOLID",
+               "color": "#FFFFFF"
+              }
+             ]
+            },
+            {
+             "name": "Vector",
+             "type": "VECTOR",
+             "x": 0.0,
+             "y": 0.0,
+             "w": 2.0,
+             "h": 6.0,
+             "strokeWeight": 1.0,
+             "strokeAlign": "INSIDE",
+             "horizontalConstraint": "SCALE",
+             "verticalConstraint": "SCALE",
+             "fills": [
+              {
+               "type": "SOLID",
+               "color": "#FFFFFF"
+              }
+             ]
+            }
+           ]
+          }
+         ]
+        },
+        {
+         "name": "CTA group",
+         "type": "FRAME",
+         "x": 44.0,
+         "y": 120.0,
+         "w": 319.0,
+         "h": 36.0,
+         "strokeWeight": 1.0,
+         "strokeAlign": "INSIDE",
+         "stackMode": "HORIZONTAL",
+         "stackSpacing": 4.0,
+         "stackPaddingBottom": 8.0,
+         "stackCounterAlignItems": "CENTER",
+         "stackPrimarySizing": "FIXED",
+         "stackCounterSizing": "RESIZE_TO_FIT_WITH_IMPLICIT_SIZE",
+         "frameMaskDisabled": true,
+         "children": [
+          {
+           "name": "Link",
+           "type": "INSTANCE",
+           "x": 0.0,
+           "y": 8.0,
+           "w": 57.0,
+           "h": 20.0,
+           "strokeWeight": 1.0,
+           "strokeAlign": "INSIDE",
+           "stackMode": "HORIZONTAL",
+           "stackSpacing": 4.0,
+           "stackCounterAlignItems": "CENTER",
+           "stackCounterSizing": "RESIZE_TO_FIT_WITH_IMPLICIT_SIZE",
+           "frameMaskDisabled": true,
+           "children": [
+            {
+             "name": "Link text",
+             "type": "TEXT",
+             "x": 0.0,
+             "y": 0.0,
+             "w": 57.0,
+             "h": 20.0,
+             "strokeWeight": 1.0,
+             "strokeAlign": "OUTSIDE",
+             "fills": [
+              {
+               "type": "SOLID",
+               "color": "#E81818"
+              }
+             ],
+             "text": {
+              "characters": "Link Text",
+              "fontSize": 14.0,
+              "font": {
+               "family": "Roboto",
+               "style": "Medium",
+               "postscript": "Roboto-Medium"
+              },
+              "lineHeight": {
+               "value": 20.0,
+               "units": "PIXELS"
+              },
+              "letterSpacing": {
+               "value": 0.0,
+               "units": "PERCENT"
+              },
+              "alignH": "CENTER",
+              "alignV": "TOP",
+              "case": null,
+              "decoration": "UNDERLINE",
+              "autoResize": "WIDTH_AND_HEIGHT"
+             }
+            }
+           ]
+          },
+          {
+           "name": "Container",
+           "type": "FRAME",
+           "x": 61.0,
+           "y": 10.0,
+           "w": 16.0,
+           "h": 16.0,
+           "strokeWeight": 1.0,
+           "strokeAlign": "INSIDE",
+           "stackMode": "HORIZONTAL",
+           "stackSpacing": 10.0,
+           "stackPrimaryAlignItems": "CENTER",
+           "stackCounterAlignItems": "CENTER",
+           "stackPrimarySizing": "FIXED",
+           "frameMaskDisabled": true,
+           "children": [
+            {
+             "name": "Ellipse 1",
+             "type": "ELLIPSE",
+             "x": 7.0,
+             "y": 7.0,
+             "w": 2.0,
+             "h": 2.0,
+             "strokeWeight": 1.0,
+             "strokeAlign": "INSIDE",
+             "fills": [
+              {
+               "type": "SOLID",
+               "color": "#121212"
+              }
+             ]
+            }
+           ]
+          },
+          {
+           "name": "Link",
+           "type": "INSTANCE",
+           "x": 81.0,
+           "y": 8.0,
+           "w": 57.0,
+           "h": 20.0,
+           "strokeWeight": 1.0,
+           "strokeAlign": "INSIDE",
+           "stackMode": "HORIZONTAL",
+           "stackSpacing": 4.0,
+           "stackCounterAlignItems": "CENTER",
+           "stackCounterSizing": "RESIZE_TO_FIT_WITH_IMPLICIT_SIZE",
+           "frameMaskDisabled": true,
+           "children": [
+            {
+             "name": "Link text",
+             "type": "TEXT",
+             "x": 0.0,
+             "y": 0.0,
+             "w": 57.0,
+             "h": 20.0,
+             "strokeWeight": 1.0,
+             "strokeAlign": "OUTSIDE",
+             "fills": [
+              {
+               "type": "SOLID",
+               "color": "#E81818"
+              }
+             ],
+             "text": {
+              "characters": "Link Text",
+              "fontSize": 14.0,
+              "font": {
+               "family": "Roboto",
+               "style": "Medium",
+               "postscript": "Roboto-Medium"
+              },
+              "lineHeight": {
+               "value": 20.0,
+               "units": "PIXELS"
+              },
+              "letterSpacing": {
+               "value": 0.0,
+               "units": "PERCENT"
+              },
+              "alignH": "CENTER",
+              "alignV": "TOP",
+              "case": null,
+              "decoration": "UNDERLINE",
+              "autoResize": "WIDTH_AND_HEIGHT"
+             }
+            }
+           ]
+          }
+         ]
+        },
+        {
+         "name": "icon / outlined / suggested / symbol / x",
+         "type": "INSTANCE",
+         "x": 311.0,
+         "y": 14.0,
+         "w": 16.0,
+         "h": 16.0,
+         "strokeWeight": 1.0,
+         "strokeAlign": "INSIDE",
+         "stackPositioning": "ABSOLUTE",
+         "horizontalConstraint": "MAX",
+         "children": [
+          {
+           "name": "Vector",
+           "type": "VECTOR",
+           "x": 3.5,
+           "y": 3.5,
+           "w": 9.0,
+           "h": 9.0,
+           "strokeWeight": 1.5,
+           "strokeAlign": "CENTER",
+           "horizontalConstraint": "SCALE",
+           "verticalConstraint": "SCALE",
+           "fills": [
+            {
+             "type": "SOLID",
+             "color": "#FFFFFF"
+            }
+           ]
+          }
+         ]
+        },
+        {
+         "name": "CTA group",
+         "type": "FRAME",
+         "x": 44.0,
+         "y": 164.0,
+         "w": 319.0,
+         "h": 38.0,
+         "strokeWeight": 1.0,
+         "strokeAlign": "INSIDE",
+         "stackMode": "HORIZONTAL",
+         "stackSpacing": 8.0,
+         "stackPaddingBottom": 4.0,
+         "stackCounterAlignItems": "MAX",
+         "stackPrimarySizing": "FIXED",
+         "stackCounterSizing": "RESIZE_TO_FIT_WITH_IMPLICIT_SIZE",
+         "frameMaskDisabled": true,
+         "children": [
+          {
+           "name": "Button",
+           "type": "INSTANCE",
+           "x": 0.0,
+           "y": 4.0,
+           "w": 88.73239135742188,
+           "h": 30.0,
+           "strokeWeight": 0.65727698802948,
+           "strokeAlign": "INSIDE",
+           "stackMode": "HORIZONTAL",
+           "stackPrimarySizing": "FIXED",
+           "frameMaskDisabled": true,
+           "children": [
+            {
+             "name": "Base button/Primary",
+             "type": "FRAME",
+             "x": 0.0,
+             "y": 0.0,
+             "w": 88.73239135742188,
+             "h": 30.0,
+             "cornerRadius": 5.25821590423584,
+             "rectangleTopLeftCornerRadius": 5.25821590423584,
+             "rectangleTopRightCornerRadius": 5.25821590423584,
+             "rectangleBottomLeftCornerRadius": 5.25821590423584,
+             "rectangleBottomRightCornerRadius": 5.25821590423584,
+             "strokeWeight": 0.65727698802948,
+             "strokeAlign": "INSIDE",
+             "stackMode": "HORIZONTAL",
+             "stackSpacing": 5.25821590423584,
+             "stackPaddingRight": 15.77464771270752,
+             "stackPaddingBottom": 7.88732385635376,
+             "stackPrimaryAlignItems": "CENTER",
+             "stackCounterAlignItems": "CENTER",
+             "stackPrimarySizing": "FIXED",
+             "stackCounterSizing": "FIXED",
+             "stackChildPrimaryGrow": 1.0,
+             "frameMaskDisabled": true,
+             "fills": [
+              {
+               "type": "SOLID",
+               "color": "#E81818"
+              }
+             ],
+             "children": [
+              {
+               "name": "Button text",
+               "type": "TEXT",
+               "x": 18.87,
+               "y": 8.0,
+               "w": 51.0,
+               "h": 14.0,
+               "strokeWeight": 0.65727698802948,
+               "strokeAlign": "OUTSIDE",
+               "fills": [
+                {
+                 "type": "SOLID",
+                 "color": "#FFFFFF"
+                }
+               ],
+               "text": {
+                "characters": "Button text",
+                "fontSize": 16.0,
+                "font": {
+                 "family": "Inter",
+                 "style": "Semi Bold",
+                 "postscript": "Inter-SemiBold"
+                },
+                "lineHeight": {
+                 "value": 24.0,
+                 "units": "PIXELS"
+                },
+                "letterSpacing": {
+                 "value": 0.0,
+                 "units": "PERCENT"
+                },
+                "alignH": "CENTER",
+                "alignV": "TOP",
+                "case": null,
+                "decoration": null,
+                "autoResize": "WIDTH_AND_HEIGHT"
+               }
+              }
+             ]
+            }
+           ]
+          },
+          {
+           "name": "Button",
+           "type": "INSTANCE",
+           "x": 96.73,
+           "y": 4.0,
+           "w": 90.0,
+           "h": 30.0,
+           "strokeWeight": 0.6572769284248352,
+           "strokeAlign": "INSIDE",
+           "stackMode": "HORIZONTAL",
+           "stackPrimarySizing": "FIXED",
+           "frameMaskDisabled": true,
+           "children": [
+            {
+             "name": "Base button/Primary",
+             "type": "FRAME",
+             "x": 0.0,
+             "y": 0.0,
+             "w": 90.0,
+             "h": 30.0,
+             "cornerRadius": 5.258215427398682,
+             "rectangleTopLeftCornerRadius": 5.258215427398682,
+             "rectangleTopRightCornerRadius": 5.258215427398682,
+             "rectangleBottomLeftCornerRadius": 5.258215427398682,
+             "rectangleBottomRightCornerRadius": 5.258215427398682,
+             "strokeWeight": 0.6572769284248352,
+             "strokeAlign": "INSIDE",
+             "stackMode": "HORIZONTAL",
+             "stackSpacing": 5.258215427398682,
+             "stackPaddingRight": 15.774646759033203,
+             "stackPaddingBottom": 7.887323379516602,
+             "stackPrimaryAlignItems": "CENTER",
+             "stackCounterAlignItems": "CENTER",
+             "stackPrimarySizing": "FIXED",
+             "stackCounterSizing": "FIXED",
+             "stackChildPrimaryGrow": 1.0,
+             "frameMaskDisabled": true,
+             "fills": [
+              {
+               "type": "SOLID",
+               "color": "#FFFFFF"
+              }
+             ],
+             "strokes": [
+              {
+               "type": "SOLID",
+               "color": "#E81818"
+              }
+             ],
+             "children": [
+              {
+               "name": "Button text",
+               "type": "TEXT",
+               "x": 29.5,
+               "y": 8.0,
+               "w": 31.0,
+               "h": 14.0,
+               "strokeWeight": 0.6572769284248352,
+               "strokeAlign": "OUTSIDE",
+               "fills": [
+                {
+                 "type": "SOLID",
+                 "color": "#E81818"
+                }
+               ],
+               "text": {
+                "characters": "Button text",
+                "fontSize": 16.0,
+                "font": {
+                 "family": "Inter",
+                 "style": "Semi Bold",
+                 "postscript": "Inter-SemiBold"
+                },
+                "lineHeight": {
+                 "value": 24.0,
+                 "units": "PIXELS"
+                },
+                "letterSpacing": {
+                 "value": 0.0,
+                 "units": "PERCENT"
+                },
+                "alignH": "CENTER",
+                "alignV": "TOP",
+                "case": null,
+                "decoration": null,
+                "autoResize": "WIDTH_AND_HEIGHT"
+               }
+              }
+             ]
+            }
+           ]
+          }
+         ]
         }
        ]
       },
@@ -241,6 +1421,86 @@
                "type": "SOLID",
                "color": "#C8C8C8"
               }
+             ],
+             "children": [
+              {
+               "name": "Verify badge",
+               "type": "INSTANCE",
+               "x": 8.0,
+               "y": 3.0,
+               "w": 16.0,
+               "h": 16.0,
+               "visible": false,
+               "strokeWeight": 1.0,
+               "strokeAlign": "INSIDE",
+               "children": [
+                {
+                 "name": "Vector",
+                 "type": "VECTOR",
+                 "x": 0.5,
+                 "y": 0.5,
+                 "w": 14.995170593261719,
+                 "h": 14.997437477111816,
+                 "strokeWeight": 32.0,
+                 "strokeAlign": "INSIDE",
+                 "horizontalConstraint": "SCALE",
+                 "verticalConstraint": "SCALE",
+                 "fills": [
+                  {
+                   "type": "GRADIENT_LINEAR",
+                   "stops": [
+                    {
+                     "pos": 0.0,
+                     "color": "#9951FF"
+                    },
+                    {
+                     "pos": 1.0,
+                     "color": "#11BFCE"
+                    }
+                   ]
+                  }
+                 ]
+                }
+               ]
+              },
+              {
+               "name": "Role text",
+               "type": "TEXT",
+               "x": 8.0,
+               "y": 2.0,
+               "w": 108.0,
+               "h": 18.0,
+               "strokeWeight": 1.0,
+               "strokeAlign": "OUTSIDE",
+               "fills": [
+                {
+                 "type": "SOLID",
+                 "color": "#121212"
+                }
+               ],
+               "text": {
+                "characters": "Joined: 01/07/2026",
+                "fontSize": 12.0,
+                "font": {
+                 "family": "Roboto",
+                 "style": "Bold",
+                 "postscript": "Roboto-Bold"
+                },
+                "lineHeight": {
+                 "value": 18.0,
+                 "units": "PIXELS"
+                },
+                "letterSpacing": {
+                 "value": 0.0,
+                 "units": "PERCENT"
+                },
+                "alignH": "CENTER",
+                "alignV": "TOP",
+                "case": null,
+                "decoration": null,
+                "autoResize": "WIDTH_AND_HEIGHT"
+               }
+              }
              ]
             }
            ]
@@ -335,7 +1595,79 @@
        "stackMode": "HORIZONTAL",
        "stackPrimarySizing": "FIXED",
        "stackCounterSizing": "RESIZE_TO_FIT_WITH_IMPLICIT_SIZE",
-       "frameMaskDisabled": true
+       "frameMaskDisabled": true,
+       "children": [
+        {
+         "name": "Base button/Primary",
+         "type": "FRAME",
+         "x": 0.0,
+         "y": 0.0,
+         "w": 343.0,
+         "h": 36.0,
+         "rectangleTopLeftCornerRadius": 8.0,
+         "rectangleTopRightCornerRadius": 8.0,
+         "rectangleBottomLeftCornerRadius": 8.0,
+         "rectangleBottomRightCornerRadius": 8.0,
+         "strokeWeight": 1.0,
+         "strokeAlign": "INSIDE",
+         "stackMode": "HORIZONTAL",
+         "stackSpacing": 8.0,
+         "stackPaddingRight": 16.0,
+         "stackPaddingBottom": 7.0,
+         "stackPrimaryAlignItems": "CENTER",
+         "stackCounterAlignItems": "CENTER",
+         "stackPrimarySizing": "FIXED",
+         "stackCounterSizing": "RESIZE_TO_FIT_WITH_IMPLICIT_SIZE",
+         "stackChildPrimaryGrow": 1.0,
+         "frameMaskDisabled": true,
+         "fills": [
+          {
+           "type": "SOLID",
+           "color": "#1999A4"
+          }
+         ],
+         "children": [
+          {
+           "name": "Button text",
+           "type": "TEXT",
+           "x": 127.0,
+           "y": 7.0,
+           "w": 89.0,
+           "h": 22.0,
+           "strokeWeight": 1.0,
+           "strokeAlign": "OUTSIDE",
+           "fills": [
+            {
+             "type": "SOLID",
+             "color": "#FFFFFF"
+            }
+           ],
+           "text": {
+            "characters": "Button text",
+            "fontSize": 16.0,
+            "font": {
+             "family": "Roboto",
+             "style": "SemiBold",
+             "postscript": "Roboto-SemiBold"
+            },
+            "lineHeight": {
+             "value": 22.0,
+             "units": "PIXELS"
+            },
+            "letterSpacing": {
+             "value": 0.0,
+             "units": "PERCENT"
+            },
+            "alignH": "CENTER",
+            "alignV": "TOP",
+            "case": null,
+            "decoration": null,
+            "autoResize": "WIDTH_AND_HEIGHT"
+           }
+          }
+         ]
+        }
+       ]
       }
      ]
     },
@@ -926,6 +2258,86 @@
                            "type": "SOLID",
                            "color": "#C8C8C8"
                           }
+                         ],
+                         "children": [
+                          {
+                           "name": "Verify badge",
+                           "type": "INSTANCE",
+                           "x": 8.0,
+                           "y": 3.0,
+                           "w": 16.0,
+                           "h": 16.0,
+                           "visible": false,
+                           "strokeWeight": 1.0,
+                           "strokeAlign": "INSIDE",
+                           "children": [
+                            {
+                             "name": "Vector",
+                             "type": "VECTOR",
+                             "x": 0.5,
+                             "y": 0.5,
+                             "w": 14.995170593261719,
+                             "h": 14.997437477111816,
+                             "strokeWeight": 32.0,
+                             "strokeAlign": "INSIDE",
+                             "horizontalConstraint": "SCALE",
+                             "verticalConstraint": "SCALE",
+                             "fills": [
+                              {
+                               "type": "GRADIENT_LINEAR",
+                               "stops": [
+                                {
+                                 "pos": 0.0,
+                                 "color": "#9951FF"
+                                },
+                                {
+                                 "pos": 1.0,
+                                 "color": "#11BFCE"
+                                }
+                               ]
+                              }
+                             ]
+                            }
+                           ]
+                          },
+                          {
+                           "name": "Role text",
+                           "type": "TEXT",
+                           "x": 8.0,
+                           "y": 2.0,
+                           "w": 63.0,
+                           "h": 18.0,
+                           "strokeWeight": 1.0,
+                           "strokeAlign": "OUTSIDE",
+                           "fills": [
+                            {
+                             "type": "SOLID",
+                             "color": "#121212"
+                            }
+                           ],
+                           "text": {
+                            "characters": "Onboarding",
+                            "fontSize": 12.0,
+                            "font": {
+                             "family": "Roboto",
+                             "style": "Bold",
+                             "postscript": "Roboto-Bold"
+                            },
+                            "lineHeight": {
+                             "value": 18.0,
+                             "units": "PIXELS"
+                            },
+                            "letterSpacing": {
+                             "value": 0.0,
+                             "units": "PERCENT"
+                            },
+                            "alignH": "CENTER",
+                            "alignV": "TOP",
+                            "case": null,
+                            "decoration": null,
+                            "autoResize": "WIDTH_AND_HEIGHT"
+                           }
+                          }
                          ]
                         },
                         {
@@ -958,6 +2370,86 @@
                           {
                            "type": "SOLID",
                            "color": "#C8C8C8"
+                          }
+                         ],
+                         "children": [
+                          {
+                           "name": "Verify badge",
+                           "type": "INSTANCE",
+                           "x": 8.0,
+                           "y": 3.0,
+                           "w": 16.0,
+                           "h": 16.0,
+                           "visible": false,
+                           "strokeWeight": 1.0,
+                           "strokeAlign": "INSIDE",
+                           "children": [
+                            {
+                             "name": "Vector",
+                             "type": "VECTOR",
+                             "x": 0.5,
+                             "y": 0.5,
+                             "w": 14.995170593261719,
+                             "h": 14.997437477111816,
+                             "strokeWeight": 32.0,
+                             "strokeAlign": "INSIDE",
+                             "horizontalConstraint": "SCALE",
+                             "verticalConstraint": "SCALE",
+                             "fills": [
+                              {
+                               "type": "GRADIENT_LINEAR",
+                               "stops": [
+                                {
+                                 "pos": 0.0,
+                                 "color": "#9951FF"
+                                },
+                                {
+                                 "pos": 1.0,
+                                 "color": "#11BFCE"
+                                }
+                               ]
+                              }
+                             ]
+                            }
+                           ]
+                          },
+                          {
+                           "name": "Role text",
+                           "type": "TEXT",
+                           "x": 8.0,
+                           "y": 2.0,
+                           "w": 56.0,
+                           "h": 18.0,
+                           "strokeWeight": 1.0,
+                           "strokeAlign": "OUTSIDE",
+                           "fills": [
+                            {
+                             "type": "SOLID",
+                             "color": "#121212"
+                            }
+                           ],
+                           "text": {
+                            "characters": "Additional",
+                            "fontSize": 12.0,
+                            "font": {
+                             "family": "Roboto",
+                             "style": "Bold",
+                             "postscript": "Roboto-Bold"
+                            },
+                            "lineHeight": {
+                             "value": 18.0,
+                             "units": "PIXELS"
+                            },
+                            "letterSpacing": {
+                             "value": 0.0,
+                             "units": "PERCENT"
+                            },
+                            "alignH": "CENTER",
+                            "alignV": "TOP",
+                            "case": null,
+                            "decoration": null,
+                            "autoResize": "WIDTH_AND_HEIGHT"
+                           }
                           }
                          ]
                         },
@@ -993,6 +2485,46 @@
                            "type": "SOLID",
                            "color": "#8B5ECB"
                           }
+                         ],
+                         "children": [
+                          {
+                           "name": "Mental support",
+                           "type": "TEXT",
+                           "x": 4.0,
+                           "y": 2.0,
+                           "w": 35.0,
+                           "h": 18.0,
+                           "strokeWeight": 1.0,
+                           "strokeAlign": "OUTSIDE",
+                           "fills": [
+                            {
+                             "type": "SOLID",
+                             "color": "#1999A4"
+                            }
+                           ],
+                           "text": {
+                            "characters": "Online",
+                            "fontSize": 12.0,
+                            "font": {
+                             "family": "Roboto",
+                             "style": "SemiBold",
+                             "postscript": "Roboto-SemiBold"
+                            },
+                            "lineHeight": {
+                             "value": 18.0,
+                             "units": "PIXELS"
+                            },
+                            "letterSpacing": {
+                             "value": 0.0,
+                             "units": "PERCENT"
+                            },
+                            "alignH": null,
+                            "alignV": "TOP",
+                            "case": null,
+                            "decoration": null,
+                            "autoResize": "WIDTH_AND_HEIGHT"
+                           }
+                          }
                          ]
                         }
                        ]
@@ -1009,7 +2541,27 @@
                    "w": 20.0,
                    "h": 20.0,
                    "strokeWeight": 1.0,
-                   "strokeAlign": "INSIDE"
+                   "strokeAlign": "INSIDE",
+                   "children": [
+                    {
+                     "name": "Vector",
+                     "type": "VECTOR",
+                     "x": 5.83,
+                     "y": 2.5,
+                     "w": 8.333333015441895,
+                     "h": 15.0,
+                     "strokeWeight": 1.5,
+                     "strokeAlign": "CENTER",
+                     "horizontalConstraint": "SCALE",
+                     "verticalConstraint": "SCALE",
+                     "fills": [
+                      {
+                       "type": "SOLID",
+                       "color": "#1999A4"
+                      }
+                     ]
+                    }
+                   ]
                   }
                  ]
                 }
@@ -1534,6 +3086,86 @@
                          "type": "SOLID",
                          "color": "#C8C8C8"
                         }
+                       ],
+                       "children": [
+                        {
+                         "name": "Verify badge",
+                         "type": "INSTANCE",
+                         "x": 8.0,
+                         "y": 3.0,
+                         "w": 16.0,
+                         "h": 16.0,
+                         "visible": false,
+                         "strokeWeight": 1.0,
+                         "strokeAlign": "INSIDE",
+                         "children": [
+                          {
+                           "name": "Vector",
+                           "type": "VECTOR",
+                           "x": 0.5,
+                           "y": 0.5,
+                           "w": 14.995170593261719,
+                           "h": 14.997437477111816,
+                           "strokeWeight": 32.0,
+                           "strokeAlign": "INSIDE",
+                           "horizontalConstraint": "SCALE",
+                           "verticalConstraint": "SCALE",
+                           "fills": [
+                            {
+                             "type": "GRADIENT_LINEAR",
+                             "stops": [
+                              {
+                               "pos": 0.0,
+                               "color": "#9951FF"
+                              },
+                              {
+                               "pos": 1.0,
+                               "color": "#11BFCE"
+                              }
+                             ]
+                            }
+                           ]
+                          }
+                         ]
+                        },
+                        {
+                         "name": "Role text",
+                         "type": "TEXT",
+                         "x": 8.0,
+                         "y": 2.0,
+                         "w": 54.0,
+                         "h": 18.0,
+                         "strokeWeight": 1.0,
+                         "strokeAlign": "OUTSIDE",
+                         "fills": [
+                          {
+                           "type": "SOLID",
+                           "color": "#121212"
+                          }
+                         ],
+                         "text": {
+                          "characters": "Follow-up",
+                          "fontSize": 12.0,
+                          "font": {
+                           "family": "Roboto",
+                           "style": "Bold",
+                           "postscript": "Roboto-Bold"
+                          },
+                          "lineHeight": {
+                           "value": 18.0,
+                           "units": "PIXELS"
+                          },
+                          "letterSpacing": {
+                           "value": 0.0,
+                           "units": "PERCENT"
+                          },
+                          "alignH": "CENTER",
+                          "alignV": "TOP",
+                          "case": null,
+                          "decoration": null,
+                          "autoResize": "WIDTH_AND_HEIGHT"
+                         }
+                        }
                        ]
                       },
                       {
@@ -1566,6 +3198,86 @@
                         {
                          "type": "SOLID",
                          "color": "#C8C8C8"
+                        }
+                       ],
+                       "children": [
+                        {
+                         "name": "Verify badge",
+                         "type": "INSTANCE",
+                         "x": 8.0,
+                         "y": 3.0,
+                         "w": 16.0,
+                         "h": 16.0,
+                         "visible": false,
+                         "strokeWeight": 1.0,
+                         "strokeAlign": "INSIDE",
+                         "children": [
+                          {
+                           "name": "Vector",
+                           "type": "VECTOR",
+                           "x": 0.5,
+                           "y": 0.5,
+                           "w": 14.995170593261719,
+                           "h": 14.997437477111816,
+                           "strokeWeight": 32.0,
+                           "strokeAlign": "INSIDE",
+                           "horizontalConstraint": "SCALE",
+                           "verticalConstraint": "SCALE",
+                           "fills": [
+                            {
+                             "type": "GRADIENT_LINEAR",
+                             "stops": [
+                              {
+                               "pos": 0.0,
+                               "color": "#9951FF"
+                              },
+                              {
+                               "pos": 1.0,
+                               "color": "#11BFCE"
+                              }
+                             ]
+                            }
+                           ]
+                          }
+                         ]
+                        },
+                        {
+                         "name": "Role text",
+                         "type": "TEXT",
+                         "x": 8.0,
+                         "y": 2.0,
+                         "w": 56.0,
+                         "h": 18.0,
+                         "strokeWeight": 1.0,
+                         "strokeAlign": "OUTSIDE",
+                         "fills": [
+                          {
+                           "type": "SOLID",
+                           "color": "#121212"
+                          }
+                         ],
+                         "text": {
+                          "characters": "Additional",
+                          "fontSize": 12.0,
+                          "font": {
+                           "family": "Roboto",
+                           "style": "Bold",
+                           "postscript": "Roboto-Bold"
+                          },
+                          "lineHeight": {
+                           "value": 18.0,
+                           "units": "PIXELS"
+                          },
+                          "letterSpacing": {
+                           "value": 0.0,
+                           "units": "PERCENT"
+                          },
+                          "alignH": "CENTER",
+                          "alignV": "TOP",
+                          "case": null,
+                          "decoration": null,
+                          "autoResize": "WIDTH_AND_HEIGHT"
+                         }
                         }
                        ]
                       },
@@ -1601,6 +3313,46 @@
                          "type": "SOLID",
                          "color": "#8B5ECB"
                         }
+                       ],
+                       "children": [
+                        {
+                         "name": "Mental support",
+                         "type": "TEXT",
+                         "x": 4.0,
+                         "y": 2.0,
+                         "w": 35.0,
+                         "h": 18.0,
+                         "strokeWeight": 1.0,
+                         "strokeAlign": "OUTSIDE",
+                         "fills": [
+                          {
+                           "type": "SOLID",
+                           "color": "#1999A4"
+                          }
+                         ],
+                         "text": {
+                          "characters": "Online",
+                          "fontSize": 12.0,
+                          "font": {
+                           "family": "Roboto",
+                           "style": "SemiBold",
+                           "postscript": "Roboto-SemiBold"
+                          },
+                          "lineHeight": {
+                           "value": 18.0,
+                           "units": "PIXELS"
+                          },
+                          "letterSpacing": {
+                           "value": 0.0,
+                           "units": "PERCENT"
+                          },
+                          "alignH": null,
+                          "alignV": "TOP",
+                          "case": null,
+                          "decoration": null,
+                          "autoResize": "WIDTH_AND_HEIGHT"
+                         }
+                        }
                        ]
                       }
                      ]
@@ -1617,7 +3369,27 @@
                  "w": 20.0,
                  "h": 20.0,
                  "strokeWeight": 1.0,
-                 "strokeAlign": "INSIDE"
+                 "strokeAlign": "INSIDE",
+                 "children": [
+                  {
+                   "name": "Vector",
+                   "type": "VECTOR",
+                   "x": 5.83,
+                   "y": 2.5,
+                   "w": 8.333333015441895,
+                   "h": 15.0,
+                   "strokeWeight": 1.5,
+                   "strokeAlign": "CENTER",
+                   "horizontalConstraint": "SCALE",
+                   "verticalConstraint": "SCALE",
+                   "fills": [
+                    {
+                     "type": "SOLID",
+                     "color": "#1999A4"
+                    }
+                   ]
+                  }
+                 ]
                 }
                ]
               },
@@ -2124,6 +3896,86 @@
                        "type": "SOLID",
                        "color": "#C8C8C8"
                       }
+                     ],
+                     "children": [
+                      {
+                       "name": "Verify badge",
+                       "type": "INSTANCE",
+                       "x": 8.0,
+                       "y": 3.0,
+                       "w": 16.0,
+                       "h": 16.0,
+                       "visible": false,
+                       "strokeWeight": 1.0,
+                       "strokeAlign": "INSIDE",
+                       "children": [
+                        {
+                         "name": "Vector",
+                         "type": "VECTOR",
+                         "x": 0.5,
+                         "y": 0.5,
+                         "w": 14.995170593261719,
+                         "h": 14.997437477111816,
+                         "strokeWeight": 32.0,
+                         "strokeAlign": "INSIDE",
+                         "horizontalConstraint": "SCALE",
+                         "verticalConstraint": "SCALE",
+                         "fills": [
+                          {
+                           "type": "GRADIENT_LINEAR",
+                           "stops": [
+                            {
+                             "pos": 0.0,
+                             "color": "#9951FF"
+                            },
+                            {
+                             "pos": 1.0,
+                             "color": "#11BFCE"
+                            }
+                           ]
+                          }
+                         ]
+                        }
+                       ]
+                      },
+                      {
+                       "name": "Role text",
+                       "type": "TEXT",
+                       "x": 8.0,
+                       "y": 2.0,
+                       "w": 54.0,
+                       "h": 18.0,
+                       "strokeWeight": 1.0,
+                       "strokeAlign": "OUTSIDE",
+                       "fills": [
+                        {
+                         "type": "SOLID",
+                         "color": "#121212"
+                        }
+                       ],
+                       "text": {
+                        "characters": "Follow-up",
+                        "fontSize": 12.0,
+                        "font": {
+                         "family": "Roboto",
+                         "style": "Bold",
+                         "postscript": "Roboto-Bold"
+                        },
+                        "lineHeight": {
+                         "value": 18.0,
+                         "units": "PIXELS"
+                        },
+                        "letterSpacing": {
+                         "value": 0.0,
+                         "units": "PERCENT"
+                        },
+                        "alignH": "CENTER",
+                        "alignV": "TOP",
+                        "case": null,
+                        "decoration": null,
+                        "autoResize": "WIDTH_AND_HEIGHT"
+                       }
+                      }
                      ]
                     },
                     {
@@ -2156,6 +4008,86 @@
                       {
                        "type": "SOLID",
                        "color": "#C8C8C8"
+                      }
+                     ],
+                     "children": [
+                      {
+                       "name": "Verify badge",
+                       "type": "INSTANCE",
+                       "x": 8.0,
+                       "y": 3.0,
+                       "w": 16.0,
+                       "h": 16.0,
+                       "visible": false,
+                       "strokeWeight": 1.0,
+                       "strokeAlign": "INSIDE",
+                       "children": [
+                        {
+                         "name": "Vector",
+                         "type": "VECTOR",
+                         "x": 0.5,
+                         "y": 0.5,
+                         "w": 14.995170593261719,
+                         "h": 14.997437477111816,
+                         "strokeWeight": 32.0,
+                         "strokeAlign": "INSIDE",
+                         "horizontalConstraint": "SCALE",
+                         "verticalConstraint": "SCALE",
+                         "fills": [
+                          {
+                           "type": "GRADIENT_LINEAR",
+                           "stops": [
+                            {
+                             "pos": 0.0,
+                             "color": "#9951FF"
+                            },
+                            {
+                             "pos": 1.0,
+                             "color": "#11BFCE"
+                            }
+                           ]
+                          }
+                         ]
+                        }
+                       ]
+                      },
+                      {
+                       "name": "Role text",
+                       "type": "TEXT",
+                       "x": 8.0,
+                       "y": 2.0,
+                       "w": 56.0,
+                       "h": 18.0,
+                       "strokeWeight": 1.0,
+                       "strokeAlign": "OUTSIDE",
+                       "fills": [
+                        {
+                         "type": "SOLID",
+                         "color": "#121212"
+                        }
+                       ],
+                       "text": {
+                        "characters": "Additional",
+                        "fontSize": 12.0,
+                        "font": {
+                         "family": "Roboto",
+                         "style": "Bold",
+                         "postscript": "Roboto-Bold"
+                        },
+                        "lineHeight": {
+                         "value": 18.0,
+                         "units": "PIXELS"
+                        },
+                        "letterSpacing": {
+                         "value": 0.0,
+                         "units": "PERCENT"
+                        },
+                        "alignH": "CENTER",
+                        "alignV": "TOP",
+                        "case": null,
+                        "decoration": null,
+                        "autoResize": "WIDTH_AND_HEIGHT"
+                       }
                       }
                      ]
                     },
@@ -2191,6 +4123,46 @@
                        "type": "SOLID",
                        "color": "#8B5ECB"
                       }
+                     ],
+                     "children": [
+                      {
+                       "name": "Mental support",
+                       "type": "TEXT",
+                       "x": 4.0,
+                       "y": 2.0,
+                       "w": 35.0,
+                       "h": 18.0,
+                       "strokeWeight": 1.0,
+                       "strokeAlign": "OUTSIDE",
+                       "fills": [
+                        {
+                         "type": "SOLID",
+                         "color": "#1999A4"
+                        }
+                       ],
+                       "text": {
+                        "characters": "Online",
+                        "fontSize": 12.0,
+                        "font": {
+                         "family": "Roboto",
+                         "style": "SemiBold",
+                         "postscript": "Roboto-SemiBold"
+                        },
+                        "lineHeight": {
+                         "value": 18.0,
+                         "units": "PIXELS"
+                        },
+                        "letterSpacing": {
+                         "value": 0.0,
+                         "units": "PERCENT"
+                        },
+                        "alignH": null,
+                        "alignV": "TOP",
+                        "case": null,
+                        "decoration": null,
+                        "autoResize": "WIDTH_AND_HEIGHT"
+                       }
+                      }
                      ]
                     }
                    ]
@@ -2205,7 +4177,27 @@
                  "w": 20.0,
                  "h": 20.0,
                  "strokeWeight": 1.0,
-                 "strokeAlign": "INSIDE"
+                 "strokeAlign": "INSIDE",
+                 "children": [
+                  {
+                   "name": "Vector",
+                   "type": "VECTOR",
+                   "x": 5.83,
+                   "y": 2.5,
+                   "w": 8.333333015441895,
+                   "h": 15.0,
+                   "strokeWeight": 1.5,
+                   "strokeAlign": "CENTER",
+                   "horizontalConstraint": "SCALE",
+                   "verticalConstraint": "SCALE",
+                   "fills": [
+                    {
+                     "type": "SOLID",
+                     "color": "#1999A4"
+                    }
+                   ]
+                  }
+                 ]
                 }
                ]
               }
@@ -2689,6 +4681,86 @@
                          "type": "SOLID",
                          "color": "#C8C8C8"
                         }
+                       ],
+                       "children": [
+                        {
+                         "name": "Verify badge",
+                         "type": "INSTANCE",
+                         "x": 8.0,
+                         "y": 3.0,
+                         "w": 16.0,
+                         "h": 16.0,
+                         "visible": false,
+                         "strokeWeight": 1.0,
+                         "strokeAlign": "INSIDE",
+                         "children": [
+                          {
+                           "name": "Vector",
+                           "type": "VECTOR",
+                           "x": 0.5,
+                           "y": 0.5,
+                           "w": 14.995170593261719,
+                           "h": 14.997437477111816,
+                           "strokeWeight": 32.0,
+                           "strokeAlign": "INSIDE",
+                           "horizontalConstraint": "SCALE",
+                           "verticalConstraint": "SCALE",
+                           "fills": [
+                            {
+                             "type": "GRADIENT_LINEAR",
+                             "stops": [
+                              {
+                               "pos": 0.0,
+                               "color": "#9951FF"
+                              },
+                              {
+                               "pos": 1.0,
+                               "color": "#11BFCE"
+                              }
+                             ]
+                            }
+                           ]
+                          }
+                         ]
+                        },
+                        {
+                         "name": "Role text",
+                         "type": "TEXT",
+                         "x": 8.0,
+                         "y": 2.0,
+                         "w": 54.0,
+                         "h": 18.0,
+                         "strokeWeight": 1.0,
+                         "strokeAlign": "OUTSIDE",
+                         "fills": [
+                          {
+                           "type": "SOLID",
+                           "color": "#121212"
+                          }
+                         ],
+                         "text": {
+                          "characters": "Follow-up",
+                          "fontSize": 12.0,
+                          "font": {
+                           "family": "Roboto",
+                           "style": "Bold",
+                           "postscript": "Roboto-Bold"
+                          },
+                          "lineHeight": {
+                           "value": 18.0,
+                           "units": "PIXELS"
+                          },
+                          "letterSpacing": {
+                           "value": 0.0,
+                           "units": "PERCENT"
+                          },
+                          "alignH": "CENTER",
+                          "alignV": "TOP",
+                          "case": null,
+                          "decoration": null,
+                          "autoResize": "WIDTH_AND_HEIGHT"
+                         }
+                        }
                        ]
                       },
                       {
@@ -2721,6 +4793,86 @@
                         {
                          "type": "SOLID",
                          "color": "#C8C8C8"
+                        }
+                       ],
+                       "children": [
+                        {
+                         "name": "Verify badge",
+                         "type": "INSTANCE",
+                         "x": 8.0,
+                         "y": 3.0,
+                         "w": 16.0,
+                         "h": 16.0,
+                         "visible": false,
+                         "strokeWeight": 1.0,
+                         "strokeAlign": "INSIDE",
+                         "children": [
+                          {
+                           "name": "Vector",
+                           "type": "VECTOR",
+                           "x": 0.5,
+                           "y": 0.5,
+                           "w": 14.995170593261719,
+                           "h": 14.997437477111816,
+                           "strokeWeight": 32.0,
+                           "strokeAlign": "INSIDE",
+                           "horizontalConstraint": "SCALE",
+                           "verticalConstraint": "SCALE",
+                           "fills": [
+                            {
+                             "type": "GRADIENT_LINEAR",
+                             "stops": [
+                              {
+                               "pos": 0.0,
+                               "color": "#9951FF"
+                              },
+                              {
+                               "pos": 1.0,
+                               "color": "#11BFCE"
+                              }
+                             ]
+                            }
+                           ]
+                          }
+                         ]
+                        },
+                        {
+                         "name": "Role text",
+                         "type": "TEXT",
+                         "x": 8.0,
+                         "y": 2.0,
+                         "w": 56.0,
+                         "h": 18.0,
+                         "strokeWeight": 1.0,
+                         "strokeAlign": "OUTSIDE",
+                         "fills": [
+                          {
+                           "type": "SOLID",
+                           "color": "#121212"
+                          }
+                         ],
+                         "text": {
+                          "characters": "Additional",
+                          "fontSize": 12.0,
+                          "font": {
+                           "family": "Roboto",
+                           "style": "Bold",
+                           "postscript": "Roboto-Bold"
+                          },
+                          "lineHeight": {
+                           "value": 18.0,
+                           "units": "PIXELS"
+                          },
+                          "letterSpacing": {
+                           "value": 0.0,
+                           "units": "PERCENT"
+                          },
+                          "alignH": "CENTER",
+                          "alignV": "TOP",
+                          "case": null,
+                          "decoration": null,
+                          "autoResize": "WIDTH_AND_HEIGHT"
+                         }
                         }
                        ]
                       },
@@ -2756,6 +4908,46 @@
                          "type": "SOLID",
                          "color": "#8B5ECB"
                         }
+                       ],
+                       "children": [
+                        {
+                         "name": "Mental support",
+                         "type": "TEXT",
+                         "x": 4.0,
+                         "y": 2.0,
+                         "w": 35.0,
+                         "h": 18.0,
+                         "strokeWeight": 1.0,
+                         "strokeAlign": "OUTSIDE",
+                         "fills": [
+                          {
+                           "type": "SOLID",
+                           "color": "#1999A4"
+                          }
+                         ],
+                         "text": {
+                          "characters": "Online",
+                          "fontSize": 12.0,
+                          "font": {
+                           "family": "Roboto",
+                           "style": "SemiBold",
+                           "postscript": "Roboto-SemiBold"
+                          },
+                          "lineHeight": {
+                           "value": 18.0,
+                           "units": "PIXELS"
+                          },
+                          "letterSpacing": {
+                           "value": 0.0,
+                           "units": "PERCENT"
+                          },
+                          "alignH": null,
+                          "alignV": "TOP",
+                          "case": null,
+                          "decoration": null,
+                          "autoResize": "WIDTH_AND_HEIGHT"
+                         }
+                        }
                        ]
                       }
                      ]
@@ -2770,7 +4962,27 @@
                    "w": 20.0,
                    "h": 20.0,
                    "strokeWeight": 1.0,
-                   "strokeAlign": "INSIDE"
+                   "strokeAlign": "INSIDE",
+                   "children": [
+                    {
+                     "name": "Vector",
+                     "type": "VECTOR",
+                     "x": 5.83,
+                     "y": 2.5,
+                     "w": 8.333333015441895,
+                     "h": 15.0,
+                     "strokeWeight": 1.5,
+                     "strokeAlign": "CENTER",
+                     "horizontalConstraint": "SCALE",
+                     "verticalConstraint": "SCALE",
+                     "fills": [
+                      {
+                       "type": "SOLID",
+                       "color": "#1999A4"
+                      }
+                     ]
+                    }
+                   ]
                   }
                  ]
                 }
@@ -2806,7 +5018,27 @@
          "w": 24.0,
          "h": 24.0,
          "strokeWeight": 1.0,
-         "strokeAlign": "INSIDE"
+         "strokeAlign": "INSIDE",
+         "children": [
+          {
+           "name": "Vector",
+           "type": "VECTOR",
+           "x": 1.25,
+           "y": 1.25,
+           "w": 21.5,
+           "h": 21.5,
+           "strokeWeight": 1.5,
+           "strokeAlign": "CENTER",
+           "horizontalConstraint": "SCALE",
+           "verticalConstraint": "SCALE",
+           "fills": [
+            {
+             "type": "SOLID",
+             "color": "#A8A8A8"
+            }
+           ]
+          }
+         ]
         },
         {
          "name": "Title",
@@ -3348,6 +5580,86 @@
                          "type": "SOLID",
                          "color": "#C8C8C8"
                         }
+                       ],
+                       "children": [
+                        {
+                         "name": "Verify badge",
+                         "type": "INSTANCE",
+                         "x": 8.0,
+                         "y": 3.0,
+                         "w": 16.0,
+                         "h": 16.0,
+                         "visible": false,
+                         "strokeWeight": 1.0,
+                         "strokeAlign": "INSIDE",
+                         "children": [
+                          {
+                           "name": "Vector",
+                           "type": "VECTOR",
+                           "x": 0.5,
+                           "y": 0.5,
+                           "w": 14.995170593261719,
+                           "h": 14.997437477111816,
+                           "strokeWeight": 32.0,
+                           "strokeAlign": "INSIDE",
+                           "horizontalConstraint": "SCALE",
+                           "verticalConstraint": "SCALE",
+                           "fills": [
+                            {
+                             "type": "GRADIENT_LINEAR",
+                             "stops": [
+                              {
+                               "pos": 0.0,
+                               "color": "#9951FF"
+                              },
+                              {
+                               "pos": 1.0,
+                               "color": "#11BFCE"
+                              }
+                             ]
+                            }
+                           ]
+                          }
+                         ]
+                        },
+                        {
+                         "name": "Role text",
+                         "type": "TEXT",
+                         "x": 8.0,
+                         "y": 2.0,
+                         "w": 63.0,
+                         "h": 18.0,
+                         "strokeWeight": 1.0,
+                         "strokeAlign": "OUTSIDE",
+                         "fills": [
+                          {
+                           "type": "SOLID",
+                           "color": "#121212"
+                          }
+                         ],
+                         "text": {
+                          "characters": "Onboarding",
+                          "fontSize": 12.0,
+                          "font": {
+                           "family": "Roboto",
+                           "style": "Bold",
+                           "postscript": "Roboto-Bold"
+                          },
+                          "lineHeight": {
+                           "value": 18.0,
+                           "units": "PIXELS"
+                          },
+                          "letterSpacing": {
+                           "value": 0.0,
+                           "units": "PERCENT"
+                          },
+                          "alignH": "CENTER",
+                          "alignV": "TOP",
+                          "case": null,
+                          "decoration": null,
+                          "autoResize": "WIDTH_AND_HEIGHT"
+                         }
+                        }
                        ]
                       },
                       {
@@ -3380,6 +5692,86 @@
                         {
                          "type": "SOLID",
                          "color": "#C8C8C8"
+                        }
+                       ],
+                       "children": [
+                        {
+                         "name": "Verify badge",
+                         "type": "INSTANCE",
+                         "x": 8.0,
+                         "y": 3.0,
+                         "w": 16.0,
+                         "h": 16.0,
+                         "visible": false,
+                         "strokeWeight": 1.0,
+                         "strokeAlign": "INSIDE",
+                         "children": [
+                          {
+                           "name": "Vector",
+                           "type": "VECTOR",
+                           "x": 0.5,
+                           "y": 0.5,
+                           "w": 14.995170593261719,
+                           "h": 14.997437477111816,
+                           "strokeWeight": 32.0,
+                           "strokeAlign": "INSIDE",
+                           "horizontalConstraint": "SCALE",
+                           "verticalConstraint": "SCALE",
+                           "fills": [
+                            {
+                             "type": "GRADIENT_LINEAR",
+                             "stops": [
+                              {
+                               "pos": 0.0,
+                               "color": "#9951FF"
+                              },
+                              {
+                               "pos": 1.0,
+                               "color": "#11BFCE"
+                              }
+                             ]
+                            }
+                           ]
+                          }
+                         ]
+                        },
+                        {
+                         "name": "Role text",
+                         "type": "TEXT",
+                         "x": 8.0,
+                         "y": 2.0,
+                         "w": 39.0,
+                         "h": 18.0,
+                         "strokeWeight": 1.0,
+                         "strokeAlign": "OUTSIDE",
+                         "fills": [
+                          {
+                           "type": "SOLID",
+                           "color": "#121212"
+                          }
+                         ],
+                         "text": {
+                          "characters": "Default",
+                          "fontSize": 12.0,
+                          "font": {
+                           "family": "Roboto",
+                           "style": "Bold",
+                           "postscript": "Roboto-Bold"
+                          },
+                          "lineHeight": {
+                           "value": 18.0,
+                           "units": "PIXELS"
+                          },
+                          "letterSpacing": {
+                           "value": 0.0,
+                           "units": "PERCENT"
+                          },
+                          "alignH": "CENTER",
+                          "alignV": "TOP",
+                          "case": null,
+                          "decoration": null,
+                          "autoResize": "WIDTH_AND_HEIGHT"
+                         }
                         }
                        ]
                       },
@@ -3416,6 +5808,46 @@
                          "type": "SOLID",
                          "color": "#8B5ECB"
                         }
+                       ],
+                       "children": [
+                        {
+                         "name": "Mental support",
+                         "type": "TEXT",
+                         "x": 4.0,
+                         "y": 4.0,
+                         "w": 35.0,
+                         "h": 18.0,
+                         "strokeWeight": 1.0,
+                         "strokeAlign": "OUTSIDE",
+                         "fills": [
+                          {
+                           "type": "SOLID",
+                           "color": "#1999A4"
+                          }
+                         ],
+                         "text": {
+                          "characters": "Online",
+                          "fontSize": 12.0,
+                          "font": {
+                           "family": "Roboto",
+                           "style": "SemiBold",
+                           "postscript": "Roboto-SemiBold"
+                          },
+                          "lineHeight": {
+                           "value": 18.0,
+                           "units": "PIXELS"
+                          },
+                          "letterSpacing": {
+                           "value": 0.0,
+                           "units": "PERCENT"
+                          },
+                          "alignH": null,
+                          "alignV": "TOP",
+                          "case": null,
+                          "decoration": null,
+                          "autoResize": "WIDTH_AND_HEIGHT"
+                         }
+                        }
                        ]
                       }
                      ]
@@ -3432,7 +5864,27 @@
                  "w": 20.0,
                  "h": 20.0,
                  "strokeWeight": 1.0,
-                 "strokeAlign": "INSIDE"
+                 "strokeAlign": "INSIDE",
+                 "children": [
+                  {
+                   "name": "Vector",
+                   "type": "VECTOR",
+                   "x": 5.83,
+                   "y": 2.5,
+                   "w": 8.333333015441895,
+                   "h": 15.0,
+                   "strokeWeight": 1.5,
+                   "strokeAlign": "CENTER",
+                   "horizontalConstraint": "SCALE",
+                   "verticalConstraint": "SCALE",
+                   "fills": [
+                    {
+                     "type": "SOLID",
+                     "color": "#1999A4"
+                    }
+                   ]
+                  }
+                 ]
                 }
                ]
               }
@@ -3493,7 +5945,47 @@
                  "stackSpacing": 4.0,
                  "stackCounterAlignItems": "CENTER",
                  "stackCounterSizing": "RESIZE_TO_FIT_WITH_IMPLICIT_SIZE",
-                 "frameMaskDisabled": true
+                 "frameMaskDisabled": true,
+                 "children": [
+                  {
+                   "name": "Link text",
+                   "type": "TEXT",
+                   "x": 0.0,
+                   "y": 0.0,
+                   "w": 32.0,
+                   "h": 22.0,
+                   "strokeWeight": 1.0,
+                   "strokeAlign": "OUTSIDE",
+                   "fills": [
+                    {
+                     "type": "SOLID",
+                     "color": "#1999A4"
+                    }
+                   ],
+                   "text": {
+                    "characters": "Skip",
+                    "fontSize": 16.0,
+                    "font": {
+                     "family": "Roboto",
+                     "style": "Medium",
+                     "postscript": "Roboto-Medium"
+                    },
+                    "lineHeight": {
+                     "value": 22.0,
+                     "units": "PIXELS"
+                    },
+                    "letterSpacing": {
+                     "value": 0.0,
+                     "units": "PERCENT"
+                    },
+                    "alignH": "CENTER",
+                    "alignV": "TOP",
+                    "case": null,
+                    "decoration": "UNDERLINE",
+                    "autoResize": "WIDTH_AND_HEIGHT"
+                   }
+                  }
+                 ]
                 },
                 {
                  "name": "Button",
@@ -3508,7 +6000,85 @@
                  "stackPrimarySizing": "FIXED",
                  "stackCounterSizing": "RESIZE_TO_FIT_WITH_IMPLICIT_SIZE",
                  "stackChildPrimaryGrow": 1.0,
-                 "frameMaskDisabled": true
+                 "frameMaskDisabled": true,
+                 "children": [
+                  {
+                   "name": "Base button/Primary",
+                   "type": "FRAME",
+                   "x": 0.0,
+                   "y": 0.0,
+                   "w": 241.0,
+                   "h": 36.0,
+                   "rectangleTopLeftCornerRadius": 8.0,
+                   "rectangleTopRightCornerRadius": 8.0,
+                   "rectangleBottomLeftCornerRadius": 8.0,
+                   "rectangleBottomRightCornerRadius": 8.0,
+                   "strokeWeight": 1.0,
+                   "strokeAlign": "INSIDE",
+                   "stackMode": "HORIZONTAL",
+                   "stackSpacing": 8.0,
+                   "stackPaddingRight": 16.0,
+                   "stackPaddingBottom": 7.0,
+                   "stackPrimaryAlignItems": "CENTER",
+                   "stackCounterAlignItems": "CENTER",
+                   "stackPrimarySizing": "FIXED",
+                   "stackCounterSizing": "RESIZE_TO_FIT_WITH_IMPLICIT_SIZE",
+                   "stackChildPrimaryGrow": 1.0,
+                   "frameMaskDisabled": true,
+                   "fills": [
+                    {
+                     "type": "SOLID",
+                     "color": "#FFFFFF"
+                    }
+                   ],
+                   "strokes": [
+                    {
+                     "type": "SOLID",
+                     "color": "#1999A4"
+                    }
+                   ],
+                   "children": [
+                    {
+                     "name": "Button text",
+                     "type": "TEXT",
+                     "x": 71.5,
+                     "y": 7.0,
+                     "w": 98.0,
+                     "h": 22.0,
+                     "strokeWeight": 1.0,
+                     "strokeAlign": "OUTSIDE",
+                     "fills": [
+                      {
+                       "type": "SOLID",
+                       "color": "#1999A4"
+                      }
+                     ],
+                     "text": {
+                      "characters": "Button text",
+                      "fontSize": 16.0,
+                      "font": {
+                       "family": "Roboto",
+                       "style": "SemiBold",
+                       "postscript": "Roboto-SemiBold"
+                      },
+                      "lineHeight": {
+                       "value": 22.0,
+                       "units": "PIXELS"
+                      },
+                      "letterSpacing": {
+                       "value": 0.0,
+                       "units": "PERCENT"
+                      },
+                      "alignH": "CENTER",
+                      "alignV": "TOP",
+                      "case": null,
+                      "decoration": null,
+                      "autoResize": "WIDTH_AND_HEIGHT"
+                     }
+                    }
+                   ]
+                  }
+                 ]
                 }
                ]
               }
@@ -3538,6 +6108,46 @@
               {
                "type": "SOLID",
                "color": "#FDECEC"
+              }
+             ],
+             "children": [
+              {
+               "name": "Mental support",
+               "type": "TEXT",
+               "x": 4.0,
+               "y": 4.0,
+               "w": 65.0,
+               "h": 18.0,
+               "strokeWeight": 1.0,
+               "strokeAlign": "OUTSIDE",
+               "fills": [
+                {
+                 "type": "SOLID",
+                 "color": "#1999A4"
+                }
+               ],
+               "text": {
+                "characters": "Need action",
+                "fontSize": 12.0,
+                "font": {
+                 "family": "Roboto",
+                 "style": "SemiBold",
+                 "postscript": "Roboto-SemiBold"
+                },
+                "lineHeight": {
+                 "value": 18.0,
+                 "units": "PIXELS"
+                },
+                "letterSpacing": {
+                 "value": 0.0,
+                 "units": "PERCENT"
+                },
+                "alignH": null,
+                "alignV": "TOP",
+                "case": null,
+                "decoration": null,
+                "autoResize": "WIDTH_AND_HEIGHT"
+               }
               }
              ]
             }
@@ -3910,6 +6520,86 @@
                          "type": "SOLID",
                          "color": "#C8C8C8"
                         }
+                       ],
+                       "children": [
+                        {
+                         "name": "Verify badge",
+                         "type": "INSTANCE",
+                         "x": 8.0,
+                         "y": 3.0,
+                         "w": 16.0,
+                         "h": 16.0,
+                         "visible": false,
+                         "strokeWeight": 1.0,
+                         "strokeAlign": "INSIDE",
+                         "children": [
+                          {
+                           "name": "Vector",
+                           "type": "VECTOR",
+                           "x": 0.5,
+                           "y": 0.5,
+                           "w": 14.995170593261719,
+                           "h": 14.997437477111816,
+                           "strokeWeight": 32.0,
+                           "strokeAlign": "INSIDE",
+                           "horizontalConstraint": "SCALE",
+                           "verticalConstraint": "SCALE",
+                           "fills": [
+                            {
+                             "type": "GRADIENT_LINEAR",
+                             "stops": [
+                              {
+                               "pos": 0.0,
+                               "color": "#9951FF"
+                              },
+                              {
+                               "pos": 1.0,
+                               "color": "#11BFCE"
+                              }
+                             ]
+                            }
+                           ]
+                          }
+                         ]
+                        },
+                        {
+                         "name": "Role text",
+                         "type": "TEXT",
+                         "x": 8.0,
+                         "y": 2.0,
+                         "w": 54.0,
+                         "h": 18.0,
+                         "strokeWeight": 1.0,
+                         "strokeAlign": "OUTSIDE",
+                         "fills": [
+                          {
+                           "type": "SOLID",
+                           "color": "#121212"
+                          }
+                         ],
+                         "text": {
+                          "characters": "Follow-up",
+                          "fontSize": 12.0,
+                          "font": {
+                           "family": "Roboto",
+                           "style": "Bold",
+                           "postscript": "Roboto-Bold"
+                          },
+                          "lineHeight": {
+                           "value": 18.0,
+                           "units": "PIXELS"
+                          },
+                          "letterSpacing": {
+                           "value": 0.0,
+                           "units": "PERCENT"
+                          },
+                          "alignH": "CENTER",
+                          "alignV": "TOP",
+                          "case": null,
+                          "decoration": null,
+                          "autoResize": "WIDTH_AND_HEIGHT"
+                         }
+                        }
                        ]
                       },
                       {
@@ -3942,6 +6632,86 @@
                         {
                          "type": "SOLID",
                          "color": "#C8C8C8"
+                        }
+                       ],
+                       "children": [
+                        {
+                         "name": "Verify badge",
+                         "type": "INSTANCE",
+                         "x": 8.0,
+                         "y": 3.0,
+                         "w": 16.0,
+                         "h": 16.0,
+                         "visible": false,
+                         "strokeWeight": 1.0,
+                         "strokeAlign": "INSIDE",
+                         "children": [
+                          {
+                           "name": "Vector",
+                           "type": "VECTOR",
+                           "x": 0.5,
+                           "y": 0.5,
+                           "w": 14.995170593261719,
+                           "h": 14.997437477111816,
+                           "strokeWeight": 32.0,
+                           "strokeAlign": "INSIDE",
+                           "horizontalConstraint": "SCALE",
+                           "verticalConstraint": "SCALE",
+                           "fills": [
+                            {
+                             "type": "GRADIENT_LINEAR",
+                             "stops": [
+                              {
+                               "pos": 0.0,
+                               "color": "#9951FF"
+                              },
+                              {
+                               "pos": 1.0,
+                               "color": "#11BFCE"
+                              }
+                             ]
+                            }
+                           ]
+                          }
+                         ]
+                        },
+                        {
+                         "name": "Role text",
+                         "type": "TEXT",
+                         "x": 8.0,
+                         "y": 2.0,
+                         "w": 39.0,
+                         "h": 18.0,
+                         "strokeWeight": 1.0,
+                         "strokeAlign": "OUTSIDE",
+                         "fills": [
+                          {
+                           "type": "SOLID",
+                           "color": "#121212"
+                          }
+                         ],
+                         "text": {
+                          "characters": "Default",
+                          "fontSize": 12.0,
+                          "font": {
+                           "family": "Roboto",
+                           "style": "Bold",
+                           "postscript": "Roboto-Bold"
+                          },
+                          "lineHeight": {
+                           "value": 18.0,
+                           "units": "PIXELS"
+                          },
+                          "letterSpacing": {
+                           "value": 0.0,
+                           "units": "PERCENT"
+                          },
+                          "alignH": "CENTER",
+                          "alignV": "TOP",
+                          "case": null,
+                          "decoration": null,
+                          "autoResize": "WIDTH_AND_HEIGHT"
+                         }
                         }
                        ]
                       },
@@ -3978,6 +6748,46 @@
                          "type": "SOLID",
                          "color": "#8B5ECB"
                         }
+                       ],
+                       "children": [
+                        {
+                         "name": "Mental support",
+                         "type": "TEXT",
+                         "x": 4.0,
+                         "y": 4.0,
+                         "w": 35.0,
+                         "h": 18.0,
+                         "strokeWeight": 1.0,
+                         "strokeAlign": "OUTSIDE",
+                         "fills": [
+                          {
+                           "type": "SOLID",
+                           "color": "#1999A4"
+                          }
+                         ],
+                         "text": {
+                          "characters": "Online",
+                          "fontSize": 12.0,
+                          "font": {
+                           "family": "Roboto",
+                           "style": "SemiBold",
+                           "postscript": "Roboto-SemiBold"
+                          },
+                          "lineHeight": {
+                           "value": 18.0,
+                           "units": "PIXELS"
+                          },
+                          "letterSpacing": {
+                           "value": 0.0,
+                           "units": "PERCENT"
+                          },
+                          "alignH": null,
+                          "alignV": "TOP",
+                          "case": null,
+                          "decoration": null,
+                          "autoResize": "WIDTH_AND_HEIGHT"
+                         }
+                        }
                        ]
                       }
                      ]
@@ -3994,7 +6804,27 @@
                  "w": 20.0,
                  "h": 20.0,
                  "strokeWeight": 1.0,
-                 "strokeAlign": "INSIDE"
+                 "strokeAlign": "INSIDE",
+                 "children": [
+                  {
+                   "name": "Vector",
+                   "type": "VECTOR",
+                   "x": 5.83,
+                   "y": 2.5,
+                   "w": 8.333333015441895,
+                   "h": 15.0,
+                   "strokeWeight": 1.5,
+                   "strokeAlign": "CENTER",
+                   "horizontalConstraint": "SCALE",
+                   "verticalConstraint": "SCALE",
+                   "fills": [
+                    {
+                     "type": "SOLID",
+                     "color": "#1999A4"
+                    }
+                   ]
+                  }
+                 ]
                 }
                ]
               }
@@ -4055,7 +6885,47 @@
                  "stackSpacing": 4.0,
                  "stackCounterAlignItems": "CENTER",
                  "stackCounterSizing": "RESIZE_TO_FIT_WITH_IMPLICIT_SIZE",
-                 "frameMaskDisabled": true
+                 "frameMaskDisabled": true,
+                 "children": [
+                  {
+                   "name": "Link text",
+                   "type": "TEXT",
+                   "x": 0.0,
+                   "y": 0.0,
+                   "w": 32.0,
+                   "h": 22.0,
+                   "strokeWeight": 1.0,
+                   "strokeAlign": "OUTSIDE",
+                   "fills": [
+                    {
+                     "type": "SOLID",
+                     "color": "#1999A4"
+                    }
+                   ],
+                   "text": {
+                    "characters": "Skip",
+                    "fontSize": 16.0,
+                    "font": {
+                     "family": "Roboto",
+                     "style": "Medium",
+                     "postscript": "Roboto-Medium"
+                    },
+                    "lineHeight": {
+                     "value": 22.0,
+                     "units": "PIXELS"
+                    },
+                    "letterSpacing": {
+                     "value": 0.0,
+                     "units": "PERCENT"
+                    },
+                    "alignH": "CENTER",
+                    "alignV": "TOP",
+                    "case": null,
+                    "decoration": "UNDERLINE",
+                    "autoResize": "WIDTH_AND_HEIGHT"
+                   }
+                  }
+                 ]
                 },
                 {
                  "name": "Button",
@@ -4070,7 +6940,85 @@
                  "stackPrimarySizing": "FIXED",
                  "stackCounterSizing": "RESIZE_TO_FIT_WITH_IMPLICIT_SIZE",
                  "stackChildPrimaryGrow": 1.0,
-                 "frameMaskDisabled": true
+                 "frameMaskDisabled": true,
+                 "children": [
+                  {
+                   "name": "Base button/Primary",
+                   "type": "FRAME",
+                   "x": 0.0,
+                   "y": 0.0,
+                   "w": 241.0,
+                   "h": 36.0,
+                   "rectangleTopLeftCornerRadius": 8.0,
+                   "rectangleTopRightCornerRadius": 8.0,
+                   "rectangleBottomLeftCornerRadius": 8.0,
+                   "rectangleBottomRightCornerRadius": 8.0,
+                   "strokeWeight": 1.0,
+                   "strokeAlign": "INSIDE",
+                   "stackMode": "HORIZONTAL",
+                   "stackSpacing": 8.0,
+                   "stackPaddingRight": 16.0,
+                   "stackPaddingBottom": 7.0,
+                   "stackPrimaryAlignItems": "CENTER",
+                   "stackCounterAlignItems": "CENTER",
+                   "stackPrimarySizing": "FIXED",
+                   "stackCounterSizing": "RESIZE_TO_FIT_WITH_IMPLICIT_SIZE",
+                   "stackChildPrimaryGrow": 1.0,
+                   "frameMaskDisabled": true,
+                   "fills": [
+                    {
+                     "type": "SOLID",
+                     "color": "#FFFFFF"
+                    }
+                   ],
+                   "strokes": [
+                    {
+                     "type": "SOLID",
+                     "color": "#1999A4"
+                    }
+                   ],
+                   "children": [
+                    {
+                     "name": "Button text",
+                     "type": "TEXT",
+                     "x": 71.5,
+                     "y": 7.0,
+                     "w": 98.0,
+                     "h": 22.0,
+                     "strokeWeight": 1.0,
+                     "strokeAlign": "OUTSIDE",
+                     "fills": [
+                      {
+                       "type": "SOLID",
+                       "color": "#1999A4"
+                      }
+                     ],
+                     "text": {
+                      "characters": "Button text",
+                      "fontSize": 16.0,
+                      "font": {
+                       "family": "Roboto",
+                       "style": "SemiBold",
+                       "postscript": "Roboto-SemiBold"
+                      },
+                      "lineHeight": {
+                       "value": 22.0,
+                       "units": "PIXELS"
+                      },
+                      "letterSpacing": {
+                       "value": 0.0,
+                       "units": "PERCENT"
+                      },
+                      "alignH": "CENTER",
+                      "alignV": "TOP",
+                      "case": null,
+                      "decoration": null,
+                      "autoResize": "WIDTH_AND_HEIGHT"
+                     }
+                    }
+                   ]
+                  }
+                 ]
                 }
                ]
               }
@@ -4407,6 +7355,86 @@
                        "type": "SOLID",
                        "color": "#C8C8C8"
                       }
+                     ],
+                     "children": [
+                      {
+                       "name": "Verify badge",
+                       "type": "INSTANCE",
+                       "x": 8.0,
+                       "y": 3.0,
+                       "w": 16.0,
+                       "h": 16.0,
+                       "visible": false,
+                       "strokeWeight": 1.0,
+                       "strokeAlign": "INSIDE",
+                       "children": [
+                        {
+                         "name": "Vector",
+                         "type": "VECTOR",
+                         "x": 0.5,
+                         "y": 0.5,
+                         "w": 14.995170593261719,
+                         "h": 14.997437477111816,
+                         "strokeWeight": 32.0,
+                         "strokeAlign": "INSIDE",
+                         "horizontalConstraint": "SCALE",
+                         "verticalConstraint": "SCALE",
+                         "fills": [
+                          {
+                           "type": "GRADIENT_LINEAR",
+                           "stops": [
+                            {
+                             "pos": 0.0,
+                             "color": "#9951FF"
+                            },
+                            {
+                             "pos": 1.0,
+                             "color": "#11BFCE"
+                            }
+                           ]
+                          }
+                         ]
+                        }
+                       ]
+                      },
+                      {
+                       "name": "Role text",
+                       "type": "TEXT",
+                       "x": 8.0,
+                       "y": 2.0,
+                       "w": 54.0,
+                       "h": 18.0,
+                       "strokeWeight": 1.0,
+                       "strokeAlign": "OUTSIDE",
+                       "fills": [
+                        {
+                         "type": "SOLID",
+                         "color": "#121212"
+                        }
+                       ],
+                       "text": {
+                        "characters": "Follow-up",
+                        "fontSize": 12.0,
+                        "font": {
+                         "family": "Roboto",
+                         "style": "Bold",
+                         "postscript": "Roboto-Bold"
+                        },
+                        "lineHeight": {
+                         "value": 18.0,
+                         "units": "PIXELS"
+                        },
+                        "letterSpacing": {
+                         "value": 0.0,
+                         "units": "PERCENT"
+                        },
+                        "alignH": "CENTER",
+                        "alignV": "TOP",
+                        "case": null,
+                        "decoration": null,
+                        "autoResize": "WIDTH_AND_HEIGHT"
+                       }
+                      }
                      ]
                     },
                     {
@@ -4439,6 +7467,86 @@
                       {
                        "type": "SOLID",
                        "color": "#C8C8C8"
+                      }
+                     ],
+                     "children": [
+                      {
+                       "name": "Verify badge",
+                       "type": "INSTANCE",
+                       "x": 8.0,
+                       "y": 3.0,
+                       "w": 16.0,
+                       "h": 16.0,
+                       "visible": false,
+                       "strokeWeight": 1.0,
+                       "strokeAlign": "INSIDE",
+                       "children": [
+                        {
+                         "name": "Vector",
+                         "type": "VECTOR",
+                         "x": 0.5,
+                         "y": 0.5,
+                         "w": 14.995170593261719,
+                         "h": 14.997437477111816,
+                         "strokeWeight": 32.0,
+                         "strokeAlign": "INSIDE",
+                         "horizontalConstraint": "SCALE",
+                         "verticalConstraint": "SCALE",
+                         "fills": [
+                          {
+                           "type": "GRADIENT_LINEAR",
+                           "stops": [
+                            {
+                             "pos": 0.0,
+                             "color": "#9951FF"
+                            },
+                            {
+                             "pos": 1.0,
+                             "color": "#11BFCE"
+                            }
+                           ]
+                          }
+                         ]
+                        }
+                       ]
+                      },
+                      {
+                       "name": "Role text",
+                       "type": "TEXT",
+                       "x": 8.0,
+                       "y": 2.0,
+                       "w": 39.0,
+                       "h": 18.0,
+                       "strokeWeight": 1.0,
+                       "strokeAlign": "OUTSIDE",
+                       "fills": [
+                        {
+                         "type": "SOLID",
+                         "color": "#121212"
+                        }
+                       ],
+                       "text": {
+                        "characters": "Default",
+                        "fontSize": 12.0,
+                        "font": {
+                         "family": "Roboto",
+                         "style": "Bold",
+                         "postscript": "Roboto-Bold"
+                        },
+                        "lineHeight": {
+                         "value": 18.0,
+                         "units": "PIXELS"
+                        },
+                        "letterSpacing": {
+                         "value": 0.0,
+                         "units": "PERCENT"
+                        },
+                        "alignH": "CENTER",
+                        "alignV": "TOP",
+                        "case": null,
+                        "decoration": null,
+                        "autoResize": "WIDTH_AND_HEIGHT"
+                       }
                       }
                      ]
                     },
@@ -4475,6 +7583,46 @@
                        "type": "SOLID",
                        "color": "#8B5ECB"
                       }
+                     ],
+                     "children": [
+                      {
+                       "name": "Mental support",
+                       "type": "TEXT",
+                       "x": 4.0,
+                       "y": 4.0,
+                       "w": 35.0,
+                       "h": 18.0,
+                       "strokeWeight": 1.0,
+                       "strokeAlign": "OUTSIDE",
+                       "fills": [
+                        {
+                         "type": "SOLID",
+                         "color": "#1999A4"
+                        }
+                       ],
+                       "text": {
+                        "characters": "Online",
+                        "fontSize": 12.0,
+                        "font": {
+                         "family": "Roboto",
+                         "style": "SemiBold",
+                         "postscript": "Roboto-SemiBold"
+                        },
+                        "lineHeight": {
+                         "value": 18.0,
+                         "units": "PIXELS"
+                        },
+                        "letterSpacing": {
+                         "value": 0.0,
+                         "units": "PERCENT"
+                        },
+                        "alignH": null,
+                        "alignV": "TOP",
+                        "case": null,
+                        "decoration": null,
+                        "autoResize": "WIDTH_AND_HEIGHT"
+                       }
+                      }
                      ]
                     }
                    ]
@@ -4489,7 +7637,27 @@
                  "w": 20.0,
                  "h": 20.0,
                  "strokeWeight": 1.0,
-                 "strokeAlign": "INSIDE"
+                 "strokeAlign": "INSIDE",
+                 "children": [
+                  {
+                   "name": "Vector",
+                   "type": "VECTOR",
+                   "x": 5.83,
+                   "y": 2.5,
+                   "w": 8.333333015441895,
+                   "h": 15.0,
+                   "strokeWeight": 1.5,
+                   "strokeAlign": "CENTER",
+                   "horizontalConstraint": "SCALE",
+                   "verticalConstraint": "SCALE",
+                   "fills": [
+                    {
+                     "type": "SOLID",
+                     "color": "#1999A4"
+                    }
+                   ]
+                  }
+                 ]
                 }
                ]
               }
@@ -4550,7 +7718,47 @@
                  "stackSpacing": 4.0,
                  "stackCounterAlignItems": "CENTER",
                  "stackCounterSizing": "RESIZE_TO_FIT_WITH_IMPLICIT_SIZE",
-                 "frameMaskDisabled": true
+                 "frameMaskDisabled": true,
+                 "children": [
+                  {
+                   "name": "Link text",
+                   "type": "TEXT",
+                   "x": 0.0,
+                   "y": 0.0,
+                   "w": 32.0,
+                   "h": 22.0,
+                   "strokeWeight": 1.0,
+                   "strokeAlign": "OUTSIDE",
+                   "fills": [
+                    {
+                     "type": "SOLID",
+                     "color": "#1999A4"
+                    }
+                   ],
+                   "text": {
+                    "characters": "Skip",
+                    "fontSize": 16.0,
+                    "font": {
+                     "family": "Roboto",
+                     "style": "Medium",
+                     "postscript": "Roboto-Medium"
+                    },
+                    "lineHeight": {
+                     "value": 22.0,
+                     "units": "PIXELS"
+                    },
+                    "letterSpacing": {
+                     "value": 0.0,
+                     "units": "PERCENT"
+                    },
+                    "alignH": "CENTER",
+                    "alignV": "TOP",
+                    "case": null,
+                    "decoration": "UNDERLINE",
+                    "autoResize": "WIDTH_AND_HEIGHT"
+                   }
+                  }
+                 ]
                 },
                 {
                  "name": "Button",
@@ -4565,7 +7773,85 @@
                  "stackPrimarySizing": "FIXED",
                  "stackCounterSizing": "RESIZE_TO_FIT_WITH_IMPLICIT_SIZE",
                  "stackChildPrimaryGrow": 1.0,
-                 "frameMaskDisabled": true
+                 "frameMaskDisabled": true,
+                 "children": [
+                  {
+                   "name": "Base button/Primary",
+                   "type": "FRAME",
+                   "x": 0.0,
+                   "y": 0.0,
+                   "w": 237.0,
+                   "h": 36.0,
+                   "rectangleTopLeftCornerRadius": 8.0,
+                   "rectangleTopRightCornerRadius": 8.0,
+                   "rectangleBottomLeftCornerRadius": 8.0,
+                   "rectangleBottomRightCornerRadius": 8.0,
+                   "strokeWeight": 1.0,
+                   "strokeAlign": "INSIDE",
+                   "stackMode": "HORIZONTAL",
+                   "stackSpacing": 8.0,
+                   "stackPaddingRight": 16.0,
+                   "stackPaddingBottom": 7.0,
+                   "stackPrimaryAlignItems": "CENTER",
+                   "stackCounterAlignItems": "CENTER",
+                   "stackPrimarySizing": "FIXED",
+                   "stackCounterSizing": "RESIZE_TO_FIT_WITH_IMPLICIT_SIZE",
+                   "stackChildPrimaryGrow": 1.0,
+                   "frameMaskDisabled": true,
+                   "fills": [
+                    {
+                     "type": "SOLID",
+                     "color": "#FFFFFF"
+                    }
+                   ],
+                   "strokes": [
+                    {
+                     "type": "SOLID",
+                     "color": "#1999A4"
+                    }
+                   ],
+                   "children": [
+                    {
+                     "name": "Button text",
+                     "type": "TEXT",
+                     "x": 85.0,
+                     "y": 7.0,
+                     "w": 67.0,
+                     "h": 22.0,
+                     "strokeWeight": 1.0,
+                     "strokeAlign": "OUTSIDE",
+                     "fills": [
+                      {
+                       "type": "SOLID",
+                       "color": "#1999A4"
+                      }
+                     ],
+                     "text": {
+                      "characters": "Button text",
+                      "fontSize": 16.0,
+                      "font": {
+                       "family": "Roboto",
+                       "style": "SemiBold",
+                       "postscript": "Roboto-SemiBold"
+                      },
+                      "lineHeight": {
+                       "value": 22.0,
+                       "units": "PIXELS"
+                      },
+                      "letterSpacing": {
+                       "value": 0.0,
+                       "units": "PERCENT"
+                      },
+                      "alignH": "CENTER",
+                      "alignV": "TOP",
+                      "case": null,
+                      "decoration": null,
+                      "autoResize": "WIDTH_AND_HEIGHT"
+                     }
+                    }
+                   ]
+                  }
+                 ]
                 }
                ]
               }
@@ -4940,6 +8226,86 @@
                          "type": "SOLID",
                          "color": "#C8C8C8"
                         }
+                       ],
+                       "children": [
+                        {
+                         "name": "Verify badge",
+                         "type": "INSTANCE",
+                         "x": 8.0,
+                         "y": 3.0,
+                         "w": 16.0,
+                         "h": 16.0,
+                         "visible": false,
+                         "strokeWeight": 1.0,
+                         "strokeAlign": "INSIDE",
+                         "children": [
+                          {
+                           "name": "Vector",
+                           "type": "VECTOR",
+                           "x": 0.5,
+                           "y": 0.5,
+                           "w": 14.995170593261719,
+                           "h": 14.997437477111816,
+                           "strokeWeight": 32.0,
+                           "strokeAlign": "INSIDE",
+                           "horizontalConstraint": "SCALE",
+                           "verticalConstraint": "SCALE",
+                           "fills": [
+                            {
+                             "type": "GRADIENT_LINEAR",
+                             "stops": [
+                              {
+                               "pos": 0.0,
+                               "color": "#9951FF"
+                              },
+                              {
+                               "pos": 1.0,
+                               "color": "#11BFCE"
+                              }
+                             ]
+                            }
+                           ]
+                          }
+                         ]
+                        },
+                        {
+                         "name": "Role text",
+                         "type": "TEXT",
+                         "x": 8.0,
+                         "y": 2.0,
+                         "w": 54.0,
+                         "h": 18.0,
+                         "strokeWeight": 1.0,
+                         "strokeAlign": "OUTSIDE",
+                         "fills": [
+                          {
+                           "type": "SOLID",
+                           "color": "#121212"
+                          }
+                         ],
+                         "text": {
+                          "characters": "Follow-up",
+                          "fontSize": 12.0,
+                          "font": {
+                           "family": "Roboto",
+                           "style": "Bold",
+                           "postscript": "Roboto-Bold"
+                          },
+                          "lineHeight": {
+                           "value": 18.0,
+                           "units": "PIXELS"
+                          },
+                          "letterSpacing": {
+                           "value": 0.0,
+                           "units": "PERCENT"
+                          },
+                          "alignH": "CENTER",
+                          "alignV": "TOP",
+                          "case": null,
+                          "decoration": null,
+                          "autoResize": "WIDTH_AND_HEIGHT"
+                         }
+                        }
                        ]
                       },
                       {
@@ -4972,6 +8338,86 @@
                         {
                          "type": "SOLID",
                          "color": "#C8C8C8"
+                        }
+                       ],
+                       "children": [
+                        {
+                         "name": "Verify badge",
+                         "type": "INSTANCE",
+                         "x": 8.0,
+                         "y": 3.0,
+                         "w": 16.0,
+                         "h": 16.0,
+                         "visible": false,
+                         "strokeWeight": 1.0,
+                         "strokeAlign": "INSIDE",
+                         "children": [
+                          {
+                           "name": "Vector",
+                           "type": "VECTOR",
+                           "x": 0.5,
+                           "y": 0.5,
+                           "w": 14.995170593261719,
+                           "h": 14.997437477111816,
+                           "strokeWeight": 32.0,
+                           "strokeAlign": "INSIDE",
+                           "horizontalConstraint": "SCALE",
+                           "verticalConstraint": "SCALE",
+                           "fills": [
+                            {
+                             "type": "GRADIENT_LINEAR",
+                             "stops": [
+                              {
+                               "pos": 0.0,
+                               "color": "#9951FF"
+                              },
+                              {
+                               "pos": 1.0,
+                               "color": "#11BFCE"
+                              }
+                             ]
+                            }
+                           ]
+                          }
+                         ]
+                        },
+                        {
+                         "name": "Role text",
+                         "type": "TEXT",
+                         "x": 8.0,
+                         "y": 2.0,
+                         "w": 39.0,
+                         "h": 18.0,
+                         "strokeWeight": 1.0,
+                         "strokeAlign": "OUTSIDE",
+                         "fills": [
+                          {
+                           "type": "SOLID",
+                           "color": "#121212"
+                          }
+                         ],
+                         "text": {
+                          "characters": "Default",
+                          "fontSize": 12.0,
+                          "font": {
+                           "family": "Roboto",
+                           "style": "Bold",
+                           "postscript": "Roboto-Bold"
+                          },
+                          "lineHeight": {
+                           "value": 18.0,
+                           "units": "PIXELS"
+                          },
+                          "letterSpacing": {
+                           "value": 0.0,
+                           "units": "PERCENT"
+                          },
+                          "alignH": "CENTER",
+                          "alignV": "TOP",
+                          "case": null,
+                          "decoration": null,
+                          "autoResize": "WIDTH_AND_HEIGHT"
+                         }
                         }
                        ]
                       },
@@ -5008,6 +8454,46 @@
                          "type": "SOLID",
                          "color": "#8B5ECB"
                         }
+                       ],
+                       "children": [
+                        {
+                         "name": "Mental support",
+                         "type": "TEXT",
+                         "x": 4.0,
+                         "y": 4.0,
+                         "w": 35.0,
+                         "h": 18.0,
+                         "strokeWeight": 1.0,
+                         "strokeAlign": "OUTSIDE",
+                         "fills": [
+                          {
+                           "type": "SOLID",
+                           "color": "#1999A4"
+                          }
+                         ],
+                         "text": {
+                          "characters": "Online",
+                          "fontSize": 12.0,
+                          "font": {
+                           "family": "Roboto",
+                           "style": "SemiBold",
+                           "postscript": "Roboto-SemiBold"
+                          },
+                          "lineHeight": {
+                           "value": 18.0,
+                           "units": "PIXELS"
+                          },
+                          "letterSpacing": {
+                           "value": 0.0,
+                           "units": "PERCENT"
+                          },
+                          "alignH": null,
+                          "alignV": "TOP",
+                          "case": null,
+                          "decoration": null,
+                          "autoResize": "WIDTH_AND_HEIGHT"
+                         }
+                        }
                        ]
                       }
                      ]
@@ -5024,7 +8510,27 @@
                  "w": 20.0,
                  "h": 20.0,
                  "strokeWeight": 1.0,
-                 "strokeAlign": "INSIDE"
+                 "strokeAlign": "INSIDE",
+                 "children": [
+                  {
+                   "name": "Vector",
+                   "type": "VECTOR",
+                   "x": 5.83,
+                   "y": 2.5,
+                   "w": 8.333333015441895,
+                   "h": 15.0,
+                   "strokeWeight": 1.5,
+                   "strokeAlign": "CENTER",
+                   "horizontalConstraint": "SCALE",
+                   "verticalConstraint": "SCALE",
+                   "fills": [
+                    {
+                     "type": "SOLID",
+                     "color": "#1999A4"
+                    }
+                   ]
+                  }
+                 ]
                 }
                ]
               }
@@ -5085,7 +8591,47 @@
                  "stackSpacing": 4.0,
                  "stackCounterAlignItems": "CENTER",
                  "stackCounterSizing": "RESIZE_TO_FIT_WITH_IMPLICIT_SIZE",
-                 "frameMaskDisabled": true
+                 "frameMaskDisabled": true,
+                 "children": [
+                  {
+                   "name": "Link text",
+                   "type": "TEXT",
+                   "x": 0.0,
+                   "y": 0.0,
+                   "w": 32.0,
+                   "h": 22.0,
+                   "strokeWeight": 1.0,
+                   "strokeAlign": "OUTSIDE",
+                   "fills": [
+                    {
+                     "type": "SOLID",
+                     "color": "#1999A4"
+                    }
+                   ],
+                   "text": {
+                    "characters": "Skip",
+                    "fontSize": 16.0,
+                    "font": {
+                     "family": "Roboto",
+                     "style": "Medium",
+                     "postscript": "Roboto-Medium"
+                    },
+                    "lineHeight": {
+                     "value": 22.0,
+                     "units": "PIXELS"
+                    },
+                    "letterSpacing": {
+                     "value": 0.0,
+                     "units": "PERCENT"
+                    },
+                    "alignH": "CENTER",
+                    "alignV": "TOP",
+                    "case": null,
+                    "decoration": "UNDERLINE",
+                    "autoResize": "WIDTH_AND_HEIGHT"
+                   }
+                  }
+                 ]
                 },
                 {
                  "name": "Button",
@@ -5100,7 +8646,85 @@
                  "stackPrimarySizing": "FIXED",
                  "stackCounterSizing": "RESIZE_TO_FIT_WITH_IMPLICIT_SIZE",
                  "stackChildPrimaryGrow": 1.0,
-                 "frameMaskDisabled": true
+                 "frameMaskDisabled": true,
+                 "children": [
+                  {
+                   "name": "Base button/Primary",
+                   "type": "FRAME",
+                   "x": 0.0,
+                   "y": 0.0,
+                   "w": 241.0,
+                   "h": 36.0,
+                   "rectangleTopLeftCornerRadius": 8.0,
+                   "rectangleTopRightCornerRadius": 8.0,
+                   "rectangleBottomLeftCornerRadius": 8.0,
+                   "rectangleBottomRightCornerRadius": 8.0,
+                   "strokeWeight": 1.0,
+                   "strokeAlign": "INSIDE",
+                   "stackMode": "HORIZONTAL",
+                   "stackSpacing": 8.0,
+                   "stackPaddingRight": 16.0,
+                   "stackPaddingBottom": 7.0,
+                   "stackPrimaryAlignItems": "CENTER",
+                   "stackCounterAlignItems": "CENTER",
+                   "stackPrimarySizing": "FIXED",
+                   "stackCounterSizing": "RESIZE_TO_FIT_WITH_IMPLICIT_SIZE",
+                   "stackChildPrimaryGrow": 1.0,
+                   "frameMaskDisabled": true,
+                   "fills": [
+                    {
+                     "type": "SOLID",
+                     "color": "#FFFFFF"
+                    }
+                   ],
+                   "strokes": [
+                    {
+                     "type": "SOLID",
+                     "color": "#1999A4"
+                    }
+                   ],
+                   "children": [
+                    {
+                     "name": "Button text",
+                     "type": "TEXT",
+                     "x": 71.5,
+                     "y": 7.0,
+                     "w": 98.0,
+                     "h": 22.0,
+                     "strokeWeight": 1.0,
+                     "strokeAlign": "OUTSIDE",
+                     "fills": [
+                      {
+                       "type": "SOLID",
+                       "color": "#1999A4"
+                      }
+                     ],
+                     "text": {
+                      "characters": "Button text",
+                      "fontSize": 16.0,
+                      "font": {
+                       "family": "Roboto",
+                       "style": "SemiBold",
+                       "postscript": "Roboto-SemiBold"
+                      },
+                      "lineHeight": {
+                       "value": 22.0,
+                       "units": "PIXELS"
+                      },
+                      "letterSpacing": {
+                       "value": 0.0,
+                       "units": "PERCENT"
+                      },
+                      "alignH": "CENTER",
+                      "alignV": "TOP",
+                      "case": null,
+                      "decoration": null,
+                      "autoResize": "WIDTH_AND_HEIGHT"
+                     }
+                    }
+                   ]
+                  }
+                 ]
                 }
                ]
               }
@@ -5327,6 +8951,86 @@
                        "type": "SOLID",
                        "color": "#C8C8C8"
                       }
+                     ],
+                     "children": [
+                      {
+                       "name": "Verify badge",
+                       "type": "INSTANCE",
+                       "x": 8.0,
+                       "y": 3.0,
+                       "w": 16.0,
+                       "h": 16.0,
+                       "visible": false,
+                       "strokeWeight": 1.0,
+                       "strokeAlign": "INSIDE",
+                       "children": [
+                        {
+                         "name": "Vector",
+                         "type": "VECTOR",
+                         "x": 0.5,
+                         "y": 0.5,
+                         "w": 14.995170593261719,
+                         "h": 14.997437477111816,
+                         "strokeWeight": 32.0,
+                         "strokeAlign": "INSIDE",
+                         "horizontalConstraint": "SCALE",
+                         "verticalConstraint": "SCALE",
+                         "fills": [
+                          {
+                           "type": "GRADIENT_LINEAR",
+                           "stops": [
+                            {
+                             "pos": 0.0,
+                             "color": "#9951FF"
+                            },
+                            {
+                             "pos": 1.0,
+                             "color": "#11BFCE"
+                            }
+                           ]
+                          }
+                         ]
+                        }
+                       ]
+                      },
+                      {
+                       "name": "Role text",
+                       "type": "TEXT",
+                       "x": 8.0,
+                       "y": 2.0,
+                       "w": 54.0,
+                       "h": 18.0,
+                       "strokeWeight": 1.0,
+                       "strokeAlign": "OUTSIDE",
+                       "fills": [
+                        {
+                         "type": "SOLID",
+                         "color": "#121212"
+                        }
+                       ],
+                       "text": {
+                        "characters": "Follow-up",
+                        "fontSize": 12.0,
+                        "font": {
+                         "family": "Roboto",
+                         "style": "Bold",
+                         "postscript": "Roboto-Bold"
+                        },
+                        "lineHeight": {
+                         "value": 18.0,
+                         "units": "PIXELS"
+                        },
+                        "letterSpacing": {
+                         "value": 0.0,
+                         "units": "PERCENT"
+                        },
+                        "alignH": "CENTER",
+                        "alignV": "TOP",
+                        "case": null,
+                        "decoration": null,
+                        "autoResize": "WIDTH_AND_HEIGHT"
+                       }
+                      }
                      ]
                     },
                     {
@@ -5359,6 +9063,86 @@
                       {
                        "type": "SOLID",
                        "color": "#C8C8C8"
+                      }
+                     ],
+                     "children": [
+                      {
+                       "name": "Verify badge",
+                       "type": "INSTANCE",
+                       "x": 8.0,
+                       "y": 3.0,
+                       "w": 16.0,
+                       "h": 16.0,
+                       "visible": false,
+                       "strokeWeight": 1.0,
+                       "strokeAlign": "INSIDE",
+                       "children": [
+                        {
+                         "name": "Vector",
+                         "type": "VECTOR",
+                         "x": 0.5,
+                         "y": 0.5,
+                         "w": 14.995170593261719,
+                         "h": 14.997437477111816,
+                         "strokeWeight": 32.0,
+                         "strokeAlign": "INSIDE",
+                         "horizontalConstraint": "SCALE",
+                         "verticalConstraint": "SCALE",
+                         "fills": [
+                          {
+                           "type": "GRADIENT_LINEAR",
+                           "stops": [
+                            {
+                             "pos": 0.0,
+                             "color": "#9951FF"
+                            },
+                            {
+                             "pos": 1.0,
+                             "color": "#11BFCE"
+                            }
+                           ]
+                          }
+                         ]
+                        }
+                       ]
+                      },
+                      {
+                       "name": "Role text",
+                       "type": "TEXT",
+                       "x": 8.0,
+                       "y": 2.0,
+                       "w": 39.0,
+                       "h": 18.0,
+                       "strokeWeight": 1.0,
+                       "strokeAlign": "OUTSIDE",
+                       "fills": [
+                        {
+                         "type": "SOLID",
+                         "color": "#121212"
+                        }
+                       ],
+                       "text": {
+                        "characters": "Default",
+                        "fontSize": 12.0,
+                        "font": {
+                         "family": "Roboto",
+                         "style": "Bold",
+                         "postscript": "Roboto-Bold"
+                        },
+                        "lineHeight": {
+                         "value": 18.0,
+                         "units": "PIXELS"
+                        },
+                        "letterSpacing": {
+                         "value": 0.0,
+                         "units": "PERCENT"
+                        },
+                        "alignH": "CENTER",
+                        "alignV": "TOP",
+                        "case": null,
+                        "decoration": null,
+                        "autoResize": "WIDTH_AND_HEIGHT"
+                       }
                       }
                      ]
                     },
@@ -5395,6 +9179,46 @@
                        "type": "SOLID",
                        "color": "#8B5ECB"
                       }
+                     ],
+                     "children": [
+                      {
+                       "name": "Mental support",
+                       "type": "TEXT",
+                       "x": 4.0,
+                       "y": 4.0,
+                       "w": 35.0,
+                       "h": 18.0,
+                       "strokeWeight": 1.0,
+                       "strokeAlign": "OUTSIDE",
+                       "fills": [
+                        {
+                         "type": "SOLID",
+                         "color": "#1999A4"
+                        }
+                       ],
+                       "text": {
+                        "characters": "Online",
+                        "fontSize": 12.0,
+                        "font": {
+                         "family": "Roboto",
+                         "style": "SemiBold",
+                         "postscript": "Roboto-SemiBold"
+                        },
+                        "lineHeight": {
+                         "value": 18.0,
+                         "units": "PIXELS"
+                        },
+                        "letterSpacing": {
+                         "value": 0.0,
+                         "units": "PERCENT"
+                        },
+                        "alignH": null,
+                        "alignV": "TOP",
+                        "case": null,
+                        "decoration": null,
+                        "autoResize": "WIDTH_AND_HEIGHT"
+                       }
+                      }
                      ]
                     }
                    ]
@@ -5409,7 +9233,27 @@
                  "w": 20.0,
                  "h": 20.0,
                  "strokeWeight": 1.0,
-                 "strokeAlign": "INSIDE"
+                 "strokeAlign": "INSIDE",
+                 "children": [
+                  {
+                   "name": "Vector",
+                   "type": "VECTOR",
+                   "x": 5.83,
+                   "y": 2.5,
+                   "w": 8.333333015441895,
+                   "h": 15.0,
+                   "strokeWeight": 1.5,
+                   "strokeAlign": "CENTER",
+                   "horizontalConstraint": "SCALE",
+                   "verticalConstraint": "SCALE",
+                   "fills": [
+                    {
+                     "type": "SOLID",
+                     "color": "#1999A4"
+                    }
+                   ]
+                  }
+                 ]
                 }
                ]
               }

@@ -2,7 +2,7 @@
  "screen": "Create an account - Step 20",
  "texts": [
   {
-   "text": "Time",
+   "text": "9:41",
    "verified_by_ocr": true,
    "style": "Default/Body/Bold",
    "font_family": "SF Pro Text",
@@ -11,10 +11,12 @@
    "line_height": "22px",
    "letter_spacing": "-0.408px",
    "color": "#121212",
-   "text_align": "center"
+   "text_align": "center",
+   "layer_name": "Time",
+   "text_source": "figma_clipboard"
   },
   {
-   "text": "Link text",
+   "text": "Log in",
    "verified_by_ocr": false,
    "ocr_candidate": "Continue",
    "style": "Body L/Medium (Under)",
@@ -24,7 +26,9 @@
    "line_height": "22px",
    "letter_spacing": null,
    "color": "#1999A4",
-   "text_align": "center"
+   "text_align": "center",
+   "layer_name": "Link text",
+   "text_source": "figma_clipboard"
   },
   {
    "text": "Choose languages",
@@ -87,7 +91,7 @@
    "text_source": "figma_clipboard"
   },
   {
-   "text": "Label",
+   "text": "Label checkbox",
    "verified_by_ocr": false,
    "ocr_candidate": "‹ Choose languages",
    "style": "Body L/Regular",
@@ -97,10 +101,18 @@
    "line_height": "22px",
    "letter_spacing": null,
    "color": "#121212",
-   "text_align": null
+   "text_align": null,
+   "layer_name": "Label",
+   "text_source": "figma_clipboard"
   },
   {
-   "text": "No time",
+   "text": [
+    "粵語 (Cantonese)",
+    "普通话 (Mandarin)",
+    "English",
+    "Italiano (Italian)",
+    "Tiếng Việt (Vietnamese)"
+   ],
    "verified_by_ocr": false,
    "ocr_candidate": "Continue",
    "style": "Body L/Regular",
@@ -110,7 +122,9 @@
    "line_height": "22px",
    "letter_spacing": null,
    "color": "#121212",
-   "text_align": null
+   "text_align": null,
+   "layer_name": "No time",
+   "text_source": "figma_clipboard"
   },
   {
    "text": "Button text",
@@ -123,7 +137,9 @@
    "line_height": "22px",
    "letter_spacing": null,
    "color": "#FFFFFF",
-   "text_align": "center"
+   "text_align": "center",
+   "layer_name": "Button text",
+   "text_source": "figma_clipboard"
   },
   {
    "text": "Already have an account?",
@@ -206,6 +222,30 @@
  ],
  "texts_real": [
   {
+   "text": "9:41",
+   "layer": "Time",
+   "path": "Create an account - Step 20/Status Bar (iPhone)/🧰/Time (iPhone)/Time",
+   "x": 27.0,
+   "y": 18.0,
+   "w": 54.0,
+   "h": 22.0,
+   "font_family": "SF Pro Text",
+   "font_style": "Semibold",
+   "font_size": 17.0,
+   "line_height": {
+    "value": 22.0,
+    "units": "PIXELS"
+   },
+   "letter_spacing": {
+    "value": -0.40799999237060547,
+    "units": "PIXELS"
+   },
+   "align": "CENTER",
+   "color": "#121212",
+   "opacity": 1,
+   "ocr_confirmed": true
+  },
+  {
    "text": "Choose languages",
    "layer": "Language selection title",
    "path": "Create an account - Step 20/Footer Container/Language selection container/Language selection header/Language selection title",
@@ -226,7 +266,8 @@
    },
    "align": "CENTER",
    "color": "#121212",
-   "opacity": 1
+   "opacity": 1,
+   "ocr_confirmed": true
   },
   {
    "text": "Select the languages you want to use in the app. You can switch languages anytime in Settings.",
@@ -249,7 +290,8 @@
    },
    "align": "CENTER",
    "color": "#555555",
-   "opacity": 1
+   "opacity": 1,
+   "ocr_confirmed": true
   },
   {
    "text": "العربية ",
@@ -272,7 +314,8 @@
    },
    "align": null,
    "color": "#121212",
-   "opacity": 1
+   "opacity": 1,
+   "ocr_confirmed": false
   },
   {
    "text": "(Arabic)",
@@ -295,7 +338,296 @@
    },
    "align": null,
    "color": "#121212",
-   "opacity": 1
+   "opacity": 1,
+   "ocr_confirmed": false
+  },
+  {
+   "text": "Label checkbox",
+   "layer": "Label",
+   "path": "Create an account - Step 20/Footer Container/Language options container/Radio buton bar/Checkbox/Label",
+   "x": 335.0,
+   "y": 284.0,
+   "w": 111.0,
+   "h": 22.0,
+   "font_family": "Roboto",
+   "font_style": "Regular",
+   "font_size": 16.0,
+   "line_height": {
+    "value": 22.0,
+    "units": "PIXELS"
+   },
+   "letter_spacing": {
+    "value": 0.0,
+    "units": "PERCENT"
+   },
+   "align": null,
+   "color": "#121212",
+   "opacity": 1,
+   "ocr_confirmed": false
+  },
+  {
+   "text": "粵語 (Cantonese)",
+   "layer": "No time",
+   "path": "Create an account - Step 20/Footer Container/Language options container/Radio buton bar/No time",
+   "x": 48.0,
+   "y": 352.0,
+   "w": 239.0,
+   "h": 22.0,
+   "font_family": "Roboto",
+   "font_style": "Regular",
+   "font_size": 16.0,
+   "line_height": {
+    "value": 22.0,
+    "units": "PIXELS"
+   },
+   "letter_spacing": {
+    "value": 0.0,
+    "units": "PERCENT"
+   },
+   "align": null,
+   "color": "#121212",
+   "opacity": 1,
+   "ocr_confirmed": false
+  },
+  {
+   "text": "Label radio",
+   "layer": "Label radio",
+   "path": "Create an account - Step 20/Footer Container/Language options container/Radio buton bar/Radio Button/Label radio",
+   "x": 335.0,
+   "y": 352.0,
+   "w": 79.0,
+   "h": 22.0,
+   "font_family": "Roboto",
+   "font_style": "Regular",
+   "font_size": 16.0,
+   "line_height": {
+    "value": 22.0,
+    "units": "PIXELS"
+   },
+   "letter_spacing": {
+    "value": 0.0,
+    "units": "PERCENT"
+   },
+   "align": null,
+   "color": "#121212",
+   "opacity": 1,
+   "ocr_confirmed": false
+  },
+  {
+   "text": "普通话 (Mandarin)",
+   "layer": "No time",
+   "path": "Create an account - Step 20/Footer Container/Language options container/Radio buton bar/No time",
+   "x": 48.0,
+   "y": 420.0,
+   "w": 239.0,
+   "h": 22.0,
+   "font_family": "Roboto",
+   "font_style": "Regular",
+   "font_size": 16.0,
+   "line_height": {
+    "value": 22.0,
+    "units": "PIXELS"
+   },
+   "letter_spacing": {
+    "value": 0.0,
+    "units": "PERCENT"
+   },
+   "align": null,
+   "color": "#121212",
+   "opacity": 1,
+   "ocr_confirmed": false
+  },
+  {
+   "text": "Label radio",
+   "layer": "Label radio",
+   "path": "Create an account - Step 20/Footer Container/Language options container/Radio buton bar/Radio Button/Label radio",
+   "x": 335.0,
+   "y": 420.0,
+   "w": 79.0,
+   "h": 22.0,
+   "font_family": "Roboto",
+   "font_style": "Regular",
+   "font_size": 16.0,
+   "line_height": {
+    "value": 22.0,
+    "units": "PIXELS"
+   },
+   "letter_spacing": {
+    "value": 0.0,
+    "units": "PERCENT"
+   },
+   "align": null,
+   "color": "#121212",
+   "opacity": 1,
+   "ocr_confirmed": false
+  },
+  {
+   "text": "English",
+   "layer": "No time",
+   "path": "Create an account - Step 20/Footer Container/Language options container/Radio buton bar/No time",
+   "x": 48.0,
+   "y": 488.0,
+   "w": 239.0,
+   "h": 22.0,
+   "font_family": "Roboto",
+   "font_style": "Regular",
+   "font_size": 16.0,
+   "line_height": {
+    "value": 22.0,
+    "units": "PIXELS"
+   },
+   "letter_spacing": {
+    "value": 0.0,
+    "units": "PERCENT"
+   },
+   "align": null,
+   "color": "#121212",
+   "opacity": 1,
+   "ocr_confirmed": true
+  },
+  {
+   "text": "Label radio",
+   "layer": "Label radio",
+   "path": "Create an account - Step 20/Footer Container/Language options container/Radio buton bar/Radio Button/Label radio",
+   "x": 335.0,
+   "y": 488.0,
+   "w": 79.0,
+   "h": 22.0,
+   "font_family": "Roboto",
+   "font_style": "Regular",
+   "font_size": 16.0,
+   "line_height": {
+    "value": 22.0,
+    "units": "PIXELS"
+   },
+   "letter_spacing": {
+    "value": 0.0,
+    "units": "PERCENT"
+   },
+   "align": null,
+   "color": "#121212",
+   "opacity": 1,
+   "ocr_confirmed": false
+  },
+  {
+   "text": "Italiano (Italian)",
+   "layer": "No time",
+   "path": "Create an account - Step 20/Footer Container/Language options container/Radio buton bar/No time",
+   "x": 48.0,
+   "y": 556.0,
+   "w": 239.0,
+   "h": 22.0,
+   "font_family": "Roboto",
+   "font_style": "Regular",
+   "font_size": 16.0,
+   "line_height": {
+    "value": 22.0,
+    "units": "PIXELS"
+   },
+   "letter_spacing": {
+    "value": 0.0,
+    "units": "PERCENT"
+   },
+   "align": null,
+   "color": "#121212",
+   "opacity": 1,
+   "ocr_confirmed": true
+  },
+  {
+   "text": "Label radio",
+   "layer": "Label radio",
+   "path": "Create an account - Step 20/Footer Container/Language options container/Radio buton bar/Radio Button/Label radio",
+   "x": 335.0,
+   "y": 556.0,
+   "w": 79.0,
+   "h": 22.0,
+   "font_family": "Roboto",
+   "font_style": "Regular",
+   "font_size": 16.0,
+   "line_height": {
+    "value": 22.0,
+    "units": "PIXELS"
+   },
+   "letter_spacing": {
+    "value": 0.0,
+    "units": "PERCENT"
+   },
+   "align": null,
+   "color": "#121212",
+   "opacity": 1,
+   "ocr_confirmed": false
+  },
+  {
+   "text": "Tiếng Việt (Vietnamese)",
+   "layer": "No time",
+   "path": "Create an account - Step 20/Footer Container/Language options container/Radio buton bar/No time",
+   "x": 48.0,
+   "y": 624.0,
+   "w": 239.0,
+   "h": 22.0,
+   "font_family": "Roboto",
+   "font_style": "Regular",
+   "font_size": 16.0,
+   "line_height": {
+    "value": 22.0,
+    "units": "PIXELS"
+   },
+   "letter_spacing": {
+    "value": 0.0,
+    "units": "PERCENT"
+   },
+   "align": null,
+   "color": "#121212",
+   "opacity": 1,
+   "ocr_confirmed": true
+  },
+  {
+   "text": "Label radio",
+   "layer": "Label radio",
+   "path": "Create an account - Step 20/Footer Container/Language options container/Radio buton bar/Radio Button/Label radio",
+   "x": 335.0,
+   "y": 624.0,
+   "w": 79.0,
+   "h": 22.0,
+   "font_family": "Roboto",
+   "font_style": "Regular",
+   "font_size": 16.0,
+   "line_height": {
+    "value": 22.0,
+    "units": "PIXELS"
+   },
+   "letter_spacing": {
+    "value": 0.0,
+    "units": "PERCENT"
+   },
+   "align": null,
+   "color": "#121212",
+   "opacity": 1,
+   "ocr_confirmed": false
+  },
+  {
+   "text": "Button text",
+   "layer": "Button text",
+   "path": "Create an account - Step 20/Footer Container/Footer/Button container/Button/Base button/Primary/Button text",
+   "x": 155.0,
+   "y": 711.0,
+   "w": 65.0,
+   "h": 22.0,
+   "font_family": "Roboto",
+   "font_style": "SemiBold",
+   "font_size": 16.0,
+   "line_height": {
+    "value": 22.0,
+    "units": "PIXELS"
+   },
+   "letter_spacing": {
+    "value": 0.0,
+    "units": "PERCENT"
+   },
+   "align": "CENTER",
+   "color": "#FFFFFF",
+   "opacity": 1,
+   "ocr_confirmed": false
   },
   {
    "text": "Already have an account?",
@@ -318,7 +650,32 @@
    },
    "align": null,
    "color": "#121212",
-   "opacity": 1
+   "opacity": 1,
+   "ocr_confirmed": true
+  },
+  {
+   "text": "Log in",
+   "layer": "Link text",
+   "path": "Create an account - Step 20/Footer Container/Footer/Login prompt/Link/Link text",
+   "x": 250.5,
+   "y": 773.0,
+   "w": 44.0,
+   "h": 22.0,
+   "font_family": "Roboto",
+   "font_style": "Medium",
+   "font_size": 16.0,
+   "line_height": {
+    "value": 22.0,
+    "units": "PIXELS"
+   },
+   "letter_spacing": {
+    "value": 0.0,
+    "units": "PERCENT"
+   },
+   "align": "CENTER",
+   "color": "#1999A4",
+   "opacity": 1,
+   "ocr_confirmed": true
   },
   {
    "text": "Step 4:",
@@ -341,7 +698,8 @@
    },
    "align": null,
    "color": "#121212",
-   "opacity": 1
+   "opacity": 1,
+   "ocr_confirmed": true
   },
   {
    "text": "Choose languages",
@@ -364,7 +722,8 @@
    },
    "align": null,
    "color": "#121212",
-   "opacity": 1
+   "opacity": 1,
+   "ocr_confirmed": true
   },
   {
    "text": "04/05",
@@ -387,7 +746,8 @@
    },
    "align": null,
    "color": "#555555",
-   "opacity": 1
+   "opacity": 1,
+   "ocr_confirmed": true
   }
  ]
 }

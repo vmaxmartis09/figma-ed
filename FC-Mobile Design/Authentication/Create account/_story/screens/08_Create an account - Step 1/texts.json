@@ -2,7 +2,7 @@
  "screen": "Create an account - Step 1",
  "texts": [
   {
-   "text": "Time",
+   "text": "9:41",
    "verified_by_ocr": true,
    "style": "Default/Body/Bold",
    "font_family": "SF Pro Text",
@@ -11,10 +11,12 @@
    "line_height": "22px",
    "letter_spacing": "-0.408px",
    "color": "#121212",
-   "text_align": "center"
+   "text_align": "center",
+   "layer_name": "Time",
+   "text_source": "figma_clipboard"
   },
   {
-   "text": "Link text",
+   "text": "Log in",
    "verified_by_ocr": false,
    "ocr_candidate": "Continue",
    "style": "Body L/Medium (Under)",
@@ -24,7 +26,9 @@
    "line_height": "22px",
    "letter_spacing": null,
    "color": "#1999A4",
-   "text_align": "center"
+   "text_align": "center",
+   "layer_name": "Link text",
+   "text_source": "figma_clipboard"
   },
   {
    "text": "iSupport-D INFORMATION AND PRIVACY POLICY",
@@ -42,7 +46,7 @@
    "text_source": "figma_clipboard"
   },
   {
-   "text": "Link text",
+   "text": "How to use this page",
    "verified_by_ocr": false,
    "ocr_candidate": "Continue",
    "style": "Body M/Medium (Under)",
@@ -52,10 +56,18 @@
    "line_height": "20px",
    "letter_spacing": null,
    "color": "#1999A4",
-   "text_align": "center"
+   "text_align": "center",
+   "layer_name": "Link text",
+   "text_source": "figma_clipboard"
   },
   {
-   "text": "Scroll to continue",
+   "text": [
+    "iSupport-D Privacy Notice and Consent Statement",
+    "iSupport-D Platform Terms of Use",
+    "iSupport-D Research Participation Consent",
+    "Data Breach Response & Notification Clause",
+    "Label checkbox"
+   ],
    "verified_by_ocr": false,
    "ocr_candidate": "Statement",
    "style": "Body L/Regular",
@@ -70,7 +82,13 @@
    "text_source": "figma_clipboard"
   },
   {
-   "text": "Scroll to continue",
+   "text": [
+    "iSupport-D Privacy Notice and Consent Statement",
+    "iSupport-D Platform Terms of Use",
+    "iSupport-D Research Participation Consent",
+    "Data Breach Response & Notification Clause",
+    "Label checkbox"
+   ],
    "verified_by_ocr": false,
    "ocr_candidate": "Statement",
    "style": "Body L/Regular",
@@ -85,7 +103,13 @@
    "text_source": "figma_clipboard"
   },
   {
-   "text": "Scroll to continue",
+   "text": [
+    "iSupport-D Privacy Notice and Consent Statement",
+    "iSupport-D Platform Terms of Use",
+    "iSupport-D Research Participation Consent",
+    "Data Breach Response & Notification Clause",
+    "Label checkbox"
+   ],
    "verified_by_ocr": false,
    "ocr_candidate": "Statement",
    "style": "Body L/Regular",
@@ -100,7 +124,13 @@
    "text_source": "figma_clipboard"
   },
   {
-   "text": "Scroll to continue",
+   "text": [
+    "iSupport-D Privacy Notice and Consent Statement",
+    "iSupport-D Platform Terms of Use",
+    "iSupport-D Research Participation Consent",
+    "Data Breach Response & Notification Clause",
+    "Label checkbox"
+   ],
    "verified_by_ocr": false,
    "ocr_candidate": "Statement",
    "style": "Body L/Regular",
@@ -125,7 +155,9 @@
    "line_height": "22px",
    "letter_spacing": null,
    "color": "#FFFFFF",
-   "text_align": "center"
+   "text_align": "center",
+   "layer_name": "Button text",
+   "text_source": "figma_clipboard"
   },
   {
    "text": "Already have an account?",
@@ -214,6 +246,30 @@
  ],
  "texts_real": [
   {
+   "text": "9:41",
+   "layer": "Time",
+   "path": "Create an account - Step 1/Status Bar (iPhone)/🧰/Time (iPhone)/Time",
+   "x": 27.0,
+   "y": 18.0,
+   "w": 54.0,
+   "h": 22.0,
+   "font_family": "SF Pro Text",
+   "font_style": "Semibold",
+   "font_size": 17.0,
+   "line_height": {
+    "value": 22.0,
+    "units": "PIXELS"
+   },
+   "letter_spacing": {
+    "value": -0.40799999237060547,
+    "units": "PIXELS"
+   },
+   "align": "CENTER",
+   "color": "#121212",
+   "opacity": 1,
+   "ocr_confirmed": true
+  },
+  {
    "text": "iSupport-D INFORMATION AND PRIVACY POLICY",
    "layer": "Accordion title",
    "path": "Create an account - Step 1/Main content/Accordion container/Accordion header/Accordion title",
@@ -234,15 +290,64 @@
    },
    "align": "CENTER",
    "color": "#121212",
-   "opacity": 1
+   "opacity": 1,
+   "ocr_confirmed": true
   },
   {
-   "text": "Scroll to continue",
+   "text": "How to use this page",
+   "layer": "Link text",
+   "path": "Create an account - Step 1/Main content/Accordion container/Accordion header/Link/Link text",
+   "x": 133.5,
+   "y": 193.0,
+   "w": 132.0,
+   "h": 20.0,
+   "font_family": "Roboto",
+   "font_style": "Medium",
+   "font_size": 14.0,
+   "line_height": {
+    "value": 20.0,
+    "units": "PIXELS"
+   },
+   "letter_spacing": {
+    "value": 0.0,
+    "units": "PERCENT"
+   },
+   "align": "CENTER",
+   "color": "#1999A4",
+   "opacity": 1,
+   "ocr_confirmed": true
+  },
+  {
+   "text": "iSupport-D Privacy Notice and Consent Statement",
    "layer": "Label",
-   "path": "Create an account - Step 1/Form/Frame 1000004580/Label",
+   "path": "Create an account - Step 1/Main content/Accordion container/Check list/Checkbox Item/Frame 1000004542/Label",
    "x": 16.0,
-   "y": 481.0,
-   "w": 124.0,
+   "y": 245.0,
+   "w": 315.0,
+   "h": 44.0,
+   "font_family": "Roboto",
+   "font_style": "Regular",
+   "font_size": 16.0,
+   "line_height": {
+    "value": 22.0,
+    "units": "PIXELS"
+   },
+   "letter_spacing": {
+    "value": 0.0,
+    "units": "PERCENT"
+   },
+   "align": null,
+   "color": "#121212",
+   "opacity": 1,
+   "ocr_confirmed": true
+  },
+  {
+   "text": "iSupport-D Platform Terms of Use",
+   "layer": "Label",
+   "path": "Create an account - Step 1/Main content/Accordion container/Check list/Checkbox Item/Frame 1000004542/Label",
+   "x": 16.0,
+   "y": 321.0,
+   "w": 240.0,
    "h": 22.0,
    "font_family": "Roboto",
    "font_style": "Regular",
@@ -256,8 +361,105 @@
     "units": "PERCENT"
    },
    "align": null,
-   "color": "#A8A8A8",
-   "opacity": 1
+   "color": "#121212",
+   "opacity": 1,
+   "ocr_confirmed": true
+  },
+  {
+   "text": "iSupport-D Research Participation Consent",
+   "layer": "Label",
+   "path": "Create an account - Step 1/Main content/Accordion container/Check list/Checkbox Item/Frame 1000004542/Label",
+   "x": 16.0,
+   "y": 375.0,
+   "w": 304.0,
+   "h": 22.0,
+   "font_family": "Roboto",
+   "font_style": "Regular",
+   "font_size": 16.0,
+   "line_height": {
+    "value": 22.0,
+    "units": "PIXELS"
+   },
+   "letter_spacing": {
+    "value": 0.0,
+    "units": "PERCENT"
+   },
+   "align": null,
+   "color": "#121212",
+   "opacity": 1,
+   "ocr_confirmed": true
+  },
+  {
+   "text": "Data Breach Response & Notification Clause",
+   "layer": "Label",
+   "path": "Create an account - Step 1/Main content/Accordion container/Check list/Checkbox Item/Frame 1000004542/Label",
+   "x": 16.0,
+   "y": 429.0,
+   "w": 315.0,
+   "h": 22.0,
+   "font_family": "Roboto",
+   "font_style": "Regular",
+   "font_size": 16.0,
+   "line_height": {
+    "value": 22.0,
+    "units": "PIXELS"
+   },
+   "letter_spacing": {
+    "value": 0.0,
+    "units": "PERCENT"
+   },
+   "align": null,
+   "color": "#121212",
+   "opacity": 1,
+   "ocr_confirmed": true
+  },
+  {
+   "text": "Label checkbox",
+   "layer": "Label",
+   "path": "Create an account - Step 1/Form/Checkbox container/Checkbox/Label",
+   "x": 48.0,
+   "y": 489.0,
+   "w": 311.0,
+   "h": 176.0,
+   "font_family": "Roboto",
+   "font_style": "Regular",
+   "font_size": 16.0,
+   "line_height": {
+    "value": 22.0,
+    "units": "PIXELS"
+   },
+   "letter_spacing": {
+    "value": 0.0,
+    "units": "PERCENT"
+   },
+   "align": null,
+   "color": "#121212",
+   "opacity": 1,
+   "ocr_confirmed": false
+  },
+  {
+   "text": "Button text",
+   "layer": "Button text",
+   "path": "Create an account - Step 1/Form/Checkbox container/Account prompt container/Button/Base button/Primary/Button text",
+   "x": 155.0,
+   "y": 705.0,
+   "w": 65.0,
+   "h": 22.0,
+   "font_family": "Roboto",
+   "font_style": "SemiBold",
+   "font_size": 16.0,
+   "line_height": {
+    "value": 22.0,
+    "units": "PIXELS"
+   },
+   "letter_spacing": {
+    "value": 0.0,
+    "units": "PERCENT"
+   },
+   "align": "CENTER",
+   "color": "#FFFFFF",
+   "opacity": 1,
+   "ocr_confirmed": false
   },
   {
    "text": "Already have an account?",
@@ -280,7 +482,32 @@
    },
    "align": null,
    "color": "#121212",
-   "opacity": 1
+   "opacity": 1,
+   "ocr_confirmed": true
+  },
+  {
+   "text": "Log in",
+   "layer": "Link text",
+   "path": "Create an account - Step 1/Form/Checkbox container/Account prompt container/Account prompt text container/Link/Link text",
+   "x": 258.5,
+   "y": 767.0,
+   "w": 44.0,
+   "h": 22.0,
+   "font_family": "Roboto",
+   "font_style": "Medium",
+   "font_size": 16.0,
+   "line_height": {
+    "value": 22.0,
+    "units": "PIXELS"
+   },
+   "letter_spacing": {
+    "value": 0.0,
+    "units": "PERCENT"
+   },
+   "align": "CENTER",
+   "color": "#1999A4",
+   "opacity": 1,
+   "ocr_confirmed": true
   },
   {
    "text": "Step 1:",
@@ -303,7 +530,8 @@
    },
    "align": null,
    "color": "#121212",
-   "opacity": 1
+   "opacity": 1,
+   "ocr_confirmed": true
   },
   {
    "text": "Terms & Conditions",
@@ -326,7 +554,8 @@
    },
    "align": null,
    "color": "#121212",
-   "opacity": 1
+   "opacity": 1,
+   "ocr_confirmed": true
   },
   {
    "text": "01/05",
@@ -349,7 +578,8 @@
    },
    "align": null,
    "color": "#555555",
-   "opacity": 1
+   "opacity": 1,
+   "ocr_confirmed": true
   }
  ]
 }

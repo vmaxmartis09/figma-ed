@@ -13,7 +13,7 @@
    "letter_spacing": "-0.408px",
    "color": "#FFFFFF",
    "text_align": "center",
-   "text_source": "ocr_sequence",
+   "text_source": "figma_clipboard",
    "layer_name": "Time"
   },
   {
@@ -27,7 +27,8 @@
    "letter_spacing": null,
    "color": "#FFFFFF",
    "text_align": null,
-   "text_source": "ocr_exact"
+   "text_source": "figma_clipboard",
+   "layer_name": "Back"
   },
   {
    "text": "Setting",
@@ -89,7 +90,7 @@
    "layer_name": "Subtitle"
   },
   {
-   "text": "Link text",
+   "text": "Tap to retry",
    "verified_by_ocr": false,
    "ocr_candidate": "No internet connection.",
    "style": "Body L/Medium (Under)",
@@ -100,7 +101,8 @@
    "letter_spacing": null,
    "color": "#1999A4",
    "text_align": "center",
-   "text_source": "layer_name"
+   "text_source": "figma_clipboard",
+   "layer_name": "Link text"
   }
  ],
  "ocr_lines": [
@@ -112,18 +114,42 @@
  ],
  "texts_real": [
   {
-   "text": "0:01/ 3:03",
-   "layer": "0:01/ 3:03",
-   "path": "Video Detail/video player/Container/Container/Container/Text/0:01/ 3:03",
-   "x": 48.0,
-   "y": 308.0,
-   "w": 64.0,
-   "h": 20.0,
+   "text": "9:41",
+   "layer": "Time",
+   "path": "Video Detail/Top Navigation/Status Bar (iPhone)/🧰/Time (iPhone)/Time",
+   "x": 27.0,
+   "y": 18.0,
+   "w": 54.0,
+   "h": 22.0,
+   "font_family": "SF Pro Text",
+   "font_style": "Semibold",
+   "font_size": 17.0,
+   "line_height": {
+    "value": 22.0,
+    "units": "PIXELS"
+   },
+   "letter_spacing": {
+    "value": -0.40799999237060547,
+    "units": "PIXELS"
+   },
+   "align": "CENTER",
+   "color": "#FFFFFF",
+   "opacity": 1,
+   "ocr_confirmed": true
+  },
+  {
+   "text": "Back",
+   "layer": "Back",
+   "path": "Video Detail/Top Navigation/Bottom/Left Action/Back",
+   "x": 40.0,
+   "y": 69.0,
+   "w": 36.0,
+   "h": 22.0,
    "font_family": "Roboto",
    "font_style": "Regular",
-   "font_size": 14.0,
+   "font_size": 16.0,
    "line_height": {
-    "value": 20.0,
+    "value": 22.0,
     "units": "PIXELS"
    },
    "letter_spacing": {
@@ -132,7 +158,8 @@
    },
    "align": null,
    "color": "#FFFFFF",
-   "opacity": 1
+   "opacity": 1,
+   "ocr_confirmed": true
   },
   {
    "text": "Could not load video",
@@ -155,7 +182,8 @@
    },
    "align": "CENTER",
    "color": "#121212",
-   "opacity": 1
+   "opacity": 1,
+   "ocr_confirmed": true
   },
   {
    "text": "No internet connection.",
@@ -178,7 +206,32 @@
    },
    "align": "CENTER",
    "color": "#555555",
-   "opacity": 1
+   "opacity": 1,
+   "ocr_confirmed": true
+  },
+  {
+   "text": "Tap to retry",
+   "layer": "Link text",
+   "path": "Video Detail/Container/Container/Link/Link text",
+   "x": 146.5,
+   "y": 604.0,
+   "w": 82.0,
+   "h": 22.0,
+   "font_family": "Roboto",
+   "font_style": "Medium",
+   "font_size": 16.0,
+   "line_height": {
+    "value": 22.0,
+    "units": "PIXELS"
+   },
+   "letter_spacing": {
+    "value": 0.0,
+    "units": "PERCENT"
+   },
+   "align": "CENTER",
+   "color": "#1999A4",
+   "opacity": 1,
+   "ocr_confirmed": true
   }
  ]
 }

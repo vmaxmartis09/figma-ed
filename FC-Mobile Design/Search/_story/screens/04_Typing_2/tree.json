@@ -54,7 +54,47 @@
      "strokeAlign": "INSIDE",
      "horizontalConstraint": "CENTER",
      "verticalConstraint": "CENTER",
-     "frameMaskDisabled": true
+     "frameMaskDisabled": true,
+     "children": [
+      {
+       "name": "Time",
+       "type": "TEXT",
+       "x": 0.0,
+       "y": 0.0,
+       "w": 54.0,
+       "h": 22.0,
+       "strokeAlign": "CENTER",
+       "verticalConstraint": "CENTER",
+       "fills": [
+        {
+         "type": "SOLID",
+         "color": "#FFFFFF"
+        }
+       ],
+       "text": {
+        "characters": "9:41",
+        "fontSize": 17.0,
+        "font": {
+         "family": "SF Pro Text",
+         "style": "Semibold",
+         "postscript": "SFProText-Semibold"
+        },
+        "lineHeight": {
+         "value": 22.0,
+         "units": "PIXELS"
+        },
+        "letterSpacing": {
+         "value": -0.40799999237060547,
+         "units": "PIXELS"
+        },
+        "alignH": "CENTER",
+        "alignV": "TOP",
+        "case": null,
+        "decoration": null,
+        "autoResize": "HEIGHT"
+       }
+      }
+     ]
     },
     {
      "name": "🧰/Cellular,Wifi,Battery (iPhone)",
@@ -371,7 +411,27 @@
        "w": 20.0,
        "h": 20.0,
        "strokeWeight": 1.0,
-       "strokeAlign": "INSIDE"
+       "strokeAlign": "INSIDE",
+       "children": [
+        {
+         "name": "Vector",
+         "type": "VECTOR",
+         "x": 5.83,
+         "y": 2.5,
+         "w": 8.333333015441895,
+         "h": 15.0,
+         "strokeWeight": 1.5,
+         "strokeAlign": "CENTER",
+         "horizontalConstraint": "SCALE",
+         "verticalConstraint": "SCALE",
+         "fills": [
+          {
+           "type": "SOLID",
+           "color": "#FFFFFF"
+          }
+         ]
+        }
+       ]
       },
       {
        "name": "Back",
@@ -428,7 +488,236 @@
      "stackPrimarySizing": "FIXED",
      "stackCounterSizing": "RESIZE_TO_FIT_WITH_IMPLICIT_SIZE",
      "stackChildPrimaryGrow": 1.0,
-     "frameMaskDisabled": true
+     "frameMaskDisabled": true,
+     "children": [
+      {
+       "name": "Search bar",
+       "type": "FRAME",
+       "x": 0.0,
+       "y": 0.0,
+       "w": 315.0,
+       "h": 48.0,
+       "cornerRadius": 8.0,
+       "rectangleTopLeftCornerRadius": 8.0,
+       "rectangleTopRightCornerRadius": 8.0,
+       "rectangleBottomLeftCornerRadius": 8.0,
+       "rectangleBottomRightCornerRadius": 8.0,
+       "strokeWeight": 1.0,
+       "strokeAlign": "INSIDE",
+       "stackMode": "HORIZONTAL",
+       "stackSpacing": 16.0,
+       "stackCounterAlignItems": "CENTER",
+       "stackPrimarySizing": "FIXED",
+       "stackChildPrimaryGrow": 1.0,
+       "fills": [
+        {
+         "type": "SOLID",
+         "color": "#FFFFFF"
+        }
+       ],
+       "strokes": [
+        {
+         "type": "SOLID",
+         "color": "#C8C8C8"
+        }
+       ],
+       "children": [
+        {
+         "name": "Frame 1000004416",
+         "type": "FRAME",
+         "x": 16.0,
+         "y": 13.0,
+         "w": 235.0,
+         "h": 22.0,
+         "strokeWeight": 1.0,
+         "strokeAlign": "INSIDE",
+         "stackMode": "HORIZONTAL",
+         "stackSpacing": 8.0,
+         "stackCounterAlignItems": "CENTER",
+         "stackPrimarySizing": "FIXED",
+         "stackCounterSizing": "RESIZE_TO_FIT_WITH_IMPLICIT_SIZE",
+         "stackChildPrimaryGrow": 1.0,
+         "frameMaskDisabled": true,
+         "children": [
+          {
+           "name": "search",
+           "type": "INSTANCE",
+           "x": 0.0,
+           "y": 1.0,
+           "w": 20.0,
+           "h": 20.0,
+           "strokeWeight": 1.0,
+           "strokeAlign": "INSIDE",
+           "children": [
+            {
+             "name": "Vector",
+             "type": "VECTOR",
+             "x": 1.88,
+             "y": 1.88,
+             "w": 16.25002098083496,
+             "h": 16.25002098083496,
+             "strokeWeight": 1.5,
+             "strokeAlign": "CENTER",
+             "horizontalConstraint": "SCALE",
+             "verticalConstraint": "SCALE",
+             "fills": [
+              {
+               "type": "SOLID",
+               "color": "#121212"
+              }
+             ]
+            }
+           ]
+          },
+          {
+           "name": "Text",
+           "type": "TEXT",
+           "x": 28.0,
+           "y": 0.0,
+           "w": 179.0,
+           "h": 22.0,
+           "strokeWeight": 1.0,
+           "strokeAlign": "OUTSIDE",
+           "stackChildPrimaryGrow": 1.0,
+           "fills": [
+            {
+             "type": "SOLID",
+             "color": "#121212"
+            }
+           ],
+           "text": {
+            "characters": "Dehydration",
+            "fontSize": 16.0,
+            "font": {
+             "family": "Roboto",
+             "style": "Regular",
+             "postscript": "Roboto-Regular"
+            },
+            "lineHeight": {
+             "value": 22.0,
+             "units": "PIXELS"
+            },
+            "letterSpacing": {
+             "value": 0.0,
+             "units": "PERCENT"
+            },
+            "alignH": null,
+            "alignV": "TOP",
+            "case": null,
+            "decoration": null,
+            "autoResize": "HEIGHT"
+           }
+          },
+          {
+           "name": "circle-x",
+           "type": "INSTANCE",
+           "x": 215.0,
+           "y": 1.0,
+           "w": 20.0,
+           "h": 20.0,
+           "strokeWeight": 1.0,
+           "strokeAlign": "INSIDE",
+           "children": [
+            {
+             "name": "Vector",
+             "type": "VECTOR",
+             "x": 1.04,
+             "y": 1.04,
+             "w": 17.91666603088379,
+             "h": 17.91666603088379,
+             "strokeWeight": 1.5,
+             "strokeAlign": "CENTER",
+             "horizontalConstraint": "SCALE",
+             "verticalConstraint": "SCALE",
+             "fills": [
+              {
+               "type": "SOLID",
+               "color": "#121212"
+              }
+             ]
+            }
+           ]
+          }
+         ]
+        },
+        {
+         "name": "Frame 1000004402",
+         "type": "FRAME",
+         "x": 267.0,
+         "y": 0.0,
+         "w": 48.0,
+         "h": 48.0,
+         "rectangleTopRightCornerRadius": 8.0,
+         "rectangleBottomRightCornerRadius": 8.0,
+         "strokeWeight": 1.0,
+         "strokeAlign": "INSIDE",
+         "stackMode": "HORIZONTAL",
+         "stackSpacing": 1.0,
+         "stackCounterAlignItems": "CENTER",
+         "frameMaskDisabled": true,
+         "children": [
+          {
+           "name": "Search",
+           "type": "FRAME",
+           "x": 0.0,
+           "y": 0.0,
+           "w": 48.0,
+           "h": 48.0,
+           "rectangleTopRightCornerRadius": 8.0,
+           "rectangleBottomRightCornerRadius": 8.0,
+           "strokeWeight": 1.0,
+           "strokeAlign": "INSIDE",
+           "stackMode": "HORIZONTAL",
+           "stackSpacing": 10.0,
+           "stackPaddingRight": 12.0,
+           "stackPrimaryAlignItems": "CENTER",
+           "stackCounterAlignItems": "CENTER",
+           "stackPrimarySizing": "FIXED",
+           "frameMaskDisabled": true,
+           "fills": [
+            {
+             "type": "SOLID",
+             "color": "#F1F1F1"
+            }
+           ],
+           "children": [
+            {
+             "name": "mic on",
+             "type": "INSTANCE",
+             "x": 14.0,
+             "y": 14.0,
+             "w": 20.0,
+             "h": 20.0,
+             "strokeWeight": 1.0,
+             "strokeAlign": "INSIDE",
+             "children": [
+              {
+               "name": "Vector",
+               "type": "VECTOR",
+               "x": 3.54,
+               "y": 0.21,
+               "w": 12.916666984558105,
+               "h": 19.58333396911621,
+               "strokeWeight": 1.5,
+               "strokeAlign": "CENTER",
+               "horizontalConstraint": "SCALE",
+               "verticalConstraint": "SCALE",
+               "fills": [
+                {
+                 "type": "SOLID",
+                 "color": "#121212"
+                }
+               ]
+              }
+             ]
+            }
+           ]
+          }
+         ]
+        }
+       ]
+      }
+     ]
     }
    ]
   },
@@ -567,6 +856,56 @@
             {
              "type": "SOLID",
              "color": "#ECE0FC"
+            }
+           ],
+           "children": [
+            {
+             "name": "clapperboard 1",
+             "type": "FRAME",
+             "x": 4.0,
+             "y": 4.0,
+             "w": 20.0,
+             "h": 20.0,
+             "strokeWeight": 1.0,
+             "strokeAlign": "INSIDE",
+             "children": [
+              {
+               "name": "Vector",
+               "type": "VECTOR",
+               "x": 2.14,
+               "y": 7.14,
+               "w": 15.714285850524902,
+               "h": 10.714284896850586,
+               "strokeWeight": 18.285715103149414,
+               "strokeAlign": "INSIDE",
+               "horizontalConstraint": "SCALE",
+               "verticalConstraint": "SCALE",
+               "fills": [
+                {
+                 "type": "SOLID",
+                 "color": "#8B5ECB"
+                }
+               ]
+              },
+              {
+               "name": "Vector",
+               "type": "VECTOR",
+               "x": 2.21,
+               "y": 2.14,
+               "w": 15.585715293884277,
+               "h": 3.5714290142059326,
+               "strokeWeight": 18.285715103149414,
+               "strokeAlign": "INSIDE",
+               "horizontalConstraint": "SCALE",
+               "verticalConstraint": "SCALE",
+               "fills": [
+                {
+                 "type": "SOLID",
+                 "color": "#FFB330"
+                }
+               ]
+              }
+             ]
             }
            ]
           },
@@ -737,6 +1076,216 @@
              "type": "SOLID",
              "color": "#ECE0FC"
             }
+           ],
+           "children": [
+            {
+             "name": "online-library 1",
+             "type": "FRAME",
+             "x": 4.0,
+             "y": 4.0,
+             "w": 20.0,
+             "h": 20.0,
+             "strokeWeight": 1.0,
+             "strokeAlign": "INSIDE",
+             "children": [
+              {
+               "name": "Online Library",
+               "type": "FRAME",
+               "x": 3.0,
+               "y": 1.17,
+               "w": 13.79543685913086,
+               "h": 17.60300064086914,
+               "strokeWeight": 1.0,
+               "strokeAlign": "INSIDE",
+               "horizontalConstraint": "CENTER",
+               "verticalConstraint": "SCALE",
+               "children": [
+                {
+                 "name": "Vector",
+                 "type": "VECTOR",
+                 "x": -0.0,
+                 "y": 16.89,
+                 "w": 17.20538330078125,
+                 "h": 3.740300178527832,
+                 "transform": [
+                  0.19092316925525665,
+                  0.9816049933433533,
+                  -0.9816049933433533,
+                  0.19092316925525665
+                 ],
+                 "strokeWeight": 1.0004024505615234,
+                 "strokeAlign": "INSIDE",
+                 "horizontalConstraint": "SCALE",
+                 "verticalConstraint": "SCALE",
+                 "fills": [
+                  {
+                   "type": "SOLID",
+                   "color": "#8B5ECB"
+                  }
+                 ]
+                },
+                {
+                 "name": "Vector",
+                 "type": "VECTOR",
+                 "x": 6.32,
+                 "y": 3.19,
+                 "w": 3.738795280456543,
+                 "h": 14.207425117492676,
+                 "strokeWeight": 1.0,
+                 "strokeAlign": "INSIDE",
+                 "horizontalConstraint": "SCALE",
+                 "verticalConstraint": "SCALE",
+                 "fills": [
+                  {
+                   "type": "SOLID",
+                   "color": "#FFB330"
+                  }
+                 ]
+                },
+                {
+                 "name": "Vector",
+                 "type": "VECTOR",
+                 "x": 10.06,
+                 "y": 0.95,
+                 "w": 3.738795757293701,
+                 "h": 16.450702667236328,
+                 "strokeWeight": 1.0004024505615234,
+                 "strokeAlign": "INSIDE",
+                 "horizontalConstraint": "SCALE",
+                 "verticalConstraint": "SCALE",
+                 "fills": [
+                  {
+                   "type": "SOLID",
+                   "color": "#8B5ECB"
+                  }
+                 ]
+                },
+                {
+                 "name": "Group",
+                 "type": "FRAME",
+                 "x": 3.62,
+                 "y": 1.71,
+                 "w": 9.24244499206543,
+                 "h": 4.8454155921936035,
+                 "strokeWeight": 1.0,
+                 "strokeAlign": "INSIDE",
+                 "horizontalConstraint": "SCALE",
+                 "verticalConstraint": "SCALE",
+                 "children": [
+                  {
+                   "name": "Vector",
+                   "type": "VECTOR",
+                   "x": 0.21,
+                   "y": 0.0,
+                   "w": 1.8489737510681152,
+                   "h": 0.9617295265197754,
+                   "strokeWeight": 1.0,
+                   "strokeAlign": "INSIDE",
+                   "horizontalConstraint": "SCALE",
+                   "verticalConstraint": "SCALE",
+                   "fills": [
+                    {
+                     "type": "SOLID",
+                     "color": "#FFFFFF"
+                    }
+                   ]
+                  },
+                  {
+                   "name": "Vector",
+                   "type": "VECTOR",
+                   "x": -0.0,
+                   "y": 1.1,
+                   "w": 1.8489582538604736,
+                   "h": 0.961729884147644,
+                   "strokeWeight": 1.0,
+                   "strokeAlign": "INSIDE",
+                   "horizontalConstraint": "SCALE",
+                   "verticalConstraint": "SCALE",
+                   "fills": [
+                    {
+                     "type": "SOLID",
+                     "color": "#FFFFFF"
+                    }
+                   ]
+                  },
+                  {
+                   "name": "Vector",
+                   "type": "VECTOR",
+                   "x": 3.63,
+                   "y": 2.97,
+                   "w": 1.8693978786468506,
+                   "h": 0.747759222984314,
+                   "strokeWeight": 1.0,
+                   "strokeAlign": "INSIDE",
+                   "horizontalConstraint": "SCALE",
+                   "verticalConstraint": "SCALE",
+                   "fills": [
+                    {
+                     "type": "SOLID",
+                     "color": "#FFFFFF"
+                    }
+                   ]
+                  },
+                  {
+                   "name": "Vector",
+                   "type": "VECTOR",
+                   "x": 3.63,
+                   "y": 4.1,
+                   "w": 1.8693978786468506,
+                   "h": 0.747759222984314,
+                   "strokeWeight": 1.0,
+                   "strokeAlign": "INSIDE",
+                   "horizontalConstraint": "SCALE",
+                   "verticalConstraint": "SCALE",
+                   "fills": [
+                    {
+                     "type": "SOLID",
+                     "color": "#FFFFFF"
+                    }
+                   ]
+                  },
+                  {
+                   "name": "Vector",
+                   "type": "VECTOR",
+                   "x": 7.37,
+                   "y": 0.73,
+                   "w": 1.8693978786468506,
+                   "h": 0.747759222984314,
+                   "strokeWeight": 1.0,
+                   "strokeAlign": "INSIDE",
+                   "horizontalConstraint": "SCALE",
+                   "verticalConstraint": "SCALE",
+                   "fills": [
+                    {
+                     "type": "SOLID",
+                     "color": "#FFFFFF"
+                    }
+                   ]
+                  },
+                  {
+                   "name": "Vector",
+                   "type": "VECTOR",
+                   "x": 7.37,
+                   "y": 1.85,
+                   "w": 1.8693978786468506,
+                   "h": 0.747759222984314,
+                   "strokeWeight": 1.0,
+                   "strokeAlign": "INSIDE",
+                   "horizontalConstraint": "SCALE",
+                   "verticalConstraint": "SCALE",
+                   "fills": [
+                    {
+                     "type": "SOLID",
+                     "color": "#FFFFFF"
+                    }
+                   ]
+                  }
+                 ]
+                }
+               ]
+              }
+             ]
+            }
            ]
           },
           {
@@ -801,6 +1350,26 @@
     {
      "type": "SOLID",
      "color": "#FFFFFF"
+    }
+   ],
+   "children": [
+    {
+     "name": "Home Indicator",
+     "type": "ROUNDED_RECTANGLE",
+     "x": 121.0,
+     "y": 21.0,
+     "w": 134.0,
+     "h": 5.0,
+     "cornerRadius": 100.0,
+     "strokeAlign": "CENTER",
+     "horizontalConstraint": "CENTER",
+     "verticalConstraint": "MAX",
+     "fills": [
+      {
+       "type": "SOLID",
+       "color": "#000000"
+      }
+     ]
     }
    ]
   },

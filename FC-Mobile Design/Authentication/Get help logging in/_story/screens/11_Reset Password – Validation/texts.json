@@ -2,7 +2,7 @@
  "screen": "Reset Password – Validation",
  "texts": [
   {
-   "text": "Time",
+   "text": "9:41",
    "verified_by_ocr": false,
    "ocr_candidate": "v Includes 1 number (0-9)",
    "style": "Default/Body/Bold",
@@ -12,7 +12,9 @@
    "line_height": "22px",
    "letter_spacing": "-0.408px",
    "color": "#121212",
-   "text_align": "center"
+   "text_align": "center",
+   "layer_name": "Time",
+   "text_source": "figma_clipboard"
   },
   {
    "text": "Link text",
@@ -53,7 +55,9 @@
    "line_height": "20px",
    "letter_spacing": null,
    "color": "#6A6A6A",
-   "text_align": null
+   "text_align": null,
+   "layer_name": "Label",
+   "text_source": "figma_clipboard"
   },
   {
    "text": "*",
@@ -66,7 +70,9 @@
    "line_height": "20px",
    "letter_spacing": null,
    "color": "#E81818",
-   "text_align": null
+   "text_align": null,
+   "layer_name": "*",
+   "text_source": "figma_clipboard"
   },
   {
    "text": "Text prefix",
@@ -82,7 +88,7 @@
    "text_align": null
   },
   {
-   "text": "text value",
+   "text": "Enter value",
    "verified_by_ocr": false,
    "ocr_candidate": "v Includes 1 number (0-9)",
    "style": "Body L/Regular",
@@ -92,7 +98,9 @@
    "line_height": "22px",
    "letter_spacing": null,
    "color": "#121212",
-   "text_align": null
+   "text_align": null,
+   "layer_name": "text value",
+   "text_source": "figma_clipboard"
   },
   {
    "text": "Text suffix",
@@ -220,10 +228,12 @@
    "line_height": "20px",
    "letter_spacing": null,
    "color": "#555555",
-   "text_align": null
+   "text_align": null,
+   "layer_name": "Label",
+   "text_source": "figma_clipboard"
   },
   {
-   "text": "Placeholder",
+   "text": "Select value",
    "verified_by_ocr": false,
    "ocr_candidate": "New password",
    "style": "Body L/Regular",
@@ -233,7 +243,9 @@
    "line_height": "22px",
    "letter_spacing": null,
    "color": "#A8A8A8",
-   "text_align": null
+   "text_align": null,
+   "layer_name": "Placeholder",
+   "text_source": "figma_clipboard"
   },
   {
    "text": "Button text",
@@ -246,7 +258,9 @@
    "line_height": "22px",
    "letter_spacing": null,
    "color": "#FFFFFF",
-   "text_align": "center"
+   "text_align": "center",
+   "layer_name": "Button text",
+   "text_source": "figma_clipboard"
   }
  ],
  "ocr_lines": [
@@ -266,6 +280,30 @@
   "Reset password"
  ],
  "texts_real": [
+  {
+   "text": "9:41",
+   "layer": "Time",
+   "path": "Reset Password – Validation/Status Bar (iPhone)/🧰/Time (iPhone)/Time",
+   "x": 27.0,
+   "y": 18.0,
+   "w": 54.0,
+   "h": 22.0,
+   "font_family": "SF Pro Text",
+   "font_style": "Semibold",
+   "font_size": 17.0,
+   "line_height": {
+    "value": 22.0,
+    "units": "PIXELS"
+   },
+   "letter_spacing": {
+    "value": -0.40799999237060547,
+    "units": "PIXELS"
+   },
+   "align": "CENTER",
+   "color": "#121212",
+   "opacity": 1,
+   "ocr_confirmed": true
+  },
   {
    "text": "Reset password",
    "layer": "Heading",
@@ -287,7 +325,104 @@
    },
    "align": "CENTER",
    "color": "#121212",
-   "opacity": 1
+   "opacity": 1,
+   "ocr_confirmed": true
+  },
+  {
+   "text": "Label",
+   "layer": "Label",
+   "path": "Reset Password – Validation/Container/Container/Container/Container/Text Field/Field/Container/Label/Label",
+   "x": 16.0,
+   "y": 225.0,
+   "w": 35.0,
+   "h": 20.0,
+   "font_family": "Roboto",
+   "font_style": "Medium",
+   "font_size": 14.0,
+   "line_height": {
+    "value": 20.0,
+    "units": "PIXELS"
+   },
+   "letter_spacing": {
+    "value": 0.0,
+    "units": "PERCENT"
+   },
+   "align": null,
+   "color": "#6A6A6A",
+   "opacity": 1,
+   "ocr_confirmed": false
+  },
+  {
+   "text": "*",
+   "layer": "*",
+   "path": "Reset Password – Validation/Container/Container/Container/Container/Text Field/Field/Container/Label/*",
+   "x": 55.0,
+   "y": 225.0,
+   "w": 7.0,
+   "h": 20.0,
+   "font_family": "Inter",
+   "font_style": "Regular",
+   "font_size": 14.0,
+   "line_height": {
+    "value": 20.0,
+    "units": "PIXELS"
+   },
+   "letter_spacing": {
+    "value": 0.0,
+    "units": "PERCENT"
+   },
+   "align": null,
+   "color": "#E81818",
+   "opacity": 1,
+   "ocr_confirmed": false
+  },
+  {
+   "text": "Enter value",
+   "layer": "text value",
+   "path": "Reset Password – Validation/Container/Container/Container/Container/Text Field/Field/Container/Input/Input/text value",
+   "x": 28.0,
+   "y": 264.0,
+   "w": 216.0,
+   "h": 22.0,
+   "font_family": "Roboto",
+   "font_style": "Regular",
+   "font_size": 16.0,
+   "line_height": {
+    "value": 22.0,
+    "units": "PIXELS"
+   },
+   "letter_spacing": {
+    "value": 0.0,
+    "units": "PERCENT"
+   },
+   "align": null,
+   "color": "#A8A8A8",
+   "opacity": 1,
+   "ocr_confirmed": false
+  },
+  {
+   "text": "This is help text",
+   "layer": "Message",
+   "path": "Reset Password – Validation/Container/Container/Container/Container/Text Field/Field/Help text/Message",
+   "x": 16.0,
+   "y": 303.0,
+   "w": 240.0,
+   "h": 20.0,
+   "font_family": "Roboto",
+   "font_style": "Regular",
+   "font_size": 14.0,
+   "line_height": {
+    "value": 20.0,
+    "units": "PIXELS"
+   },
+   "letter_spacing": {
+    "value": 0.0,
+    "units": "PERCENT"
+   },
+   "align": null,
+   "color": "#6A6A6A",
+   "opacity": 1,
+   "ocr_confirmed": false
   },
   {
    "text": "To protect your account, make sure your password:",
@@ -310,7 +445,8 @@
    },
    "align": "CENTER",
    "color": "#121212",
-   "opacity": 1
+   "opacity": 1,
+   "ocr_confirmed": true
   },
   {
    "text": "Contains 8-16 characters",
@@ -333,76 +469,8 @@
    },
    "align": "CENTER",
    "color": "#2D7927",
-   "opacity": 1
-  },
-  {
-   "text": "Include at least 1 number or special character",
-   "layer": "Include at least 1 number or special character",
-   "path": "Reset Password – Validation/Container/Container/Container/Container/Password Requirements Container/Password Requirements Item Container/Frame 1000004428/Include at least 1 number or special character",
-   "x": 32.0,
-   "y": 357.0,
-   "w": 275.0,
-   "h": 20.0,
-   "font_family": "Barlow",
-   "font_style": "Medium",
-   "font_size": 14.0,
-   "line_height": {
-    "value": 20.0,
-    "units": "PIXELS"
-   },
-   "letter_spacing": {
-    "value": 0.0,
-    "units": "PERCENT"
-   },
-   "align": "CENTER",
-   "color": "#616161",
-   "opacity": 1
-  },
-  {
-   "text": "Include at least 1 lowercase character",
-   "layer": "Include at least 1 lowercase character",
-   "path": "Reset Password – Validation/Container/Container/Container/Container/Password Requirements Container/Password Requirements Item Container/Frame 1000004429/Include at least 1 lowercase character",
-   "x": 32.0,
-   "y": 381.0,
-   "w": 228.0,
-   "h": 20.0,
-   "font_family": "Barlow",
-   "font_style": "Medium",
-   "font_size": 14.0,
-   "line_height": {
-    "value": 20.0,
-    "units": "PIXELS"
-   },
-   "letter_spacing": {
-    "value": 0.0,
-    "units": "PERCENT"
-   },
-   "align": "CENTER",
-   "color": "#616161",
-   "opacity": 1
-  },
-  {
-   "text": "Include at least 1 uppercase character",
-   "layer": "Include at least 1 uppercase character",
-   "path": "Reset Password – Validation/Container/Container/Container/Container/Password Requirements Container/Password Requirements Item Container/Frame 1000004427/Include at least 1 uppercase character",
-   "x": 32.0,
-   "y": 405.0,
-   "w": 230.0,
-   "h": 20.0,
-   "font_family": "Barlow",
-   "font_style": "Medium",
-   "font_size": 14.0,
-   "line_height": {
-    "value": 20.0,
-    "units": "PIXELS"
-   },
-   "letter_spacing": {
-    "value": 0.0,
-    "units": "PERCENT"
-   },
-   "align": "CENTER",
-   "color": "#616161",
-   "opacity": 1
+   "opacity": 1,
+   "ocr_confirmed": true
   },
   {
    "text": "Includes 1 lowercase letter (a-z)",
@@ -425,76 +493,8 @@
    },
    "align": "CENTER",
    "color": "#2D7927",
-   "opacity": 1
-  },
-  {
-   "text": "Include at least 1 number or special character",
-   "layer": "Include at least 1 number or special character",
-   "path": "Reset Password – Validation/Container/Container/Container/Container/Password Requirements Container/Password Requirements Item Container/Frame 1000004428/Include at least 1 number or special character",
-   "x": 32.0,
-   "y": 379.0,
-   "w": 275.0,
-   "h": 20.0,
-   "font_family": "Barlow",
-   "font_style": "Medium",
-   "font_size": 14.0,
-   "line_height": {
-    "value": 20.0,
-    "units": "PIXELS"
-   },
-   "letter_spacing": {
-    "value": 0.0,
-    "units": "PERCENT"
-   },
-   "align": "CENTER",
-   "color": "#616161",
-   "opacity": 1
-  },
-  {
-   "text": "Include at least 1 lowercase character",
-   "layer": "Include at least 1 lowercase character",
-   "path": "Reset Password – Validation/Container/Container/Container/Container/Password Requirements Container/Password Requirements Item Container/Frame 1000004429/Include at least 1 lowercase character",
-   "x": 32.0,
-   "y": 403.0,
-   "w": 228.0,
-   "h": 20.0,
-   "font_family": "Barlow",
-   "font_style": "Medium",
-   "font_size": 14.0,
-   "line_height": {
-    "value": 20.0,
-    "units": "PIXELS"
-   },
-   "letter_spacing": {
-    "value": 0.0,
-    "units": "PERCENT"
-   },
-   "align": "CENTER",
-   "color": "#616161",
-   "opacity": 1
-  },
-  {
-   "text": "Include at least 1 uppercase character",
-   "layer": "Include at least 1 uppercase character",
-   "path": "Reset Password – Validation/Container/Container/Container/Container/Password Requirements Container/Password Requirements Item Container/Frame 1000004427/Include at least 1 uppercase character",
-   "x": 32.0,
-   "y": 427.0,
-   "w": 230.0,
-   "h": 20.0,
-   "font_family": "Barlow",
-   "font_style": "Medium",
-   "font_size": 14.0,
-   "line_height": {
-    "value": 20.0,
-    "units": "PIXELS"
-   },
-   "letter_spacing": {
-    "value": 0.0,
-    "units": "PERCENT"
-   },
-   "align": "CENTER",
-   "color": "#616161",
-   "opacity": 1
+   "opacity": 1,
+   "ocr_confirmed": true
   },
   {
    "text": "Includes 1 uppercase letter (A-Z)",
@@ -517,76 +517,8 @@
    },
    "align": "CENTER",
    "color": "#121212",
-   "opacity": 1
-  },
-  {
-   "text": "Include at least 1 number or special character",
-   "layer": "Include at least 1 number or special character",
-   "path": "Reset Password – Validation/Container/Container/Container/Container/Password Requirements Container/Requirement Container/Frame 1000004428/Include at least 1 number or special character",
-   "x": 32.0,
-   "y": 401.0,
-   "w": 275.0,
-   "h": 20.0,
-   "font_family": "Barlow",
-   "font_style": "Medium",
-   "font_size": 14.0,
-   "line_height": {
-    "value": 20.0,
-    "units": "PIXELS"
-   },
-   "letter_spacing": {
-    "value": 0.0,
-    "units": "PERCENT"
-   },
-   "align": "CENTER",
-   "color": "#616161",
-   "opacity": 1
-  },
-  {
-   "text": "Include at least 1 lowercase character",
-   "layer": "Include at least 1 lowercase character",
-   "path": "Reset Password – Validation/Container/Container/Container/Container/Password Requirements Container/Requirement Container/Frame 1000004429/Include at least 1 lowercase character",
-   "x": 32.0,
-   "y": 425.0,
-   "w": 228.0,
-   "h": 20.0,
-   "font_family": "Barlow",
-   "font_style": "Medium",
-   "font_size": 14.0,
-   "line_height": {
-    "value": 20.0,
-    "units": "PIXELS"
-   },
-   "letter_spacing": {
-    "value": 0.0,
-    "units": "PERCENT"
-   },
-   "align": "CENTER",
-   "color": "#616161",
-   "opacity": 1
-  },
-  {
-   "text": "Include at least 1 uppercase character",
-   "layer": "Include at least 1 uppercase character",
-   "path": "Reset Password – Validation/Container/Container/Container/Container/Password Requirements Container/Requirement Container/Frame 1000004427/Include at least 1 uppercase character",
-   "x": 32.0,
-   "y": 449.0,
-   "w": 230.0,
-   "h": 20.0,
-   "font_family": "Barlow",
-   "font_style": "Medium",
-   "font_size": 14.0,
-   "line_height": {
-    "value": 20.0,
-    "units": "PIXELS"
-   },
-   "letter_spacing": {
-    "value": 0.0,
-    "units": "PERCENT"
-   },
-   "align": "CENTER",
-   "color": "#616161",
-   "opacity": 1
+   "opacity": 1,
+   "ocr_confirmed": true
   },
   {
    "text": "Includes 1 number (0-9)",
@@ -609,76 +541,8 @@
    },
    "align": "CENTER",
    "color": "#2D7927",
-   "opacity": 1
-  },
-  {
-   "text": "Include at least 1 number or special character",
-   "layer": "Include at least 1 number or special character",
-   "path": "Reset Password – Validation/Container/Container/Container/Container/Password Requirements Container/Password Requirements Item Container/Frame 1000004428/Include at least 1 number or special character",
-   "x": 32.0,
-   "y": 423.0,
-   "w": 275.0,
-   "h": 20.0,
-   "font_family": "Barlow",
-   "font_style": "Medium",
-   "font_size": 14.0,
-   "line_height": {
-    "value": 20.0,
-    "units": "PIXELS"
-   },
-   "letter_spacing": {
-    "value": 0.0,
-    "units": "PERCENT"
-   },
-   "align": "CENTER",
-   "color": "#616161",
-   "opacity": 1
-  },
-  {
-   "text": "Include at least 1 lowercase character",
-   "layer": "Include at least 1 lowercase character",
-   "path": "Reset Password – Validation/Container/Container/Container/Container/Password Requirements Container/Password Requirements Item Container/Frame 1000004429/Include at least 1 lowercase character",
-   "x": 32.0,
-   "y": 447.0,
-   "w": 228.0,
-   "h": 20.0,
-   "font_family": "Barlow",
-   "font_style": "Medium",
-   "font_size": 14.0,
-   "line_height": {
-    "value": 20.0,
-    "units": "PIXELS"
-   },
-   "letter_spacing": {
-    "value": 0.0,
-    "units": "PERCENT"
-   },
-   "align": "CENTER",
-   "color": "#616161",
-   "opacity": 1
-  },
-  {
-   "text": "Include at least 1 uppercase character",
-   "layer": "Include at least 1 uppercase character",
-   "path": "Reset Password – Validation/Container/Container/Container/Container/Password Requirements Container/Password Requirements Item Container/Frame 1000004427/Include at least 1 uppercase character",
-   "x": 32.0,
-   "y": 471.0,
-   "w": 230.0,
-   "h": 20.0,
-   "font_family": "Barlow",
-   "font_style": "Medium",
-   "font_size": 14.0,
-   "line_height": {
-    "value": 20.0,
-    "units": "PIXELS"
-   },
-   "letter_spacing": {
-    "value": 0.0,
-    "units": "PERCENT"
-   },
-   "align": "CENTER",
-   "color": "#616161",
-   "opacity": 1
+   "opacity": 1,
+   "ocr_confirmed": true
   },
   {
    "text": "Includes 1 special character (! @ # $ % ^ & * ( ) _ +)",
@@ -701,17 +565,18 @@
    },
    "align": "CENTER",
    "color": "#121212",
-   "opacity": 1
+   "opacity": 1,
+   "ocr_confirmed": true
   },
   {
-   "text": "Include at least 1 number or special character",
-   "layer": "Include at least 1 number or special character",
-   "path": "Reset Password – Validation/Container/Container/Container/Container/Password Requirements Container/Password Requirements Item Container/Frame 1000004428/Include at least 1 number or special character",
-   "x": 32.0,
-   "y": 445.0,
-   "w": 275.0,
+   "text": "Label",
+   "layer": "Label",
+   "path": "Reset Password – Validation/Container/Container/Container/Dropdown field/Base/ Dropdown field (Multiple)/Container/Label/Label",
+   "x": 16.0,
+   "y": 459.0,
+   "w": 144.0,
    "h": 20.0,
-   "font_family": "Barlow",
+   "font_family": "Roboto",
    "font_style": "Medium",
    "font_size": 14.0,
    "line_height": {
@@ -722,20 +587,21 @@
     "value": 0.0,
     "units": "PERCENT"
    },
-   "align": "CENTER",
-   "color": "#616161",
-   "opacity": 1
+   "align": null,
+   "color": "#555555",
+   "opacity": 1,
+   "ocr_confirmed": false
   },
   {
-   "text": "Include at least 1 lowercase character",
-   "layer": "Include at least 1 lowercase character",
-   "path": "Reset Password – Validation/Container/Container/Container/Container/Password Requirements Container/Password Requirements Item Container/Frame 1000004429/Include at least 1 lowercase character",
-   "x": 32.0,
-   "y": 469.0,
-   "w": 228.0,
+   "text": "*",
+   "layer": "*",
+   "path": "Reset Password – Validation/Container/Container/Container/Dropdown field/Base/ Dropdown field (Multiple)/Container/Label/*",
+   "x": 55.0,
+   "y": 459.0,
+   "w": 7.0,
    "h": 20.0,
-   "font_family": "Barlow",
-   "font_style": "Medium",
+   "font_family": "Inter",
+   "font_style": "Regular",
    "font_size": 14.0,
    "line_height": {
     "value": 20.0,
@@ -745,23 +611,72 @@
     "value": 0.0,
     "units": "PERCENT"
    },
-   "align": "CENTER",
-   "color": "#616161",
-   "opacity": 1
+   "align": null,
+   "color": "#E81818",
+   "opacity": 1,
+   "ocr_confirmed": false
   },
   {
-   "text": "Include at least 1 uppercase character",
-   "layer": "Include at least 1 uppercase character",
-   "path": "Reset Password – Validation/Container/Container/Container/Container/Password Requirements Container/Password Requirements Item Container/Frame 1000004427/Include at least 1 uppercase character",
-   "x": 32.0,
-   "y": 493.0,
-   "w": 230.0,
-   "h": 20.0,
-   "font_family": "Barlow",
-   "font_style": "Medium",
-   "font_size": 14.0,
+   "text": "Select value",
+   "layer": "Placeholder",
+   "path": "Reset Password – Validation/Container/Container/Container/Dropdown field/Base/ Dropdown field (Multiple)/Container/Input/Placeholder",
+   "x": 28.0,
+   "y": 498.0,
+   "w": 293.0,
+   "h": 22.0,
+   "font_family": "Roboto",
+   "font_style": "Regular",
+   "font_size": 16.0,
    "line_height": {
-    "value": 20.0,
+    "value": 22.0,
+    "units": "PIXELS"
+   },
+   "letter_spacing": {
+    "value": 0.0,
+    "units": "PERCENT"
+   },
+   "align": null,
+   "color": "#A8A8A8",
+   "opacity": 1,
+   "ocr_confirmed": false
+  },
+  {
+   "text": "This is help text",
+   "layer": "Message",
+   "path": "Reset Password – Validation/Container/Container/Container/Dropdown field/Base/ Dropdown field (Multiple)/Help text/Message",
+   "x": 16.0,
+   "y": 537.0,
+   "w": 320.0,
+   "h": 20.0,
+   "font_family": "Inter",
+   "font_style": "Regular",
+   "font_size": 12.0,
+   "line_height": {
+    "value": 18.0,
+    "units": "PIXELS"
+   },
+   "letter_spacing": {
+    "value": 0.0,
+    "units": "PERCENT"
+   },
+   "align": null,
+   "color": "#6A6A6A",
+   "opacity": 1,
+   "ocr_confirmed": false
+  },
+  {
+   "text": "Button text",
+   "layer": "Button text",
+   "path": "Reset Password – Validation/Container/Container/Action Button Container/Action Button Container/Button/Base button/Primary/Button text",
+   "x": 130.0,
+   "y": 581.0,
+   "w": 115.0,
+   "h": 22.0,
+   "font_family": "Roboto",
+   "font_style": "SemiBold",
+   "font_size": 16.0,
+   "line_height": {
+    "value": 22.0,
     "units": "PIXELS"
    },
    "letter_spacing": {
@@ -769,8 +684,9 @@
     "units": "PERCENT"
    },
    "align": "CENTER",
-   "color": "#616161",
-   "opacity": 1
+   "color": "#FFFFFF",
+   "opacity": 1,
+   "ocr_confirmed": false
   }
  ]
 }
