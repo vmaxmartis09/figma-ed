@@ -109,7 +109,7 @@
             "fontSize": 17.0,
             "font": {
              "family": "SF Pro Text",
-             "style": "Semibold",
+             "style": "SemiBold",
              "postscript": "SFProText-Semibold"
             },
             "lineHeight": {
@@ -117,14 +117,30 @@
              "units": "PIXELS"
             },
             "letterSpacing": {
-             "value": -0.40799999237060547,
+             "value": -0.408,
              "units": "PIXELS"
             },
             "alignH": "CENTER",
             "alignV": "TOP",
             "case": null,
             "decoration": null,
-            "autoResize": "HEIGHT"
+            "autoResize": "HEIGHT",
+            "orig": {
+             "fontSize": 17.0,
+             "font": {
+              "family": "SF Pro Text",
+              "style": "Semibold",
+              "postscript": "SFProText-Semibold"
+             },
+             "lineHeight": {
+              "value": 22.0,
+              "units": "PIXELS"
+             },
+             "letterSpacing": {
+              "value": -0.40799999237060547,
+              "units": "PIXELS"
+             }
+            }
            }
           }
          ]
@@ -1156,19 +1172,19 @@
              "fills": [
               {
                "type": "SOLID",
-               "color": "#121212"
+               "color": "#555555"
               }
              ],
              "text": {
               "characters": "Carers in Victoria",
-              "fontSize": 20.0,
+              "fontSize": 16.0,
               "font": {
                "family": "Roboto",
-               "style": "SemiBold",
+               "style": "Medium",
                "postscript": "Roboto-SemiBold"
               },
               "lineHeight": {
-               "value": 26.0,
+               "value": 22.0,
                "units": "PIXELS"
               },
               "letterSpacing": {
@@ -1179,7 +1195,23 @@
               "alignV": "TOP",
               "case": null,
               "decoration": null,
-              "autoResize": "HEIGHT"
+              "autoResize": "HEIGHT",
+              "orig": {
+               "fontSize": 20.0,
+               "font": {
+                "family": "Roboto",
+                "style": "SemiBold",
+                "postscript": "Roboto-SemiBold"
+               },
+               "lineHeight": {
+                "value": 26.0,
+                "units": "PIXELS"
+               },
+               "letterSpacing": {
+                "value": -1.0,
+                "units": "PERCENT"
+               }
+              }
              }
             },
             {
@@ -1194,30 +1226,46 @@
              "fills": [
               {
                "type": "SOLID",
-               "color": "#555555"
+               "color": "#121212"
               }
              ],
              "text": {
               "characters": "4 links available",
-              "fontSize": 12.0,
+              "fontSize": 20.0,
               "font": {
                "family": "Roboto",
-               "style": "Regular",
+               "style": "SemiBold",
                "postscript": "Roboto-Regular"
               },
               "lineHeight": {
-               "value": 18.0,
+               "value": 26.0,
                "units": "PIXELS"
               },
               "letterSpacing": {
-               "value": 0.0,
+               "value": -1.0,
                "units": "PERCENT"
               },
               "alignH": null,
               "alignV": "TOP",
               "case": null,
               "decoration": null,
-              "autoResize": "HEIGHT"
+              "autoResize": "HEIGHT",
+              "orig": {
+               "fontSize": 12.0,
+               "font": {
+                "family": "Roboto",
+                "style": "Regular",
+                "postscript": "Roboto-Regular"
+               },
+               "lineHeight": {
+                "value": 18.0,
+                "units": "PIXELS"
+               },
+               "letterSpacing": {
+                "value": 0.0,
+                "units": "PERCENT"
+               }
+              }
              }
             }
            ]

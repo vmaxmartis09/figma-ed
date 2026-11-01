@@ -116,7 +116,7 @@
               "fontSize": 17.0,
               "font": {
                "family": "SF Pro Text",
-               "style": "Semibold",
+               "style": "SemiBold",
                "postscript": "SFProText-Semibold"
               },
               "lineHeight": {
@@ -124,14 +124,30 @@
                "units": "PIXELS"
               },
               "letterSpacing": {
-               "value": -0.40799999237060547,
+               "value": -0.408,
                "units": "PIXELS"
               },
               "alignH": "CENTER",
               "alignV": "TOP",
               "case": null,
               "decoration": null,
-              "autoResize": "HEIGHT"
+              "autoResize": "HEIGHT",
+              "orig": {
+               "fontSize": 17.0,
+               "font": {
+                "family": "SF Pro Text",
+                "style": "Semibold",
+                "postscript": "SFProText-Semibold"
+               },
+               "lineHeight": {
+                "value": 22.0,
+                "units": "PIXELS"
+               },
+               "letterSpacing": {
+                "value": -0.40799999237060547,
+                "units": "PIXELS"
+               }
+              }
              }
             }
            ]
@@ -3585,15 +3601,15 @@
            "fills": [
             {
              "type": "SOLID",
-             "color": "#555555"
+             "color": "#1999A4"
             }
            ],
            "text": {
             "characters": "New messages",
             "fontSize": 14.0,
             "font": {
-             "family": "Inter",
-             "style": "Medium",
+             "family": "Roboto",
+             "style": "Regular",
              "postscript": "Inter-Medium"
             },
             "lineHeight": {
@@ -3608,7 +3624,23 @@
             "alignV": "TOP",
             "case": null,
             "decoration": null,
-            "autoResize": "WIDTH_AND_HEIGHT"
+            "autoResize": "WIDTH_AND_HEIGHT",
+            "orig": {
+             "fontSize": 14.0,
+             "font": {
+              "family": "Inter",
+              "style": "Medium",
+              "postscript": "Inter-Medium"
+             },
+             "lineHeight": {
+              "value": 20.0,
+              "units": "PIXELS"
+             },
+             "letterSpacing": {
+              "value": 0.0,
+              "units": "PERCENT"
+             }
+            }
            }
           },
           {
@@ -3685,15 +3717,15 @@
            "fills": [
             {
              "type": "SOLID",
-             "color": "#535862"
+             "color": "#555555"
             }
            ],
            "text": {
             "characters": "Today",
             "fontSize": 14.0,
             "font": {
-             "family": "Inter",
-             "style": "Medium",
+             "family": "Roboto",
+             "style": "Regular",
              "postscript": "Inter-Medium"
             },
             "lineHeight": {
@@ -3708,7 +3740,23 @@
             "alignV": "TOP",
             "case": null,
             "decoration": null,
-            "autoResize": "WIDTH_AND_HEIGHT"
+            "autoResize": "WIDTH_AND_HEIGHT",
+            "orig": {
+             "fontSize": 14.0,
+             "font": {
+              "family": "Inter",
+              "style": "Medium",
+              "postscript": "Inter-Medium"
+             },
+             "lineHeight": {
+              "value": 20.0,
+              "units": "PIXELS"
+             },
+             "letterSpacing": {
+              "value": 0.0,
+              "units": "PERCENT"
+             }
+            }
            }
           },
           {
@@ -4031,7 +4079,7 @@
                      "fills": [
                       {
                        "type": "SOLID",
-                       "color": "#121212"
+                       "color": "#8B5ECB"
                       }
                      ],
                      "text": {
@@ -8350,8 +8398,7 @@
            "fills": [
             {
              "type": "SOLID",
-             "color": "#000000",
-             "opacity": 0.8799999952316284
+             "color": "#FFFFFF"
             }
            ],
            "text": {
@@ -9567,7 +9614,7 @@
             }
            ],
            "text": {
-            "characters": "Button text",
+            "characters": "Cancel",
             "fontSize": 16.0,
             "font": {
              "family": "Roboto",

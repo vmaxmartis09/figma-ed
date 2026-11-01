@@ -97,7 +97,7 @@
           "fontSize": 17.0,
           "font": {
            "family": "SF Pro Text",
-           "style": "Semibold",
+           "style": "SemiBold",
            "postscript": "SFProText-Semibold"
           },
           "lineHeight": {
@@ -105,14 +105,30 @@
            "units": "PIXELS"
           },
           "letterSpacing": {
-           "value": -0.40799999237060547,
+           "value": -0.408,
            "units": "PIXELS"
           },
           "alignH": "CENTER",
           "alignV": "TOP",
           "case": null,
           "decoration": null,
-          "autoResize": "HEIGHT"
+          "autoResize": "HEIGHT",
+          "orig": {
+           "fontSize": 17.0,
+           "font": {
+            "family": "SF Pro Text",
+            "style": "Semibold",
+            "postscript": "SFProText-Semibold"
+           },
+           "lineHeight": {
+            "value": 22.0,
+            "units": "PIXELS"
+           },
+           "letterSpacing": {
+            "value": -0.40799999237060547,
+            "units": "PIXELS"
+           }
+          }
          }
         }
        ]
@@ -1616,19 +1632,19 @@
              "fills": [
               {
                "type": "SOLID",
-               "color": "#121212"
+               "color": "#6A6A6A"
               }
              ],
              "text": {
               "characters": "End",
-              "fontSize": 16.0,
+              "fontSize": 14.0,
               "font": {
-               "family": "Roboto",
+               "family": "Noto Sans KR",
                "style": "Regular",
                "postscript": "Roboto-Regular"
               },
               "lineHeight": {
-               "value": 22.0,
+               "value": 20.0,
                "units": "PIXELS"
               },
               "letterSpacing": {
@@ -1639,7 +1655,23 @@
               "alignV": "BOTTOM",
               "case": null,
               "decoration": null,
-              "autoResize": "WIDTH_AND_HEIGHT"
+              "autoResize": "WIDTH_AND_HEIGHT",
+              "orig": {
+               "fontSize": 16.0,
+               "font": {
+                "family": "Roboto",
+                "style": "Regular",
+                "postscript": "Roboto-Regular"
+               },
+               "lineHeight": {
+                "value": 22.0,
+                "units": "PIXELS"
+               },
+               "letterSpacing": {
+                "value": 0.0,
+                "units": "PERCENT"
+               }
+              }
              }
             }
            ]

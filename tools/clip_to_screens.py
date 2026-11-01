@@ -33,8 +33,8 @@ def applyprops(n, props):
         if v is None: continue
         fld = r.get('componentPropNodeField')
         if fld == 'VISIBLE' and 'boolValue' in v: n['visible'] = v['boolValue']
-        elif fld == 'TEXT_DATA' and v.get('textValue') is not None:
-            tv = v['textValue']; ch = tv.get('characters') if isinstance(tv, dict) else tv
+        elif fld == 'TEXT_DATA' and (v.get('textValue') is not None or v.get('textDataValue') is not None):
+            tv = v.get('textValue') if v.get('textValue') is not None else v.get('textDataValue'); ch = tv.get('characters') if isinstance(tv, dict) else tv
             if ch is not None: n['textData'] = dict(n.get('textData') or {}, characters=ch)
         elif fld == 'OVERRIDDEN_SYMBOL_ID' and v.get('guidValue'): n['overriddenSymbolID'] = v['guidValue']
 def reduce(n, ov=None, depth=0, props=None):

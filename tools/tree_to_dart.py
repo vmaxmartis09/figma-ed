@@ -27,7 +27,9 @@ def paint(fills):
             c = p['color']; op = p.get('opacity', 1)
             return f'Color(0x{c.lstrip("#")[6:8] if len(c.lstrip("#"))==8 else "FF"}{c.lstrip("#")[:6]})' if op == 1 else f'{col(c)}.withOpacity({op})'
     return None
-def esc(t): return t.replace('\\', '\\\\').replace("'", "\\'").replace('$', '\\$').replace('\n', '\\n')
+def esc(t):
+    t = json.dumps(t, ensure_ascii=False)[1:-1].replace("'", "\\'").replace('$', '\\$')
+    return ''.join(c if ord(c) >= 32 and c not in '\u2028\u2029\x85' else '\\u%04x' % ord(c) for c in t)
 out = []
 def emit(n, ind, top=False):
     if n.get('visible') is False: return None
@@ -78,5 +80,5 @@ def emit(n, ind, top=False):
 tree = json.load(open(sys.argv[1])); cls = sys.argv[2]
 bp = os.path.join(os.path.dirname(sys.argv[1]), '..', '..', 'blobs.json')
 BLOBS = [{'bytes': b} for b in json.load(open(bp))] if os.path.exists(bp) else []
-root = emit(tree, 2, True)
+root = emit(tree, 2, True) or 'const SizedBox()'
 print(f"import 'package:flutter/material.dart';\nimport 'package:flutter_svg/flutter_svg.dart';\n\nclass {cls} extends StatelessWidget {{\n  const {cls}({{super.key}});\n  @override\n  Widget build(BuildContext context) {{\n    return SizedBox(width: {tree['w']}, height: {tree['h']}, child: {root});\n  }}\n}}")

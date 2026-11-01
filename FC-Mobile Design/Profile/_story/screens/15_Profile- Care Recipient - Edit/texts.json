@@ -76,7 +76,13 @@
    "layer_name": "Description"
   },
   {
-   "text": "Label",
+   "text": [
+    "First name",
+    "Last name",
+    "Gender",
+    "Year of birth",
+    "Relationship to recipient"
+   ],
    "verified_by_ocr": false,
    "ocr_candidate": "Cancel",
    "style": "Body M/Medium",
@@ -123,7 +129,7 @@
   {
    "text": [
     "Leo",
-    "Enter value"
+    "Margaret"
    ],
    "verified_by_ocr": false,
    "ocr_candidate": "Male",
@@ -154,7 +160,13 @@
    "layer_name": "Text suffix"
   },
   {
-   "text": "Label",
+   "text": [
+    "First name",
+    "Last name",
+    "Gender",
+    "Year of birth",
+    "Relationship to recipient"
+   ],
    "verified_by_ocr": false,
    "ocr_candidate": "Cancel",
    "style": "Body M/Medium",
@@ -171,7 +183,7 @@
   {
    "text": [
     "Male",
-    "Select value",
+    "1949",
     "Father"
    ],
    "verified_by_ocr": false,
@@ -270,7 +282,7 @@
   {
    "text": [
     "Save change",
-    "Button text"
+    "Cancel"
    ],
    "verified_by_ocr": false,
    "ocr_candidate": "By First Name",
@@ -288,7 +300,7 @@
   {
    "text": [
     "Save change",
-    "Button text"
+    "Cancel"
    ],
    "verified_by_ocr": false,
    "ocr_candidate": "By First Name",
@@ -400,7 +412,7 @@
    "ocr_confirmed": true
   },
   {
-   "text": "Label",
+   "text": "First name",
    "layer": "Label",
    "path": "Profile: Care Recipient - Edit/Form/Text Field/Field/Container/Label/Label",
    "x": 16.0,
@@ -421,7 +433,7 @@
    "align": null,
    "color": "#6A6A6A",
    "opacity": 1,
-   "ocr_confirmed": false
+   "ocr_confirmed": true
   },
   {
    "text": "*",
@@ -472,7 +484,7 @@
    "ocr_confirmed": true
   },
   {
-   "text": "Label",
+   "text": "Last name",
    "layer": "Label",
    "path": "Profile: Care Recipient - Edit/Form/Text Field/Field/Container/Label/Label",
    "x": 16.0,
@@ -493,7 +505,7 @@
    "align": null,
    "color": "#6A6A6A",
    "opacity": 1,
-   "ocr_confirmed": false
+   "ocr_confirmed": true
   },
   {
    "text": "*",
@@ -520,7 +532,7 @@
    "ocr_confirmed": false
   },
   {
-   "text": "Enter value",
+   "text": "Margaret",
    "layer": "text value",
    "path": "Profile: Care Recipient - Edit/Form/Text Field/Field/Container/Input/Input/text value",
    "x": 28.0,
@@ -541,10 +553,10 @@
    "align": null,
    "color": "#121212",
    "opacity": 1,
-   "ocr_confirmed": false
+   "ocr_confirmed": true
   },
   {
-   "text": "Label",
+   "text": "Gender",
    "layer": "Label",
    "path": "Profile: Care Recipient - Edit/Form/Dropdown field/Base/ Dropdown field (Single)/Container/Label/Label",
    "x": 16.0,
@@ -565,7 +577,7 @@
    "align": null,
    "color": "#555555",
    "opacity": 1,
-   "ocr_confirmed": false
+   "ocr_confirmed": true
   },
   {
    "text": "*",
@@ -616,7 +628,7 @@
    "ocr_confirmed": true
   },
   {
-   "text": "Label",
+   "text": "Year of birth",
    "layer": "Label",
    "path": "Profile: Care Recipient - Edit/Form/Dropdown field/Base/ Dropdown field (Single)/Container/Label/Label",
    "x": 16.0,
@@ -637,7 +649,7 @@
    "align": null,
    "color": "#555555",
    "opacity": 1,
-   "ocr_confirmed": false
+   "ocr_confirmed": true
   },
   {
    "text": "*",
@@ -664,7 +676,7 @@
    "ocr_confirmed": false
   },
   {
-   "text": "Select value",
+   "text": "1949",
    "layer": "Text value",
    "path": "Profile: Care Recipient - Edit/Form/Dropdown field/Base/ Dropdown field (Single)/Container/Input/Text value",
    "x": 28.0,
@@ -685,10 +697,10 @@
    "align": null,
    "color": "#121212",
    "opacity": 1,
-   "ocr_confirmed": false
+   "ocr_confirmed": true
   },
   {
-   "text": "Label",
+   "text": "Relationship to recipient",
    "layer": "Label",
    "path": "Profile: Care Recipient - Edit/Form/Dropdown field/Base/ Dropdown field (Single)/Container/Label/Label",
    "x": 16.0,
@@ -709,7 +721,7 @@
    "align": null,
    "color": "#555555",
    "opacity": 1,
-   "ocr_confirmed": false
+   "ocr_confirmed": true
   },
   {
    "text": "*",
@@ -904,7 +916,7 @@
    "ocr_confirmed": true
   },
   {
-   "text": "Button text",
+   "text": "Cancel",
    "layer": "Button text",
    "path": "Profile: Care Recipient - Edit/Form/Checkbox container/Button/Base button/Primary/Button text",
    "x": 162.5,
@@ -925,7 +937,7 @@
    "align": "CENTER",
    "color": "#1999A4",
    "opacity": 1,
-   "ocr_confirmed": false
+   "ocr_confirmed": true
   }
  ]
 }

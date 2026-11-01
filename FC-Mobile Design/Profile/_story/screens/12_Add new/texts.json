@@ -107,7 +107,7 @@
   {
    "text": [
     "Create",
-    "Button text"
+    "Cancel"
    ],
    "verified_by_ocr": false,
    "ocr_candidate": "By First Name",
@@ -125,7 +125,7 @@
   {
    "text": [
     "Create",
-    "Button text"
+    "Cancel"
    ],
    "verified_by_ocr": false,
    "ocr_candidate": "By First Name",
@@ -142,7 +142,10 @@
   },
   {
    "text": [
-    "Label",
+    "First name",
+    "Last name",
+    "Gender",
+    "Year of birth",
     "Relationship to recipient"
    ],
    "verified_by_ocr": false,
@@ -188,7 +191,10 @@
    "text_source": "layer_name"
   },
   {
-   "text": "Enter value",
+   "text": [
+    "Enter first name",
+    "Enter last name"
+   ],
    "verified_by_ocr": false,
    "ocr_candidate": "Enter last name",
    "style": "Body L/Regular",
@@ -218,7 +224,10 @@
   },
   {
    "text": [
-    "Label",
+    "First name",
+    "Last name",
+    "Gender",
+    "Year of birth",
     "Relationship to recipient"
    ],
    "verified_by_ocr": false,
@@ -237,7 +246,8 @@
   {
    "text": [
     "Select gender",
-    "Select value"
+    "yyyy",
+    "Select relationship"
    ],
    "verified_by_ocr": false,
    "ocr_candidate": "Select gender",
@@ -424,7 +434,7 @@
    "ocr_confirmed": true
   },
   {
-   "text": "Button text",
+   "text": "Cancel",
    "layer": "Button text",
    "path": "Add new/Form/Checkbox container/Button/Base button/Primary/Button text",
    "x": 162.5,
@@ -445,10 +455,10 @@
    "align": "CENTER",
    "color": "#1999A4",
    "opacity": 1,
-   "ocr_confirmed": false
+   "ocr_confirmed": true
   },
   {
-   "text": "Label",
+   "text": "First name",
    "layer": "Label",
    "path": "Add new/Form/Text Field/Field/Container/Label/Label",
    "x": 16.0,
@@ -469,7 +479,7 @@
    "align": null,
    "color": "#6A6A6A",
    "opacity": 1,
-   "ocr_confirmed": false
+   "ocr_confirmed": true
   },
   {
    "text": "*",
@@ -496,7 +506,7 @@
    "ocr_confirmed": false
   },
   {
-   "text": "Enter value",
+   "text": "Enter first name",
    "layer": "text value",
    "path": "Add new/Form/Text Field/Field/Container/Input/Input/text value",
    "x": 28.0,
@@ -517,10 +527,10 @@
    "align": null,
    "color": "#A8A8A8",
    "opacity": 1,
-   "ocr_confirmed": false
+   "ocr_confirmed": true
   },
   {
-   "text": "Label",
+   "text": "Last name",
    "layer": "Label",
    "path": "Add new/Form/Text Field/Field/Container/Label/Label",
    "x": 16.0,
@@ -541,7 +551,7 @@
    "align": null,
    "color": "#6A6A6A",
    "opacity": 1,
-   "ocr_confirmed": false
+   "ocr_confirmed": true
   },
   {
    "text": "*",
@@ -568,7 +578,7 @@
    "ocr_confirmed": false
   },
   {
-   "text": "Enter value",
+   "text": "Enter last name",
    "layer": "text value",
    "path": "Add new/Form/Text Field/Field/Container/Input/Input/text value",
    "x": 28.0,
@@ -589,10 +599,10 @@
    "align": null,
    "color": "#A8A8A8",
    "opacity": 1,
-   "ocr_confirmed": false
+   "ocr_confirmed": true
   },
   {
-   "text": "Label",
+   "text": "Gender",
    "layer": "Label",
    "path": "Add new/Form/Dropdown field/Base/ Dropdown field (Single)/Container/Label/Label",
    "x": 16.0,
@@ -613,7 +623,7 @@
    "align": null,
    "color": "#555555",
    "opacity": 1,
-   "ocr_confirmed": false
+   "ocr_confirmed": true
   },
   {
    "text": "*",
@@ -664,7 +674,7 @@
    "ocr_confirmed": true
   },
   {
-   "text": "Label",
+   "text": "Year of birth",
    "layer": "Label",
    "path": "Add new/Form/Dropdown field/Base/ Dropdown field (Single)/Container/Label/Label",
    "x": 16.0,
@@ -685,7 +695,7 @@
    "align": null,
    "color": "#555555",
    "opacity": 1,
-   "ocr_confirmed": false
+   "ocr_confirmed": true
   },
   {
    "text": "*",
@@ -712,7 +722,7 @@
    "ocr_confirmed": false
   },
   {
-   "text": "Select value",
+   "text": "yyyy",
    "layer": "Placeholder",
    "path": "Add new/Form/Dropdown field/Base/ Dropdown field (Single)/Container/Input/Placeholder",
    "x": 28.0,
@@ -784,7 +794,7 @@
    "ocr_confirmed": false
   },
   {
-   "text": "Select value",
+   "text": "Select relationship",
    "layer": "Placeholder",
    "path": "Add new/Form/Dropdown field/Base/ Dropdown field (Single)/Container/Input/Placeholder",
    "x": 28.0,
@@ -805,7 +815,7 @@
    "align": null,
    "color": "#A8A8A8",
    "opacity": 1,
-   "ocr_confirmed": false
+   "ocr_confirmed": true
   },
   {
    "text": "Relationship using",

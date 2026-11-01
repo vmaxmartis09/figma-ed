@@ -92,7 +92,13 @@
    "layer_name": "Header subtitle"
   },
   {
-   "text": "Label",
+   "text": [
+    "First name",
+    "Last name",
+    "Gender",
+    "Year of Birth",
+    "Relationship to recipient"
+   ],
    "verified_by_ocr": false,
    "ocr_candidate": "Last name *",
    "style": "Body M/Medium",
@@ -136,7 +142,10 @@
    "text_source": "layer_name"
   },
   {
-   "text": "Enter value",
+   "text": [
+    "Avery",
+    "Smith"
+   ],
    "verified_by_ocr": false,
    "ocr_candidate": "Male",
    "style": "Body L/Regular",
@@ -165,7 +174,13 @@
    "text_source": "layer_name"
   },
   {
-   "text": "Label",
+   "text": [
+    "First name",
+    "Last name",
+    "Gender",
+    "Year of Birth",
+    "Relationship to recipient"
+   ],
    "verified_by_ocr": false,
    "ocr_candidate": "Last name *",
    "style": "Body M/Medium",
@@ -180,7 +195,11 @@
    "layer_name": "Label"
   },
   {
-   "text": "Select value",
+   "text": [
+    "Male",
+    "1984",
+    "Uncle"
+   ],
    "verified_by_ocr": false,
    "ocr_candidate": "Male",
    "style": "Body L/Regular",
@@ -475,7 +494,7 @@
    "ocr_confirmed": true
   },
   {
-   "text": "Label",
+   "text": "First name",
    "layer": "Label",
    "path": "Onboarding - Add New Recipient/Footer Container/Form/Text Field/Field/Container/Label/Label",
    "x": 16.0,
@@ -496,7 +515,7 @@
    "align": null,
    "color": "#6A6A6A",
    "opacity": 1,
-   "ocr_confirmed": false
+   "ocr_confirmed": true
   },
   {
    "text": "*",
@@ -523,7 +542,7 @@
    "ocr_confirmed": false
   },
   {
-   "text": "Enter value",
+   "text": "Avery",
    "layer": "text value",
    "path": "Onboarding - Add New Recipient/Footer Container/Form/Text Field/Field/Container/Input/Input/text value",
    "x": 28.0,
@@ -544,10 +563,10 @@
    "align": null,
    "color": "#121212",
    "opacity": 1,
-   "ocr_confirmed": false
+   "ocr_confirmed": true
   },
   {
-   "text": "Label",
+   "text": "Last name",
    "layer": "Label",
    "path": "Onboarding - Add New Recipient/Footer Container/Form/Text Field/Field/Container/Label/Label",
    "x": 16.0,
@@ -568,7 +587,7 @@
    "align": null,
    "color": "#6A6A6A",
    "opacity": 1,
-   "ocr_confirmed": false
+   "ocr_confirmed": true
   },
   {
    "text": "*",
@@ -595,7 +614,7 @@
    "ocr_confirmed": false
   },
   {
-   "text": "Enter value",
+   "text": "Smith",
    "layer": "text value",
    "path": "Onboarding - Add New Recipient/Footer Container/Form/Text Field/Field/Container/Input/Input/text value",
    "x": 28.0,
@@ -616,10 +635,10 @@
    "align": null,
    "color": "#121212",
    "opacity": 1,
-   "ocr_confirmed": false
+   "ocr_confirmed": true
   },
   {
-   "text": "Label",
+   "text": "Gender",
    "layer": "Label",
    "path": "Onboarding - Add New Recipient/Footer Container/Form/Dropdown field/Base/ Dropdown field (Single)/Container/Label/Label",
    "x": 16.0,
@@ -640,7 +659,7 @@
    "align": null,
    "color": "#555555",
    "opacity": 1,
-   "ocr_confirmed": false
+   "ocr_confirmed": true
   },
   {
    "text": "*",
@@ -667,7 +686,7 @@
    "ocr_confirmed": false
   },
   {
-   "text": "Select value",
+   "text": "Male",
    "layer": "Text value",
    "path": "Onboarding - Add New Recipient/Footer Container/Form/Dropdown field/Base/ Dropdown field (Single)/Container/Input/Text value",
    "x": 28.0,
@@ -688,10 +707,10 @@
    "align": null,
    "color": "#121212",
    "opacity": 1,
-   "ocr_confirmed": false
+   "ocr_confirmed": true
   },
   {
-   "text": "Label",
+   "text": "Year of Birth",
    "layer": "Label",
    "path": "Onboarding - Add New Recipient/Footer Container/Form/Dropdown field/Base/ Dropdown field (Single)/Container/Label/Label",
    "x": 16.0,
@@ -712,7 +731,7 @@
    "align": null,
    "color": "#555555",
    "opacity": 1,
-   "ocr_confirmed": false
+   "ocr_confirmed": true
   },
   {
    "text": "*",
@@ -739,7 +758,7 @@
    "ocr_confirmed": false
   },
   {
-   "text": "Select value",
+   "text": "1984",
    "layer": "Text value",
    "path": "Onboarding - Add New Recipient/Footer Container/Form/Dropdown field/Base/ Dropdown field (Single)/Container/Input/Text value",
    "x": 28.0,
@@ -760,10 +779,10 @@
    "align": null,
    "color": "#121212",
    "opacity": 1,
-   "ocr_confirmed": false
+   "ocr_confirmed": true
   },
   {
-   "text": "Label",
+   "text": "Relationship to recipient",
    "layer": "Label",
    "path": "Onboarding - Add New Recipient/Footer Container/Form/Form/Dropdown field/Base/ Dropdown field (Single)/Container/Label/Label",
    "x": 16.0,
@@ -784,7 +803,7 @@
    "align": null,
    "color": "#555555",
    "opacity": 1,
-   "ocr_confirmed": false
+   "ocr_confirmed": true
   },
   {
    "text": "*",
@@ -811,7 +830,7 @@
    "ocr_confirmed": false
   },
   {
-   "text": "Select value",
+   "text": "Uncle",
    "layer": "Text value",
    "path": "Onboarding - Add New Recipient/Footer Container/Form/Form/Dropdown field/Base/ Dropdown field (Single)/Container/Input/Text value",
    "x": 28.0,
@@ -832,7 +851,7 @@
    "align": null,
    "color": "#121212",
    "opacity": 1,
-   "ocr_confirmed": false
+   "ocr_confirmed": true
   },
   {
    "text": "Relationship using",
