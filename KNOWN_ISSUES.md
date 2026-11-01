@@ -1,7 +1,7 @@
 # Known issues (checked visually via _story/contact.png)
 
-Visually checked so far (15/24): Authentication x3, About, Peer Support, Chatbot, HCP Onboard and Follow up session,
-Profile, Course, Calendar, Videos, Workshop, Setting, Dementia Resources.
+Visually checked so far (17/24): Authentication x3, About, Peer Support, Chatbot, HCP Onboard and Follow up session,
+Profile, Course, Calendar, Videos, Workshop, Setting, Dementia Resources, Search, Home.
 
 - HCP-Mobile Design/Workshop: screens 21-23 were mis-cropped (position offset by section origin); FIXED, re-cropped from story.png.
 - FC-Mobile Design/About: screens 24_Login_3, 35_Login_5, 36_How to use this page are mis-positioned (the position in screens.json does not match where these frames sit in the board; confirmed 24_Login_3 crop is mostly canvas gray). Their CSS is valid but PNG crop is wrong; needs re-export from Figma.
@@ -9,3 +9,4 @@ Profile, Course, Calendar, Videos, Workshop, Setting, Dementia Resources.
 - Authentication/Tracking is a changelog board (no phone screens).
 - Images are 1x only (view-only Figma file cannot export 2x). texts.json lines with verified_by_ocr=false need manual check.
 - Library: icons/illustrations exported as SVG by a background worker; see Library/ for what exists so far.
+- FC-Mobile Design/Home- User đã login...: screen 08 carries an 'Out-date' watermark (outdated frame the user asked to skip); ignore it.
