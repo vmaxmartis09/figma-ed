@@ -34,7 +34,14 @@ for tj in glob.glob(R + '/*/*/_story/screens/*/tree.json') + glob.glob(R + '/*/*
                     if frag:
                         os.makedirs(idir, exist_ok=True); k[0] += 1
                         fn = f"{k[0]:02d}_{re.sub(r'[^A-Za-z0-9_-]+', '_', n['name'])[:40]}.svg"
-                        open(os.path.join(idir, fn), 'w').write(f'<svg xmlns="http://www.w3.org/2000/svg" width="{n["w"]:g}" height="{n["h"]:g}" viewBox="0 0 {n["w"]:g} {n["h"]:g}">{frag}</svg>')
+                        W, H = n['w'], n['h']; p = 0
+                        sw = max([n.get('strokeWeight') or 0] + [c.get('strokeWeight') or 0 for c in n.get('children', [])])
+                        if W < 0.5 or H < 0.5: p = max(sw, 1) / 2
+                        tr = n.get('transform')
+                        pts = [(0, 0), (W, 0), (0, H), (W, H)]
+                        if tr: pts = [(tr[0] * a + tr[2] * b, tr[1] * a + tr[3] * b) for a, b in pts]
+                        x0, x1 = min(q[0] for q in pts) - p, max(q[0] for q in pts) + p; y0, y1 = min(q[1] for q in pts) - p, max(q[1] for q in pts) + p
+                        open(os.path.join(idir, fn), 'w').write(f'<svg xmlns="http://www.w3.org/2000/svg" width="{x1-x0:g}" height="{y1-y0:g}" viewBox="{x0:g} {y0:g} {x1-x0:g} {y1-y0:g}">{frag}</svg>')
                         e['svg'] = 'icons/' + fn
                 except Exception as ex: e['svg_error'] = str(ex)[:60]
                 out.append(e)
