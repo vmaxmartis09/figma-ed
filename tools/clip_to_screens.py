@@ -5,7 +5,7 @@ import sys, os, json, re, glob
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 import figkiwi
 D = sys.argv[1]
-m = figkiwi.load_clip_html(D + '/clip.html'); nc = [n for n in m['nodeChanges'] if 'guid' in n and 'type' in n and 'name' in n]
+m = figkiwi.load_clip_html(D + '/clip.html'); BLOBS = m.get('blobs', []); nc = [n for n in m['nodeChanges'] if 'guid' in n and 'type' in n and 'name' in n]
 g = lambda n: (n['guid']['sessionID'], n['guid']['localID'])
 by = {g(n): n for n in nc}; kids = {}
 for n in nc:
@@ -36,6 +36,10 @@ def reduce(n, ov=None, depth=0):
     if n.get('opacity', 1) != 1: o['opacity'] = n['opacity']
     for k in ('cornerRadius', 'rectangleTopLeftCornerRadius', 'rectangleTopRightCornerRadius', 'rectangleBottomLeftCornerRadius', 'rectangleBottomRightCornerRadius', 'strokeWeight', 'strokeAlign', 'stackMode', 'stackSpacing', 'stackPaddingLeft', 'stackPaddingRight', 'stackPaddingTop', 'stackPaddingBottom', 'stackPrimaryAlignItems', 'stackCounterAlignItems', 'stackPrimarySizing', 'stackCounterSizing', 'stackChildPrimaryGrow', 'stackPositioning', 'horizontalConstraint', 'verticalConstraint', 'frameMaskDisabled'):
         if n.get(k) not in (None, 0, 0.0): o[k] = n[k]
+    if n.get('vectorData') and n['vectorData'].get('vectorNetworkBlob') is not None:
+        vd = n['vectorData']; o['vec'] = {'blob': vd['vectorNetworkBlob'], 'nw': vd['normalizedSize']['x'], 'nh': vd['normalizedSize']['y']}
+    for k in ('strokeCap', 'strokeJoin'):
+        if n.get(k): o[k] = n[k]
     fp = [x for x in (paint(p) for p in n.get('fillPaints', [])) if x]
     if fp: o['fills'] = fp
     sp = [x for x in (paint(p) for p in n.get('strokePaints', [])) if x]
@@ -117,4 +121,5 @@ for s in sc:
         data['texts_real'] = texts
         json.dump(data, open(tj, 'w'), ensure_ascii=False, indent=1)
         tot_t += len(data['texts']); real_t += sum(t.get('text_source') == 'figma_clipboard' for t in data['texts'])
+json.dump(BLOBS and [list(b['bytes']) for b in BLOBS] or [], open(D + '/blobs.json', 'w'))
 print(D.split('figma-ediva/')[-1], 'screens', len(sc), 'matched', matched, 'texts', tot_t, 'real', real_t)

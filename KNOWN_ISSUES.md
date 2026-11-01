@@ -17,3 +17,6 @@ Profile, Course, Calendar, Videos, Workshop, Setting, Dementia Resources, Search
 - texts_real (from Figma clipboard data, instances expanded with overrides): 13,519 text nodes across 24 stories; 7,529 (56%) are also confirmed by OCR on the screen image (ocr_confirmed=true).
   The rest may be hidden/placeholder layers or text OCR could not read; treat ocr_confirmed=false as 'verify on Figma'. Known example: Setting/01 shows '3','2' where the design shows 'Every day','08:00 AM' (override not resolved).
 - NEW: per screen assets.json lists every icon/image node (position, size, colour, library_svg if the Library SVG exists). icons_missing_in_library.json lists icon names with no SVG yet.
+- NEW: per-screen icons/*.svg generated from Figma vector data (tools/figsvg.py; 5,622 of 5,651 icon nodes). Visual spot check of 24 random icons: most match
+  (bell, chevrons, settings gear, user, X, verified badge, logos, status bar). Simple 'Line'/'Polygon' nodes and some boolean-operation shapes render blank or approximate -
+  verify those against the PNG. assets.json 'svg' points to the file, 'library_svg' to the exported Library SVG when one exists.
