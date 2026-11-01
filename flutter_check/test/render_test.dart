@@ -19,6 +19,7 @@ void main() {
       tester.view.devicePixelRatio = 1.0;
       tester.view.physicalSize = Size(s.$2, s.$3);
       await tester.pumpWidget(Directionality(textDirection: TextDirection.ltr, child: Center(child: RepaintBoundary(key: key, child: s.$4()))));
+      await tester.runAsync(() async { for (final p in imagePaths) { await precacheImage(FileImage(File(p)), tester.element(find.byKey(key))); } });
       await tester.pumpAndSettle();
       await tester.runAsync(() async {
         final boundary = key.currentContext!.findRenderObject() as RenderRepaintBoundary;

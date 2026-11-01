@@ -31,16 +31,23 @@ def esc(t):
     t = json.dumps(t, ensure_ascii=False)[1:-1].replace("'", "\\'").replace('$', '\\$')
     return ''.join(c if ord(c) >= 32 and c not in '\u2028\u2029\x85' else '\\u%04x' % ord(c) for c in t)
 out = []
-def emit(n, ind, top=False):
+IMG = {}
+def emit(n, ind, top=False, ox=0, oy=0):
     if n.get('visible') is False: return None
     pad = '  ' * ind; t = n['type']
     x, y, w, h = n['x'], n['y'], n['w'], n['h']
+    ax, ay = (0, 0) if top else (ox + x, oy + y)
     body = None
     ic = None if top else icon_svg(n)
     if ic:
         svg, dx, dy, iw, ih = ic
         return f"{pad}Positioned(left: {x + dx}, top: {y + dy}, width: {iw}, height: {ih}, child: SvgPicture.string(r'''{svg}''', width: {iw}, height: {ih}))"
-    if t == 'TEXT':
+    imgfile = None
+    if not top and any(p.get('type') == 'IMAGE' for p in n.get('fills', [])): imgfile = IMG.get((round(ax, 2), round(ay, 2), round(w, 2), round(h, 2)))
+    if imgfile:
+        r = n.get('cornerRadius'); im = f"Image(image: FileImage(File('{imgfile}')), width: {w}, height: {h}, fit: BoxFit.fill)"
+        body = f"ClipRRect(borderRadius: BorderRadius.circular({r or 0}), child: {im})"
+    elif t == 'TEXT':
         tx = n['text']; f = tx.get('font') or {}; style = (f.get('style') or 'Regular').lower()
         wt = 400
         for k, v in WEIGHT.items():
@@ -67,7 +74,7 @@ def emit(n, ind, top=False):
         if rad and t != 'ELLIPSE': dec.append(f'borderRadius: {rad}')
         sh = [e for e in n.get('effects', []) if e['type'] == 'DROP_SHADOW']
         if sh: dec.append('boxShadow: [' + ', '.join(f'BoxShadow(color: {col(e["color"])}, offset: Offset({e["x"]}, {e["y"]}), blurRadius: {e["radius"]}, spreadRadius: {e.get("spread", 0)})' for e in sh) + ']')
-        kids = [emit(c, ind + 2) for c in n.get('children', [])]; kids = [k for k in kids if k]
+        kids = [emit(c, ind + 2, False, ax, ay) for c in n.get('children', [])]; kids = [k for k in kids if k]
         inner = f"Stack(clipBehavior: Clip.none, children: [\n{(',' + chr(10)).join(kids)},\n{pad}  ])" if kids else None
         box = f"DecoratedBox(decoration: BoxDecoration({', '.join(dec)}), child: SizedBox(width: {w}, height: {h}, child: {inner or 'null'}))" if (dec or inner) else None
         clip = (not n.get('frameMaskDisabled')) and t in ('FRAME', 'INSTANCE', 'SYMBOL') and kids
@@ -80,5 +87,9 @@ def emit(n, ind, top=False):
 tree = json.load(open(sys.argv[1])); cls = sys.argv[2]
 bp = os.path.join(os.path.dirname(sys.argv[1]), '..', '..', 'blobs.json')
 BLOBS = [{'bytes': b} for b in json.load(open(bp))] if os.path.exists(bp) else []
+aj = os.path.join(os.path.dirname(sys.argv[1]), 'assets.json')
+if os.path.exists(aj):
+    for e in json.load(open(aj)):
+        if e.get('kind') == 'image' and e.get('file'): IMG[(round(e['x'], 2), round(e['y'], 2), round(e['w'], 2), round(e['h'], 2))] = os.path.abspath(os.path.join(os.path.dirname(sys.argv[1]), e['file']))
 root = emit(tree, 2, True) or 'const SizedBox()'
-print(f"import 'package:flutter/material.dart';\nimport 'package:flutter_svg/flutter_svg.dart';\n\nclass {cls} extends StatelessWidget {{\n  const {cls}({{super.key}});\n  @override\n  Widget build(BuildContext context) {{\n    return SizedBox(width: {tree['w']}, height: {tree['h']}, child: {root});\n  }}\n}}")
+print(f"import 'dart:io';\nimport 'package:flutter/material.dart';\nimport 'package:flutter_svg/flutter_svg.dart';\n\nclass {cls} extends StatelessWidget {{\n  const {cls}({{super.key}});\n  @override\n  Widget build(BuildContext context) {{\n    return SizedBox(width: {tree['w']}, height: {tree['h']}, child: {root});\n  }}\n}}")

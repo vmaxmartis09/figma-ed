@@ -14,9 +14,12 @@ for i, s in enumerate(sc):
     cls = f'S{i + 1:02d}'; code = subprocess.run([sys.executable, T + '/tree_to_dart.py', tj, cls], capture_output=True, text=True).stdout
     open(f'{proj}/lib/gen/{cls.lower()}.dart', 'w').write(code)
     tr = json.load(open(tj)); items.append((cls, s['folder'], tr['w'], tr['h']))
+import re as _re
+imgs = sorted({m for c, *_ in items for m in _re.findall(r"FileImage\(File\('([^']+)'", open(f'{proj}/lib/gen/{c.lower()}.dart').read())})
+imgjoin = ', '.join(repr(x) for x in imgs)
 imports = ''.join(f"import 'gen/{c.lower()}.dart';\n" for c, *_ in items)
 entries = ',\n'.join(f"  ('{c}', {w}, {h}, () => const {c}())" for c, _, w, h in items)
-open(proj + '/lib/registry.dart', 'w').write(f"import 'package:flutter/widgets.dart';\n{imports}\nfinal screens = <(String, double, double, Widget Function())>[\n{entries}\n];\n")
+open(proj + '/lib/registry.dart', 'w').write(f"import 'package:flutter/widgets.dart';\n{imports}\nfinal imagePaths = <String>[{imgjoin}];\nfinal screens = <(String, double, double, Widget Function())>[\n{entries}\n];\n")
 open(proj + '/test/render_test.dart', 'w').write('''import 'dart:io';
 import 'dart:typed_data';
 import 'dart:ui' as ui;
@@ -38,6 +41,7 @@ void main() {
       tester.view.devicePixelRatio = 1.0;
       tester.view.physicalSize = Size(s.$2, s.$3);
       await tester.pumpWidget(Directionality(textDirection: TextDirection.ltr, child: Center(child: RepaintBoundary(key: key, child: s.$4()))));
+      await tester.runAsync(() async { for (final p in imagePaths) { await precacheImage(FileImage(File(p)), tester.element(find.byKey(key))); } });
       await tester.pumpAndSettle();
       await tester.runAsync(() async {
         final boundary = key.currentContext!.findRenderObject() as RenderRepaintBoundary;

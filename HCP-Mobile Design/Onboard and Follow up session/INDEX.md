@@ -1,0 +1,48 @@
+# Onboard and Follow up session
+
+42 màn. Ảnh 1x: `_story/screens/<màn>/screen@1x.png`, 2x (nếu có): `screen@2x.png`. Dữ liệu: `styles_all.css`, `tree.json`, `texts.json`, `assets.json`, `icons/`.
+
+| # | Màn | Kích thước | Ảnh | 2x |
+|---|---|---|---|---|
+| 1 | Onboarding & followUp-FC detail-Need Action | 375px×1221px | <img src="_story/screens/01_Onboarding%20%26%20followUp-FC%20detail-Need%20Action/screen%401x.png" width="160"> | [2x](_story/screens/01_Onboarding%20%26%20followUp-FC%20detail-Need%20Action/screen%402x.png) |
+| 2 | Actiion | 375px×812px | <img src="_story/screens/02_Actiion/screen%401x.png" width="160"> | [2x](_story/screens/02_Actiion/screen%402x.png) |
+| 3 | Onboarding & followUp-FC detail-No Need Action | 375px×1705px | <img src="_story/screens/03_Onboarding%20%26%20followUp-FC%20detail-No%20Need%20Action/screen%401x.png" width="160"> | [2x](_story/screens/03_Onboarding%20%26%20followUp-FC%20detail-No%20Need%20Action/screen%402x.png) |
+| 4 | Session detail | 375px×1029px | <img src="_story/screens/04_Session%20detail/screen%401x.png" width="160"> | [2x](_story/screens/04_Session%20detail/screen%402x.png) |
+| 5 | Session detail-More actions | 375px×812px | <img src="_story/screens/05_Session%20detail-More%20actions/screen%401x.png" width="160"> | [2x](_story/screens/05_Session%20detail-More%20actions/screen%402x.png) |
+| 6 | Session detail-More actions | 375px×812px | <img src="_story/screens/06_Session%20detail-More%20actions_2/screen%401x.png" width="160"> | [2x](_story/screens/06_Session%20detail-More%20actions_2/screen%402x.png) |
+| 7 | Session detail-Skip | 375px×812px | <img src="_story/screens/07_Session%20detail-Skip/screen%401x.png" width="160"> | [2x](_story/screens/07_Session%20detail-Skip/screen%402x.png) |
+| 8 | Onboarding & follow-up sessions - Main screen | 375px×812px | <img src="_story/screens/08_Onboarding%20%26%20follow-up%20sessions%20-%20Main%20screen/screen%401x.png" width="160"> | [2x](_story/screens/08_Onboarding%20%26%20follow-up%20sessions%20-%20Main%20screen/screen%402x.png) |
+| 9 | Onboarding & follow-up sessions - Main screen | 375px×812px | <img src="_story/screens/09_Onboarding%20%26%20follow-up%20sessions%20-%20Main%20screen_2/screen%401x.png" width="160"> | [2x](_story/screens/09_Onboarding%20%26%20follow-up%20sessions%20-%20Main%20screen_2/screen%402x.png) |
+| 10 | Onboarding & follow-up sessions - Main screen - More action | 375px×812px | <img src="_story/screens/10_Onboarding%20%26%20follow-up%20sessions%20-%20Main%20screen%20-%20More%20action/screen%401x.png" width="160"> | [2x](_story/screens/10_Onboarding%20%26%20follow-up%20sessions%20-%20Main%20screen%20-%20More%20action/screen%402x.png) |
+| 11 | Onboarding & follow-up sessions - Main screen - Remove popup | 375px×812px | <img src="_story/screens/11_Onboarding%20%26%20follow-up%20sessions%20-%20Main%20screen%20-%20Remove%20popup/screen%401x.png" width="160"> | [2x](_story/screens/11_Onboarding%20%26%20follow-up%20sessions%20-%20Main%20screen%20-%20Remove%20popup/screen%402x.png) |
+| 12 | Peer Support | 375px×812px | <img src="_story/screens/12_Peer%20Support/screen%401x.png" width="160"> | [2x](_story/screens/12_Peer%20Support/screen%402x.png) |
+| 13 | Onboarding & follow-up sessions - Empty | 375px×812px | <img src="_story/screens/13_Onboarding%20%26%20follow-up%20sessions%20-%20Empty/screen%401x.png" width="160"> | [2x](_story/screens/13_Onboarding%20%26%20follow-up%20sessions%20-%20Empty/screen%402x.png) |
+| 14 | Onboarding & follow-up sessions - Add family carer | 375px×891px | <img src="_story/screens/14_Onboarding%20%26%20follow-up%20sessions%20-%20Add%20family%20carer/screen%401x.png" width="160"> | [2x](_story/screens/14_Onboarding%20%26%20follow-up%20sessions%20-%20Add%20family%20carer/screen%402x.png) |
+| 15 | Onboarding & follow-up sessions - Add family carer-Selected | 375px×891px | <img src="_story/screens/15_Onboarding%20%26%20follow-up%20sessions%20-%20Add%20family%20carer-Selected/screen%401x.png" width="160"> | [2x](_story/screens/15_Onboarding%20%26%20follow-up%20sessions%20-%20Add%20family%20carer-Selected/screen%402x.png) |
+| 16 | OB&FUP - Add family carer - toast | 375px×812px | <img src="_story/screens/16_OB%26FUP%20-%20Add%20family%20carer%20-%20toast/screen%401x.png" width="160"> | [2x](_story/screens/16_OB%26FUP%20-%20Add%20family%20carer%20-%20toast/screen%402x.png) |
+| 17 | Onboarding & followUp-FC detail-Need Action | 375px×1221px | <img src="_story/screens/17_Onboarding%20%26%20followUp-FC%20detail-Need%20Action_2/screen%401x.png" width="160"> | [2x](_story/screens/17_Onboarding%20%26%20followUp-FC%20detail-Need%20Action_2/screen%402x.png) |
+| 18 | Add - Done | 375px×1239px | <img src="_story/screens/18_Add%20-%20Done/screen%401x.png" width="160"> | [2x](_story/screens/18_Add%20-%20Done/screen%402x.png) |
+| 19 | Add Session - empty | 375px×1151px | <img src="_story/screens/19_Add%20Session%20-%20empty/screen%401x.png" width="160"> | [2x](_story/screens/19_Add%20Session%20-%20empty/screen%402x.png) |
+| 20 | Add Session - filled | 375px×1151px | <img src="_story/screens/20_Add%20Session%20-%20filled/screen%401x.png" width="160"> | [2x](_story/screens/20_Add%20Session%20-%20filled/screen%402x.png) |
+| 21 | Onboarding & followUp-FC detail-Need Action | 375px×1218px | <img src="_story/screens/21_Onboarding%20%26%20followUp-FC%20detail-Need%20Action_3/screen%401x.png" width="160"> | [2x](_story/screens/21_Onboarding%20%26%20followUp-FC%20detail-Need%20Action_3/screen%402x.png) |
+| 22 | Add schedule - empty | 375px×1077px | <img src="_story/screens/22_Add%20schedule%20-%20empty/screen%401x.png" width="160"> | [2x](_story/screens/22_Add%20schedule%20-%20empty/screen%402x.png) |
+| 23 | Add schedule - filled | 375px×1077px | <img src="_story/screens/23_Add%20schedule%20-%20filled/screen%401x.png" width="160"> | [2x](_story/screens/23_Add%20schedule%20-%20filled/screen%402x.png) |
+| 24 | Add schedule - done | 375px×1063px | <img src="_story/screens/24_Add%20schedule%20-%20done/screen%401x.png" width="160"> | [2x](_story/screens/24_Add%20schedule%20-%20done/screen%402x.png) |
+| 25 | Session detail-More actions | 375px×812px | <img src="_story/screens/25_Session%20detail-More%20actions_3/screen%401x.png" width="160"> | [2x](_story/screens/25_Session%20detail-More%20actions_3/screen%402x.png) |
+| 26 | Calendar | 375px×812px | <img src="_story/screens/26_Calendar/screen%401x.png" width="160"> | [2x](_story/screens/26_Calendar/screen%402x.png) |
+| 27 | Calendar - HCP view | 375px×812px | <img src="_story/screens/27_Calendar%20-%20HCP%20view/screen%401x.png" width="160"> | [2x](_story/screens/27_Calendar%20-%20HCP%20view/screen%402x.png) |
+| 28 | Calendar - FC view | 375px×812px | <img src="_story/screens/28_Calendar%20-%20FC%20view/screen%401x.png" width="160"> | [2x](_story/screens/28_Calendar%20-%20FC%20view/screen%402x.png) |
+| 29 | Session detail | 375px×1051px | <img src="_story/screens/29_Session%20detail_2/screen%401x.png" width="160"> | [2x](_story/screens/29_Session%20detail_2/screen%402x.png) |
+| 30 | Session detail | 375px×1029px | <img src="_story/screens/30_Session%20detail_3/screen%401x.png" width="160"> | [2x](_story/screens/30_Session%20detail_3/screen%402x.png) |
+| 31 | Session Details - Toast | 375px×1051px | <img src="_story/screens/31_Session%20Details%20-%20Toast/screen%401x.png" width="160"> | [2x](_story/screens/31_Session%20Details%20-%20Toast/screen%402x.png) |
+| 32 | Edit session | 375px×1255px | <img src="_story/screens/32_Edit%20session/screen%401x.png" width="160"> | [2x](_story/screens/32_Edit%20session/screen%402x.png) |
+| 33 | Session detail | 375px×1051px | <img src="_story/screens/33_Session%20detail_4/screen%401x.png" width="160"> | [2x](_story/screens/33_Session%20detail_4/screen%402x.png) |
+| 34 | Workshop detail-Note/Survey Added | 375px×1181px | <img src="_story/screens/34_Workshop%20detail-Note-Survey%20Added/screen%401x.png" width="160"> | [2x](_story/screens/34_Workshop%20detail-Note-Survey%20Added/screen%402x.png) |
+| 35 | Add meeting note | 375px×1037px | <img src="_story/screens/35_Add%20meeting%20note/screen%401x.png" width="160"> | [2x](_story/screens/35_Add%20meeting%20note/screen%402x.png) |
+| 36 | Add survey | 375px×1037px | <img src="_story/screens/36_Add%20survey/screen%401x.png" width="160"> | [2x](_story/screens/36_Add%20survey/screen%402x.png) |
+| 37 | Add survey | 375px×1037px | <img src="_story/screens/37_Add%20survey_2/screen%401x.png" width="160"> | [2x](_story/screens/37_Add%20survey_2/screen%402x.png) |
+| 38 | Edit survey | 375px×1075px | <img src="_story/screens/38_Edit%20survey/screen%401x.png" width="160"> | [2x](_story/screens/38_Edit%20survey/screen%402x.png) |
+| 39 | ViewMeeting note & Survey-Meeting note | 375px×957px | <img src="_story/screens/39_ViewMeeting%20note%20%26%20Survey-Meeting%20note/screen%401x.png" width="160"> | [2x](_story/screens/39_ViewMeeting%20note%20%26%20Survey-Meeting%20note/screen%402x.png) |
+| 40 | ViewMeeting note & Survey | 375px×957px | <img src="_story/screens/40_ViewMeeting%20note%20%26%20Survey/screen%401x.png" width="160"> | [2x](_story/screens/40_ViewMeeting%20note%20%26%20Survey/screen%402x.png) |
+| 41 | Workshop detail-Note/Survey Added | 375px×1181px | <img src="_story/screens/41_Workshop%20detail-Note-Survey%20Added_2/screen%401x.png" width="160"> | [2x](_story/screens/41_Workshop%20detail-Note-Survey%20Added_2/screen%402x.png) |
+| 42 | ViewMeeting note & Survey - Survery | 375px×1143px | <img src="_story/screens/42_ViewMeeting%20note%20%26%20Survey%20-%20Survery/screen%401x.png" width="160"> | [2x](_story/screens/42_ViewMeeting%20note%20%26%20Survey%20-%20Survery/screen%402x.png) |
