@@ -16,3 +16,4 @@ Profile, Course, Calendar, Videos, Workshop, Setting, Dementia Resources, Search
 - Old text_source values (ocr_exact/ocr_sequence/layer_name) in texts.json are superseded by texts_real; 'figma_clipboard' marks entries filled from the real text.
 - texts_real (from Figma clipboard data, instances expanded with overrides): 13,519 text nodes across 24 stories; 7,529 (56%) are also confirmed by OCR on the screen image (ocr_confirmed=true).
   The rest may be hidden/placeholder layers or text OCR could not read; treat ocr_confirmed=false as 'verify on Figma'. Known example: Setting/01 shows '3','2' where the design shows 'Every day','08:00 AM' (override not resolved).
+- NEW: per screen assets.json lists every icon/image node (position, size, colour, library_svg if the Library SVG exists). icons_missing_in_library.json lists icon names with no SVG yet.
