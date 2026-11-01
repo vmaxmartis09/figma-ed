@@ -1,7 +1,7 @@
 # Known issues (checked visually via _story/contact.png)
 
-Visually checked so far (14/24): Authentication x3, About, Peer Support, Chatbot, HCP Onboard and Follow up session,
-Profile, Course, Calendar, Videos, Workshop, Setting.
+Visually checked so far (15/24): Authentication x3, About, Peer Support, Chatbot, HCP Onboard and Follow up session,
+Profile, Course, Calendar, Videos, Workshop, Setting, Dementia Resources.
 
 - HCP-Mobile Design/Workshop: screens 21-23 were mis-cropped (position offset by section origin); FIXED, re-cropped from story.png.
 - FC-Mobile Design/About: screens 24_Login_3, 35_Login_5, 36_How to use this page are mis-positioned (the position in screens.json does not match where these frames sit in the board; confirmed 24_Login_3 crop is mostly canvas gray). Their CSS is valid but PNG crop is wrong; needs re-export from Figma.
