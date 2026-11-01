@@ -44,7 +44,14 @@
    "layer_name": "Title"
   },
   {
-   "text": "Label",
+   "text": [
+    "Session title",
+    "Date",
+    "Start time",
+    "End time",
+    "Brief / Agenda",
+    "Reminder frequency"
+   ],
    "verified_by_ocr": false,
    "ocr_candidate": "Cancel",
    "style": "Body M/Medium",
@@ -88,7 +95,7 @@
    "text_source": "layer_name"
   },
   {
-   "text": "Enter value",
+   "text": "Stress Management",
    "verified_by_ocr": false,
    "ocr_candidate": "well-being",
    "style": "Body L/Regular",
@@ -162,7 +169,14 @@
    "layer_name": "Label radio"
   },
   {
-   "text": "Label",
+   "text": [
+    "Session title",
+    "Date",
+    "Start time",
+    "End time",
+    "Brief / Agenda",
+    "Reminder frequency"
+   ],
    "verified_by_ocr": false,
    "ocr_candidate": "Cancel",
    "style": "Body M/Medium",
@@ -177,7 +191,11 @@
    "layer_name": "Label"
   },
   {
-   "text": "Select value",
+   "text": [
+    "15/07/2026",
+    "10:00 AM",
+    "11:00 AM"
+   ],
    "verified_by_ocr": false,
    "ocr_candidate": "Cancel",
    "style": "Body L/Regular",
@@ -245,8 +263,8 @@
   {
    "text": [
     "A meeting link will be generated once the session is created.",
-    "text value",
-    "Select value"
+    "Learn practical techniques to manage daily stress, build resilience, and improve  well-being",
+    "One day before"
    ],
    "verified_by_ocr": false,
    "ocr_candidate": "well-being",
@@ -263,7 +281,6 @@
   },
   {
    "text": [
-    "This is help text",
     "123",
     "/",
     "500"
@@ -284,8 +301,8 @@
   {
    "text": [
     "A meeting link will be generated once the session is created.",
-    "text value",
-    "Select value"
+    "Learn practical techniques to manage daily stress, build resilience, and improve  well-being",
+    "One day before"
    ],
    "verified_by_ocr": false,
    "ocr_candidate": "well-being",
@@ -301,7 +318,10 @@
    "layer_name": "Text value"
   },
   {
-   "text": "Button text",
+   "text": [
+    "Add",
+    "Cancel"
+   ],
    "verified_by_ocr": false,
    "ocr_candidate": "Session type *",
    "style": "Body L/Semi",
@@ -316,7 +336,10 @@
    "layer_name": "Button text"
   },
   {
-   "text": "Button text",
+   "text": [
+    "Add",
+    "Cancel"
+   ],
    "verified_by_ocr": false,
    "ocr_candidate": "Session type *",
    "style": "Body L/Semi",
@@ -449,31 +472,7 @@
    "ocr_confirmed": true
   },
   {
-   "text": "Setting",
-   "layer": "Setting",
-   "path": "Add Session - filled/Top Navigation/Bottom/Right Action/Setting",
-   "x": 308.0,
-   "y": 79.0,
-   "w": 51.0,
-   "h": 22.0,
-   "font_family": "Roboto",
-   "font_style": "Regular",
-   "font_size": 16.0,
-   "line_height": {
-    "value": 22.0,
-    "units": "PIXELS"
-   },
-   "letter_spacing": {
-    "value": 0.0,
-    "units": "PERCENT"
-   },
-   "align": null,
-   "color": "#FFFFFF",
-   "opacity": 1,
-   "ocr_confirmed": false
-  },
-  {
-   "text": "Label",
+   "text": "Session title",
    "layer": "Label",
    "path": "Add Session - filled/Form Content/Text Field/Field/Container/Label/Label",
    "x": 16.0,
@@ -494,7 +493,7 @@
    "align": null,
    "color": "#6A6A6A",
    "opacity": 1,
-   "ocr_confirmed": false
+   "ocr_confirmed": true
   },
   {
    "text": "*",
@@ -521,7 +520,7 @@
    "ocr_confirmed": false
   },
   {
-   "text": "Enter value",
+   "text": "Stress Management",
    "layer": "text value",
    "path": "Add Session - filled/Form Content/Text Field/Field/Container/Input/Input/text value",
    "x": 28.0,
@@ -542,31 +541,7 @@
    "align": null,
    "color": "#121212",
    "opacity": 1,
-   "ocr_confirmed": false
-  },
-  {
-   "text": "This is help text",
-   "layer": "Message",
-   "path": "Add Session - filled/Form Content/Text Field/Field/Help text/Message",
-   "x": 16.0,
-   "y": 229.0,
-   "w": 240.0,
-   "h": 20.0,
-   "font_family": "Roboto",
-   "font_style": "Regular",
-   "font_size": 14.0,
-   "line_height": {
-    "value": 20.0,
-    "units": "PIXELS"
-   },
-   "letter_spacing": {
-    "value": 0.0,
-    "units": "PERCENT"
-   },
-   "align": null,
-   "color": "#6A6A6A",
-   "opacity": 1,
-   "ocr_confirmed": false
+   "ocr_confirmed": true
   },
   {
    "text": "Session type",
@@ -665,7 +640,7 @@
    "ocr_confirmed": false
   },
   {
-   "text": "Label",
+   "text": "Date",
    "layer": "Label",
    "path": "Add Session - filled/Form Content/Dropdown field/Base/ Dropdown field (Single)/Container/Label/Label",
    "x": 16.0,
@@ -686,7 +661,7 @@
    "align": null,
    "color": "#555555",
    "opacity": 1,
-   "ocr_confirmed": false
+   "ocr_confirmed": true
   },
   {
    "text": "*",
@@ -713,7 +688,7 @@
    "ocr_confirmed": false
   },
   {
-   "text": "Select value",
+   "text": "15/07/2026",
    "layer": "Placeholder",
    "path": "Add Session - filled/Form Content/Dropdown field/Base/ Dropdown field (Single)/Container/Input/Placeholder",
    "x": 28.0,
@@ -734,34 +709,10 @@
    "align": null,
    "color": "#121212",
    "opacity": 1,
-   "ocr_confirmed": false
+   "ocr_confirmed": true
   },
   {
-   "text": "This is help text",
-   "layer": "Message",
-   "path": "Add Session - filled/Form Content/Dropdown field/Base/ Dropdown field (Single)/Help text/Message",
-   "x": 16.0,
-   "y": 469.0,
-   "w": 320.0,
-   "h": 20.0,
-   "font_family": "Inter",
-   "font_style": "Regular",
-   "font_size": 12.0,
-   "line_height": {
-    "value": 18.0,
-    "units": "PIXELS"
-   },
-   "letter_spacing": {
-    "value": 0.0,
-    "units": "PERCENT"
-   },
-   "align": null,
-   "color": "#555555",
-   "opacity": 1,
-   "ocr_confirmed": false
-  },
-  {
-   "text": "Label",
+   "text": "Start time",
    "layer": "Label",
    "path": "Add Session - filled/Form Content/Frame 1000005058/Dropdown field/Base/ Dropdown field (Single)/Container/Label/Label",
    "x": 16.0,
@@ -782,7 +733,7 @@
    "align": null,
    "color": "#555555",
    "opacity": 1,
-   "ocr_confirmed": false
+   "ocr_confirmed": true
   },
   {
    "text": "*",
@@ -809,7 +760,7 @@
    "ocr_confirmed": false
   },
   {
-   "text": "Select value",
+   "text": "10:00 AM",
    "layer": "Placeholder",
    "path": "Add Session - filled/Form Content/Frame 1000005058/Dropdown field/Base/ Dropdown field (Single)/Container/Input/Placeholder",
    "x": 28.0,
@@ -830,34 +781,10 @@
    "align": null,
    "color": "#121212",
    "opacity": 1,
-   "ocr_confirmed": false
+   "ocr_confirmed": true
   },
   {
-   "text": "This is help text",
-   "layer": "Message",
-   "path": "Add Session - filled/Form Content/Frame 1000005058/Dropdown field/Base/ Dropdown field (Single)/Help text/Message",
-   "x": 16.0,
-   "y": 559.0,
-   "w": 320.0,
-   "h": 20.0,
-   "font_family": "Inter",
-   "font_style": "Regular",
-   "font_size": 12.0,
-   "line_height": {
-    "value": 18.0,
-    "units": "PIXELS"
-   },
-   "letter_spacing": {
-    "value": 0.0,
-    "units": "PERCENT"
-   },
-   "align": null,
-   "color": "#555555",
-   "opacity": 1,
-   "ocr_confirmed": false
-  },
-  {
-   "text": "Label",
+   "text": "End time",
    "layer": "Label",
    "path": "Add Session - filled/Form Content/Frame 1000005058/Dropdown field/Base/ Dropdown field (Single)/Container/Label/Label",
    "x": 195.5,
@@ -878,7 +805,7 @@
    "align": null,
    "color": "#555555",
    "opacity": 1,
-   "ocr_confirmed": false
+   "ocr_confirmed": true
   },
   {
    "text": "*",
@@ -905,7 +832,7 @@
    "ocr_confirmed": false
   },
   {
-   "text": "Select value",
+   "text": "11:00 AM",
    "layer": "Placeholder",
    "path": "Add Session - filled/Form Content/Frame 1000005058/Dropdown field/Base/ Dropdown field (Single)/Container/Input/Placeholder",
    "x": 207.5,
@@ -926,31 +853,7 @@
    "align": null,
    "color": "#121212",
    "opacity": 1,
-   "ocr_confirmed": false
-  },
-  {
-   "text": "This is help text",
-   "layer": "Message",
-   "path": "Add Session - filled/Form Content/Frame 1000005058/Dropdown field/Base/ Dropdown field (Single)/Help text/Message",
-   "x": 195.5,
-   "y": 559.0,
-   "w": 320.0,
-   "h": 20.0,
-   "font_family": "Inter",
-   "font_style": "Regular",
-   "font_size": 12.0,
-   "line_height": {
-    "value": 18.0,
-    "units": "PIXELS"
-   },
-   "letter_spacing": {
-    "value": 0.0,
-    "units": "PERCENT"
-   },
-   "align": null,
-   "color": "#555555",
-   "opacity": 1,
-   "ocr_confirmed": false
+   "ocr_confirmed": true
   },
   {
    "text": "Mode",
@@ -1073,7 +976,7 @@
    "ocr_confirmed": true
   },
   {
-   "text": "Label",
+   "text": "Brief / Agenda",
    "layer": "Label",
    "path": "Add Session - filled/Form Content/Text area/Container/Header/Label/Frame 1000003784/Label",
    "x": 16.0,
@@ -1094,31 +997,7 @@
    "align": null,
    "color": "#6A6A6A",
    "opacity": 1,
-   "ocr_confirmed": false
-  },
-  {
-   "text": "*",
-   "layer": "*",
-   "path": "Add Session - filled/Form Content/Text area/Container/Header/Label/Frame 1000003784/*",
-   "x": 55.0,
-   "y": 753.0,
-   "w": 7.0,
-   "h": 20.0,
-   "font_family": "Inter",
-   "font_style": "Regular",
-   "font_size": 14.0,
-   "line_height": {
-    "value": 20.0,
-    "units": "PIXELS"
-   },
-   "letter_spacing": {
-    "value": 0.0,
-    "units": "PERCENT"
-   },
-   "align": null,
-   "color": "#E81818",
-   "opacity": 1,
-   "ocr_confirmed": false
+   "ocr_confirmed": true
   },
   {
    "text": "123",
@@ -1193,7 +1072,7 @@
    "ocr_confirmed": true
   },
   {
-   "text": "text value",
+   "text": "Learn practical techniques to manage daily stress, build resilience, and improve  well-being",
    "layer": "Text value",
    "path": "Add Session - filled/Form Content/Text area/Container/Input/Text value",
    "x": 28.0,
@@ -1214,34 +1093,10 @@
    "align": null,
    "color": "#121212",
    "opacity": 1,
-   "ocr_confirmed": false
+   "ocr_confirmed": true
   },
   {
-   "text": "This is help text",
-   "layer": "Message",
-   "path": "Add Session - filled/Form Content/Text area/Help text/Message",
-   "x": 16.0,
-   "y": 863.0,
-   "w": 240.0,
-   "h": 20.0,
-   "font_family": "Roboto",
-   "font_style": "Regular",
-   "font_size": 14.0,
-   "line_height": {
-    "value": 20.0,
-    "units": "PIXELS"
-   },
-   "letter_spacing": {
-    "value": 0.0,
-    "units": "PERCENT"
-   },
-   "align": null,
-   "color": "#6A6A6A",
-   "opacity": 1,
-   "ocr_confirmed": false
-  },
-  {
-   "text": "Label",
+   "text": "Reminder frequency",
    "layer": "Label",
    "path": "Add Session - filled/Form Content/Dropdown field/Base/ Dropdown field (Single)/Container/Label/Label",
    "x": 16.0,
@@ -1262,7 +1117,7 @@
    "align": null,
    "color": "#555555",
    "opacity": 1,
-   "ocr_confirmed": false
+   "ocr_confirmed": true
   },
   {
    "text": "*",
@@ -1289,7 +1144,7 @@
    "ocr_confirmed": false
   },
   {
-   "text": "Select value",
+   "text": "One day before",
    "layer": "Text value",
    "path": "Add Session - filled/Form Content/Dropdown field/Base/ Dropdown field (Single)/Container/Input/Text value",
    "x": 28.0,
@@ -1310,34 +1165,10 @@
    "align": null,
    "color": "#121212",
    "opacity": 1,
-   "ocr_confirmed": false
+   "ocr_confirmed": true
   },
   {
-   "text": "This is help text",
-   "layer": "Message",
-   "path": "Add Session - filled/Form Content/Dropdown field/Base/ Dropdown field (Single)/Help text/Message",
-   "x": 16.0,
-   "y": 942.0,
-   "w": 320.0,
-   "h": 20.0,
-   "font_family": "Inter",
-   "font_style": "Regular",
-   "font_size": 12.0,
-   "line_height": {
-    "value": 18.0,
-    "units": "PIXELS"
-   },
-   "letter_spacing": {
-    "value": 0.0,
-    "units": "PERCENT"
-   },
-   "align": null,
-   "color": "#555555",
-   "opacity": 1,
-   "ocr_confirmed": false
-  },
-  {
-   "text": "Button text",
+   "text": "Add",
    "layer": "Button text",
    "path": "Add Session - filled/Form Footer/Action container/Button/Base button/Primary/Button text",
    "x": 173.0,
@@ -1358,10 +1189,10 @@
    "align": "CENTER",
    "color": "#FFFFFF",
    "opacity": 1,
-   "ocr_confirmed": false
+   "ocr_confirmed": true
   },
   {
-   "text": "Button text",
+   "text": "Cancel",
    "layer": "Button text",
    "path": "Add Session - filled/Form Footer/Action container/Button/Base button/Primary/Button text",
    "x": 162.5,
@@ -1382,7 +1213,7 @@
    "align": "CENTER",
    "color": "#1999A4",
    "opacity": 1,
-   "ocr_confirmed": false
+   "ocr_confirmed": true
   }
  ]
 }

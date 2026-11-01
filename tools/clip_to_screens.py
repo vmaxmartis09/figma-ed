@@ -73,7 +73,9 @@ def reduce(n, ov=None, depth=0, props=None):
         if sym is not None:
             for d in sym.get('componentPropDefs') or []:
                 if d.get('initialValue') is not None: ip[GK(d['id'])] = d['initialValue']
-        for a in n.get('componentPropAssignments') or []: ip[GK(a['defID'])] = a['value']
+        for a in n.get('componentPropAssignments') or []:
+            val = a.get('value') or (a.get('varValue') or {}).get('value')
+            if val is not None: ip[GK(a['defID'])] = val
         if sym is not None:
             for c in kids.get(g(sym), []):
                 kc = okey(c); sub = {(q[1:] if q and q[0] == kc else q): f for q, f in merged.items() if q}
@@ -110,7 +112,7 @@ for s in sc:
         ax, ay = absxy(n, rid); d = abs(ax - s['x']) + abs(ay - s['y']) + (0 if n['name'] == s['name'] else 50)
         if d < bd: best, bd = n, d
     if best is None or bd > 60: continue
-    used.add(g(best)); matched += 1
+    used.add(g(best)); matched += 1; s['node_id'] = '%d:%d' % g(best); _ids = True
     tree = reduce(best); open(f"{D}/screens/{s['folder']}/tree.json", 'w').write(json.dumps(tree, ensure_ascii=False, indent=1))
     texts = []
     def walk(n, path, ox, oy, hid=False):
@@ -138,5 +140,6 @@ for s in sc:
         data['texts_real'] = texts
         json.dump(data, open(tj, 'w'), ensure_ascii=False, indent=1)
         tot_t += len(data['texts']); real_t += sum(t.get('text_source') == 'figma_clipboard' for t in data['texts'])
+json.dump(sc, open(D + '/screens/screens.json', 'w'), indent=1, ensure_ascii=False)
 json.dump(BLOBS and [list(b['bytes']) for b in BLOBS] or [], open(D + '/blobs.json', 'w'))
 print(D.split('figma-ediva/')[-1], 'screens', len(sc), 'matched', matched, 'texts', tot_t, 'real', real_t)

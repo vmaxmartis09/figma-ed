@@ -6,7 +6,7 @@ Scope: 24 stories of FC - Mobile UI Design and HCP - Mobile UI Design (outdated 
 - `story.png` / `sections/*.png`, `overview.png`, `contact.png` (numbered thumbnails of all screens)
 - `story_all.css` — Figma CSS (all layers) of the whole story
 - `screens/<NN_name>/`
-  - `screen@1x.png` — pixel crop of the frame (1x; the file is view-only so 2x export is not available)
+  - `screen@1x.png` — pixel crop of the frame; `screen@2x.png` — 2x image from Figma's Copy as PNG (409 of 413 screens)
   - `styles_all.css` — CSS of every layer (size, colour, radius, shadow, auto layout, font)
   - `tree.json` — nested layer tree from Figma data: x/y/w/h relative to parent, fills, strokes, effects, corner radius, auto layout (stackMode/spacing/padding/alignment), component instances expanded with overrides and property toggles
   - `texts.json` → `texts_real`: every visible text layer with real string, absolute x/y/w/h in the screen, font family/style/size, line height, letter spacing, colour; `ocr_confirmed` says whether OCR on the PNG also read this string

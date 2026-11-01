@@ -96,7 +96,13 @@
    "layer_name": "Role text"
   },
   {
-   "text": "Label",
+   "text": [
+    "Date",
+    "Start time",
+    "End time",
+    "Brief / Agenda",
+    "Reminder frequency"
+   ],
    "verified_by_ocr": false,
    "ocr_candidate": "Cancel",
    "style": "Body M/Medium",
@@ -126,7 +132,11 @@
    "layer_name": "*"
   },
   {
-   "text": "Select value",
+   "text": [
+    "15/07/2025",
+    "10:00 AM",
+    "11:00 AM"
+   ],
    "verified_by_ocr": false,
    "ocr_candidate": "Cancel",
    "style": "Body L/Regular",
@@ -194,8 +204,8 @@
   {
    "text": [
     "A meeting link will be generated once the session is created.",
-    "text value",
-    "Select value"
+    "Introduce iSupport-D and demonstrate how to use. Assist to complete care need assessment and goal setting.",
+    "One day before"
    ],
    "verified_by_ocr": false,
    "ocr_candidate": "Date *",
@@ -211,7 +221,13 @@
    "layer_name": "Text value"
   },
   {
-   "text": "Label",
+   "text": [
+    "Date",
+    "Start time",
+    "End time",
+    "Brief / Agenda",
+    "Reminder frequency"
+   ],
    "verified_by_ocr": false,
    "ocr_candidate": "Cancel",
    "style": "Body M/Medium",
@@ -227,7 +243,6 @@
   },
   {
    "text": [
-    "This is help text",
     "123",
     "/",
     "500"
@@ -248,8 +263,8 @@
   {
    "text": [
     "A meeting link will be generated once the session is created.",
-    "text value",
-    "Select value"
+    "Introduce iSupport-D and demonstrate how to use. Assist to complete care need assessment and goal setting.",
+    "One day before"
    ],
    "verified_by_ocr": false,
    "ocr_candidate": "Date *",
@@ -265,7 +280,10 @@
    "layer_name": "Text value"
   },
   {
-   "text": "Button text",
+   "text": [
+    "Add",
+    "Cancel"
+   ],
    "verified_by_ocr": false,
    "ocr_candidate": "Session Type",
    "style": "Body L/Semi",
@@ -280,7 +298,10 @@
    "layer_name": "Button text"
   },
   {
-   "text": "Button text",
+   "text": [
+    "Add",
+    "Cancel"
+   ],
    "verified_by_ocr": false,
    "ocr_candidate": "Session Type",
    "style": "Body L/Semi",
@@ -413,30 +434,6 @@
    "ocr_confirmed": true
   },
   {
-   "text": "Setting",
-   "layer": "Setting",
-   "path": "Add schedule - filled/Frame 1000005057/Top Navigation/Bottom/Right Action/Setting",
-   "x": 308.0,
-   "y": 79.0,
-   "w": 51.0,
-   "h": 22.0,
-   "font_family": "Roboto",
-   "font_style": "Regular",
-   "font_size": 16.0,
-   "line_height": {
-    "value": 22.0,
-    "units": "PIXELS"
-   },
-   "letter_spacing": {
-    "value": 0.0,
-    "units": "PERCENT"
-   },
-   "align": null,
-   "color": "#FFFFFF",
-   "opacity": 1,
-   "ocr_confirmed": true
-  },
-  {
    "text": "Onboarding Session",
    "layer": "Session Title",
    "path": "Add schedule - filled/Frame 1000005057/Workshop Details Container/Session Title",
@@ -557,7 +554,7 @@
    "ocr_confirmed": true
   },
   {
-   "text": "Label",
+   "text": "Date",
    "layer": "Label",
    "path": "Add schedule - filled/Frame 1000005056/Form Content/Dropdown field/Base/ Dropdown field (Single)/Container/Label/Label",
    "x": 16.0,
@@ -578,7 +575,7 @@
    "align": null,
    "color": "#555555",
    "opacity": 1,
-   "ocr_confirmed": false
+   "ocr_confirmed": true
   },
   {
    "text": "*",
@@ -605,7 +602,7 @@
    "ocr_confirmed": false
   },
   {
-   "text": "Select value",
+   "text": "15/07/2025",
    "layer": "Placeholder",
    "path": "Add schedule - filled/Frame 1000005056/Form Content/Dropdown field/Base/ Dropdown field (Single)/Container/Input/Placeholder",
    "x": 28.0,
@@ -626,34 +623,10 @@
    "align": null,
    "color": "#121212",
    "opacity": 1,
-   "ocr_confirmed": false
+   "ocr_confirmed": true
   },
   {
-   "text": "This is help text",
-   "layer": "Message",
-   "path": "Add schedule - filled/Frame 1000005056/Form Content/Dropdown field/Base/ Dropdown field (Single)/Help text/Message",
-   "x": 16.0,
-   "y": 395.0,
-   "w": 320.0,
-   "h": 20.0,
-   "font_family": "Inter",
-   "font_style": "Regular",
-   "font_size": 12.0,
-   "line_height": {
-    "value": 18.0,
-    "units": "PIXELS"
-   },
-   "letter_spacing": {
-    "value": 0.0,
-    "units": "PERCENT"
-   },
-   "align": null,
-   "color": "#555555",
-   "opacity": 1,
-   "ocr_confirmed": false
-  },
-  {
-   "text": "Label",
+   "text": "Start time",
    "layer": "Label",
    "path": "Add schedule - filled/Frame 1000005056/Form Content/Frame 1000005058/Dropdown field/Base/ Dropdown field (Single)/Container/Label/Label",
    "x": 16.0,
@@ -674,7 +647,7 @@
    "align": null,
    "color": "#555555",
    "opacity": 1,
-   "ocr_confirmed": false
+   "ocr_confirmed": true
   },
   {
    "text": "*",
@@ -701,7 +674,7 @@
    "ocr_confirmed": false
   },
   {
-   "text": "Select value",
+   "text": "10:00 AM",
    "layer": "Placeholder",
    "path": "Add schedule - filled/Frame 1000005056/Form Content/Frame 1000005058/Dropdown field/Base/ Dropdown field (Single)/Container/Input/Placeholder",
    "x": 28.0,
@@ -722,34 +695,10 @@
    "align": null,
    "color": "#121212",
    "opacity": 1,
-   "ocr_confirmed": false
+   "ocr_confirmed": true
   },
   {
-   "text": "This is help text",
-   "layer": "Message",
-   "path": "Add schedule - filled/Frame 1000005056/Form Content/Frame 1000005058/Dropdown field/Base/ Dropdown field (Single)/Help text/Message",
-   "x": 16.0,
-   "y": 485.0,
-   "w": 320.0,
-   "h": 20.0,
-   "font_family": "Inter",
-   "font_style": "Regular",
-   "font_size": 12.0,
-   "line_height": {
-    "value": 18.0,
-    "units": "PIXELS"
-   },
-   "letter_spacing": {
-    "value": 0.0,
-    "units": "PERCENT"
-   },
-   "align": null,
-   "color": "#555555",
-   "opacity": 1,
-   "ocr_confirmed": false
-  },
-  {
-   "text": "Label",
+   "text": "End time",
    "layer": "Label",
    "path": "Add schedule - filled/Frame 1000005056/Form Content/Frame 1000005058/Dropdown field/Base/ Dropdown field (Single)/Container/Label/Label",
    "x": 195.5,
@@ -770,7 +719,7 @@
    "align": null,
    "color": "#555555",
    "opacity": 1,
-   "ocr_confirmed": false
+   "ocr_confirmed": true
   },
   {
    "text": "*",
@@ -797,7 +746,7 @@
    "ocr_confirmed": false
   },
   {
-   "text": "Select value",
+   "text": "11:00 AM",
    "layer": "Placeholder",
    "path": "Add schedule - filled/Frame 1000005056/Form Content/Frame 1000005058/Dropdown field/Base/ Dropdown field (Single)/Container/Input/Placeholder",
    "x": 207.5,
@@ -818,31 +767,7 @@
    "align": null,
    "color": "#121212",
    "opacity": 1,
-   "ocr_confirmed": false
-  },
-  {
-   "text": "This is help text",
-   "layer": "Message",
-   "path": "Add schedule - filled/Frame 1000005056/Form Content/Frame 1000005058/Dropdown field/Base/ Dropdown field (Single)/Help text/Message",
-   "x": 195.5,
-   "y": 485.0,
-   "w": 320.0,
-   "h": 20.0,
-   "font_family": "Inter",
-   "font_style": "Regular",
-   "font_size": 12.0,
-   "line_height": {
-    "value": 18.0,
-    "units": "PIXELS"
-   },
-   "letter_spacing": {
-    "value": 0.0,
-    "units": "PERCENT"
-   },
-   "align": null,
-   "color": "#555555",
-   "opacity": 1,
-   "ocr_confirmed": false
+   "ocr_confirmed": true
   },
   {
    "text": "Mode",
@@ -965,7 +890,7 @@
    "ocr_confirmed": true
   },
   {
-   "text": "Label",
+   "text": "Brief / Agenda",
    "layer": "Label",
    "path": "Add schedule - filled/Frame 1000005056/Form Content/Text area/Container/Header/Label/Frame 1000003784/Label",
    "x": 16.0,
@@ -986,31 +911,7 @@
    "align": null,
    "color": "#6A6A6A",
    "opacity": 1,
-   "ocr_confirmed": false
-  },
-  {
-   "text": "*",
-   "layer": "*",
-   "path": "Add schedule - filled/Frame 1000005056/Form Content/Text area/Container/Header/Label/Frame 1000003784/*",
-   "x": 55.0,
-   "y": 679.0,
-   "w": 7.0,
-   "h": 20.0,
-   "font_family": "Inter",
-   "font_style": "Regular",
-   "font_size": 14.0,
-   "line_height": {
-    "value": 20.0,
-    "units": "PIXELS"
-   },
-   "letter_spacing": {
-    "value": 0.0,
-    "units": "PERCENT"
-   },
-   "align": null,
-   "color": "#E81818",
-   "opacity": 1,
-   "ocr_confirmed": false
+   "ocr_confirmed": true
   },
   {
    "text": "123",
@@ -1085,7 +986,7 @@
    "ocr_confirmed": true
   },
   {
-   "text": "text value",
+   "text": "Introduce iSupport-D and demonstrate how to use. Assist to complete care need assessment and goal setting.",
    "layer": "Text value",
    "path": "Add schedule - filled/Frame 1000005056/Form Content/Text area/Container/Input/Text value",
    "x": 28.0,
@@ -1106,34 +1007,10 @@
    "align": null,
    "color": "#121212",
    "opacity": 1,
-   "ocr_confirmed": false
+   "ocr_confirmed": true
   },
   {
-   "text": "This is help text",
-   "layer": "Message",
-   "path": "Add schedule - filled/Frame 1000005056/Form Content/Text area/Help text/Message",
-   "x": 16.0,
-   "y": 789.0,
-   "w": 240.0,
-   "h": 20.0,
-   "font_family": "Roboto",
-   "font_style": "Regular",
-   "font_size": 14.0,
-   "line_height": {
-    "value": 20.0,
-    "units": "PIXELS"
-   },
-   "letter_spacing": {
-    "value": 0.0,
-    "units": "PERCENT"
-   },
-   "align": null,
-   "color": "#6A6A6A",
-   "opacity": 1,
-   "ocr_confirmed": false
-  },
-  {
-   "text": "Label",
+   "text": "Reminder frequency",
    "layer": "Label",
    "path": "Add schedule - filled/Frame 1000005056/Form Content/Dropdown field/Base/ Dropdown field (Single)/Container/Label/Label",
    "x": 16.0,
@@ -1154,7 +1031,7 @@
    "align": null,
    "color": "#555555",
    "opacity": 1,
-   "ocr_confirmed": false
+   "ocr_confirmed": true
   },
   {
    "text": "*",
@@ -1181,7 +1058,7 @@
    "ocr_confirmed": false
   },
   {
-   "text": "Select value",
+   "text": "One day before",
    "layer": "Text value",
    "path": "Add schedule - filled/Frame 1000005056/Form Content/Dropdown field/Base/ Dropdown field (Single)/Container/Input/Text value",
    "x": 28.0,
@@ -1202,34 +1079,10 @@
    "align": null,
    "color": "#121212",
    "opacity": 1,
-   "ocr_confirmed": false
+   "ocr_confirmed": true
   },
   {
-   "text": "This is help text",
-   "layer": "Message",
-   "path": "Add schedule - filled/Frame 1000005056/Form Content/Dropdown field/Base/ Dropdown field (Single)/Help text/Message",
-   "x": 16.0,
-   "y": 868.0,
-   "w": 320.0,
-   "h": 20.0,
-   "font_family": "Inter",
-   "font_style": "Regular",
-   "font_size": 12.0,
-   "line_height": {
-    "value": 18.0,
-    "units": "PIXELS"
-   },
-   "letter_spacing": {
-    "value": 0.0,
-    "units": "PERCENT"
-   },
-   "align": null,
-   "color": "#555555",
-   "opacity": 1,
-   "ocr_confirmed": false
-  },
-  {
-   "text": "Button text",
+   "text": "Add",
    "layer": "Button text",
    "path": "Add schedule - filled/Frame 1000005056/Form Footer/Action container/Button/Base button/Primary/Button text",
    "x": 173.0,
@@ -1250,10 +1103,10 @@
    "align": "CENTER",
    "color": "#FFFFFF",
    "opacity": 1,
-   "ocr_confirmed": false
+   "ocr_confirmed": true
   },
   {
-   "text": "Button text",
+   "text": "Cancel",
    "layer": "Button text",
    "path": "Add schedule - filled/Frame 1000005056/Form Footer/Action container/Button/Base button/Primary/Button text",
    "x": 162.5,
@@ -1274,7 +1127,7 @@
    "align": "CENTER",
    "color": "#1999A4",
    "opacity": 1,
-   "ocr_confirmed": false
+   "ocr_confirmed": true
   }
  ]
 }
