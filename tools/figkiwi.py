@@ -67,15 +67,23 @@ def load_clip_html(path):
             open(d + '/c', 'wb').write(ch[1]); subprocess.run(['zstd', '-d', '-q', '-f', d + '/c', '-o', d + '/o'], check=True); data = open(d + '/o', 'rb').read()
     else: data = zlib.decompress(ch[1], -15)
     root = next(i for i, d in enumerate(defs) if d[0] == 'Message')
-    r = R(data); fields = defs[root][2]; out = {}
+    r = R(data); fields = defs[root][2]; out = {}; nci = next(i for i, d in enumerate(defs) if d[0] == 'NodeChange')
     try:
         while True:
             fid = r.varuint()
             if fid == 0: break
             f = next(x for x in fields if x[3] == fid)
-            out[f[0]] = decode_arr(defs, r, f[1]) if f[2] else decode(defs, r, f[1])
+            if f[0] == 'nodeChanges':
+                lst = []
+                for _ in range(r.varuint()):
+                    st = r.i; n = decode(defs, r, nci)
+                    if 'guid' not in n or 'type' not in n: r.i = st; break
+                    lst.append(n)
+                out['nodeChanges'] = lst
+            else:
+                out[f[0]] = decode_arr(defs, r, f[1]) if f[2] else decode(defs, r, f[1])
     except (StopIteration, IndexError, ValueError):
-        pass  # trailing fields after nodeChanges are not needed
+        pass  # trailing fields are optional
     return out
 if __name__ == '__main__':
     import json
