@@ -27,3 +27,6 @@ Profile, Course, Calendar, Videos, Workshop, Setting, Dementia Resources, Search
   (small 12px grey text, white text on photos, dates/numbers) - sampled 30 cases were all plausible real strings ('6.2.1 Younger onset dementia', '05:07', '85 Views', 'Back'...).
   Treat only generic names ('Item', 'Label', 'Label radio', 'Enter note') as possible placeholders from unresolved component text.
 - Line 4 / Frame box: SVGs are valid (QuickLook renders Line 4; ImageMagick's built-in renderer does not). 'Frame box' has no fill or stroke, so it is empty by design.
+- RESOLVED: About 24_Login_3, 35_Login_5, 36_How to use this page now have real PNGs (cropped from Figma 'Copy as PNG' of the whole story; 36 is the video-instruction modal over Login).
+- 2x images: Figma's 'Copy as PNG' returns 2x, but only when the story is small enough. screen@2x.png exists for stories Survey feedback, Home (FC), Logo option, HCP Home, Authentication x3.
+  Larger stories came back at 1x only (Figma downscales), so they have screen@1x.png only. In Flutter use logical px from CSS/tree.json; 2x is only a visual reference.
