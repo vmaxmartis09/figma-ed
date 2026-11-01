@@ -44,7 +44,15 @@
    "layer_name": "Title"
   },
   {
-   "text": "Label",
+   "text": [
+    "Title",
+    "Date",
+    "Start time",
+    "End time",
+    "Max attendees",
+    "Brief description",
+    "Reminder frequency"
+   ],
    "verified_by_ocr": false,
    "ocr_candidate": "Cancel",
    "style": "Body M/Medium",
@@ -88,7 +96,10 @@
    "text_source": "layer_name"
   },
   {
-   "text": "Enter value",
+   "text": [
+    "Understanding Dementia",
+    "30"
+   ],
    "verified_by_ocr": false,
    "ocr_candidate": "An interactive workshop to share",
    "style": "Body L/Regular",
@@ -117,7 +128,15 @@
    "text_source": "layer_name"
   },
   {
-   "text": "Label",
+   "text": [
+    "Title",
+    "Date",
+    "Start time",
+    "End time",
+    "Max attendees",
+    "Brief description",
+    "Reminder frequency"
+   ],
    "verified_by_ocr": false,
    "ocr_candidate": "Cancel",
    "style": "Body M/Medium",
@@ -132,7 +151,13 @@
    "layer_name": "Label"
   },
   {
-   "text": "text value",
+   "text": [
+    "15/07/2026",
+    "10:30 am",
+    "12:00 am",
+    "An interactive workshop to share strategies and experiences for living well with iSupport-D.",
+    "One day before"
+   ],
    "verified_by_ocr": false,
    "ocr_candidate": "An interactive workshop to share",
    "style": "Body L/Regular",
@@ -148,7 +173,6 @@
   },
   {
    "text": [
-    "This is help text",
     "85",
     "/",
     "500"
@@ -167,7 +191,13 @@
    "layer_name": "Message"
   },
   {
-   "text": "text value",
+   "text": [
+    "15/07/2026",
+    "10:30 am",
+    "12:00 am",
+    "An interactive workshop to share strategies and experiences for living well with iSupport-D.",
+    "One day before"
+   ],
    "verified_by_ocr": false,
    "ocr_candidate": "An interactive workshop to share",
    "style": "Body L/Regular",
@@ -182,7 +212,10 @@
    "layer_name": "Text value"
   },
   {
-   "text": "Button text",
+   "text": [
+    "Save",
+    "Cancel"
+   ],
    "verified_by_ocr": false,
    "ocr_candidate": "Title *",
    "style": "Body L/Semi",
@@ -197,7 +230,10 @@
    "layer_name": "Button text"
   },
   {
-   "text": "Button text",
+   "text": [
+    "Save",
+    "Cancel"
+   ],
    "verified_by_ocr": false,
    "ocr_candidate": "Title *",
    "style": "Body L/Semi",
@@ -309,36 +345,12 @@
    "ocr_confirmed": true
   },
   {
-   "text": "Setting",
-   "layer": "Setting",
-   "path": "workshop detail-edit/Top Navigation/Bottom/Right Action/Setting",
-   "x": 308.0,
-   "y": 79.0,
-   "w": 51.0,
-   "h": 22.0,
-   "font_family": "Roboto",
-   "font_style": "Regular",
-   "font_size": 16.0,
-   "line_height": {
-    "value": 22.0,
-    "units": "PIXELS"
-   },
-   "letter_spacing": {
-    "value": 0.0,
-    "units": "PERCENT"
-   },
-   "align": null,
-   "color": "#FFFFFF",
-   "opacity": 1,
-   "ocr_confirmed": false
-  },
-  {
-   "text": "Label",
+   "text": "Title",
    "layer": "Label",
    "path": "workshop detail-edit/Content/Form Fields/Text Field/Field/Container/Label/Label",
    "x": 16.0,
    "y": 147.0,
-   "w": 35.0,
+   "w": 28.0,
    "h": 20.0,
    "font_family": "Roboto",
    "font_style": "Medium",
@@ -354,13 +366,13 @@
    "align": null,
    "color": "#6A6A6A",
    "opacity": 1,
-   "ocr_confirmed": false
+   "ocr_confirmed": true
   },
   {
    "text": "*",
    "layer": "*",
    "path": "workshop detail-edit/Content/Form Fields/Text Field/Field/Container/Label/*",
-   "x": 55.0,
+   "x": 48.0,
    "y": 147.0,
    "w": 7.0,
    "h": 20.0,
@@ -381,12 +393,12 @@
    "ocr_confirmed": false
   },
   {
-   "text": "Enter value",
+   "text": "Understanding Dementia",
    "layer": "text value",
    "path": "workshop detail-edit/Content/Form Fields/Text Field/Field/Container/Input/Input/text value",
    "x": 28.0,
    "y": 186.0,
-   "w": 216.0,
+   "w": 319.0,
    "h": 22.0,
    "font_family": "Roboto",
    "font_style": "Regular",
@@ -400,41 +412,17 @@
     "units": "PERCENT"
    },
    "align": null,
-   "color": "#A8A8A8",
+   "color": "#121212",
    "opacity": 1,
-   "ocr_confirmed": false
+   "ocr_confirmed": true
   },
   {
-   "text": "This is help text",
-   "layer": "Message",
-   "path": "workshop detail-edit/Content/Form Fields/Text Field/Field/Help text/Message",
-   "x": 16.0,
-   "y": 225.0,
-   "w": 240.0,
-   "h": 20.0,
-   "font_family": "Roboto",
-   "font_style": "Regular",
-   "font_size": 14.0,
-   "line_height": {
-    "value": 20.0,
-    "units": "PIXELS"
-   },
-   "letter_spacing": {
-    "value": 0.0,
-    "units": "PERCENT"
-   },
-   "align": null,
-   "color": "#6A6A6A",
-   "opacity": 1,
-   "ocr_confirmed": false
-  },
-  {
-   "text": "Label",
+   "text": "Date",
    "layer": "Label",
    "path": "workshop detail-edit/Content/Form Fields/Dropdown field/Base/ Dropdown field (Single)/Container/Label/Label",
    "x": 16.0,
    "y": 241.0,
-   "w": 35.0,
+   "w": 29.0,
    "h": 20.0,
    "font_family": "Roboto",
    "font_style": "Medium",
@@ -450,13 +438,13 @@
    "align": null,
    "color": "#555555",
    "opacity": 1,
-   "ocr_confirmed": false
+   "ocr_confirmed": true
   },
   {
    "text": "*",
    "layer": "*",
    "path": "workshop detail-edit/Content/Form Fields/Dropdown field/Base/ Dropdown field (Single)/Container/Label/*",
-   "x": 55.0,
+   "x": 49.0,
    "y": 241.0,
    "w": 7.0,
    "h": 20.0,
@@ -477,12 +465,12 @@
    "ocr_confirmed": false
   },
   {
-   "text": "Select value",
-   "layer": "Placeholder",
-   "path": "workshop detail-edit/Content/Form Fields/Dropdown field/Base/ Dropdown field (Single)/Container/Input/Placeholder",
+   "text": "15/07/2026",
+   "layer": "Text value",
+   "path": "workshop detail-edit/Content/Form Fields/Dropdown field/Base/ Dropdown field (Single)/Container/Input/Text value",
    "x": 28.0,
    "y": 280.0,
-   "w": 270.0,
+   "w": 293.0,
    "h": 22.0,
    "font_family": "Roboto",
    "font_style": "Regular",
@@ -496,41 +484,17 @@
     "units": "PERCENT"
    },
    "align": null,
-   "color": "#A8A8A8",
+   "color": "#121212",
    "opacity": 1,
-   "ocr_confirmed": false
+   "ocr_confirmed": true
   },
   {
-   "text": "This is help text",
-   "layer": "Message",
-   "path": "workshop detail-edit/Content/Form Fields/Dropdown field/Base/ Dropdown field (Single)/Help text/Message",
-   "x": 16.0,
-   "y": 319.0,
-   "w": 320.0,
-   "h": 20.0,
-   "font_family": "Inter",
-   "font_style": "Regular",
-   "font_size": 12.0,
-   "line_height": {
-    "value": 18.0,
-    "units": "PIXELS"
-   },
-   "letter_spacing": {
-    "value": 0.0,
-    "units": "PERCENT"
-   },
-   "align": null,
-   "color": "#555555",
-   "opacity": 1,
-   "ocr_confirmed": false
-  },
-  {
-   "text": "Label",
+   "text": "Start time",
    "layer": "Label",
    "path": "workshop detail-edit/Content/Form Fields/Time row/Dropdown field/Base/ Dropdown field (Single)/Container/Label/Label",
    "x": 16.0,
    "y": 335.0,
-   "w": 35.0,
+   "w": 63.0,
    "h": 20.0,
    "font_family": "Roboto",
    "font_style": "Medium",
@@ -546,13 +510,13 @@
    "align": null,
    "color": "#555555",
    "opacity": 1,
-   "ocr_confirmed": false
+   "ocr_confirmed": true
   },
   {
    "text": "*",
    "layer": "*",
    "path": "workshop detail-edit/Content/Form Fields/Time row/Dropdown field/Base/ Dropdown field (Single)/Container/Label/*",
-   "x": 55.0,
+   "x": 83.0,
    "y": 335.0,
    "w": 7.0,
    "h": 20.0,
@@ -573,12 +537,12 @@
    "ocr_confirmed": false
   },
   {
-   "text": "Select value",
-   "layer": "Placeholder",
-   "path": "workshop detail-edit/Content/Form Fields/Time row/Dropdown field/Base/ Dropdown field (Single)/Container/Input/Placeholder",
+   "text": "10:30 am",
+   "layer": "Text value",
+   "path": "workshop detail-edit/Content/Form Fields/Time row/Dropdown field/Base/ Dropdown field (Single)/Container/Input/Text value",
    "x": 28.0,
    "y": 374.0,
-   "w": 270.0,
+   "w": 113.5,
    "h": 22.0,
    "font_family": "Roboto",
    "font_style": "Regular",
@@ -592,41 +556,17 @@
     "units": "PERCENT"
    },
    "align": null,
-   "color": "#A8A8A8",
+   "color": "#121212",
    "opacity": 1,
-   "ocr_confirmed": false
+   "ocr_confirmed": true
   },
   {
-   "text": "This is help text",
-   "layer": "Message",
-   "path": "workshop detail-edit/Content/Form Fields/Time row/Dropdown field/Base/ Dropdown field (Single)/Help text/Message",
-   "x": 16.0,
-   "y": 413.0,
-   "w": 320.0,
-   "h": 20.0,
-   "font_family": "Inter",
-   "font_style": "Regular",
-   "font_size": 12.0,
-   "line_height": {
-    "value": 18.0,
-    "units": "PIXELS"
-   },
-   "letter_spacing": {
-    "value": 0.0,
-    "units": "PERCENT"
-   },
-   "align": null,
-   "color": "#555555",
-   "opacity": 1,
-   "ocr_confirmed": false
-  },
-  {
-   "text": "Label",
+   "text": "End time",
    "layer": "Label",
    "path": "workshop detail-edit/Content/Form Fields/Time row/Dropdown field/Base/ Dropdown field (Single)/Container/Label/Label",
    "x": 195.5,
    "y": 335.0,
-   "w": 35.0,
+   "w": 56.0,
    "h": 20.0,
    "font_family": "Roboto",
    "font_style": "Medium",
@@ -642,13 +582,13 @@
    "align": null,
    "color": "#555555",
    "opacity": 1,
-   "ocr_confirmed": false
+   "ocr_confirmed": true
   },
   {
    "text": "*",
    "layer": "*",
    "path": "workshop detail-edit/Content/Form Fields/Time row/Dropdown field/Base/ Dropdown field (Single)/Container/Label/*",
-   "x": 234.5,
+   "x": 255.5,
    "y": 335.0,
    "w": 7.0,
    "h": 20.0,
@@ -669,12 +609,12 @@
    "ocr_confirmed": false
   },
   {
-   "text": "Select value",
-   "layer": "Placeholder",
-   "path": "workshop detail-edit/Content/Form Fields/Time row/Dropdown field/Base/ Dropdown field (Single)/Container/Input/Placeholder",
+   "text": "12:00 am",
+   "layer": "Text value",
+   "path": "workshop detail-edit/Content/Form Fields/Time row/Dropdown field/Base/ Dropdown field (Single)/Container/Input/Text value",
    "x": 207.5,
    "y": 374.0,
-   "w": 270.0,
+   "w": 113.5,
    "h": 22.0,
    "font_family": "Roboto",
    "font_style": "Regular",
@@ -688,41 +628,17 @@
     "units": "PERCENT"
    },
    "align": null,
-   "color": "#A8A8A8",
+   "color": "#121212",
    "opacity": 1,
-   "ocr_confirmed": false
+   "ocr_confirmed": true
   },
   {
-   "text": "This is help text",
-   "layer": "Message",
-   "path": "workshop detail-edit/Content/Form Fields/Time row/Dropdown field/Base/ Dropdown field (Single)/Help text/Message",
-   "x": 195.5,
-   "y": 413.0,
-   "w": 320.0,
-   "h": 20.0,
-   "font_family": "Inter",
-   "font_style": "Regular",
-   "font_size": 12.0,
-   "line_height": {
-    "value": 18.0,
-    "units": "PIXELS"
-   },
-   "letter_spacing": {
-    "value": 0.0,
-    "units": "PERCENT"
-   },
-   "align": null,
-   "color": "#555555",
-   "opacity": 1,
-   "ocr_confirmed": false
-  },
-  {
-   "text": "Label",
+   "text": "Max attendees",
    "layer": "Label",
    "path": "workshop detail-edit/Content/Form Fields/Text Field/Field/Container/Label/Label",
    "x": 16.0,
    "y": 429.0,
-   "w": 35.0,
+   "w": 93.0,
    "h": 20.0,
    "font_family": "Roboto",
    "font_style": "Medium",
@@ -738,13 +654,13 @@
    "align": null,
    "color": "#6A6A6A",
    "opacity": 1,
-   "ocr_confirmed": false
+   "ocr_confirmed": true
   },
   {
    "text": "*",
    "layer": "*",
    "path": "workshop detail-edit/Content/Form Fields/Text Field/Field/Container/Label/*",
-   "x": 55.0,
+   "x": 113.0,
    "y": 429.0,
    "w": 7.0,
    "h": 20.0,
@@ -765,12 +681,12 @@
    "ocr_confirmed": false
   },
   {
-   "text": "Enter value",
+   "text": "30",
    "layer": "text value",
    "path": "workshop detail-edit/Content/Form Fields/Text Field/Field/Container/Input/Input/text value",
    "x": 28.0,
    "y": 468.0,
-   "w": 216.0,
+   "w": 319.0,
    "h": 22.0,
    "font_family": "Roboto",
    "font_style": "Regular",
@@ -784,36 +700,12 @@
     "units": "PERCENT"
    },
    "align": null,
-   "color": "#A8A8A8",
+   "color": "#121212",
    "opacity": 1,
-   "ocr_confirmed": false
+   "ocr_confirmed": true
   },
   {
-   "text": "This is help text",
-   "layer": "Message",
-   "path": "workshop detail-edit/Content/Form Fields/Text Field/Field/Help text/Message",
-   "x": 16.0,
-   "y": 507.0,
-   "w": 240.0,
-   "h": 20.0,
-   "font_family": "Roboto",
-   "font_style": "Regular",
-   "font_size": 14.0,
-   "line_height": {
-    "value": 20.0,
-    "units": "PIXELS"
-   },
-   "letter_spacing": {
-    "value": 0.0,
-    "units": "PERCENT"
-   },
-   "align": null,
-   "color": "#6A6A6A",
-   "opacity": 1,
-   "ocr_confirmed": false
-  },
-  {
-   "text": "Label",
+   "text": "Brief description",
    "layer": "Label",
    "path": "workshop detail-edit/Content/Form Fields/Text area/Container/Header/Label/Frame 1000003784/Label",
    "x": 16.0,
@@ -834,7 +726,7 @@
    "align": null,
    "color": "#6A6A6A",
    "opacity": 1,
-   "ocr_confirmed": false
+   "ocr_confirmed": true
   },
   {
    "text": "*",
@@ -933,7 +825,7 @@
    "ocr_confirmed": true
   },
   {
-   "text": "text value",
+   "text": "An interactive workshop to share strategies and experiences for living well with iSupport-D.",
    "layer": "Text value",
    "path": "workshop detail-edit/Content/Form Fields/Text area/Container/Input/Text value",
    "x": 28.0,
@@ -957,36 +849,12 @@
    "ocr_confirmed": false
   },
   {
-   "text": "This is help text",
-   "layer": "Message",
-   "path": "workshop detail-edit/Content/Form Fields/Text area/Help text/Message",
-   "x": 16.0,
-   "y": 633.0,
-   "w": 240.0,
-   "h": 20.0,
-   "font_family": "Roboto",
-   "font_style": "Regular",
-   "font_size": 14.0,
-   "line_height": {
-    "value": 20.0,
-    "units": "PIXELS"
-   },
-   "letter_spacing": {
-    "value": 0.0,
-    "units": "PERCENT"
-   },
-   "align": null,
-   "color": "#6A6A6A",
-   "opacity": 1,
-   "ocr_confirmed": false
-  },
-  {
-   "text": "Label",
+   "text": "Reminder frequency",
    "layer": "Label",
    "path": "workshop detail-edit/Content/Form Fields/Dropdown field/Base/ Dropdown field (Single)/Container/Label/Label",
    "x": 16.0,
    "y": 649.0,
-   "w": 35.0,
+   "w": 127.0,
    "h": 20.0,
    "font_family": "Roboto",
    "font_style": "Medium",
@@ -1002,13 +870,13 @@
    "align": null,
    "color": "#555555",
    "opacity": 1,
-   "ocr_confirmed": false
+   "ocr_confirmed": true
   },
   {
    "text": "*",
    "layer": "*",
    "path": "workshop detail-edit/Content/Form Fields/Dropdown field/Base/ Dropdown field (Single)/Container/Label/*",
-   "x": 55.0,
+   "x": 147.0,
    "y": 649.0,
    "w": 7.0,
    "h": 20.0,
@@ -1029,12 +897,12 @@
    "ocr_confirmed": false
   },
   {
-   "text": "Select value",
-   "layer": "Placeholder",
-   "path": "workshop detail-edit/Content/Form Fields/Dropdown field/Base/ Dropdown field (Single)/Container/Input/Placeholder",
+   "text": "One day before",
+   "layer": "Text value",
+   "path": "workshop detail-edit/Content/Form Fields/Dropdown field/Base/ Dropdown field (Single)/Container/Input/Text value",
    "x": 28.0,
    "y": 688.0,
-   "w": 270.0,
+   "w": 293.0,
    "h": 22.0,
    "font_family": "Roboto",
    "font_style": "Regular",
@@ -1048,36 +916,12 @@
     "units": "PERCENT"
    },
    "align": null,
-   "color": "#A8A8A8",
+   "color": "#121212",
    "opacity": 1,
-   "ocr_confirmed": false
+   "ocr_confirmed": true
   },
   {
-   "text": "This is help text",
-   "layer": "Message",
-   "path": "workshop detail-edit/Content/Form Fields/Dropdown field/Base/ Dropdown field (Single)/Help text/Message",
-   "x": 16.0,
-   "y": 727.0,
-   "w": 320.0,
-   "h": 20.0,
-   "font_family": "Inter",
-   "font_style": "Regular",
-   "font_size": 12.0,
-   "line_height": {
-    "value": 18.0,
-    "units": "PIXELS"
-   },
-   "letter_spacing": {
-    "value": 0.0,
-    "units": "PERCENT"
-   },
-   "align": null,
-   "color": "#555555",
-   "opacity": 1,
-   "ocr_confirmed": false
-  },
-  {
-   "text": "Button text",
+   "text": "Save",
    "layer": "Button text",
    "path": "workshop detail-edit/Form Footer/Action container/Button/Base button/Primary/Button text",
    "x": 170.0,
@@ -1098,10 +942,10 @@
    "align": "CENTER",
    "color": "#FFFFFF",
    "opacity": 1,
-   "ocr_confirmed": false
+   "ocr_confirmed": true
   },
   {
-   "text": "Button text",
+   "text": "Cancel",
    "layer": "Button text",
    "path": "workshop detail-edit/Form Footer/Action container/Button/Base button/Primary/Button text",
    "x": 162.5,
@@ -1122,7 +966,7 @@
    "align": "CENTER",
    "color": "#1999A4",
    "opacity": 1,
-   "ocr_confirmed": false
+   "ocr_confirmed": true
   }
  ]
 }

@@ -148,7 +148,7 @@
          "horizontalConstraint": "SCALE",
          "verticalConstraint": "SCALE",
          "vec": {
-          "blob": 8,
+          "blob": 10,
           "nw": 1.328037977218628,
           "nh": 4.0
          },
@@ -210,7 +210,7 @@
          "horizontalConstraint": "SCALE",
          "verticalConstraint": "SCALE",
          "vec": {
-          "blob": 9,
+          "blob": 11,
           "nw": 17.0,
           "nh": 5.0
          },
@@ -233,7 +233,7 @@
          "horizontalConstraint": "SCALE",
          "verticalConstraint": "SCALE",
          "vec": {
-          "blob": 10,
+          "blob": 12,
           "nw": 11.0,
           "nh": 4.0
          },
@@ -256,7 +256,7 @@
          "horizontalConstraint": "SCALE",
          "verticalConstraint": "SCALE",
          "vec": {
-          "blob": 11,
+          "blob": 13,
           "nw": 5.0,
           "nh": 4.0
          },
@@ -299,7 +299,7 @@
          "horizontalConstraint": "SCALE",
          "verticalConstraint": "SCALE",
          "vec": {
-          "blob": 12,
+          "blob": 14,
           "nw": 3.200000047683716,
           "nh": 4.599999904632568
          },
@@ -322,7 +322,7 @@
          "horizontalConstraint": "SCALE",
          "verticalConstraint": "SCALE",
          "vec": {
-          "blob": 13,
+          "blob": 15,
           "nw": 3.200000047683716,
           "nh": 7.0
          },
@@ -345,7 +345,7 @@
          "horizontalConstraint": "SCALE",
          "verticalConstraint": "SCALE",
          "vec": {
-          "blob": 14,
+          "blob": 16,
           "nw": 3.200000047683716,
           "nh": 9.600000381469727
          },
@@ -368,7 +368,7 @@
          "horizontalConstraint": "SCALE",
          "verticalConstraint": "SCALE",
          "vec": {
-          "blob": 15,
+          "blob": 17,
           "nw": 3.200000047683716,
           "nh": 12.0
          },
@@ -580,7 +580,7 @@
            "horizontalConstraint": "SCALE",
            "verticalConstraint": "SCALE",
            "vec": {
-            "blob": 232,
+            "blob": 250,
             "nw": 7.5,
             "nh": 13.5
            },
@@ -724,7 +724,7 @@
              "horizontalConstraint": "SCALE",
              "verticalConstraint": "SCALE",
              "vec": {
-              "blob": 88,
+              "blob": 90,
               "nw": 448.0,
               "nh": 448.0
              },
@@ -748,7 +748,7 @@
              "horizontalConstraint": "SCALE",
              "verticalConstraint": "SCALE",
              "vec": {
-              "blob": 89,
+              "blob": 91,
               "nw": 424.3554992675781,
               "nh": 152.0
              },
@@ -772,7 +772,7 @@
              "horizontalConstraint": "SCALE",
              "verticalConstraint": "SCALE",
              "vec": {
-              "blob": 90,
+              "blob": 92,
               "nw": 424.3554992675781,
               "nh": 152.0
              },
@@ -796,7 +796,7 @@
              "horizontalConstraint": "SCALE",
              "verticalConstraint": "SCALE",
              "vec": {
-              "blob": 91,
+              "blob": 93,
               "nw": 120.0,
               "nh": 396.89031982421875
              },
@@ -1088,20 +1088,21 @@
          "strokeJoin": "MITER",
          "children": [
           {
-           "name": "Frame box",
+           "name": "Box",
            "type": "FRAME",
            "x": 0.0,
            "y": 0.0,
            "w": 24.0,
            "h": 24.0,
-           "cornerRadius": 12.0,
-           "rectangleTopLeftCornerRadius": 12.0,
-           "rectangleTopRightCornerRadius": 12.0,
-           "rectangleBottomLeftCornerRadius": 12.0,
-           "rectangleBottomRightCornerRadius": 12.0,
+           "cornerRadius": 4.0,
+           "rectangleTopLeftCornerRadius": 4.0,
+           "rectangleTopRightCornerRadius": 4.0,
+           "rectangleBottomLeftCornerRadius": 4.0,
+           "rectangleBottomRightCornerRadius": 4.0,
            "strokeWeight": 1.0,
            "strokeAlign": "INSIDE",
-           "stackSpacing": 8.0,
+           "stackMode": "HORIZONTAL",
+           "stackSpacing": 10.0,
            "stackCounterAlignItems": "CENTER",
            "stackPrimarySizing": "FIXED",
            "frameMaskDisabled": true,
@@ -1111,32 +1112,16 @@
              "type": "SOLID",
              "color": "#828282"
             }
-           ],
-           "children": [
-            {
-             "name": "Box",
-             "type": "ELLIPSE",
-             "x": 3.0,
-             "y": 3.0,
-             "w": 18.0,
-             "h": 18.0,
-             "strokeWeight": 1.0,
-             "strokeAlign": "INSIDE",
-             "horizontalConstraint": "CENTER",
-             "verticalConstraint": "SCALE",
-             "strokeJoin": "MITER"
-            }
            ]
           },
           {
-           "name": "Label radio",
+           "name": "Label",
            "type": "TEXT",
            "x": 32.0,
            "y": 1.0,
-           "w": 79.0,
+           "w": 111.0,
            "h": 22.0,
-           "strokeWeight": 1.0,
-           "strokeAlign": "OUTSIDE",
+           "strokeAlign": "INSIDE",
            "strokeJoin": "MITER",
            "fills": [
             {
@@ -1145,7 +1130,7 @@
             }
            ],
            "text": {
-            "characters": "Label radio",
+            "characters": "Label checkbox",
             "fontSize": 16.0,
             "font": {
              "family": "Roboto",
@@ -1263,20 +1248,21 @@
          "strokeJoin": "MITER",
          "children": [
           {
-           "name": "Frame box",
+           "name": "Box",
            "type": "FRAME",
            "x": 0.0,
            "y": 0.0,
            "w": 24.0,
            "h": 24.0,
-           "cornerRadius": 12.0,
-           "rectangleTopLeftCornerRadius": 12.0,
-           "rectangleTopRightCornerRadius": 12.0,
-           "rectangleBottomLeftCornerRadius": 12.0,
-           "rectangleBottomRightCornerRadius": 12.0,
+           "cornerRadius": 4.0,
+           "rectangleTopLeftCornerRadius": 4.0,
+           "rectangleTopRightCornerRadius": 4.0,
+           "rectangleBottomLeftCornerRadius": 4.0,
+           "rectangleBottomRightCornerRadius": 4.0,
            "strokeWeight": 1.0,
            "strokeAlign": "INSIDE",
-           "stackSpacing": 8.0,
+           "stackMode": "HORIZONTAL",
+           "stackSpacing": 10.0,
            "stackCounterAlignItems": "CENTER",
            "stackPrimarySizing": "FIXED",
            "frameMaskDisabled": true,
@@ -1286,32 +1272,16 @@
              "type": "SOLID",
              "color": "#828282"
             }
-           ],
-           "children": [
-            {
-             "name": "Box",
-             "type": "ELLIPSE",
-             "x": 3.0,
-             "y": 3.0,
-             "w": 18.0,
-             "h": 18.0,
-             "strokeWeight": 1.0,
-             "strokeAlign": "INSIDE",
-             "horizontalConstraint": "CENTER",
-             "verticalConstraint": "SCALE",
-             "strokeJoin": "MITER"
-            }
            ]
           },
           {
-           "name": "Label radio",
+           "name": "Label",
            "type": "TEXT",
            "x": 32.0,
            "y": 1.0,
-           "w": 79.0,
+           "w": 111.0,
            "h": 22.0,
-           "strokeWeight": 1.0,
-           "strokeAlign": "OUTSIDE",
+           "strokeAlign": "INSIDE",
            "strokeJoin": "MITER",
            "fills": [
             {
@@ -1320,7 +1290,7 @@
             }
            ],
            "text": {
-            "characters": "Label radio",
+            "characters": "Label checkbox",
             "fontSize": 16.0,
             "font": {
              "family": "Roboto",
@@ -1438,25 +1408,27 @@
          "strokeJoin": "MITER",
          "children": [
           {
-           "name": "Frame box",
+           "name": "Box",
            "type": "FRAME",
            "x": 0.0,
            "y": 0.0,
            "w": 24.0,
            "h": 24.0,
-           "cornerRadius": 12.0,
-           "rectangleTopLeftCornerRadius": 12.0,
-           "rectangleTopRightCornerRadius": 12.0,
-           "rectangleBottomLeftCornerRadius": 12.0,
-           "rectangleBottomRightCornerRadius": 12.0,
-           "strokeWeight": 1.0,
-           "strokeAlign": "INSIDE",
-           "stackSpacing": 8.0,
+           "cornerRadius": 4.0,
+           "rectangleTopLeftCornerRadius": 4.0,
+           "rectangleTopRightCornerRadius": 4.0,
+           "rectangleBottomLeftCornerRadius": 4.0,
+           "rectangleBottomRightCornerRadius": 4.0,
+           "strokeWeight": 3.0,
+           "strokeAlign": "OUTSIDE",
+           "stackMode": "HORIZONTAL",
+           "stackSpacing": 10.0,
+           "stackPrimaryAlignItems": "CENTER",
            "stackCounterAlignItems": "CENTER",
            "stackPrimarySizing": "FIXED",
            "frameMaskDisabled": true,
            "strokeJoin": "MITER",
-           "strokes": [
+           "fills": [
             {
              "type": "SOLID",
              "color": "#1999A4"
@@ -1464,35 +1436,58 @@
            ],
            "children": [
             {
-             "name": "Box",
-             "type": "ELLIPSE",
-             "x": 3.0,
-             "y": 3.0,
-             "w": 18.0,
-             "h": 18.0,
+             "name": "Check",
+             "type": "FRAME",
+             "x": 5.0,
+             "y": 5.0,
+             "w": 14.0,
+             "h": 14.0,
              "strokeWeight": 1.0,
              "strokeAlign": "INSIDE",
-             "horizontalConstraint": "CENTER",
-             "verticalConstraint": "SCALE",
              "strokeJoin": "MITER",
-             "fills": [
+             "children": [
               {
-               "type": "SOLID",
-               "color": "#1999A4"
+               "name": "Vector",
+               "type": "VECTOR",
+               "x": 0.63,
+               "y": 1.97,
+               "w": 12.750507354736328,
+               "h": 10.060157775878906,
+               "strokeWeight": 0.800000011920929,
+               "strokeAlign": "CENTER",
+               "horizontalConstraint": "SCALE",
+               "verticalConstraint": "SCALE",
+               "vec": {
+                "blob": 167,
+                "nw": 816.0323486328125,
+                "nh": 643.8500366210938
+               },
+               "strokeJoin": "MITER",
+               "fills": [
+                {
+                 "type": "SOLID",
+                 "color": "#FFFFFF"
+                }
+               ],
+               "strokes": [
+                {
+                 "type": "SOLID",
+                 "color": "#FFFFFF"
+                }
+               ]
               }
              ]
             }
            ]
           },
           {
-           "name": "Label radio",
+           "name": "Label",
            "type": "TEXT",
            "x": 32.0,
            "y": 1.0,
-           "w": 79.0,
+           "w": 111.0,
            "h": 22.0,
-           "strokeWeight": 1.0,
-           "strokeAlign": "OUTSIDE",
+           "strokeAlign": "INSIDE",
            "strokeJoin": "MITER",
            "fills": [
             {
@@ -1501,7 +1496,7 @@
             }
            ],
            "text": {
-            "characters": "Label radio",
+            "characters": "Label checkbox",
             "fontSize": 16.0,
             "font": {
              "family": "Roboto",
@@ -1619,20 +1614,21 @@
          "strokeJoin": "MITER",
          "children": [
           {
-           "name": "Frame box",
+           "name": "Box",
            "type": "FRAME",
            "x": 0.0,
            "y": 0.0,
            "w": 24.0,
            "h": 24.0,
-           "cornerRadius": 12.0,
-           "rectangleTopLeftCornerRadius": 12.0,
-           "rectangleTopRightCornerRadius": 12.0,
-           "rectangleBottomLeftCornerRadius": 12.0,
-           "rectangleBottomRightCornerRadius": 12.0,
+           "cornerRadius": 4.0,
+           "rectangleTopLeftCornerRadius": 4.0,
+           "rectangleTopRightCornerRadius": 4.0,
+           "rectangleBottomLeftCornerRadius": 4.0,
+           "rectangleBottomRightCornerRadius": 4.0,
            "strokeWeight": 1.0,
            "strokeAlign": "INSIDE",
-           "stackSpacing": 8.0,
+           "stackMode": "HORIZONTAL",
+           "stackSpacing": 10.0,
            "stackCounterAlignItems": "CENTER",
            "stackPrimarySizing": "FIXED",
            "frameMaskDisabled": true,
@@ -1642,32 +1638,16 @@
              "type": "SOLID",
              "color": "#828282"
             }
-           ],
-           "children": [
-            {
-             "name": "Box",
-             "type": "ELLIPSE",
-             "x": 3.0,
-             "y": 3.0,
-             "w": 18.0,
-             "h": 18.0,
-             "strokeWeight": 1.0,
-             "strokeAlign": "INSIDE",
-             "horizontalConstraint": "CENTER",
-             "verticalConstraint": "SCALE",
-             "strokeJoin": "MITER"
-            }
            ]
           },
           {
-           "name": "Label radio",
+           "name": "Label",
            "type": "TEXT",
            "x": 32.0,
            "y": 1.0,
-           "w": 79.0,
+           "w": 111.0,
            "h": 22.0,
-           "strokeWeight": 1.0,
-           "strokeAlign": "OUTSIDE",
+           "strokeAlign": "INSIDE",
            "strokeJoin": "MITER",
            "fills": [
             {
@@ -1676,7 +1656,7 @@
             }
            ],
            "text": {
-            "characters": "Label radio",
+            "characters": "Label checkbox",
             "fontSize": 16.0,
             "font": {
              "family": "Roboto",
@@ -1794,20 +1774,21 @@
          "strokeJoin": "MITER",
          "children": [
           {
-           "name": "Frame box",
+           "name": "Box",
            "type": "FRAME",
            "x": 0.0,
            "y": 0.0,
            "w": 24.0,
            "h": 24.0,
-           "cornerRadius": 12.0,
-           "rectangleTopLeftCornerRadius": 12.0,
-           "rectangleTopRightCornerRadius": 12.0,
-           "rectangleBottomLeftCornerRadius": 12.0,
-           "rectangleBottomRightCornerRadius": 12.0,
+           "cornerRadius": 4.0,
+           "rectangleTopLeftCornerRadius": 4.0,
+           "rectangleTopRightCornerRadius": 4.0,
+           "rectangleBottomLeftCornerRadius": 4.0,
+           "rectangleBottomRightCornerRadius": 4.0,
            "strokeWeight": 1.0,
            "strokeAlign": "INSIDE",
-           "stackSpacing": 8.0,
+           "stackMode": "HORIZONTAL",
+           "stackSpacing": 10.0,
            "stackCounterAlignItems": "CENTER",
            "stackPrimarySizing": "FIXED",
            "frameMaskDisabled": true,
@@ -1817,32 +1798,16 @@
              "type": "SOLID",
              "color": "#828282"
             }
-           ],
-           "children": [
-            {
-             "name": "Box",
-             "type": "ELLIPSE",
-             "x": 3.0,
-             "y": 3.0,
-             "w": 18.0,
-             "h": 18.0,
-             "strokeWeight": 1.0,
-             "strokeAlign": "INSIDE",
-             "horizontalConstraint": "CENTER",
-             "verticalConstraint": "SCALE",
-             "strokeJoin": "MITER"
-            }
            ]
           },
           {
-           "name": "Label radio",
+           "name": "Label",
            "type": "TEXT",
            "x": 32.0,
            "y": 1.0,
-           "w": 79.0,
+           "w": 111.0,
            "h": 22.0,
-           "strokeWeight": 1.0,
-           "strokeAlign": "OUTSIDE",
+           "strokeAlign": "INSIDE",
            "strokeJoin": "MITER",
            "fills": [
             {
@@ -1851,7 +1816,7 @@
             }
            ],
            "text": {
-            "characters": "Label radio",
+            "characters": "Label checkbox",
             "fontSize": 16.0,
             "font": {
              "family": "Roboto",
@@ -1971,7 +1936,7 @@
               }
              ],
              "text": {
-              "characters": "Button text",
+              "characters": "Continue",
               "fontSize": 16.0,
               "font": {
                "family": "Roboto",

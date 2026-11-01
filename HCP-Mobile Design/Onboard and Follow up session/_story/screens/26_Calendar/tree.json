@@ -2568,25 +2568,6 @@
                "strokeJoin": "MITER",
                "children": [
                 {
-                 "name": "Rectangle 2",
-                 "type": "ROUNDED_RECTANGLE",
-                 "x": 0.0,
-                 "y": 0.0,
-                 "w": 30.0,
-                 "h": 30.0,
-                 "cornerRadius": 10.0,
-                 "strokeAlign": "CENTER",
-                 "horizontalConstraint": "SCALE",
-                 "verticalConstraint": "SCALE",
-                 "strokeJoin": "MITER",
-                 "fills": [
-                  {
-                   "type": "SOLID",
-                   "color": "#8B5ECB"
-                  }
-                 ]
-                },
-                {
                  "name": "Text",
                  "type": "TEXT",
                  "x": 0.0,
@@ -2600,7 +2581,7 @@
                  "fills": [
                   {
                    "type": "SOLID",
-                   "color": "#FFFFFF"
+                   "color": "#121212"
                   }
                  ],
                  "text": {
@@ -2608,8 +2589,8 @@
                   "fontSize": 16.0,
                   "font": {
                    "family": "Roboto",
-                   "style": "SemiBold",
-                   "postscript": "Roboto-SemiBold"
+                   "style": "Regular",
+                   "postscript": "Roboto-Regular"
                   },
                   "lineHeight": {
                    "value": 22.0,
@@ -2625,76 +2606,6 @@
                   "decoration": null,
                   "autoResize": null
                  }
-                },
-                {
-                 "name": "Frame 1000004882",
-                 "type": "FRAME",
-                 "x": 5.5,
-                 "y": 32.0,
-                 "w": 19.0,
-                 "h": 5.0,
-                 "strokeWeight": 1.0,
-                 "strokeAlign": "INSIDE",
-                 "stackMode": "HORIZONTAL",
-                 "stackSpacing": 2.0,
-                 "stackCounterAlignItems": "CENTER",
-                 "stackCounterSizing": "RESIZE_TO_FIT_WITH_IMPLICIT_SIZE",
-                 "horizontalConstraint": "CENTER",
-                 "frameMaskDisabled": true,
-                 "strokeJoin": "MITER",
-                 "children": [
-                  {
-                   "name": "Ellipse 2286",
-                   "type": "ELLIPSE",
-                   "x": 0.0,
-                   "y": 0.0,
-                   "w": 5.0,
-                   "h": 5.0,
-                   "strokeWeight": 1.0,
-                   "strokeAlign": "INSIDE",
-                   "strokeJoin": "MITER",
-                   "fills": [
-                    {
-                     "type": "SOLID",
-                     "color": "#FFB330"
-                    }
-                   ]
-                  },
-                  {
-                   "name": "Ellipse 2286",
-                   "type": "ELLIPSE",
-                   "x": 7.0,
-                   "y": 0.0,
-                   "w": 5.0,
-                   "h": 5.0,
-                   "strokeWeight": 1.0,
-                   "strokeAlign": "INSIDE",
-                   "strokeJoin": "MITER",
-                   "fills": [
-                    {
-                     "type": "SOLID",
-                     "color": "#1999A4"
-                    }
-                   ]
-                  },
-                  {
-                   "name": "Ellipse 2287",
-                   "type": "ELLIPSE",
-                   "x": 14.0,
-                   "y": 0.0,
-                   "w": 5.0,
-                   "h": 5.0,
-                   "strokeWeight": 1.0,
-                   "strokeAlign": "INSIDE",
-                   "strokeJoin": "MITER",
-                   "fills": [
-                    {
-                     "type": "SOLID",
-                     "color": "#8B5ECB"
-                    }
-                   ]
-                  }
-                 ]
                 }
                ]
               },
@@ -3072,6 +2983,36 @@
                "strokeJoin": "MITER",
                "children": [
                 {
+                 "name": "Rectangle 2",
+                 "type": "ROUNDED_RECTANGLE",
+                 "x": 0.0,
+                 "y": 0.0,
+                 "w": 30.0,
+                 "h": 30.0,
+                 "cornerRadius": 10.0,
+                 "rectangleTopLeftCornerRadius": 10.0,
+                 "rectangleTopRightCornerRadius": 10.0,
+                 "rectangleBottomLeftCornerRadius": 10.0,
+                 "rectangleBottomRightCornerRadius": 10.0,
+                 "strokeWeight": 1.0,
+                 "strokeAlign": "CENTER",
+                 "horizontalConstraint": "SCALE",
+                 "verticalConstraint": "SCALE",
+                 "strokeJoin": "MITER",
+                 "fills": [
+                  {
+                   "type": "SOLID",
+                   "color": "#FFFFFF"
+                  }
+                 ],
+                 "strokes": [
+                  {
+                   "type": "SOLID",
+                   "color": "#8B5ECB"
+                  }
+                 ]
+                },
+                {
                  "name": "Text",
                  "type": "TEXT",
                  "x": 0.0,
@@ -3085,7 +3026,7 @@
                  "fills": [
                   {
                    "type": "SOLID",
-                   "color": "#121212"
+                   "color": "#8B5ECB"
                   }
                  ],
                  "text": {
@@ -3093,8 +3034,8 @@
                   "fontSize": 16.0,
                   "font": {
                    "family": "Roboto",
-                   "style": "Regular",
-                   "postscript": "Roboto-Regular"
+                   "style": "SemiBold",
+                   "postscript": "Roboto-SemiBold"
                   },
                   "lineHeight": {
                    "value": 22.0,
@@ -3110,6 +3051,78 @@
                   "decoration": null,
                   "autoResize": null
                  }
+                },
+                {
+                 "name": "Frame 1000004882",
+                 "type": "FRAME",
+                 "x": 12.5,
+                 "y": 32.0,
+                 "w": 5.0,
+                 "h": 5.0,
+                 "strokeWeight": 1.0,
+                 "strokeAlign": "INSIDE",
+                 "stackMode": "HORIZONTAL",
+                 "stackSpacing": 2.0,
+                 "stackCounterAlignItems": "CENTER",
+                 "stackCounterSizing": "RESIZE_TO_FIT_WITH_IMPLICIT_SIZE",
+                 "horizontalConstraint": "CENTER",
+                 "frameMaskDisabled": true,
+                 "strokeJoin": "MITER",
+                 "children": [
+                  {
+                   "name": "Ellipse 2286",
+                   "type": "ELLIPSE",
+                   "x": 0.0,
+                   "y": 0.0,
+                   "w": 5.0,
+                   "h": 5.0,
+                   "visible": false,
+                   "strokeWeight": 1.0,
+                   "strokeAlign": "INSIDE",
+                   "strokeJoin": "MITER",
+                   "fills": [
+                    {
+                     "type": "SOLID",
+                     "color": "#FFB330"
+                    }
+                   ]
+                  },
+                  {
+                   "name": "Ellipse 2286",
+                   "type": "ELLIPSE",
+                   "x": 7.0,
+                   "y": 0.0,
+                   "w": 5.0,
+                   "h": 5.0,
+                   "visible": false,
+                   "strokeWeight": 1.0,
+                   "strokeAlign": "INSIDE",
+                   "strokeJoin": "MITER",
+                   "fills": [
+                    {
+                     "type": "SOLID",
+                     "color": "#1999A4"
+                    }
+                   ]
+                  },
+                  {
+                   "name": "Ellipse 2287",
+                   "type": "ELLIPSE",
+                   "x": 0.0,
+                   "y": 0.0,
+                   "w": 5.0,
+                   "h": 5.0,
+                   "strokeWeight": 1.0,
+                   "strokeAlign": "INSIDE",
+                   "strokeJoin": "MITER",
+                   "fills": [
+                    {
+                     "type": "SOLID",
+                     "color": "#8B5ECB"
+                    }
+                   ]
+                  }
+                 ]
                 }
                ]
               },
@@ -3485,6 +3498,25 @@
                "strokeJoin": "MITER",
                "children": [
                 {
+                 "name": "Rectangle 2",
+                 "type": "ROUNDED_RECTANGLE",
+                 "x": 0.0,
+                 "y": 0.0,
+                 "w": 30.0,
+                 "h": 30.0,
+                 "cornerRadius": 10.0,
+                 "strokeAlign": "CENTER",
+                 "horizontalConstraint": "SCALE",
+                 "verticalConstraint": "SCALE",
+                 "strokeJoin": "MITER",
+                 "fills": [
+                  {
+                   "type": "SOLID",
+                   "color": "#8B5ECB"
+                  }
+                 ]
+                },
+                {
                  "name": "Text",
                  "type": "TEXT",
                  "x": 0.0,
@@ -3498,7 +3530,7 @@
                  "fills": [
                   {
                    "type": "SOLID",
-                   "color": "#121212"
+                   "color": "#FFFFFF"
                   }
                  ],
                  "text": {
@@ -3506,8 +3538,8 @@
                   "fontSize": 16.0,
                   "font": {
                    "family": "Roboto",
-                   "style": "Regular",
-                   "postscript": "Roboto-Regular"
+                   "style": "SemiBold",
+                   "postscript": "Roboto-SemiBold"
                   },
                   "lineHeight": {
                    "value": 22.0,
@@ -3562,10 +3594,11 @@
                   {
                    "name": "Ellipse 2286",
                    "type": "ELLIPSE",
-                   "x": 0.0,
+                   "x": 7.0,
                    "y": 0.0,
                    "w": 5.0,
                    "h": 5.0,
+                   "visible": false,
                    "strokeWeight": 1.0,
                    "strokeAlign": "INSIDE",
                    "strokeJoin": "MITER",
@@ -3579,11 +3612,10 @@
                   {
                    "name": "Ellipse 2287",
                    "type": "ELLIPSE",
-                   "x": 14.0,
+                   "x": 0.0,
                    "y": 0.0,
                    "w": 5.0,
                    "h": 5.0,
-                   "visible": false,
                    "strokeWeight": 1.0,
                    "strokeAlign": "INSIDE",
                    "strokeJoin": "MITER",

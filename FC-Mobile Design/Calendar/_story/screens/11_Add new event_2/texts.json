@@ -2,7 +2,14 @@
  "screen": "Add new event",
  "texts": [
   {
-   "text": "Label",
+   "text": [
+    "Title",
+    "Start date",
+    "End date",
+    "Category",
+    "Location",
+    "Note"
+   ],
    "verified_by_ocr": false,
    "ocr_candidate": "2 days before",
    "style": "Body M/Medium",
@@ -46,7 +53,11 @@
    "text_source": "layer_name"
   },
   {
-   "text": "Enter value",
+   "text": [
+    "Enter value",
+    "Enter location",
+    "Enter note"
+   ],
    "verified_by_ocr": false,
    "ocr_candidate": "At event start time",
    "style": "Body L/Regular",
@@ -75,7 +86,14 @@
    "text_source": "layer_name"
   },
   {
-   "text": "Label",
+   "text": [
+    "Title",
+    "Start date",
+    "End date",
+    "Category",
+    "Location",
+    "Note"
+   ],
    "verified_by_ocr": false,
    "ocr_candidate": "2 days before",
    "style": "Body M/Medium",
@@ -90,7 +108,11 @@
    "layer_name": "Label"
   },
   {
-   "text": "Select value",
+   "text": [
+    "mm-dd-yyyy",
+    "hh:mm",
+    "Select category"
+   ],
    "verified_by_ocr": false,
    "ocr_candidate": "1 hour before",
    "style": "Body L/Regular",
@@ -257,7 +279,11 @@
    "layer_name": "Label"
   },
   {
-   "text": "Button text",
+   "text": [
+    "Create",
+    "Button text",
+    "Select"
+   ],
    "verified_by_ocr": false,
    "ocr_candidate": "5 mins before",
    "style": "Body L/Semi",
@@ -272,7 +298,11 @@
    "layer_name": "Button text"
   },
   {
-   "text": "Button text",
+   "text": [
+    "Create",
+    "Button text",
+    "Select"
+   ],
    "verified_by_ocr": false,
    "ocr_candidate": "5 mins before",
    "style": "Body L/Semi",
@@ -370,7 +400,7 @@
  ],
  "texts_real": [
   {
-   "text": "Label",
+   "text": "Title",
    "layer": "Label",
    "path": "Add new event/Form/Frame 1000004939/Text Field/Field/Container/Label/Label",
    "x": 16.0,
@@ -466,7 +496,7 @@
    "ocr_confirmed": false
   },
   {
-   "text": "Label",
+   "text": "Start date",
    "layer": "Label",
    "path": "Add new event/Form/Frame 1000004939/Frame 1000004926/Dropdown field/Base/ Dropdown field (Single)/Container/Label/Label",
    "x": 16.0,
@@ -514,7 +544,7 @@
    "ocr_confirmed": false
   },
   {
-   "text": "Select value",
+   "text": "mm-dd-yyyy",
    "layer": "Placeholder",
    "path": "Add new event/Form/Frame 1000004939/Frame 1000004926/Dropdown field/Base/ Dropdown field (Single)/Container/Input/Placeholder",
    "x": 28.0,
@@ -562,7 +592,7 @@
    "ocr_confirmed": false
   },
   {
-   "text": "Select value",
+   "text": "hh:mm",
    "layer": "Placeholder",
    "path": "Add new event/Form/Frame 1000004939/Frame 1000004926/Dropdown field/Base/ Dropdown field (Single)/Container/Input/Placeholder",
    "x": 236.0,
@@ -610,7 +640,7 @@
    "ocr_confirmed": false
   },
   {
-   "text": "Label",
+   "text": "End date",
    "layer": "Label",
    "path": "Add new event/Form/Frame 1000004939/Frame 1000004927/Dropdown field/Base/ Dropdown field (Single)/Container/Label/Label",
    "x": 16.0,
@@ -658,7 +688,7 @@
    "ocr_confirmed": false
   },
   {
-   "text": "Select value",
+   "text": "mm-dd-yyyy",
    "layer": "Placeholder",
    "path": "Add new event/Form/Frame 1000004939/Frame 1000004927/Dropdown field/Base/ Dropdown field (Single)/Container/Input/Placeholder",
    "x": 28.0,
@@ -706,7 +736,7 @@
    "ocr_confirmed": false
   },
   {
-   "text": "Select value",
+   "text": "hh:mm",
    "layer": "Placeholder",
    "path": "Add new event/Form/Frame 1000004939/Frame 1000004927/Dropdown field/Base/ Dropdown field (Single)/Container/Input/Placeholder",
    "x": 236.0,
@@ -754,7 +784,7 @@
    "ocr_confirmed": false
   },
   {
-   "text": "Label",
+   "text": "Category",
    "layer": "Label",
    "path": "Add new event/Form/Frame 1000004939/Dropdown field/Base/ Dropdown field (Single)/Container/Label/Label",
    "x": 16.0,
@@ -778,31 +808,7 @@
    "ocr_confirmed": false
   },
   {
-   "text": "*",
-   "layer": "*",
-   "path": "Add new event/Form/Frame 1000004939/Dropdown field/Base/ Dropdown field (Single)/Container/Label/*",
-   "x": 55.0,
-   "y": 465.0,
-   "w": 7.0,
-   "h": 20.0,
-   "font_family": "Inter",
-   "font_style": "Regular",
-   "font_size": 14.0,
-   "line_height": {
-    "value": 20.0,
-    "units": "PIXELS"
-   },
-   "letter_spacing": {
-    "value": 0.0,
-    "units": "PERCENT"
-   },
-   "align": null,
-   "color": "#E81818",
-   "opacity": 1,
-   "ocr_confirmed": false
-  },
-  {
-   "text": "Select value",
+   "text": "Select category",
    "layer": "Placeholder",
    "path": "Add new event/Form/Frame 1000004939/Dropdown field/Base/ Dropdown field (Single)/Container/Input/Placeholder",
    "x": 28.0,
@@ -850,7 +856,7 @@
    "ocr_confirmed": false
   },
   {
-   "text": "Label",
+   "text": "Location",
    "layer": "Label",
    "path": "Add new event/Form/Frame 1000004939/Text Field/Field/Container/Label/Label",
    "x": 16.0,
@@ -874,31 +880,7 @@
    "ocr_confirmed": false
   },
   {
-   "text": "*",
-   "layer": "*",
-   "path": "Add new event/Form/Frame 1000004939/Text Field/Field/Container/Label/*",
-   "x": 55.0,
-   "y": 559.0,
-   "w": 7.0,
-   "h": 20.0,
-   "font_family": "Inter",
-   "font_style": "Regular",
-   "font_size": 14.0,
-   "line_height": {
-    "value": 20.0,
-    "units": "PIXELS"
-   },
-   "letter_spacing": {
-    "value": 0.0,
-    "units": "PERCENT"
-   },
-   "align": null,
-   "color": "#E81818",
-   "opacity": 1,
-   "ocr_confirmed": false
-  },
-  {
-   "text": "Enter value",
+   "text": "Enter location",
    "layer": "text value",
    "path": "Add new event/Form/Frame 1000004939/Text Field/Field/Container/Input/Input/text value",
    "x": 28.0,
@@ -946,7 +928,7 @@
    "ocr_confirmed": false
   },
   {
-   "text": "Label",
+   "text": "Note",
    "layer": "Label",
    "path": "Add new event/Form/Frame 1000004939/Text Field/Field/Container/Label/Label",
    "x": 16.0,
@@ -970,31 +952,7 @@
    "ocr_confirmed": false
   },
   {
-   "text": "*",
-   "layer": "*",
-   "path": "Add new event/Form/Frame 1000004939/Text Field/Field/Container/Label/*",
-   "x": 55.0,
-   "y": 653.0,
-   "w": 7.0,
-   "h": 20.0,
-   "font_family": "Inter",
-   "font_style": "Regular",
-   "font_size": 14.0,
-   "line_height": {
-    "value": 20.0,
-    "units": "PIXELS"
-   },
-   "letter_spacing": {
-    "value": 0.0,
-    "units": "PERCENT"
-   },
-   "align": null,
-   "color": "#E81818",
-   "opacity": 1,
-   "ocr_confirmed": false
-  },
-  {
-   "text": "Enter value",
+   "text": "Enter note",
    "layer": "text value",
    "path": "Add new event/Form/Frame 1000004939/Text Field/Field/Container/Input/Input/text value",
    "x": 28.0,
@@ -1162,31 +1120,7 @@
    "ocr_confirmed": true
   },
   {
-   "text": "Description",
-   "layer": "Description",
-   "path": "Add new event/Top Navigation/Title/Text/Description",
-   "x": 16.0,
-   "y": 163.0,
-   "w": 343.0,
-   "h": 22.0,
-   "font_family": "Roboto",
-   "font_style": "Regular",
-   "font_size": 16.0,
-   "line_height": {
-    "value": 22.0,
-    "units": "PIXELS"
-   },
-   "letter_spacing": {
-    "value": 0.0,
-    "units": "PERCENT"
-   },
-   "align": null,
-   "color": "#555555",
-   "opacity": 1,
-   "ocr_confirmed": false
-  },
-  {
-   "text": "Button text",
+   "text": "Create",
    "layer": "Button text",
    "path": "Add new event/Form/Checkbox container/Account prompt container/Button/Base button/Primary/Button text",
    "x": 163.5,
@@ -1330,30 +1264,6 @@
    "ocr_confirmed": true
   },
   {
-   "text": "Label radio",
-   "layer": "Label radio",
-   "path": "Add new event/Purpose of Use/Content/Check list/Container/Radio Button/Label radio",
-   "x": 367.0,
-   "y": 312.0,
-   "w": 79.0,
-   "h": 22.0,
-   "font_family": "Roboto",
-   "font_style": "Regular",
-   "font_size": 16.0,
-   "line_height": {
-    "value": 22.0,
-    "units": "PIXELS"
-   },
-   "letter_spacing": {
-    "value": 0.0,
-    "units": "PERCENT"
-   },
-   "align": null,
-   "color": "#121212",
-   "opacity": 1,
-   "ocr_confirmed": false
-  },
-  {
    "text": "10 mins before",
    "layer": "Label",
    "path": "Add new event/Purpose of Use/Content/Check list/Container/Label",
@@ -1376,30 +1286,6 @@
    "color": "#121212",
    "opacity": 1,
    "ocr_confirmed": true
-  },
-  {
-   "text": "Label radio",
-   "layer": "Label radio",
-   "path": "Add new event/Purpose of Use/Content/Check list/Container/Radio Button/Label radio",
-   "x": 367.0,
-   "y": 368.0,
-   "w": 79.0,
-   "h": 22.0,
-   "font_family": "Roboto",
-   "font_style": "Regular",
-   "font_size": 16.0,
-   "line_height": {
-    "value": 22.0,
-    "units": "PIXELS"
-   },
-   "letter_spacing": {
-    "value": 0.0,
-    "units": "PERCENT"
-   },
-   "align": null,
-   "color": "#121212",
-   "opacity": 1,
-   "ocr_confirmed": false
   },
   {
    "text": "15 mins before",
@@ -1474,30 +1360,6 @@
    "ocr_confirmed": true
   },
   {
-   "text": "Label radio",
-   "layer": "Label radio",
-   "path": "Add new event/Purpose of Use/Content/Check list/Container/Radio Button/Label radio",
-   "x": 367.0,
-   "y": 480.0,
-   "w": 79.0,
-   "h": 22.0,
-   "font_family": "Roboto",
-   "font_style": "Regular",
-   "font_size": 16.0,
-   "line_height": {
-    "value": 22.0,
-    "units": "PIXELS"
-   },
-   "letter_spacing": {
-    "value": 0.0,
-    "units": "PERCENT"
-   },
-   "align": null,
-   "color": "#121212",
-   "opacity": 1,
-   "ocr_confirmed": false
-  },
-  {
    "text": "1 hour before",
    "layer": "Label",
    "path": "Add new event/Purpose of Use/Content/Check list/Container/Label",
@@ -1520,30 +1382,6 @@
    "color": "#121212",
    "opacity": 1,
    "ocr_confirmed": true
-  },
-  {
-   "text": "Label radio",
-   "layer": "Label radio",
-   "path": "Add new event/Purpose of Use/Content/Check list/Container/Radio Button/Label radio",
-   "x": 367.0,
-   "y": 536.0,
-   "w": 79.0,
-   "h": 22.0,
-   "font_family": "Roboto",
-   "font_style": "Regular",
-   "font_size": 16.0,
-   "line_height": {
-    "value": 22.0,
-    "units": "PIXELS"
-   },
-   "letter_spacing": {
-    "value": 0.0,
-    "units": "PERCENT"
-   },
-   "align": null,
-   "color": "#121212",
-   "opacity": 1,
-   "ocr_confirmed": false
   },
   {
    "text": "2 days before",
@@ -1570,30 +1408,6 @@
    "ocr_confirmed": true
   },
   {
-   "text": "Label radio",
-   "layer": "Label radio",
-   "path": "Add new event/Purpose of Use/Content/Check list/Container/Radio Button/Label radio",
-   "x": 367.0,
-   "y": 592.0,
-   "w": 79.0,
-   "h": 22.0,
-   "font_family": "Roboto",
-   "font_style": "Regular",
-   "font_size": 16.0,
-   "line_height": {
-    "value": 22.0,
-    "units": "PIXELS"
-   },
-   "letter_spacing": {
-    "value": 0.0,
-    "units": "PERCENT"
-   },
-   "align": null,
-   "color": "#121212",
-   "opacity": 1,
-   "ocr_confirmed": false
-  },
-  {
    "text": "1 week before",
    "layer": "Label",
    "path": "Add new event/Purpose of Use/Content/Check list/Container/Label",
@@ -1618,31 +1432,7 @@
    "ocr_confirmed": true
   },
   {
-   "text": "Label radio",
-   "layer": "Label radio",
-   "path": "Add new event/Purpose of Use/Content/Check list/Container/Radio Button/Label radio",
-   "x": 367.0,
-   "y": 648.0,
-   "w": 79.0,
-   "h": 22.0,
-   "font_family": "Roboto",
-   "font_style": "Regular",
-   "font_size": 16.0,
-   "line_height": {
-    "value": 22.0,
-    "units": "PIXELS"
-   },
-   "letter_spacing": {
-    "value": 0.0,
-    "units": "PERCENT"
-   },
-   "align": null,
-   "color": "#121212",
-   "opacity": 1,
-   "ocr_confirmed": false
-  },
-  {
-   "text": "Button text",
+   "text": "Select",
    "layer": "Button text",
    "path": "Add new event/Purpose of Use/CTA/Save Button/Button/Base button/Primary/Button text",
    "x": 165.0,
@@ -1663,7 +1453,7 @@
    "align": "CENTER",
    "color": "#FFFFFF",
    "opacity": 1,
-   "ocr_confirmed": false
+   "ocr_confirmed": true
   }
  ]
 }

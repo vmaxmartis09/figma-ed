@@ -14,6 +14,7 @@ for l in open(S + '/stories.tsv'):
         try: secs = json.load(open(O + '/sections.json'))
         except Exception: secs = []
         sc = [x for x in sc if not (isinstance(x.get('section'), int) and x['section'] < len(secs) and 'out date' in secs[x['section']]['name'].lower())]
+        sc = [x for x in sc if not x.get('image_missing')]
         r['screens'] = len(sc)
         for i, s in enumerate(sc):
             f = glob.glob(O + '/screens/' + s['folder'] + '/screen@*.png')

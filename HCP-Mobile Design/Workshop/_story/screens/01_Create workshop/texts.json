@@ -105,7 +105,13 @@
    "layer_name": "Header title"
   },
   {
-   "text": "Label",
+   "text": [
+    "Title",
+    "Label",
+    "Max attendees",
+    "Brief description",
+    "Reminder frequency"
+   ],
    "verified_by_ocr": false,
    "ocr_candidate": "X Cancel",
    "style": "Body M/Medium",
@@ -149,7 +155,10 @@
    "text_source": "layer_name"
   },
   {
-   "text": "Enter value",
+   "text": [
+    "Enter title",
+    "Enter max attendees"
+   ],
    "verified_by_ocr": false,
    "ocr_candidate": "Enter title",
    "style": "Body L/Regular",
@@ -178,7 +187,13 @@
    "text_source": "layer_name"
   },
   {
-   "text": "Label",
+   "text": [
+    "Title",
+    "Label",
+    "Max attendees",
+    "Brief description",
+    "Reminder frequency"
+   ],
    "verified_by_ocr": false,
    "ocr_candidate": "X Cancel",
    "style": "Body M/Medium",
@@ -193,7 +208,11 @@
    "layer_name": "Label"
   },
   {
-   "text": "Select value",
+   "text": [
+    "dd/mm/yyyy",
+    "Select time",
+    "Select reminder frequency"
+   ],
    "verified_by_ocr": false,
    "ocr_candidate": "X Cancel",
    "style": "Body L/Regular",
@@ -261,7 +280,7 @@
   {
    "text": [
     "A meeting link will be generated once the workshop is created.",
-    "text value"
+    "Enter brief description"
    ],
    "verified_by_ocr": false,
    "ocr_candidate": "Enter title",
@@ -297,7 +316,7 @@
    "layer_name": "Message"
   },
   {
-   "text": "Button text",
+   "text": "Continue",
    "verified_by_ocr": false,
    "ocr_candidate": "Continue",
    "style": "Body L/Semi",
@@ -416,30 +435,6 @@
    "ocr_confirmed": true
   },
   {
-   "text": "Setting",
-   "layer": "Setting",
-   "path": "Create workshop/Top Navigation/Bottom/Right Action/Setting",
-   "x": 308.0,
-   "y": 79.0,
-   "w": 51.0,
-   "h": 22.0,
-   "font_family": "Roboto",
-   "font_style": "Regular",
-   "font_size": 16.0,
-   "line_height": {
-    "value": 22.0,
-    "units": "PIXELS"
-   },
-   "letter_spacing": {
-    "value": 0.0,
-    "units": "PERCENT"
-   },
-   "align": null,
-   "color": "#FFFFFF",
-   "opacity": 1,
-   "ocr_confirmed": false
-  },
-  {
    "text": "Step 1:",
    "layer": "Step number",
    "path": "Create workshop/Progress bar/Progress bar info/Step number",
@@ -536,7 +531,7 @@
    "ocr_confirmed": true
   },
   {
-   "text": "Label",
+   "text": "Title",
    "layer": "Label",
    "path": "Create workshop/Form/Text Field/Field/Container/Label/Label",
    "x": 16.0,
@@ -557,7 +552,7 @@
    "align": null,
    "color": "#6A6A6A",
    "opacity": 1,
-   "ocr_confirmed": false
+   "ocr_confirmed": true
   },
   {
    "text": "*",
@@ -584,7 +579,7 @@
    "ocr_confirmed": false
   },
   {
-   "text": "Enter value",
+   "text": "Enter title",
    "layer": "text value",
    "path": "Create workshop/Form/Text Field/Field/Container/Input/Input/text value",
    "x": 28.0,
@@ -605,7 +600,7 @@
    "align": null,
    "color": "#A8A8A8",
    "opacity": 1,
-   "ocr_confirmed": false
+   "ocr_confirmed": true
   },
   {
    "text": "This is help text",
@@ -680,7 +675,7 @@
    "ocr_confirmed": false
   },
   {
-   "text": "Select value",
+   "text": "dd/mm/yyyy",
    "layer": "Placeholder",
    "path": "Create workshop/Form/Dropdown field/Base/ Dropdown field (Single)/Container/Input/Placeholder",
    "x": 28.0,
@@ -701,7 +696,7 @@
    "align": null,
    "color": "#A8A8A8",
    "opacity": 1,
-   "ocr_confirmed": false
+   "ocr_confirmed": true
   },
   {
    "text": "This is help text",
@@ -776,7 +771,7 @@
    "ocr_confirmed": false
   },
   {
-   "text": "Select value",
+   "text": "Select time",
    "layer": "Placeholder",
    "path": "Create workshop/Form/Time Container/Dropdown field/Base/ Dropdown field (Single)/Container/Input/Placeholder",
    "x": 28.0,
@@ -797,7 +792,7 @@
    "align": null,
    "color": "#A8A8A8",
    "opacity": 1,
-   "ocr_confirmed": false
+   "ocr_confirmed": true
   },
   {
    "text": "This is help text",
@@ -872,7 +867,7 @@
    "ocr_confirmed": false
   },
   {
-   "text": "Select value",
+   "text": "Select time",
    "layer": "Placeholder",
    "path": "Create workshop/Form/Time Container/Dropdown field/Base/ Dropdown field (Single)/Container/Input/Placeholder",
    "x": 207.5,
@@ -893,7 +888,7 @@
    "align": null,
    "color": "#A8A8A8",
    "opacity": 1,
-   "ocr_confirmed": false
+   "ocr_confirmed": true
   },
   {
    "text": "This is help text",
@@ -1040,7 +1035,7 @@
    "ocr_confirmed": true
   },
   {
-   "text": "Label",
+   "text": "Max attendees",
    "layer": "Label",
    "path": "Create workshop/Form/Text Field/Field/Container/Label/Label",
    "x": 16.0,
@@ -1061,7 +1056,7 @@
    "align": null,
    "color": "#6A6A6A",
    "opacity": 1,
-   "ocr_confirmed": false
+   "ocr_confirmed": true
   },
   {
    "text": "*",
@@ -1088,7 +1083,7 @@
    "ocr_confirmed": false
   },
   {
-   "text": "Enter value",
+   "text": "Enter max attendees",
    "layer": "text value",
    "path": "Create workshop/Form/Text Field/Field/Container/Input/Input/text value",
    "x": 28.0,
@@ -1109,7 +1104,7 @@
    "align": null,
    "color": "#A8A8A8",
    "opacity": 1,
-   "ocr_confirmed": false
+   "ocr_confirmed": true
   },
   {
    "text": "This is help text",
@@ -1136,7 +1131,7 @@
    "ocr_confirmed": false
   },
   {
-   "text": "Label",
+   "text": "Brief description",
    "layer": "Label",
    "path": "Create workshop/Form/Text area/Container/Header/Label/Frame 1000003784/Label",
    "x": 16.0,
@@ -1157,7 +1152,7 @@
    "align": null,
    "color": "#6A6A6A",
    "opacity": 1,
-   "ocr_confirmed": false
+   "ocr_confirmed": true
   },
   {
    "text": "*",
@@ -1256,7 +1251,7 @@
    "ocr_confirmed": true
   },
   {
-   "text": "text value",
+   "text": "Enter brief description",
    "layer": "Text value",
    "path": "Create workshop/Form/Text area/Container/Input/Text value",
    "x": 28.0,
@@ -1277,34 +1272,10 @@
    "align": null,
    "color": "#A8A8A8",
    "opacity": 1,
-   "ocr_confirmed": false
+   "ocr_confirmed": true
   },
   {
-   "text": "This is help text",
-   "layer": "Message",
-   "path": "Create workshop/Form/Text area/Help text/Message",
-   "x": 16.0,
-   "y": 907.0,
-   "w": 240.0,
-   "h": 20.0,
-   "font_family": "Roboto",
-   "font_style": "Regular",
-   "font_size": 14.0,
-   "line_height": {
-    "value": 20.0,
-    "units": "PIXELS"
-   },
-   "letter_spacing": {
-    "value": 0.0,
-    "units": "PERCENT"
-   },
-   "align": null,
-   "color": "#6A6A6A",
-   "opacity": 1,
-   "ocr_confirmed": false
-  },
-  {
-   "text": "Label",
+   "text": "Reminder frequency",
    "layer": "Label",
    "path": "Create workshop/Form/Dropdown field/Base/ Dropdown field (Single)/Container/Label/Label",
    "x": 16.0,
@@ -1325,7 +1296,7 @@
    "align": null,
    "color": "#555555",
    "opacity": 1,
-   "ocr_confirmed": false
+   "ocr_confirmed": true
   },
   {
    "text": "*",
@@ -1352,7 +1323,7 @@
    "ocr_confirmed": false
   },
   {
-   "text": "Select value",
+   "text": "Select reminder frequency",
    "layer": "Placeholder",
    "path": "Create workshop/Form/Dropdown field/Base/ Dropdown field (Single)/Container/Input/Placeholder",
    "x": 28.0,
@@ -1373,34 +1344,10 @@
    "align": null,
    "color": "#A8A8A8",
    "opacity": 1,
-   "ocr_confirmed": false
+   "ocr_confirmed": true
   },
   {
-   "text": "This is help text",
-   "layer": "Message",
-   "path": "Create workshop/Form/Dropdown field/Base/ Dropdown field (Single)/Help text/Message",
-   "x": 16.0,
-   "y": 1000.0,
-   "w": 320.0,
-   "h": 20.0,
-   "font_family": "Inter",
-   "font_style": "Regular",
-   "font_size": 12.0,
-   "line_height": {
-    "value": 18.0,
-    "units": "PIXELS"
-   },
-   "letter_spacing": {
-    "value": 0.0,
-    "units": "PERCENT"
-   },
-   "align": null,
-   "color": "#555555",
-   "opacity": 1,
-   "ocr_confirmed": false
-  },
-  {
-   "text": "Button text",
+   "text": "Continue",
    "layer": "Button text",
    "path": "Create workshop/Form Footer/Action container/Button/Base button/Primary/Button text",
    "x": 155.0,
@@ -1421,7 +1368,7 @@
    "align": "CENTER",
    "color": "#FFFFFF",
    "opacity": 1,
-   "ocr_confirmed": false
+   "ocr_confirmed": true
   }
  ]
 }

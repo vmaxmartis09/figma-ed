@@ -1053,27 +1053,72 @@
              "strokeJoin": "MITER",
              "children": [
               {
-               "name": "Vector",
-               "type": "VECTOR",
-               "x": 8.0,
-               "y": 4.0,
-               "w": 8.0,
-               "h": 16.0,
+               "name": "Union",
+               "type": "BOOLEAN_OPERATION",
+               "x": 0.21,
+               "y": 2.71,
+               "w": 19.583946228027344,
+               "h": 14.1337890625,
                "strokeWeight": 1.5,
                "strokeAlign": "CENTER",
-               "horizontalConstraint": "SCALE",
-               "verticalConstraint": "SCALE",
-               "vec": {
-                "blob": 58,
-                "nw": 9.50023365020752,
-                "nh": 17.50006103515625
-               },
                "strokeCap": "ROUND",
                "strokeJoin": "ROUND",
                "fills": [
                 {
                  "type": "SOLID",
-                 "color": "#307679"
+                 "color": "#1999A4"
+                }
+               ],
+               "children": [
+                {
+                 "name": "Vector (Stroke)",
+                 "type": "VECTOR",
+                 "x": -0.0,
+                 "y": 0.0,
+                 "w": 19.584287643432617,
+                 "h": 14.133332252502441,
+                 "strokeWeight": 1.5,
+                 "strokeAlign": "CENTER",
+                 "horizontalConstraint": "SCALE",
+                 "verticalConstraint": "SCALE",
+                 "vec": {
+                  "blob": 195,
+                  "nw": 23.501144409179688,
+                  "nh": 16.959999084472656
+                 },
+                 "strokeCap": "ROUND",
+                 "strokeJoin": "ROUND",
+                 "fills": [
+                  {
+                   "type": "SOLID",
+                   "color": "#25282B"
+                  }
+                 ]
+                },
+                {
+                 "name": "Vector (Stroke)",
+                 "type": "VECTOR",
+                 "x": 7.29,
+                 "y": 3.73,
+                 "w": 6.041666507720947,
+                 "h": 6.700000762939453,
+                 "strokeWeight": 1.5,
+                 "strokeAlign": "CENTER",
+                 "horizontalConstraint": "SCALE",
+                 "verticalConstraint": "SCALE",
+                 "vec": {
+                  "blob": 196,
+                  "nw": 7.25,
+                  "nh": 8.040000915527344
+                 },
+                 "strokeCap": "ROUND",
+                 "strokeJoin": "ROUND",
+                 "fills": [
+                  {
+                   "type": "SOLID",
+                   "color": "#25282B"
+                  }
+                 ]
                 }
                ]
               }
@@ -1840,7 +1885,7 @@
                         }
                        ],
                        "text": {
-                        "characters": "http://",
+                        "characters": ".com",
                         "fontSize": 14.0,
                         "font": {
                          "family": "Inter",
@@ -2175,7 +2220,7 @@
                       }
                      ],
                      "text": {
-                      "characters": "Label",
+                      "characters": "Password",
                       "fontSize": 14.0,
                       "font": {
                        "family": "Roboto",
@@ -2204,6 +2249,7 @@
                      "y": 0.0,
                      "w": 7.0,
                      "h": 20.0,
+                     "visible": false,
                      "strokeWeight": 1.0,
                      "strokeAlign": "OUTSIDE",
                      "strokeJoin": "MITER",
@@ -2243,6 +2289,7 @@
                      "y": 0.0,
                      "w": 20.0,
                      "h": 20.0,
+                     "visible": false,
                      "strokeWeight": 1.0,
                      "strokeAlign": "INSIDE",
                      "frameMaskDisabled": true,
@@ -2364,7 +2411,7 @@
                       }
                      ],
                      "text": {
-                      "characters": "Select value",
+                      "characters": "Enter password",
                       "fontSize": 16.0,
                       "font": {
                        "family": "Roboto",
@@ -2400,18 +2447,18 @@
                       {
                        "name": "Vector",
                        "type": "VECTOR",
-                       "x": 2.5,
-                       "y": 5.83,
-                       "w": 15.0,
-                       "h": 8.333333015441895,
+                       "x": 0.21,
+                       "y": 2.71,
+                       "w": 19.583219528198242,
+                       "h": 14.583333015441895,
                        "strokeWeight": 1.5,
                        "strokeAlign": "CENTER",
                        "horizontalConstraint": "SCALE",
                        "verticalConstraint": "SCALE",
                        "vec": {
-                        "blob": 114,
-                        "nw": 13.5,
-                        "nh": 7.5
+                        "blob": 197,
+                        "nw": 23.499862670898438,
+                        "nh": 17.5
                        },
                        "strokeCap": "ROUND",
                        "strokeJoin": "ROUND",
@@ -2435,6 +2482,7 @@
                  "y": 78.0,
                  "w": 320.0,
                  "h": 20.0,
+                 "visible": false,
                  "strokeWeight": 1.0,
                  "strokeAlign": "INSIDE",
                  "stackMode": "HORIZONTAL",
@@ -2604,7 +2652,7 @@
                   }
                  ],
                  "text": {
-                  "characters": "Label checkbox",
+                  "characters": "Remember me",
                   "fontSize": 16.0,
                   "font": {
                    "family": "Roboto",
@@ -2770,7 +2818,7 @@
                 }
                ],
                "text": {
-                "characters": "Button text",
+                "characters": "Log in",
                 "fontSize": 16.0,
                 "font": {
                  "family": "Roboto",

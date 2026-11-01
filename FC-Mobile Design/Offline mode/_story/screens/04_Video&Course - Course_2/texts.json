@@ -161,7 +161,7 @@
    "layer_name": "Subtitle"
   },
   {
-   "text": "Button text",
+   "text": "Go to Downloads",
    "verified_by_ocr": false,
    "ocr_candidate": "Tap to retry",
    "style": "Body L/Semi",
@@ -191,7 +191,11 @@
    "layer_name": "Link text"
   },
   {
-   "text": "Item",
+   "text": [
+    "Item",
+    "Peer Support",
+    "More"
+   ],
    "verified_by_ocr": false,
    "ocr_candidate": "Video",
    "style": "Body S/Regular",
@@ -206,7 +210,11 @@
    "layer_name": "Item"
   },
   {
-   "text": "Item",
+   "text": [
+    "Item",
+    "Peer Support",
+    "More"
+   ],
    "verified_by_ocr": false,
    "ocr_candidate": "Video",
    "style": "Body S/Semi",
@@ -475,7 +483,7 @@
    "ocr_confirmed": true
   },
   {
-   "text": "Button text",
+   "text": "Go to Downloads",
    "layer": "Button text",
    "path": "Video&Course - Course/Container/Container/Button/Base button/Primary/Button text",
    "x": 126.5,
@@ -496,7 +504,7 @@
    "align": "CENTER",
    "color": "#FFFFFF",
    "opacity": 1,
-   "ocr_confirmed": false
+   "ocr_confirmed": true
   },
   {
    "text": "Tap to retry",
@@ -531,30 +539,6 @@
    "w": 89.75,
    "h": 18.0,
    "font_family": "Roboto",
-   "font_style": "SemiBold",
-   "font_size": 12.0,
-   "line_height": {
-    "value": 18.0,
-    "units": "PIXELS"
-   },
-   "letter_spacing": {
-    "value": 0.0,
-    "units": "PERCENT"
-   },
-   "align": "CENTER",
-   "color": "#1999A4",
-   "opacity": 1,
-   "ocr_confirmed": false
-  },
-  {
-   "text": "Item",
-   "layer": "Item",
-   "path": "Video&Course - Course/Bottom navigation/Normal Nav Bar/Nav Item/Item",
-   "x": 97.75,
-   "y": 727.0,
-   "w": 89.75,
-   "h": 18.0,
-   "font_family": "Roboto",
    "font_style": "Regular",
    "font_size": 12.0,
    "line_height": {
@@ -572,6 +556,30 @@
   },
   {
    "text": "Item",
+   "layer": "Item",
+   "path": "Video&Course - Course/Bottom navigation/Normal Nav Bar/Nav Item/Item",
+   "x": 97.75,
+   "y": 727.0,
+   "w": 89.75,
+   "h": 18.0,
+   "font_family": "Roboto",
+   "font_style": "SemiBold",
+   "font_size": 12.0,
+   "line_height": {
+    "value": 18.0,
+    "units": "PIXELS"
+   },
+   "letter_spacing": {
+    "value": 0.0,
+    "units": "PERCENT"
+   },
+   "align": "CENTER",
+   "color": "#1999A4",
+   "opacity": 1,
+   "ocr_confirmed": false
+  },
+  {
+   "text": "Peer Support",
    "layer": "Item",
    "path": "Video&Course - Course/Bottom navigation/Normal Nav Bar/Nav Item/Item",
    "x": 187.5,
@@ -592,10 +600,10 @@
    "align": "CENTER",
    "color": "#A8A8A8",
    "opacity": 1,
-   "ocr_confirmed": false
+   "ocr_confirmed": true
   },
   {
-   "text": "Item",
+   "text": "More",
    "layer": "Item",
    "path": "Video&Course - Course/Bottom navigation/Normal Nav Bar/Nav Item/Item",
    "x": 277.25,
@@ -616,7 +624,7 @@
    "align": "CENTER",
    "color": "#A8A8A8",
    "opacity": 1,
-   "ocr_confirmed": false
+   "ocr_confirmed": true
   },
   {
    "text": "No connection",

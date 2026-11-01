@@ -118,7 +118,11 @@
    "layer_name": "Label"
   },
   {
-   "text": "Button text",
+   "text": [
+    "Create",
+    "Button text",
+    "Save change"
+   ],
    "verified_by_ocr": false,
    "ocr_candidate": "Enter note",
    "style": "Body L/Semi",
@@ -133,7 +137,11 @@
    "layer_name": "Button text"
   },
   {
-   "text": "Button text",
+   "text": [
+    "Create",
+    "Button text",
+    "Save change"
+   ],
    "verified_by_ocr": false,
    "ocr_candidate": "Enter note",
    "style": "Body L/Semi",
@@ -150,7 +158,8 @@
   {
    "text": [
     "Label",
-    "Category"
+    "Category",
+    "Note"
    ],
    "verified_by_ocr": false,
    "ocr_candidate": "Cancel",
@@ -195,7 +204,11 @@
    "text_source": "layer_name"
   },
   {
-   "text": "Enter value",
+   "text": [
+    "Dad’s birthday dinner",
+    "Golden Lotus Restaurant",
+    "Enter note"
+   ],
    "verified_by_ocr": false,
    "ocr_candidate": "Enter note",
    "style": "Body L/Regular",
@@ -226,7 +239,8 @@
   {
    "text": [
     "Label",
-    "Category"
+    "Category",
+    "Note"
    ],
    "verified_by_ocr": false,
    "ocr_candidate": "Cancel",
@@ -242,7 +256,12 @@
    "layer_name": "Label"
   },
   {
-   "text": "Text value",
+   "text": [
+    "09-16-2026",
+    "19:00",
+    "21:00",
+    "1 day before"
+   ],
    "verified_by_ocr": false,
    "ocr_candidate": "Enter note",
    "style": "Body L/Regular",
@@ -253,7 +272,8 @@
    "letter_spacing": null,
    "color": "#121212",
    "text_align": null,
-   "text_source": "layer_name"
+   "text_source": "figma_clipboard",
+   "layer_name": "Text value"
   },
   {
    "text": [
@@ -291,7 +311,11 @@
    "layer_name": "Message"
   },
   {
-   "text": "Enter value",
+   "text": [
+    "Dad’s birthday dinner",
+    "Golden Lotus Restaurant",
+    "Enter note"
+   ],
    "verified_by_ocr": false,
    "ocr_candidate": "Enter note",
    "style": "Body L/Regular",
@@ -530,31 +554,7 @@
    "ocr_confirmed": true
   },
   {
-   "text": "Description",
-   "layer": "Description",
-   "path": "Edit event/Top Navigation/Title/Text/Description",
-   "x": 16.0,
-   "y": 163.0,
-   "w": 343.0,
-   "h": 22.0,
-   "font_family": "Roboto",
-   "font_style": "Regular",
-   "font_size": 16.0,
-   "line_height": {
-    "value": 22.0,
-    "units": "PIXELS"
-   },
-   "letter_spacing": {
-    "value": 0.0,
-    "units": "PERCENT"
-   },
-   "align": null,
-   "color": "#555555",
-   "opacity": 1,
-   "ocr_confirmed": false
-  },
-  {
-   "text": "Button text",
+   "text": "Create",
    "layer": "Button text",
    "path": "Edit event/Form/Checkbox container/Account prompt container/Button/Base button/Primary/Button text",
    "x": 163.5,
@@ -575,7 +575,7 @@
    "align": "CENTER",
    "color": "#FFFFFF",
    "opacity": 1,
-   "ocr_confirmed": false
+   "ocr_confirmed": true
   },
   {
    "text": "Button text",
@@ -607,7 +607,7 @@
    "path": "Edit event/Form/Frame 1000004938/Text Field/Field/Container/Label/Label",
    "x": 16.0,
    "y": 183.0,
-   "w": 35.0,
+   "w": 28.0,
    "h": 20.0,
    "font_family": "Roboto",
    "font_style": "Medium",
@@ -629,7 +629,7 @@
    "text": "*",
    "layer": "*",
    "path": "Edit event/Form/Frame 1000004938/Text Field/Field/Container/Label/*",
-   "x": 55.0,
+   "x": 48.0,
    "y": 183.0,
    "w": 7.0,
    "h": 20.0,
@@ -650,12 +650,12 @@
    "ocr_confirmed": false
   },
   {
-   "text": "Enter value",
+   "text": "Dad’s birthday dinner",
    "layer": "text value",
    "path": "Edit event/Form/Frame 1000004938/Text Field/Field/Container/Input/Input/text value",
    "x": 28.0,
    "y": 222.0,
-   "w": 216.0,
+   "w": 319.0,
    "h": 22.0,
    "font_family": "Roboto",
    "font_style": "Regular",
@@ -669,7 +669,7 @@
     "units": "PERCENT"
    },
    "align": null,
-   "color": "#A8A8A8",
+   "color": "#121212",
    "opacity": 1,
    "ocr_confirmed": false
   },
@@ -678,7 +678,7 @@
    "layer": "Message",
    "path": "Edit event/Form/Frame 1000004938/Text Field/Field/Help text/Message",
    "x": 16.0,
-   "y": 261.0,
+   "y": 251.0,
    "w": 240.0,
    "h": 20.0,
    "font_family": "Roboto",
@@ -703,7 +703,7 @@
    "path": "Edit event/Form/Frame 1000004938/Frame 1000004928/Dropdown field/Base/ Dropdown field (Single)/Container/Label/Label",
    "x": 16.0,
    "y": 277.0,
-   "w": 35.0,
+   "w": 62.0,
    "h": 20.0,
    "font_family": "Roboto",
    "font_style": "Medium",
@@ -725,7 +725,7 @@
    "text": "*",
    "layer": "*",
    "path": "Edit event/Form/Frame 1000004938/Frame 1000004928/Dropdown field/Base/ Dropdown field (Single)/Container/Label/*",
-   "x": 55.0,
+   "x": 82.0,
    "y": 277.0,
    "w": 7.0,
    "h": 20.0,
@@ -746,12 +746,12 @@
    "ocr_confirmed": false
   },
   {
-   "text": "Select value",
-   "layer": "Placeholder",
-   "path": "Edit event/Form/Frame 1000004938/Frame 1000004928/Dropdown field/Base/ Dropdown field (Single)/Container/Input/Placeholder",
+   "text": "09-16-2026",
+   "layer": "Text value",
+   "path": "Edit event/Form/Frame 1000004938/Frame 1000004928/Dropdown field/Base/ Dropdown field (Single)/Container/Input/Text value",
    "x": 28.0,
    "y": 316.0,
-   "w": 270.0,
+   "w": 150.0,
    "h": 22.0,
    "font_family": "Roboto",
    "font_style": "Regular",
@@ -765,7 +765,7 @@
     "units": "PERCENT"
    },
    "align": null,
-   "color": "#A8A8A8",
+   "color": "#121212",
    "opacity": 1,
    "ocr_confirmed": false
   },
@@ -774,9 +774,9 @@
    "layer": "Message",
    "path": "Edit event/Form/Frame 1000004938/Frame 1000004928/Dropdown field/Base/ Dropdown field (Single)/Help text/Message",
    "x": 16.0,
-   "y": 355.0,
+   "y": 345.0,
    "w": 320.0,
-   "h": 20.0,
+   "h": 18.0,
    "font_family": "Inter",
    "font_style": "Regular",
    "font_size": 12.0,
@@ -794,60 +794,12 @@
    "ocr_confirmed": false
   },
   {
-   "text": "Label",
-   "layer": "Label",
-   "path": "Edit event/Form/Frame 1000004938/Frame 1000004928/Dropdown field/Base/ Dropdown field (Single)/Container/Label/Label",
-   "x": 224.0,
-   "y": 303.0,
-   "w": 35.0,
-   "h": 20.0,
-   "font_family": "Roboto",
-   "font_style": "Medium",
-   "font_size": 14.0,
-   "line_height": {
-    "value": 20.0,
-    "units": "PIXELS"
-   },
-   "letter_spacing": {
-    "value": 0.0,
-    "units": "PERCENT"
-   },
-   "align": null,
-   "color": "#555555",
-   "opacity": 1,
-   "ocr_confirmed": false
-  },
-  {
-   "text": "*",
-   "layer": "*",
-   "path": "Edit event/Form/Frame 1000004938/Frame 1000004928/Dropdown field/Base/ Dropdown field (Single)/Container/Label/*",
-   "x": 263.0,
-   "y": 303.0,
-   "w": 7.0,
-   "h": 20.0,
-   "font_family": "Inter",
-   "font_style": "Regular",
-   "font_size": 14.0,
-   "line_height": {
-    "value": 20.0,
-    "units": "PIXELS"
-   },
-   "letter_spacing": {
-    "value": 0.0,
-    "units": "PERCENT"
-   },
-   "align": null,
-   "color": "#E81818",
-   "opacity": 1,
-   "ocr_confirmed": false
-  },
-  {
-   "text": "Select value",
-   "layer": "Placeholder",
-   "path": "Edit event/Form/Frame 1000004938/Frame 1000004928/Dropdown field/Base/ Dropdown field (Single)/Container/Input/Placeholder",
+   "text": "19:00",
+   "layer": "Text value",
+   "path": "Edit event/Form/Frame 1000004938/Frame 1000004928/Dropdown field/Base/ Dropdown field (Single)/Container/Input/Text value",
    "x": 236.0,
-   "y": 342.0,
-   "w": 270.0,
+   "y": 316.0,
+   "w": 85.0,
    "h": 22.0,
    "font_family": "Roboto",
    "font_style": "Regular",
@@ -861,7 +813,7 @@
     "units": "PERCENT"
    },
    "align": null,
-   "color": "#A8A8A8",
+   "color": "#121212",
    "opacity": 1,
    "ocr_confirmed": false
   },
@@ -870,9 +822,9 @@
    "layer": "Message",
    "path": "Edit event/Form/Frame 1000004938/Frame 1000004928/Dropdown field/Base/ Dropdown field (Single)/Help text/Message",
    "x": 224.0,
-   "y": 381.0,
+   "y": 371.0,
    "w": 320.0,
-   "h": 20.0,
+   "h": 18.0,
    "font_family": "Inter",
    "font_style": "Regular",
    "font_size": 12.0,
@@ -895,7 +847,7 @@
    "path": "Edit event/Form/Frame 1000004938/Frame 1000004929/Dropdown field/Base/ Dropdown field (Single)/Container/Label/Label",
    "x": 16.0,
    "y": 371.0,
-   "w": 35.0,
+   "w": 55.0,
    "h": 20.0,
    "font_family": "Roboto",
    "font_style": "Medium",
@@ -917,7 +869,7 @@
    "text": "*",
    "layer": "*",
    "path": "Edit event/Form/Frame 1000004938/Frame 1000004929/Dropdown field/Base/ Dropdown field (Single)/Container/Label/*",
-   "x": 55.0,
+   "x": 75.0,
    "y": 371.0,
    "w": 7.0,
    "h": 20.0,
@@ -938,12 +890,12 @@
    "ocr_confirmed": false
   },
   {
-   "text": "Select value",
-   "layer": "Placeholder",
-   "path": "Edit event/Form/Frame 1000004938/Frame 1000004929/Dropdown field/Base/ Dropdown field (Single)/Container/Input/Placeholder",
+   "text": "09-16-2026",
+   "layer": "Text value",
+   "path": "Edit event/Form/Frame 1000004938/Frame 1000004929/Dropdown field/Base/ Dropdown field (Single)/Container/Input/Text value",
    "x": 28.0,
    "y": 410.0,
-   "w": 270.0,
+   "w": 150.0,
    "h": 22.0,
    "font_family": "Roboto",
    "font_style": "Regular",
@@ -957,7 +909,7 @@
     "units": "PERCENT"
    },
    "align": null,
-   "color": "#A8A8A8",
+   "color": "#121212",
    "opacity": 1,
    "ocr_confirmed": false
   },
@@ -966,9 +918,9 @@
    "layer": "Message",
    "path": "Edit event/Form/Frame 1000004938/Frame 1000004929/Dropdown field/Base/ Dropdown field (Single)/Help text/Message",
    "x": 16.0,
-   "y": 449.0,
+   "y": 439.0,
    "w": 320.0,
-   "h": 20.0,
+   "h": 18.0,
    "font_family": "Inter",
    "font_style": "Regular",
    "font_size": 12.0,
@@ -986,60 +938,12 @@
    "ocr_confirmed": false
   },
   {
-   "text": "Label",
-   "layer": "Label",
-   "path": "Edit event/Form/Frame 1000004938/Frame 1000004929/Dropdown field/Base/ Dropdown field (Single)/Container/Label/Label",
-   "x": 224.0,
-   "y": 397.0,
-   "w": 35.0,
-   "h": 20.0,
-   "font_family": "Roboto",
-   "font_style": "Medium",
-   "font_size": 14.0,
-   "line_height": {
-    "value": 20.0,
-    "units": "PIXELS"
-   },
-   "letter_spacing": {
-    "value": 0.0,
-    "units": "PERCENT"
-   },
-   "align": null,
-   "color": "#555555",
-   "opacity": 1,
-   "ocr_confirmed": false
-  },
-  {
-   "text": "*",
-   "layer": "*",
-   "path": "Edit event/Form/Frame 1000004938/Frame 1000004929/Dropdown field/Base/ Dropdown field (Single)/Container/Label/*",
-   "x": 263.0,
-   "y": 397.0,
-   "w": 7.0,
-   "h": 20.0,
-   "font_family": "Inter",
-   "font_style": "Regular",
-   "font_size": 14.0,
-   "line_height": {
-    "value": 20.0,
-    "units": "PIXELS"
-   },
-   "letter_spacing": {
-    "value": 0.0,
-    "units": "PERCENT"
-   },
-   "align": null,
-   "color": "#E81818",
-   "opacity": 1,
-   "ocr_confirmed": false
-  },
-  {
-   "text": "Select value",
-   "layer": "Placeholder",
-   "path": "Edit event/Form/Frame 1000004938/Frame 1000004929/Dropdown field/Base/ Dropdown field (Single)/Container/Input/Placeholder",
+   "text": "21:00",
+   "layer": "Text value",
+   "path": "Edit event/Form/Frame 1000004938/Frame 1000004929/Dropdown field/Base/ Dropdown field (Single)/Container/Input/Text value",
    "x": 236.0,
-   "y": 436.0,
-   "w": 270.0,
+   "y": 410.0,
+   "w": 85.0,
    "h": 22.0,
    "font_family": "Roboto",
    "font_style": "Regular",
@@ -1053,7 +957,7 @@
     "units": "PERCENT"
    },
    "align": null,
-   "color": "#A8A8A8",
+   "color": "#121212",
    "opacity": 1,
    "ocr_confirmed": false
   },
@@ -1062,9 +966,9 @@
    "layer": "Message",
    "path": "Edit event/Form/Frame 1000004938/Frame 1000004929/Dropdown field/Base/ Dropdown field (Single)/Help text/Message",
    "x": 224.0,
-   "y": 475.0,
+   "y": 465.0,
    "w": 320.0,
-   "h": 20.0,
+   "h": 18.0,
    "font_family": "Inter",
    "font_style": "Regular",
    "font_size": 12.0,
@@ -1135,7 +1039,7 @@
    "path": "Edit event/Form/Frame 1000004938/Text Field/Field/Container/Label/Label",
    "x": 16.0,
    "y": 559.0,
-   "w": 35.0,
+   "w": 55.0,
    "h": 20.0,
    "font_family": "Roboto",
    "font_style": "Medium",
@@ -1178,12 +1082,12 @@
    "ocr_confirmed": false
   },
   {
-   "text": "Enter value",
+   "text": "Golden Lotus Restaurant",
    "layer": "text value",
    "path": "Edit event/Form/Frame 1000004938/Text Field/Field/Container/Input/Input/text value",
    "x": 28.0,
    "y": 598.0,
-   "w": 216.0,
+   "w": 319.0,
    "h": 22.0,
    "font_family": "Roboto",
    "font_style": "Regular",
@@ -1197,7 +1101,7 @@
     "units": "PERCENT"
    },
    "align": null,
-   "color": "#A8A8A8",
+   "color": "#121212",
    "opacity": 1,
    "ocr_confirmed": false
   },
@@ -1206,7 +1110,7 @@
    "layer": "Message",
    "path": "Edit event/Form/Frame 1000004938/Text Field/Field/Help text/Message",
    "x": 16.0,
-   "y": 637.0,
+   "y": 627.0,
    "w": 240.0,
    "h": 20.0,
    "font_family": "Roboto",
@@ -1226,7 +1130,7 @@
    "ocr_confirmed": false
   },
   {
-   "text": "Label",
+   "text": "Note",
    "layer": "Label",
    "path": "Edit event/Form/Frame 1000004938/Text Field/Field/Container/Label/Label",
    "x": 16.0,
@@ -1247,34 +1151,10 @@
    "align": null,
    "color": "#6A6A6A",
    "opacity": 1,
-   "ocr_confirmed": false
+   "ocr_confirmed": true
   },
   {
-   "text": "*",
-   "layer": "*",
-   "path": "Edit event/Form/Frame 1000004938/Text Field/Field/Container/Label/*",
-   "x": 55.0,
-   "y": 653.0,
-   "w": 7.0,
-   "h": 20.0,
-   "font_family": "Inter",
-   "font_style": "Regular",
-   "font_size": 14.0,
-   "line_height": {
-    "value": 20.0,
-    "units": "PIXELS"
-   },
-   "letter_spacing": {
-    "value": 0.0,
-    "units": "PERCENT"
-   },
-   "align": null,
-   "color": "#E81818",
-   "opacity": 1,
-   "ocr_confirmed": false
-  },
-  {
-   "text": "Enter value",
+   "text": "Enter note",
    "layer": "text value",
    "path": "Edit event/Form/Frame 1000004938/Text Field/Field/Container/Input/Input/text value",
    "x": 28.0,
@@ -1295,7 +1175,7 @@
    "align": null,
    "color": "#A8A8A8",
    "opacity": 1,
-   "ocr_confirmed": false
+   "ocr_confirmed": true
   },
   {
    "text": "This is help text",
@@ -1418,60 +1298,12 @@
    "ocr_confirmed": false
   },
   {
-   "text": "Label radio",
-   "layer": "Label radio",
-   "path": "Edit event/Form/Frame 1000004936/Frame 1000004931/Frame 1000004934/Check list/Container/Radio Button/Label radio",
-   "x": 351.0,
-   "y": 868.0,
-   "w": 79.0,
-   "h": 22.0,
-   "font_family": "Roboto",
-   "font_style": "Regular",
-   "font_size": 16.0,
-   "line_height": {
-    "value": 22.0,
-    "units": "PIXELS"
-   },
-   "letter_spacing": {
-    "value": 0.0,
-    "units": "PERCENT"
-   },
-   "align": null,
-   "color": "#121212",
-   "opacity": 1,
-   "ocr_confirmed": false
-  },
-  {
    "text": "Monthly",
    "layer": "Label",
    "path": "Edit event/Form/Frame 1000004936/Frame 1000004931/Frame 1000004934/Check list/Container/Label",
    "x": 32.0,
    "y": 924.0,
    "w": 58.0,
-   "h": 22.0,
-   "font_family": "Roboto",
-   "font_style": "Regular",
-   "font_size": 16.0,
-   "line_height": {
-    "value": 22.0,
-    "units": "PIXELS"
-   },
-   "letter_spacing": {
-    "value": 0.0,
-    "units": "PERCENT"
-   },
-   "align": null,
-   "color": "#121212",
-   "opacity": 1,
-   "ocr_confirmed": false
-  },
-  {
-   "text": "Label radio",
-   "layer": "Label radio",
-   "path": "Edit event/Form/Frame 1000004936/Frame 1000004931/Frame 1000004934/Check list/Container/Radio Button/Label radio",
-   "x": 351.0,
-   "y": 924.0,
-   "w": 79.0,
    "h": 22.0,
    "font_family": "Roboto",
    "font_style": "Regular",
@@ -1615,7 +1447,7 @@
    "path": "Edit event/Form/Frame 1000004935/Frame 1000004932/Frame 1000004934/Frame 1000004932/Dropdown field/Base/ Dropdown field (Single)/Container/Label/Label",
    "x": 32.0,
    "y": 1191.0,
-   "w": 35.0,
+   "w": 66.0,
    "h": 20.0,
    "font_family": "Roboto",
    "font_style": "Medium",
@@ -1637,7 +1469,7 @@
    "text": "*",
    "layer": "*",
    "path": "Edit event/Form/Frame 1000004935/Frame 1000004932/Frame 1000004934/Frame 1000004932/Dropdown field/Base/ Dropdown field (Single)/Container/Label/*",
-   "x": 71.0,
+   "x": 102.0,
    "y": 1191.0,
    "w": 7.0,
    "h": 20.0,
@@ -1658,12 +1490,12 @@
    "ocr_confirmed": false
   },
   {
-   "text": "Select value",
-   "layer": "Placeholder",
-   "path": "Edit event/Form/Frame 1000004935/Frame 1000004932/Frame 1000004934/Frame 1000004932/Dropdown field/Base/ Dropdown field (Single)/Container/Input/Placeholder",
+   "text": "1 day before",
+   "layer": "Text value",
+   "path": "Edit event/Form/Frame 1000004935/Frame 1000004932/Frame 1000004934/Frame 1000004932/Dropdown field/Base/ Dropdown field (Single)/Container/Input/Text value",
    "x": 44.0,
    "y": 1230.0,
-   "w": 270.0,
+   "w": 261.0,
    "h": 22.0,
    "font_family": "Roboto",
    "font_style": "Regular",
@@ -1677,7 +1509,7 @@
     "units": "PERCENT"
    },
    "align": null,
-   "color": "#A8A8A8",
+   "color": "#121212",
    "opacity": 1,
    "ocr_confirmed": false
   },
@@ -1686,9 +1518,9 @@
    "layer": "Message",
    "path": "Edit event/Form/Frame 1000004935/Frame 1000004932/Frame 1000004934/Frame 1000004932/Dropdown field/Base/ Dropdown field (Single)/Help text/Message",
    "x": 32.0,
-   "y": 1269.0,
+   "y": 1259.0,
    "w": 320.0,
-   "h": 20.0,
+   "h": 18.0,
    "font_family": "Inter",
    "font_style": "Regular",
    "font_size": 12.0,
@@ -1778,30 +1610,6 @@
    "ocr_confirmed": true
   },
   {
-   "text": "Label radio",
-   "layer": "Label radio",
-   "path": "Edit event/Dialog/Body/Radio buton bar/Radio Button/Label radio",
-   "x": 319.0,
-   "y": 392.0,
-   "w": 79.0,
-   "h": 22.0,
-   "font_family": "Roboto",
-   "font_style": "Regular",
-   "font_size": 16.0,
-   "line_height": {
-    "value": 22.0,
-    "units": "PIXELS"
-   },
-   "letter_spacing": {
-    "value": 0.0,
-    "units": "PERCENT"
-   },
-   "align": null,
-   "color": "#121212",
-   "opacity": 1,
-   "ocr_confirmed": false
-  },
-  {
    "text": "Apply to all events",
    "layer": "No time",
    "path": "Edit event/Dialog/Body/Radio buton bar/No time",
@@ -1826,31 +1634,7 @@
    "ocr_confirmed": true
   },
   {
-   "text": "Label radio",
-   "layer": "Label radio",
-   "path": "Edit event/Dialog/Body/Radio buton bar/Radio Button/Label radio",
-   "x": 319.0,
-   "y": 458.0,
-   "w": 79.0,
-   "h": 22.0,
-   "font_family": "Roboto",
-   "font_style": "Regular",
-   "font_size": 16.0,
-   "line_height": {
-    "value": 22.0,
-    "units": "PIXELS"
-   },
-   "letter_spacing": {
-    "value": 0.0,
-    "units": "PERCENT"
-   },
-   "align": null,
-   "color": "#121212",
-   "opacity": 1,
-   "ocr_confirmed": false
-  },
-  {
-   "text": "Button text",
+   "text": "Save change",
    "layer": "Button text",
    "path": "Edit event/Dialog/Footer/Frame 33832/Button/Base button/Primary/Button text",
    "x": 141.5,
@@ -1871,7 +1655,7 @@
    "align": "CENTER",
    "color": "#FFFFFF",
    "opacity": 1,
-   "ocr_confirmed": false
+   "ocr_confirmed": true
   },
   {
    "text": "Cancel",

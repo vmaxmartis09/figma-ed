@@ -105,7 +105,10 @@
    "layer_name": "Label"
   },
   {
-   "text": "Button text",
+   "text": [
+    "Create",
+    "Button text"
+   ],
    "verified_by_ocr": false,
    "ocr_candidate": "Note",
    "style": "Body L/Semi",
@@ -120,7 +123,10 @@
    "layer_name": "Button text"
   },
   {
-   "text": "Button text",
+   "text": [
+    "Create",
+    "Button text"
+   ],
    "verified_by_ocr": false,
    "ocr_candidate": "Note",
    "style": "Body L/Semi",
@@ -137,7 +143,10 @@
   {
    "text": [
     "Label",
-    "Category"
+    "Category",
+    "Note",
+    "Repeat frequency",
+    "Reminder frequency"
    ],
    "verified_by_ocr": false,
    "ocr_candidate": "Cancel",
@@ -182,7 +191,11 @@
    "text_source": "layer_name"
   },
   {
-   "text": "Enter value",
+   "text": [
+    "Friend's meeting",
+    "Golden Lotus Restaurant",
+    "Enter note"
+   ],
    "verified_by_ocr": false,
    "ocr_candidate": "Enter note",
    "style": "Body L/Regular",
@@ -213,7 +226,10 @@
   {
    "text": [
     "Label",
-    "Category"
+    "Category",
+    "Note",
+    "Repeat frequency",
+    "Reminder frequency"
    ],
    "verified_by_ocr": false,
    "ocr_candidate": "Cancel",
@@ -229,7 +245,14 @@
    "layer_name": "Label"
   },
   {
-   "text": "Text value",
+   "text": [
+    "18/06/2026",
+    "7:00 PM",
+    "9:00 PM",
+    "Daily",
+    "19-06-2026",
+    "5 mins before"
+   ],
    "verified_by_ocr": false,
    "ocr_candidate": "Enter note",
    "style": "Body L/Regular",
@@ -240,7 +263,8 @@
    "letter_spacing": null,
    "color": "#121212",
    "text_align": null,
-   "text_source": "layer_name"
+   "text_source": "figma_clipboard",
+   "layer_name": "Text value"
   },
   {
    "text": "Work",
@@ -273,7 +297,11 @@
    "layer_name": "Message"
   },
   {
-   "text": "Enter value",
+   "text": [
+    "Friend's meeting",
+    "Golden Lotus Restaurant",
+    "Enter note"
+   ],
    "verified_by_ocr": false,
    "ocr_candidate": "Enter note",
    "style": "Body L/Regular",
@@ -302,7 +330,12 @@
    "layer_name": "Repeat"
   },
   {
-   "text": "Text",
+   "text": [
+    "No end date",
+    "End date",
+    "Notification",
+    "Email"
+   ],
    "verified_by_ocr": false,
    "ocr_candidate": "Note",
    "style": "Body M/Regular",
@@ -317,7 +350,12 @@
    "layer_name": "Text"
   },
   {
-   "text": "Text",
+   "text": [
+    "No end date",
+    "End date",
+    "Notification",
+    "Email"
+   ],
    "verified_by_ocr": false,
    "ocr_candidate": "Note",
    "style": "Body M/Medium",
@@ -456,31 +494,7 @@
    "ocr_confirmed": true
   },
   {
-   "text": "Description",
-   "layer": "Description",
-   "path": "Add new event/Top Navigation/Title/Text/Description",
-   "x": 16.0,
-   "y": 163.0,
-   "w": 343.0,
-   "h": 22.0,
-   "font_family": "Roboto",
-   "font_style": "Regular",
-   "font_size": 16.0,
-   "line_height": {
-    "value": 22.0,
-    "units": "PIXELS"
-   },
-   "letter_spacing": {
-    "value": 0.0,
-    "units": "PERCENT"
-   },
-   "align": null,
-   "color": "#555555",
-   "opacity": 1,
-   "ocr_confirmed": false
-  },
-  {
-   "text": "Button text",
+   "text": "Create",
    "layer": "Button text",
    "path": "Add new event/Form/Checkbox container/Account prompt container/Button/Base button/Primary/Button text",
    "x": 163.5,
@@ -501,7 +515,7 @@
    "align": "CENTER",
    "color": "#FFFFFF",
    "opacity": 1,
-   "ocr_confirmed": false
+   "ocr_confirmed": true
   },
   {
    "text": "Button text",
@@ -533,7 +547,7 @@
    "path": "Add new event/Form/Frame 1000004938/Text Field/Field/Container/Label/Label",
    "x": 16.0,
    "y": 183.0,
-   "w": 35.0,
+   "w": 28.0,
    "h": 20.0,
    "font_family": "Roboto",
    "font_style": "Medium",
@@ -555,7 +569,7 @@
    "text": "*",
    "layer": "*",
    "path": "Add new event/Form/Frame 1000004938/Text Field/Field/Container/Label/*",
-   "x": 55.0,
+   "x": 48.0,
    "y": 183.0,
    "w": 7.0,
    "h": 20.0,
@@ -576,12 +590,12 @@
    "ocr_confirmed": false
   },
   {
-   "text": "Enter value",
+   "text": "Friend's meeting",
    "layer": "text value",
    "path": "Add new event/Form/Frame 1000004938/Text Field/Field/Container/Input/Input/text value",
    "x": 28.0,
    "y": 222.0,
-   "w": 216.0,
+   "w": 319.0,
    "h": 22.0,
    "font_family": "Roboto",
    "font_style": "Regular",
@@ -595,16 +609,16 @@
     "units": "PERCENT"
    },
    "align": null,
-   "color": "#A8A8A8",
+   "color": "#121212",
    "opacity": 1,
-   "ocr_confirmed": false
+   "ocr_confirmed": true
   },
   {
    "text": "This is help text",
    "layer": "Message",
    "path": "Add new event/Form/Frame 1000004938/Text Field/Field/Help text/Message",
    "x": 16.0,
-   "y": 261.0,
+   "y": 251.0,
    "w": 240.0,
    "h": 20.0,
    "font_family": "Roboto",
@@ -629,7 +643,7 @@
    "path": "Add new event/Form/Frame 1000004938/Frame 1000004926/Dropdown field/Base/ Dropdown field (Single)/Container/Label/Label",
    "x": 16.0,
    "y": 277.0,
-   "w": 35.0,
+   "w": 62.0,
    "h": 20.0,
    "font_family": "Roboto",
    "font_style": "Medium",
@@ -651,7 +665,7 @@
    "text": "*",
    "layer": "*",
    "path": "Add new event/Form/Frame 1000004938/Frame 1000004926/Dropdown field/Base/ Dropdown field (Single)/Container/Label/*",
-   "x": 55.0,
+   "x": 82.0,
    "y": 277.0,
    "w": 7.0,
    "h": 20.0,
@@ -672,12 +686,12 @@
    "ocr_confirmed": false
   },
   {
-   "text": "Select value",
-   "layer": "Placeholder",
-   "path": "Add new event/Form/Frame 1000004938/Frame 1000004926/Dropdown field/Base/ Dropdown field (Single)/Container/Input/Placeholder",
+   "text": "18/06/2026",
+   "layer": "Text value",
+   "path": "Add new event/Form/Frame 1000004938/Frame 1000004926/Dropdown field/Base/ Dropdown field (Single)/Container/Input/Text value",
    "x": 28.0,
    "y": 316.0,
-   "w": 270.0,
+   "w": 150.0,
    "h": 22.0,
    "font_family": "Roboto",
    "font_style": "Regular",
@@ -691,16 +705,16 @@
     "units": "PERCENT"
    },
    "align": null,
-   "color": "#A8A8A8",
+   "color": "#121212",
    "opacity": 1,
-   "ocr_confirmed": false
+   "ocr_confirmed": true
   },
   {
    "text": "This is help text",
    "layer": "Message",
    "path": "Add new event/Form/Frame 1000004938/Frame 1000004926/Dropdown field/Base/ Dropdown field (Single)/Help text/Message",
    "x": 16.0,
-   "y": 355.0,
+   "y": 345.0,
    "w": 320.0,
    "h": 20.0,
    "font_family": "Inter",
@@ -720,60 +734,12 @@
    "ocr_confirmed": false
   },
   {
-   "text": "Label",
-   "layer": "Label",
-   "path": "Add new event/Form/Frame 1000004938/Frame 1000004926/Dropdown field/Base/ Dropdown field (Single)/Container/Label/Label",
-   "x": 224.0,
-   "y": 303.0,
-   "w": 35.0,
-   "h": 20.0,
-   "font_family": "Roboto",
-   "font_style": "Medium",
-   "font_size": 14.0,
-   "line_height": {
-    "value": 20.0,
-    "units": "PIXELS"
-   },
-   "letter_spacing": {
-    "value": 0.0,
-    "units": "PERCENT"
-   },
-   "align": null,
-   "color": "#555555",
-   "opacity": 1,
-   "ocr_confirmed": false
-  },
-  {
-   "text": "*",
-   "layer": "*",
-   "path": "Add new event/Form/Frame 1000004938/Frame 1000004926/Dropdown field/Base/ Dropdown field (Single)/Container/Label/*",
-   "x": 263.0,
-   "y": 303.0,
-   "w": 7.0,
-   "h": 20.0,
-   "font_family": "Inter",
-   "font_style": "Regular",
-   "font_size": 14.0,
-   "line_height": {
-    "value": 20.0,
-    "units": "PIXELS"
-   },
-   "letter_spacing": {
-    "value": 0.0,
-    "units": "PERCENT"
-   },
-   "align": null,
-   "color": "#E81818",
-   "opacity": 1,
-   "ocr_confirmed": false
-  },
-  {
-   "text": "Select value",
-   "layer": "Placeholder",
-   "path": "Add new event/Form/Frame 1000004938/Frame 1000004926/Dropdown field/Base/ Dropdown field (Single)/Container/Input/Placeholder",
+   "text": "7:00 PM",
+   "layer": "Text value",
+   "path": "Add new event/Form/Frame 1000004938/Frame 1000004926/Dropdown field/Base/ Dropdown field (Single)/Container/Input/Text value",
    "x": 236.0,
-   "y": 342.0,
-   "w": 270.0,
+   "y": 316.0,
+   "w": 85.0,
    "h": 22.0,
    "font_family": "Roboto",
    "font_style": "Regular",
@@ -787,16 +753,16 @@
     "units": "PERCENT"
    },
    "align": null,
-   "color": "#A8A8A8",
+   "color": "#121212",
    "opacity": 1,
-   "ocr_confirmed": false
+   "ocr_confirmed": true
   },
   {
    "text": "This is help text",
    "layer": "Message",
    "path": "Add new event/Form/Frame 1000004938/Frame 1000004926/Dropdown field/Base/ Dropdown field (Single)/Help text/Message",
    "x": 224.0,
-   "y": 381.0,
+   "y": 371.0,
    "w": 320.0,
    "h": 20.0,
    "font_family": "Inter",
@@ -821,7 +787,7 @@
    "path": "Add new event/Form/Frame 1000004938/Frame 1000004927/Dropdown field/Base/ Dropdown field (Single)/Container/Label/Label",
    "x": 16.0,
    "y": 371.0,
-   "w": 35.0,
+   "w": 55.0,
    "h": 20.0,
    "font_family": "Roboto",
    "font_style": "Medium",
@@ -843,7 +809,7 @@
    "text": "*",
    "layer": "*",
    "path": "Add new event/Form/Frame 1000004938/Frame 1000004927/Dropdown field/Base/ Dropdown field (Single)/Container/Label/*",
-   "x": 55.0,
+   "x": 75.0,
    "y": 371.0,
    "w": 7.0,
    "h": 20.0,
@@ -864,12 +830,12 @@
    "ocr_confirmed": false
   },
   {
-   "text": "Select value",
-   "layer": "Placeholder",
-   "path": "Add new event/Form/Frame 1000004938/Frame 1000004927/Dropdown field/Base/ Dropdown field (Single)/Container/Input/Placeholder",
+   "text": "18/06/2026",
+   "layer": "Text value",
+   "path": "Add new event/Form/Frame 1000004938/Frame 1000004927/Dropdown field/Base/ Dropdown field (Single)/Container/Input/Text value",
    "x": 28.0,
    "y": 410.0,
-   "w": 270.0,
+   "w": 150.0,
    "h": 22.0,
    "font_family": "Roboto",
    "font_style": "Regular",
@@ -883,16 +849,16 @@
     "units": "PERCENT"
    },
    "align": null,
-   "color": "#A8A8A8",
+   "color": "#121212",
    "opacity": 1,
-   "ocr_confirmed": false
+   "ocr_confirmed": true
   },
   {
    "text": "This is help text",
    "layer": "Message",
    "path": "Add new event/Form/Frame 1000004938/Frame 1000004927/Dropdown field/Base/ Dropdown field (Single)/Help text/Message",
    "x": 16.0,
-   "y": 449.0,
+   "y": 439.0,
    "w": 320.0,
    "h": 20.0,
    "font_family": "Inter",
@@ -912,60 +878,12 @@
    "ocr_confirmed": false
   },
   {
-   "text": "Label",
-   "layer": "Label",
-   "path": "Add new event/Form/Frame 1000004938/Frame 1000004927/Dropdown field/Base/ Dropdown field (Single)/Container/Label/Label",
-   "x": 224.0,
-   "y": 397.0,
-   "w": 35.0,
-   "h": 20.0,
-   "font_family": "Roboto",
-   "font_style": "Medium",
-   "font_size": 14.0,
-   "line_height": {
-    "value": 20.0,
-    "units": "PIXELS"
-   },
-   "letter_spacing": {
-    "value": 0.0,
-    "units": "PERCENT"
-   },
-   "align": null,
-   "color": "#555555",
-   "opacity": 1,
-   "ocr_confirmed": false
-  },
-  {
-   "text": "*",
-   "layer": "*",
-   "path": "Add new event/Form/Frame 1000004938/Frame 1000004927/Dropdown field/Base/ Dropdown field (Single)/Container/Label/*",
-   "x": 263.0,
-   "y": 397.0,
-   "w": 7.0,
-   "h": 20.0,
-   "font_family": "Inter",
-   "font_style": "Regular",
-   "font_size": 14.0,
-   "line_height": {
-    "value": 20.0,
-    "units": "PIXELS"
-   },
-   "letter_spacing": {
-    "value": 0.0,
-    "units": "PERCENT"
-   },
-   "align": null,
-   "color": "#E81818",
-   "opacity": 1,
-   "ocr_confirmed": false
-  },
-  {
-   "text": "Select value",
-   "layer": "Placeholder",
-   "path": "Add new event/Form/Frame 1000004938/Frame 1000004927/Dropdown field/Base/ Dropdown field (Single)/Container/Input/Placeholder",
+   "text": "9:00 PM",
+   "layer": "Text value",
+   "path": "Add new event/Form/Frame 1000004938/Frame 1000004927/Dropdown field/Base/ Dropdown field (Single)/Container/Input/Text value",
    "x": 236.0,
-   "y": 436.0,
-   "w": 270.0,
+   "y": 410.0,
+   "w": 85.0,
    "h": 22.0,
    "font_family": "Roboto",
    "font_style": "Regular",
@@ -979,16 +897,16 @@
     "units": "PERCENT"
    },
    "align": null,
-   "color": "#A8A8A8",
+   "color": "#121212",
    "opacity": 1,
-   "ocr_confirmed": false
+   "ocr_confirmed": true
   },
   {
    "text": "This is help text",
    "layer": "Message",
    "path": "Add new event/Form/Frame 1000004938/Frame 1000004927/Dropdown field/Base/ Dropdown field (Single)/Help text/Message",
    "x": 224.0,
-   "y": 475.0,
+   "y": 465.0,
    "w": 320.0,
    "h": 20.0,
    "font_family": "Inter",
@@ -1061,7 +979,7 @@
    "path": "Add new event/Form/Frame 1000004938/Text Field/Field/Container/Label/Label",
    "x": 16.0,
    "y": 559.0,
-   "w": 35.0,
+   "w": 55.0,
    "h": 20.0,
    "font_family": "Roboto",
    "font_style": "Medium",
@@ -1104,12 +1022,12 @@
    "ocr_confirmed": false
   },
   {
-   "text": "Enter value",
+   "text": "Golden Lotus Restaurant",
    "layer": "text value",
    "path": "Add new event/Form/Frame 1000004938/Text Field/Field/Container/Input/Input/text value",
    "x": 28.0,
    "y": 598.0,
-   "w": 216.0,
+   "w": 319.0,
    "h": 22.0,
    "font_family": "Roboto",
    "font_style": "Regular",
@@ -1123,16 +1041,16 @@
     "units": "PERCENT"
    },
    "align": null,
-   "color": "#A8A8A8",
+   "color": "#121212",
    "opacity": 1,
-   "ocr_confirmed": false
+   "ocr_confirmed": true
   },
   {
    "text": "This is help text",
    "layer": "Message",
    "path": "Add new event/Form/Frame 1000004938/Text Field/Field/Help text/Message",
    "x": 16.0,
-   "y": 637.0,
+   "y": 627.0,
    "w": 240.0,
    "h": 20.0,
    "font_family": "Roboto",
@@ -1152,7 +1070,7 @@
    "ocr_confirmed": false
   },
   {
-   "text": "Label",
+   "text": "Note",
    "layer": "Label",
    "path": "Add new event/Form/Frame 1000004938/Text Field/Field/Container/Label/Label",
    "x": 16.0,
@@ -1173,34 +1091,10 @@
    "align": null,
    "color": "#6A6A6A",
    "opacity": 1,
-   "ocr_confirmed": false
+   "ocr_confirmed": true
   },
   {
-   "text": "*",
-   "layer": "*",
-   "path": "Add new event/Form/Frame 1000004938/Text Field/Field/Container/Label/*",
-   "x": 55.0,
-   "y": 653.0,
-   "w": 7.0,
-   "h": 20.0,
-   "font_family": "Inter",
-   "font_style": "Regular",
-   "font_size": 14.0,
-   "line_height": {
-    "value": 20.0,
-    "units": "PIXELS"
-   },
-   "letter_spacing": {
-    "value": 0.0,
-    "units": "PERCENT"
-   },
-   "align": null,
-   "color": "#E81818",
-   "opacity": 1,
-   "ocr_confirmed": false
-  },
-  {
-   "text": "Enter value",
+   "text": "Enter note",
    "layer": "text value",
    "path": "Add new event/Form/Frame 1000004938/Text Field/Field/Container/Input/Input/text value",
    "x": 28.0,
@@ -1221,7 +1115,7 @@
    "align": null,
    "color": "#A8A8A8",
    "opacity": 1,
-   "ocr_confirmed": false
+   "ocr_confirmed": true
   },
   {
    "text": "This is help text",
@@ -1272,12 +1166,12 @@
    "ocr_confirmed": true
   },
   {
-   "text": "Label",
+   "text": "Repeat frequency",
    "layer": "Label",
    "path": "Add new event/Form/Frame 1000004936/Frame 1000004932/Frame 1000004934/Frame 1000004932/Dropdown field/Base/ Dropdown field (Single)/Container/Label/Label",
    "x": 32.0,
    "y": 811.0,
-   "w": 35.0,
+   "w": 110.0,
    "h": 20.0,
    "font_family": "Roboto",
    "font_style": "Medium",
@@ -1293,13 +1187,13 @@
    "align": null,
    "color": "#555555",
    "opacity": 1,
-   "ocr_confirmed": false
+   "ocr_confirmed": true
   },
   {
    "text": "*",
    "layer": "*",
    "path": "Add new event/Form/Frame 1000004936/Frame 1000004932/Frame 1000004934/Frame 1000004932/Dropdown field/Base/ Dropdown field (Single)/Container/Label/*",
-   "x": 71.0,
+   "x": 146.0,
    "y": 811.0,
    "w": 7.0,
    "h": 20.0,
@@ -1320,12 +1214,12 @@
    "ocr_confirmed": false
   },
   {
-   "text": "Select value",
-   "layer": "Placeholder",
-   "path": "Add new event/Form/Frame 1000004936/Frame 1000004932/Frame 1000004934/Frame 1000004932/Dropdown field/Base/ Dropdown field (Single)/Container/Input/Placeholder",
+   "text": "Daily",
+   "layer": "Text value",
+   "path": "Add new event/Form/Frame 1000004936/Frame 1000004932/Frame 1000004934/Frame 1000004932/Dropdown field/Base/ Dropdown field (Single)/Container/Input/Text value",
    "x": 44.0,
    "y": 850.0,
-   "w": 270.0,
+   "w": 261.0,
    "h": 22.0,
    "font_family": "Roboto",
    "font_style": "Regular",
@@ -1339,16 +1233,16 @@
     "units": "PERCENT"
    },
    "align": null,
-   "color": "#A8A8A8",
+   "color": "#121212",
    "opacity": 1,
-   "ocr_confirmed": false
+   "ocr_confirmed": true
   },
   {
    "text": "This is help text",
    "layer": "Message",
    "path": "Add new event/Form/Frame 1000004936/Frame 1000004932/Frame 1000004934/Frame 1000004932/Dropdown field/Base/ Dropdown field (Single)/Help text/Message",
    "x": 32.0,
-   "y": 889.0,
+   "y": 879.0,
    "w": 320.0,
    "h": 20.0,
    "font_family": "Inter",
@@ -1368,36 +1262,12 @@
    "ocr_confirmed": false
   },
   {
-   "text": "Text",
+   "text": "No end date",
    "layer": "Text",
    "path": "Add new event/Form/Frame 1000004936/Frame 1000004932/Frame 1000004934/Frame 2245/Main Tab/Tab Component/Text",
-   "x": 97.75,
+   "x": 73.75,
    "y": 915.0,
-   "w": 28.0,
-   "h": 20.0,
-   "font_family": "Roboto",
-   "font_style": "Medium",
-   "font_size": 14.0,
-   "line_height": {
-    "value": 20.0,
-    "units": "PIXELS"
-   },
-   "letter_spacing": {
-    "value": 0.0,
-    "units": "PERCENT"
-   },
-   "align": null,
-   "color": "#FFFFFF",
-   "opacity": 1,
-   "ocr_confirmed": false
-  },
-  {
-   "text": "Text",
-   "layer": "Text",
-   "path": "Add new event/Form/Frame 1000004936/Frame 1000004932/Frame 1000004934/Frame 2245/Main Tab/Tab Component/Text",
-   "x": 249.75,
-   "y": 915.0,
-   "w": 27.0,
+   "w": 76.0,
    "h": 20.0,
    "font_family": "Roboto",
    "font_style": "Regular",
@@ -1413,7 +1283,31 @@
    "align": null,
    "color": "#121212",
    "opacity": 1,
-   "ocr_confirmed": false
+   "ocr_confirmed": true
+  },
+  {
+   "text": "End date",
+   "layer": "Text",
+   "path": "Add new event/Form/Frame 1000004936/Frame 1000004932/Frame 1000004934/Frame 2245/Main Tab/Tab Component/Text",
+   "x": 235.75,
+   "y": 915.0,
+   "w": 55.0,
+   "h": 20.0,
+   "font_family": "Roboto",
+   "font_style": "Medium",
+   "font_size": 14.0,
+   "line_height": {
+    "value": 20.0,
+    "units": "PIXELS"
+   },
+   "letter_spacing": {
+    "value": 0.0,
+    "units": "PERCENT"
+   },
+   "align": null,
+   "color": "#FFFFFF",
+   "opacity": 1,
+   "ocr_confirmed": true
   },
   {
    "text": "Label",
@@ -1421,7 +1315,7 @@
    "path": "Add new event/Form/Frame 1000004936/Frame 1000004932/Frame 1000004934/Frame 1000004933/Dropdown field/Base/ Dropdown field (Single)/Container/Label/Label",
    "x": 32.0,
    "y": 965.0,
-   "w": 35.0,
+   "w": 55.0,
    "h": 20.0,
    "font_family": "Roboto",
    "font_style": "Medium",
@@ -1443,7 +1337,7 @@
    "text": "*",
    "layer": "*",
    "path": "Add new event/Form/Frame 1000004936/Frame 1000004932/Frame 1000004934/Frame 1000004933/Dropdown field/Base/ Dropdown field (Single)/Container/Label/*",
-   "x": 71.0,
+   "x": 91.0,
    "y": 965.0,
    "w": 7.0,
    "h": 20.0,
@@ -1464,12 +1358,12 @@
    "ocr_confirmed": false
   },
   {
-   "text": "Select value",
-   "layer": "Placeholder",
-   "path": "Add new event/Form/Frame 1000004936/Frame 1000004932/Frame 1000004934/Frame 1000004933/Dropdown field/Base/ Dropdown field (Single)/Container/Input/Placeholder",
+   "text": "19-06-2026",
+   "layer": "Text value",
+   "path": "Add new event/Form/Frame 1000004936/Frame 1000004932/Frame 1000004934/Frame 1000004933/Dropdown field/Base/ Dropdown field (Single)/Container/Input/Text value",
    "x": 44.0,
    "y": 1004.0,
-   "w": 270.0,
+   "w": 261.0,
    "h": 22.0,
    "font_family": "Roboto",
    "font_style": "Regular",
@@ -1483,16 +1377,16 @@
     "units": "PERCENT"
    },
    "align": null,
-   "color": "#A8A8A8",
+   "color": "#121212",
    "opacity": 1,
-   "ocr_confirmed": false
+   "ocr_confirmed": true
   },
   {
    "text": "This is help text",
    "layer": "Message",
    "path": "Add new event/Form/Frame 1000004936/Frame 1000004932/Frame 1000004934/Frame 1000004933/Dropdown field/Base/ Dropdown field (Single)/Help text/Message",
    "x": 32.0,
-   "y": 1043.0,
+   "y": 1033.0,
    "w": 320.0,
    "h": 20.0,
    "font_family": "Inter",
@@ -1536,36 +1430,12 @@
    "ocr_confirmed": true
   },
   {
-   "text": "Text",
+   "text": "Notification",
    "layer": "Text",
    "path": "Add new event/Form/Frame 1000004935/Frame 1000004932/Frame 1000004934/Frame 2245/Main Tab/Tab Component/Text",
-   "x": 97.75,
+   "x": 75.25,
    "y": 1153.0,
-   "w": 28.0,
-   "h": 20.0,
-   "font_family": "Roboto",
-   "font_style": "Medium",
-   "font_size": 14.0,
-   "line_height": {
-    "value": 20.0,
-    "units": "PIXELS"
-   },
-   "letter_spacing": {
-    "value": 0.0,
-    "units": "PERCENT"
-   },
-   "align": null,
-   "color": "#FFFFFF",
-   "opacity": 1,
-   "ocr_confirmed": false
-  },
-  {
-   "text": "Text",
-   "layer": "Text",
-   "path": "Add new event/Form/Frame 1000004935/Frame 1000004932/Frame 1000004934/Frame 2245/Main Tab/Tab Component/Text",
-   "x": 249.75,
-   "y": 1153.0,
-   "w": 27.0,
+   "w": 73.0,
    "h": 20.0,
    "font_family": "Roboto",
    "font_style": "Regular",
@@ -1581,15 +1451,39 @@
    "align": null,
    "color": "#121212",
    "opacity": 1,
-   "ocr_confirmed": false
+   "ocr_confirmed": true
   },
   {
-   "text": "Label",
+   "text": "Email",
+   "layer": "Text",
+   "path": "Add new event/Form/Frame 1000004935/Frame 1000004932/Frame 1000004934/Frame 2245/Main Tab/Tab Component/Text",
+   "x": 245.75,
+   "y": 1153.0,
+   "w": 35.0,
+   "h": 20.0,
+   "font_family": "Roboto",
+   "font_style": "Medium",
+   "font_size": 14.0,
+   "line_height": {
+    "value": 20.0,
+    "units": "PIXELS"
+   },
+   "letter_spacing": {
+    "value": 0.0,
+    "units": "PERCENT"
+   },
+   "align": null,
+   "color": "#FFFFFF",
+   "opacity": 1,
+   "ocr_confirmed": true
+  },
+  {
+   "text": "Reminder frequency",
    "layer": "Label",
    "path": "Add new event/Form/Frame 1000004935/Frame 1000004932/Frame 1000004934/Frame 1000004932/Dropdown field/Base/ Dropdown field (Single)/Container/Label/Label",
    "x": 32.0,
    "y": 1203.0,
-   "w": 35.0,
+   "w": 127.0,
    "h": 20.0,
    "font_family": "Roboto",
    "font_style": "Medium",
@@ -1605,13 +1499,13 @@
    "align": null,
    "color": "#555555",
    "opacity": 1,
-   "ocr_confirmed": false
+   "ocr_confirmed": true
   },
   {
    "text": "*",
    "layer": "*",
    "path": "Add new event/Form/Frame 1000004935/Frame 1000004932/Frame 1000004934/Frame 1000004932/Dropdown field/Base/ Dropdown field (Single)/Container/Label/*",
-   "x": 71.0,
+   "x": 163.0,
    "y": 1203.0,
    "w": 7.0,
    "h": 20.0,
@@ -1632,12 +1526,12 @@
    "ocr_confirmed": false
   },
   {
-   "text": "Select value",
-   "layer": "Placeholder",
-   "path": "Add new event/Form/Frame 1000004935/Frame 1000004932/Frame 1000004934/Frame 1000004932/Dropdown field/Base/ Dropdown field (Single)/Container/Input/Placeholder",
+   "text": "5 mins before",
+   "layer": "Text value",
+   "path": "Add new event/Form/Frame 1000004935/Frame 1000004932/Frame 1000004934/Frame 1000004932/Dropdown field/Base/ Dropdown field (Single)/Container/Input/Text value",
    "x": 44.0,
    "y": 1242.0,
-   "w": 270.0,
+   "w": 261.0,
    "h": 22.0,
    "font_family": "Roboto",
    "font_style": "Regular",
@@ -1651,16 +1545,16 @@
     "units": "PERCENT"
    },
    "align": null,
-   "color": "#A8A8A8",
+   "color": "#121212",
    "opacity": 1,
-   "ocr_confirmed": false
+   "ocr_confirmed": true
   },
   {
    "text": "This is help text",
    "layer": "Message",
    "path": "Add new event/Form/Frame 1000004935/Frame 1000004932/Frame 1000004934/Frame 1000004932/Dropdown field/Base/ Dropdown field (Single)/Help text/Message",
    "x": 32.0,
-   "y": 1281.0,
+   "y": 1271.0,
    "w": 320.0,
    "h": 20.0,
    "font_family": "Inter",

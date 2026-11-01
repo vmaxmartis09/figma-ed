@@ -27,9 +27,21 @@ def paths(lst, field='guidPath'):
         gp = tuple(GK(x) for x in o.get(field, {}).get('guids', []))
         out.setdefault(gp, {}).update({k: v for k, v in o.items() if k != field})
     return out
-def reduce(n, ov=None, depth=0):
+def applyprops(n, props):
+    for r in n.get('componentPropRefs') or []:
+        v = (props or {}).get(GK(r['defID']))
+        if v is None: continue
+        fld = r.get('componentPropNodeField')
+        if fld == 'VISIBLE' and 'boolValue' in v: n['visible'] = v['boolValue']
+        elif fld == 'TEXT_DATA' and v.get('textValue') is not None:
+            tv = v['textValue']; ch = tv.get('characters') if isinstance(tv, dict) else tv
+            if ch is not None: n['textData'] = dict(n.get('textData') or {}, characters=ch)
+        elif fld == 'OVERRIDDEN_SYMBOL_ID' and v.get('guidValue'): n['overriddenSymbolID'] = v['guidValue']
+def reduce(n, ov=None, depth=0, props=None):
     n = dict(n)
+    applyprops(n, props)
     if ov and ov.get(()): n.update({k: v for k, v in ov[()].items() if k not in ('guid',)})
+    applyprops(n, props)
     t = n['transform']; o = {'name': n['name'], 'type': n['type'], 'x': round(t['m02'], 2), 'y': round(t['m12'], 2), 'w': n['size']['x'], 'h': n['size']['y']}
     if n.get('rotation') or abs(t['m01']) > 1e-6 or abs(t['m10']) > 1e-6: o['transform'] = [t['m00'], t['m01'], t['m10'], t['m11']]
     if not n.get('visible', True): o['visible'] = False
@@ -49,7 +61,7 @@ def reduce(n, ov=None, depth=0):
     if n['type'] == 'TEXT':
         td = n.get('textData', {}); o['text'] = {'characters': td.get('characters'), 'fontSize': n.get('fontSize'), 'font': n.get('fontName'), 'lineHeight': n.get('lineHeight'), 'letterSpacing': n.get('letterSpacing'), 'alignH': n.get('textAlignHorizontal'), 'alignV': n.get('textAlignVertical'), 'case': n.get('textCase'), 'decoration': n.get('textDecoration'), 'autoResize': n.get('textAutoResize')}
     if n['type'] == 'INSTANCE' and not kids.get(g(n)) and n.get('symbolData') and depth < 12:
-        sym = by.get(GK(n['symbolData']['symbolID']))
+        sym = by.get(GK(n['overriddenSymbolID'])) if n.get('overriddenSymbolID') else by.get(GK(n['symbolData']['symbolID']))
         mine = paths(n['symbolData'].get('symbolOverrides')); der = paths(n.get('derivedSymbolData'))
         merged = {}
         for src in (der, mine):
@@ -57,16 +69,21 @@ def reduce(n, ov=None, depth=0):
         for pth, f in (ov or {}).items():
             if pth: merged.setdefault(pth, {}).update(f)
         ch = []
+        ip = {}
+        if sym is not None:
+            for d in sym.get('componentPropDefs') or []:
+                if d.get('initialValue') is not None: ip[GK(d['id'])] = d['initialValue']
+        for a in n.get('componentPropAssignments') or []: ip[GK(a['defID'])] = a['value']
         if sym is not None:
             for c in kids.get(g(sym), []):
                 kc = okey(c); sub = {(q[1:] if q and q[0] == kc else q): f for q, f in merged.items() if q}
-                ch.append(reduce(c, sub, depth + 1))
+                ch.append(reduce(c, sub, depth + 1, ip))
     else:
         sub_all = ov or {}
         ch = []
         for c in kids.get(g(n), []):
             kc = okey(c); sub = {(q[1:] if q and q[0] == kc else q): f for q, f in sub_all.items() if q}
-            ch.append(reduce(c, sub, depth))
+            ch.append(reduce(c, sub, depth, props))
     if ch: o['children'] = ch
     return o
 def absxy(n, root):

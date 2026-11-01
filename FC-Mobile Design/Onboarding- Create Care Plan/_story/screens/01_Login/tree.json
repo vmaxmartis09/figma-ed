@@ -1053,27 +1053,72 @@
              "strokeJoin": "MITER",
              "children": [
               {
-               "name": "Vector",
-               "type": "VECTOR",
-               "x": 8.0,
-               "y": 4.0,
-               "w": 8.0,
-               "h": 16.0,
+               "name": "Union",
+               "type": "BOOLEAN_OPERATION",
+               "x": 0.21,
+               "y": 2.71,
+               "w": 19.583946228027344,
+               "h": 14.1337890625,
                "strokeWeight": 1.5,
                "strokeAlign": "CENTER",
-               "horizontalConstraint": "SCALE",
-               "verticalConstraint": "SCALE",
-               "vec": {
-                "blob": 112,
-                "nw": 9.50023365020752,
-                "nh": 17.50006103515625
-               },
                "strokeCap": "ROUND",
                "strokeJoin": "ROUND",
                "fills": [
                 {
                  "type": "SOLID",
-                 "color": "#307679"
+                 "color": "#1999A4"
+                }
+               ],
+               "children": [
+                {
+                 "name": "Vector (Stroke)",
+                 "type": "VECTOR",
+                 "x": -0.0,
+                 "y": 0.0,
+                 "w": 19.584287643432617,
+                 "h": 14.133332252502441,
+                 "strokeWeight": 1.5,
+                 "strokeAlign": "CENTER",
+                 "horizontalConstraint": "SCALE",
+                 "verticalConstraint": "SCALE",
+                 "vec": {
+                  "blob": 388,
+                  "nw": 23.501144409179688,
+                  "nh": 16.959999084472656
+                 },
+                 "strokeCap": "ROUND",
+                 "strokeJoin": "ROUND",
+                 "fills": [
+                  {
+                   "type": "SOLID",
+                   "color": "#25282B"
+                  }
+                 ]
+                },
+                {
+                 "name": "Vector (Stroke)",
+                 "type": "VECTOR",
+                 "x": 7.29,
+                 "y": 3.73,
+                 "w": 6.041666507720947,
+                 "h": 6.700000762939453,
+                 "strokeWeight": 1.5,
+                 "strokeAlign": "CENTER",
+                 "horizontalConstraint": "SCALE",
+                 "verticalConstraint": "SCALE",
+                 "vec": {
+                  "blob": 389,
+                  "nw": 7.25,
+                  "nh": 8.040000915527344
+                 },
+                 "strokeCap": "ROUND",
+                 "strokeJoin": "ROUND",
+                 "fills": [
+                  {
+                   "type": "SOLID",
+                   "color": "#25282B"
+                  }
+                 ]
                 }
                ]
               }
@@ -1279,6 +1324,7 @@
                    "y": 0.0,
                    "w": 20.0,
                    "h": 20.0,
+                   "visible": false,
                    "strokeWeight": 1.0,
                    "strokeAlign": "INSIDE",
                    "frameMaskDisabled": true,
@@ -1384,8 +1430,8 @@
                    "type": "INSTANCE",
                    "x": 0.0,
                    "y": 0.0,
-                   "w": 82.0,
-                   "h": 40.0,
+                   "w": 72.0,
+                   "h": 32.0,
                    "visible": false,
                    "strokeWeight": 1.0,
                    "strokeAlign": "INSIDE",
@@ -1718,7 +1764,7 @@
                      "fills": [
                       {
                        "type": "SOLID",
-                       "color": "#A8A8A8"
+                       "color": "#121212"
                       }
                      ],
                      "text": {
@@ -1840,7 +1886,7 @@
                         }
                        ],
                        "text": {
-                        "characters": "http://",
+                        "characters": ".com",
                         "fontSize": 14.0,
                         "font": {
                          "family": "Inter",
@@ -1912,7 +1958,7 @@
                "name": "Help text",
                "type": "FRAME",
                "x": 0.0,
-               "y": 78.0,
+               "y": 68.0,
                "w": 240.0,
                "h": 20.0,
                "strokeWeight": 1.0,
@@ -1929,9 +1975,9 @@
                  "name": "Icon Error",
                  "type": "INSTANCE",
                  "x": 0.0,
-                 "y": 3.0,
-                 "w": 12.0,
-                 "h": 12.0,
+                 "y": 1.0,
+                 "w": 16.0,
+                 "h": 16.0,
                  "visible": false,
                  "strokeWeight": 1.0,
                  "strokeAlign": "INSIDE",
@@ -1943,8 +1989,8 @@
                    "type": "VECTOR",
                    "x": 0.0,
                    "y": 0.0,
-                   "w": 12.0,
-                   "h": 12.0,
+                   "w": 16.0,
+                   "h": 16.0,
                    "strokeWeight": 1.0,
                    "strokeAlign": "INSIDE",
                    "horizontalConstraint": "SCALE",
@@ -2115,7 +2161,7 @@
              "strokeJoin": "MITER",
              "children": [
               {
-               "name": "Base/ Dropdown field (Multiple)",
+               "name": "Base/ Dropdown field (Single)",
                "type": "INSTANCE",
                "x": 0.0,
                "y": 0.0,
@@ -2342,12 +2388,12 @@
                    "strokes": [
                     {
                      "type": "SOLID",
-                     "color": "#C5C5C5"
+                     "color": "#C8C8C8"
                     }
                    ],
                    "children": [
                     {
-                     "name": "Placeholder",
+                     "name": "Text value",
                      "type": "TEXT",
                      "x": 12.0,
                      "y": 13.0,
@@ -2360,7 +2406,7 @@
                      "fills": [
                       {
                        "type": "SOLID",
-                       "color": "#A8A8A8"
+                       "color": "#121212"
                       }
                      ],
                      "text": {
@@ -2432,13 +2478,14 @@
                  "name": "Help text",
                  "type": "FRAME",
                  "x": 0.0,
-                 "y": 78.0,
+                 "y": 68.0,
                  "w": 320.0,
-                 "h": 20.0,
+                 "h": 18.0,
                  "strokeWeight": 1.0,
                  "strokeAlign": "INSIDE",
                  "stackMode": "HORIZONTAL",
-                 "stackSpacing": 4.0,
+                 "stackSpacing": 6.0,
+                 "stackCounterAlignItems": "CENTER",
                  "stackPrimarySizing": "FIXED",
                  "stackCounterSizing": "RESIZE_TO_FIT_WITH_IMPLICIT_SIZE",
                  "frameMaskDisabled": true,
@@ -2448,7 +2495,7 @@
                    "name": "Icon Error",
                    "type": "INSTANCE",
                    "x": 0.0,
-                   "y": 0.0,
+                   "y": 3.0,
                    "w": 12.0,
                    "h": 12.0,
                    "visible": false,
@@ -2487,7 +2534,7 @@
                    "name": "Message",
                    "type": "TEXT",
                    "x": 0.0,
-                   "y": 0.0,
+                   "y": -1.0,
                    "w": 320.0,
                    "h": 20.0,
                    "strokeWeight": 1.0,
@@ -2497,7 +2544,7 @@
                    "fills": [
                     {
                      "type": "SOLID",
-                     "color": "#6A6A6A"
+                     "color": "#555555"
                     }
                    ],
                    "text": {
@@ -2604,7 +2651,7 @@
                   }
                  ],
                  "text": {
-                  "characters": "Label checkbox",
+                  "characters": "Remember me",
                   "fontSize": 16.0,
                   "font": {
                    "family": "Roboto",
@@ -2770,7 +2817,7 @@
                 }
                ],
                "text": {
-                "characters": "Button text",
+                "characters": "Log in",
                 "fontSize": 16.0,
                 "font": {
                  "family": "Roboto",
