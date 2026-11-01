@@ -1,0 +1,763 @@
+{
+ "name": "Survey Q4",
+ "type": "FRAME",
+ "x": 2786.0,
+ "y": 417.0,
+ "w": 375.0,
+ "h": 815.0,
+ "strokeWeight": 4.0,
+ "strokeAlign": "INSIDE",
+ "stackMode": "VERTICAL",
+ "stackSpacing": 24.0,
+ "stackCounterAlignItems": "CENTER",
+ "stackPrimarySizing": "FIXED",
+ "fills": [
+  {
+   "type": "SOLID",
+   "color": "#FFFFFF"
+  }
+ ],
+ "children": [
+  {
+   "name": "Screen",
+   "type": "FRAME",
+   "x": 0.0,
+   "y": 0.0,
+   "w": 375.0,
+   "h": 815.0,
+   "strokeWeight": 1.0,
+   "strokeAlign": "INSIDE",
+   "stackMode": "VERTICAL",
+   "stackSpacing": 24.0,
+   "stackCounterAlignItems": "CENTER",
+   "stackPrimarySizing": "FIXED",
+   "stackChildPrimaryGrow": 1.0,
+   "frameMaskDisabled": true,
+   "children": [
+    {
+     "name": "Container",
+     "type": "FRAME",
+     "x": 0.0,
+     "y": 0.0,
+     "w": 375.0,
+     "h": 89.0,
+     "strokeWeight": 1.0,
+     "strokeAlign": "INSIDE",
+     "stackMode": "VERTICAL",
+     "frameMaskDisabled": true,
+     "children": [
+      {
+       "name": "Status Bar (iPhone)",
+       "type": "INSTANCE",
+       "x": 0.0,
+       "y": 0.0,
+       "w": 375.0,
+       "h": 53.0,
+       "strokeWeight": 1.0,
+       "strokeAlign": "INSIDE",
+       "stackMode": "HORIZONTAL",
+       "stackSpacing": 205.0,
+       "stackPaddingRight": 26.0,
+       "stackPaddingBottom": 14.0,
+       "stackPrimaryAlignItems": "SPACE_EVENLY",
+       "stackCounterAlignItems": "CENTER",
+       "stackPrimarySizing": "FIXED",
+       "stackCounterSizing": "RESIZE_TO_FIT_WITH_IMPLICIT_SIZE",
+       "frameMaskDisabled": true
+      },
+      {
+       "name": "Progress bar",
+       "type": "FRAME",
+       "x": 0.0,
+       "y": 53.0,
+       "w": 375.0,
+       "h": 36.0,
+       "strokeWeight": 1.0,
+       "strokeAlign": "INSIDE",
+       "stackMode": "HORIZONTAL",
+       "stackSpacing": 10.0,
+       "stackPaddingRight": 16.0,
+       "stackPaddingBottom": 8.0,
+       "stackCounterAlignItems": "CENTER",
+       "stackPrimarySizing": "FIXED",
+       "stackCounterSizing": "RESIZE_TO_FIT_WITH_IMPLICIT_SIZE",
+       "frameMaskDisabled": true,
+       "fills": [
+        {
+         "type": "SOLID",
+         "color": "#EEFBFC"
+        }
+       ],
+       "children": [
+        {
+         "name": "Progress bar info",
+         "type": "FRAME",
+         "x": 16.0,
+         "y": 8.0,
+         "w": 295.0,
+         "h": 20.0,
+         "strokeWeight": 1.0,
+         "strokeAlign": "INSIDE",
+         "stackMode": "HORIZONTAL",
+         "stackSpacing": 2.0,
+         "stackCounterAlignItems": "CENTER",
+         "stackPrimarySizing": "FIXED",
+         "stackCounterSizing": "RESIZE_TO_FIT_WITH_IMPLICIT_SIZE",
+         "stackChildPrimaryGrow": 1.0,
+         "frameMaskDisabled": true,
+         "children": [
+          {
+           "name": "Step label",
+           "type": "TEXT",
+           "x": 0.0,
+           "y": 0.0,
+           "w": 68.0,
+           "h": 20.0,
+           "strokeWeight": 0.4000000059604645,
+           "strokeAlign": "CENTER",
+           "fills": [
+            {
+             "type": "SOLID",
+             "color": "#121212"
+            }
+           ],
+           "text": {
+            "characters": "Question 4",
+            "fontSize": 14.0,
+            "font": {
+             "family": "Roboto",
+             "style": "Bold",
+             "postscript": "Roboto-Bold"
+            },
+            "lineHeight": {
+             "value": 20.0,
+             "units": "PIXELS"
+            },
+            "letterSpacing": {
+             "value": 0.0,
+             "units": "PERCENT"
+            },
+            "alignH": null,
+            "alignV": "TOP",
+            "case": null,
+            "decoration": null,
+            "autoResize": "WIDTH_AND_HEIGHT"
+           }
+          }
+         ]
+        },
+        {
+         "name": "Step counter",
+         "type": "TEXT",
+         "x": 321.0,
+         "y": 8.0,
+         "w": 38.0,
+         "h": 20.0,
+         "strokeWeight": 0.4000000059604645,
+         "strokeAlign": "CENTER",
+         "fills": [
+          {
+           "type": "SOLID",
+           "color": "#555555"
+          }
+         ],
+         "text": {
+          "characters": "03/04",
+          "fontSize": 14.0,
+          "font": {
+           "family": "Roboto",
+           "style": "Bold",
+           "postscript": "Roboto-Bold"
+          },
+          "lineHeight": {
+           "value": 20.0,
+           "units": "PIXELS"
+          },
+          "letterSpacing": {
+           "value": 0.0,
+           "units": "PERCENT"
+          },
+          "alignH": null,
+          "alignV": "TOP",
+          "case": null,
+          "decoration": null,
+          "autoResize": "WIDTH_AND_HEIGHT"
+         }
+        },
+        {
+         "name": "Progress background",
+         "type": "ROUNDED_RECTANGLE",
+         "x": 0.0,
+         "y": 32.0,
+         "w": 375.0,
+         "h": 4.0,
+         "strokeWeight": 1.0,
+         "strokeAlign": "INSIDE",
+         "stackPositioning": "ABSOLUTE",
+         "verticalConstraint": "MAX",
+         "fills": [
+          {
+           "type": "SOLID",
+           "color": "#D8F6F9"
+          }
+         ]
+        },
+        {
+         "name": "Progress foreground 1",
+         "type": "ROUNDED_RECTANGLE",
+         "x": 0.0,
+         "y": 32.0,
+         "w": 93.0,
+         "h": 4.0,
+         "strokeWeight": 1.0,
+         "strokeAlign": "INSIDE",
+         "stackPositioning": "ABSOLUTE",
+         "verticalConstraint": "MAX",
+         "fills": [
+          {
+           "type": "SOLID",
+           "color": "#1999A4"
+          }
+         ]
+        },
+        {
+         "name": "Progress foreground 3",
+         "type": "ROUNDED_RECTANGLE",
+         "x": 93.0,
+         "y": 32.0,
+         "w": 93.0,
+         "h": 4.0,
+         "strokeWeight": 1.0,
+         "strokeAlign": "INSIDE",
+         "stackPositioning": "ABSOLUTE",
+         "verticalConstraint": "MAX",
+         "fills": [
+          {
+           "type": "SOLID",
+           "color": "#1999A4"
+          }
+         ]
+        },
+        {
+         "name": "Progress foreground 4",
+         "type": "ROUNDED_RECTANGLE",
+         "x": 186.0,
+         "y": 32.0,
+         "w": 93.0,
+         "h": 4.0,
+         "strokeWeight": 1.0,
+         "strokeAlign": "INSIDE",
+         "stackPositioning": "ABSOLUTE",
+         "verticalConstraint": "MAX",
+         "fills": [
+          {
+           "type": "SOLID",
+           "color": "#1999A4"
+          }
+         ]
+        },
+        {
+         "name": "Progress foreground 2",
+         "type": "ROUNDED_RECTANGLE",
+         "x": 279.0,
+         "y": 32.0,
+         "w": 96.0,
+         "h": 4.0,
+         "strokeWeight": 1.0,
+         "strokeAlign": "INSIDE",
+         "stackPositioning": "ABSOLUTE",
+         "horizontalConstraint": "MAX",
+         "verticalConstraint": "MAX",
+         "fills": [
+          {
+           "type": "SOLID",
+           "color": "#1999A4"
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "name": "Footer Container",
+     "type": "FRAME",
+     "x": 16.0,
+     "y": 113.0,
+     "w": 343.0,
+     "h": 558.0,
+     "strokeWeight": 1.0,
+     "strokeAlign": "INSIDE",
+     "stackMode": "VERTICAL",
+     "stackSpacing": 24.0,
+     "stackPrimarySizing": "FIXED",
+     "stackChildPrimaryGrow": 1.0,
+     "frameMaskDisabled": true,
+     "children": [
+      {
+       "name": "Header",
+       "type": "FRAME",
+       "x": 0.0,
+       "y": 0.0,
+       "w": 343.0,
+       "h": 70.0,
+       "strokeWeight": 1.0,
+       "strokeAlign": "INSIDE",
+       "stackMode": "VERTICAL",
+       "stackSpacing": 16.0,
+       "frameMaskDisabled": true,
+       "children": [
+        {
+         "name": "Header content",
+         "type": "FRAME",
+         "x": 0.0,
+         "y": 0.0,
+         "w": 343.0,
+         "h": 32.0,
+         "strokeWeight": 1.0,
+         "strokeAlign": "INSIDE",
+         "stackMode": "HORIZONTAL",
+         "stackSpacing": 32.0,
+         "stackPrimaryAlignItems": "CENTER",
+         "stackCounterAlignItems": "CENTER",
+         "stackPrimarySizing": "FIXED",
+         "stackCounterSizing": "RESIZE_TO_FIT_WITH_IMPLICIT_SIZE",
+         "frameMaskDisabled": true,
+         "children": [
+          {
+           "name": "Header title",
+           "type": "TEXT",
+           "x": 0.0,
+           "y": 0.0,
+           "w": 343.0,
+           "h": 32.0,
+           "strokeWeight": 0.4000000059604645,
+           "strokeAlign": "CENTER",
+           "stackChildPrimaryGrow": 1.0,
+           "fills": [
+            {
+             "type": "SOLID",
+             "color": "#121212"
+            }
+           ],
+           "text": {
+            "characters": "Help us improve iSupport-D",
+            "fontSize": 26.0,
+            "font": {
+             "family": "Roboto",
+             "style": "Bold",
+             "postscript": "Roboto-Bold"
+            },
+            "lineHeight": {
+             "value": 32.0,
+             "units": "PIXELS"
+            },
+            "letterSpacing": {
+             "value": -1.0,
+             "units": "PERCENT"
+            },
+            "alignH": "CENTER",
+            "alignV": "TOP",
+            "case": null,
+            "decoration": null,
+            "autoResize": "HEIGHT"
+           }
+          },
+          {
+           "name": "Back icon",
+           "type": "INSTANCE",
+           "x": 0.0,
+           "y": 4.0,
+           "w": 24.0,
+           "h": 24.0,
+           "visible": false,
+           "strokeWeight": 1.0,
+           "strokeAlign": "INSIDE",
+           "stackPositioning": "ABSOLUTE"
+          }
+         ]
+        },
+        {
+         "name": "Header subtitle",
+         "type": "TEXT",
+         "x": 0.0,
+         "y": 48.0,
+         "w": 343.0,
+         "h": 22.0,
+         "strokeWeight": 0.4000000059604645,
+         "strokeAlign": "CENTER",
+         "fills": [
+          {
+           "type": "SOLID",
+           "color": "#555555"
+          }
+         ],
+         "text": {
+          "characters": "Your response will only take a few minutes.",
+          "fontSize": 16.0,
+          "font": {
+           "family": "Roboto",
+           "style": "Regular",
+           "postscript": "Roboto-Regular"
+          },
+          "lineHeight": {
+           "value": 22.0,
+           "units": "PIXELS"
+          },
+          "letterSpacing": {
+           "value": 0.0,
+           "units": "PERCENT"
+          },
+          "alignH": "CENTER",
+          "alignV": "TOP",
+          "case": null,
+          "decoration": null,
+          "autoResize": "HEIGHT"
+         }
+        }
+       ]
+      },
+      {
+       "name": "Frame",
+       "type": "FRAME",
+       "x": 0.0,
+       "y": 94.0,
+       "w": 343.0,
+       "h": 166.0,
+       "strokeWeight": 1.0,
+       "strokeAlign": "INSIDE",
+       "stackMode": "VERTICAL",
+       "stackSpacing": 16.0,
+       "frameMaskDisabled": true,
+       "children": [
+        {
+         "name": "Container",
+         "type": "FRAME",
+         "x": 0.0,
+         "y": 0.0,
+         "w": 343.0,
+         "h": 44.0,
+         "strokeWeight": 1.0,
+         "strokeAlign": "INSIDE",
+         "stackMode": "VERTICAL",
+         "stackSpacing": 4.0,
+         "frameMaskDisabled": true,
+         "children": [
+          {
+           "name": "Component 2",
+           "type": "INSTANCE",
+           "x": 0.0,
+           "y": 0.0,
+           "w": 99.0,
+           "h": 22.0,
+           "visible": false,
+           "rectangleTopLeftCornerRadius": 8.0,
+           "rectangleTopRightCornerRadius": 8.0,
+           "rectangleBottomLeftCornerRadius": 8.0,
+           "rectangleBottomRightCornerRadius": 8.0,
+           "strokeWeight": 1.0,
+           "strokeAlign": "INSIDE",
+           "stackMode": "HORIZONTAL",
+           "stackSpacing": 4.0,
+           "stackPaddingRight": 8.0,
+           "stackPaddingBottom": 2.0,
+           "stackCounterAlignItems": "CENTER",
+           "stackCounterSizing": "RESIZE_TO_FIT_WITH_IMPLICIT_SIZE",
+           "frameMaskDisabled": true,
+           "fills": [
+            {
+             "type": "SOLID",
+             "color": "#FAFAFA"
+            }
+           ],
+           "strokes": [
+            {
+             "type": "SOLID",
+             "color": "#C8C8C8"
+            }
+           ]
+          },
+          {
+           "name": "Label",
+           "type": "TEXT",
+           "x": 0.0,
+           "y": 0.0,
+           "w": 343.0,
+           "h": 44.0,
+           "strokeAlign": "INSIDE",
+           "fills": [
+            {
+             "type": "SOLID",
+             "color": "#121212"
+            }
+           ],
+           "text": {
+            "characters": "What is one thing we could improve to better support you? (optional)",
+            "fontSize": 16.0,
+            "font": {
+             "family": "Roboto",
+             "style": "SemiBold",
+             "postscript": "Roboto-SemiBold"
+            },
+            "lineHeight": {
+             "value": 22.0,
+             "units": "PIXELS"
+            },
+            "letterSpacing": {
+             "value": 0.0,
+             "units": "PERCENT"
+            },
+            "alignH": null,
+            "alignV": "TOP",
+            "case": null,
+            "decoration": null,
+            "autoResize": "HEIGHT"
+           }
+          }
+         ]
+        },
+        {
+         "name": "Text area",
+         "type": "INSTANCE",
+         "x": 0.0,
+         "y": 60.0,
+         "w": 343.0,
+         "h": 106.0,
+         "strokeWeight": 1.0,
+         "strokeAlign": "INSIDE",
+         "stackMode": "VERTICAL",
+         "stackSpacing": 4.0,
+         "frameMaskDisabled": true
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "name": "Form",
+     "type": "FRAME",
+     "x": 0.0,
+     "y": 695.0,
+     "w": 375.0,
+     "h": 120.0,
+     "strokeWeight": 1.0,
+     "strokeAlign": "INSIDE",
+     "stackMode": "VERTICAL",
+     "strokes": [
+      {
+       "type": "SOLID",
+       "color": "#E0E0E0"
+      }
+     ],
+     "children": [
+      {
+       "name": "Frame 1000004580",
+       "type": "FRAME",
+       "x": 0.0,
+       "y": 0.0,
+       "w": 375.0,
+       "h": 38.0,
+       "visible": false,
+       "strokeWeight": 1.0,
+       "strokeAlign": "INSIDE",
+       "stackMode": "HORIZONTAL",
+       "stackSpacing": 76.0,
+       "stackPaddingRight": 16.0,
+       "stackPaddingBottom": 8.0,
+       "stackPrimaryAlignItems": "SPACE_BETWEEN",
+       "stackCounterAlignItems": "CENTER",
+       "stackPrimarySizing": "FIXED",
+       "stackCounterSizing": "RESIZE_TO_FIT_WITH_IMPLICIT_SIZE",
+       "frameMaskDisabled": true,
+       "fills": [
+        {
+         "type": "SOLID",
+         "color": "#FAFAFA"
+        }
+       ],
+       "children": [
+        {
+         "name": "Label",
+         "type": "TEXT",
+         "x": 16.0,
+         "y": 8.0,
+         "w": 124.0,
+         "h": 22.0,
+         "strokeAlign": "INSIDE",
+         "fills": [
+          {
+           "type": "SOLID",
+           "color": "#A8A8A8"
+          }
+         ],
+         "text": {
+          "characters": "Scroll to continue",
+          "fontSize": 16.0,
+          "font": {
+           "family": "Roboto",
+           "style": "Regular",
+           "postscript": "Roboto-Regular"
+          },
+          "lineHeight": {
+           "value": 22.0,
+           "units": "PIXELS"
+          },
+          "letterSpacing": {
+           "value": 0.0,
+           "units": "PERCENT"
+          },
+          "alignH": null,
+          "alignV": "TOP",
+          "case": null,
+          "decoration": null,
+          "autoResize": "WIDTH_AND_HEIGHT"
+         }
+        },
+        {
+         "name": "Label",
+         "type": "TEXT",
+         "x": 320.0,
+         "y": 8.0,
+         "w": 39.0,
+         "h": 22.0,
+         "visible": false,
+         "strokeAlign": "INSIDE",
+         "fills": [
+          {
+           "type": "SOLID",
+           "color": "#1999A4"
+          }
+         ],
+         "text": {
+          "characters": "100%",
+          "fontSize": 16.0,
+          "font": {
+           "family": "Roboto",
+           "style": "Regular",
+           "postscript": "Roboto-Regular"
+          },
+          "lineHeight": {
+           "value": 22.0,
+           "units": "PIXELS"
+          },
+          "letterSpacing": {
+           "value": 0.0,
+           "units": "PERCENT"
+          },
+          "alignH": null,
+          "alignV": "TOP",
+          "case": null,
+          "decoration": null,
+          "autoResize": "WIDTH_AND_HEIGHT"
+         }
+        }
+       ]
+      },
+      {
+       "name": "Checkbox container",
+       "type": "FRAME",
+       "x": 0.0,
+       "y": 0.0,
+       "w": 375.0,
+       "h": 86.0,
+       "strokeWeight": 1.0,
+       "strokeAlign": "INSIDE",
+       "stackMode": "VERTICAL",
+       "stackSpacing": 16.0,
+       "stackPaddingRight": 24.0,
+       "stackPaddingBottom": 16.0,
+       "stackCounterAlignItems": "CENTER",
+       "frameMaskDisabled": true,
+       "fills": [
+        {
+         "type": "SOLID",
+         "color": "#FFFFFF"
+        }
+       ],
+       "children": [
+        {
+         "name": "Account prompt container",
+         "type": "FRAME",
+         "x": 24.0,
+         "y": 16.0,
+         "w": 327.0,
+         "h": 54.0,
+         "strokeWeight": 1.0,
+         "strokeAlign": "INSIDE",
+         "stackMode": "VERTICAL",
+         "stackSpacing": 24.0,
+         "stackCounterAlignItems": "CENTER",
+         "frameMaskDisabled": true,
+         "children": [
+          {
+           "name": "Button",
+           "type": "INSTANCE",
+           "x": 0.0,
+           "y": 0.0,
+           "w": 327.0,
+           "h": 54.0,
+           "strokeWeight": 1.0,
+           "strokeAlign": "INSIDE",
+           "stackMode": "HORIZONTAL",
+           "stackPrimarySizing": "FIXED",
+           "stackCounterSizing": "RESIZE_TO_FIT_WITH_IMPLICIT_SIZE",
+           "frameMaskDisabled": true
+          }
+         ]
+        },
+        {
+         "name": "Button",
+         "type": "INSTANCE",
+         "x": 24.0,
+         "y": 86.0,
+         "w": 327.0,
+         "h": 54.0,
+         "visible": false,
+         "strokeWeight": 1.0,
+         "strokeAlign": "INSIDE",
+         "stackMode": "HORIZONTAL",
+         "stackPrimarySizing": "FIXED",
+         "stackCounterSizing": "RESIZE_TO_FIT_WITH_IMPLICIT_SIZE",
+         "frameMaskDisabled": true
+        }
+       ]
+      },
+      {
+       "name": "🧰/Home Indicator (iPhone)",
+       "type": "INSTANCE",
+       "x": 0.0,
+       "y": 86.0,
+       "w": 375.0,
+       "h": 34.0,
+       "strokeWeight": 1.0,
+       "strokeAlign": "INSIDE",
+       "frameMaskDisabled": true,
+       "fills": [
+        {
+         "type": "SOLID",
+         "color": "#FFFFFF"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Next Button",
+   "type": "INSTANCE",
+   "x": 29.0,
+   "y": 770.0,
+   "w": 122.0,
+   "h": 22.0,
+   "strokeWeight": 1.0,
+   "strokeAlign": "INSIDE",
+   "stackMode": "HORIZONTAL",
+   "stackSpacing": 4.0,
+   "stackCounterAlignItems": "CENTER",
+   "stackCounterSizing": "RESIZE_TO_FIT_WITH_IMPLICIT_SIZE",
+   "stackPositioning": "ABSOLUTE",
+   "frameMaskDisabled": true
+  }
+ ]
+}

@@ -28,7 +28,7 @@
    "text_align": "center"
   },
   {
-   "text": "Header",
+   "text": "Reset password",
    "verified_by_ocr": false,
    "ocr_candidate": "New password",
    "style": "Heading 6/Bold",
@@ -38,7 +38,9 @@
    "line_height": "32px",
    "letter_spacing": "-0.01em",
    "color": "#121212",
-   "text_align": "center"
+   "text_align": "center",
+   "layer_name": "Header",
+   "text_source": "figma_clipboard"
   },
   {
    "text": "Label",
@@ -80,7 +82,7 @@
    "text_align": null
   },
   {
-   "text": "Password Requirements Heading",
+   "text": "To protect your account, make sure your password:",
    "verified_by_ocr": false,
    "ocr_candidate": "New password",
    "style": "Body S/Semi",
@@ -90,10 +92,18 @@
    "line_height": "18px",
    "letter_spacing": null,
    "color": "#121212",
-   "text_align": "center"
+   "text_align": "center",
+   "layer_name": "Password Requirements Heading",
+   "text_source": "figma_clipboard"
   },
   {
-   "text": "Requirement Text",
+   "text": [
+    "Contains 8-16 characters",
+    "Includes 1 lowercase letter (a-z)",
+    "Includes 1 uppercase letter (A-Z)",
+    "Includes 1 number (0 - 9)",
+    "Includes 1 special character (! @ # $ % ^ & * ( ) _ +)"
+   ],
    "verified_by_ocr": false,
    "ocr_candidate": "Includes 1 lowercase letter (a-z)",
    "style": "Body S/Regular",
@@ -103,7 +113,9 @@
    "line_height": "18px",
    "letter_spacing": null,
    "color": "#121212",
-   "text_align": "center"
+   "text_align": "center",
+   "layer_name": "Requirement Text",
+   "text_source": "figma_clipboard"
   },
   {
    "text": "Include at least 1 number or special character",
@@ -116,7 +128,9 @@
    "line_height": "20px",
    "letter_spacing": null,
    "color": "#616161",
-   "text_align": "center"
+   "text_align": "center",
+   "layer_name": "Include at least 1 number or special character",
+   "text_source": "figma_clipboard"
   },
   {
    "text": "Include at least 1 lowercase character",
@@ -129,7 +143,9 @@
    "line_height": "20px",
    "letter_spacing": null,
    "color": "#616161",
-   "text_align": "center"
+   "text_align": "center",
+   "layer_name": "Include at least 1 lowercase character",
+   "text_source": "figma_clipboard"
   },
   {
    "text": "Include at least 1 uppercase character",
@@ -142,7 +158,9 @@
    "line_height": "20px",
    "letter_spacing": null,
    "color": "#616161",
-   "text_align": "center"
+   "text_align": "center",
+   "layer_name": "Include at least 1 uppercase character",
+   "text_source": "figma_clipboard"
   },
   {
    "text": "Button text",
@@ -174,5 +192,513 @@
   "Confirm new password",
   "Confirm new password",
   "Reset password"
+ ],
+ "texts_real": [
+  {
+   "text": "Reset password",
+   "layer": "Header",
+   "path": "Reset Password/Forgot Password Form/Password Container/Header Container/Header",
+   "x": 16.0,
+   "y": 161.0,
+   "w": 343.0,
+   "h": 32.0,
+   "font_family": "Roboto",
+   "font_style": "Bold",
+   "font_size": 26.0,
+   "line_height": {
+    "value": 32.0,
+    "units": "PIXELS"
+   },
+   "letter_spacing": {
+    "value": -1.0,
+    "units": "PERCENT"
+   },
+   "align": "CENTER",
+   "color": "#121212",
+   "opacity": 1
+  },
+  {
+   "text": "To protect your account, make sure your password:",
+   "layer": "Password Requirements Heading",
+   "path": "Reset Password/Forgot Password Form/Password Container/Password Fields Container/Password Field Container/Password Requirements Container/Password Requirements Heading",
+   "x": 16.0,
+   "y": 311.0,
+   "w": 275.0,
+   "h": 18.0,
+   "font_family": "Roboto",
+   "font_style": "SemiBold",
+   "font_size": 12.0,
+   "line_height": {
+    "value": 18.0,
+    "units": "PIXELS"
+   },
+   "letter_spacing": {
+    "value": 0.0,
+    "units": "PERCENT"
+   },
+   "align": "CENTER",
+   "color": "#121212",
+   "opacity": 1
+  },
+  {
+   "text": "Contains 8-16 characters",
+   "layer": "Requirement Text",
+   "path": "Reset Password/Forgot Password Form/Password Container/Password Fields Container/Password Field Container/Password Requirements Container/Requirement Container/Requirement Details Container/Requirement Text",
+   "x": 32.0,
+   "y": 333.0,
+   "w": 134.0,
+   "h": 18.0,
+   "font_family": "Roboto",
+   "font_style": "Regular",
+   "font_size": 12.0,
+   "line_height": {
+    "value": 18.0,
+    "units": "PIXELS"
+   },
+   "letter_spacing": {
+    "value": 0.0,
+    "units": "PERCENT"
+   },
+   "align": "CENTER",
+   "color": "#121212",
+   "opacity": 1
+  },
+  {
+   "text": "Include at least 1 number or special character",
+   "layer": "Include at least 1 number or special character",
+   "path": "Reset Password/Forgot Password Form/Password Container/Password Fields Container/Password Field Container/Password Requirements Container/Requirement Container/Frame 1000004428/Include at least 1 number or special character",
+   "x": 32.0,
+   "y": 357.0,
+   "w": 275.0,
+   "h": 20.0,
+   "font_family": "Barlow",
+   "font_style": "Medium",
+   "font_size": 14.0,
+   "line_height": {
+    "value": 20.0,
+    "units": "PIXELS"
+   },
+   "letter_spacing": {
+    "value": 0.0,
+    "units": "PERCENT"
+   },
+   "align": "CENTER",
+   "color": "#616161",
+   "opacity": 1
+  },
+  {
+   "text": "Include at least 1 lowercase character",
+   "layer": "Include at least 1 lowercase character",
+   "path": "Reset Password/Forgot Password Form/Password Container/Password Fields Container/Password Field Container/Password Requirements Container/Requirement Container/Frame 1000004429/Include at least 1 lowercase character",
+   "x": 32.0,
+   "y": 381.0,
+   "w": 228.0,
+   "h": 20.0,
+   "font_family": "Barlow",
+   "font_style": "Medium",
+   "font_size": 14.0,
+   "line_height": {
+    "value": 20.0,
+    "units": "PIXELS"
+   },
+   "letter_spacing": {
+    "value": 0.0,
+    "units": "PERCENT"
+   },
+   "align": "CENTER",
+   "color": "#616161",
+   "opacity": 1
+  },
+  {
+   "text": "Include at least 1 uppercase character",
+   "layer": "Include at least 1 uppercase character",
+   "path": "Reset Password/Forgot Password Form/Password Container/Password Fields Container/Password Field Container/Password Requirements Container/Requirement Container/Frame 1000004427/Include at least 1 uppercase character",
+   "x": 32.0,
+   "y": 405.0,
+   "w": 230.0,
+   "h": 20.0,
+   "font_family": "Barlow",
+   "font_style": "Medium",
+   "font_size": 14.0,
+   "line_height": {
+    "value": 20.0,
+    "units": "PIXELS"
+   },
+   "letter_spacing": {
+    "value": 0.0,
+    "units": "PERCENT"
+   },
+   "align": "CENTER",
+   "color": "#616161",
+   "opacity": 1
+  },
+  {
+   "text": "Includes 1 lowercase letter (a-z)",
+   "layer": "Requirement Text",
+   "path": "Reset Password/Forgot Password Form/Password Container/Password Fields Container/Password Field Container/Password Requirements Container/Requirement Container/Requirement Details Container/Requirement Text",
+   "x": 32.0,
+   "y": 355.0,
+   "w": 170.0,
+   "h": 18.0,
+   "font_family": "Roboto",
+   "font_style": "Regular",
+   "font_size": 12.0,
+   "line_height": {
+    "value": 18.0,
+    "units": "PIXELS"
+   },
+   "letter_spacing": {
+    "value": 0.0,
+    "units": "PERCENT"
+   },
+   "align": "CENTER",
+   "color": "#121212",
+   "opacity": 1
+  },
+  {
+   "text": "Include at least 1 number or special character",
+   "layer": "Include at least 1 number or special character",
+   "path": "Reset Password/Forgot Password Form/Password Container/Password Fields Container/Password Field Container/Password Requirements Container/Requirement Container/Frame 1000004428/Include at least 1 number or special character",
+   "x": 32.0,
+   "y": 379.0,
+   "w": 275.0,
+   "h": 20.0,
+   "font_family": "Barlow",
+   "font_style": "Medium",
+   "font_size": 14.0,
+   "line_height": {
+    "value": 20.0,
+    "units": "PIXELS"
+   },
+   "letter_spacing": {
+    "value": 0.0,
+    "units": "PERCENT"
+   },
+   "align": "CENTER",
+   "color": "#616161",
+   "opacity": 1
+  },
+  {
+   "text": "Include at least 1 lowercase character",
+   "layer": "Include at least 1 lowercase character",
+   "path": "Reset Password/Forgot Password Form/Password Container/Password Fields Container/Password Field Container/Password Requirements Container/Requirement Container/Frame 1000004429/Include at least 1 lowercase character",
+   "x": 32.0,
+   "y": 403.0,
+   "w": 228.0,
+   "h": 20.0,
+   "font_family": "Barlow",
+   "font_style": "Medium",
+   "font_size": 14.0,
+   "line_height": {
+    "value": 20.0,
+    "units": "PIXELS"
+   },
+   "letter_spacing": {
+    "value": 0.0,
+    "units": "PERCENT"
+   },
+   "align": "CENTER",
+   "color": "#616161",
+   "opacity": 1
+  },
+  {
+   "text": "Include at least 1 uppercase character",
+   "layer": "Include at least 1 uppercase character",
+   "path": "Reset Password/Forgot Password Form/Password Container/Password Fields Container/Password Field Container/Password Requirements Container/Requirement Container/Frame 1000004427/Include at least 1 uppercase character",
+   "x": 32.0,
+   "y": 427.0,
+   "w": 230.0,
+   "h": 20.0,
+   "font_family": "Barlow",
+   "font_style": "Medium",
+   "font_size": 14.0,
+   "line_height": {
+    "value": 20.0,
+    "units": "PIXELS"
+   },
+   "letter_spacing": {
+    "value": 0.0,
+    "units": "PERCENT"
+   },
+   "align": "CENTER",
+   "color": "#616161",
+   "opacity": 1
+  },
+  {
+   "text": "Includes 1 uppercase letter (A-Z)",
+   "layer": "Requirement Text",
+   "path": "Reset Password/Forgot Password Form/Password Container/Password Fields Container/Password Field Container/Password Requirements Container/Requirement Container/Requirement Details Container/Requirement Text",
+   "x": 32.0,
+   "y": 377.0,
+   "w": 174.0,
+   "h": 18.0,
+   "font_family": "Roboto",
+   "font_style": "Regular",
+   "font_size": 12.0,
+   "line_height": {
+    "value": 18.0,
+    "units": "PIXELS"
+   },
+   "letter_spacing": {
+    "value": 0.0,
+    "units": "PERCENT"
+   },
+   "align": "CENTER",
+   "color": "#121212",
+   "opacity": 1
+  },
+  {
+   "text": "Include at least 1 number or special character",
+   "layer": "Include at least 1 number or special character",
+   "path": "Reset Password/Forgot Password Form/Password Container/Password Fields Container/Password Field Container/Password Requirements Container/Requirement Container/Frame 1000004428/Include at least 1 number or special character",
+   "x": 32.0,
+   "y": 401.0,
+   "w": 275.0,
+   "h": 20.0,
+   "font_family": "Barlow",
+   "font_style": "Medium",
+   "font_size": 14.0,
+   "line_height": {
+    "value": 20.0,
+    "units": "PIXELS"
+   },
+   "letter_spacing": {
+    "value": 0.0,
+    "units": "PERCENT"
+   },
+   "align": "CENTER",
+   "color": "#616161",
+   "opacity": 1
+  },
+  {
+   "text": "Include at least 1 lowercase character",
+   "layer": "Include at least 1 lowercase character",
+   "path": "Reset Password/Forgot Password Form/Password Container/Password Fields Container/Password Field Container/Password Requirements Container/Requirement Container/Frame 1000004429/Include at least 1 lowercase character",
+   "x": 32.0,
+   "y": 425.0,
+   "w": 228.0,
+   "h": 20.0,
+   "font_family": "Barlow",
+   "font_style": "Medium",
+   "font_size": 14.0,
+   "line_height": {
+    "value": 20.0,
+    "units": "PIXELS"
+   },
+   "letter_spacing": {
+    "value": 0.0,
+    "units": "PERCENT"
+   },
+   "align": "CENTER",
+   "color": "#616161",
+   "opacity": 1
+  },
+  {
+   "text": "Include at least 1 uppercase character",
+   "layer": "Include at least 1 uppercase character",
+   "path": "Reset Password/Forgot Password Form/Password Container/Password Fields Container/Password Field Container/Password Requirements Container/Requirement Container/Frame 1000004427/Include at least 1 uppercase character",
+   "x": 32.0,
+   "y": 449.0,
+   "w": 230.0,
+   "h": 20.0,
+   "font_family": "Barlow",
+   "font_style": "Medium",
+   "font_size": 14.0,
+   "line_height": {
+    "value": 20.0,
+    "units": "PIXELS"
+   },
+   "letter_spacing": {
+    "value": 0.0,
+    "units": "PERCENT"
+   },
+   "align": "CENTER",
+   "color": "#616161",
+   "opacity": 1
+  },
+  {
+   "text": "Includes 1 number (0 - 9)",
+   "layer": "Requirement Text",
+   "path": "Reset Password/Forgot Password Form/Password Container/Password Fields Container/Password Field Container/Password Requirements Container/Requirement Container/Requirement Details Container/Requirement Text",
+   "x": 32.0,
+   "y": 399.0,
+   "w": 133.0,
+   "h": 18.0,
+   "font_family": "Roboto",
+   "font_style": "Regular",
+   "font_size": 12.0,
+   "line_height": {
+    "value": 18.0,
+    "units": "PIXELS"
+   },
+   "letter_spacing": {
+    "value": 0.0,
+    "units": "PERCENT"
+   },
+   "align": "CENTER",
+   "color": "#121212",
+   "opacity": 1
+  },
+  {
+   "text": "Include at least 1 number or special character",
+   "layer": "Include at least 1 number or special character",
+   "path": "Reset Password/Forgot Password Form/Password Container/Password Fields Container/Password Field Container/Password Requirements Container/Requirement Container/Frame 1000004428/Include at least 1 number or special character",
+   "x": 32.0,
+   "y": 423.0,
+   "w": 275.0,
+   "h": 20.0,
+   "font_family": "Barlow",
+   "font_style": "Medium",
+   "font_size": 14.0,
+   "line_height": {
+    "value": 20.0,
+    "units": "PIXELS"
+   },
+   "letter_spacing": {
+    "value": 0.0,
+    "units": "PERCENT"
+   },
+   "align": "CENTER",
+   "color": "#616161",
+   "opacity": 1
+  },
+  {
+   "text": "Include at least 1 lowercase character",
+   "layer": "Include at least 1 lowercase character",
+   "path": "Reset Password/Forgot Password Form/Password Container/Password Fields Container/Password Field Container/Password Requirements Container/Requirement Container/Frame 1000004429/Include at least 1 lowercase character",
+   "x": 32.0,
+   "y": 447.0,
+   "w": 228.0,
+   "h": 20.0,
+   "font_family": "Barlow",
+   "font_style": "Medium",
+   "font_size": 14.0,
+   "line_height": {
+    "value": 20.0,
+    "units": "PIXELS"
+   },
+   "letter_spacing": {
+    "value": 0.0,
+    "units": "PERCENT"
+   },
+   "align": "CENTER",
+   "color": "#616161",
+   "opacity": 1
+  },
+  {
+   "text": "Include at least 1 uppercase character",
+   "layer": "Include at least 1 uppercase character",
+   "path": "Reset Password/Forgot Password Form/Password Container/Password Fields Container/Password Field Container/Password Requirements Container/Requirement Container/Frame 1000004427/Include at least 1 uppercase character",
+   "x": 32.0,
+   "y": 471.0,
+   "w": 230.0,
+   "h": 20.0,
+   "font_family": "Barlow",
+   "font_style": "Medium",
+   "font_size": 14.0,
+   "line_height": {
+    "value": 20.0,
+    "units": "PIXELS"
+   },
+   "letter_spacing": {
+    "value": 0.0,
+    "units": "PERCENT"
+   },
+   "align": "CENTER",
+   "color": "#616161",
+   "opacity": 1
+  },
+  {
+   "text": "Includes 1 special character (! @ # $ % ^ & * ( ) _ +)",
+   "layer": "Requirement Text",
+   "path": "Reset Password/Forgot Password Form/Password Container/Password Fields Container/Password Field Container/Password Requirements Container/Password Requirements Item Container/Password Requirements Item/Requirement Text",
+   "x": 32.0,
+   "y": 421.0,
+   "w": 269.0,
+   "h": 18.0,
+   "font_family": "Roboto",
+   "font_style": "Regular",
+   "font_size": 12.0,
+   "line_height": {
+    "value": 18.0,
+    "units": "PIXELS"
+   },
+   "letter_spacing": {
+    "value": 0.0,
+    "units": "PERCENT"
+   },
+   "align": "CENTER",
+   "color": "#121212",
+   "opacity": 1
+  },
+  {
+   "text": "Include at least 1 number or special character",
+   "layer": "Include at least 1 number or special character",
+   "path": "Reset Password/Forgot Password Form/Password Container/Password Fields Container/Password Field Container/Password Requirements Container/Password Requirements Item Container/Frame 1000004428/Include at least 1 number or special character",
+   "x": 32.0,
+   "y": 445.0,
+   "w": 275.0,
+   "h": 20.0,
+   "font_family": "Barlow",
+   "font_style": "Medium",
+   "font_size": 14.0,
+   "line_height": {
+    "value": 20.0,
+    "units": "PIXELS"
+   },
+   "letter_spacing": {
+    "value": 0.0,
+    "units": "PERCENT"
+   },
+   "align": "CENTER",
+   "color": "#616161",
+   "opacity": 1
+  },
+  {
+   "text": "Include at least 1 lowercase character",
+   "layer": "Include at least 1 lowercase character",
+   "path": "Reset Password/Forgot Password Form/Password Container/Password Fields Container/Password Field Container/Password Requirements Container/Password Requirements Item Container/Frame 1000004429/Include at least 1 lowercase character",
+   "x": 32.0,
+   "y": 469.0,
+   "w": 228.0,
+   "h": 20.0,
+   "font_family": "Barlow",
+   "font_style": "Medium",
+   "font_size": 14.0,
+   "line_height": {
+    "value": 20.0,
+    "units": "PIXELS"
+   },
+   "letter_spacing": {
+    "value": 0.0,
+    "units": "PERCENT"
+   },
+   "align": "CENTER",
+   "color": "#616161",
+   "opacity": 1
+  },
+  {
+   "text": "Include at least 1 uppercase character",
+   "layer": "Include at least 1 uppercase character",
+   "path": "Reset Password/Forgot Password Form/Password Container/Password Fields Container/Password Field Container/Password Requirements Container/Password Requirements Item Container/Frame 1000004427/Include at least 1 uppercase character",
+   "x": 32.0,
+   "y": 493.0,
+   "w": 230.0,
+   "h": 20.0,
+   "font_family": "Barlow",
+   "font_style": "Medium",
+   "font_size": 14.0,
+   "line_height": {
+    "value": 20.0,
+    "units": "PIXELS"
+   },
+   "letter_spacing": {
+    "value": 0.0,
+    "units": "PERCENT"
+   },
+   "align": "CENTER",
+   "color": "#616161",
+   "opacity": 1
+  }
  ]
 }

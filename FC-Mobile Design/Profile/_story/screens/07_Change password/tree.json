@@ -1,0 +1,1628 @@
+{
+ "name": "Change password",
+ "type": "FRAME",
+ "x": 274.0,
+ "y": 164.0,
+ "w": 375.0,
+ "h": 815.0,
+ "strokeWeight": 4.0,
+ "strokeAlign": "INSIDE",
+ "stackSpacing": 8.0,
+ "stackCounterAlignItems": "CENTER",
+ "stackPrimarySizing": "FIXED",
+ "fills": [
+  {
+   "type": "SOLID",
+   "color": "#FFFFFF"
+  }
+ ],
+ "children": [
+  {
+   "name": "Top Navigation",
+   "type": "INSTANCE",
+   "x": 0.0,
+   "y": 0.0,
+   "w": 375.0,
+   "h": 159.0,
+   "strokeWeight": 1.0,
+   "strokeAlign": "INSIDE",
+   "stackMode": "VERTICAL",
+   "frameMaskDisabled": true
+  },
+  {
+   "name": "Frame 1000005003",
+   "type": "FRAME",
+   "x": 16.0,
+   "y": 183.0,
+   "w": 343.0,
+   "h": 488.0,
+   "strokeWeight": 1.0,
+   "strokeAlign": "INSIDE",
+   "stackMode": "VERTICAL",
+   "stackSpacing": 32.0,
+   "frameMaskDisabled": true,
+   "children": [
+    {
+     "name": "Password Fields Container",
+     "type": "FRAME",
+     "x": 0.0,
+     "y": 0.0,
+     "w": 343.0,
+     "h": 402.0,
+     "strokeWeight": 1.0,
+     "strokeAlign": "INSIDE",
+     "stackMode": "VERTICAL",
+     "stackSpacing": 20.0,
+     "frameMaskDisabled": true,
+     "children": [
+      {
+       "name": "Dropdown field",
+       "type": "INSTANCE",
+       "x": 0.0,
+       "y": 0.0,
+       "w": 343.0,
+       "h": 74.0,
+       "strokeWeight": 1.0,
+       "strokeAlign": "INSIDE",
+       "stackMode": "VERTICAL",
+       "frameMaskDisabled": true
+      },
+      {
+       "name": "Password Field Container",
+       "type": "FRAME",
+       "x": 0.0,
+       "y": 94.0,
+       "w": 343.0,
+       "h": 214.0,
+       "strokeWeight": 1.0,
+       "strokeAlign": "INSIDE",
+       "stackMode": "VERTICAL",
+       "stackSpacing": 12.0,
+       "frameMaskDisabled": true,
+       "children": [
+        {
+         "name": "Dropdown field",
+         "type": "INSTANCE",
+         "x": 0.0,
+         "y": 0.0,
+         "w": 343.0,
+         "h": 74.0,
+         "strokeWeight": 1.0,
+         "strokeAlign": "INSIDE",
+         "stackMode": "VERTICAL",
+         "frameMaskDisabled": true
+        },
+        {
+         "name": "Password Requirements Container",
+         "type": "FRAME",
+         "x": 0.0,
+         "y": 86.0,
+         "w": 285.0,
+         "h": 128.0,
+         "strokeWeight": 1.0,
+         "strokeAlign": "INSIDE",
+         "stackMode": "VERTICAL",
+         "stackSpacing": 4.0,
+         "stackCounterSizing": "RESIZE_TO_FIT_WITH_IMPLICIT_SIZE",
+         "frameMaskDisabled": true,
+         "children": [
+          {
+           "name": "Password Requirements Heading",
+           "type": "TEXT",
+           "x": 0.0,
+           "y": 0.0,
+           "w": 275.0,
+           "h": 18.0,
+           "strokeWeight": 1.0,
+           "strokeAlign": "OUTSIDE",
+           "fills": [
+            {
+             "type": "SOLID",
+             "color": "#121212"
+            }
+           ],
+           "text": {
+            "characters": "To protect your account, make sure your password:",
+            "fontSize": 12.0,
+            "font": {
+             "family": "Roboto",
+             "style": "SemiBold",
+             "postscript": "Roboto-SemiBold"
+            },
+            "lineHeight": {
+             "value": 18.0,
+             "units": "PIXELS"
+            },
+            "letterSpacing": {
+             "value": 0.0,
+             "units": "PERCENT"
+            },
+            "alignH": "CENTER",
+            "alignV": "TOP",
+            "case": null,
+            "decoration": null,
+            "autoResize": "WIDTH_AND_HEIGHT"
+           }
+          },
+          {
+           "name": "Requirement Container",
+           "type": "FRAME",
+           "x": 0.0,
+           "y": 22.0,
+           "w": 150.0,
+           "h": 18.0,
+           "strokeWeight": 1.0,
+           "strokeAlign": "INSIDE",
+           "stackMode": "VERTICAL",
+           "stackSpacing": 4.0,
+           "stackCounterSizing": "RESIZE_TO_FIT_WITH_IMPLICIT_SIZE",
+           "frameMaskDisabled": true,
+           "children": [
+            {
+             "name": "Requirement Details Container",
+             "type": "FRAME",
+             "x": 0.0,
+             "y": 0.0,
+             "w": 150.0,
+             "h": 18.0,
+             "strokeWeight": 1.0,
+             "strokeAlign": "INSIDE",
+             "stackMode": "HORIZONTAL",
+             "stackSpacing": 4.0,
+             "stackCounterAlignItems": "CENTER",
+             "stackCounterSizing": "RESIZE_TO_FIT_WITH_IMPLICIT_SIZE",
+             "frameMaskDisabled": true,
+             "children": [
+              {
+               "name": "Requirement Icon",
+               "type": "INSTANCE",
+               "x": 0.0,
+               "y": 3.0,
+               "w": 12.0,
+               "h": 12.0,
+               "strokeWeight": 1.0,
+               "strokeAlign": "INSIDE"
+              },
+              {
+               "name": "Requirement Text",
+               "type": "TEXT",
+               "x": 16.0,
+               "y": 0.0,
+               "w": 134.0,
+               "h": 18.0,
+               "strokeWeight": 1.0,
+               "strokeAlign": "OUTSIDE",
+               "fills": [
+                {
+                 "type": "SOLID",
+                 "color": "#121212"
+                }
+               ],
+               "text": {
+                "characters": "Contains 8-16 characters",
+                "fontSize": 12.0,
+                "font": {
+                 "family": "Roboto",
+                 "style": "Regular",
+                 "postscript": "Roboto-Regular"
+                },
+                "lineHeight": {
+                 "value": 18.0,
+                 "units": "PIXELS"
+                },
+                "letterSpacing": {
+                 "value": 0.0,
+                 "units": "PERCENT"
+                },
+                "alignH": "CENTER",
+                "alignV": "TOP",
+                "case": null,
+                "decoration": null,
+                "autoResize": "WIDTH_AND_HEIGHT"
+               }
+              }
+             ]
+            },
+            {
+             "name": "Frame 1000004428",
+             "type": "FRAME",
+             "x": 0.0,
+             "y": 24.0,
+             "w": 291.0,
+             "h": 20.0,
+             "visible": false,
+             "strokeWeight": 1.0,
+             "strokeAlign": "INSIDE",
+             "stackMode": "HORIZONTAL",
+             "stackSpacing": 4.0,
+             "stackCounterAlignItems": "CENTER",
+             "stackCounterSizing": "RESIZE_TO_FIT_WITH_IMPLICIT_SIZE",
+             "frameMaskDisabled": true,
+             "children": [
+              {
+               "name": "check",
+               "type": "INSTANCE",
+               "x": 0.0,
+               "y": 4.0,
+               "w": 12.0,
+               "h": 12.0,
+               "strokeWeight": 1.0,
+               "strokeAlign": "INSIDE"
+              },
+              {
+               "name": "Include at least 1 number or special character",
+               "type": "TEXT",
+               "x": 16.0,
+               "y": 0.0,
+               "w": 275.0,
+               "h": 20.0,
+               "strokeWeight": 1.0,
+               "strokeAlign": "OUTSIDE",
+               "fills": [
+                {
+                 "type": "SOLID",
+                 "color": "#616161"
+                }
+               ],
+               "text": {
+                "characters": "Include at least 1 number or special character",
+                "fontSize": 14.0,
+                "font": {
+                 "family": "Barlow",
+                 "style": "Medium",
+                 "postscript": "Barlow-Medium"
+                },
+                "lineHeight": {
+                 "value": 20.0,
+                 "units": "PIXELS"
+                },
+                "letterSpacing": {
+                 "value": 0.0,
+                 "units": "PERCENT"
+                },
+                "alignH": "CENTER",
+                "alignV": "TOP",
+                "case": null,
+                "decoration": null,
+                "autoResize": "WIDTH_AND_HEIGHT"
+               }
+              }
+             ]
+            },
+            {
+             "name": "Frame 1000004429",
+             "type": "FRAME",
+             "x": 0.0,
+             "y": 48.0,
+             "w": 244.0,
+             "h": 20.0,
+             "visible": false,
+             "strokeWeight": 1.0,
+             "strokeAlign": "INSIDE",
+             "stackMode": "HORIZONTAL",
+             "stackSpacing": 4.0,
+             "stackCounterAlignItems": "CENTER",
+             "stackCounterSizing": "RESIZE_TO_FIT_WITH_IMPLICIT_SIZE",
+             "frameMaskDisabled": true,
+             "children": [
+              {
+               "name": "check",
+               "type": "INSTANCE",
+               "x": 0.0,
+               "y": 4.0,
+               "w": 12.0,
+               "h": 12.0,
+               "strokeWeight": 1.0,
+               "strokeAlign": "INSIDE"
+              },
+              {
+               "name": "Include at least 1 lowercase character",
+               "type": "TEXT",
+               "x": 16.0,
+               "y": 0.0,
+               "w": 228.0,
+               "h": 20.0,
+               "strokeWeight": 1.0,
+               "strokeAlign": "OUTSIDE",
+               "fills": [
+                {
+                 "type": "SOLID",
+                 "color": "#616161"
+                }
+               ],
+               "text": {
+                "characters": "Include at least 1 lowercase character",
+                "fontSize": 14.0,
+                "font": {
+                 "family": "Barlow",
+                 "style": "Medium",
+                 "postscript": "Barlow-Medium"
+                },
+                "lineHeight": {
+                 "value": 20.0,
+                 "units": "PIXELS"
+                },
+                "letterSpacing": {
+                 "value": 0.0,
+                 "units": "PERCENT"
+                },
+                "alignH": "CENTER",
+                "alignV": "TOP",
+                "case": null,
+                "decoration": null,
+                "autoResize": "WIDTH_AND_HEIGHT"
+               }
+              }
+             ]
+            },
+            {
+             "name": "Frame 1000004427",
+             "type": "FRAME",
+             "x": 0.0,
+             "y": 72.0,
+             "w": 246.0,
+             "h": 20.0,
+             "visible": false,
+             "strokeWeight": 1.0,
+             "strokeAlign": "INSIDE",
+             "stackMode": "HORIZONTAL",
+             "stackSpacing": 4.0,
+             "stackCounterAlignItems": "CENTER",
+             "stackCounterSizing": "RESIZE_TO_FIT_WITH_IMPLICIT_SIZE",
+             "frameMaskDisabled": true,
+             "children": [
+              {
+               "name": "check",
+               "type": "INSTANCE",
+               "x": 0.0,
+               "y": 4.0,
+               "w": 12.0,
+               "h": 12.0,
+               "strokeWeight": 1.0,
+               "strokeAlign": "INSIDE"
+              },
+              {
+               "name": "Include at least 1 uppercase character",
+               "type": "TEXT",
+               "x": 16.0,
+               "y": 0.0,
+               "w": 230.0,
+               "h": 20.0,
+               "strokeWeight": 1.0,
+               "strokeAlign": "OUTSIDE",
+               "fills": [
+                {
+                 "type": "SOLID",
+                 "color": "#616161"
+                }
+               ],
+               "text": {
+                "characters": "Include at least 1 uppercase character",
+                "fontSize": 14.0,
+                "font": {
+                 "family": "Barlow",
+                 "style": "Medium",
+                 "postscript": "Barlow-Medium"
+                },
+                "lineHeight": {
+                 "value": 20.0,
+                 "units": "PIXELS"
+                },
+                "letterSpacing": {
+                 "value": 0.0,
+                 "units": "PERCENT"
+                },
+                "alignH": "CENTER",
+                "alignV": "TOP",
+                "case": null,
+                "decoration": null,
+                "autoResize": "WIDTH_AND_HEIGHT"
+               }
+              }
+             ]
+            }
+           ]
+          },
+          {
+           "name": "Requirement Container",
+           "type": "FRAME",
+           "x": 0.0,
+           "y": 44.0,
+           "w": 186.0,
+           "h": 18.0,
+           "strokeWeight": 1.0,
+           "strokeAlign": "INSIDE",
+           "stackMode": "VERTICAL",
+           "stackSpacing": 4.0,
+           "stackCounterSizing": "RESIZE_TO_FIT_WITH_IMPLICIT_SIZE",
+           "frameMaskDisabled": true,
+           "children": [
+            {
+             "name": "Requirement Details Container",
+             "type": "FRAME",
+             "x": 0.0,
+             "y": 0.0,
+             "w": 186.0,
+             "h": 18.0,
+             "strokeWeight": 1.0,
+             "strokeAlign": "INSIDE",
+             "stackMode": "HORIZONTAL",
+             "stackSpacing": 4.0,
+             "stackCounterAlignItems": "CENTER",
+             "stackCounterSizing": "RESIZE_TO_FIT_WITH_IMPLICIT_SIZE",
+             "frameMaskDisabled": true,
+             "children": [
+              {
+               "name": "Requirement Icon",
+               "type": "INSTANCE",
+               "x": 0.0,
+               "y": 3.0,
+               "w": 12.0,
+               "h": 12.0,
+               "strokeWeight": 1.0,
+               "strokeAlign": "INSIDE"
+              },
+              {
+               "name": "Requirement Text",
+               "type": "TEXT",
+               "x": 16.0,
+               "y": 0.0,
+               "w": 170.0,
+               "h": 18.0,
+               "strokeWeight": 1.0,
+               "strokeAlign": "OUTSIDE",
+               "fills": [
+                {
+                 "type": "SOLID",
+                 "color": "#121212"
+                }
+               ],
+               "text": {
+                "characters": "Includes 1 lowercase letter (a-z)",
+                "fontSize": 12.0,
+                "font": {
+                 "family": "Roboto",
+                 "style": "Regular",
+                 "postscript": "Roboto-Regular"
+                },
+                "lineHeight": {
+                 "value": 18.0,
+                 "units": "PIXELS"
+                },
+                "letterSpacing": {
+                 "value": 0.0,
+                 "units": "PERCENT"
+                },
+                "alignH": "CENTER",
+                "alignV": "TOP",
+                "case": null,
+                "decoration": null,
+                "autoResize": "WIDTH_AND_HEIGHT"
+               }
+              }
+             ]
+            },
+            {
+             "name": "Frame 1000004428",
+             "type": "FRAME",
+             "x": 0.0,
+             "y": 24.0,
+             "w": 291.0,
+             "h": 20.0,
+             "visible": false,
+             "strokeWeight": 1.0,
+             "strokeAlign": "INSIDE",
+             "stackMode": "HORIZONTAL",
+             "stackSpacing": 4.0,
+             "stackCounterAlignItems": "CENTER",
+             "stackCounterSizing": "RESIZE_TO_FIT_WITH_IMPLICIT_SIZE",
+             "frameMaskDisabled": true,
+             "children": [
+              {
+               "name": "check",
+               "type": "INSTANCE",
+               "x": 0.0,
+               "y": 4.0,
+               "w": 12.0,
+               "h": 12.0,
+               "strokeWeight": 1.0,
+               "strokeAlign": "INSIDE"
+              },
+              {
+               "name": "Include at least 1 number or special character",
+               "type": "TEXT",
+               "x": 16.0,
+               "y": 0.0,
+               "w": 275.0,
+               "h": 20.0,
+               "strokeWeight": 1.0,
+               "strokeAlign": "OUTSIDE",
+               "fills": [
+                {
+                 "type": "SOLID",
+                 "color": "#616161"
+                }
+               ],
+               "text": {
+                "characters": "Include at least 1 number or special character",
+                "fontSize": 14.0,
+                "font": {
+                 "family": "Barlow",
+                 "style": "Medium",
+                 "postscript": "Barlow-Medium"
+                },
+                "lineHeight": {
+                 "value": 20.0,
+                 "units": "PIXELS"
+                },
+                "letterSpacing": {
+                 "value": 0.0,
+                 "units": "PERCENT"
+                },
+                "alignH": "CENTER",
+                "alignV": "TOP",
+                "case": null,
+                "decoration": null,
+                "autoResize": "WIDTH_AND_HEIGHT"
+               }
+              }
+             ]
+            },
+            {
+             "name": "Frame 1000004429",
+             "type": "FRAME",
+             "x": 0.0,
+             "y": 48.0,
+             "w": 244.0,
+             "h": 20.0,
+             "visible": false,
+             "strokeWeight": 1.0,
+             "strokeAlign": "INSIDE",
+             "stackMode": "HORIZONTAL",
+             "stackSpacing": 4.0,
+             "stackCounterAlignItems": "CENTER",
+             "stackCounterSizing": "RESIZE_TO_FIT_WITH_IMPLICIT_SIZE",
+             "frameMaskDisabled": true,
+             "children": [
+              {
+               "name": "check",
+               "type": "INSTANCE",
+               "x": 0.0,
+               "y": 4.0,
+               "w": 12.0,
+               "h": 12.0,
+               "strokeWeight": 1.0,
+               "strokeAlign": "INSIDE"
+              },
+              {
+               "name": "Include at least 1 lowercase character",
+               "type": "TEXT",
+               "x": 16.0,
+               "y": 0.0,
+               "w": 228.0,
+               "h": 20.0,
+               "strokeWeight": 1.0,
+               "strokeAlign": "OUTSIDE",
+               "fills": [
+                {
+                 "type": "SOLID",
+                 "color": "#616161"
+                }
+               ],
+               "text": {
+                "characters": "Include at least 1 lowercase character",
+                "fontSize": 14.0,
+                "font": {
+                 "family": "Barlow",
+                 "style": "Medium",
+                 "postscript": "Barlow-Medium"
+                },
+                "lineHeight": {
+                 "value": 20.0,
+                 "units": "PIXELS"
+                },
+                "letterSpacing": {
+                 "value": 0.0,
+                 "units": "PERCENT"
+                },
+                "alignH": "CENTER",
+                "alignV": "TOP",
+                "case": null,
+                "decoration": null,
+                "autoResize": "WIDTH_AND_HEIGHT"
+               }
+              }
+             ]
+            },
+            {
+             "name": "Frame 1000004427",
+             "type": "FRAME",
+             "x": 0.0,
+             "y": 72.0,
+             "w": 246.0,
+             "h": 20.0,
+             "visible": false,
+             "strokeWeight": 1.0,
+             "strokeAlign": "INSIDE",
+             "stackMode": "HORIZONTAL",
+             "stackSpacing": 4.0,
+             "stackCounterAlignItems": "CENTER",
+             "stackCounterSizing": "RESIZE_TO_FIT_WITH_IMPLICIT_SIZE",
+             "frameMaskDisabled": true,
+             "children": [
+              {
+               "name": "check",
+               "type": "INSTANCE",
+               "x": 0.0,
+               "y": 4.0,
+               "w": 12.0,
+               "h": 12.0,
+               "strokeWeight": 1.0,
+               "strokeAlign": "INSIDE"
+              },
+              {
+               "name": "Include at least 1 uppercase character",
+               "type": "TEXT",
+               "x": 16.0,
+               "y": 0.0,
+               "w": 230.0,
+               "h": 20.0,
+               "strokeWeight": 1.0,
+               "strokeAlign": "OUTSIDE",
+               "fills": [
+                {
+                 "type": "SOLID",
+                 "color": "#616161"
+                }
+               ],
+               "text": {
+                "characters": "Include at least 1 uppercase character",
+                "fontSize": 14.0,
+                "font": {
+                 "family": "Barlow",
+                 "style": "Medium",
+                 "postscript": "Barlow-Medium"
+                },
+                "lineHeight": {
+                 "value": 20.0,
+                 "units": "PIXELS"
+                },
+                "letterSpacing": {
+                 "value": 0.0,
+                 "units": "PERCENT"
+                },
+                "alignH": "CENTER",
+                "alignV": "TOP",
+                "case": null,
+                "decoration": null,
+                "autoResize": "WIDTH_AND_HEIGHT"
+               }
+              }
+             ]
+            }
+           ]
+          },
+          {
+           "name": "Requirement Container",
+           "type": "FRAME",
+           "x": 0.0,
+           "y": 66.0,
+           "w": 190.0,
+           "h": 18.0,
+           "strokeWeight": 1.0,
+           "strokeAlign": "INSIDE",
+           "stackMode": "VERTICAL",
+           "stackSpacing": 4.0,
+           "stackCounterSizing": "RESIZE_TO_FIT_WITH_IMPLICIT_SIZE",
+           "frameMaskDisabled": true,
+           "children": [
+            {
+             "name": "Requirement Details Container",
+             "type": "FRAME",
+             "x": 0.0,
+             "y": 0.0,
+             "w": 190.0,
+             "h": 18.0,
+             "strokeWeight": 1.0,
+             "strokeAlign": "INSIDE",
+             "stackMode": "HORIZONTAL",
+             "stackSpacing": 4.0,
+             "stackCounterAlignItems": "CENTER",
+             "stackCounterSizing": "RESIZE_TO_FIT_WITH_IMPLICIT_SIZE",
+             "frameMaskDisabled": true,
+             "children": [
+              {
+               "name": "Requirement Icon",
+               "type": "INSTANCE",
+               "x": 0.0,
+               "y": 3.0,
+               "w": 12.0,
+               "h": 12.0,
+               "strokeWeight": 1.0,
+               "strokeAlign": "INSIDE"
+              },
+              {
+               "name": "Requirement Text",
+               "type": "TEXT",
+               "x": 16.0,
+               "y": 0.0,
+               "w": 174.0,
+               "h": 18.0,
+               "strokeWeight": 1.0,
+               "strokeAlign": "OUTSIDE",
+               "fills": [
+                {
+                 "type": "SOLID",
+                 "color": "#121212"
+                }
+               ],
+               "text": {
+                "characters": "Includes 1 uppercase letter (A-Z)",
+                "fontSize": 12.0,
+                "font": {
+                 "family": "Roboto",
+                 "style": "Regular",
+                 "postscript": "Roboto-Regular"
+                },
+                "lineHeight": {
+                 "value": 18.0,
+                 "units": "PIXELS"
+                },
+                "letterSpacing": {
+                 "value": 0.0,
+                 "units": "PERCENT"
+                },
+                "alignH": "CENTER",
+                "alignV": "TOP",
+                "case": null,
+                "decoration": null,
+                "autoResize": "WIDTH_AND_HEIGHT"
+               }
+              }
+             ]
+            },
+            {
+             "name": "Frame 1000004428",
+             "type": "FRAME",
+             "x": 0.0,
+             "y": 24.0,
+             "w": 291.0,
+             "h": 20.0,
+             "visible": false,
+             "strokeWeight": 1.0,
+             "strokeAlign": "INSIDE",
+             "stackMode": "HORIZONTAL",
+             "stackSpacing": 4.0,
+             "stackCounterAlignItems": "CENTER",
+             "stackCounterSizing": "RESIZE_TO_FIT_WITH_IMPLICIT_SIZE",
+             "frameMaskDisabled": true,
+             "children": [
+              {
+               "name": "check",
+               "type": "INSTANCE",
+               "x": 0.0,
+               "y": 4.0,
+               "w": 12.0,
+               "h": 12.0,
+               "strokeWeight": 1.0,
+               "strokeAlign": "INSIDE"
+              },
+              {
+               "name": "Include at least 1 number or special character",
+               "type": "TEXT",
+               "x": 16.0,
+               "y": 0.0,
+               "w": 275.0,
+               "h": 20.0,
+               "strokeWeight": 1.0,
+               "strokeAlign": "OUTSIDE",
+               "fills": [
+                {
+                 "type": "SOLID",
+                 "color": "#616161"
+                }
+               ],
+               "text": {
+                "characters": "Include at least 1 number or special character",
+                "fontSize": 14.0,
+                "font": {
+                 "family": "Barlow",
+                 "style": "Medium",
+                 "postscript": "Barlow-Medium"
+                },
+                "lineHeight": {
+                 "value": 20.0,
+                 "units": "PIXELS"
+                },
+                "letterSpacing": {
+                 "value": 0.0,
+                 "units": "PERCENT"
+                },
+                "alignH": "CENTER",
+                "alignV": "TOP",
+                "case": null,
+                "decoration": null,
+                "autoResize": "WIDTH_AND_HEIGHT"
+               }
+              }
+             ]
+            },
+            {
+             "name": "Frame 1000004429",
+             "type": "FRAME",
+             "x": 0.0,
+             "y": 48.0,
+             "w": 244.0,
+             "h": 20.0,
+             "visible": false,
+             "strokeWeight": 1.0,
+             "strokeAlign": "INSIDE",
+             "stackMode": "HORIZONTAL",
+             "stackSpacing": 4.0,
+             "stackCounterAlignItems": "CENTER",
+             "stackCounterSizing": "RESIZE_TO_FIT_WITH_IMPLICIT_SIZE",
+             "frameMaskDisabled": true,
+             "children": [
+              {
+               "name": "check",
+               "type": "INSTANCE",
+               "x": 0.0,
+               "y": 4.0,
+               "w": 12.0,
+               "h": 12.0,
+               "strokeWeight": 1.0,
+               "strokeAlign": "INSIDE"
+              },
+              {
+               "name": "Include at least 1 lowercase character",
+               "type": "TEXT",
+               "x": 16.0,
+               "y": 0.0,
+               "w": 228.0,
+               "h": 20.0,
+               "strokeWeight": 1.0,
+               "strokeAlign": "OUTSIDE",
+               "fills": [
+                {
+                 "type": "SOLID",
+                 "color": "#616161"
+                }
+               ],
+               "text": {
+                "characters": "Include at least 1 lowercase character",
+                "fontSize": 14.0,
+                "font": {
+                 "family": "Barlow",
+                 "style": "Medium",
+                 "postscript": "Barlow-Medium"
+                },
+                "lineHeight": {
+                 "value": 20.0,
+                 "units": "PIXELS"
+                },
+                "letterSpacing": {
+                 "value": 0.0,
+                 "units": "PERCENT"
+                },
+                "alignH": "CENTER",
+                "alignV": "TOP",
+                "case": null,
+                "decoration": null,
+                "autoResize": "WIDTH_AND_HEIGHT"
+               }
+              }
+             ]
+            },
+            {
+             "name": "Frame 1000004427",
+             "type": "FRAME",
+             "x": 0.0,
+             "y": 72.0,
+             "w": 246.0,
+             "h": 20.0,
+             "visible": false,
+             "strokeWeight": 1.0,
+             "strokeAlign": "INSIDE",
+             "stackMode": "HORIZONTAL",
+             "stackSpacing": 4.0,
+             "stackCounterAlignItems": "CENTER",
+             "stackCounterSizing": "RESIZE_TO_FIT_WITH_IMPLICIT_SIZE",
+             "frameMaskDisabled": true,
+             "children": [
+              {
+               "name": "check",
+               "type": "INSTANCE",
+               "x": 0.0,
+               "y": 4.0,
+               "w": 12.0,
+               "h": 12.0,
+               "strokeWeight": 1.0,
+               "strokeAlign": "INSIDE"
+              },
+              {
+               "name": "Include at least 1 uppercase character",
+               "type": "TEXT",
+               "x": 16.0,
+               "y": 0.0,
+               "w": 230.0,
+               "h": 20.0,
+               "strokeWeight": 1.0,
+               "strokeAlign": "OUTSIDE",
+               "fills": [
+                {
+                 "type": "SOLID",
+                 "color": "#616161"
+                }
+               ],
+               "text": {
+                "characters": "Include at least 1 uppercase character",
+                "fontSize": 14.0,
+                "font": {
+                 "family": "Barlow",
+                 "style": "Medium",
+                 "postscript": "Barlow-Medium"
+                },
+                "lineHeight": {
+                 "value": 20.0,
+                 "units": "PIXELS"
+                },
+                "letterSpacing": {
+                 "value": 0.0,
+                 "units": "PERCENT"
+                },
+                "alignH": "CENTER",
+                "alignV": "TOP",
+                "case": null,
+                "decoration": null,
+                "autoResize": "WIDTH_AND_HEIGHT"
+               }
+              }
+             ]
+            }
+           ]
+          },
+          {
+           "name": "Requirement Container",
+           "type": "FRAME",
+           "x": 0.0,
+           "y": 88.0,
+           "w": 149.0,
+           "h": 18.0,
+           "strokeWeight": 1.0,
+           "strokeAlign": "INSIDE",
+           "stackMode": "VERTICAL",
+           "stackSpacing": 4.0,
+           "stackCounterSizing": "RESIZE_TO_FIT_WITH_IMPLICIT_SIZE",
+           "frameMaskDisabled": true,
+           "children": [
+            {
+             "name": "Requirement Details Container",
+             "type": "FRAME",
+             "x": 0.0,
+             "y": 0.0,
+             "w": 149.0,
+             "h": 18.0,
+             "strokeWeight": 1.0,
+             "strokeAlign": "INSIDE",
+             "stackMode": "HORIZONTAL",
+             "stackSpacing": 4.0,
+             "stackCounterAlignItems": "CENTER",
+             "stackCounterSizing": "RESIZE_TO_FIT_WITH_IMPLICIT_SIZE",
+             "frameMaskDisabled": true,
+             "children": [
+              {
+               "name": "Requirement Icon",
+               "type": "INSTANCE",
+               "x": 0.0,
+               "y": 3.0,
+               "w": 12.0,
+               "h": 12.0,
+               "strokeWeight": 1.0,
+               "strokeAlign": "INSIDE"
+              },
+              {
+               "name": "Requirement Text",
+               "type": "TEXT",
+               "x": 16.0,
+               "y": 0.0,
+               "w": 133.0,
+               "h": 18.0,
+               "strokeWeight": 1.0,
+               "strokeAlign": "OUTSIDE",
+               "fills": [
+                {
+                 "type": "SOLID",
+                 "color": "#121212"
+                }
+               ],
+               "text": {
+                "characters": "Includes 1 number (0 - 9)",
+                "fontSize": 12.0,
+                "font": {
+                 "family": "Roboto",
+                 "style": "Regular",
+                 "postscript": "Roboto-Regular"
+                },
+                "lineHeight": {
+                 "value": 18.0,
+                 "units": "PIXELS"
+                },
+                "letterSpacing": {
+                 "value": 0.0,
+                 "units": "PERCENT"
+                },
+                "alignH": "CENTER",
+                "alignV": "TOP",
+                "case": null,
+                "decoration": null,
+                "autoResize": "WIDTH_AND_HEIGHT"
+               }
+              }
+             ]
+            },
+            {
+             "name": "Frame 1000004428",
+             "type": "FRAME",
+             "x": 0.0,
+             "y": 24.0,
+             "w": 291.0,
+             "h": 20.0,
+             "visible": false,
+             "strokeWeight": 1.0,
+             "strokeAlign": "INSIDE",
+             "stackMode": "HORIZONTAL",
+             "stackSpacing": 4.0,
+             "stackCounterAlignItems": "CENTER",
+             "stackCounterSizing": "RESIZE_TO_FIT_WITH_IMPLICIT_SIZE",
+             "frameMaskDisabled": true,
+             "children": [
+              {
+               "name": "check",
+               "type": "INSTANCE",
+               "x": 0.0,
+               "y": 4.0,
+               "w": 12.0,
+               "h": 12.0,
+               "strokeWeight": 1.0,
+               "strokeAlign": "INSIDE"
+              },
+              {
+               "name": "Include at least 1 number or special character",
+               "type": "TEXT",
+               "x": 16.0,
+               "y": 0.0,
+               "w": 275.0,
+               "h": 20.0,
+               "strokeWeight": 1.0,
+               "strokeAlign": "OUTSIDE",
+               "fills": [
+                {
+                 "type": "SOLID",
+                 "color": "#616161"
+                }
+               ],
+               "text": {
+                "characters": "Include at least 1 number or special character",
+                "fontSize": 14.0,
+                "font": {
+                 "family": "Barlow",
+                 "style": "Medium",
+                 "postscript": "Barlow-Medium"
+                },
+                "lineHeight": {
+                 "value": 20.0,
+                 "units": "PIXELS"
+                },
+                "letterSpacing": {
+                 "value": 0.0,
+                 "units": "PERCENT"
+                },
+                "alignH": "CENTER",
+                "alignV": "TOP",
+                "case": null,
+                "decoration": null,
+                "autoResize": "WIDTH_AND_HEIGHT"
+               }
+              }
+             ]
+            },
+            {
+             "name": "Frame 1000004429",
+             "type": "FRAME",
+             "x": 0.0,
+             "y": 48.0,
+             "w": 244.0,
+             "h": 20.0,
+             "visible": false,
+             "strokeWeight": 1.0,
+             "strokeAlign": "INSIDE",
+             "stackMode": "HORIZONTAL",
+             "stackSpacing": 4.0,
+             "stackCounterAlignItems": "CENTER",
+             "stackCounterSizing": "RESIZE_TO_FIT_WITH_IMPLICIT_SIZE",
+             "frameMaskDisabled": true,
+             "children": [
+              {
+               "name": "check",
+               "type": "INSTANCE",
+               "x": 0.0,
+               "y": 4.0,
+               "w": 12.0,
+               "h": 12.0,
+               "strokeWeight": 1.0,
+               "strokeAlign": "INSIDE"
+              },
+              {
+               "name": "Include at least 1 lowercase character",
+               "type": "TEXT",
+               "x": 16.0,
+               "y": 0.0,
+               "w": 228.0,
+               "h": 20.0,
+               "strokeWeight": 1.0,
+               "strokeAlign": "OUTSIDE",
+               "fills": [
+                {
+                 "type": "SOLID",
+                 "color": "#616161"
+                }
+               ],
+               "text": {
+                "characters": "Include at least 1 lowercase character",
+                "fontSize": 14.0,
+                "font": {
+                 "family": "Barlow",
+                 "style": "Medium",
+                 "postscript": "Barlow-Medium"
+                },
+                "lineHeight": {
+                 "value": 20.0,
+                 "units": "PIXELS"
+                },
+                "letterSpacing": {
+                 "value": 0.0,
+                 "units": "PERCENT"
+                },
+                "alignH": "CENTER",
+                "alignV": "TOP",
+                "case": null,
+                "decoration": null,
+                "autoResize": "WIDTH_AND_HEIGHT"
+               }
+              }
+             ]
+            },
+            {
+             "name": "Frame 1000004427",
+             "type": "FRAME",
+             "x": 0.0,
+             "y": 72.0,
+             "w": 246.0,
+             "h": 20.0,
+             "visible": false,
+             "strokeWeight": 1.0,
+             "strokeAlign": "INSIDE",
+             "stackMode": "HORIZONTAL",
+             "stackSpacing": 4.0,
+             "stackCounterAlignItems": "CENTER",
+             "stackCounterSizing": "RESIZE_TO_FIT_WITH_IMPLICIT_SIZE",
+             "frameMaskDisabled": true,
+             "children": [
+              {
+               "name": "check",
+               "type": "INSTANCE",
+               "x": 0.0,
+               "y": 4.0,
+               "w": 12.0,
+               "h": 12.0,
+               "strokeWeight": 1.0,
+               "strokeAlign": "INSIDE"
+              },
+              {
+               "name": "Include at least 1 uppercase character",
+               "type": "TEXT",
+               "x": 16.0,
+               "y": 0.0,
+               "w": 230.0,
+               "h": 20.0,
+               "strokeWeight": 1.0,
+               "strokeAlign": "OUTSIDE",
+               "fills": [
+                {
+                 "type": "SOLID",
+                 "color": "#616161"
+                }
+               ],
+               "text": {
+                "characters": "Include at least 1 uppercase character",
+                "fontSize": 14.0,
+                "font": {
+                 "family": "Barlow",
+                 "style": "Medium",
+                 "postscript": "Barlow-Medium"
+                },
+                "lineHeight": {
+                 "value": 20.0,
+                 "units": "PIXELS"
+                },
+                "letterSpacing": {
+                 "value": 0.0,
+                 "units": "PERCENT"
+                },
+                "alignH": "CENTER",
+                "alignV": "TOP",
+                "case": null,
+                "decoration": null,
+                "autoResize": "WIDTH_AND_HEIGHT"
+               }
+              }
+             ]
+            }
+           ]
+          },
+          {
+           "name": "Password Requirements Item Container",
+           "type": "FRAME",
+           "x": 0.0,
+           "y": 110.0,
+           "w": 285.0,
+           "h": 18.0,
+           "strokeWeight": 1.0,
+           "strokeAlign": "INSIDE",
+           "stackMode": "VERTICAL",
+           "stackSpacing": 4.0,
+           "stackCounterSizing": "RESIZE_TO_FIT_WITH_IMPLICIT_SIZE",
+           "frameMaskDisabled": true,
+           "children": [
+            {
+             "name": "Password Requirements Item",
+             "type": "FRAME",
+             "x": 0.0,
+             "y": 0.0,
+             "w": 285.0,
+             "h": 18.0,
+             "strokeWeight": 1.0,
+             "strokeAlign": "INSIDE",
+             "stackMode": "HORIZONTAL",
+             "stackSpacing": 4.0,
+             "stackCounterAlignItems": "CENTER",
+             "stackCounterSizing": "RESIZE_TO_FIT_WITH_IMPLICIT_SIZE",
+             "frameMaskDisabled": true,
+             "children": [
+              {
+               "name": "Check Icon",
+               "type": "INSTANCE",
+               "x": 0.0,
+               "y": 3.0,
+               "w": 12.0,
+               "h": 12.0,
+               "strokeWeight": 1.0,
+               "strokeAlign": "INSIDE"
+              },
+              {
+               "name": "Requirement Text",
+               "type": "TEXT",
+               "x": 16.0,
+               "y": 0.0,
+               "w": 269.0,
+               "h": 18.0,
+               "strokeWeight": 1.0,
+               "strokeAlign": "OUTSIDE",
+               "fills": [
+                {
+                 "type": "SOLID",
+                 "color": "#121212"
+                }
+               ],
+               "text": {
+                "characters": "Includes 1 special character (! @ # $ % ^ & * ( ) _ +)",
+                "fontSize": 12.0,
+                "font": {
+                 "family": "Roboto",
+                 "style": "Regular",
+                 "postscript": "Roboto-Regular"
+                },
+                "lineHeight": {
+                 "value": 18.0,
+                 "units": "PIXELS"
+                },
+                "letterSpacing": {
+                 "value": 0.0,
+                 "units": "PERCENT"
+                },
+                "alignH": "CENTER",
+                "alignV": "TOP",
+                "case": null,
+                "decoration": null,
+                "autoResize": "WIDTH_AND_HEIGHT"
+               }
+              }
+             ]
+            },
+            {
+             "name": "Frame 1000004428",
+             "type": "FRAME",
+             "x": 0.0,
+             "y": 24.0,
+             "w": 291.0,
+             "h": 20.0,
+             "visible": false,
+             "strokeWeight": 1.0,
+             "strokeAlign": "INSIDE",
+             "stackMode": "HORIZONTAL",
+             "stackSpacing": 4.0,
+             "stackCounterAlignItems": "CENTER",
+             "stackCounterSizing": "RESIZE_TO_FIT_WITH_IMPLICIT_SIZE",
+             "frameMaskDisabled": true,
+             "children": [
+              {
+               "name": "check",
+               "type": "INSTANCE",
+               "x": 0.0,
+               "y": 4.0,
+               "w": 12.0,
+               "h": 12.0,
+               "strokeWeight": 1.0,
+               "strokeAlign": "INSIDE"
+              },
+              {
+               "name": "Include at least 1 number or special character",
+               "type": "TEXT",
+               "x": 16.0,
+               "y": 0.0,
+               "w": 275.0,
+               "h": 20.0,
+               "strokeWeight": 1.0,
+               "strokeAlign": "OUTSIDE",
+               "fills": [
+                {
+                 "type": "SOLID",
+                 "color": "#616161"
+                }
+               ],
+               "text": {
+                "characters": "Include at least 1 number or special character",
+                "fontSize": 14.0,
+                "font": {
+                 "family": "Barlow",
+                 "style": "Medium",
+                 "postscript": "Barlow-Medium"
+                },
+                "lineHeight": {
+                 "value": 20.0,
+                 "units": "PIXELS"
+                },
+                "letterSpacing": {
+                 "value": 0.0,
+                 "units": "PERCENT"
+                },
+                "alignH": "CENTER",
+                "alignV": "TOP",
+                "case": null,
+                "decoration": null,
+                "autoResize": "WIDTH_AND_HEIGHT"
+               }
+              }
+             ]
+            },
+            {
+             "name": "Frame 1000004429",
+             "type": "FRAME",
+             "x": 0.0,
+             "y": 48.0,
+             "w": 244.0,
+             "h": 20.0,
+             "visible": false,
+             "strokeWeight": 1.0,
+             "strokeAlign": "INSIDE",
+             "stackMode": "HORIZONTAL",
+             "stackSpacing": 4.0,
+             "stackCounterAlignItems": "CENTER",
+             "stackCounterSizing": "RESIZE_TO_FIT_WITH_IMPLICIT_SIZE",
+             "frameMaskDisabled": true,
+             "children": [
+              {
+               "name": "check",
+               "type": "INSTANCE",
+               "x": 0.0,
+               "y": 4.0,
+               "w": 12.0,
+               "h": 12.0,
+               "strokeWeight": 1.0,
+               "strokeAlign": "INSIDE"
+              },
+              {
+               "name": "Include at least 1 lowercase character",
+               "type": "TEXT",
+               "x": 16.0,
+               "y": 0.0,
+               "w": 228.0,
+               "h": 20.0,
+               "strokeWeight": 1.0,
+               "strokeAlign": "OUTSIDE",
+               "fills": [
+                {
+                 "type": "SOLID",
+                 "color": "#616161"
+                }
+               ],
+               "text": {
+                "characters": "Include at least 1 lowercase character",
+                "fontSize": 14.0,
+                "font": {
+                 "family": "Barlow",
+                 "style": "Medium",
+                 "postscript": "Barlow-Medium"
+                },
+                "lineHeight": {
+                 "value": 20.0,
+                 "units": "PIXELS"
+                },
+                "letterSpacing": {
+                 "value": 0.0,
+                 "units": "PERCENT"
+                },
+                "alignH": "CENTER",
+                "alignV": "TOP",
+                "case": null,
+                "decoration": null,
+                "autoResize": "WIDTH_AND_HEIGHT"
+               }
+              }
+             ]
+            },
+            {
+             "name": "Frame 1000004427",
+             "type": "FRAME",
+             "x": 0.0,
+             "y": 72.0,
+             "w": 246.0,
+             "h": 20.0,
+             "visible": false,
+             "strokeWeight": 1.0,
+             "strokeAlign": "INSIDE",
+             "stackMode": "HORIZONTAL",
+             "stackSpacing": 4.0,
+             "stackCounterAlignItems": "CENTER",
+             "stackCounterSizing": "RESIZE_TO_FIT_WITH_IMPLICIT_SIZE",
+             "frameMaskDisabled": true,
+             "children": [
+              {
+               "name": "check",
+               "type": "INSTANCE",
+               "x": 0.0,
+               "y": 4.0,
+               "w": 12.0,
+               "h": 12.0,
+               "strokeWeight": 1.0,
+               "strokeAlign": "INSIDE"
+              },
+              {
+               "name": "Include at least 1 uppercase character",
+               "type": "TEXT",
+               "x": 16.0,
+               "y": 0.0,
+               "w": 230.0,
+               "h": 20.0,
+               "strokeWeight": 1.0,
+               "strokeAlign": "OUTSIDE",
+               "fills": [
+                {
+                 "type": "SOLID",
+                 "color": "#616161"
+                }
+               ],
+               "text": {
+                "characters": "Include at least 1 uppercase character",
+                "fontSize": 14.0,
+                "font": {
+                 "family": "Barlow",
+                 "style": "Medium",
+                 "postscript": "Barlow-Medium"
+                },
+                "lineHeight": {
+                 "value": 20.0,
+                 "units": "PIXELS"
+                },
+                "letterSpacing": {
+                 "value": 0.0,
+                 "units": "PERCENT"
+                },
+                "alignH": "CENTER",
+                "alignV": "TOP",
+                "case": null,
+                "decoration": null,
+                "autoResize": "WIDTH_AND_HEIGHT"
+               }
+              }
+             ]
+            }
+           ]
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "name": "Dropdown field",
+       "type": "INSTANCE",
+       "x": 0.0,
+       "y": 328.0,
+       "w": 343.0,
+       "h": 74.0,
+       "strokeWeight": 1.0,
+       "strokeAlign": "INSIDE",
+       "stackMode": "VERTICAL",
+       "frameMaskDisabled": true
+      }
+     ]
+    },
+    {
+     "name": "Button Container",
+     "type": "FRAME",
+     "x": 0.0,
+     "y": 434.0,
+     "w": 343.0,
+     "h": 54.0,
+     "strokeWeight": 1.0,
+     "strokeAlign": "INSIDE",
+     "stackMode": "VERTICAL",
+     "stackSpacing": 24.0,
+     "stackPrimarySizing": "FIXED",
+     "frameMaskDisabled": true,
+     "children": [
+      {
+       "name": "Button",
+       "type": "FRAME",
+       "x": 0.0,
+       "y": 0.0,
+       "w": 343.0,
+       "h": 54.0,
+       "strokeWeight": 1.0,
+       "strokeAlign": "INSIDE",
+       "stackMode": "VERTICAL",
+       "stackSpacing": 24.0,
+       "stackCounterAlignItems": "CENTER",
+       "frameMaskDisabled": true,
+       "children": [
+        {
+         "name": "Button",
+         "type": "INSTANCE",
+         "x": 0.0,
+         "y": 0.0,
+         "w": 343.0,
+         "h": 54.0,
+         "strokeWeight": 1.0,
+         "strokeAlign": "INSIDE",
+         "stackMode": "HORIZONTAL",
+         "stackPrimarySizing": "FIXED",
+         "stackCounterSizing": "RESIZE_TO_FIT_WITH_IMPLICIT_SIZE",
+         "frameMaskDisabled": true
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "🧰/Home Indicator (iPhone)",
+   "type": "INSTANCE",
+   "x": 0.0,
+   "y": 781.0,
+   "w": 375.0,
+   "h": 34.0,
+   "strokeWeight": 1.0,
+   "strokeAlign": "INSIDE",
+   "stackChildPrimaryGrow": 1.0,
+   "verticalConstraint": "MAX",
+   "frameMaskDisabled": true,
+   "fills": [
+    {
+     "type": "SOLID",
+     "color": "#FFFFFF"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,627 @@
+{
+ "name": "DRs - Detail",
+ "type": "FRAME",
+ "x": 1333.0,
+ "y": 468.0,
+ "w": 375.0,
+ "h": 2377.0,
+ "strokeWeight": 4.0,
+ "strokeAlign": "INSIDE",
+ "stackMode": "VERTICAL",
+ "stackSpacing": 8.0,
+ "stackCounterSizing": "RESIZE_TO_FIT_WITH_IMPLICIT_SIZE",
+ "fills": [
+  {
+   "type": "SOLID",
+   "color": "#FFFFFF"
+  }
+ ],
+ "children": [
+  {
+   "name": "Main Container",
+   "type": "FRAME",
+   "x": 0.0,
+   "y": 0.0,
+   "w": 375.0,
+   "h": 2377.0,
+   "strokeWeight": 1.0,
+   "strokeAlign": "INSIDE",
+   "stackMode": "VERTICAL",
+   "stackSpacing": 24.0,
+   "stackCounterAlignItems": "CENTER",
+   "frameMaskDisabled": true,
+   "children": [
+    {
+     "name": "Top Navigation",
+     "type": "INSTANCE",
+     "x": 0.0,
+     "y": 0.0,
+     "w": 375.0,
+     "h": 217.0,
+     "strokeWeight": 1.0,
+     "strokeAlign": "INSIDE",
+     "stackMode": "VERTICAL",
+     "frameMaskDisabled": true
+    },
+    {
+     "name": "Container",
+     "type": "FRAME",
+     "x": 16.0,
+     "y": 241.0,
+     "w": 343.0,
+     "h": 1898.0,
+     "strokeWeight": 1.0,
+     "strokeAlign": "INSIDE",
+     "stackMode": "VERTICAL",
+     "stackSpacing": 24.0,
+     "frameMaskDisabled": true,
+     "children": [
+      {
+       "name": "Container",
+       "type": "FRAME",
+       "x": 0.0,
+       "y": 0.0,
+       "w": 343.0,
+       "h": 1898.0,
+       "strokeWeight": 1.0,
+       "strokeAlign": "INSIDE",
+       "stackMode": "VERTICAL",
+       "stackSpacing": 24.0,
+       "frameMaskDisabled": true,
+       "children": [
+        {
+         "name": "body",
+         "type": "FRAME",
+         "x": 0.0,
+         "y": 0.0,
+         "w": 343.0,
+         "h": 1898.0,
+         "strokeWeight": 1.0,
+         "strokeAlign": "INSIDE",
+         "stackMode": "VERTICAL",
+         "stackSpacing": 16.0,
+         "frameMaskDisabled": true,
+         "children": [
+          {
+           "name": "Section Text",
+           "type": "TEXT",
+           "x": 0.0,
+           "y": 0.0,
+           "w": 343.0,
+           "h": 176.0,
+           "strokeWeight": 0.4000000059604645,
+           "strokeAlign": "CENTER",
+           "fills": [
+            {
+             "type": "SOLID",
+             "color": "#000000"
+            }
+           ],
+           "text": {
+            "characters": "Panic attacks can happen suddenly and feel overwhelming. Many people describe them as intense waves of fear that appear without warning, even when there is no real danger present. While occasional anxiety is a normal part of life, repeated panic attacks may be a sign of panic disorder and should not be ignored.",
+            "fontSize": 16.0,
+            "font": {
+             "family": "Roboto",
+             "style": "Regular",
+             "postscript": "Roboto-Regular"
+            },
+            "lineHeight": {
+             "value": 22.0,
+             "units": "PIXELS"
+            },
+            "letterSpacing": {
+             "value": 0.0,
+             "units": "PERCENT"
+            },
+            "alignH": null,
+            "alignV": "TOP",
+            "case": null,
+            "decoration": null,
+            "autoResize": "HEIGHT"
+           }
+          },
+          {
+           "name": "Container",
+           "type": "FRAME",
+           "x": 0.0,
+           "y": 192.0,
+           "w": 343.0,
+           "h": 446.0,
+           "strokeWeight": 1.0,
+           "strokeAlign": "INSIDE",
+           "stackMode": "VERTICAL",
+           "stackSpacing": 8.0,
+           "frameMaskDisabled": true,
+           "children": [
+            {
+             "name": "Section Title",
+             "type": "TEXT",
+             "x": 0.0,
+             "y": 0.0,
+             "w": 343.0,
+             "h": 26.0,
+             "strokeWeight": 0.4000000059604645,
+             "strokeAlign": "CENTER",
+             "fills": [
+              {
+               "type": "SOLID",
+               "color": "#121212"
+              }
+             ],
+             "text": {
+              "characters": "What Is a Panic Attack?",
+              "fontSize": 20.0,
+              "font": {
+               "family": "Roboto",
+               "style": "SemiBold",
+               "postscript": "Roboto-SemiBold"
+              },
+              "lineHeight": {
+               "value": 26.0,
+               "units": "PIXELS"
+              },
+              "letterSpacing": {
+               "value": -1.0,
+               "units": "PERCENT"
+              },
+              "alignH": null,
+              "alignV": "TOP",
+              "case": null,
+              "decoration": null,
+              "autoResize": "HEIGHT"
+             }
+            },
+            {
+             "name": "Section Text",
+             "type": "TEXT",
+             "x": 0.0,
+             "y": 34.0,
+             "w": 343.0,
+             "h": 412.0,
+             "strokeWeight": 0.4000000059604645,
+             "strokeAlign": "CENTER",
+             "fills": [
+              {
+               "type": "SOLID",
+               "color": "#000000"
+              }
+             ],
+             "text": {
+              "characters": "A panic attack is a sudden episode of intense fear or discomfort that usually peaks within minutes. During an attack, the body reacts as if it is facing a serious threat, triggering strong physical and emotional symptoms.  Common symptoms may include:\nRapid heartbeat or chest pain\nShortness of breath\nDizziness or feeling faint\nSweating or shaking\nNausea or stomach discomfort\nTingling sensations\nFeeling detached from reality\nFear of losing control or dying\nBecause these symptoms can feel severe, some people mistake panic attacks for heart attacks or other medical emergencies.",
+              "fontSize": 16.0,
+              "font": {
+               "family": "Roboto",
+               "style": "Regular",
+               "postscript": "Roboto-Regular"
+              },
+              "lineHeight": {
+               "value": 22.0,
+               "units": "PIXELS"
+              },
+              "letterSpacing": {
+               "value": 0.0,
+               "units": "PERCENT"
+              },
+              "alignH": null,
+              "alignV": "TOP",
+              "case": null,
+              "decoration": null,
+              "autoResize": "HEIGHT"
+             }
+            }
+           ]
+          },
+          {
+           "name": "Purpose Section",
+           "type": "FRAME",
+           "x": 0.0,
+           "y": 654.0,
+           "w": 343.0,
+           "h": 160.0,
+           "strokeWeight": 1.0,
+           "strokeAlign": "INSIDE",
+           "stackMode": "VERTICAL",
+           "stackSpacing": 16.0,
+           "frameMaskDisabled": true,
+           "children": [
+            {
+             "name": "Image",
+             "type": "ROUNDED_RECTANGLE",
+             "x": 0.0,
+             "y": 0.0,
+             "w": 343.0,
+             "h": 160.0,
+             "cornerRadius": 8.0,
+             "rectangleTopLeftCornerRadius": 8.0,
+             "rectangleTopRightCornerRadius": 8.0,
+             "rectangleBottomLeftCornerRadius": 8.0,
+             "rectangleBottomRightCornerRadius": 8.0,
+             "strokeWeight": 1.0,
+             "strokeAlign": "INSIDE",
+             "fills": [
+              {
+               "type": "IMAGE"
+              }
+             ]
+            }
+           ]
+          },
+          {
+           "name": "Container",
+           "type": "FRAME",
+           "x": 0.0,
+           "y": 830.0,
+           "w": 343.0,
+           "h": 380.0,
+           "strokeWeight": 1.0,
+           "strokeAlign": "INSIDE",
+           "stackMode": "VERTICAL",
+           "stackSpacing": 8.0,
+           "frameMaskDisabled": true,
+           "children": [
+            {
+             "name": "Section Title",
+             "type": "TEXT",
+             "x": 0.0,
+             "y": 0.0,
+             "w": 343.0,
+             "h": 26.0,
+             "strokeWeight": 0.4000000059604645,
+             "strokeAlign": "CENTER",
+             "fills": [
+              {
+               "type": "SOLID",
+               "color": "#121212"
+              }
+             ],
+             "text": {
+              "characters": "Understanding Panic Disorder",
+              "fontSize": 20.0,
+              "font": {
+               "family": "Roboto",
+               "style": "SemiBold",
+               "postscript": "Roboto-SemiBold"
+              },
+              "lineHeight": {
+               "value": 26.0,
+               "units": "PIXELS"
+              },
+              "letterSpacing": {
+               "value": -1.0,
+               "units": "PERCENT"
+              },
+              "alignH": null,
+              "alignV": "TOP",
+              "case": null,
+              "decoration": null,
+              "autoResize": "HEIGHT"
+             }
+            },
+            {
+             "name": "Section Text",
+             "type": "TEXT",
+             "x": 0.0,
+             "y": 34.0,
+             "w": 343.0,
+             "h": 346.0,
+             "strokeWeight": 0.4000000059604645,
+             "strokeAlign": "CENTER",
+             "fills": [
+              {
+               "type": "SOLID",
+               "color": "#000000"
+              }
+             ],
+             "text": {
+              "characters": "Panic disorder occurs when panic attacks happen repeatedly and create ongoing fear about when the next attack might occur. Over time, this fear can affect daily routines, work, social activities, and relationships.  People with panic disorder may begin to:\nAvoid crowded places or unfamiliar situations\nStay away from activities that trigger anxiety\nConstantly worry about their physical health\nFeel anxious even when there is no immediate danger\nWithout support, panic disorder can gradually reduce a person’s confidence and quality of life.",
+              "fontSize": 16.0,
+              "font": {
+               "family": "Roboto",
+               "style": "Regular",
+               "postscript": "Roboto-Regular"
+              },
+              "lineHeight": {
+               "value": 22.0,
+               "units": "PIXELS"
+              },
+              "letterSpacing": {
+               "value": 0.0,
+               "units": "PERCENT"
+              },
+              "alignH": null,
+              "alignV": "TOP",
+              "case": null,
+              "decoration": null,
+              "autoResize": "HEIGHT"
+             }
+            }
+           ]
+          },
+          {
+           "name": "Container",
+           "type": "FRAME",
+           "x": 0.0,
+           "y": 1226.0,
+           "w": 343.0,
+           "h": 314.0,
+           "strokeWeight": 1.0,
+           "strokeAlign": "INSIDE",
+           "stackMode": "VERTICAL",
+           "stackSpacing": 8.0,
+           "frameMaskDisabled": true,
+           "children": [
+            {
+             "name": "Section Title",
+             "type": "TEXT",
+             "x": 0.0,
+             "y": 0.0,
+             "w": 343.0,
+             "h": 26.0,
+             "strokeWeight": 0.4000000059604645,
+             "strokeAlign": "CENTER",
+             "fills": [
+              {
+               "type": "SOLID",
+               "color": "#121212"
+              }
+             ],
+             "text": {
+              "characters": "Warning Signs to Watch For",
+              "fontSize": 20.0,
+              "font": {
+               "family": "Roboto",
+               "style": "SemiBold",
+               "postscript": "Roboto-SemiBold"
+              },
+              "lineHeight": {
+               "value": 26.0,
+               "units": "PIXELS"
+              },
+              "letterSpacing": {
+               "value": -1.0,
+               "units": "PERCENT"
+              },
+              "alignH": null,
+              "alignV": "TOP",
+              "case": null,
+              "decoration": null,
+              "autoResize": "HEIGHT"
+             }
+            },
+            {
+             "name": "Section Text",
+             "type": "TEXT",
+             "x": 0.0,
+             "y": 34.0,
+             "w": 343.0,
+             "h": 280.0,
+             "strokeWeight": 0.4000000059604645,
+             "strokeAlign": "CENTER",
+             "fills": [
+              {
+               "type": "SOLID",
+               "color": "#000000"
+              }
+             ],
+             "text": {
+              "characters": "Some early signs that may indicate panic disorder include:\nFrequent unexpected panic attacks\nConstant fear of another attack\nAvoiding places or situations because of anxiety\nDifficulty sleeping due to worry\nIncreased sensitivity to stress\nTrouble concentrating or relaxing\nRecognizing these signs early can help people seek support before symptoms become more severe.",
+              "fontSize": 16.0,
+              "font": {
+               "family": "Roboto",
+               "style": "Regular",
+               "postscript": "Roboto-Regular"
+              },
+              "lineHeight": {
+               "value": 22.0,
+               "units": "PIXELS"
+              },
+              "letterSpacing": {
+               "value": 0.0,
+               "units": "PERCENT"
+              },
+              "alignH": null,
+              "alignV": "TOP",
+              "case": null,
+              "decoration": null,
+              "autoResize": "HEIGHT"
+             }
+            }
+           ]
+          },
+          {
+           "name": "Container",
+           "type": "FRAME",
+           "x": 0.0,
+           "y": 1556.0,
+           "w": 343.0,
+           "h": 166.0,
+           "strokeWeight": 1.0,
+           "strokeAlign": "INSIDE",
+           "stackMode": "VERTICAL",
+           "stackSpacing": 8.0,
+           "frameMaskDisabled": true,
+           "children": [
+            {
+             "name": "Section Title",
+             "type": "TEXT",
+             "x": 0.0,
+             "y": 0.0,
+             "w": 343.0,
+             "h": 26.0,
+             "strokeWeight": 0.4000000059604645,
+             "strokeAlign": "CENTER",
+             "fills": [
+              {
+               "type": "SOLID",
+               "color": "#121212"
+              }
+             ],
+             "text": {
+              "characters": "Final Thoughts",
+              "fontSize": 20.0,
+              "font": {
+               "family": "Roboto",
+               "style": "SemiBold",
+               "postscript": "Roboto-SemiBold"
+              },
+              "lineHeight": {
+               "value": 26.0,
+               "units": "PIXELS"
+              },
+              "letterSpacing": {
+               "value": -1.0,
+               "units": "PERCENT"
+              },
+              "alignH": null,
+              "alignV": "TOP",
+              "case": null,
+              "decoration": null,
+              "autoResize": "HEIGHT"
+             }
+            },
+            {
+             "name": "Section Text",
+             "type": "TEXT",
+             "x": 0.0,
+             "y": 34.0,
+             "w": 343.0,
+             "h": 132.0,
+             "strokeWeight": 0.4000000059604645,
+             "strokeAlign": "CENTER",
+             "fills": [
+              {
+               "type": "SOLID",
+               "color": "#000000"
+              }
+             ],
+             "text": {
+              "characters": "Panic attacks and panic disorder can feel frightening, but they are manageable with proper support and care. Learning the warning signs can help individuals and families respond earlier, reduce fear, and take positive steps toward better mental well-being.",
+              "fontSize": 16.0,
+              "font": {
+               "family": "Roboto",
+               "style": "Regular",
+               "postscript": "Roboto-Regular"
+              },
+              "lineHeight": {
+               "value": 22.0,
+               "units": "PIXELS"
+              },
+              "letterSpacing": {
+               "value": 0.0,
+               "units": "PERCENT"
+              },
+              "alignH": null,
+              "alignV": "TOP",
+              "case": null,
+              "decoration": null,
+              "autoResize": "HEIGHT"
+             }
+            }
+           ]
+          },
+          {
+           "name": "Purpose Section",
+           "type": "FRAME",
+           "x": 0.0,
+           "y": 1738.0,
+           "w": 343.0,
+           "h": 160.0,
+           "strokeWeight": 1.0,
+           "strokeAlign": "INSIDE",
+           "stackMode": "VERTICAL",
+           "stackSpacing": 16.0,
+           "frameMaskDisabled": true,
+           "children": [
+            {
+             "name": "Image",
+             "type": "ROUNDED_RECTANGLE",
+             "x": 0.0,
+             "y": 0.0,
+             "w": 343.0,
+             "h": 160.0,
+             "cornerRadius": 8.0,
+             "rectangleTopLeftCornerRadius": 8.0,
+             "rectangleTopRightCornerRadius": 8.0,
+             "rectangleBottomLeftCornerRadius": 8.0,
+             "rectangleBottomRightCornerRadius": 8.0,
+             "strokeWeight": 1.0,
+             "strokeAlign": "INSIDE",
+             "fills": [
+              {
+               "type": "IMAGE"
+              }
+             ]
+            }
+           ]
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "name": "Footer Container",
+     "type": "FRAME",
+     "x": 0.0,
+     "y": 2163.0,
+     "w": 375.0,
+     "h": 214.0,
+     "strokeWeight": 1.0,
+     "strokeAlign": "INSIDE",
+     "stackMode": "VERTICAL",
+     "frameMaskDisabled": true,
+     "children": [
+      {
+       "name": "footer",
+       "type": "INSTANCE",
+       "x": 0.0,
+       "y": 0.0,
+       "w": 375.0,
+       "h": 180.0,
+       "strokeWeight": 1.0,
+       "strokeAlign": "INSIDE",
+       "stackMode": "VERTICAL",
+       "frameMaskDisabled": true
+      },
+      {
+       "name": "🧰/Home Indicator (iPhone)",
+       "type": "INSTANCE",
+       "x": 0.0,
+       "y": 180.0,
+       "w": 375.0,
+       "h": 34.0,
+       "strokeWeight": 1.0,
+       "strokeAlign": "INSIDE",
+       "frameMaskDisabled": true,
+       "fills": [
+        {
+         "type": "SOLID",
+         "color": "#1999A4"
+        }
+       ]
+      },
+      {
+       "name": "Vector",
+       "type": "VECTOR",
+       "x": -6.0,
+       "y": -36.0,
+       "w": 387.0,
+       "h": 356.0,
+       "opacity": 0.10000000149011612,
+       "strokeWeight": 1.0,
+       "strokeAlign": "INSIDE",
+       "stackPositioning": "ABSOLUTE",
+       "fills": [
+        {
+         "type": "SOLID",
+         "color": "#EEFBFC"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

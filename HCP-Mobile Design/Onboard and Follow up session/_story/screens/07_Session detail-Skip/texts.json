@@ -212,7 +212,7 @@
    "text_source": "layer_name"
   },
   {
-   "text": "Title",
+   "text": "Skip session",
    "verified_by_ocr": false,
    "ocr_candidate": "-1Il",
    "style": "Heading 6/Bold",
@@ -223,10 +223,11 @@
    "letter_spacing": "-0.01em",
    "color": "#121212",
    "text_align": "center",
-   "text_source": "layer_name"
+   "text_source": "figma_clipboard",
+   "layer_name": "Title"
   },
   {
-   "text": "Description",
+   "text": "This session will be marked as Skipped. Please provide a reason for skipping.",
    "verified_by_ocr": false,
    "ocr_candidate": "Reason *",
    "style": "Body L/Regular",
@@ -237,7 +238,8 @@
    "letter_spacing": null,
    "color": null,
    "text_align": null,
-   "text_source": "layer_name"
+   "text_source": "figma_clipboard",
+   "layer_name": "Description"
   },
   {
    "text": "Label",
@@ -332,5 +334,53 @@
   "Default",
   "Skip",
   "Add schedule"
+ ],
+ "texts_real": [
+  {
+   "text": "Skip session",
+   "layer": "Title",
+   "path": "Session detail-Skip/Skip Session Dialog/Body/Content/Title",
+   "x": 40.0,
+   "y": 291.0,
+   "w": 295.0,
+   "h": 32.0,
+   "font_family": "Roboto",
+   "font_style": "Bold",
+   "font_size": 26.0,
+   "line_height": {
+    "value": 32.0,
+    "units": "PIXELS"
+   },
+   "letter_spacing": {
+    "value": -1.0,
+    "units": "PERCENT"
+   },
+   "align": "CENTER",
+   "color": "#121212",
+   "opacity": 1
+  },
+  {
+   "text": "This session will be marked as Skipped. Please provide a reason for skipping.",
+   "layer": "Description",
+   "path": "Session detail-Skip/Skip Session Dialog/Body/Content/Description",
+   "x": 40.0,
+   "y": 333.0,
+   "w": 295.0,
+   "h": 44.0,
+   "font_family": "Roboto",
+   "font_style": "Regular",
+   "font_size": 16.0,
+   "line_height": {
+    "value": 22.0,
+    "units": "PIXELS"
+   },
+   "letter_spacing": {
+    "value": 0.0,
+    "units": "PERCENT"
+   },
+   "align": "CENTER",
+   "color": "#121212",
+   "opacity": 1
+  }
  ]
 }

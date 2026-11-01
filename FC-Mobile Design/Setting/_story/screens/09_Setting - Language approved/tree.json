@@ -1,0 +1,391 @@
+{
+ "name": "Setting - Language approved",
+ "type": "FRAME",
+ "x": 3234.0,
+ "y": 256.0,
+ "w": 375.0,
+ "h": 815.0,
+ "strokeWeight": 4.0,
+ "strokeAlign": "INSIDE",
+ "stackMode": "HORIZONTAL",
+ "stackSpacing": 10.0,
+ "stackCounterAlignItems": "CENTER",
+ "stackCounterSizing": "RESIZE_TO_FIT_WITH_IMPLICIT_SIZE",
+ "fills": [
+  {
+   "type": "SOLID",
+   "color": "#FFFFFF"
+  }
+ ],
+ "children": [
+  {
+   "name": "MainContainer",
+   "type": "FRAME",
+   "x": 0.0,
+   "y": 0.0,
+   "w": 375.0,
+   "h": 815.0,
+   "strokeWeight": 1.0,
+   "strokeAlign": "INSIDE",
+   "stackMode": "VERTICAL",
+   "stackSpacing": 260.0,
+   "stackPrimarySizing": "FIXED",
+   "frameMaskDisabled": true,
+   "children": [
+    {
+     "name": "HeaderContainer",
+     "type": "FRAME",
+     "x": 0.0,
+     "y": 0.0,
+     "w": 375.0,
+     "h": 815.0,
+     "strokeWeight": 1.0,
+     "strokeAlign": "INSIDE",
+     "stackMode": "VERTICAL",
+     "stackSpacing": 24.0,
+     "stackCounterAlignItems": "CENTER",
+     "stackPrimarySizing": "FIXED",
+     "stackChildPrimaryGrow": 1.0,
+     "frameMaskDisabled": true,
+     "children": [
+      {
+       "name": "Top Navigation",
+       "type": "INSTANCE",
+       "x": 0.0,
+       "y": 0.0,
+       "w": 375.0,
+       "h": 127.0,
+       "strokeWeight": 1.0,
+       "strokeAlign": "INSIDE",
+       "stackMode": "VERTICAL",
+       "frameMaskDisabled": true
+      },
+      {
+       "name": "MenuBarContainer",
+       "type": "FRAME",
+       "x": 16.0,
+       "y": 151.0,
+       "w": 343.0,
+       "h": 226.0,
+       "strokeWeight": 1.0,
+       "strokeAlign": "INSIDE",
+       "stackMode": "VERTICAL",
+       "stackSpacing": 12.0,
+       "frameMaskDisabled": true,
+       "children": [
+        {
+         "name": "Preferred Languages",
+         "type": "TEXT",
+         "x": 0.0,
+         "y": 0.0,
+         "w": 343.0,
+         "h": 22.0,
+         "strokeWeight": 0.4000000059604645,
+         "strokeAlign": "CENTER",
+         "fills": [
+          {
+           "type": "SOLID",
+           "color": "#555555"
+          }
+         ],
+         "text": {
+          "characters": "Preferred Languages",
+          "fontSize": 16.0,
+          "font": {
+           "family": "Roboto",
+           "style": "Regular",
+           "postscript": "Roboto-Regular"
+          },
+          "lineHeight": {
+           "value": 22.0,
+           "units": "PIXELS"
+          },
+          "letterSpacing": {
+           "value": 0.0,
+           "units": "PERCENT"
+          },
+          "alignH": null,
+          "alignV": "TOP",
+          "case": null,
+          "decoration": null,
+          "autoResize": "HEIGHT"
+         }
+        },
+        {
+         "name": "Radio buton bar",
+         "type": "FRAME",
+         "x": 0.0,
+         "y": 34.0,
+         "w": 343.0,
+         "h": 56.0,
+         "rectangleTopLeftCornerRadius": 8.0,
+         "rectangleTopRightCornerRadius": 8.0,
+         "rectangleBottomLeftCornerRadius": 8.0,
+         "rectangleBottomRightCornerRadius": 8.0,
+         "strokeWeight": 1.0,
+         "strokeAlign": "INSIDE",
+         "stackMode": "HORIZONTAL",
+         "stackSpacing": 16.0,
+         "stackPaddingRight": 24.0,
+         "stackPaddingBottom": 16.0,
+         "stackCounterAlignItems": "CENTER",
+         "stackPrimarySizing": "FIXED",
+         "stackCounterSizing": "RESIZE_TO_FIT_WITH_IMPLICIT_SIZE",
+         "frameMaskDisabled": true,
+         "fills": [
+          {
+           "type": "SOLID",
+           "color": "#FFFFFF"
+          }
+         ],
+         "strokes": [
+          {
+           "type": "SOLID",
+           "color": "#C8C8C8"
+          }
+         ],
+         "children": [
+          {
+           "name": "Language Option Container",
+           "type": "FRAME",
+           "x": 24.0,
+           "y": 17.0,
+           "w": 255.0,
+           "h": 22.0,
+           "strokeWeight": 1.0,
+           "strokeAlign": "INSIDE",
+           "stackMode": "HORIZONTAL",
+           "stackSpacing": 2.0,
+           "stackCounterAlignItems": "CENTER",
+           "stackPrimarySizing": "FIXED",
+           "stackCounterSizing": "RESIZE_TO_FIT_WITH_IMPLICIT_SIZE",
+           "stackChildPrimaryGrow": 1.0,
+           "frameMaskDisabled": true,
+           "children": [
+            {
+             "name": "Language Text",
+             "type": "TEXT",
+             "x": 0.0,
+             "y": 0.0,
+             "w": 41.0,
+             "h": 22.0,
+             "strokeWeight": 1.0,
+             "strokeAlign": "OUTSIDE",
+             "fills": [
+              {
+               "type": "SOLID",
+               "color": "#121212"
+              }
+             ],
+             "text": {
+              "characters": "العربية ",
+              "fontSize": 16.0,
+              "font": {
+               "family": "Roboto",
+               "style": "Regular",
+               "postscript": "Roboto-Regular"
+              },
+              "lineHeight": {
+               "value": 22.0,
+               "units": "PIXELS"
+              },
+              "letterSpacing": {
+               "value": 0.0,
+               "units": "PERCENT"
+              },
+              "alignH": null,
+              "alignV": "TOP",
+              "case": null,
+              "decoration": null,
+              "autoResize": "WIDTH_AND_HEIGHT"
+             }
+            },
+            {
+             "name": "Language Translation Text",
+             "type": "TEXT",
+             "x": 43.0,
+             "y": 0.0,
+             "w": 212.0,
+             "h": 22.0,
+             "strokeWeight": 1.0,
+             "strokeAlign": "OUTSIDE",
+             "stackChildPrimaryGrow": 1.0,
+             "fills": [
+              {
+               "type": "SOLID",
+               "color": "#121212"
+              }
+             ],
+             "text": {
+              "characters": "(Arabic)",
+              "fontSize": 16.0,
+              "font": {
+               "family": "Roboto",
+               "style": "Regular",
+               "postscript": "Roboto-Regular"
+              },
+              "lineHeight": {
+               "value": 22.0,
+               "units": "PIXELS"
+              },
+              "letterSpacing": {
+               "value": 0.0,
+               "units": "PERCENT"
+              },
+              "alignH": null,
+              "alignV": "TOP",
+              "case": null,
+              "decoration": null,
+              "autoResize": "HEIGHT"
+             }
+            }
+           ]
+          },
+          {
+           "name": "Radio Button",
+           "type": "INSTANCE",
+           "x": 295.0,
+           "y": 16.0,
+           "w": 24.0,
+           "h": 24.0,
+           "strokeWeight": 1.0,
+           "strokeAlign": "INSIDE",
+           "stackMode": "HORIZONTAL",
+           "stackSpacing": 8.0,
+           "stackCounterAlignItems": "CENTER",
+           "stackCounterSizing": "RESIZE_TO_FIT_WITH_IMPLICIT_SIZE",
+           "frameMaskDisabled": true
+          }
+         ]
+        },
+        {
+         "name": "Radio buton bar",
+         "type": "INSTANCE",
+         "x": 0.0,
+         "y": 102.0,
+         "w": 343.0,
+         "h": 56.0,
+         "rectangleTopLeftCornerRadius": 8.0,
+         "rectangleTopRightCornerRadius": 8.0,
+         "rectangleBottomLeftCornerRadius": 8.0,
+         "rectangleBottomRightCornerRadius": 8.0,
+         "strokeWeight": 1.0,
+         "strokeAlign": "INSIDE",
+         "stackMode": "HORIZONTAL",
+         "stackSpacing": 16.0,
+         "stackPaddingRight": 24.0,
+         "stackPaddingBottom": 16.0,
+         "stackCounterAlignItems": "CENTER",
+         "stackPrimarySizing": "FIXED",
+         "stackCounterSizing": "RESIZE_TO_FIT_WITH_IMPLICIT_SIZE",
+         "frameMaskDisabled": true,
+         "fills": [
+          {
+           "type": "SOLID",
+           "color": "#EEFBFC"
+          }
+         ],
+         "strokes": [
+          {
+           "type": "SOLID",
+           "color": "#1999A4"
+          }
+         ]
+        },
+        {
+         "name": "Radio buton bar",
+         "type": "INSTANCE",
+         "x": 0.0,
+         "y": 170.0,
+         "w": 343.0,
+         "h": 56.0,
+         "rectangleTopLeftCornerRadius": 8.0,
+         "rectangleTopRightCornerRadius": 8.0,
+         "rectangleBottomLeftCornerRadius": 8.0,
+         "rectangleBottomRightCornerRadius": 8.0,
+         "strokeWeight": 1.0,
+         "strokeAlign": "INSIDE",
+         "stackMode": "HORIZONTAL",
+         "stackSpacing": 16.0,
+         "stackPaddingRight": 24.0,
+         "stackPaddingBottom": 16.0,
+         "stackCounterAlignItems": "CENTER",
+         "stackPrimarySizing": "FIXED",
+         "stackCounterSizing": "RESIZE_TO_FIT_WITH_IMPLICIT_SIZE",
+         "frameMaskDisabled": true,
+         "fills": [
+          {
+           "type": "SOLID",
+           "color": "#FFFFFF"
+          }
+         ],
+         "strokes": [
+          {
+           "type": "SOLID",
+           "color": "#C8C8C8"
+          }
+         ]
+        },
+        {
+         "name": "MenuBar",
+         "type": "INSTANCE",
+         "x": 0.0,
+         "y": 264.0,
+         "w": 343.0,
+         "h": 76.0,
+         "visible": false,
+         "rectangleTopLeftCornerRadius": 8.0,
+         "rectangleTopRightCornerRadius": 8.0,
+         "rectangleBottomLeftCornerRadius": 8.0,
+         "rectangleBottomRightCornerRadius": 8.0,
+         "strokeWeight": 1.0,
+         "strokeAlign": "INSIDE",
+         "stackMode": "HORIZONTAL",
+         "stackSpacing": 16.0,
+         "stackPaddingRight": 24.0,
+         "stackPaddingBottom": 16.0,
+         "stackCounterAlignItems": "CENTER",
+         "stackPrimarySizing": "FIXED",
+         "stackCounterSizing": "RESIZE_TO_FIT_WITH_IMPLICIT_SIZE",
+         "frameMaskDisabled": true,
+         "fills": [
+          {
+           "type": "SOLID",
+           "color": "#FFFFFF"
+          }
+         ],
+         "strokes": [
+          {
+           "type": "SOLID",
+           "color": "#C8C8C8"
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "🧰/Home Indicator (iPhone)",
+   "type": "INSTANCE",
+   "x": 0.0,
+   "y": 781.0,
+   "w": 375.0,
+   "h": 34.0,
+   "strokeWeight": 1.0,
+   "strokeAlign": "INSIDE",
+   "stackPrimarySizing": "FIXED",
+   "stackPositioning": "ABSOLUTE",
+   "verticalConstraint": "MAX",
+   "frameMaskDisabled": true,
+   "fills": [
+    {
+     "type": "SOLID",
+     "color": "#FFFFFF"
+    }
+   ]
+  }
+ ]
+}

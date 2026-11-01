@@ -1,0 +1,624 @@
+{
+ "name": "Setting - Update Language - pending",
+ "type": "FRAME",
+ "x": 2631.0,
+ "y": 256.0,
+ "w": 375.0,
+ "h": 903.0,
+ "strokeWeight": 4.0,
+ "strokeAlign": "INSIDE",
+ "stackMode": "VERTICAL",
+ "stackSpacing": 24.0,
+ "stackCounterSizing": "RESIZE_TO_FIT_WITH_IMPLICIT_SIZE",
+ "fills": [
+  {
+   "type": "SOLID",
+   "color": "#FFFFFF"
+  }
+ ],
+ "children": [
+  {
+   "name": "MainContainer",
+   "type": "FRAME",
+   "x": 0.0,
+   "y": 0.0,
+   "w": 375.0,
+   "h": 689.0,
+   "strokeWeight": 1.0,
+   "strokeAlign": "INSIDE",
+   "stackMode": "VERTICAL",
+   "stackSpacing": 260.0,
+   "frameMaskDisabled": true,
+   "children": [
+    {
+     "name": "HeaderContainer",
+     "type": "FRAME",
+     "x": 0.0,
+     "y": 0.0,
+     "w": 375.0,
+     "h": 689.0,
+     "strokeWeight": 1.0,
+     "strokeAlign": "INSIDE",
+     "stackMode": "VERTICAL",
+     "stackSpacing": 24.0,
+     "stackCounterAlignItems": "CENTER",
+     "frameMaskDisabled": true,
+     "children": [
+      {
+       "name": "Top Navigation",
+       "type": "INSTANCE",
+       "x": 0.0,
+       "y": 0.0,
+       "w": 375.0,
+       "h": 127.0,
+       "strokeWeight": 1.0,
+       "strokeAlign": "INSIDE",
+       "stackMode": "VERTICAL",
+       "frameMaskDisabled": true
+      },
+      {
+       "name": "body",
+       "type": "FRAME",
+       "x": 16.0,
+       "y": 151.0,
+       "w": 343.0,
+       "h": 538.0,
+       "strokeWeight": 1.0,
+       "strokeAlign": "INSIDE",
+       "stackMode": "VERTICAL",
+       "stackSpacing": 16.0,
+       "stackCounterSizing": "RESIZE_TO_FIT_WITH_IMPLICIT_SIZE",
+       "frameMaskDisabled": true,
+       "children": [
+        {
+         "name": "Toast message",
+         "type": "INSTANCE",
+         "x": 0.0,
+         "y": 0.0,
+         "w": 343.0,
+         "h": 92.0,
+         "cornerRadius": 4.0,
+         "rectangleTopLeftCornerRadius": 4.0,
+         "rectangleTopRightCornerRadius": 4.0,
+         "rectangleBottomLeftCornerRadius": 4.0,
+         "rectangleBottomRightCornerRadius": 4.0,
+         "strokeWeight": 1.0,
+         "strokeAlign": "INSIDE",
+         "stackMode": "VERTICAL",
+         "stackSpacing": 10.0,
+         "stackPaddingRight": 16.0,
+         "stackPaddingBottom": 16.0,
+         "fills": [
+          {
+           "type": "SOLID",
+           "color": "#FDF6EB"
+          }
+         ]
+        },
+        {
+         "name": "MenuBarContainer",
+         "type": "FRAME",
+         "x": 0.0,
+         "y": 108.0,
+         "w": 343.0,
+         "h": 430.0,
+         "strokeWeight": 1.0,
+         "strokeAlign": "INSIDE",
+         "stackMode": "VERTICAL",
+         "stackSpacing": 12.0,
+         "frameMaskDisabled": true,
+         "children": [
+          {
+           "name": "Select languages",
+           "type": "TEXT",
+           "x": 0.0,
+           "y": 0.0,
+           "w": 343.0,
+           "h": 22.0,
+           "strokeWeight": 0.4000000059604645,
+           "strokeAlign": "CENTER",
+           "fills": [
+            {
+             "type": "SOLID",
+             "color": "#555555"
+            }
+           ],
+           "text": {
+            "characters": "Select languages",
+            "fontSize": 16.0,
+            "font": {
+             "family": "Roboto",
+             "style": "Regular",
+             "postscript": "Roboto-Regular"
+            },
+            "lineHeight": {
+             "value": 22.0,
+             "units": "PIXELS"
+            },
+            "letterSpacing": {
+             "value": 0.0,
+             "units": "PERCENT"
+            },
+            "alignH": null,
+            "alignV": "TOP",
+            "case": null,
+            "decoration": null,
+            "autoResize": "HEIGHT"
+           }
+          },
+          {
+           "name": "Language options container",
+           "type": "FRAME",
+           "x": 0.0,
+           "y": 34.0,
+           "w": 343.0,
+           "h": 396.0,
+           "strokeWeight": 1.0,
+           "strokeAlign": "INSIDE",
+           "stackMode": "VERTICAL",
+           "stackSpacing": 12.0,
+           "frameMaskDisabled": true,
+           "children": [
+            {
+             "name": "Radio buton bar",
+             "type": "FRAME",
+             "x": 0.0,
+             "y": 0.0,
+             "w": 343.0,
+             "h": 56.0,
+             "rectangleTopLeftCornerRadius": 8.0,
+             "rectangleTopRightCornerRadius": 8.0,
+             "rectangleBottomLeftCornerRadius": 8.0,
+             "rectangleBottomRightCornerRadius": 8.0,
+             "strokeWeight": 1.0,
+             "strokeAlign": "INSIDE",
+             "stackMode": "HORIZONTAL",
+             "stackSpacing": 16.0,
+             "stackPaddingRight": 24.0,
+             "stackPaddingBottom": 16.0,
+             "stackCounterAlignItems": "CENTER",
+             "stackPrimarySizing": "FIXED",
+             "stackCounterSizing": "RESIZE_TO_FIT_WITH_IMPLICIT_SIZE",
+             "frameMaskDisabled": true,
+             "fills": [
+              {
+               "type": "SOLID",
+               "color": "#F1F1F1"
+              }
+             ],
+             "strokes": [
+              {
+               "type": "SOLID",
+               "color": "#C8C8C8"
+              }
+             ],
+             "children": [
+              {
+               "name": "Language option icon",
+               "type": "INSTANCE",
+               "x": 24.0,
+               "y": 16.0,
+               "w": 36.0,
+               "h": 36.0,
+               "visible": false,
+               "strokeWeight": 1.0,
+               "strokeAlign": "INSIDE"
+              },
+              {
+               "name": "Language option text",
+               "type": "FRAME",
+               "x": 24.0,
+               "y": 17.0,
+               "w": 255.0,
+               "h": 22.0,
+               "strokeWeight": 1.0,
+               "strokeAlign": "INSIDE",
+               "stackMode": "HORIZONTAL",
+               "stackSpacing": 2.0,
+               "stackCounterAlignItems": "CENTER",
+               "stackPrimarySizing": "FIXED",
+               "stackCounterSizing": "RESIZE_TO_FIT_WITH_IMPLICIT_SIZE",
+               "stackChildPrimaryGrow": 1.0,
+               "frameMaskDisabled": true,
+               "children": [
+                {
+                 "name": "Language name",
+                 "type": "TEXT",
+                 "x": 0.0,
+                 "y": 0.0,
+                 "w": 41.0,
+                 "h": 22.0,
+                 "strokeWeight": 1.0,
+                 "strokeAlign": "OUTSIDE",
+                 "fills": [
+                  {
+                   "type": "SOLID",
+                   "color": "#121212"
+                  }
+                 ],
+                 "text": {
+                  "characters": "العربية ",
+                  "fontSize": 16.0,
+                  "font": {
+                   "family": "Roboto",
+                   "style": "Regular",
+                   "postscript": "Roboto-Regular"
+                  },
+                  "lineHeight": {
+                   "value": 22.0,
+                   "units": "PIXELS"
+                  },
+                  "letterSpacing": {
+                   "value": 0.0,
+                   "units": "PERCENT"
+                  },
+                  "alignH": null,
+                  "alignV": "TOP",
+                  "case": null,
+                  "decoration": null,
+                  "autoResize": "WIDTH_AND_HEIGHT"
+                 }
+                },
+                {
+                 "name": "Language name translation",
+                 "type": "TEXT",
+                 "x": 43.0,
+                 "y": 0.0,
+                 "w": 212.0,
+                 "h": 22.0,
+                 "strokeWeight": 1.0,
+                 "strokeAlign": "OUTSIDE",
+                 "stackChildPrimaryGrow": 1.0,
+                 "fills": [
+                  {
+                   "type": "SOLID",
+                   "color": "#121212"
+                  }
+                 ],
+                 "text": {
+                  "characters": "(Arabic)",
+                  "fontSize": 16.0,
+                  "font": {
+                   "family": "Roboto",
+                   "style": "Regular",
+                   "postscript": "Roboto-Regular"
+                  },
+                  "lineHeight": {
+                   "value": 22.0,
+                   "units": "PIXELS"
+                  },
+                  "letterSpacing": {
+                   "value": 0.0,
+                   "units": "PERCENT"
+                  },
+                  "alignH": null,
+                  "alignV": "TOP",
+                  "case": null,
+                  "decoration": null,
+                  "autoResize": "HEIGHT"
+                 }
+                }
+               ]
+              },
+              {
+               "name": "Checkbox",
+               "type": "INSTANCE",
+               "x": 295.0,
+               "y": 16.0,
+               "w": 24.0,
+               "h": 24.0,
+               "strokeWeight": 1.0,
+               "strokeAlign": "INSIDE",
+               "stackMode": "HORIZONTAL",
+               "stackSpacing": 8.0,
+               "stackCounterAlignItems": "CENTER",
+               "stackCounterSizing": "RESIZE_TO_FIT_WITH_IMPLICIT_SIZE",
+               "frameMaskDisabled": true
+              }
+             ]
+            },
+            {
+             "name": "Radio buton bar",
+             "type": "INSTANCE",
+             "x": 0.0,
+             "y": 68.0,
+             "w": 343.0,
+             "h": 56.0,
+             "rectangleTopLeftCornerRadius": 8.0,
+             "rectangleTopRightCornerRadius": 8.0,
+             "rectangleBottomLeftCornerRadius": 8.0,
+             "rectangleBottomRightCornerRadius": 8.0,
+             "strokeWeight": 1.0,
+             "strokeAlign": "INSIDE",
+             "stackMode": "HORIZONTAL",
+             "stackSpacing": 16.0,
+             "stackPaddingRight": 24.0,
+             "stackPaddingBottom": 16.0,
+             "stackCounterAlignItems": "CENTER",
+             "stackPrimarySizing": "FIXED",
+             "stackCounterSizing": "RESIZE_TO_FIT_WITH_IMPLICIT_SIZE",
+             "frameMaskDisabled": true,
+             "fills": [
+              {
+               "type": "SOLID",
+               "color": "#F1F1F1"
+              }
+             ],
+             "strokes": [
+              {
+               "type": "SOLID",
+               "color": "#C8C8C8"
+              }
+             ]
+            },
+            {
+             "name": "Radio buton bar",
+             "type": "INSTANCE",
+             "x": 0.0,
+             "y": 136.0,
+             "w": 343.0,
+             "h": 56.0,
+             "rectangleTopLeftCornerRadius": 8.0,
+             "rectangleTopRightCornerRadius": 8.0,
+             "rectangleBottomLeftCornerRadius": 8.0,
+             "rectangleBottomRightCornerRadius": 8.0,
+             "strokeWeight": 1.0,
+             "strokeAlign": "INSIDE",
+             "stackMode": "HORIZONTAL",
+             "stackSpacing": 16.0,
+             "stackPaddingRight": 24.0,
+             "stackPaddingBottom": 16.0,
+             "stackCounterAlignItems": "CENTER",
+             "stackPrimarySizing": "FIXED",
+             "stackCounterSizing": "RESIZE_TO_FIT_WITH_IMPLICIT_SIZE",
+             "frameMaskDisabled": true,
+             "fills": [
+              {
+               "type": "SOLID",
+               "color": "#F1F1F1"
+              }
+             ],
+             "strokes": [
+              {
+               "type": "SOLID",
+               "color": "#C8C8C8"
+              }
+             ]
+            },
+            {
+             "name": "Radio buton bar",
+             "type": "INSTANCE",
+             "x": 0.0,
+             "y": 204.0,
+             "w": 343.0,
+             "h": 56.0,
+             "rectangleTopLeftCornerRadius": 8.0,
+             "rectangleTopRightCornerRadius": 8.0,
+             "rectangleBottomLeftCornerRadius": 8.0,
+             "rectangleBottomRightCornerRadius": 8.0,
+             "strokeWeight": 1.0,
+             "strokeAlign": "INSIDE",
+             "stackMode": "HORIZONTAL",
+             "stackSpacing": 16.0,
+             "stackPaddingRight": 24.0,
+             "stackPaddingBottom": 16.0,
+             "stackCounterAlignItems": "CENTER",
+             "stackPrimarySizing": "FIXED",
+             "stackCounterSizing": "RESIZE_TO_FIT_WITH_IMPLICIT_SIZE",
+             "frameMaskDisabled": true,
+             "fills": [
+              {
+               "type": "SOLID",
+               "color": "#F1F1F1"
+              }
+             ],
+             "strokes": [
+              {
+               "type": "SOLID",
+               "color": "#C8C8C8"
+              }
+             ]
+            },
+            {
+             "name": "Radio buton bar",
+             "type": "INSTANCE",
+             "x": 0.0,
+             "y": 272.0,
+             "w": 343.0,
+             "h": 56.0,
+             "rectangleTopLeftCornerRadius": 8.0,
+             "rectangleTopRightCornerRadius": 8.0,
+             "rectangleBottomLeftCornerRadius": 8.0,
+             "rectangleBottomRightCornerRadius": 8.0,
+             "strokeWeight": 1.0,
+             "strokeAlign": "INSIDE",
+             "stackMode": "HORIZONTAL",
+             "stackSpacing": 16.0,
+             "stackPaddingRight": 24.0,
+             "stackPaddingBottom": 16.0,
+             "stackCounterAlignItems": "CENTER",
+             "stackPrimarySizing": "FIXED",
+             "stackCounterSizing": "RESIZE_TO_FIT_WITH_IMPLICIT_SIZE",
+             "frameMaskDisabled": true,
+             "fills": [
+              {
+               "type": "SOLID",
+               "color": "#F1F1F1"
+              }
+             ],
+             "strokes": [
+              {
+               "type": "SOLID",
+               "color": "#C8C8C8"
+              }
+             ]
+            },
+            {
+             "name": "Radio buton bar",
+             "type": "INSTANCE",
+             "x": 0.0,
+             "y": 340.0,
+             "w": 343.0,
+             "h": 56.0,
+             "rectangleTopLeftCornerRadius": 8.0,
+             "rectangleTopRightCornerRadius": 8.0,
+             "rectangleBottomLeftCornerRadius": 8.0,
+             "rectangleBottomRightCornerRadius": 8.0,
+             "strokeWeight": 1.0,
+             "strokeAlign": "INSIDE",
+             "stackMode": "HORIZONTAL",
+             "stackSpacing": 16.0,
+             "stackPaddingRight": 24.0,
+             "stackPaddingBottom": 16.0,
+             "stackCounterAlignItems": "CENTER",
+             "stackPrimarySizing": "FIXED",
+             "stackCounterSizing": "RESIZE_TO_FIT_WITH_IMPLICIT_SIZE",
+             "frameMaskDisabled": true,
+             "fills": [
+              {
+               "type": "SOLID",
+               "color": "#F1F1F1"
+              }
+             ],
+             "strokes": [
+              {
+               "type": "SOLID",
+               "color": "#C8C8C8"
+              }
+             ]
+            }
+           ]
+          },
+          {
+           "name": "MenuBar",
+           "type": "INSTANCE",
+           "x": 0.0,
+           "y": 264.0,
+           "w": 343.0,
+           "h": 76.0,
+           "visible": false,
+           "rectangleTopLeftCornerRadius": 8.0,
+           "rectangleTopRightCornerRadius": 8.0,
+           "rectangleBottomLeftCornerRadius": 8.0,
+           "rectangleBottomRightCornerRadius": 8.0,
+           "strokeWeight": 1.0,
+           "strokeAlign": "INSIDE",
+           "stackMode": "HORIZONTAL",
+           "stackSpacing": 16.0,
+           "stackPaddingRight": 24.0,
+           "stackPaddingBottom": 16.0,
+           "stackCounterAlignItems": "CENTER",
+           "stackPrimarySizing": "FIXED",
+           "stackCounterSizing": "RESIZE_TO_FIT_WITH_IMPLICIT_SIZE",
+           "frameMaskDisabled": true,
+           "fills": [
+            {
+             "type": "SOLID",
+             "color": "#FFFFFF"
+            }
+           ],
+           "strokes": [
+            {
+             "type": "SOLID",
+             "color": "#C8C8C8"
+            }
+           ]
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "button footer",
+   "type": "FRAME",
+   "x": 0.0,
+   "y": 713.0,
+   "w": 375.0,
+   "h": 190.0,
+   "strokeWeight": 1.0,
+   "strokeAlign": "INSIDE",
+   "stackMode": "VERTICAL",
+   "strokes": [
+    {
+     "type": "SOLID",
+     "color": "#E0E0E0"
+    }
+   ],
+   "children": [
+    {
+     "name": "Checkbox container",
+     "type": "FRAME",
+     "x": 0.0,
+     "y": 0.0,
+     "w": 375.0,
+     "h": 156.0,
+     "strokeWeight": 1.0,
+     "strokeAlign": "INSIDE",
+     "stackMode": "VERTICAL",
+     "stackSpacing": 16.0,
+     "stackPaddingRight": 16.0,
+     "stackPaddingBottom": 16.0,
+     "stackCounterAlignItems": "CENTER",
+     "frameMaskDisabled": true,
+     "fills": [
+      {
+       "type": "SOLID",
+       "color": "#FFFFFF"
+      }
+     ],
+     "children": [
+      {
+       "name": "Button",
+       "type": "INSTANCE",
+       "x": 16.0,
+       "y": 16.0,
+       "w": 343.0,
+       "h": 54.0,
+       "strokeWeight": 1.0,
+       "strokeAlign": "INSIDE",
+       "stackMode": "HORIZONTAL",
+       "stackPrimarySizing": "FIXED",
+       "stackCounterSizing": "RESIZE_TO_FIT_WITH_IMPLICIT_SIZE",
+       "frameMaskDisabled": true
+      },
+      {
+       "name": "Button",
+       "type": "INSTANCE",
+       "x": 16.0,
+       "y": 86.0,
+       "w": 343.0,
+       "h": 54.0,
+       "strokeWeight": 1.0,
+       "strokeAlign": "INSIDE",
+       "stackMode": "HORIZONTAL",
+       "stackPrimarySizing": "FIXED",
+       "stackCounterSizing": "RESIZE_TO_FIT_WITH_IMPLICIT_SIZE",
+       "frameMaskDisabled": true
+      }
+     ]
+    },
+    {
+     "name": "🧰/Home Indicator (iPhone)",
+     "type": "INSTANCE",
+     "x": 0.0,
+     "y": 156.0,
+     "w": 375.0,
+     "h": 34.0,
+     "strokeWeight": 1.0,
+     "strokeAlign": "INSIDE",
+     "frameMaskDisabled": true,
+     "fills": [
+      {
+       "type": "SOLID",
+       "color": "#FFFFFF"
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

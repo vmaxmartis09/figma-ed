@@ -1,0 +1,246 @@
+{
+ "name": "Setting",
+ "type": "SYMBOL",
+ "x": 175.0,
+ "y": 240.0,
+ "w": 375.0,
+ "h": 815.0,
+ "strokeWeight": 4.0,
+ "strokeAlign": "INSIDE",
+ "stackSpacing": 8.0,
+ "stackCounterAlignItems": "CENTER",
+ "stackPrimarySizing": "FIXED",
+ "fills": [
+  {
+   "type": "SOLID",
+   "color": "#FFFFFF"
+  }
+ ],
+ "children": [
+  {
+   "name": "MainContainer",
+   "type": "FRAME",
+   "x": 0.0,
+   "y": 0.0,
+   "w": 375.0,
+   "h": 815.0,
+   "strokeWeight": 1.0,
+   "strokeAlign": "INSIDE",
+   "stackMode": "VERTICAL",
+   "stackSpacing": 260.0,
+   "stackPrimarySizing": "FIXED",
+   "frameMaskDisabled": true,
+   "children": [
+    {
+     "name": "HeaderContainer",
+     "type": "FRAME",
+     "x": 0.0,
+     "y": 0.0,
+     "w": 375.0,
+     "h": 491.0,
+     "strokeWeight": 1.0,
+     "strokeAlign": "INSIDE",
+     "stackMode": "VERTICAL",
+     "stackSpacing": 24.0,
+     "stackCounterAlignItems": "CENTER",
+     "stackPrimarySizing": "FIXED",
+     "stackChildPrimaryGrow": 1.0,
+     "frameMaskDisabled": true,
+     "children": [
+      {
+       "name": "Top Navigation",
+       "type": "INSTANCE",
+       "x": 0.0,
+       "y": 0.0,
+       "w": 375.0,
+       "h": 127.0,
+       "strokeWeight": 1.0,
+       "strokeAlign": "INSIDE",
+       "stackMode": "VERTICAL",
+       "frameMaskDisabled": true
+      },
+      {
+       "name": "MenuBarContainer",
+       "type": "FRAME",
+       "x": 16.0,
+       "y": 151.0,
+       "w": 343.0,
+       "h": 252.0,
+       "strokeWeight": 1.0,
+       "strokeAlign": "INSIDE",
+       "stackMode": "VERTICAL",
+       "stackSpacing": 12.0,
+       "frameMaskDisabled": true,
+       "children": [
+        {
+         "name": "MenuBar",
+         "type": "INSTANCE",
+         "x": 0.0,
+         "y": 0.0,
+         "w": 343.0,
+         "h": 76.0,
+         "rectangleTopLeftCornerRadius": 8.0,
+         "rectangleTopRightCornerRadius": 8.0,
+         "rectangleBottomLeftCornerRadius": 8.0,
+         "rectangleBottomRightCornerRadius": 8.0,
+         "strokeWeight": 1.0,
+         "strokeAlign": "INSIDE",
+         "stackMode": "HORIZONTAL",
+         "stackSpacing": 16.0,
+         "stackPaddingRight": 24.0,
+         "stackPaddingBottom": 16.0,
+         "stackCounterAlignItems": "CENTER",
+         "stackPrimarySizing": "FIXED",
+         "stackCounterSizing": "RESIZE_TO_FIT_WITH_IMPLICIT_SIZE",
+         "frameMaskDisabled": true,
+         "fills": [
+          {
+           "type": "SOLID",
+           "color": "#FFFFFF"
+          }
+         ],
+         "strokes": [
+          {
+           "type": "SOLID",
+           "color": "#C8C8C8"
+          }
+         ]
+        },
+        {
+         "name": "MenuBar",
+         "type": "INSTANCE",
+         "x": 0.0,
+         "y": 88.0,
+         "w": 343.0,
+         "h": 76.0,
+         "rectangleTopLeftCornerRadius": 8.0,
+         "rectangleTopRightCornerRadius": 8.0,
+         "rectangleBottomLeftCornerRadius": 8.0,
+         "rectangleBottomRightCornerRadius": 8.0,
+         "strokeWeight": 1.0,
+         "strokeAlign": "INSIDE",
+         "stackMode": "HORIZONTAL",
+         "stackSpacing": 16.0,
+         "stackPaddingRight": 24.0,
+         "stackPaddingBottom": 16.0,
+         "stackCounterAlignItems": "CENTER",
+         "stackPrimarySizing": "FIXED",
+         "stackCounterSizing": "RESIZE_TO_FIT_WITH_IMPLICIT_SIZE",
+         "frameMaskDisabled": true,
+         "fills": [
+          {
+           "type": "SOLID",
+           "color": "#FFFFFF"
+          }
+         ],
+         "strokes": [
+          {
+           "type": "SOLID",
+           "color": "#C8C8C8"
+          }
+         ]
+        },
+        {
+         "name": "MenuBar",
+         "type": "INSTANCE",
+         "x": 0.0,
+         "y": 176.0,
+         "w": 343.0,
+         "h": 76.0,
+         "rectangleTopLeftCornerRadius": 8.0,
+         "rectangleTopRightCornerRadius": 8.0,
+         "rectangleBottomLeftCornerRadius": 8.0,
+         "rectangleBottomRightCornerRadius": 8.0,
+         "strokeWeight": 1.0,
+         "strokeAlign": "INSIDE",
+         "stackMode": "HORIZONTAL",
+         "stackSpacing": 16.0,
+         "stackPaddingRight": 24.0,
+         "stackPaddingBottom": 16.0,
+         "stackCounterAlignItems": "CENTER",
+         "stackPrimarySizing": "FIXED",
+         "stackCounterSizing": "RESIZE_TO_FIT_WITH_IMPLICIT_SIZE",
+         "frameMaskDisabled": true,
+         "fills": [
+          {
+           "type": "SOLID",
+           "color": "#FFFFFF"
+          }
+         ],
+         "strokes": [
+          {
+           "type": "SOLID",
+           "color": "#C8C8C8"
+          }
+         ]
+        },
+        {
+         "name": "MenuBar",
+         "type": "INSTANCE",
+         "x": 0.0,
+         "y": 264.0,
+         "w": 343.0,
+         "h": 76.0,
+         "visible": false,
+         "rectangleTopLeftCornerRadius": 8.0,
+         "rectangleTopRightCornerRadius": 8.0,
+         "rectangleBottomLeftCornerRadius": 8.0,
+         "rectangleBottomRightCornerRadius": 8.0,
+         "strokeWeight": 1.0,
+         "strokeAlign": "INSIDE",
+         "stackMode": "HORIZONTAL",
+         "stackSpacing": 16.0,
+         "stackPaddingRight": 24.0,
+         "stackPaddingBottom": 16.0,
+         "stackCounterAlignItems": "CENTER",
+         "stackPrimarySizing": "FIXED",
+         "stackCounterSizing": "RESIZE_TO_FIT_WITH_IMPLICIT_SIZE",
+         "frameMaskDisabled": true,
+         "fills": [
+          {
+           "type": "SOLID",
+           "color": "#FFFFFF"
+          }
+         ],
+         "strokes": [
+          {
+           "type": "SOLID",
+           "color": "#C8C8C8"
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "name": "Normal Nav Bar",
+     "type": "INSTANCE",
+     "x": 0.0,
+     "y": 751.0,
+     "w": 375.0,
+     "h": 64.0,
+     "strokeWeight": 1.0,
+     "strokeAlign": "INSIDE",
+     "stackMode": "HORIZONTAL",
+     "stackPaddingRight": 8.0,
+     "stackCounterAlignItems": "CENTER",
+     "stackPrimarySizing": "FIXED",
+     "frameMaskDisabled": true,
+     "fills": [
+      {
+       "type": "SOLID",
+       "color": "#FFFFFF"
+      }
+     ],
+     "strokes": [
+      {
+       "type": "SOLID",
+       "color": "#ECECEC"
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

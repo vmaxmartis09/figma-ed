@@ -1,0 +1,288 @@
+{
+ "name": "Video&Course - Watch History-Empty",
+ "type": "FRAME",
+ "x": 1041.0,
+ "y": 411.0,
+ "w": 375.0,
+ "h": 815.0,
+ "strokeWeight": 4.0,
+ "strokeAlign": "INSIDE",
+ "stackSpacing": 8.0,
+ "stackCounterAlignItems": "CENTER",
+ "stackPrimarySizing": "FIXED",
+ "fills": [
+  {
+   "type": "SOLID",
+   "color": "#FFFFFF"
+  }
+ ],
+ "children": [
+  {
+   "name": "Top Navigation",
+   "type": "INSTANCE",
+   "x": 0.0,
+   "y": 0.0,
+   "w": 375.0,
+   "h": 183.0,
+   "strokeWeight": 1.0,
+   "strokeAlign": "INSIDE",
+   "stackMode": "VERTICAL",
+   "stackPrimarySizing": "FIXED",
+   "frameMaskDisabled": true
+  },
+  {
+   "name": "Main Tab",
+   "type": "INSTANCE",
+   "x": 16.0,
+   "y": 119.0,
+   "w": 343.0,
+   "h": 48.0,
+   "cornerRadius": 8.0,
+   "rectangleTopLeftCornerRadius": 8.0,
+   "rectangleTopRightCornerRadius": 8.0,
+   "rectangleBottomLeftCornerRadius": 8.0,
+   "rectangleBottomRightCornerRadius": 8.0,
+   "strokeWeight": 1.0,
+   "strokeAlign": "INSIDE",
+   "stackMode": "HORIZONTAL",
+   "stackSpacing": 8.0,
+   "stackPaddingRight": 8.0,
+   "stackPaddingBottom": 8.0,
+   "stackCounterAlignItems": "CENTER",
+   "stackPrimarySizing": "FIXED",
+   "frameMaskDisabled": true,
+   "fills": [
+    {
+     "type": "SOLID",
+     "color": "#EEFBFC"
+    }
+   ]
+  },
+  {
+   "name": "Sub Tab",
+   "type": "INSTANCE",
+   "x": 0.0,
+   "y": 183.0,
+   "w": 375.0,
+   "h": 44.0,
+   "strokeWeight": 1.0,
+   "strokeAlign": "INSIDE",
+   "stackMode": "HORIZONTAL",
+   "stackCounterAlignItems": "CENTER",
+   "stackPrimarySizing": "FIXED",
+   "stackCounterSizing": "RESIZE_TO_FIT_WITH_IMPLICIT_SIZE",
+   "horizontalConstraint": "CENTER",
+   "frameMaskDisabled": true
+  },
+  {
+   "name": "Container",
+   "type": "FRAME",
+   "x": 16.0,
+   "y": 408.0,
+   "w": 343.0,
+   "h": 126.0,
+   "strokeWeight": 1.0,
+   "strokeAlign": "INSIDE",
+   "stackMode": "VERTICAL",
+   "stackSpacing": 16.0,
+   "stackCounterAlignItems": "CENTER",
+   "horizontalConstraint": "CENTER",
+   "frameMaskDisabled": true,
+   "children": [
+    {
+     "name": "Container",
+     "type": "FRAME",
+     "x": 0.0,
+     "y": 0.0,
+     "w": 343.0,
+     "h": 126.0,
+     "strokeWeight": 1.0,
+     "strokeAlign": "INSIDE",
+     "stackMode": "VERTICAL",
+     "stackSpacing": 16.0,
+     "stackCounterAlignItems": "CENTER",
+     "frameMaskDisabled": true,
+     "children": [
+      {
+       "name": "Container",
+       "type": "FRAME",
+       "x": 0.0,
+       "y": 0.0,
+       "w": 343.0,
+       "h": 88.0,
+       "strokeWeight": 1.0,
+       "strokeAlign": "INSIDE",
+       "stackMode": "VERTICAL",
+       "stackSpacing": 8.0,
+       "stackCounterAlignItems": "CENTER",
+       "frameMaskDisabled": true,
+       "children": [
+        {
+         "name": "clock",
+         "type": "INSTANCE",
+         "x": 159.5,
+         "y": 0.0,
+         "w": 24.0,
+         "h": 24.0,
+         "strokeWeight": 1.0,
+         "strokeAlign": "INSIDE"
+        },
+        {
+         "name": "Title",
+         "type": "TEXT",
+         "x": 0.0,
+         "y": 32.0,
+         "w": 343.0,
+         "h": 26.0,
+         "strokeWeight": 0.4000000059604645,
+         "strokeAlign": "CENTER",
+         "fills": [
+          {
+           "type": "SOLID",
+           "color": "#121212"
+          }
+         ],
+         "text": {
+          "characters": "No watch history yet",
+          "fontSize": 20.0,
+          "font": {
+           "family": "Roboto",
+           "style": "Bold",
+           "postscript": "Roboto-Bold"
+          },
+          "lineHeight": {
+           "value": 26.0,
+           "units": "PIXELS"
+          },
+          "letterSpacing": {
+           "value": -1.0,
+           "units": "PERCENT"
+          },
+          "alignH": "CENTER",
+          "alignV": "TOP",
+          "case": null,
+          "decoration": null,
+          "autoResize": "HEIGHT"
+         }
+        },
+        {
+         "name": "Subtitle",
+         "type": "TEXT",
+         "x": 0.0,
+         "y": 66.0,
+         "w": 343.0,
+         "h": 22.0,
+         "strokeWeight": 0.4000000059604645,
+         "strokeAlign": "CENTER",
+         "fills": [
+          {
+           "type": "SOLID",
+           "color": "#555555"
+          }
+         ],
+         "text": {
+          "characters": "Videos you watch will appear here",
+          "fontSize": 16.0,
+          "font": {
+           "family": "Roboto",
+           "style": "Regular",
+           "postscript": "Roboto-Regular"
+          },
+          "lineHeight": {
+           "value": 22.0,
+           "units": "PIXELS"
+          },
+          "letterSpacing": {
+           "value": 0.0,
+           "units": "PERCENT"
+          },
+          "alignH": "CENTER",
+          "alignV": "TOP",
+          "case": null,
+          "decoration": null,
+          "autoResize": "HEIGHT"
+         }
+        }
+       ]
+      },
+      {
+       "name": "Link",
+       "type": "INSTANCE",
+       "x": 119.0,
+       "y": 104.0,
+       "w": 105.0,
+       "h": 22.0,
+       "strokeWeight": 1.0,
+       "strokeAlign": "INSIDE",
+       "stackMode": "HORIZONTAL",
+       "stackSpacing": 4.0,
+       "stackCounterAlignItems": "CENTER",
+       "stackCounterSizing": "RESIZE_TO_FIT_WITH_IMPLICIT_SIZE",
+       "frameMaskDisabled": true
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Bottom navigation",
+   "type": "FRAME",
+   "x": 0.0,
+   "y": 717.0,
+   "w": 375.0,
+   "h": 98.0,
+   "strokeWeight": 1.0,
+   "strokeAlign": "INSIDE",
+   "stackMode": "VERTICAL",
+   "verticalConstraint": "MAX",
+   "frameMaskDisabled": true,
+   "children": [
+    {
+     "name": "Normal Nav Bar",
+     "type": "INSTANCE",
+     "x": 0.0,
+     "y": 0.0,
+     "w": 375.0,
+     "h": 64.0,
+     "strokeWeight": 1.0,
+     "strokeAlign": "INSIDE",
+     "stackMode": "HORIZONTAL",
+     "stackPaddingRight": 8.0,
+     "stackPaddingBottom": 117.0,
+     "stackCounterAlignItems": "CENTER",
+     "stackPrimarySizing": "FIXED",
+     "frameMaskDisabled": true,
+     "fills": [
+      {
+       "type": "SOLID",
+       "color": "#FFFFFF"
+      }
+     ],
+     "strokes": [
+      {
+       "type": "SOLID",
+       "color": "#ECECEC"
+      }
+     ]
+    },
+    {
+     "name": "🧰/Home Indicator (iPhone)",
+     "type": "INSTANCE",
+     "x": 0.0,
+     "y": 64.0,
+     "w": 375.0,
+     "h": 34.0,
+     "strokeWeight": 1.0,
+     "strokeAlign": "INSIDE",
+     "frameMaskDisabled": true,
+     "fills": [
+      {
+       "type": "SOLID",
+       "color": "#FFFFFF"
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

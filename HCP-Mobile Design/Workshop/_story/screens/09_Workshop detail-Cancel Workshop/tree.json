@@ -1,0 +1,79 @@
+{
+ "name": "Workshop detail-Cancel Workshop",
+ "type": "FRAME",
+ "x": 151.0,
+ "y": 2460.0,
+ "w": 375.0,
+ "h": 903.0,
+ "strokeWeight": 1.0,
+ "strokeAlign": "INSIDE",
+ "children": [
+  {
+   "name": "Workshop detail",
+   "type": "INSTANCE",
+   "x": 0.0,
+   "y": 0.0,
+   "w": 375.0,
+   "h": 903.0,
+   "strokeWeight": 1.0,
+   "strokeAlign": "INSIDE",
+   "stackPrimarySizing": "FIXED",
+   "fills": [
+    {
+     "type": "SOLID",
+     "color": "#FFFFFF"
+    }
+   ]
+  },
+  {
+   "name": "Dim Overlay",
+   "type": "ROUNDED_RECTANGLE",
+   "x": 0.0,
+   "y": 0.0,
+   "w": 375.0,
+   "h": 903.0,
+   "strokeWeight": 1.0,
+   "strokeAlign": "INSIDE",
+   "fills": [
+    {
+     "type": "SOLID",
+     "color": "#000000",
+     "opacity": 0.501960813999176
+    }
+   ]
+  },
+  {
+   "name": "Dialog",
+   "type": "INSTANCE",
+   "x": 16.0,
+   "y": 242.0,
+   "w": 343.0,
+   "h": 420.0,
+   "rectangleTopLeftCornerRadius": 8.0,
+   "rectangleTopRightCornerRadius": 8.0,
+   "rectangleBottomLeftCornerRadius": 8.0,
+   "rectangleBottomRightCornerRadius": 8.0,
+   "strokeWeight": 1.0,
+   "strokeAlign": "INSIDE",
+   "stackMode": "VERTICAL",
+   "horizontalConstraint": "CENTER",
+   "verticalConstraint": "CENTER",
+   "fills": [
+    {
+     "type": "SOLID",
+     "color": "#FFFFFF"
+    }
+   ],
+   "effects": [
+    {
+     "type": "DROP_SHADOW",
+     "color": "#0000001A",
+     "x": 0.0,
+     "y": 5.0,
+     "radius": 16.0,
+     "spread": -3.0
+    }
+   ]
+  }
+ ]
+}

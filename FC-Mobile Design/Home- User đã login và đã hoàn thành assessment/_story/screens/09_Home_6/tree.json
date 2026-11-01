@@ -1,0 +1,1292 @@
+{
+ "name": "Home",
+ "type": "SYMBOL",
+ "x": 4051.0,
+ "y": 536.0,
+ "w": 375.0,
+ "h": 1881.0,
+ "strokeWeight": 1.0,
+ "strokeAlign": "INSIDE",
+ "stackPrimarySizing": "FIXED",
+ "fills": [
+  {
+   "type": "SOLID",
+   "color": "#FFFFFF"
+  }
+ ],
+ "children": [
+  {
+   "name": "Top Navigation",
+   "type": "INSTANCE",
+   "x": 0.0,
+   "y": 0.0,
+   "w": 375.0,
+   "h": 214.0,
+   "strokeWeight": 1.0,
+   "strokeAlign": "INSIDE",
+   "stackMode": "VERTICAL",
+   "stackCounterAlignItems": "CENTER",
+   "stackPrimarySizing": "FIXED",
+   "frameMaskDisabled": true
+  },
+  {
+   "name": "Frame 1000004676",
+   "type": "FRAME",
+   "x": 16.0,
+   "y": 189.0,
+   "w": 343.0,
+   "h": 80.0,
+   "strokeWeight": 1.0,
+   "strokeAlign": "INSIDE",
+   "stackMode": "VERTICAL",
+   "stackSpacing": 12.0,
+   "frameMaskDisabled": true,
+   "children": [
+    {
+     "name": "Search Field",
+     "type": "INSTANCE",
+     "x": 0.0,
+     "y": 0.0,
+     "w": 343.0,
+     "h": 48.0,
+     "strokeWeight": 1.0,
+     "strokeAlign": "INSIDE",
+     "stackMode": "HORIZONTAL",
+     "stackSpacing": 8.0,
+     "stackPrimarySizing": "FIXED",
+     "stackCounterSizing": "RESIZE_TO_FIT_WITH_IMPLICIT_SIZE",
+     "frameMaskDisabled": true
+    },
+    {
+     "name": "Link",
+     "type": "INSTANCE",
+     "x": 0.0,
+     "y": 60.0,
+     "w": 170.0,
+     "h": 20.0,
+     "strokeWeight": 1.0,
+     "strokeAlign": "INSIDE",
+     "stackMode": "HORIZONTAL",
+     "stackSpacing": 4.0,
+     "stackCounterAlignItems": "CENTER",
+     "stackCounterSizing": "RESIZE_TO_FIT_WITH_IMPLICIT_SIZE",
+     "frameMaskDisabled": true
+    }
+   ]
+  },
+  {
+   "name": "Frame 1000004686",
+   "type": "FRAME",
+   "x": 16.0,
+   "y": 293.0,
+   "w": 343.0,
+   "h": 1466.0,
+   "strokeWeight": 1.0,
+   "strokeAlign": "INSIDE",
+   "stackMode": "VERTICAL",
+   "stackSpacing": 40.0,
+   "frameMaskDisabled": true,
+   "children": [
+    {
+     "name": "Frame 1000004689",
+     "type": "FRAME",
+     "x": 0.0,
+     "y": 0.0,
+     "w": 343.0,
+     "h": 728.0,
+     "strokeWeight": 1.0,
+     "strokeAlign": "INSIDE",
+     "stackMode": "VERTICAL",
+     "stackSpacing": 16.0,
+     "stackCounterAlignItems": "MAX",
+     "frameMaskDisabled": true,
+     "children": [
+      {
+       "name": "Frame 1000004678",
+       "type": "FRAME",
+       "x": 0.0,
+       "y": 0.0,
+       "w": 343.0,
+       "h": 26.0,
+       "strokeWeight": 1.0,
+       "strokeAlign": "INSIDE",
+       "stackMode": "HORIZONTAL",
+       "stackSpacing": 8.0,
+       "stackCounterAlignItems": "BASELINE",
+       "stackPrimarySizing": "FIXED",
+       "stackCounterSizing": "RESIZE_TO_FIT_WITH_IMPLICIT_SIZE",
+       "frameMaskDisabled": true,
+       "children": [
+        {
+         "name": "Recommendations for you",
+         "type": "TEXT",
+         "x": 0.0,
+         "y": 0.0,
+         "w": 259.0,
+         "h": 26.0,
+         "strokeWeight": 0.4000000059604645,
+         "strokeAlign": "CENTER",
+         "stackChildPrimaryGrow": 1.0,
+         "fills": [
+          {
+           "type": "SOLID",
+           "color": "#212121"
+          }
+         ],
+         "text": {
+          "characters": "Recommendations for you",
+          "fontSize": 20.0,
+          "font": {
+           "family": "Inter",
+           "style": "Bold",
+           "postscript": "Inter-Bold"
+          },
+          "lineHeight": {
+           "value": 26.0,
+           "units": "PIXELS"
+          },
+          "letterSpacing": {
+           "value": -1.0,
+           "units": "PERCENT"
+          },
+          "alignH": null,
+          "alignV": "TOP",
+          "case": null,
+          "decoration": null,
+          "autoResize": "HEIGHT"
+         }
+        },
+        {
+         "name": "Link",
+         "type": "INSTANCE",
+         "x": 267.0,
+         "y": 4.0,
+         "w": 76.0,
+         "h": 22.0,
+         "strokeWeight": 1.0,
+         "strokeAlign": "INSIDE",
+         "stackMode": "HORIZONTAL",
+         "stackSpacing": 4.0,
+         "stackCounterAlignItems": "CENTER",
+         "stackCounterSizing": "RESIZE_TO_FIT_WITH_IMPLICIT_SIZE",
+         "frameMaskDisabled": true
+        }
+       ]
+      },
+      {
+       "name": "Frame 1000004691",
+       "type": "FRAME",
+       "x": 0.0,
+       "y": 42.0,
+       "w": 343.0,
+       "h": 362.0,
+       "strokeWeight": 1.0,
+       "strokeAlign": "INSIDE",
+       "stackMode": "VERTICAL",
+       "stackSpacing": 8.0,
+       "frameMaskDisabled": true,
+       "children": [
+        {
+         "name": "Recommended videos",
+         "type": "TEXT",
+         "x": 0.0,
+         "y": 0.0,
+         "w": 343.0,
+         "h": 22.0,
+         "strokeWeight": 0.4000000059604645,
+         "strokeAlign": "CENTER",
+         "fills": [
+          {
+           "type": "SOLID",
+           "color": "#555555"
+          }
+         ],
+         "text": {
+          "characters": "Recommended videos",
+          "fontSize": 16.0,
+          "font": {
+           "family": "Roboto",
+           "style": "Bold",
+           "postscript": "Roboto-Bold"
+          },
+          "lineHeight": {
+           "value": 22.0,
+           "units": "PIXELS"
+          },
+          "letterSpacing": {
+           "value": 0.0,
+           "units": "PERCENT"
+          },
+          "alignH": null,
+          "alignV": "TOP",
+          "case": null,
+          "decoration": null,
+          "autoResize": "HEIGHT"
+         }
+        },
+        {
+         "name": "Frame 1000004684",
+         "type": "FRAME",
+         "x": 0.0,
+         "y": 30.0,
+         "w": 343.0,
+         "h": 332.0,
+         "strokeWeight": 1.0,
+         "strokeAlign": "INSIDE",
+         "stackMode": "VERTICAL",
+         "stackSpacing": 16.0,
+         "frameMaskDisabled": true,
+         "children": [
+          {
+           "name": "Frame 1000004682",
+           "type": "FRAME",
+           "x": 0.0,
+           "y": 0.0,
+           "w": 343.0,
+           "h": 158.0,
+           "strokeWeight": 1.0,
+           "strokeAlign": "INSIDE",
+           "stackMode": "HORIZONTAL",
+           "stackSpacing": 16.0,
+           "stackCounterAlignItems": "CENTER",
+           "stackPrimarySizing": "FIXED",
+           "stackCounterSizing": "RESIZE_TO_FIT_WITH_IMPLICIT_SIZE",
+           "frameMaskDisabled": true,
+           "children": [
+            {
+             "name": "Card M",
+             "type": "INSTANCE",
+             "x": 0.0,
+             "y": 0.0,
+             "w": 163.5,
+             "h": 158.0,
+             "strokeWeight": 1.0,
+             "strokeAlign": "INSIDE",
+             "stackMode": "VERTICAL",
+             "stackSpacing": 8.0,
+             "stackCounterAlignItems": "CENTER",
+             "stackChildPrimaryGrow": 1.0,
+             "frameMaskDisabled": true
+            },
+            {
+             "name": "Card M",
+             "type": "INSTANCE",
+             "x": 179.5,
+             "y": 0.0,
+             "w": 163.5,
+             "h": 158.0,
+             "strokeWeight": 1.0,
+             "strokeAlign": "INSIDE",
+             "stackMode": "VERTICAL",
+             "stackSpacing": 8.0,
+             "stackCounterAlignItems": "CENTER",
+             "stackChildPrimaryGrow": 1.0,
+             "frameMaskDisabled": true
+            }
+           ]
+          },
+          {
+           "name": "Frame 1000004683",
+           "type": "FRAME",
+           "x": 0.0,
+           "y": 174.0,
+           "w": 343.0,
+           "h": 158.0,
+           "strokeWeight": 1.0,
+           "strokeAlign": "INSIDE",
+           "stackMode": "HORIZONTAL",
+           "stackSpacing": 16.0,
+           "stackCounterAlignItems": "CENTER",
+           "stackPrimarySizing": "FIXED",
+           "stackCounterSizing": "RESIZE_TO_FIT_WITH_IMPLICIT_SIZE",
+           "frameMaskDisabled": true,
+           "children": [
+            {
+             "name": "Card M",
+             "type": "INSTANCE",
+             "x": 0.0,
+             "y": 0.0,
+             "w": 163.5,
+             "h": 158.0,
+             "strokeWeight": 1.0,
+             "strokeAlign": "INSIDE",
+             "stackMode": "VERTICAL",
+             "stackSpacing": 8.0,
+             "stackCounterAlignItems": "CENTER",
+             "stackChildPrimaryGrow": 1.0,
+             "frameMaskDisabled": true
+            },
+            {
+             "name": "Card M",
+             "type": "INSTANCE",
+             "x": 179.5,
+             "y": 0.0,
+             "w": 163.5,
+             "h": 158.0,
+             "strokeWeight": 1.0,
+             "strokeAlign": "INSIDE",
+             "stackMode": "VERTICAL",
+             "stackSpacing": 8.0,
+             "stackCounterAlignItems": "CENTER",
+             "stackChildPrimaryGrow": 1.0,
+             "frameMaskDisabled": true
+            }
+           ]
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "name": "Frame 1000004690",
+       "type": "FRAME",
+       "x": 0.0,
+       "y": 420.0,
+       "w": 343.0,
+       "h": 308.0,
+       "strokeWeight": 1.0,
+       "strokeAlign": "INSIDE",
+       "stackMode": "VERTICAL",
+       "stackSpacing": 8.0,
+       "frameMaskDisabled": true,
+       "children": [
+        {
+         "name": "Recommended course lessons",
+         "type": "TEXT",
+         "x": 0.0,
+         "y": 0.0,
+         "w": 343.0,
+         "h": 22.0,
+         "strokeWeight": 0.4000000059604645,
+         "strokeAlign": "CENTER",
+         "fills": [
+          {
+           "type": "SOLID",
+           "color": "#555555"
+          }
+         ],
+         "text": {
+          "characters": "Recommended course lessons",
+          "fontSize": 16.0,
+          "font": {
+           "family": "Roboto",
+           "style": "Bold",
+           "postscript": "Roboto-Bold"
+          },
+          "lineHeight": {
+           "value": 22.0,
+           "units": "PIXELS"
+          },
+          "letterSpacing": {
+           "value": 0.0,
+           "units": "PERCENT"
+          },
+          "alignH": null,
+          "alignV": "TOP",
+          "case": null,
+          "decoration": null,
+          "autoResize": "HEIGHT"
+         }
+        },
+        {
+         "name": "Card S",
+         "type": "INSTANCE",
+         "x": 0.0,
+         "y": 30.0,
+         "w": 343.0,
+         "h": 52.0,
+         "cornerRadius": 8.0,
+         "rectangleTopLeftCornerRadius": 8.0,
+         "rectangleTopRightCornerRadius": 8.0,
+         "rectangleBottomLeftCornerRadius": 8.0,
+         "rectangleBottomRightCornerRadius": 8.0,
+         "strokeWeight": 1.0,
+         "strokeAlign": "INSIDE",
+         "stackMode": "HORIZONTAL",
+         "stackSpacing": 16.0,
+         "stackPaddingRight": 16.0,
+         "stackPaddingBottom": 8.0,
+         "stackPrimaryAlignItems": "CENTER",
+         "stackCounterAlignItems": "CENTER",
+         "stackPrimarySizing": "FIXED",
+         "stackCounterSizing": "RESIZE_TO_FIT_WITH_IMPLICIT_SIZE",
+         "frameMaskDisabled": true,
+         "fills": [
+          {
+           "type": "SOLID",
+           "color": "#FFFFFF"
+          }
+         ],
+         "strokes": [
+          {
+           "type": "SOLID",
+           "color": "#C8C8C8"
+          }
+         ]
+        },
+        {
+         "name": "Card S",
+         "type": "INSTANCE",
+         "x": 0.0,
+         "y": 90.0,
+         "w": 343.0,
+         "h": 82.0,
+         "cornerRadius": 8.0,
+         "rectangleTopLeftCornerRadius": 8.0,
+         "rectangleTopRightCornerRadius": 8.0,
+         "rectangleBottomLeftCornerRadius": 8.0,
+         "rectangleBottomRightCornerRadius": 8.0,
+         "strokeWeight": 1.0,
+         "strokeAlign": "INSIDE",
+         "stackMode": "HORIZONTAL",
+         "stackSpacing": 16.0,
+         "stackPaddingRight": 16.0,
+         "stackPaddingBottom": 8.0,
+         "stackPrimaryAlignItems": "CENTER",
+         "stackCounterAlignItems": "CENTER",
+         "stackPrimarySizing": "FIXED",
+         "stackCounterSizing": "RESIZE_TO_FIT_WITH_IMPLICIT_SIZE",
+         "frameMaskDisabled": true,
+         "fills": [
+          {
+           "type": "SOLID",
+           "color": "#FFFFFF"
+          }
+         ],
+         "strokes": [
+          {
+           "type": "SOLID",
+           "color": "#C8C8C8"
+          }
+         ]
+        },
+        {
+         "name": "Card S",
+         "type": "INSTANCE",
+         "x": 0.0,
+         "y": 180.0,
+         "w": 343.0,
+         "h": 60.0,
+         "cornerRadius": 8.0,
+         "rectangleTopLeftCornerRadius": 8.0,
+         "rectangleTopRightCornerRadius": 8.0,
+         "rectangleBottomLeftCornerRadius": 8.0,
+         "rectangleBottomRightCornerRadius": 8.0,
+         "strokeWeight": 1.0,
+         "strokeAlign": "INSIDE",
+         "stackMode": "HORIZONTAL",
+         "stackSpacing": 16.0,
+         "stackPaddingRight": 16.0,
+         "stackPaddingBottom": 8.0,
+         "stackPrimaryAlignItems": "CENTER",
+         "stackCounterAlignItems": "CENTER",
+         "stackPrimarySizing": "FIXED",
+         "stackCounterSizing": "RESIZE_TO_FIT_WITH_IMPLICIT_SIZE",
+         "frameMaskDisabled": true,
+         "fills": [
+          {
+           "type": "SOLID",
+           "color": "#FFFFFF"
+          }
+         ],
+         "strokes": [
+          {
+           "type": "SOLID",
+           "color": "#C8C8C8"
+          }
+         ]
+        },
+        {
+         "name": "Card S",
+         "type": "INSTANCE",
+         "x": 0.0,
+         "y": 248.0,
+         "w": 343.0,
+         "h": 60.0,
+         "cornerRadius": 8.0,
+         "rectangleTopLeftCornerRadius": 8.0,
+         "rectangleTopRightCornerRadius": 8.0,
+         "rectangleBottomLeftCornerRadius": 8.0,
+         "rectangleBottomRightCornerRadius": 8.0,
+         "strokeWeight": 1.0,
+         "strokeAlign": "INSIDE",
+         "stackMode": "HORIZONTAL",
+         "stackSpacing": 16.0,
+         "stackPaddingRight": 16.0,
+         "stackPaddingBottom": 8.0,
+         "stackPrimaryAlignItems": "CENTER",
+         "stackCounterAlignItems": "CENTER",
+         "stackPrimarySizing": "FIXED",
+         "stackCounterSizing": "RESIZE_TO_FIT_WITH_IMPLICIT_SIZE",
+         "frameMaskDisabled": true,
+         "fills": [
+          {
+           "type": "SOLID",
+           "color": "#FFFFFF"
+          }
+         ],
+         "strokes": [
+          {
+           "type": "SOLID",
+           "color": "#C8C8C8"
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "name": "Frame 1000004688",
+     "type": "FRAME",
+     "x": 0.0,
+     "y": 768.0,
+     "w": 341.0,
+     "h": 122.0,
+     "visible": false,
+     "strokeWeight": 1.0,
+     "strokeAlign": "INSIDE",
+     "stackMode": "VERTICAL",
+     "stackSpacing": 16.0,
+     "stackPrimarySizing": "FIXED",
+     "frameMaskDisabled": true,
+     "children": [
+      {
+       "name": "Browse by category",
+       "type": "TEXT",
+       "x": 0.0,
+       "y": 0.0,
+       "w": 341.0,
+       "h": 26.0,
+       "strokeWeight": 0.4000000059604645,
+       "strokeAlign": "CENTER",
+       "stackChildPrimaryGrow": 1.0,
+       "fills": [
+        {
+         "type": "SOLID",
+         "color": "#212121"
+        }
+       ],
+       "text": {
+        "characters": "Browse by category",
+        "fontSize": 20.0,
+        "font": {
+         "family": "Inter",
+         "style": "Bold",
+         "postscript": "Inter-Bold"
+        },
+        "lineHeight": {
+         "value": 26.0,
+         "units": "PIXELS"
+        },
+        "letterSpacing": {
+         "value": -1.0,
+         "units": "PERCENT"
+        },
+        "alignH": null,
+        "alignV": "TOP",
+        "case": null,
+        "decoration": null,
+        "autoResize": "HEIGHT"
+       }
+      },
+      {
+       "name": "Frame 1000004687",
+       "type": "FRAME",
+       "x": 0.0,
+       "y": 42.0,
+       "w": 341.0,
+       "h": 80.0,
+       "strokeWeight": 1.0,
+       "strokeAlign": "INSIDE",
+       "stackMode": "HORIZONTAL",
+       "stackSpacing": 8.0,
+       "stackCounterAlignItems": "CENTER",
+       "stackPrimarySizing": "FIXED",
+       "stackCounterSizing": "RESIZE_TO_FIT_WITH_IMPLICIT_SIZE",
+       "frameMaskDisabled": true,
+       "children": [
+        {
+         "name": "Tag line",
+         "type": "INSTANCE",
+         "x": 0.0,
+         "y": 0.0,
+         "w": 112.0,
+         "h": 36.0,
+         "cornerRadius": 6.0,
+         "rectangleTopLeftCornerRadius": 6.0,
+         "rectangleTopRightCornerRadius": 6.0,
+         "rectangleBottomLeftCornerRadius": 6.0,
+         "rectangleBottomRightCornerRadius": 6.0,
+         "strokeWeight": 1.0,
+         "strokeAlign": "INSIDE",
+         "stackMode": "HORIZONTAL",
+         "stackSpacing": 4.0,
+         "stackPaddingRight": 8.0,
+         "stackPaddingBottom": 8.0,
+         "stackCounterAlignItems": "CENTER",
+         "stackCounterSizing": "RESIZE_TO_FIT_WITH_IMPLICIT_SIZE",
+         "frameMaskDisabled": true,
+         "fills": [
+          {
+           "type": "SOLID",
+           "color": "#EEFBFC"
+          }
+         ],
+         "strokes": [
+          {
+           "type": "SOLID",
+           "color": "#1999A4"
+          }
+         ]
+        },
+        {
+         "name": "Tag line",
+         "type": "INSTANCE",
+         "x": 120.0,
+         "y": 0.0,
+         "w": 79.0,
+         "h": 36.0,
+         "cornerRadius": 6.0,
+         "rectangleTopLeftCornerRadius": 6.0,
+         "rectangleTopRightCornerRadius": 6.0,
+         "rectangleBottomLeftCornerRadius": 6.0,
+         "rectangleBottomRightCornerRadius": 6.0,
+         "strokeWeight": 1.0,
+         "strokeAlign": "INSIDE",
+         "stackMode": "HORIZONTAL",
+         "stackSpacing": 4.0,
+         "stackPaddingRight": 8.0,
+         "stackPaddingBottom": 8.0,
+         "stackCounterAlignItems": "CENTER",
+         "stackCounterSizing": "RESIZE_TO_FIT_WITH_IMPLICIT_SIZE",
+         "frameMaskDisabled": true,
+         "fills": [
+          {
+           "type": "SOLID",
+           "color": "#EEFBFC"
+          }
+         ],
+         "strokes": [
+          {
+           "type": "SOLID",
+           "color": "#1999A4"
+          }
+         ]
+        },
+        {
+         "name": "Tag line",
+         "type": "INSTANCE",
+         "x": 207.0,
+         "y": 0.0,
+         "w": 109.0,
+         "h": 36.0,
+         "cornerRadius": 6.0,
+         "rectangleTopLeftCornerRadius": 6.0,
+         "rectangleTopRightCornerRadius": 6.0,
+         "rectangleBottomLeftCornerRadius": 6.0,
+         "rectangleBottomRightCornerRadius": 6.0,
+         "strokeWeight": 1.0,
+         "strokeAlign": "INSIDE",
+         "stackMode": "HORIZONTAL",
+         "stackSpacing": 4.0,
+         "stackPaddingRight": 8.0,
+         "stackPaddingBottom": 8.0,
+         "stackCounterAlignItems": "CENTER",
+         "stackCounterSizing": "RESIZE_TO_FIT_WITH_IMPLICIT_SIZE",
+         "frameMaskDisabled": true,
+         "fills": [
+          {
+           "type": "SOLID",
+           "color": "#EEFBFC"
+          }
+         ],
+         "strokes": [
+          {
+           "type": "SOLID",
+           "color": "#1999A4"
+          }
+         ]
+        },
+        {
+         "name": "Tag line",
+         "type": "INSTANCE",
+         "x": 0.0,
+         "y": 44.0,
+         "w": 134.0,
+         "h": 36.0,
+         "cornerRadius": 6.0,
+         "rectangleTopLeftCornerRadius": 6.0,
+         "rectangleTopRightCornerRadius": 6.0,
+         "rectangleBottomLeftCornerRadius": 6.0,
+         "rectangleBottomRightCornerRadius": 6.0,
+         "strokeWeight": 1.0,
+         "strokeAlign": "INSIDE",
+         "stackMode": "HORIZONTAL",
+         "stackSpacing": 4.0,
+         "stackPaddingRight": 8.0,
+         "stackPaddingBottom": 8.0,
+         "stackCounterAlignItems": "CENTER",
+         "stackCounterSizing": "RESIZE_TO_FIT_WITH_IMPLICIT_SIZE",
+         "frameMaskDisabled": true,
+         "fills": [
+          {
+           "type": "SOLID",
+           "color": "#EEFBFC"
+          }
+         ],
+         "strokes": [
+          {
+           "type": "SOLID",
+           "color": "#1999A4"
+          }
+         ]
+        },
+        {
+         "name": "Tag line",
+         "type": "INSTANCE",
+         "x": 142.0,
+         "y": 44.0,
+         "w": 103.0,
+         "h": 36.0,
+         "cornerRadius": 6.0,
+         "rectangleTopLeftCornerRadius": 6.0,
+         "rectangleTopRightCornerRadius": 6.0,
+         "rectangleBottomLeftCornerRadius": 6.0,
+         "rectangleBottomRightCornerRadius": 6.0,
+         "strokeWeight": 1.0,
+         "strokeAlign": "INSIDE",
+         "stackMode": "HORIZONTAL",
+         "stackSpacing": 4.0,
+         "stackPaddingRight": 8.0,
+         "stackPaddingBottom": 8.0,
+         "stackCounterAlignItems": "CENTER",
+         "stackCounterSizing": "RESIZE_TO_FIT_WITH_IMPLICIT_SIZE",
+         "frameMaskDisabled": true,
+         "fills": [
+          {
+           "type": "SOLID",
+           "color": "#EEFBFC"
+          }
+         ],
+         "strokes": [
+          {
+           "type": "SOLID",
+           "color": "#1999A4"
+          }
+         ]
+        },
+        {
+         "name": "Tag line",
+         "type": "INSTANCE",
+         "x": 253.0,
+         "y": 44.0,
+         "w": 40.0,
+         "h": 36.0,
+         "cornerRadius": 6.0,
+         "rectangleTopLeftCornerRadius": 6.0,
+         "rectangleTopRightCornerRadius": 6.0,
+         "rectangleBottomLeftCornerRadius": 6.0,
+         "rectangleBottomRightCornerRadius": 6.0,
+         "strokeWeight": 1.0,
+         "strokeAlign": "INSIDE",
+         "stackMode": "HORIZONTAL",
+         "stackSpacing": 4.0,
+         "stackPaddingRight": 8.0,
+         "stackPaddingBottom": 8.0,
+         "stackCounterAlignItems": "CENTER",
+         "stackCounterSizing": "RESIZE_TO_FIT_WITH_IMPLICIT_SIZE",
+         "frameMaskDisabled": true,
+         "fills": [
+          {
+           "type": "SOLID",
+           "color": "#EEFBFC"
+          }
+         ],
+         "strokes": [
+          {
+           "type": "SOLID",
+           "color": "#1999A4"
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "name": "Frame 1000004685",
+     "type": "FRAME",
+     "x": 0.0,
+     "y": 768.0,
+     "w": 343.0,
+     "h": 374.0,
+     "strokeWeight": 1.0,
+     "strokeAlign": "INSIDE",
+     "stackMode": "VERTICAL",
+     "stackSpacing": 16.0,
+     "stackCounterAlignItems": "MAX",
+     "frameMaskDisabled": true,
+     "children": [
+      {
+       "name": "Frame 1000004678",
+       "type": "FRAME",
+       "x": 0.0,
+       "y": 0.0,
+       "w": 343.0,
+       "h": 26.0,
+       "strokeWeight": 1.0,
+       "strokeAlign": "INSIDE",
+       "stackMode": "HORIZONTAL",
+       "stackSpacing": 16.0,
+       "stackCounterAlignItems": "CENTER",
+       "stackPrimarySizing": "FIXED",
+       "stackCounterSizing": "RESIZE_TO_FIT_WITH_IMPLICIT_SIZE",
+       "frameMaskDisabled": true,
+       "children": [
+        {
+         "name": "Videos",
+         "type": "TEXT",
+         "x": 0.0,
+         "y": 0.0,
+         "w": 251.0,
+         "h": 26.0,
+         "strokeWeight": 0.4000000059604645,
+         "strokeAlign": "CENTER",
+         "stackChildPrimaryGrow": 1.0,
+         "fills": [
+          {
+           "type": "SOLID",
+           "color": "#212121"
+          }
+         ],
+         "text": {
+          "characters": "Videos",
+          "fontSize": 20.0,
+          "font": {
+           "family": "Inter",
+           "style": "Bold",
+           "postscript": "Inter-Bold"
+          },
+          "lineHeight": {
+           "value": 26.0,
+           "units": "PIXELS"
+          },
+          "letterSpacing": {
+           "value": -1.0,
+           "units": "PERCENT"
+          },
+          "alignH": null,
+          "alignV": "TOP",
+          "case": null,
+          "decoration": null,
+          "autoResize": "HEIGHT"
+         }
+        },
+        {
+         "name": "Link",
+         "type": "INSTANCE",
+         "x": 267.0,
+         "y": 2.0,
+         "w": 76.0,
+         "h": 22.0,
+         "strokeWeight": 1.0,
+         "strokeAlign": "INSIDE",
+         "stackMode": "HORIZONTAL",
+         "stackSpacing": 4.0,
+         "stackCounterAlignItems": "CENTER",
+         "stackCounterSizing": "RESIZE_TO_FIT_WITH_IMPLICIT_SIZE",
+         "frameMaskDisabled": true
+        }
+       ]
+      },
+      {
+       "name": "Frame 1000004684",
+       "type": "FRAME",
+       "x": 0.0,
+       "y": 42.0,
+       "w": 343.0,
+       "h": 332.0,
+       "strokeWeight": 1.0,
+       "strokeAlign": "INSIDE",
+       "stackMode": "VERTICAL",
+       "stackSpacing": 16.0,
+       "frameMaskDisabled": true,
+       "children": [
+        {
+         "name": "Frame 1000004682",
+         "type": "FRAME",
+         "x": 0.0,
+         "y": 0.0,
+         "w": 343.0,
+         "h": 158.0,
+         "strokeWeight": 1.0,
+         "strokeAlign": "INSIDE",
+         "stackMode": "HORIZONTAL",
+         "stackSpacing": 16.0,
+         "stackCounterAlignItems": "CENTER",
+         "stackPrimarySizing": "FIXED",
+         "stackCounterSizing": "RESIZE_TO_FIT_WITH_IMPLICIT_SIZE",
+         "frameMaskDisabled": true,
+         "children": [
+          {
+           "name": "Card M",
+           "type": "INSTANCE",
+           "x": 0.0,
+           "y": 0.0,
+           "w": 163.5,
+           "h": 158.0,
+           "strokeWeight": 1.0,
+           "strokeAlign": "INSIDE",
+           "stackMode": "VERTICAL",
+           "stackSpacing": 8.0,
+           "stackCounterAlignItems": "CENTER",
+           "stackChildPrimaryGrow": 1.0,
+           "frameMaskDisabled": true
+          },
+          {
+           "name": "Card M",
+           "type": "INSTANCE",
+           "x": 179.5,
+           "y": 0.0,
+           "w": 163.5,
+           "h": 158.0,
+           "strokeWeight": 1.0,
+           "strokeAlign": "INSIDE",
+           "stackMode": "VERTICAL",
+           "stackSpacing": 8.0,
+           "stackCounterAlignItems": "CENTER",
+           "stackChildPrimaryGrow": 1.0,
+           "frameMaskDisabled": true
+          }
+         ]
+        },
+        {
+         "name": "Frame 1000004683",
+         "type": "FRAME",
+         "x": 0.0,
+         "y": 174.0,
+         "w": 343.0,
+         "h": 158.0,
+         "strokeWeight": 1.0,
+         "strokeAlign": "INSIDE",
+         "stackMode": "HORIZONTAL",
+         "stackSpacing": 16.0,
+         "stackCounterAlignItems": "CENTER",
+         "stackPrimarySizing": "FIXED",
+         "stackCounterSizing": "RESIZE_TO_FIT_WITH_IMPLICIT_SIZE",
+         "frameMaskDisabled": true,
+         "children": [
+          {
+           "name": "Card M",
+           "type": "INSTANCE",
+           "x": 0.0,
+           "y": 0.0,
+           "w": 163.5,
+           "h": 158.0,
+           "strokeWeight": 1.0,
+           "strokeAlign": "INSIDE",
+           "stackMode": "VERTICAL",
+           "stackSpacing": 8.0,
+           "stackCounterAlignItems": "CENTER",
+           "stackChildPrimaryGrow": 1.0,
+           "frameMaskDisabled": true
+          },
+          {
+           "name": "Card M",
+           "type": "INSTANCE",
+           "x": 179.5,
+           "y": 0.0,
+           "w": 163.5,
+           "h": 158.0,
+           "strokeWeight": 1.0,
+           "strokeAlign": "INSIDE",
+           "stackMode": "VERTICAL",
+           "stackSpacing": 8.0,
+           "stackCounterAlignItems": "CENTER",
+           "stackChildPrimaryGrow": 1.0,
+           "frameMaskDisabled": true
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "name": "Frame 1000004681",
+     "type": "FRAME",
+     "x": 0.0,
+     "y": 1182.0,
+     "w": 343.0,
+     "h": 284.0,
+     "strokeWeight": 1.0,
+     "strokeAlign": "INSIDE",
+     "stackMode": "VERTICAL",
+     "stackSpacing": 16.0,
+     "frameMaskDisabled": true,
+     "children": [
+      {
+       "name": "Frame 1000004679",
+       "type": "FRAME",
+       "x": 0.0,
+       "y": 0.0,
+       "w": 341.0,
+       "h": 26.0,
+       "strokeWeight": 1.0,
+       "strokeAlign": "INSIDE",
+       "stackMode": "HORIZONTAL",
+       "stackSpacing": 16.0,
+       "stackCounterAlignItems": "CENTER",
+       "stackPrimarySizing": "FIXED",
+       "stackCounterSizing": "RESIZE_TO_FIT_WITH_IMPLICIT_SIZE",
+       "frameMaskDisabled": true,
+       "children": [
+        {
+         "name": "iSupport Course",
+         "type": "TEXT",
+         "x": 0.0,
+         "y": 0.0,
+         "w": 249.0,
+         "h": 26.0,
+         "strokeWeight": 0.4000000059604645,
+         "strokeAlign": "CENTER",
+         "stackChildPrimaryGrow": 1.0,
+         "fills": [
+          {
+           "type": "SOLID",
+           "color": "#212121"
+          }
+         ],
+         "text": {
+          "characters": "iSupport Course",
+          "fontSize": 20.0,
+          "font": {
+           "family": "Inter",
+           "style": "Bold",
+           "postscript": "Inter-Bold"
+          },
+          "lineHeight": {
+           "value": 26.0,
+           "units": "PIXELS"
+          },
+          "letterSpacing": {
+           "value": -1.0,
+           "units": "PERCENT"
+          },
+          "alignH": null,
+          "alignV": "TOP",
+          "case": null,
+          "decoration": null,
+          "autoResize": "HEIGHT"
+         }
+        },
+        {
+         "name": "Link",
+         "type": "INSTANCE",
+         "x": 265.0,
+         "y": 2.0,
+         "w": 76.0,
+         "h": 22.0,
+         "strokeWeight": 1.0,
+         "strokeAlign": "INSIDE",
+         "stackMode": "HORIZONTAL",
+         "stackSpacing": 4.0,
+         "stackCounterAlignItems": "CENTER",
+         "stackCounterSizing": "RESIZE_TO_FIT_WITH_IMPLICIT_SIZE",
+         "frameMaskDisabled": true
+        }
+       ]
+      },
+      {
+       "name": "Frame 1000004680",
+       "type": "FRAME",
+       "x": 0.0,
+       "y": 42.0,
+       "w": 343.0,
+       "h": 242.0,
+       "strokeWeight": 1.0,
+       "strokeAlign": "INSIDE",
+       "stackMode": "HORIZONTAL",
+       "stackSpacing": 16.0,
+       "stackCounterAlignItems": "CENTER",
+       "stackPrimarySizing": "FIXED",
+       "stackCounterSizing": "RESIZE_TO_FIT_WITH_IMPLICIT_SIZE",
+       "frameMaskDisabled": true,
+       "children": [
+        {
+         "name": "Card L",
+         "type": "INSTANCE",
+         "x": 0.0,
+         "y": 0.0,
+         "w": 228.0,
+         "h": 242.0,
+         "cornerRadius": 8.0,
+         "rectangleTopLeftCornerRadius": 8.0,
+         "rectangleTopRightCornerRadius": 8.0,
+         "rectangleBottomLeftCornerRadius": 8.0,
+         "rectangleBottomRightCornerRadius": 8.0,
+         "strokeWeight": 1.0,
+         "strokeAlign": "INSIDE",
+         "stackMode": "VERTICAL",
+         "stackSpacing": 16.0,
+         "stackPaddingRight": 8.0,
+         "stackPaddingBottom": 8.0,
+         "frameMaskDisabled": true,
+         "fills": [
+          {
+           "type": "SOLID",
+           "color": "#ECE0FC"
+          }
+         ]
+        },
+        {
+         "name": "Card L",
+         "type": "INSTANCE",
+         "x": 244.0,
+         "y": 0.0,
+         "w": 228.0,
+         "h": 242.0,
+         "cornerRadius": 8.0,
+         "rectangleTopLeftCornerRadius": 8.0,
+         "rectangleTopRightCornerRadius": 8.0,
+         "rectangleBottomLeftCornerRadius": 8.0,
+         "rectangleBottomRightCornerRadius": 8.0,
+         "strokeWeight": 1.0,
+         "strokeAlign": "INSIDE",
+         "stackMode": "VERTICAL",
+         "stackSpacing": 16.0,
+         "stackPaddingRight": 8.0,
+         "stackPaddingBottom": 8.0,
+         "frameMaskDisabled": true,
+         "fills": [
+          {
+           "type": "SOLID",
+           "color": "#FBF0DB"
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Chatbot",
+   "type": "INSTANCE",
+   "x": 295.0,
+   "y": 1699.0,
+   "w": 64.0,
+   "h": 68.0,
+   "cornerRadius": 16.0,
+   "rectangleTopLeftCornerRadius": 12.0,
+   "rectangleTopRightCornerRadius": 12.0,
+   "rectangleBottomLeftCornerRadius": 12.0,
+   "rectangleBottomRightCornerRadius": 2.0,
+   "strokeWeight": 1.0,
+   "strokeAlign": "INSIDE",
+   "stackMode": "VERTICAL",
+   "stackSpacing": 2.0,
+   "stackPaddingRight": 6.0,
+   "stackPaddingBottom": 6.0,
+   "stackPrimaryAlignItems": "CENTER",
+   "stackCounterAlignItems": "CENTER",
+   "stackCounterSizing": "RESIZE_TO_FIT_WITH_IMPLICIT_SIZE",
+   "horizontalConstraint": "MAX",
+   "verticalConstraint": "MAX",
+   "frameMaskDisabled": true,
+   "fills": [
+    {
+     "type": "SOLID",
+     "color": "#29D0DF"
+    }
+   ],
+   "effects": [
+    {
+     "type": "DROP_SHADOW",
+     "color": "#00000014",
+     "x": 0.0,
+     "y": 6.0,
+     "radius": 16.0
+    },
+    {
+     "type": "DROP_SHADOW",
+     "color": "#0000001F",
+     "x": 0.0,
+     "y": 3.0,
+     "radius": 6.0,
+     "spread": -4.0
+    },
+    {
+     "type": "DROP_SHADOW",
+     "color": "#0000000D",
+     "x": 0.0,
+     "y": 9.0,
+     "radius": 28.0,
+     "spread": 8.0
+    }
+   ]
+  },
+  {
+   "name": "Bottom navigation",
+   "type": "FRAME",
+   "x": 0.0,
+   "y": 1783.0,
+   "w": 375.0,
+   "h": 98.0,
+   "strokeWeight": 1.0,
+   "strokeAlign": "INSIDE",
+   "stackMode": "VERTICAL",
+   "verticalConstraint": "MAX",
+   "frameMaskDisabled": true,
+   "children": [
+    {
+     "name": "Normal Nav Bar",
+     "type": "INSTANCE",
+     "x": 0.0,
+     "y": 0.0,
+     "w": 375.0,
+     "h": 64.0,
+     "strokeWeight": 1.0,
+     "strokeAlign": "INSIDE",
+     "stackMode": "HORIZONTAL",
+     "stackPaddingRight": 8.0,
+     "stackPaddingBottom": 117.0,
+     "stackCounterAlignItems": "CENTER",
+     "stackPrimarySizing": "FIXED",
+     "frameMaskDisabled": true,
+     "fills": [
+      {
+       "type": "SOLID",
+       "color": "#FFFFFF"
+      }
+     ],
+     "strokes": [
+      {
+       "type": "SOLID",
+       "color": "#ECECEC"
+      }
+     ]
+    },
+    {
+     "name": "🧰/Home Indicator (iPhone)",
+     "type": "INSTANCE",
+     "x": 0.0,
+     "y": 64.0,
+     "w": 375.0,
+     "h": 34.0,
+     "strokeWeight": 1.0,
+     "strokeAlign": "INSIDE",
+     "frameMaskDisabled": true,
+     "fills": [
+      {
+       "type": "SOLID",
+       "color": "#FFFFFF"
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

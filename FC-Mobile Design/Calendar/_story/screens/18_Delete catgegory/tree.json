@@ -1,0 +1,81 @@
+{
+ "name": "Delete catgegory",
+ "type": "FRAME",
+ "x": 2466.0,
+ "y": 10315.0,
+ "w": 375.0,
+ "h": 815.0,
+ "strokeWeight": 1.0,
+ "strokeAlign": "INSIDE",
+ "children": [
+  {
+   "name": "Category",
+   "type": "INSTANCE",
+   "x": 0.0,
+   "y": 0.0,
+   "w": 375.0,
+   "h": 815.0,
+   "strokeWeight": 4.0,
+   "strokeAlign": "INSIDE",
+   "stackSpacing": 8.0,
+   "stackCounterAlignItems": "CENTER",
+   "stackPrimarySizing": "FIXED",
+   "fills": [
+    {
+     "type": "SOLID",
+     "color": "#FFFFFF"
+    }
+   ]
+  },
+  {
+   "name": "Overlay",
+   "type": "ROUNDED_RECTANGLE",
+   "x": 0.0,
+   "y": 0.0,
+   "w": 375.0,
+   "h": 815.0,
+   "strokeWeight": 1.0,
+   "strokeAlign": "INSIDE",
+   "fills": [
+    {
+     "type": "SOLID",
+     "color": "#000000",
+     "opacity": 0.699999988079071
+    }
+   ]
+  },
+  {
+   "name": "Dialog",
+   "type": "INSTANCE",
+   "x": 16.0,
+   "y": 230.0,
+   "w": 343.0,
+   "h": 354.0,
+   "rectangleTopLeftCornerRadius": 8.0,
+   "rectangleTopRightCornerRadius": 8.0,
+   "rectangleBottomLeftCornerRadius": 8.0,
+   "rectangleBottomRightCornerRadius": 8.0,
+   "strokeWeight": 1.0,
+   "strokeAlign": "INSIDE",
+   "stackMode": "VERTICAL",
+   "horizontalConstraint": "CENTER",
+   "verticalConstraint": "CENTER",
+   "fills": [
+    {
+     "type": "SOLID",
+     "color": "#FFFFFF"
+    }
+   ],
+   "effects": [
+    {
+     "type": "DROP_SHADOW",
+     "color": "#0000001A",
+     "x": 0.0,
+     "y": 5.0,
+     "radius": 16.0,
+     "spread": -3.0
+    }
+   ]
+  }
+ ]
+}

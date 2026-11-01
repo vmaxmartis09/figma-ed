@@ -1,0 +1,167 @@
+{
+ "name": "FC: Research Team without Login",
+ "type": "FRAME",
+ "x": 1150.0,
+ "y": 201.0,
+ "w": 375.0,
+ "h": 815.0,
+ "strokeWeight": 4.0,
+ "strokeAlign": "INSIDE",
+ "stackMode": "VERTICAL",
+ "stackSpacing": 8.0,
+ "stackPrimarySizing": "FIXED",
+ "stackCounterSizing": "RESIZE_TO_FIT_WITH_IMPLICIT_SIZE",
+ "fills": [
+  {
+   "type": "SOLID",
+   "color": "#FFFFFF"
+  }
+ ],
+ "children": [
+  {
+   "name": "Main Container",
+   "type": "FRAME",
+   "x": 0.0,
+   "y": 0.0,
+   "w": 375.0,
+   "h": 815.0,
+   "strokeWeight": 1.0,
+   "strokeAlign": "INSIDE",
+   "stackMode": "VERTICAL",
+   "stackSpacing": 24.0,
+   "stackCounterAlignItems": "CENTER",
+   "stackPrimarySizing": "FIXED",
+   "stackChildPrimaryGrow": 1.0,
+   "frameMaskDisabled": true,
+   "children": [
+    {
+     "name": "Top Navigation",
+     "type": "INSTANCE",
+     "x": 0.0,
+     "y": 0.0,
+     "w": 375.0,
+     "h": 159.0,
+     "strokeWeight": 1.0,
+     "strokeAlign": "INSIDE",
+     "stackMode": "VERTICAL",
+     "frameMaskDisabled": true
+    },
+    {
+     "name": "Purpose Section",
+     "type": "FRAME",
+     "x": 16.0,
+     "y": 183.0,
+     "w": 343.0,
+     "h": 394.0,
+     "strokeWeight": 1.0,
+     "strokeAlign": "INSIDE",
+     "stackMode": "VERTICAL",
+     "stackSpacing": 16.0,
+     "stackPrimarySizing": "FIXED",
+     "stackChildPrimaryGrow": 1.0,
+     "frameMaskDisabled": true,
+     "children": [
+      {
+       "name": "Label",
+       "type": "TEXT",
+       "x": 0.0,
+       "y": 0.0,
+       "w": 343.0,
+       "h": 324.0,
+       "strokeAlign": "INSIDE",
+       "fills": [
+        {
+         "type": "SOLID",
+         "color": "#121212"
+        }
+       ],
+       "text": {
+        "characters": "iSupport-D is developed by a multidisciplinary team of researchers and collaborators dedicated to improving support for people living with dementia and those who care for them.\r\nOur team brings together expertise in digital health, dementia care, public health, and culturally inclusive healthcare, with extensive experience designing and evaluating caregiver support programs in Australia and internationally.\r\nThrough iSupport-D, we aim to improve caregiving skills, wellbeing, and access to culturally appropriate support for family carers and the professionals who support them.",
+        "fontSize": 16.0,
+        "font": {
+         "family": "Roboto",
+         "style": "Regular",
+         "postscript": "Roboto-Regular"
+        },
+        "lineHeight": {
+         "value": 22.0,
+         "units": "PIXELS"
+        },
+        "letterSpacing": {
+         "value": 0.0,
+         "units": "PERCENT"
+        },
+        "alignH": null,
+        "alignV": "TOP",
+        "case": null,
+        "decoration": null,
+        "autoResize": "HEIGHT"
+       }
+      }
+     ]
+    },
+    {
+     "name": "Footer Container",
+     "type": "FRAME",
+     "x": 0.0,
+     "y": 601.0,
+     "w": 375.0,
+     "h": 214.0,
+     "strokeWeight": 1.0,
+     "strokeAlign": "INSIDE",
+     "stackMode": "VERTICAL",
+     "frameMaskDisabled": true,
+     "children": [
+      {
+       "name": "footer",
+       "type": "INSTANCE",
+       "x": 0.0,
+       "y": 0.0,
+       "w": 375.0,
+       "h": 180.0,
+       "strokeWeight": 1.0,
+       "strokeAlign": "INSIDE",
+       "stackMode": "VERTICAL",
+       "frameMaskDisabled": true
+      },
+      {
+       "name": "🧰/Home Indicator (iPhone)",
+       "type": "INSTANCE",
+       "x": 0.0,
+       "y": 180.0,
+       "w": 375.0,
+       "h": 34.0,
+       "strokeWeight": 1.0,
+       "strokeAlign": "INSIDE",
+       "frameMaskDisabled": true,
+       "fills": [
+        {
+         "type": "SOLID",
+         "color": "#1999A4"
+        }
+       ]
+      },
+      {
+       "name": "Vector",
+       "type": "VECTOR",
+       "x": -6.0,
+       "y": -36.0,
+       "w": 387.0,
+       "h": 356.0,
+       "opacity": 0.10000000149011612,
+       "strokeWeight": 1.0,
+       "strokeAlign": "INSIDE",
+       "stackPositioning": "ABSOLUTE",
+       "fills": [
+        {
+         "type": "SOLID",
+         "color": "#EEFBFC"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,135 @@
+{
+ "name": "FC: Privacy Statement Logged in",
+ "type": "FRAME",
+ "x": 699.0,
+ "y": 314.0,
+ "w": 375.0,
+ "h": 815.0,
+ "strokeWeight": 4.0,
+ "strokeAlign": "INSIDE",
+ "stackMode": "HORIZONTAL",
+ "stackSpacing": 8.0,
+ "fills": [
+  {
+   "type": "SOLID",
+   "color": "#FFFFFF"
+  }
+ ],
+ "children": [
+  {
+   "name": "Main Container",
+   "type": "FRAME",
+   "x": 0.0,
+   "y": 0.0,
+   "w": 375.0,
+   "h": 815.0,
+   "strokeWeight": 1.0,
+   "strokeAlign": "INSIDE",
+   "stackMode": "VERTICAL",
+   "stackSpacing": 24.0,
+   "stackCounterAlignItems": "CENTER",
+   "stackPrimarySizing": "FIXED",
+   "frameMaskDisabled": true,
+   "children": [
+    {
+     "name": "Top Navigation",
+     "type": "INSTANCE",
+     "x": 0.0,
+     "y": 0.0,
+     "w": 375.0,
+     "h": 127.0,
+     "strokeWeight": 1.0,
+     "strokeAlign": "INSIDE",
+     "stackMode": "VERTICAL",
+     "frameMaskDisabled": true
+    },
+    {
+     "name": "Content Container",
+     "type": "FRAME",
+     "x": 16.0,
+     "y": 151.0,
+     "w": 343.0,
+     "h": 606.0,
+     "strokeWeight": 1.0,
+     "strokeAlign": "INSIDE",
+     "stackMode": "VERTICAL",
+     "stackSpacing": -32.0,
+     "stackPrimarySizing": "FIXED",
+     "stackCounterSizing": "RESIZE_TO_FIT_WITH_IMPLICIT_SIZE",
+     "stackChildPrimaryGrow": 1.0,
+     "frameMaskDisabled": true,
+     "children": [
+      {
+       "name": "Banner Image",
+       "type": "ROUNDED_RECTANGLE",
+       "x": 0.0,
+       "y": 0.0,
+       "w": 343.0,
+       "h": 197.0,
+       "visible": false,
+       "rectangleTopLeftCornerRadius": 16.0,
+       "rectangleTopRightCornerRadius": 16.0,
+       "strokeWeight": 1.0,
+       "strokeAlign": "INSIDE",
+       "fills": [
+        {
+         "type": "SOLID",
+         "color": "#D9D9D9"
+        },
+        {
+         "type": "IMAGE"
+        }
+       ]
+      },
+      {
+       "name": "Check list",
+       "type": "INSTANCE",
+       "x": 0.0,
+       "y": 0.0,
+       "w": 343.0,
+       "h": 606.0,
+       "strokeWeight": 1.0,
+       "strokeAlign": "INSIDE",
+       "stackMode": "VERTICAL",
+       "stackSpacing": 16.0,
+       "stackPrimarySizing": "FIXED",
+       "stackChildPrimaryGrow": 1.0,
+       "frameMaskDisabled": true
+      }
+     ]
+    },
+    {
+     "name": "Bottom navigation",
+     "type": "FRAME",
+     "x": 0.0,
+     "y": 781.0,
+     "w": 375.0,
+     "h": 34.0,
+     "strokeWeight": 1.0,
+     "strokeAlign": "INSIDE",
+     "stackMode": "VERTICAL",
+     "frameMaskDisabled": true,
+     "children": [
+      {
+       "name": "🧰/Home Indicator (iPhone)",
+       "type": "INSTANCE",
+       "x": 0.0,
+       "y": 0.0,
+       "w": 375.0,
+       "h": 34.0,
+       "strokeWeight": 1.0,
+       "strokeAlign": "INSIDE",
+       "frameMaskDisabled": true,
+       "fills": [
+        {
+         "type": "SOLID",
+         "color": "#FFFFFF"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

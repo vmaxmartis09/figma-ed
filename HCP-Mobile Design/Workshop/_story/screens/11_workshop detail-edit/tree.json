@@ -1,0 +1,262 @@
+{
+ "name": "workshop detail-edit",
+ "type": "SYMBOL",
+ "x": 799.0,
+ "y": 1319.0,
+ "w": 375.0,
+ "h": 932.0,
+ "strokeWeight": 1.0,
+ "strokeAlign": "INSIDE",
+ "stackMode": "VERTICAL",
+ "stackPrimarySizing": "FIXED",
+ "fills": [
+  {
+   "type": "SOLID",
+   "color": "#FFFFFF"
+  }
+ ],
+ "children": [
+  {
+   "name": "Top Navigation",
+   "type": "INSTANCE",
+   "x": 0.0,
+   "y": 0.0,
+   "w": 375.0,
+   "h": 127.0,
+   "strokeWeight": 1.0,
+   "strokeAlign": "INSIDE",
+   "stackMode": "VERTICAL",
+   "stackPrimarySizing": "FIXED",
+   "frameMaskDisabled": true
+  },
+  {
+   "name": "Content",
+   "type": "FRAME",
+   "x": 0.0,
+   "y": 127.0,
+   "w": 375.0,
+   "h": 805.0,
+   "strokeWeight": 1.0,
+   "strokeAlign": "INSIDE",
+   "stackMode": "VERTICAL",
+   "stackSpacing": 24.0,
+   "stackPaddingRight": 16.0,
+   "stackPaddingBottom": 120.0,
+   "stackPrimarySizing": "FIXED",
+   "stackChildPrimaryGrow": 1.0,
+   "frameMaskDisabled": true,
+   "children": [
+    {
+     "name": "Form Fields",
+     "type": "FRAME",
+     "x": 16.0,
+     "y": 20.0,
+     "w": 343.0,
+     "h": 576.0,
+     "strokeWeight": 1.0,
+     "strokeAlign": "INSIDE",
+     "stackMode": "VERTICAL",
+     "stackSpacing": 20.0,
+     "frameMaskDisabled": true,
+     "children": [
+      {
+       "name": "Text Field",
+       "type": "INSTANCE",
+       "x": 0.0,
+       "y": 0.0,
+       "w": 343.0,
+       "h": 74.0,
+       "strokeWeight": 1.0,
+       "strokeAlign": "INSIDE",
+       "stackMode": "VERTICAL",
+       "frameMaskDisabled": true
+      },
+      {
+       "name": "Dropdown field",
+       "type": "INSTANCE",
+       "x": 0.0,
+       "y": 94.0,
+       "w": 343.0,
+       "h": 74.0,
+       "strokeWeight": 1.0,
+       "strokeAlign": "INSIDE",
+       "stackMode": "VERTICAL",
+       "frameMaskDisabled": true
+      },
+      {
+       "name": "Time row",
+       "type": "FRAME",
+       "x": 0.0,
+       "y": 188.0,
+       "w": 343.0,
+       "h": 74.0,
+       "strokeWeight": 1.0,
+       "strokeAlign": "INSIDE",
+       "stackMode": "HORIZONTAL",
+       "stackSpacing": 16.0,
+       "stackCounterAlignItems": "CENTER",
+       "stackPrimarySizing": "FIXED",
+       "stackCounterSizing": "RESIZE_TO_FIT_WITH_IMPLICIT_SIZE",
+       "frameMaskDisabled": true,
+       "children": [
+        {
+         "name": "Dropdown field",
+         "type": "INSTANCE",
+         "x": 0.0,
+         "y": 0.0,
+         "w": 163.5,
+         "h": 74.0,
+         "strokeWeight": 1.0,
+         "strokeAlign": "INSIDE",
+         "stackMode": "VERTICAL",
+         "stackChildPrimaryGrow": 1.0,
+         "frameMaskDisabled": true
+        },
+        {
+         "name": "Dropdown field",
+         "type": "INSTANCE",
+         "x": 179.5,
+         "y": 0.0,
+         "w": 163.5,
+         "h": 74.0,
+         "strokeWeight": 1.0,
+         "strokeAlign": "INSIDE",
+         "stackMode": "VERTICAL",
+         "stackChildPrimaryGrow": 1.0,
+         "frameMaskDisabled": true
+        }
+       ]
+      },
+      {
+       "name": "Text Field",
+       "type": "INSTANCE",
+       "x": 0.0,
+       "y": 282.0,
+       "w": 343.0,
+       "h": 74.0,
+       "strokeWeight": 1.0,
+       "strokeAlign": "INSIDE",
+       "stackMode": "VERTICAL",
+       "frameMaskDisabled": true
+      },
+      {
+       "name": "Text area",
+       "type": "INSTANCE",
+       "x": 0.0,
+       "y": 376.0,
+       "w": 343.0,
+       "h": 106.0,
+       "strokeWeight": 1.0,
+       "strokeAlign": "INSIDE",
+       "stackMode": "VERTICAL",
+       "stackSpacing": 4.0,
+       "frameMaskDisabled": true
+      },
+      {
+       "name": "Dropdown field",
+       "type": "INSTANCE",
+       "x": 0.0,
+       "y": 502.0,
+       "w": 343.0,
+       "h": 74.0,
+       "strokeWeight": 1.0,
+       "strokeAlign": "INSIDE",
+       "stackMode": "VERTICAL",
+       "frameMaskDisabled": true
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Form Footer",
+   "type": "FRAME",
+   "x": 0.0,
+   "y": 754.0,
+   "w": 375.0,
+   "h": 178.0,
+   "strokeWeight": 1.0,
+   "strokeAlign": "INSIDE",
+   "stackMode": "VERTICAL",
+   "stackPositioning": "ABSOLUTE",
+   "frameMaskDisabled": true,
+   "fills": [
+    {
+     "type": "SOLID",
+     "color": "#FFFFFF"
+    }
+   ],
+   "strokes": [
+    {
+     "type": "SOLID",
+     "color": "#E0E0E0"
+    }
+   ],
+   "children": [
+    {
+     "name": "Action container",
+     "type": "FRAME",
+     "x": 0.0,
+     "y": 0.0,
+     "w": 375.0,
+     "h": 144.0,
+     "strokeWeight": 1.0,
+     "strokeAlign": "INSIDE",
+     "stackMode": "VERTICAL",
+     "stackSpacing": 12.0,
+     "stackPaddingRight": 16.0,
+     "stackPaddingBottom": 8.0,
+     "stackCounterAlignItems": "CENTER",
+     "frameMaskDisabled": true,
+     "children": [
+      {
+       "name": "Button",
+       "type": "INSTANCE",
+       "x": 16.0,
+       "y": 16.0,
+       "w": 343.0,
+       "h": 54.0,
+       "strokeWeight": 1.0,
+       "strokeAlign": "INSIDE",
+       "stackMode": "HORIZONTAL",
+       "stackPrimarySizing": "FIXED",
+       "stackCounterSizing": "RESIZE_TO_FIT_WITH_IMPLICIT_SIZE",
+       "frameMaskDisabled": true
+      },
+      {
+       "name": "Button",
+       "type": "INSTANCE",
+       "x": 16.0,
+       "y": 82.0,
+       "w": 343.0,
+       "h": 54.0,
+       "strokeWeight": 1.0,
+       "strokeAlign": "INSIDE",
+       "stackMode": "HORIZONTAL",
+       "stackPrimarySizing": "FIXED",
+       "stackCounterSizing": "RESIZE_TO_FIT_WITH_IMPLICIT_SIZE",
+       "frameMaskDisabled": true
+      }
+     ]
+    },
+    {
+     "name": "🧰/Home Indicator (iPhone)",
+     "type": "INSTANCE",
+     "x": 0.0,
+     "y": 144.0,
+     "w": 375.0,
+     "h": 34.0,
+     "strokeWeight": 1.0,
+     "strokeAlign": "INSIDE",
+     "frameMaskDisabled": true,
+     "fills": [
+      {
+       "type": "SOLID",
+       "color": "#FFFFFF"
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

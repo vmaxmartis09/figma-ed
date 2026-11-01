@@ -11,3 +11,6 @@ Profile, Course, Calendar, Videos, Workshop, Setting, Dementia Resources, Search
 - Library: icons/illustrations exported as SVG by a background worker; see Library/ for what exists so far.
 - FC-Mobile Design/Home- User đã login...: screen 08 carries an 'Out-date' watermark (outdated frame the user asked to skip); ignore it.
 - FC-Mobile Design/Onboarding- Create Care Plan: screen 08 carries an 'Out-date 16/04/2026' watermark (outdated frame); ignore it.
+- NEW: tree.json + texts_real (real text, exact geometry) are generated for 424/427 screens from Figma's clipboard data (tools/figkiwi.py, tools/clip_to_screens.py).
+  Still without tree: About 24_Login_3, 35_Login_5, 36_How to use this page (frames not found at the expected place; 36 exists at root-relative (7598,582) but outside any exported section image).
+- Old text_source values (ocr_exact/ocr_sequence/layer_name) in texts.json are superseded by texts_real; 'figma_clipboard' marks entries filled from the real text.

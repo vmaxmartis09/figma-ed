@@ -1,0 +1,239 @@
+{
+ "name": "FC: About Us without Login",
+ "type": "FRAME",
+ "x": 563.0,
+ "y": 325.0,
+ "w": 375.0,
+ "h": 1313.0,
+ "strokeWeight": 4.0,
+ "strokeAlign": "INSIDE",
+ "stackMode": "HORIZONTAL",
+ "stackSpacing": 8.0,
+ "stackCounterAlignItems": "CENTER",
+ "stackCounterSizing": "RESIZE_TO_FIT_WITH_IMPLICIT_SIZE",
+ "fills": [
+  {
+   "type": "SOLID",
+   "color": "#FFFFFF"
+  }
+ ],
+ "children": [
+  {
+   "name": "Main Container",
+   "type": "FRAME",
+   "x": 0.0,
+   "y": 0.0,
+   "w": 375.0,
+   "h": 1313.0,
+   "strokeWeight": 1.0,
+   "strokeAlign": "INSIDE",
+   "stackMode": "VERTICAL",
+   "stackSpacing": 24.0,
+   "stackCounterAlignItems": "CENTER",
+   "frameMaskDisabled": true,
+   "children": [
+    {
+     "name": "Top Navigation",
+     "type": "INSTANCE",
+     "x": 0.0,
+     "y": 0.0,
+     "w": 375.0,
+     "h": 127.0,
+     "strokeWeight": 1.0,
+     "strokeAlign": "INSIDE",
+     "stackMode": "VERTICAL",
+     "frameMaskDisabled": true
+    },
+    {
+     "name": "Content Container",
+     "type": "FRAME",
+     "x": 16.0,
+     "y": 151.0,
+     "w": 343.0,
+     "h": 924.0,
+     "strokeWeight": 1.0,
+     "strokeAlign": "INSIDE",
+     "stackMode": "VERTICAL",
+     "stackSpacing": -32.0,
+     "frameMaskDisabled": true,
+     "children": [
+      {
+       "name": "Banner Image",
+       "type": "ROUNDED_RECTANGLE",
+       "x": 0.0,
+       "y": 0.0,
+       "w": 343.0,
+       "h": 197.0,
+       "visible": false,
+       "rectangleTopLeftCornerRadius": 16.0,
+       "rectangleTopRightCornerRadius": 16.0,
+       "strokeWeight": 1.0,
+       "strokeAlign": "INSIDE",
+       "fills": [
+        {
+         "type": "SOLID",
+         "color": "#D9D9D9"
+        },
+        {
+         "type": "IMAGE"
+        }
+       ]
+      },
+      {
+       "name": "Purpose Section",
+       "type": "FRAME",
+       "x": 0.0,
+       "y": 0.0,
+       "w": 343.0,
+       "h": 924.0,
+       "strokeWeight": 1.0,
+       "strokeAlign": "INSIDE",
+       "stackMode": "VERTICAL",
+       "stackSpacing": 8.0,
+       "frameMaskDisabled": true,
+       "children": [
+        {
+         "name": "Section Title",
+         "type": "TEXT",
+         "x": 0.0,
+         "y": 0.0,
+         "w": 343.0,
+         "h": 26.0,
+         "strokeWeight": 0.4000000059604645,
+         "strokeAlign": "CENTER",
+         "fills": [
+          {
+           "type": "SOLID",
+           "color": "#121212"
+          }
+         ],
+         "text": {
+          "characters": "About iSupport-D",
+          "fontSize": 20.0,
+          "font": {
+           "family": "Roboto",
+           "style": "SemiBold",
+           "postscript": "Roboto-SemiBold"
+          },
+          "lineHeight": {
+           "value": 26.0,
+           "units": "PIXELS"
+          },
+          "letterSpacing": {
+           "value": -1.0,
+           "units": "PERCENT"
+          },
+          "alignH": null,
+          "alignV": "TOP",
+          "case": null,
+          "decoration": null,
+          "autoResize": "HEIGHT"
+         }
+        },
+        {
+         "name": "Section Text",
+         "type": "TEXT",
+         "x": 0.0,
+         "y": 34.0,
+         "w": 343.0,
+         "h": 890.0,
+         "strokeWeight": 0.4000000059604645,
+         "strokeAlign": "CENTER",
+         "fills": [
+          {
+           "type": "SOLID",
+           "color": "#121212"
+          }
+         ],
+         "text": {
+          "characters": "iSupport-Digital (iSupport-D) is an online program designed to support family carers of people living with dementia and aged care workers, especially those from culturally and linguistically diverse communities.\nBased on the World Health Organization’s iSupport program, iSupport-D has been culturally adapted for carers in Australia.\r\nThrough the platform, users can access:\nMultilingual learning modules and short videos to build caregiving skills\r\nCulturally tailored tips and information relevant to your situation\r\nA dementia service finder to help you locate local support\r\nOnline support groups in different languages\r\nHelpful reminders and encouragement to stay on track\r\nAn interactive chatbot to help you quickly find what you need. For example, you can ask: “My dad is becoming aggressive — what should I do?”. The chatbot will guide you to the most relevant lesson, video, or resource in the app.\r\nThese features are designed to help you feel more confident, informed, and supported in your caregiving journey.\n\nThe program focuses on carers from Arabic-, Cantonese-, Italian-, Mandarin-, and Vietnamese-speaking communities and is developed by a research team specialising in digital health and dementia care, in partnership with carers and community organisations.\r\nFor more information:  isupport-d@swin.edu.au",
+          "fontSize": 16.0,
+          "font": {
+           "family": "Roboto",
+           "style": "Regular",
+           "postscript": "Roboto-Regular"
+          },
+          "lineHeight": {
+           "value": 22.0,
+           "units": "PIXELS"
+          },
+          "letterSpacing": {
+           "value": 0.0,
+           "units": "PERCENT"
+          },
+          "alignH": null,
+          "alignV": "TOP",
+          "case": null,
+          "decoration": null,
+          "autoResize": "HEIGHT"
+         }
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "name": "Footer Container",
+     "type": "FRAME",
+     "x": 0.0,
+     "y": 1099.0,
+     "w": 375.0,
+     "h": 214.0,
+     "strokeWeight": 1.0,
+     "strokeAlign": "INSIDE",
+     "stackMode": "VERTICAL",
+     "frameMaskDisabled": true,
+     "children": [
+      {
+       "name": "footer",
+       "type": "INSTANCE",
+       "x": 0.0,
+       "y": 0.0,
+       "w": 375.0,
+       "h": 180.0,
+       "strokeWeight": 1.0,
+       "strokeAlign": "INSIDE",
+       "stackMode": "VERTICAL",
+       "frameMaskDisabled": true
+      },
+      {
+       "name": "🧰/Home Indicator (iPhone)",
+       "type": "INSTANCE",
+       "x": 0.0,
+       "y": 180.0,
+       "w": 375.0,
+       "h": 34.0,
+       "strokeWeight": 1.0,
+       "strokeAlign": "INSIDE",
+       "frameMaskDisabled": true,
+       "fills": [
+        {
+         "type": "SOLID",
+         "color": "#1999A4"
+        }
+       ]
+      },
+      {
+       "name": "Vector",
+       "type": "VECTOR",
+       "x": -6.0,
+       "y": -36.0,
+       "w": 387.0,
+       "h": 356.0,
+       "opacity": 0.10000000149011612,
+       "strokeWeight": 1.0,
+       "strokeAlign": "INSIDE",
+       "stackPositioning": "ABSOLUTE",
+       "fills": [
+        {
+         "type": "SOLID",
+         "color": "#EEFBFC"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

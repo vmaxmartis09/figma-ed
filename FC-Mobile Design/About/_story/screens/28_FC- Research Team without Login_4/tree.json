@@ -1,0 +1,230 @@
+{
+ "name": "FC: Research Team without Login",
+ "type": "FRAME",
+ "x": 2471.0,
+ "y": 201.0,
+ "w": 375.0,
+ "h": 811.0,
+ "strokeWeight": 4.0,
+ "strokeAlign": "INSIDE",
+ "stackMode": "VERTICAL",
+ "stackSpacing": 8.0,
+ "stackCounterSizing": "RESIZE_TO_FIT_WITH_IMPLICIT_SIZE",
+ "fills": [
+  {
+   "type": "SOLID",
+   "color": "#FFFFFF"
+  }
+ ],
+ "children": [
+  {
+   "name": "Main Container",
+   "type": "FRAME",
+   "x": 0.0,
+   "y": 0.0,
+   "w": 375.0,
+   "h": 811.0,
+   "strokeWeight": 1.0,
+   "strokeAlign": "INSIDE",
+   "stackMode": "VERTICAL",
+   "stackSpacing": 24.0,
+   "stackCounterAlignItems": "CENTER",
+   "frameMaskDisabled": true,
+   "children": [
+    {
+     "name": "Top Navigation",
+     "type": "INSTANCE",
+     "x": 0.0,
+     "y": 0.0,
+     "w": 375.0,
+     "h": 159.0,
+     "strokeWeight": 1.0,
+     "strokeAlign": "INSIDE",
+     "stackMode": "VERTICAL",
+     "frameMaskDisabled": true
+    },
+    {
+     "name": "Purpose Section",
+     "type": "FRAME",
+     "x": 16.0,
+     "y": 183.0,
+     "w": 343.0,
+     "h": 390.0,
+     "strokeWeight": 1.0,
+     "strokeAlign": "INSIDE",
+     "stackMode": "VERTICAL",
+     "stackSpacing": 16.0,
+     "frameMaskDisabled": true,
+     "children": [
+      {
+       "name": "Label",
+       "type": "TEXT",
+       "x": 0.0,
+       "y": 0.0,
+       "w": 343.0,
+       "h": 140.0,
+       "strokeAlign": "INSIDE",
+       "fills": [
+        {
+         "type": "SOLID",
+         "color": "#121212"
+        }
+       ],
+       "text": {
+        "characters": "Consultants provide specialist advice and cultural guidance to support the development and implementation of the project.\r\nThis includes members of the Culturally and Linguistically Diverse (CALD) Stakeholder Advisory Group.",
+        "fontSize": 16.0,
+        "font": {
+         "family": "Roboto",
+         "style": "Regular",
+         "postscript": "Roboto-Regular"
+        },
+        "lineHeight": {
+         "value": 22.0,
+         "units": "PIXELS"
+        },
+        "letterSpacing": {
+         "value": 0.0,
+         "units": "PERCENT"
+        },
+        "alignH": null,
+        "alignV": "TOP",
+        "case": null,
+        "decoration": null,
+        "autoResize": "HEIGHT"
+       }
+      },
+      {
+       "name": "cardname",
+       "type": "INSTANCE",
+       "x": 0.0,
+       "y": 156.0,
+       "w": 343.0,
+       "h": 108.0,
+       "cornerRadius": 12.0,
+       "rectangleTopLeftCornerRadius": 12.0,
+       "rectangleTopRightCornerRadius": 12.0,
+       "rectangleBottomLeftCornerRadius": 12.0,
+       "rectangleBottomRightCornerRadius": 12.0,
+       "strokeWeight": 1.0,
+       "strokeAlign": "INSIDE",
+       "stackMode": "HORIZONTAL",
+       "stackSpacing": 16.0,
+       "stackPaddingRight": 16.0,
+       "stackPaddingBottom": 16.0,
+       "stackPrimarySizing": "FIXED",
+       "stackCounterSizing": "RESIZE_TO_FIT_WITH_IMPLICIT_SIZE",
+       "frameMaskDisabled": true,
+       "fills": [
+        {
+         "type": "SOLID",
+         "color": "#FAFAFA"
+        }
+       ],
+       "strokes": [
+        {
+         "type": "SOLID",
+         "color": "#1999A4"
+        }
+       ]
+      },
+      {
+       "name": "cardname",
+       "type": "INSTANCE",
+       "x": 0.0,
+       "y": 280.0,
+       "w": 343.0,
+       "h": 110.0,
+       "cornerRadius": 12.0,
+       "rectangleTopLeftCornerRadius": 12.0,
+       "rectangleTopRightCornerRadius": 12.0,
+       "rectangleBottomLeftCornerRadius": 12.0,
+       "rectangleBottomRightCornerRadius": 12.0,
+       "strokeWeight": 1.0,
+       "strokeAlign": "INSIDE",
+       "stackMode": "HORIZONTAL",
+       "stackSpacing": 16.0,
+       "stackPaddingRight": 16.0,
+       "stackPaddingBottom": 16.0,
+       "stackPrimarySizing": "FIXED",
+       "stackCounterSizing": "RESIZE_TO_FIT_WITH_IMPLICIT_SIZE",
+       "frameMaskDisabled": true,
+       "fills": [
+        {
+         "type": "SOLID",
+         "color": "#FAFAFA"
+        }
+       ],
+       "strokes": [
+        {
+         "type": "SOLID",
+         "color": "#1999A4"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "name": "Footer Container",
+     "type": "FRAME",
+     "x": 0.0,
+     "y": 597.0,
+     "w": 375.0,
+     "h": 214.0,
+     "strokeWeight": 1.0,
+     "strokeAlign": "INSIDE",
+     "stackMode": "VERTICAL",
+     "frameMaskDisabled": true,
+     "children": [
+      {
+       "name": "footer",
+       "type": "INSTANCE",
+       "x": 0.0,
+       "y": 0.0,
+       "w": 375.0,
+       "h": 180.0,
+       "strokeWeight": 1.0,
+       "strokeAlign": "INSIDE",
+       "stackMode": "VERTICAL",
+       "frameMaskDisabled": true
+      },
+      {
+       "name": "🧰/Home Indicator (iPhone)",
+       "type": "INSTANCE",
+       "x": 0.0,
+       "y": 180.0,
+       "w": 375.0,
+       "h": 34.0,
+       "strokeWeight": 1.0,
+       "strokeAlign": "INSIDE",
+       "frameMaskDisabled": true,
+       "fills": [
+        {
+         "type": "SOLID",
+         "color": "#1999A4"
+        }
+       ]
+      },
+      {
+       "name": "Vector",
+       "type": "VECTOR",
+       "x": -6.0,
+       "y": -36.0,
+       "w": 387.0,
+       "h": 356.0,
+       "opacity": 0.10000000149011612,
+       "strokeWeight": 1.0,
+       "strokeAlign": "INSIDE",
+       "stackPositioning": "ABSOLUTE",
+       "fills": [
+        {
+         "type": "SOLID",
+         "color": "#EEFBFC"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

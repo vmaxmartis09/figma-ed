@@ -1,0 +1,177 @@
+{
+ "name": "Search",
+ "type": "FRAME",
+ "x": 2454.0,
+ "y": 3050.0,
+ "w": 375.0,
+ "h": 815.0,
+ "strokeWeight": 4.0,
+ "strokeAlign": "INSIDE",
+ "stackSpacing": 8.0,
+ "stackCounterAlignItems": "CENTER",
+ "stackPrimarySizing": "FIXED",
+ "fills": [
+  {
+   "type": "SOLID",
+   "color": "#FFFFFF"
+  }
+ ],
+ "children": [
+  {
+   "name": "Top Navigation",
+   "type": "INSTANCE",
+   "x": 0.0,
+   "y": 0.0,
+   "w": 375.0,
+   "h": 53.0,
+   "strokeWeight": 1.0,
+   "strokeAlign": "INSIDE",
+   "stackMode": "VERTICAL",
+   "frameMaskDisabled": true
+  },
+  {
+   "name": "Frame 1000004888",
+   "type": "FRAME",
+   "x": 0.0,
+   "y": 53.0,
+   "w": 375.0,
+   "h": 52.0,
+   "strokeWeight": 1.0,
+   "strokeAlign": "INSIDE",
+   "stackMode": "HORIZONTAL",
+   "stackSpacing": 8.0,
+   "stackPaddingRight": 16.0,
+   "stackPaddingBottom": 16.0,
+   "stackPrimaryAlignItems": "MAX",
+   "stackCounterAlignItems": "CENTER",
+   "stackPrimarySizing": "FIXED",
+   "stackCounterSizing": "RESIZE_TO_FIT_WITH_IMPLICIT_SIZE",
+   "frameMaskDisabled": true,
+   "fills": [
+    {
+     "type": "SOLID",
+     "color": "#1999A4"
+    }
+   ],
+   "children": [
+    {
+     "name": "Search Field",
+     "type": "INSTANCE",
+     "x": 44.0,
+     "y": 16.0,
+     "w": 315.0,
+     "h": 48.0,
+     "visible": false,
+     "strokeWeight": 1.0,
+     "strokeAlign": "INSIDE",
+     "stackMode": "HORIZONTAL",
+     "stackSpacing": 8.0,
+     "stackPrimarySizing": "FIXED",
+     "stackCounterSizing": "RESIZE_TO_FIT_WITH_IMPLICIT_SIZE",
+     "stackChildPrimaryGrow": 1.0,
+     "frameMaskDisabled": true
+    },
+    {
+     "name": "symbol x",
+     "type": "INSTANCE",
+     "x": 339.0,
+     "y": 16.0,
+     "w": 20.0,
+     "h": 20.0,
+     "strokeWeight": 1.0,
+     "strokeAlign": "INSIDE"
+    }
+   ]
+  },
+  {
+   "name": "🧰/Home Indicator (iPhone)",
+   "type": "INSTANCE",
+   "x": 0.0,
+   "y": 781.0,
+   "w": 375.0,
+   "h": 34.0,
+   "strokeWeight": 1.0,
+   "strokeAlign": "INSIDE",
+   "stackChildPrimaryGrow": 1.0,
+   "verticalConstraint": "MAX",
+   "frameMaskDisabled": true,
+   "fills": [
+    {
+     "type": "SOLID",
+     "color": "#FFFFFF"
+    }
+   ]
+  },
+  {
+   "name": "Frame 1000004549",
+   "type": "FRAME",
+   "x": 121.5,
+   "y": 609.0,
+   "w": 132.0,
+   "h": 132.0,
+   "strokeWeight": 1.0,
+   "strokeAlign": "INSIDE",
+   "stackMode": "VERTICAL",
+   "stackCounterAlignItems": "CENTER",
+   "stackCounterSizing": "RESIZE_TO_FIT_WITH_IMPLICIT_SIZE",
+   "horizontalConstraint": "CENTER",
+   "frameMaskDisabled": true,
+   "children": [
+    {
+     "name": "QT4Z6InsDU 1",
+     "type": "ROUNDED_RECTANGLE",
+     "x": 0.0,
+     "y": 0.0,
+     "w": 132.0,
+     "h": 132.0,
+     "strokeWeight": 1.0,
+     "strokeAlign": "INSIDE",
+     "fills": [
+      {
+       "type": "IMAGE"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Hi, I’m listening. Speak now...",
+   "type": "TEXT",
+   "x": 16.0,
+   "y": 129.0,
+   "w": 343.0,
+   "h": 26.0,
+   "strokeWeight": 1.0,
+   "strokeAlign": "OUTSIDE",
+   "stackChildPrimaryGrow": 1.0,
+   "fills": [
+    {
+     "type": "SOLID",
+     "color": "#A8A8A8"
+    }
+   ],
+   "text": {
+    "characters": "Hi, I’m listening. Speak now...",
+    "fontSize": 20.0,
+    "font": {
+     "family": "Roboto",
+     "style": "Regular",
+     "postscript": "Roboto-Regular"
+    },
+    "lineHeight": {
+     "value": 26.0,
+     "units": "PIXELS"
+    },
+    "letterSpacing": {
+     "value": -1.0,
+     "units": "PERCENT"
+    },
+    "alignH": null,
+    "alignV": "TOP",
+    "case": null,
+    "decoration": null,
+    "autoResize": "HEIGHT"
+   }
+  }
+ ]
+}

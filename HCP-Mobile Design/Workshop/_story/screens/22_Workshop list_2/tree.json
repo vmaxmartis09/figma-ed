@@ -1,0 +1,2631 @@
+{
+ "name": "Workshop list",
+ "type": "SYMBOL",
+ "x": 1051.0,
+ "y": 198.0,
+ "w": 375.0,
+ "h": 903.0,
+ "strokeWeight": 4.0,
+ "strokeAlign": "INSIDE",
+ "stackSpacing": 8.0,
+ "stackCounterAlignItems": "CENTER",
+ "stackPrimarySizing": "FIXED",
+ "fills": [
+  {
+   "type": "SOLID",
+   "color": "#FFFFFF"
+  }
+ ],
+ "children": [
+  {
+   "name": "Top Navigation",
+   "type": "INSTANCE",
+   "x": 0.0,
+   "y": 0.0,
+   "w": 375.0,
+   "h": 127.0,
+   "strokeWeight": 1.0,
+   "strokeAlign": "INSIDE",
+   "stackMode": "VERTICAL",
+   "stackPrimarySizing": "FIXED",
+   "frameMaskDisabled": true
+  },
+  {
+   "name": "Sub Tab",
+   "type": "INSTANCE",
+   "x": 0.0,
+   "y": 127.0,
+   "w": 375.0,
+   "h": 44.0,
+   "strokeWeight": 1.0,
+   "strokeAlign": "INSIDE",
+   "stackMode": "HORIZONTAL",
+   "stackCounterAlignItems": "CENTER",
+   "stackPrimarySizing": "FIXED",
+   "stackCounterSizing": "RESIZE_TO_FIT_WITH_IMPLICIT_SIZE",
+   "horizontalConstraint": "CENTER",
+   "frameMaskDisabled": true
+  },
+  {
+   "name": "Frame 1000004969",
+   "type": "FRAME",
+   "x": 16.0,
+   "y": 195.0,
+   "w": 343.0,
+   "h": 666.0,
+   "strokeWeight": 1.0,
+   "strokeAlign": "INSIDE",
+   "stackMode": "VERTICAL",
+   "stackSpacing": 8.0,
+   "frameMaskDisabled": true,
+   "children": [
+    {
+     "name": "WorkshopCard 2",
+     "type": "FRAME",
+     "x": 0.0,
+     "y": 0.0,
+     "w": 343.0,
+     "h": 166.0,
+     "rectangleTopLeftCornerRadius": 8.0,
+     "rectangleTopRightCornerRadius": 8.0,
+     "rectangleBottomLeftCornerRadius": 8.0,
+     "rectangleBottomRightCornerRadius": 8.0,
+     "strokeWeight": 1.0,
+     "strokeAlign": "INSIDE",
+     "stackMode": "HORIZONTAL",
+     "stackPaddingRight": 8.0,
+     "stackPaddingBottom": 8.0,
+     "stackCounterAlignItems": "CENTER",
+     "stackPrimarySizing": "FIXED",
+     "stackCounterSizing": "RESIZE_TO_FIT_WITH_IMPLICIT_SIZE",
+     "frameMaskDisabled": true,
+     "fills": [
+      {
+       "type": "SOLID",
+       "color": "#FFFFFF"
+      }
+     ],
+     "strokes": [
+      {
+       "type": "SOLID",
+       "color": "#E0E0E0"
+      }
+     ],
+     "children": [
+      {
+       "name": "AccentBar",
+       "type": "ROUNDED_RECTANGLE",
+       "x": 8.0,
+       "y": 158.0,
+       "w": 4.0,
+       "h": 150.0,
+       "cornerRadius": 4.0,
+       "rectangleTopLeftCornerRadius": 4.0,
+       "rectangleTopRightCornerRadius": 4.0,
+       "rectangleBottomLeftCornerRadius": 4.0,
+       "rectangleBottomRightCornerRadius": 4.0,
+       "strokeWeight": 1.0,
+       "strokeAlign": "INSIDE",
+       "fills": [
+        {
+         "type": "SOLID",
+         "color": "#1999A4"
+        }
+       ]
+      },
+      {
+       "name": "DateSection",
+       "type": "FRAME",
+       "x": 12.0,
+       "y": 8.0,
+       "w": 92.0,
+       "h": 150.0,
+       "strokeWeight": 1.0,
+       "strokeAlign": "INSIDE",
+       "stackMode": "VERTICAL",
+       "stackPaddingRight": 16.0,
+       "stackPaddingBottom": 8.0,
+       "stackPrimaryAlignItems": "CENTER",
+       "stackCounterAlignItems": "CENTER",
+       "stackPrimarySizing": "FIXED",
+       "frameMaskDisabled": true,
+       "children": [
+        {
+         "name": "WorkshopDate",
+         "type": "TEXT",
+         "x": 16.0,
+         "y": 49.0,
+         "w": 60.0,
+         "h": 52.0,
+         "strokeWeight": 1.0,
+         "strokeAlign": "INSIDE",
+         "fills": [
+          {
+           "type": "SOLID",
+           "color": "#121212"
+          }
+         ],
+         "text": {
+          "characters": "24/062026",
+          "fontSize": 20.0,
+          "font": {
+           "family": "Roboto",
+           "style": "SemiBold",
+           "postscript": "Roboto-SemiBold"
+          },
+          "lineHeight": {
+           "value": 26.0,
+           "units": "PIXELS"
+          },
+          "letterSpacing": {
+           "value": -1.0,
+           "units": "PERCENT"
+          },
+          "alignH": "CENTER",
+          "alignV": "TOP",
+          "case": null,
+          "decoration": null,
+          "autoResize": "HEIGHT"
+         }
+        }
+       ]
+      },
+      {
+       "name": "Line",
+       "type": "LINE",
+       "x": 104.0,
+       "y": 23.0,
+       "w": 120.0,
+       "h": 0.0,
+       "transform": [
+        6.123234262925839e-17,
+        -1.0,
+        1.0,
+        6.123234262925839e-17
+       ],
+       "strokeWeight": 1.0,
+       "strokeAlign": "CENTER",
+       "strokes": [
+        {
+         "type": "SOLID",
+         "color": "#E0E0E0"
+        }
+       ]
+      },
+      {
+       "name": "Frame",
+       "type": "FRAME",
+       "x": 104.0,
+       "y": 8.0,
+       "w": 211.0,
+       "h": 150.0,
+       "strokeWeight": 1.0,
+       "strokeAlign": "INSIDE",
+       "stackMode": "VERTICAL",
+       "stackSpacing": 8.0,
+       "stackPaddingRight": 16.0,
+       "stackPaddingBottom": 8.0,
+       "stackChildPrimaryGrow": 1.0,
+       "frameMaskDisabled": true,
+       "children": [
+        {
+         "name": "Frame 1000004971",
+         "type": "FRAME",
+         "x": 16.0,
+         "y": 8.0,
+         "w": 179.0,
+         "h": 26.0,
+         "strokeWeight": 1.0,
+         "strokeAlign": "INSIDE",
+         "stackMode": "HORIZONTAL",
+         "stackSpacing": 8.0,
+         "stackCounterAlignItems": "CENTER",
+         "stackPrimarySizing": "FIXED",
+         "stackCounterSizing": "RESIZE_TO_FIT_WITH_IMPLICIT_SIZE",
+         "frameMaskDisabled": true,
+         "children": [
+          {
+           "name": "Badge",
+           "type": "FRAME",
+           "x": 0.0,
+           "y": 0.0,
+           "w": 92.0,
+           "h": 26.0,
+           "cornerRadius": 8.0,
+           "rectangleTopLeftCornerRadius": 8.0,
+           "rectangleTopRightCornerRadius": 8.0,
+           "rectangleBottomLeftCornerRadius": 8.0,
+           "rectangleBottomRightCornerRadius": 8.0,
+           "strokeWeight": 1.0,
+           "strokeAlign": "INSIDE",
+           "stackMode": "HORIZONTAL",
+           "stackSpacing": 4.0,
+           "stackPaddingRight": 8.0,
+           "stackPaddingBottom": 2.0,
+           "stackPrimaryAlignItems": "CENTER",
+           "stackCounterAlignItems": "CENTER",
+           "frameMaskDisabled": true,
+           "fills": [
+            {
+             "type": "SOLID",
+             "color": "#D8F6F9"
+            }
+           ],
+           "children": [
+            {
+             "name": "Frame 1000004968",
+             "type": "FRAME",
+             "x": 8.0,
+             "y": 8.0,
+             "w": 10.0,
+             "h": 10.0,
+             "strokeWeight": 1.0,
+             "strokeAlign": "INSIDE",
+             "frameMaskDisabled": true,
+             "children": [
+              {
+               "name": "Ellipse 2301",
+               "type": "ELLIPSE",
+               "x": 0.0,
+               "y": 0.0,
+               "w": 10.0,
+               "h": 10.0,
+               "strokeWeight": 1.0,
+               "strokeAlign": "INSIDE",
+               "strokes": [
+                {
+                 "type": "SOLID",
+                 "color": "#1999A4"
+                }
+               ]
+              },
+              {
+               "name": "Ellipse 2302",
+               "type": "ELLIPSE",
+               "x": 2.0,
+               "y": 2.0,
+               "w": 6.0,
+               "h": 6.0,
+               "strokeWeight": 1.0,
+               "strokeAlign": "INSIDE",
+               "horizontalConstraint": "CENTER",
+               "verticalConstraint": "CENTER",
+               "fills": [
+                {
+                 "type": "SOLID",
+                 "color": "#1999A4"
+                }
+               ]
+              }
+             ]
+            },
+            {
+             "name": "BadgeText",
+             "type": "TEXT",
+             "x": 22.0,
+             "y": 4.0,
+             "w": 62.0,
+             "h": 18.0,
+             "strokeWeight": 1.0,
+             "strokeAlign": "INSIDE",
+             "fills": [
+              {
+               "type": "SOLID",
+               "color": "#1999A4"
+              }
+             ],
+             "text": {
+              "characters": "In Progress",
+              "fontSize": 12.0,
+              "font": {
+               "family": "Roboto",
+               "style": "SemiBold",
+               "postscript": "Roboto-SemiBold"
+              },
+              "lineHeight": {
+               "value": 18.0,
+               "units": "PIXELS"
+              },
+              "letterSpacing": {
+               "value": 0.0,
+               "units": "PERCENT"
+              },
+              "alignH": null,
+              "alignV": "TOP",
+              "case": null,
+              "decoration": null,
+              "autoResize": "WIDTH_AND_HEIGHT"
+             }
+            }
+           ]
+          },
+          {
+           "name": "Component 4",
+           "type": "INSTANCE",
+           "x": 100.0,
+           "y": 0.0,
+           "w": 43.0,
+           "h": 26.0,
+           "cornerRadius": 6.0,
+           "rectangleTopLeftCornerRadius": 6.0,
+           "rectangleTopRightCornerRadius": 6.0,
+           "rectangleBottomLeftCornerRadius": 6.0,
+           "rectangleBottomRightCornerRadius": 6.0,
+           "strokeWeight": 1.0,
+           "strokeAlign": "INSIDE",
+           "stackMode": "HORIZONTAL",
+           "stackSpacing": 4.0,
+           "stackPaddingRight": 4.0,
+           "stackPaddingBottom": 4.0,
+           "stackCounterAlignItems": "CENTER",
+           "stackCounterSizing": "RESIZE_TO_FIT_WITH_IMPLICIT_SIZE",
+           "frameMaskDisabled": true,
+           "fills": [
+            {
+             "type": "SOLID",
+             "color": "#F7F6F9"
+            }
+           ],
+           "strokes": [
+            {
+             "type": "SOLID",
+             "color": "#8B5ECB"
+            }
+           ]
+          }
+         ]
+        },
+        {
+         "name": "Frame 1000004883",
+         "type": "FRAME",
+         "x": 16.0,
+         "y": 42.0,
+         "w": 179.0,
+         "h": 100.0,
+         "strokeWeight": 1.0,
+         "strokeAlign": "INSIDE",
+         "stackMode": "VERTICAL",
+         "stackSpacing": 8.0,
+         "frameMaskDisabled": true,
+         "children": [
+          {
+           "name": "WorkshopTitle",
+           "type": "TEXT",
+           "x": 0.0,
+           "y": 0.0,
+           "w": 179.0,
+           "h": 44.0,
+           "strokeWeight": 1.0,
+           "strokeAlign": "INSIDE",
+           "fills": [
+            {
+             "type": "SOLID",
+             "color": "#121212"
+            }
+           ],
+           "text": {
+            "characters": "Enjoying life with iSupport-D is what it's all about!",
+            "fontSize": 16.0,
+            "font": {
+             "family": "Roboto",
+             "style": "SemiBold",
+             "postscript": "Roboto-SemiBold"
+            },
+            "lineHeight": {
+             "value": 22.0,
+             "units": "PIXELS"
+            },
+            "letterSpacing": {
+             "value": 0.0,
+             "units": "PERCENT"
+            },
+            "alignH": null,
+            "alignV": "TOP",
+            "case": null,
+            "decoration": null,
+            "autoResize": null
+           }
+          },
+          {
+           "name": "Frame",
+           "type": "FRAME",
+           "x": 0.0,
+           "y": 52.0,
+           "w": 179.0,
+           "h": 20.0,
+           "strokeWeight": 1.0,
+           "strokeAlign": "INSIDE",
+           "stackMode": "HORIZONTAL",
+           "stackSpacing": 8.0,
+           "stackCounterAlignItems": "CENTER",
+           "stackPrimarySizing": "FIXED",
+           "stackCounterSizing": "RESIZE_TO_FIT_WITH_IMPLICIT_SIZE",
+           "frameMaskDisabled": true,
+           "children": [
+            {
+             "name": "clock",
+             "type": "INSTANCE",
+             "x": 0.0,
+             "y": 2.0,
+             "w": 16.0,
+             "h": 16.0,
+             "strokeWeight": 1.0,
+             "strokeAlign": "INSIDE"
+            },
+            {
+             "name": "09:00 am - 11:00 am",
+             "type": "TEXT",
+             "x": 24.0,
+             "y": 0.0,
+             "w": 128.0,
+             "h": 20.0,
+             "strokeWeight": 1.0,
+             "strokeAlign": "INSIDE",
+             "fills": [
+              {
+               "type": "SOLID",
+               "color": "#555555"
+              }
+             ],
+             "text": {
+              "characters": "09:00 am - 11:00 am",
+              "fontSize": 14.0,
+              "font": {
+               "family": "Roboto",
+               "style": "Regular",
+               "postscript": "Roboto-Regular"
+              },
+              "lineHeight": {
+               "value": 20.0,
+               "units": "PIXELS"
+              },
+              "letterSpacing": {
+               "value": 0.0,
+               "units": "PERCENT"
+              },
+              "alignH": null,
+              "alignV": "TOP",
+              "case": null,
+              "decoration": null,
+              "autoResize": "WIDTH_AND_HEIGHT"
+             }
+            }
+           ]
+          },
+          {
+           "name": "DetailRow",
+           "type": "FRAME",
+           "x": 0.0,
+           "y": 80.0,
+           "w": 179.0,
+           "h": 20.0,
+           "strokeWeight": 1.0,
+           "strokeAlign": "INSIDE",
+           "stackMode": "VERTICAL",
+           "stackSpacing": 8.0,
+           "frameMaskDisabled": true,
+           "children": [
+            {
+             "name": "Frame",
+             "type": "FRAME",
+             "x": 0.0,
+             "y": 0.0,
+             "w": 179.0,
+             "h": 20.0,
+             "strokeWeight": 1.0,
+             "strokeAlign": "INSIDE",
+             "stackMode": "HORIZONTAL",
+             "stackSpacing": 8.0,
+             "stackCounterAlignItems": "CENTER",
+             "stackPrimarySizing": "FIXED",
+             "stackCounterSizing": "RESIZE_TO_FIT_WITH_IMPLICIT_SIZE",
+             "frameMaskDisabled": true,
+             "children": [
+              {
+               "name": "UserIcon",
+               "type": "INSTANCE",
+               "x": 0.0,
+               "y": 2.0,
+               "w": 16.0,
+               "h": 16.0,
+               "strokeWeight": 1.0,
+               "strokeAlign": "INSIDE"
+              },
+              {
+               "name": "OrganizerText",
+               "type": "TEXT",
+               "x": 24.0,
+               "y": 0.0,
+               "w": 60.0,
+               "h": 20.0,
+               "strokeWeight": 1.0,
+               "strokeAlign": "INSIDE",
+               "fills": [
+                {
+                 "type": "SOLID",
+                 "color": "#555555"
+                }
+               ],
+               "text": {
+                "characters": "Organizer",
+                "fontSize": 14.0,
+                "font": {
+                 "family": "Roboto",
+                 "style": "Regular",
+                 "postscript": "Roboto-Regular"
+                },
+                "lineHeight": {
+                 "value": 20.0,
+                 "units": "PIXELS"
+                },
+                "letterSpacing": {
+                 "value": 0.0,
+                 "units": "PERCENT"
+                },
+                "alignH": null,
+                "alignV": "TOP",
+                "case": null,
+                "decoration": null,
+                "autoResize": "WIDTH_AND_HEIGHT"
+               }
+              }
+             ]
+            },
+            {
+             "name": "Frame",
+             "type": "FRAME",
+             "x": 0.0,
+             "y": 26.0,
+             "w": 179.0,
+             "h": 16.0,
+             "visible": false,
+             "strokeWeight": 1.0,
+             "strokeAlign": "INSIDE",
+             "stackMode": "HORIZONTAL",
+             "stackSpacing": 8.0,
+             "stackCounterAlignItems": "CENTER",
+             "stackPrimarySizing": "FIXED",
+             "stackCounterSizing": "RESIZE_TO_FIT_WITH_IMPLICIT_SIZE",
+             "frameMaskDisabled": true,
+             "children": [
+              {
+               "name": "MapPinIcon",
+               "type": "INSTANCE",
+               "x": 0.0,
+               "y": 0.0,
+               "w": 16.0,
+               "h": 16.0,
+               "strokeWeight": 1.0,
+               "strokeAlign": "INSIDE"
+              }
+             ]
+            }
+           ]
+          },
+          {
+           "name": "DetailRow",
+           "type": "FRAME",
+           "x": 0.0,
+           "y": 104.0,
+           "w": 179.0,
+           "h": 18.0,
+           "visible": false,
+           "strokeWeight": 1.0,
+           "strokeAlign": "INSIDE",
+           "stackMode": "VERTICAL",
+           "stackSpacing": 8.0,
+           "frameMaskDisabled": true,
+           "children": [
+            {
+             "name": "Frame",
+             "type": "FRAME",
+             "x": 0.0,
+             "y": 0.0,
+             "w": 179.0,
+             "h": 18.0,
+             "strokeWeight": 1.0,
+             "strokeAlign": "INSIDE",
+             "stackMode": "HORIZONTAL",
+             "stackSpacing": 8.0,
+             "stackCounterAlignItems": "CENTER",
+             "stackPrimarySizing": "FIXED",
+             "stackCounterSizing": "RESIZE_TO_FIT_WITH_IMPLICIT_SIZE",
+             "frameMaskDisabled": true,
+             "children": [
+              {
+               "name": "UserIcon",
+               "type": "INSTANCE",
+               "x": 0.0,
+               "y": 1.0,
+               "w": 16.0,
+               "h": 16.0,
+               "strokeWeight": 1.0,
+               "strokeAlign": "INSIDE"
+              },
+              {
+               "name": "OrganizerText",
+               "type": "TEXT",
+               "x": 24.0,
+               "y": 0.0,
+               "w": 52.0,
+               "h": 18.0,
+               "strokeWeight": 1.0,
+               "strokeAlign": "INSIDE",
+               "fills": [
+                {
+                 "type": "SOLID",
+                 "color": "#555555"
+                }
+               ],
+               "text": {
+                "characters": "Organizer",
+                "fontSize": 12.0,
+                "font": {
+                 "family": "Roboto",
+                 "style": "Regular",
+                 "postscript": "Roboto-Regular"
+                },
+                "lineHeight": {
+                 "value": 18.0,
+                 "units": "PIXELS"
+                },
+                "letterSpacing": {
+                 "value": 0.0,
+                 "units": "PERCENT"
+                },
+                "alignH": null,
+                "alignV": "TOP",
+                "case": null,
+                "decoration": null,
+                "autoResize": "WIDTH_AND_HEIGHT"
+               }
+              }
+             ]
+            },
+            {
+             "name": "Frame",
+             "type": "FRAME",
+             "x": 0.0,
+             "y": 26.0,
+             "w": 179.0,
+             "h": 16.0,
+             "visible": false,
+             "strokeWeight": 1.0,
+             "strokeAlign": "INSIDE",
+             "stackMode": "HORIZONTAL",
+             "stackSpacing": 8.0,
+             "stackCounterAlignItems": "CENTER",
+             "stackPrimarySizing": "FIXED",
+             "stackCounterSizing": "RESIZE_TO_FIT_WITH_IMPLICIT_SIZE",
+             "frameMaskDisabled": true,
+             "children": [
+              {
+               "name": "MapPinIcon",
+               "type": "INSTANCE",
+               "x": 0.0,
+               "y": 0.0,
+               "w": 16.0,
+               "h": 16.0,
+               "strokeWeight": 1.0,
+               "strokeAlign": "INSIDE"
+              }
+             ]
+            }
+           ]
+          },
+          {
+           "name": "Frame",
+           "type": "FRAME",
+           "x": 0.0,
+           "y": 106.0,
+           "w": 179.0,
+           "h": 16.0,
+           "visible": false,
+           "strokeWeight": 1.0,
+           "strokeAlign": "INSIDE",
+           "stackMode": "HORIZONTAL",
+           "stackSpacing": 8.0,
+           "stackCounterAlignItems": "CENTER",
+           "stackPrimarySizing": "FIXED",
+           "stackCounterSizing": "RESIZE_TO_FIT_WITH_IMPLICIT_SIZE",
+           "frameMaskDisabled": true,
+           "children": [
+            {
+             "name": "map pin",
+             "type": "INSTANCE",
+             "x": 0.0,
+             "y": 0.0,
+             "w": 16.0,
+             "h": 16.0,
+             "strokeWeight": 1.0,
+             "strokeAlign": "INSIDE"
+            }
+           ]
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "name": "Frame 1000004965",
+       "type": "FRAME",
+       "x": 315.0,
+       "y": 8.0,
+       "w": 20.0,
+       "h": 150.0,
+       "strokeWeight": 1.0,
+       "strokeAlign": "INSIDE",
+       "stackMode": "HORIZONTAL",
+       "stackSpacing": 8.0,
+       "stackCounterAlignItems": "CENTER",
+       "frameMaskDisabled": true,
+       "children": [
+        {
+         "name": "chevron-right",
+         "type": "INSTANCE",
+         "x": 0.0,
+         "y": 65.0,
+         "w": 20.0,
+         "h": 20.0,
+         "strokeWeight": 1.0,
+         "strokeAlign": "INSIDE"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "name": "WorkshopCard 1",
+     "type": "FRAME",
+     "x": 0.0,
+     "y": 174.0,
+     "w": 343.0,
+     "h": 144.0,
+     "rectangleTopLeftCornerRadius": 8.0,
+     "rectangleTopRightCornerRadius": 8.0,
+     "rectangleBottomLeftCornerRadius": 8.0,
+     "rectangleBottomRightCornerRadius": 8.0,
+     "strokeWeight": 1.0,
+     "strokeAlign": "INSIDE",
+     "stackMode": "HORIZONTAL",
+     "stackPaddingRight": 8.0,
+     "stackPaddingBottom": 8.0,
+     "stackPrimarySizing": "FIXED",
+     "stackCounterSizing": "RESIZE_TO_FIT_WITH_IMPLICIT_SIZE",
+     "frameMaskDisabled": true,
+     "fills": [
+      {
+       "type": "SOLID",
+       "color": "#FFFFFF"
+      }
+     ],
+     "strokes": [
+      {
+       "type": "SOLID",
+       "color": "#E0E0E0"
+      }
+     ],
+     "children": [
+      {
+       "name": "AccentBar",
+       "type": "ROUNDED_RECTANGLE",
+       "x": 8.0,
+       "y": 136.0,
+       "w": 4.0,
+       "h": 128.0,
+       "cornerRadius": 4.0,
+       "rectangleTopLeftCornerRadius": 4.0,
+       "rectangleTopRightCornerRadius": 4.0,
+       "rectangleBottomLeftCornerRadius": 4.0,
+       "rectangleBottomRightCornerRadius": 4.0,
+       "strokeWeight": 1.0,
+       "strokeAlign": "INSIDE",
+       "fills": [
+        {
+         "type": "SOLID",
+         "color": "#8B5ECB"
+        }
+       ]
+      },
+      {
+       "name": "DateSection",
+       "type": "FRAME",
+       "x": 12.0,
+       "y": 8.0,
+       "w": 92.0,
+       "h": 128.0,
+       "strokeWeight": 1.0,
+       "strokeAlign": "INSIDE",
+       "stackMode": "VERTICAL",
+       "stackPaddingRight": 16.0,
+       "stackPaddingBottom": 8.0,
+       "stackPrimaryAlignItems": "CENTER",
+       "stackCounterAlignItems": "CENTER",
+       "stackPrimarySizing": "FIXED",
+       "frameMaskDisabled": true,
+       "children": [
+        {
+         "name": "WorkshopDate",
+         "type": "TEXT",
+         "x": 16.0,
+         "y": 38.0,
+         "w": 60.0,
+         "h": 52.0,
+         "strokeWeight": 1.0,
+         "strokeAlign": "INSIDE",
+         "fills": [
+          {
+           "type": "SOLID",
+           "color": "#121212"
+          }
+         ],
+         "text": {
+          "characters": "15/072026",
+          "fontSize": 20.0,
+          "font": {
+           "family": "Roboto",
+           "style": "SemiBold",
+           "postscript": "Roboto-SemiBold"
+          },
+          "lineHeight": {
+           "value": 26.0,
+           "units": "PIXELS"
+          },
+          "letterSpacing": {
+           "value": -1.0,
+           "units": "PERCENT"
+          },
+          "alignH": "CENTER",
+          "alignV": "TOP",
+          "case": null,
+          "decoration": null,
+          "autoResize": "HEIGHT"
+         }
+        }
+       ]
+      },
+      {
+       "name": "Line",
+       "type": "LINE",
+       "x": 104.0,
+       "y": 8.0,
+       "w": 120.0,
+       "h": 0.0,
+       "transform": [
+        6.123234262925839e-17,
+        -1.0,
+        1.0,
+        6.123234262925839e-17
+       ],
+       "strokeWeight": 1.0,
+       "strokeAlign": "CENTER",
+       "strokes": [
+        {
+         "type": "SOLID",
+         "color": "#E0E0E0"
+        }
+       ]
+      },
+      {
+       "name": "Frame",
+       "type": "FRAME",
+       "x": 104.0,
+       "y": 8.0,
+       "w": 211.0,
+       "h": 128.0,
+       "strokeWeight": 1.0,
+       "strokeAlign": "INSIDE",
+       "stackMode": "VERTICAL",
+       "stackSpacing": 8.0,
+       "stackPaddingRight": 16.0,
+       "stackPaddingBottom": 8.0,
+       "stackChildPrimaryGrow": 1.0,
+       "frameMaskDisabled": true,
+       "children": [
+        {
+         "name": "Frame",
+         "type": "FRAME",
+         "x": 16.0,
+         "y": 8.0,
+         "w": 179.0,
+         "h": 26.0,
+         "strokeWeight": 1.0,
+         "strokeAlign": "INSIDE",
+         "stackMode": "HORIZONTAL",
+         "stackSpacing": 8.0,
+         "stackPrimarySizing": "FIXED",
+         "stackCounterSizing": "RESIZE_TO_FIT_WITH_IMPLICIT_SIZE",
+         "frameMaskDisabled": true,
+         "children": [
+          {
+           "name": "Badge",
+           "type": "FRAME",
+           "x": 0.0,
+           "y": 0.0,
+           "w": 85.0,
+           "h": 26.0,
+           "cornerRadius": 8.0,
+           "rectangleTopLeftCornerRadius": 8.0,
+           "rectangleTopRightCornerRadius": 8.0,
+           "rectangleBottomLeftCornerRadius": 8.0,
+           "rectangleBottomRightCornerRadius": 8.0,
+           "strokeWeight": 1.0,
+           "strokeAlign": "INSIDE",
+           "stackMode": "HORIZONTAL",
+           "stackSpacing": 4.0,
+           "stackPaddingRight": 8.0,
+           "stackPaddingBottom": 2.0,
+           "stackPrimaryAlignItems": "CENTER",
+           "stackCounterAlignItems": "CENTER",
+           "frameMaskDisabled": true,
+           "fills": [
+            {
+             "type": "SOLID",
+             "color": "#ECE0FC"
+            }
+           ],
+           "children": [
+            {
+             "name": "Frame 1000004968",
+             "type": "FRAME",
+             "x": 8.0,
+             "y": 8.0,
+             "w": 10.0,
+             "h": 10.0,
+             "strokeWeight": 1.0,
+             "strokeAlign": "INSIDE",
+             "frameMaskDisabled": true,
+             "children": [
+              {
+               "name": "Ellipse 2301",
+               "type": "ELLIPSE",
+               "x": 0.0,
+               "y": 0.0,
+               "w": 10.0,
+               "h": 10.0,
+               "strokeWeight": 1.0,
+               "strokeAlign": "INSIDE",
+               "strokes": [
+                {
+                 "type": "SOLID",
+                 "color": "#8B5ECB"
+                }
+               ]
+              },
+              {
+               "name": "Ellipse 2302",
+               "type": "ELLIPSE",
+               "x": 2.0,
+               "y": 2.0,
+               "w": 6.0,
+               "h": 6.0,
+               "strokeWeight": 1.0,
+               "strokeAlign": "INSIDE",
+               "horizontalConstraint": "CENTER",
+               "verticalConstraint": "CENTER",
+               "fills": [
+                {
+                 "type": "SOLID",
+                 "color": "#8B5ECB"
+                }
+               ]
+              }
+             ]
+            },
+            {
+             "name": "Upcoming",
+             "type": "TEXT",
+             "x": 22.0,
+             "y": 4.0,
+             "w": 55.0,
+             "h": 18.0,
+             "strokeWeight": 1.0,
+             "strokeAlign": "INSIDE",
+             "fills": [
+              {
+               "type": "SOLID",
+               "color": "#8B5ECB"
+              }
+             ],
+             "text": {
+              "characters": "Upcoming",
+              "fontSize": 12.0,
+              "font": {
+               "family": "Roboto",
+               "style": "SemiBold",
+               "postscript": "Roboto-SemiBold"
+              },
+              "lineHeight": {
+               "value": 18.0,
+               "units": "PIXELS"
+              },
+              "letterSpacing": {
+               "value": 0.0,
+               "units": "PERCENT"
+              },
+              "alignH": null,
+              "alignV": "TOP",
+              "case": null,
+              "decoration": null,
+              "autoResize": "WIDTH_AND_HEIGHT"
+             }
+            }
+           ]
+          },
+          {
+           "name": "Component 4",
+           "type": "INSTANCE",
+           "x": 93.0,
+           "y": 0.0,
+           "w": 43.0,
+           "h": 26.0,
+           "cornerRadius": 6.0,
+           "rectangleTopLeftCornerRadius": 6.0,
+           "rectangleTopRightCornerRadius": 6.0,
+           "rectangleBottomLeftCornerRadius": 6.0,
+           "rectangleBottomRightCornerRadius": 6.0,
+           "strokeWeight": 1.0,
+           "strokeAlign": "INSIDE",
+           "stackMode": "HORIZONTAL",
+           "stackSpacing": 4.0,
+           "stackPaddingRight": 4.0,
+           "stackPaddingBottom": 4.0,
+           "stackCounterAlignItems": "CENTER",
+           "stackCounterSizing": "RESIZE_TO_FIT_WITH_IMPLICIT_SIZE",
+           "frameMaskDisabled": true,
+           "fills": [
+            {
+             "type": "SOLID",
+             "color": "#F7F6F9"
+            }
+           ],
+           "strokes": [
+            {
+             "type": "SOLID",
+             "color": "#8B5ECB"
+            }
+           ]
+          }
+         ]
+        },
+        {
+         "name": "Frame 1000004883",
+         "type": "FRAME",
+         "x": 16.0,
+         "y": 42.0,
+         "w": 179.0,
+         "h": 78.0,
+         "strokeWeight": 1.0,
+         "strokeAlign": "INSIDE",
+         "stackMode": "VERTICAL",
+         "stackSpacing": 8.0,
+         "frameMaskDisabled": true,
+         "children": [
+          {
+           "name": "WorkshopTitle",
+           "type": "TEXT",
+           "x": 0.0,
+           "y": 0.0,
+           "w": 179.0,
+           "h": 22.0,
+           "strokeWeight": 1.0,
+           "strokeAlign": "INSIDE",
+           "fills": [
+            {
+             "type": "SOLID",
+             "color": "#121212"
+            }
+           ],
+           "text": {
+            "characters": "Understanding Dementia",
+            "fontSize": 16.0,
+            "font": {
+             "family": "Roboto",
+             "style": "SemiBold",
+             "postscript": "Roboto-SemiBold"
+            },
+            "lineHeight": {
+             "value": 22.0,
+             "units": "PIXELS"
+            },
+            "letterSpacing": {
+             "value": 0.0,
+             "units": "PERCENT"
+            },
+            "alignH": null,
+            "alignV": "TOP",
+            "case": null,
+            "decoration": null,
+            "autoResize": "HEIGHT"
+           }
+          },
+          {
+           "name": "Frame",
+           "type": "FRAME",
+           "x": 0.0,
+           "y": 30.0,
+           "w": 179.0,
+           "h": 20.0,
+           "strokeWeight": 1.0,
+           "strokeAlign": "INSIDE",
+           "stackMode": "HORIZONTAL",
+           "stackSpacing": 8.0,
+           "stackCounterAlignItems": "CENTER",
+           "stackPrimarySizing": "FIXED",
+           "stackCounterSizing": "RESIZE_TO_FIT_WITH_IMPLICIT_SIZE",
+           "frameMaskDisabled": true,
+           "children": [
+            {
+             "name": "clock",
+             "type": "INSTANCE",
+             "x": 0.0,
+             "y": 2.0,
+             "w": 16.0,
+             "h": 16.0,
+             "strokeWeight": 1.0,
+             "strokeAlign": "INSIDE"
+            },
+            {
+             "name": "10:00 am - 12:00 am",
+             "type": "TEXT",
+             "x": 24.0,
+             "y": 0.0,
+             "w": 128.0,
+             "h": 20.0,
+             "strokeWeight": 1.0,
+             "strokeAlign": "INSIDE",
+             "fills": [
+              {
+               "type": "SOLID",
+               "color": "#555555"
+              }
+             ],
+             "text": {
+              "characters": "10:00 am - 12:00 am",
+              "fontSize": 14.0,
+              "font": {
+               "family": "Roboto",
+               "style": "Regular",
+               "postscript": "Roboto-Regular"
+              },
+              "lineHeight": {
+               "value": 20.0,
+               "units": "PIXELS"
+              },
+              "letterSpacing": {
+               "value": 0.0,
+               "units": "PERCENT"
+              },
+              "alignH": null,
+              "alignV": "TOP",
+              "case": null,
+              "decoration": null,
+              "autoResize": "WIDTH_AND_HEIGHT"
+             }
+            }
+           ]
+          },
+          {
+           "name": "Frame 1000004964",
+           "type": "FRAME",
+           "x": 0.0,
+           "y": 58.0,
+           "w": 179.0,
+           "h": 20.0,
+           "strokeWeight": 1.0,
+           "strokeAlign": "INSIDE",
+           "stackMode": "VERTICAL",
+           "stackSpacing": 8.0,
+           "frameMaskDisabled": true,
+           "children": [
+            {
+             "name": "Frame",
+             "type": "FRAME",
+             "x": 0.0,
+             "y": 0.0,
+             "w": 179.0,
+             "h": 20.0,
+             "strokeWeight": 1.0,
+             "strokeAlign": "INSIDE",
+             "stackMode": "HORIZONTAL",
+             "stackSpacing": 8.0,
+             "stackCounterAlignItems": "CENTER",
+             "stackPrimarySizing": "FIXED",
+             "stackCounterSizing": "RESIZE_TO_FIT_WITH_IMPLICIT_SIZE",
+             "frameMaskDisabled": true,
+             "children": [
+              {
+               "name": "user",
+               "type": "INSTANCE",
+               "x": 0.0,
+               "y": 2.0,
+               "w": 16.0,
+               "h": 16.0,
+               "strokeWeight": 1.0,
+               "strokeAlign": "INSIDE"
+              },
+              {
+               "name": "Attendee",
+               "type": "TEXT",
+               "x": 24.0,
+               "y": 0.0,
+               "w": 57.0,
+               "h": 20.0,
+               "strokeWeight": 1.0,
+               "strokeAlign": "INSIDE",
+               "fills": [
+                {
+                 "type": "SOLID",
+                 "color": "#555555"
+                }
+               ],
+               "text": {
+                "characters": "Attendee",
+                "fontSize": 14.0,
+                "font": {
+                 "family": "Roboto",
+                 "style": "Regular",
+                 "postscript": "Roboto-Regular"
+                },
+                "lineHeight": {
+                 "value": 20.0,
+                 "units": "PIXELS"
+                },
+                "letterSpacing": {
+                 "value": 0.0,
+                 "units": "PERCENT"
+                },
+                "alignH": null,
+                "alignV": "TOP",
+                "case": null,
+                "decoration": null,
+                "autoResize": "WIDTH_AND_HEIGHT"
+               }
+              }
+             ]
+            },
+            {
+             "name": "Frame",
+             "type": "FRAME",
+             "x": 0.0,
+             "y": 26.0,
+             "w": 179.0,
+             "h": 18.0,
+             "visible": false,
+             "strokeWeight": 1.0,
+             "strokeAlign": "INSIDE",
+             "stackMode": "HORIZONTAL",
+             "stackSpacing": 8.0,
+             "stackCounterAlignItems": "CENTER",
+             "stackPrimarySizing": "FIXED",
+             "stackCounterSizing": "RESIZE_TO_FIT_WITH_IMPLICIT_SIZE",
+             "frameMaskDisabled": true,
+             "children": [
+              {
+               "name": "map pin",
+               "type": "INSTANCE",
+               "x": 0.0,
+               "y": 1.0,
+               "w": 16.0,
+               "h": 16.0,
+               "strokeWeight": 1.0,
+               "strokeAlign": "INSIDE"
+              },
+              {
+               "name": "Online",
+               "type": "TEXT",
+               "x": 24.0,
+               "y": 0.0,
+               "w": 34.0,
+               "h": 18.0,
+               "strokeWeight": 1.0,
+               "strokeAlign": "INSIDE",
+               "fills": [
+                {
+                 "type": "SOLID",
+                 "color": "#555555"
+                }
+               ],
+               "text": {
+                "characters": "Online",
+                "fontSize": 12.0,
+                "font": {
+                 "family": "Roboto",
+                 "style": "Regular",
+                 "postscript": "Roboto-Regular"
+                },
+                "lineHeight": {
+                 "value": 18.0,
+                 "units": "PIXELS"
+                },
+                "letterSpacing": {
+                 "value": 0.0,
+                 "units": "PERCENT"
+                },
+                "alignH": null,
+                "alignV": "TOP",
+                "case": null,
+                "decoration": null,
+                "autoResize": "WIDTH_AND_HEIGHT"
+               }
+              }
+             ]
+            }
+           ]
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "name": "Frame 1000004965",
+       "type": "FRAME",
+       "x": 315.0,
+       "y": 8.0,
+       "w": 20.0,
+       "h": 128.0,
+       "strokeWeight": 1.0,
+       "strokeAlign": "INSIDE",
+       "stackMode": "HORIZONTAL",
+       "stackSpacing": 8.0,
+       "stackCounterAlignItems": "CENTER",
+       "frameMaskDisabled": true,
+       "children": [
+        {
+         "name": "chevron-right",
+         "type": "INSTANCE",
+         "x": 0.0,
+         "y": 54.0,
+         "w": 20.0,
+         "h": 20.0,
+         "strokeWeight": 1.0,
+         "strokeAlign": "INSIDE"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "name": "WorkshopCard 3",
+     "type": "FRAME",
+     "x": 0.0,
+     "y": 326.0,
+     "w": 343.0,
+     "h": 166.0,
+     "rectangleTopLeftCornerRadius": 8.0,
+     "rectangleTopRightCornerRadius": 8.0,
+     "rectangleBottomLeftCornerRadius": 8.0,
+     "rectangleBottomRightCornerRadius": 8.0,
+     "strokeWeight": 1.0,
+     "strokeAlign": "INSIDE",
+     "stackMode": "HORIZONTAL",
+     "stackPaddingRight": 8.0,
+     "stackPaddingBottom": 8.0,
+     "stackCounterAlignItems": "CENTER",
+     "stackCounterSizing": "RESIZE_TO_FIT_WITH_IMPLICIT_SIZE",
+     "frameMaskDisabled": true,
+     "fills": [
+      {
+       "type": "SOLID",
+       "color": "#FFFFFF"
+      }
+     ],
+     "strokes": [
+      {
+       "type": "SOLID",
+       "color": "#E0E0E0"
+      }
+     ],
+     "children": [
+      {
+       "name": "AccentBar",
+       "type": "ROUNDED_RECTANGLE",
+       "x": 8.0,
+       "y": 158.0,
+       "w": 4.0,
+       "h": 150.0,
+       "cornerRadius": 4.0,
+       "rectangleTopLeftCornerRadius": 4.0,
+       "rectangleTopRightCornerRadius": 4.0,
+       "rectangleBottomLeftCornerRadius": 4.0,
+       "rectangleBottomRightCornerRadius": 4.0,
+       "strokeWeight": 1.0,
+       "strokeAlign": "INSIDE",
+       "fills": [
+        {
+         "type": "SOLID",
+         "color": "#555555"
+        }
+       ]
+      },
+      {
+       "name": "DateSection",
+       "type": "FRAME",
+       "x": 12.0,
+       "y": 8.0,
+       "w": 92.0,
+       "h": 150.0,
+       "strokeWeight": 1.0,
+       "strokeAlign": "INSIDE",
+       "stackMode": "VERTICAL",
+       "stackPaddingRight": 16.0,
+       "stackPaddingBottom": 8.0,
+       "stackPrimaryAlignItems": "CENTER",
+       "stackCounterAlignItems": "CENTER",
+       "stackPrimarySizing": "FIXED",
+       "frameMaskDisabled": true,
+       "children": [
+        {
+         "name": "WorkshopDate",
+         "type": "TEXT",
+         "x": 16.0,
+         "y": 49.0,
+         "w": 60.0,
+         "h": 52.0,
+         "strokeWeight": 1.0,
+         "strokeAlign": "INSIDE",
+         "fills": [
+          {
+           "type": "SOLID",
+           "color": "#121212"
+          }
+         ],
+         "text": {
+          "characters": "22/062026",
+          "fontSize": 20.0,
+          "font": {
+           "family": "Roboto",
+           "style": "SemiBold",
+           "postscript": "Roboto-SemiBold"
+          },
+          "lineHeight": {
+           "value": 26.0,
+           "units": "PIXELS"
+          },
+          "letterSpacing": {
+           "value": -1.0,
+           "units": "PERCENT"
+          },
+          "alignH": "CENTER",
+          "alignV": "TOP",
+          "case": null,
+          "decoration": null,
+          "autoResize": "HEIGHT"
+         }
+        }
+       ]
+      },
+      {
+       "name": "Line",
+       "type": "LINE",
+       "x": 104.0,
+       "y": 23.0,
+       "w": 120.0,
+       "h": 0.0,
+       "transform": [
+        6.123234262925839e-17,
+        -1.0,
+        1.0,
+        6.123234262925839e-17
+       ],
+       "strokeWeight": 1.0,
+       "strokeAlign": "CENTER",
+       "strokes": [
+        {
+         "type": "SOLID",
+         "color": "#E0E0E0"
+        }
+       ]
+      },
+      {
+       "name": "Frame",
+       "type": "FRAME",
+       "x": 104.0,
+       "y": 8.0,
+       "w": 211.0,
+       "h": 150.0,
+       "strokeWeight": 1.0,
+       "strokeAlign": "INSIDE",
+       "stackMode": "VERTICAL",
+       "stackSpacing": 8.0,
+       "stackPaddingRight": 16.0,
+       "stackPaddingBottom": 8.0,
+       "frameMaskDisabled": true,
+       "children": [
+        {
+         "name": "Frame",
+         "type": "FRAME",
+         "x": 16.0,
+         "y": 8.0,
+         "w": 179.0,
+         "h": 26.0,
+         "strokeWeight": 1.0,
+         "strokeAlign": "INSIDE",
+         "stackMode": "HORIZONTAL",
+         "stackSpacing": 8.0,
+         "stackPrimarySizing": "FIXED",
+         "stackCounterSizing": "RESIZE_TO_FIT_WITH_IMPLICIT_SIZE",
+         "frameMaskDisabled": true,
+         "children": [
+          {
+           "name": "Badge",
+           "type": "FRAME",
+           "x": 0.0,
+           "y": 0.0,
+           "w": 71.0,
+           "h": 26.0,
+           "cornerRadius": 8.0,
+           "rectangleTopLeftCornerRadius": 8.0,
+           "rectangleTopRightCornerRadius": 8.0,
+           "rectangleBottomLeftCornerRadius": 8.0,
+           "rectangleBottomRightCornerRadius": 8.0,
+           "strokeWeight": 1.0,
+           "strokeAlign": "INSIDE",
+           "stackMode": "HORIZONTAL",
+           "stackSpacing": 4.0,
+           "stackPaddingRight": 8.0,
+           "stackPaddingBottom": 2.0,
+           "stackPrimaryAlignItems": "CENTER",
+           "stackCounterAlignItems": "CENTER",
+           "frameMaskDisabled": true,
+           "fills": [
+            {
+             "type": "SOLID",
+             "color": "#E0E0E0"
+            }
+           ],
+           "children": [
+            {
+             "name": "Frame 1000004968",
+             "type": "FRAME",
+             "x": 8.0,
+             "y": 8.0,
+             "w": 10.0,
+             "h": 10.0,
+             "strokeWeight": 1.0,
+             "strokeAlign": "INSIDE",
+             "frameMaskDisabled": true,
+             "children": [
+              {
+               "name": "Ellipse 2301",
+               "type": "ELLIPSE",
+               "x": 0.0,
+               "y": 0.0,
+               "w": 10.0,
+               "h": 10.0,
+               "strokeWeight": 1.0,
+               "strokeAlign": "INSIDE",
+               "strokes": [
+                {
+                 "type": "SOLID",
+                 "color": "#555555"
+                }
+               ]
+              },
+              {
+               "name": "Ellipse 2302",
+               "type": "ELLIPSE",
+               "x": 2.0,
+               "y": 2.0,
+               "w": 6.0,
+               "h": 6.0,
+               "strokeWeight": 1.0,
+               "strokeAlign": "INSIDE",
+               "horizontalConstraint": "CENTER",
+               "verticalConstraint": "CENTER",
+               "fills": [
+                {
+                 "type": "SOLID",
+                 "color": "#555555"
+                }
+               ]
+              }
+             ]
+            },
+            {
+             "name": "BadgeText",
+             "type": "TEXT",
+             "x": 22.0,
+             "y": 4.0,
+             "w": 41.0,
+             "h": 18.0,
+             "strokeWeight": 1.0,
+             "strokeAlign": "INSIDE",
+             "fills": [
+              {
+               "type": "SOLID",
+               "color": "#555555"
+              }
+             ],
+             "text": {
+              "characters": "Expired",
+              "fontSize": 12.0,
+              "font": {
+               "family": "Roboto",
+               "style": "SemiBold",
+               "postscript": "Roboto-SemiBold"
+              },
+              "lineHeight": {
+               "value": 18.0,
+               "units": "PIXELS"
+              },
+              "letterSpacing": {
+               "value": 0.0,
+               "units": "PERCENT"
+              },
+              "alignH": null,
+              "alignV": "TOP",
+              "case": null,
+              "decoration": null,
+              "autoResize": "WIDTH_AND_HEIGHT"
+             }
+            }
+           ]
+          },
+          {
+           "name": "Component 4",
+           "type": "INSTANCE",
+           "x": 79.0,
+           "y": 0.0,
+           "w": 43.0,
+           "h": 26.0,
+           "cornerRadius": 6.0,
+           "rectangleTopLeftCornerRadius": 6.0,
+           "rectangleTopRightCornerRadius": 6.0,
+           "rectangleBottomLeftCornerRadius": 6.0,
+           "rectangleBottomRightCornerRadius": 6.0,
+           "strokeWeight": 1.0,
+           "strokeAlign": "INSIDE",
+           "stackMode": "HORIZONTAL",
+           "stackSpacing": 4.0,
+           "stackPaddingRight": 4.0,
+           "stackPaddingBottom": 4.0,
+           "stackCounterAlignItems": "CENTER",
+           "stackCounterSizing": "RESIZE_TO_FIT_WITH_IMPLICIT_SIZE",
+           "frameMaskDisabled": true,
+           "fills": [
+            {
+             "type": "SOLID",
+             "color": "#F7F6F9"
+            }
+           ],
+           "strokes": [
+            {
+             "type": "SOLID",
+             "color": "#8B5ECB"
+            }
+           ]
+          }
+         ]
+        },
+        {
+         "name": "Frame 1000004883",
+         "type": "FRAME",
+         "x": 16.0,
+         "y": 42.0,
+         "w": 179.0,
+         "h": 100.0,
+         "strokeWeight": 1.0,
+         "strokeAlign": "INSIDE",
+         "stackMode": "VERTICAL",
+         "stackSpacing": 8.0,
+         "frameMaskDisabled": true,
+         "children": [
+          {
+           "name": "WorkshopTitle",
+           "type": "TEXT",
+           "x": 0.0,
+           "y": 0.0,
+           "w": 179.0,
+           "h": 44.0,
+           "strokeWeight": 1.0,
+           "strokeAlign": "INSIDE",
+           "fills": [
+            {
+             "type": "SOLID",
+             "color": "#121212"
+            }
+           ],
+           "text": {
+            "characters": "Caring for Someone with Dementia",
+            "fontSize": 16.0,
+            "font": {
+             "family": "Roboto",
+             "style": "SemiBold",
+             "postscript": "Roboto-SemiBold"
+            },
+            "lineHeight": {
+             "value": 22.0,
+             "units": "PIXELS"
+            },
+            "letterSpacing": {
+             "value": 0.0,
+             "units": "PERCENT"
+            },
+            "alignH": null,
+            "alignV": "TOP",
+            "case": null,
+            "decoration": null,
+            "autoResize": "HEIGHT"
+           }
+          },
+          {
+           "name": "Frame",
+           "type": "FRAME",
+           "x": 0.0,
+           "y": 52.0,
+           "w": 179.0,
+           "h": 20.0,
+           "strokeWeight": 1.0,
+           "strokeAlign": "INSIDE",
+           "stackMode": "HORIZONTAL",
+           "stackSpacing": 8.0,
+           "stackCounterAlignItems": "CENTER",
+           "stackPrimarySizing": "FIXED",
+           "stackCounterSizing": "RESIZE_TO_FIT_WITH_IMPLICIT_SIZE",
+           "frameMaskDisabled": true,
+           "children": [
+            {
+             "name": "clock",
+             "type": "INSTANCE",
+             "x": 0.0,
+             "y": 2.0,
+             "w": 16.0,
+             "h": 16.0,
+             "strokeWeight": 1.0,
+             "strokeAlign": "INSIDE"
+            },
+            {
+             "name": "02:00 pm - 04:00 pm",
+             "type": "TEXT",
+             "x": 24.0,
+             "y": 0.0,
+             "w": 128.0,
+             "h": 20.0,
+             "strokeWeight": 1.0,
+             "strokeAlign": "INSIDE",
+             "fills": [
+              {
+               "type": "SOLID",
+               "color": "#555555"
+              }
+             ],
+             "text": {
+              "characters": "02:00 pm - 04:00 pm",
+              "fontSize": 14.0,
+              "font": {
+               "family": "Roboto",
+               "style": "Regular",
+               "postscript": "Roboto-Regular"
+              },
+              "lineHeight": {
+               "value": 20.0,
+               "units": "PIXELS"
+              },
+              "letterSpacing": {
+               "value": 0.0,
+               "units": "PERCENT"
+              },
+              "alignH": null,
+              "alignV": "TOP",
+              "case": null,
+              "decoration": null,
+              "autoResize": "WIDTH_AND_HEIGHT"
+             }
+            }
+           ]
+          },
+          {
+           "name": "Frame 1000004964",
+           "type": "FRAME",
+           "x": 0.0,
+           "y": 80.0,
+           "w": 179.0,
+           "h": 20.0,
+           "strokeWeight": 1.0,
+           "strokeAlign": "INSIDE",
+           "stackMode": "VERTICAL",
+           "stackSpacing": 8.0,
+           "frameMaskDisabled": true,
+           "children": [
+            {
+             "name": "Frame",
+             "type": "FRAME",
+             "x": 0.0,
+             "y": 0.0,
+             "w": 179.0,
+             "h": 20.0,
+             "strokeWeight": 1.0,
+             "strokeAlign": "INSIDE",
+             "stackMode": "HORIZONTAL",
+             "stackSpacing": 8.0,
+             "stackCounterAlignItems": "CENTER",
+             "stackPrimarySizing": "FIXED",
+             "stackCounterSizing": "RESIZE_TO_FIT_WITH_IMPLICIT_SIZE",
+             "frameMaskDisabled": true,
+             "children": [
+              {
+               "name": "user",
+               "type": "INSTANCE",
+               "x": 0.0,
+               "y": 2.0,
+               "w": 16.0,
+               "h": 16.0,
+               "strokeWeight": 1.0,
+               "strokeAlign": "INSIDE"
+              },
+              {
+               "name": "Attendee",
+               "type": "TEXT",
+               "x": 24.0,
+               "y": 0.0,
+               "w": 57.0,
+               "h": 20.0,
+               "strokeWeight": 1.0,
+               "strokeAlign": "INSIDE",
+               "fills": [
+                {
+                 "type": "SOLID",
+                 "color": "#555555"
+                }
+               ],
+               "text": {
+                "characters": "Attendee",
+                "fontSize": 14.0,
+                "font": {
+                 "family": "Roboto",
+                 "style": "Regular",
+                 "postscript": "Roboto-Regular"
+                },
+                "lineHeight": {
+                 "value": 20.0,
+                 "units": "PIXELS"
+                },
+                "letterSpacing": {
+                 "value": 0.0,
+                 "units": "PERCENT"
+                },
+                "alignH": null,
+                "alignV": "TOP",
+                "case": null,
+                "decoration": null,
+                "autoResize": "WIDTH_AND_HEIGHT"
+               }
+              }
+             ]
+            },
+            {
+             "name": "Frame",
+             "type": "FRAME",
+             "x": 0.0,
+             "y": 26.0,
+             "w": 179.0,
+             "h": 18.0,
+             "visible": false,
+             "strokeWeight": 1.0,
+             "strokeAlign": "INSIDE",
+             "stackMode": "HORIZONTAL",
+             "stackSpacing": 8.0,
+             "stackCounterAlignItems": "CENTER",
+             "stackPrimarySizing": "FIXED",
+             "stackCounterSizing": "RESIZE_TO_FIT_WITH_IMPLICIT_SIZE",
+             "frameMaskDisabled": true,
+             "children": [
+              {
+               "name": "map pin",
+               "type": "INSTANCE",
+               "x": 0.0,
+               "y": 1.0,
+               "w": 16.0,
+               "h": 16.0,
+               "strokeWeight": 1.0,
+               "strokeAlign": "INSIDE"
+              },
+              {
+               "name": "Online",
+               "type": "TEXT",
+               "x": 24.0,
+               "y": 0.0,
+               "w": 34.0,
+               "h": 18.0,
+               "strokeWeight": 1.0,
+               "strokeAlign": "INSIDE",
+               "fills": [
+                {
+                 "type": "SOLID",
+                 "color": "#555555"
+                }
+               ],
+               "text": {
+                "characters": "Online",
+                "fontSize": 12.0,
+                "font": {
+                 "family": "Roboto",
+                 "style": "Regular",
+                 "postscript": "Roboto-Regular"
+                },
+                "lineHeight": {
+                 "value": 18.0,
+                 "units": "PIXELS"
+                },
+                "letterSpacing": {
+                 "value": 0.0,
+                 "units": "PERCENT"
+                },
+                "alignH": null,
+                "alignV": "TOP",
+                "case": null,
+                "decoration": null,
+                "autoResize": "WIDTH_AND_HEIGHT"
+               }
+              }
+             ]
+            }
+           ]
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "name": "Frame 1000004965",
+       "type": "FRAME",
+       "x": 315.0,
+       "y": 8.0,
+       "w": 20.0,
+       "h": 150.0,
+       "strokeWeight": 1.0,
+       "strokeAlign": "INSIDE",
+       "stackMode": "HORIZONTAL",
+       "stackSpacing": 8.0,
+       "stackCounterAlignItems": "CENTER",
+       "frameMaskDisabled": true,
+       "children": [
+        {
+         "name": "chevron-right",
+         "type": "INSTANCE",
+         "x": 0.0,
+         "y": 65.0,
+         "w": 20.0,
+         "h": 20.0,
+         "strokeWeight": 1.0,
+         "strokeAlign": "INSIDE"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "name": "WorkshopCard 4",
+     "type": "FRAME",
+     "x": 0.0,
+     "y": 500.0,
+     "w": 343.0,
+     "h": 166.0,
+     "rectangleTopLeftCornerRadius": 8.0,
+     "rectangleTopRightCornerRadius": 8.0,
+     "rectangleBottomLeftCornerRadius": 8.0,
+     "rectangleBottomRightCornerRadius": 8.0,
+     "strokeWeight": 1.0,
+     "strokeAlign": "INSIDE",
+     "stackMode": "HORIZONTAL",
+     "stackPaddingRight": 8.0,
+     "stackPaddingBottom": 8.0,
+     "stackCounterAlignItems": "CENTER",
+     "stackPrimarySizing": "FIXED",
+     "stackCounterSizing": "RESIZE_TO_FIT_WITH_IMPLICIT_SIZE",
+     "frameMaskDisabled": true,
+     "fills": [
+      {
+       "type": "SOLID",
+       "color": "#FFFFFF"
+      }
+     ],
+     "strokes": [
+      {
+       "type": "SOLID",
+       "color": "#E0E0E0"
+      }
+     ],
+     "children": [
+      {
+       "name": "AccentBar",
+       "type": "ROUNDED_RECTANGLE",
+       "x": 8.0,
+       "y": 158.0,
+       "w": 4.0,
+       "h": 150.0,
+       "cornerRadius": 4.0,
+       "rectangleTopLeftCornerRadius": 4.0,
+       "rectangleTopRightCornerRadius": 4.0,
+       "rectangleBottomLeftCornerRadius": 4.0,
+       "rectangleBottomRightCornerRadius": 4.0,
+       "strokeWeight": 1.0,
+       "strokeAlign": "INSIDE",
+       "fills": [
+        {
+         "type": "SOLID",
+         "color": "#E81818"
+        }
+       ]
+      },
+      {
+       "name": "DateSection",
+       "type": "FRAME",
+       "x": 12.0,
+       "y": 8.0,
+       "w": 92.0,
+       "h": 150.0,
+       "strokeWeight": 1.0,
+       "strokeAlign": "INSIDE",
+       "stackMode": "VERTICAL",
+       "stackPaddingRight": 16.0,
+       "stackPaddingBottom": 8.0,
+       "stackPrimaryAlignItems": "CENTER",
+       "stackCounterAlignItems": "CENTER",
+       "stackPrimarySizing": "FIXED",
+       "frameMaskDisabled": true,
+       "children": [
+        {
+         "name": "WorkshopDate",
+         "type": "TEXT",
+         "x": 16.0,
+         "y": 49.0,
+         "w": 60.0,
+         "h": 52.0,
+         "strokeWeight": 1.0,
+         "strokeAlign": "INSIDE",
+         "fills": [
+          {
+           "type": "SOLID",
+           "color": "#121212"
+          }
+         ],
+         "text": {
+          "characters": "29/072026",
+          "fontSize": 20.0,
+          "font": {
+           "family": "Roboto",
+           "style": "SemiBold",
+           "postscript": "Roboto-SemiBold"
+          },
+          "lineHeight": {
+           "value": 26.0,
+           "units": "PIXELS"
+          },
+          "letterSpacing": {
+           "value": -1.0,
+           "units": "PERCENT"
+          },
+          "alignH": "CENTER",
+          "alignV": "TOP",
+          "case": null,
+          "decoration": null,
+          "autoResize": "HEIGHT"
+         }
+        }
+       ]
+      },
+      {
+       "name": "Line",
+       "type": "LINE",
+       "x": 104.0,
+       "y": 23.0,
+       "w": 120.0,
+       "h": 0.0,
+       "transform": [
+        6.123234262925839e-17,
+        -1.0,
+        1.0,
+        6.123234262925839e-17
+       ],
+       "strokeWeight": 1.0,
+       "strokeAlign": "CENTER",
+       "strokes": [
+        {
+         "type": "SOLID",
+         "color": "#E0E0E0"
+        }
+       ]
+      },
+      {
+       "name": "Frame",
+       "type": "FRAME",
+       "x": 104.0,
+       "y": 8.0,
+       "w": 211.0,
+       "h": 150.0,
+       "strokeWeight": 1.0,
+       "strokeAlign": "INSIDE",
+       "stackMode": "VERTICAL",
+       "stackSpacing": 8.0,
+       "stackPaddingRight": 16.0,
+       "stackPaddingBottom": 8.0,
+       "stackChildPrimaryGrow": 1.0,
+       "frameMaskDisabled": true,
+       "children": [
+        {
+         "name": "Frame",
+         "type": "FRAME",
+         "x": 16.0,
+         "y": 8.0,
+         "w": 179.0,
+         "h": 26.0,
+         "strokeWeight": 1.0,
+         "strokeAlign": "INSIDE",
+         "stackMode": "HORIZONTAL",
+         "stackSpacing": 8.0,
+         "stackPrimarySizing": "FIXED",
+         "stackCounterSizing": "RESIZE_TO_FIT_WITH_IMPLICIT_SIZE",
+         "frameMaskDisabled": true,
+         "children": [
+          {
+           "name": "Badge",
+           "type": "FRAME",
+           "x": 0.0,
+           "y": 0.0,
+           "w": 84.0,
+           "h": 26.0,
+           "cornerRadius": 8.0,
+           "rectangleTopLeftCornerRadius": 8.0,
+           "rectangleTopRightCornerRadius": 8.0,
+           "rectangleBottomLeftCornerRadius": 8.0,
+           "rectangleBottomRightCornerRadius": 8.0,
+           "strokeWeight": 1.0,
+           "strokeAlign": "INSIDE",
+           "stackMode": "HORIZONTAL",
+           "stackSpacing": 4.0,
+           "stackPaddingRight": 8.0,
+           "stackPaddingBottom": 2.0,
+           "stackPrimaryAlignItems": "CENTER",
+           "stackCounterAlignItems": "CENTER",
+           "frameMaskDisabled": true,
+           "fills": [
+            {
+             "type": "SOLID",
+             "color": "#FDECEC"
+            }
+           ],
+           "children": [
+            {
+             "name": "Frame 1000004968",
+             "type": "FRAME",
+             "x": 8.0,
+             "y": 8.0,
+             "w": 10.0,
+             "h": 10.0,
+             "strokeWeight": 1.0,
+             "strokeAlign": "INSIDE",
+             "frameMaskDisabled": true,
+             "children": [
+              {
+               "name": "Ellipse 2301",
+               "type": "ELLIPSE",
+               "x": 0.0,
+               "y": 0.0,
+               "w": 10.0,
+               "h": 10.0,
+               "strokeWeight": 1.0,
+               "strokeAlign": "INSIDE",
+               "strokes": [
+                {
+                 "type": "SOLID",
+                 "color": "#E81818"
+                }
+               ]
+              },
+              {
+               "name": "Ellipse 2302",
+               "type": "ELLIPSE",
+               "x": 2.0,
+               "y": 2.0,
+               "w": 6.0,
+               "h": 6.0,
+               "strokeWeight": 1.0,
+               "strokeAlign": "INSIDE",
+               "horizontalConstraint": "CENTER",
+               "verticalConstraint": "CENTER",
+               "fills": [
+                {
+                 "type": "SOLID",
+                 "color": "#E81818"
+                }
+               ]
+              }
+             ]
+            },
+            {
+             "name": "BadgeText",
+             "type": "TEXT",
+             "x": 22.0,
+             "y": 4.0,
+             "w": 54.0,
+             "h": 18.0,
+             "strokeWeight": 1.0,
+             "strokeAlign": "INSIDE",
+             "fills": [
+              {
+               "type": "SOLID",
+               "color": "#E81818"
+              }
+             ],
+             "text": {
+              "characters": "Cancelled",
+              "fontSize": 12.0,
+              "font": {
+               "family": "Roboto",
+               "style": "SemiBold",
+               "postscript": "Roboto-SemiBold"
+              },
+              "lineHeight": {
+               "value": 18.0,
+               "units": "PIXELS"
+              },
+              "letterSpacing": {
+               "value": 0.0,
+               "units": "PERCENT"
+              },
+              "alignH": null,
+              "alignV": "TOP",
+              "case": null,
+              "decoration": null,
+              "autoResize": "WIDTH_AND_HEIGHT"
+             }
+            }
+           ]
+          },
+          {
+           "name": "Component 4",
+           "type": "INSTANCE",
+           "x": 92.0,
+           "y": 0.0,
+           "w": 43.0,
+           "h": 26.0,
+           "cornerRadius": 6.0,
+           "rectangleTopLeftCornerRadius": 6.0,
+           "rectangleTopRightCornerRadius": 6.0,
+           "rectangleBottomLeftCornerRadius": 6.0,
+           "rectangleBottomRightCornerRadius": 6.0,
+           "strokeWeight": 1.0,
+           "strokeAlign": "INSIDE",
+           "stackMode": "HORIZONTAL",
+           "stackSpacing": 4.0,
+           "stackPaddingRight": 4.0,
+           "stackPaddingBottom": 4.0,
+           "stackCounterAlignItems": "CENTER",
+           "stackCounterSizing": "RESIZE_TO_FIT_WITH_IMPLICIT_SIZE",
+           "frameMaskDisabled": true,
+           "fills": [
+            {
+             "type": "SOLID",
+             "color": "#F7F6F9"
+            }
+           ],
+           "strokes": [
+            {
+             "type": "SOLID",
+             "color": "#8B5ECB"
+            }
+           ]
+          }
+         ]
+        },
+        {
+         "name": "Frame 1000004883",
+         "type": "FRAME",
+         "x": 16.0,
+         "y": 42.0,
+         "w": 179.0,
+         "h": 100.0,
+         "strokeWeight": 1.0,
+         "strokeAlign": "INSIDE",
+         "stackMode": "VERTICAL",
+         "stackSpacing": 8.0,
+         "frameMaskDisabled": true,
+         "children": [
+          {
+           "name": "WorkshopTitle",
+           "type": "TEXT",
+           "x": 0.0,
+           "y": 0.0,
+           "w": 179.0,
+           "h": 44.0,
+           "strokeWeight": 1.0,
+           "strokeAlign": "INSIDE",
+           "fills": [
+            {
+             "type": "SOLID",
+             "color": "#121212"
+            }
+           ],
+           "text": {
+            "characters": "Living Well with Dementia",
+            "fontSize": 16.0,
+            "font": {
+             "family": "Roboto",
+             "style": "SemiBold",
+             "postscript": "Roboto-SemiBold"
+            },
+            "lineHeight": {
+             "value": 22.0,
+             "units": "PIXELS"
+            },
+            "letterSpacing": {
+             "value": 0.0,
+             "units": "PERCENT"
+            },
+            "alignH": null,
+            "alignV": "TOP",
+            "case": null,
+            "decoration": null,
+            "autoResize": "HEIGHT"
+           }
+          },
+          {
+           "name": "Frame",
+           "type": "FRAME",
+           "x": 0.0,
+           "y": 52.0,
+           "w": 179.0,
+           "h": 20.0,
+           "strokeWeight": 1.0,
+           "strokeAlign": "INSIDE",
+           "stackMode": "HORIZONTAL",
+           "stackSpacing": 8.0,
+           "stackCounterAlignItems": "CENTER",
+           "stackPrimarySizing": "FIXED",
+           "stackCounterSizing": "RESIZE_TO_FIT_WITH_IMPLICIT_SIZE",
+           "frameMaskDisabled": true,
+           "children": [
+            {
+             "name": "clock",
+             "type": "INSTANCE",
+             "x": 0.0,
+             "y": 2.0,
+             "w": 16.0,
+             "h": 16.0,
+             "strokeWeight": 1.0,
+             "strokeAlign": "INSIDE"
+            },
+            {
+             "name": "09:00 am - 11:00 am",
+             "type": "TEXT",
+             "x": 24.0,
+             "y": 0.0,
+             "w": 128.0,
+             "h": 20.0,
+             "strokeWeight": 1.0,
+             "strokeAlign": "INSIDE",
+             "fills": [
+              {
+               "type": "SOLID",
+               "color": "#555555"
+              }
+             ],
+             "text": {
+              "characters": "09:00 am - 11:00 am",
+              "fontSize": 14.0,
+              "font": {
+               "family": "Roboto",
+               "style": "Regular",
+               "postscript": "Roboto-Regular"
+              },
+              "lineHeight": {
+               "value": 20.0,
+               "units": "PIXELS"
+              },
+              "letterSpacing": {
+               "value": 0.0,
+               "units": "PERCENT"
+              },
+              "alignH": null,
+              "alignV": "TOP",
+              "case": null,
+              "decoration": null,
+              "autoResize": "WIDTH_AND_HEIGHT"
+             }
+            }
+           ]
+          },
+          {
+           "name": "Frame 1000004964",
+           "type": "FRAME",
+           "x": 0.0,
+           "y": 80.0,
+           "w": 179.0,
+           "h": 20.0,
+           "strokeWeight": 1.0,
+           "strokeAlign": "INSIDE",
+           "stackMode": "VERTICAL",
+           "stackSpacing": 8.0,
+           "frameMaskDisabled": true,
+           "children": [
+            {
+             "name": "Frame",
+             "type": "FRAME",
+             "x": 0.0,
+             "y": 0.0,
+             "w": 179.0,
+             "h": 20.0,
+             "strokeWeight": 1.0,
+             "strokeAlign": "INSIDE",
+             "stackMode": "HORIZONTAL",
+             "stackSpacing": 8.0,
+             "stackCounterAlignItems": "CENTER",
+             "stackPrimarySizing": "FIXED",
+             "stackCounterSizing": "RESIZE_TO_FIT_WITH_IMPLICIT_SIZE",
+             "frameMaskDisabled": true,
+             "children": [
+              {
+               "name": "user",
+               "type": "INSTANCE",
+               "x": 0.0,
+               "y": 2.0,
+               "w": 16.0,
+               "h": 16.0,
+               "strokeWeight": 1.0,
+               "strokeAlign": "INSIDE"
+              },
+              {
+               "name": "Attendee",
+               "type": "TEXT",
+               "x": 24.0,
+               "y": 0.0,
+               "w": 57.0,
+               "h": 20.0,
+               "strokeWeight": 1.0,
+               "strokeAlign": "INSIDE",
+               "fills": [
+                {
+                 "type": "SOLID",
+                 "color": "#555555"
+                }
+               ],
+               "text": {
+                "characters": "Attendee",
+                "fontSize": 14.0,
+                "font": {
+                 "family": "Roboto",
+                 "style": "Regular",
+                 "postscript": "Roboto-Regular"
+                },
+                "lineHeight": {
+                 "value": 20.0,
+                 "units": "PIXELS"
+                },
+                "letterSpacing": {
+                 "value": 0.0,
+                 "units": "PERCENT"
+                },
+                "alignH": null,
+                "alignV": "TOP",
+                "case": null,
+                "decoration": null,
+                "autoResize": "WIDTH_AND_HEIGHT"
+               }
+              }
+             ]
+            },
+            {
+             "name": "Frame",
+             "type": "FRAME",
+             "x": 0.0,
+             "y": 26.0,
+             "w": 179.0,
+             "h": 18.0,
+             "visible": false,
+             "strokeWeight": 1.0,
+             "strokeAlign": "INSIDE",
+             "stackMode": "HORIZONTAL",
+             "stackSpacing": 8.0,
+             "stackCounterAlignItems": "CENTER",
+             "stackPrimarySizing": "FIXED",
+             "stackCounterSizing": "RESIZE_TO_FIT_WITH_IMPLICIT_SIZE",
+             "frameMaskDisabled": true,
+             "children": [
+              {
+               "name": "map pin",
+               "type": "INSTANCE",
+               "x": 0.0,
+               "y": 1.0,
+               "w": 16.0,
+               "h": 16.0,
+               "strokeWeight": 1.0,
+               "strokeAlign": "INSIDE"
+              },
+              {
+               "name": "Online",
+               "type": "TEXT",
+               "x": 24.0,
+               "y": 0.0,
+               "w": 34.0,
+               "h": 18.0,
+               "strokeWeight": 1.0,
+               "strokeAlign": "INSIDE",
+               "fills": [
+                {
+                 "type": "SOLID",
+                 "color": "#555555"
+                }
+               ],
+               "text": {
+                "characters": "Online",
+                "fontSize": 12.0,
+                "font": {
+                 "family": "Roboto",
+                 "style": "Regular",
+                 "postscript": "Roboto-Regular"
+                },
+                "lineHeight": {
+                 "value": 18.0,
+                 "units": "PIXELS"
+                },
+                "letterSpacing": {
+                 "value": 0.0,
+                 "units": "PERCENT"
+                },
+                "alignH": null,
+                "alignV": "TOP",
+                "case": null,
+                "decoration": null,
+                "autoResize": "WIDTH_AND_HEIGHT"
+               }
+              }
+             ]
+            }
+           ]
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "name": "Frame 1000004965",
+       "type": "FRAME",
+       "x": 315.0,
+       "y": 8.0,
+       "w": 20.0,
+       "h": 150.0,
+       "strokeWeight": 1.0,
+       "strokeAlign": "INSIDE",
+       "stackMode": "HORIZONTAL",
+       "stackSpacing": 8.0,
+       "stackCounterAlignItems": "CENTER",
+       "frameMaskDisabled": true,
+       "children": [
+        {
+         "name": "chevron-right",
+         "type": "INSTANCE",
+         "x": 0.0,
+         "y": 65.0,
+         "w": 20.0,
+         "h": 20.0,
+         "strokeWeight": 1.0,
+         "strokeAlign": "INSIDE"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "🧰/Home Indicator (iPhone)",
+   "type": "INSTANCE",
+   "x": 0.0,
+   "y": 869.0,
+   "w": 375.0,
+   "h": 34.0,
+   "strokeWeight": 1.0,
+   "strokeAlign": "INSIDE",
+   "verticalConstraint": "MAX",
+   "frameMaskDisabled": true,
+   "fills": [
+    {
+     "type": "SOLID",
+     "color": "#FFFFFF"
+    }
+   ]
+  }
+ ]
+}

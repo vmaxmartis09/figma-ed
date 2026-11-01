@@ -1,0 +1,55 @@
+{
+ "name": "Session Details - Toast",
+ "type": "FRAME",
+ "x": 1189.0,
+ "y": 249.0,
+ "w": 375.0,
+ "h": 1051.0,
+ "strokeWeight": 1.0,
+ "strokeAlign": "INSIDE",
+ "children": [
+  {
+   "name": "Session detail",
+   "type": "INSTANCE",
+   "x": 0.0,
+   "y": 0.0,
+   "w": 375.0,
+   "h": 1029.0,
+   "strokeWeight": 1.0,
+   "strokeAlign": "INSIDE",
+   "stackPrimarySizing": "FIXED",
+   "fills": [
+    {
+     "type": "SOLID",
+     "color": "#F1F1F1"
+    }
+   ]
+  },
+  {
+   "name": "Toast message",
+   "type": "INSTANCE",
+   "x": 16.0,
+   "y": 882.0,
+   "w": 343.0,
+   "h": 142.0,
+   "cornerRadius": 4.0,
+   "rectangleTopLeftCornerRadius": 4.0,
+   "rectangleTopRightCornerRadius": 4.0,
+   "rectangleBottomLeftCornerRadius": 4.0,
+   "rectangleBottomRightCornerRadius": 4.0,
+   "strokeWeight": 1.0,
+   "strokeAlign": "INSIDE",
+   "stackMode": "VERTICAL",
+   "stackSpacing": 10.0,
+   "stackPaddingRight": 16.0,
+   "stackPaddingBottom": 16.0,
+   "verticalConstraint": "MAX",
+   "fills": [
+    {
+     "type": "SOLID",
+     "color": "#E9F8E8"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,1055 @@
+{
+ "name": "Audio call",
+ "type": "FRAME",
+ "x": 1755.0,
+ "y": 5746.0,
+ "w": 375.0,
+ "h": 815.0,
+ "strokeWeight": 4.0,
+ "strokeAlign": "INSIDE",
+ "stackMode": "VERTICAL",
+ "stackSpacing": 24.0,
+ "stackPrimarySizing": "FIXED",
+ "stackCounterSizing": "RESIZE_TO_FIT_WITH_IMPLICIT_SIZE",
+ "fills": [
+  {
+   "type": "SOLID",
+   "color": "#EEFBFC"
+  }
+ ],
+ "children": [
+  {
+   "name": "Container",
+   "type": "FRAME",
+   "x": 0.0,
+   "y": 0.0,
+   "w": 375.0,
+   "h": 815.0,
+   "strokeWeight": 1.0,
+   "strokeAlign": "INSIDE",
+   "stackMode": "VERTICAL",
+   "stackSpacing": 24.0,
+   "stackCounterAlignItems": "CENTER",
+   "stackPrimarySizing": "FIXED",
+   "stackChildPrimaryGrow": 1.0,
+   "frameMaskDisabled": true,
+   "children": [
+    {
+     "name": "Status Bar (iPhone)",
+     "type": "INSTANCE",
+     "x": 0.0,
+     "y": 0.0,
+     "w": 375.0,
+     "h": 53.0,
+     "strokeWeight": 1.0,
+     "strokeAlign": "INSIDE",
+     "stackMode": "HORIZONTAL",
+     "stackSpacing": 205.0,
+     "stackPaddingRight": 26.0,
+     "stackPaddingBottom": 14.0,
+     "stackPrimaryAlignItems": "SPACE_EVENLY",
+     "stackCounterAlignItems": "CENTER",
+     "stackPrimarySizing": "FIXED",
+     "stackCounterSizing": "RESIZE_TO_FIT_WITH_IMPLICIT_SIZE",
+     "frameMaskDisabled": true,
+     "fills": [
+      {
+       "type": "SOLID",
+       "color": "#EEFBFC"
+      }
+     ]
+    },
+    {
+     "name": "body",
+     "type": "FRAME",
+     "x": 0.0,
+     "y": 77.0,
+     "w": 375.0,
+     "h": 542.0,
+     "strokeWeight": 1.0,
+     "strokeAlign": "INSIDE",
+     "stackMode": "VERTICAL",
+     "stackSpacing": 24.0,
+     "stackCounterAlignItems": "CENTER",
+     "stackPrimarySizing": "FIXED",
+     "stackChildPrimaryGrow": 1.0,
+     "frameMaskDisabled": true,
+     "children": [
+      {
+       "name": "Profile Header",
+       "type": "FRAME",
+       "x": 0.0,
+       "y": 40.0,
+       "w": 375.0,
+       "h": 172.0,
+       "strokeWeight": 1.0,
+       "strokeAlign": "INSIDE",
+       "stackMode": "VERTICAL",
+       "stackSpacing": 4.0,
+       "stackCounterAlignItems": "CENTER",
+       "frameMaskDisabled": true,
+       "children": [
+        {
+         "name": "Top",
+         "type": "FRAME",
+         "x": 129.5,
+         "y": 0.0,
+         "w": 116.0,
+         "h": 146.0,
+         "strokeWeight": 1.0,
+         "strokeAlign": "INSIDE",
+         "stackMode": "VERTICAL",
+         "stackSpacing": 8.0,
+         "stackPrimaryAlignItems": "CENTER",
+         "stackCounterAlignItems": "CENTER",
+         "stackCounterSizing": "RESIZE_TO_FIT_WITH_IMPLICIT_SIZE",
+         "frameMaskDisabled": true,
+         "children": [
+          {
+           "name": "Icon",
+           "type": "FRAME",
+           "x": 2.0,
+           "y": 0.0,
+           "w": 112.0,
+           "h": 112.0,
+           "cornerRadius": 75.0,
+           "rectangleTopLeftCornerRadius": 75.0,
+           "rectangleTopRightCornerRadius": 75.0,
+           "rectangleBottomLeftCornerRadius": 75.0,
+           "rectangleBottomRightCornerRadius": 75.0,
+           "strokeWeight": 1.0,
+           "strokeAlign": "INSIDE",
+           "stackMode": "HORIZONTAL",
+           "stackSpacing": 10.0,
+           "stackPaddingRight": 8.0,
+           "stackPaddingBottom": 8.0,
+           "stackCounterAlignItems": "CENTER",
+           "stackCounterSizing": "RESIZE_TO_FIT_WITH_IMPLICIT_SIZE",
+           "frameMaskDisabled": true,
+           "children": [
+            {
+             "name": "Avatar",
+             "type": "FRAME",
+             "x": 8.0,
+             "y": 8.0,
+             "w": 96.0,
+             "h": 96.0,
+             "cornerRadius": 64.0,
+             "rectangleTopLeftCornerRadius": 64.0,
+             "rectangleTopRightCornerRadius": 64.0,
+             "rectangleBottomLeftCornerRadius": 64.0,
+             "rectangleBottomRightCornerRadius": 64.0,
+             "strokeWeight": 1.0,
+             "strokeAlign": "INSIDE",
+             "frameMaskDisabled": true,
+             "fills": [
+              {
+               "type": "IMAGE"
+              }
+             ],
+             "children": [
+              {
+               "name": "Contrast border",
+               "type": "FRAME",
+               "x": 0.0,
+               "y": 0.0,
+               "w": 96.0,
+               "h": 96.0,
+               "cornerRadius": 200.0,
+               "rectangleTopLeftCornerRadius": 9999.0,
+               "rectangleTopRightCornerRadius": 9999.0,
+               "rectangleBottomLeftCornerRadius": 9999.0,
+               "rectangleBottomRightCornerRadius": 9999.0,
+               "strokeWeight": 0.75,
+               "strokeAlign": "INSIDE",
+               "stackChildPrimaryGrow": 1.0,
+               "horizontalConstraint": "STRETCH",
+               "verticalConstraint": "CENTER",
+               "strokes": [
+                {
+                 "type": "SOLID",
+                 "color": "#000000",
+                 "opacity": 0.07999999821186066
+                }
+               ]
+              },
+              {
+               "name": "Ellipse 2285",
+               "type": "ELLIPSE",
+               "x": 72.0,
+               "y": 77.0,
+               "w": 16.0,
+               "h": 16.0,
+               "visible": false,
+               "strokeWeight": 1.0,
+               "strokeAlign": "INSIDE",
+               "horizontalConstraint": "MAX",
+               "verticalConstraint": "MAX",
+               "fills": [
+                {
+                 "type": "SOLID",
+                 "color": "#2D7927"
+                }
+               ],
+               "strokes": [
+                {
+                 "type": "SOLID",
+                 "color": "#E9F8E8"
+                }
+               ]
+              }
+             ]
+            }
+           ]
+          },
+          {
+           "name": "Text",
+           "type": "FRAME",
+           "x": 0.0,
+           "y": 120.0,
+           "w": 116.0,
+           "h": 26.0,
+           "strokeWeight": 1.0,
+           "strokeAlign": "INSIDE",
+           "stackMode": "HORIZONTAL",
+           "stackPrimaryAlignItems": "CENTER",
+           "stackCounterAlignItems": "CENTER",
+           "stackCounterSizing": "RESIZE_TO_FIT_WITH_IMPLICIT_SIZE",
+           "frameMaskDisabled": true,
+           "children": [
+            {
+             "name": "Username",
+             "type": "TEXT",
+             "x": 0.0,
+             "y": 0.0,
+             "w": 116.0,
+             "h": 26.0,
+             "strokeWeight": 1.0,
+             "strokeAlign": "OUTSIDE",
+             "fills": [
+              {
+               "type": "SOLID",
+               "color": "#212121"
+              }
+             ],
+             "text": {
+              "characters": "Kelly Nguyen",
+              "fontSize": 20.0,
+              "font": {
+               "family": "Roboto",
+               "style": "Bold",
+               "postscript": "Roboto-Bold"
+              },
+              "lineHeight": {
+               "value": 26.0,
+               "units": "PIXELS"
+              },
+              "letterSpacing": {
+               "value": -1.0,
+               "units": "PERCENT"
+              },
+              "alignH": null,
+              "alignV": "TOP",
+              "case": null,
+              "decoration": null,
+              "autoResize": "WIDTH_AND_HEIGHT"
+             }
+            }
+           ]
+          }
+         ]
+        },
+        {
+         "name": "Call Status",
+         "type": "FRAME",
+         "x": 0.0,
+         "y": 150.0,
+         "w": 375.0,
+         "h": 22.0,
+         "strokeWeight": 1.0,
+         "strokeAlign": "INSIDE",
+         "stackMode": "VERTICAL",
+         "stackSpacing": 16.0,
+         "stackCounterAlignItems": "CENTER",
+         "frameMaskDisabled": true,
+         "children": [
+          {
+           "name": "10",
+           "type": "TEXT",
+           "x": 0.0,
+           "y": 0.0,
+           "w": 375.0,
+           "h": 22.0,
+           "strokeAlign": "CENTER",
+           "fills": [
+            {
+             "type": "SOLID",
+             "color": "#121212"
+            }
+           ],
+           "text": {
+            "characters": "The person is unavailable",
+            "fontSize": 16.0,
+            "font": {
+             "family": "Roboto",
+             "style": "Regular",
+             "postscript": "Roboto-Regular"
+            },
+            "lineHeight": {
+             "value": 22.0,
+             "units": "PIXELS"
+            },
+            "letterSpacing": {
+             "value": 0.0,
+             "units": "PERCENT"
+            },
+            "alignH": "CENTER",
+            "alignV": "BOTTOM",
+            "case": null,
+            "decoration": null,
+            "autoResize": "HEIGHT"
+           }
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "name": "Frame 1000004919",
+     "type": "FRAME",
+     "x": 0.0,
+     "y": 643.0,
+     "w": 375.0,
+     "h": 172.0,
+     "strokeWeight": 1.0,
+     "strokeAlign": "INSIDE",
+     "stackMode": "VERTICAL",
+     "frameMaskDisabled": true,
+     "children": [
+      {
+       "name": "Call/video",
+       "type": "FRAME",
+       "x": 0.0,
+       "y": 0.0,
+       "w": 375.0,
+       "h": 138.0,
+       "rectangleTopLeftCornerRadius": 12.0,
+       "rectangleTopRightCornerRadius": 12.0,
+       "strokeWeight": 1.0,
+       "strokeAlign": "INSIDE",
+       "stackMode": "HORIZONTAL",
+       "stackSpacing": 36.0,
+       "stackPaddingBottom": 32.0,
+       "stackPrimaryAlignItems": "CENTER",
+       "stackCounterAlignItems": "CENTER",
+       "stackPrimarySizing": "FIXED",
+       "stackCounterSizing": "RESIZE_TO_FIT_WITH_IMPLICIT_SIZE",
+       "frameMaskDisabled": true,
+       "fills": [
+        {
+         "type": "SOLID",
+         "color": "#EEFBFC"
+        }
+       ],
+       "children": [
+        {
+         "name": "Icon Buttons / Actionable",
+         "type": "INSTANCE",
+         "x": 12.0,
+         "y": 12.0,
+         "w": 48.0,
+         "h": 70.0,
+         "visible": false,
+         "strokeWeight": 1.0,
+         "strokeAlign": "INSIDE",
+         "stackMode": "VERTICAL",
+         "stackSpacing": 4.0,
+         "stackCounterAlignItems": "CENTER",
+         "stackCounterSizing": "RESIZE_TO_FIT_WITH_IMPLICIT_SIZE",
+         "frameMaskDisabled": true
+        },
+        {
+         "name": "Icon Buttons / Actionable",
+         "type": "FRAME",
+         "x": 55.5,
+         "y": 12.0,
+         "w": 64.0,
+         "h": 94.0,
+         "strokeWeight": 1.0,
+         "strokeAlign": "INSIDE",
+         "stackMode": "VERTICAL",
+         "stackSpacing": 8.0,
+         "stackCounterAlignItems": "CENTER",
+         "stackCounterSizing": "RESIZE_TO_FIT_WITH_IMPLICIT_SIZE",
+         "frameMaskDisabled": true,
+         "children": [
+          {
+           "name": "Frame 40198",
+           "type": "FRAME",
+           "x": 0.0,
+           "y": 0.0,
+           "w": 64.0,
+           "h": 64.0,
+           "cornerRadius": 100.0,
+           "rectangleTopLeftCornerRadius": 100.0,
+           "rectangleTopRightCornerRadius": 100.0,
+           "rectangleBottomLeftCornerRadius": 100.0,
+           "rectangleBottomRightCornerRadius": 100.0,
+           "strokeWeight": 1.0,
+           "strokeAlign": "INSIDE",
+           "stackMode": "HORIZONTAL",
+           "stackPaddingRight": 12.0,
+           "stackPaddingBottom": 12.0,
+           "stackPrimaryAlignItems": "CENTER",
+           "stackCounterAlignItems": "CENTER",
+           "stackPrimarySizing": "FIXED",
+           "frameMaskDisabled": true,
+           "fills": [
+            {
+             "type": "SOLID",
+             "color": "#FFFFFF"
+            }
+           ],
+           "strokes": [
+            {
+             "type": "SOLID",
+             "color": "#E0E0E0"
+            }
+           ],
+           "children": [
+            {
+             "name": "mic on",
+             "type": "INSTANCE",
+             "x": 20.0,
+             "y": 20.0,
+             "w": 24.0,
+             "h": 24.0,
+             "strokeWeight": 1.0,
+             "strokeAlign": "INSIDE"
+            }
+           ]
+          },
+          {
+           "name": "Label",
+           "type": "FRAME",
+           "x": 13.5,
+           "y": 72.0,
+           "w": 37.0,
+           "h": 22.0,
+           "strokeWeight": 1.0,
+           "strokeAlign": "INSIDE",
+           "stackMode": "HORIZONTAL",
+           "stackSpacing": 8.0,
+           "stackPrimaryAlignItems": "CENTER",
+           "stackCounterAlignItems": "CENTER",
+           "stackCounterSizing": "RESIZE_TO_FIT_WITH_IMPLICIT_SIZE",
+           "frameMaskDisabled": true,
+           "children": [
+            {
+             "name": "11",
+             "type": "TEXT",
+             "x": 0.0,
+             "y": 0.0,
+             "w": 37.0,
+             "h": 22.0,
+             "strokeAlign": "CENTER",
+             "fills": [
+              {
+               "type": "SOLID",
+               "color": "#121212"
+              }
+             ],
+             "text": {
+              "characters": "Mute",
+              "fontSize": 16.0,
+              "font": {
+               "family": "Roboto",
+               "style": "Regular",
+               "postscript": "Roboto-Regular"
+              },
+              "lineHeight": {
+               "value": 22.0,
+               "units": "PIXELS"
+              },
+              "letterSpacing": {
+               "value": 0.0,
+               "units": "PERCENT"
+              },
+              "alignH": "CENTER",
+              "alignV": "BOTTOM",
+              "case": null,
+              "decoration": null,
+              "autoResize": "WIDTH_AND_HEIGHT"
+             }
+            }
+           ]
+          }
+         ]
+        },
+        {
+         "name": "Icon Buttons / Actionable",
+         "type": "FRAME",
+         "x": 155.5,
+         "y": 12.0,
+         "w": 64.0,
+         "h": 94.0,
+         "strokeWeight": 1.0,
+         "strokeAlign": "INSIDE",
+         "stackMode": "VERTICAL",
+         "stackSpacing": 8.0,
+         "stackCounterAlignItems": "CENTER",
+         "stackCounterSizing": "RESIZE_TO_FIT_WITH_IMPLICIT_SIZE",
+         "frameMaskDisabled": true,
+         "children": [
+          {
+           "name": "Frame 40198",
+           "type": "FRAME",
+           "x": 0.0,
+           "y": 0.0,
+           "w": 64.0,
+           "h": 64.0,
+           "cornerRadius": 100.0,
+           "rectangleTopLeftCornerRadius": 100.0,
+           "rectangleTopRightCornerRadius": 100.0,
+           "rectangleBottomLeftCornerRadius": 100.0,
+           "rectangleBottomRightCornerRadius": 100.0,
+           "strokeWeight": 1.0,
+           "strokeAlign": "INSIDE",
+           "stackMode": "HORIZONTAL",
+           "stackPaddingRight": 12.0,
+           "stackPaddingBottom": 12.0,
+           "stackPrimaryAlignItems": "CENTER",
+           "stackCounterAlignItems": "CENTER",
+           "stackPrimarySizing": "FIXED",
+           "frameMaskDisabled": true,
+           "fills": [
+            {
+             "type": "SOLID",
+             "color": "#FFFFFF"
+            }
+           ],
+           "strokes": [
+            {
+             "type": "SOLID",
+             "color": "#E0E0E0"
+            }
+           ],
+           "children": [
+            {
+             "name": "off",
+             "type": "INSTANCE",
+             "x": 20.0,
+             "y": 20.0,
+             "w": 24.0,
+             "h": 24.0,
+             "strokeWeight": 1.0,
+             "strokeAlign": "INSIDE"
+            }
+           ]
+          },
+          {
+           "name": "Label",
+           "type": "FRAME",
+           "x": 11.5,
+           "y": 72.0,
+           "w": 41.0,
+           "h": 22.0,
+           "strokeWeight": 1.0,
+           "strokeAlign": "INSIDE",
+           "stackMode": "HORIZONTAL",
+           "stackSpacing": 8.0,
+           "stackPrimaryAlignItems": "CENTER",
+           "stackCounterAlignItems": "CENTER",
+           "stackCounterSizing": "RESIZE_TO_FIT_WITH_IMPLICIT_SIZE",
+           "frameMaskDisabled": true,
+           "children": [
+            {
+             "name": "11",
+             "type": "TEXT",
+             "x": 0.0,
+             "y": 0.0,
+             "w": 41.0,
+             "h": 22.0,
+             "strokeAlign": "CENTER",
+             "fills": [
+              {
+               "type": "SOLID",
+               "color": "#121212"
+              }
+             ],
+             "text": {
+              "characters": "Video",
+              "fontSize": 16.0,
+              "font": {
+               "family": "Roboto",
+               "style": "Regular",
+               "postscript": "Roboto-Regular"
+              },
+              "lineHeight": {
+               "value": 22.0,
+               "units": "PIXELS"
+              },
+              "letterSpacing": {
+               "value": 0.0,
+               "units": "PERCENT"
+              },
+              "alignH": "CENTER",
+              "alignV": "BOTTOM",
+              "case": null,
+              "decoration": null,
+              "autoResize": "WIDTH_AND_HEIGHT"
+             }
+            }
+           ]
+          }
+         ]
+        },
+        {
+         "name": "Icon Buttons / Actionable",
+         "type": "FRAME",
+         "x": 156.0,
+         "y": 12.0,
+         "w": 48.0,
+         "h": 70.0,
+         "visible": false,
+         "strokeWeight": 1.0,
+         "strokeAlign": "INSIDE",
+         "stackMode": "VERTICAL",
+         "stackSpacing": 4.0,
+         "stackCounterAlignItems": "CENTER",
+         "stackCounterSizing": "RESIZE_TO_FIT_WITH_IMPLICIT_SIZE",
+         "frameMaskDisabled": true,
+         "children": [
+          {
+           "name": "Icon Buttons / Special",
+           "type": "FRAME",
+           "x": 0.0,
+           "y": 0.0,
+           "w": 48.0,
+           "h": 48.0,
+           "strokeWeight": 1.0,
+           "strokeAlign": "INSIDE",
+           "stackMode": "VERTICAL",
+           "stackSpacing": 8.0,
+           "stackCounterAlignItems": "CENTER",
+           "stackCounterSizing": "RESIZE_TO_FIT_WITH_IMPLICIT_SIZE",
+           "frameMaskDisabled": true,
+           "children": [
+            {
+             "name": "Frame 1000004195",
+             "type": "FRAME",
+             "x": 0.0,
+             "y": 0.0,
+             "w": 48.0,
+             "h": 48.0,
+             "cornerRadius": 64.0,
+             "rectangleTopLeftCornerRadius": 64.0,
+             "rectangleTopRightCornerRadius": 64.0,
+             "rectangleBottomLeftCornerRadius": 64.0,
+             "rectangleBottomRightCornerRadius": 64.0,
+             "strokeWeight": 1.0,
+             "strokeAlign": "INSIDE",
+             "stackMode": "HORIZONTAL",
+             "stackSpacing": 10.0,
+             "stackPaddingRight": 12.0,
+             "stackPaddingBottom": 12.0,
+             "stackCounterSizing": "RESIZE_TO_FIT_WITH_IMPLICIT_SIZE",
+             "frameMaskDisabled": true,
+             "fills": [
+              {
+               "type": "SOLID",
+               "color": "#F30000"
+              }
+             ],
+             "effects": [
+              {
+               "type": "DROP_SHADOW",
+               "color": "#F300002E",
+               "x": 0.0,
+               "y": 8.0,
+               "radius": 16.0
+              }
+             ],
+             "children": [
+              {
+               "name": "ic-end-call",
+               "type": "FRAME",
+               "x": 12.0,
+               "y": 12.0,
+               "w": 24.0,
+               "h": 24.0,
+               "strokeWeight": 1.0,
+               "strokeAlign": "INSIDE",
+               "children": [
+                {
+                 "name": "Vector",
+                 "type": "VECTOR",
+                 "x": 1.0,
+                 "y": 7.0,
+                 "w": 22.0,
+                 "h": 10.0,
+                 "strokeAlign": "CENTER",
+                 "horizontalConstraint": "SCALE",
+                 "verticalConstraint": "SCALE",
+                 "fills": [
+                  {
+                   "type": "SOLID",
+                   "color": "#FFFFFF"
+                  }
+                 ]
+                }
+               ]
+              }
+             ]
+            },
+            {
+             "name": "Label",
+             "type": "FRAME",
+             "x": 11.5,
+             "y": 56.0,
+             "w": 41.0,
+             "h": 20.0,
+             "visible": false,
+             "strokeWeight": 1.0,
+             "strokeAlign": "INSIDE",
+             "stackMode": "HORIZONTAL",
+             "stackSpacing": 8.0,
+             "stackPrimaryAlignItems": "CENTER",
+             "stackCounterAlignItems": "CENTER",
+             "stackCounterSizing": "RESIZE_TO_FIT_WITH_IMPLICIT_SIZE",
+             "frameMaskDisabled": true,
+             "children": [
+              {
+               "name": "9",
+               "type": "TEXT",
+               "x": 0.0,
+               "y": 0.0,
+               "w": 41.0,
+               "h": 20.0,
+               "strokeAlign": "CENTER",
+               "fills": [
+                {
+                 "type": "SOLID",
+                 "color": "#6A6A6A"
+                }
+               ],
+               "text": {
+                "characters": "Reject",
+                "fontSize": 14.0,
+                "font": {
+                 "family": "Noto Sans KR",
+                 "style": "Regular",
+                 "postscript": ""
+                },
+                "lineHeight": {
+                 "value": 20.0,
+                 "units": "PIXELS"
+                },
+                "letterSpacing": {
+                 "value": 0.0,
+                 "units": "PERCENT"
+                },
+                "alignH": "CENTER",
+                "alignV": "BOTTOM",
+                "case": null,
+                "decoration": null,
+                "autoResize": "WIDTH_AND_HEIGHT"
+               }
+              }
+             ]
+            }
+           ]
+          },
+          {
+           "name": "Label",
+           "type": "FRAME",
+           "x": 1.5,
+           "y": 52.0,
+           "w": 45.0,
+           "h": 18.0,
+           "strokeWeight": 1.0,
+           "strokeAlign": "INSIDE",
+           "stackMode": "HORIZONTAL",
+           "stackSpacing": 8.0,
+           "stackPrimaryAlignItems": "CENTER",
+           "stackCounterAlignItems": "CENTER",
+           "stackCounterSizing": "RESIZE_TO_FIT_WITH_IMPLICIT_SIZE",
+           "frameMaskDisabled": true,
+           "children": [
+            {
+             "name": "11",
+             "type": "TEXT",
+             "x": 0.0,
+             "y": 0.0,
+             "w": 45.0,
+             "h": 18.0,
+             "strokeAlign": "CENTER",
+             "fills": [
+              {
+               "type": "SOLID",
+               "color": "#6A6A6A"
+              }
+             ],
+             "text": {
+              "characters": "End call",
+              "fontSize": 12.0,
+              "font": {
+               "family": "Noto Sans KR",
+               "style": "Regular",
+               "postscript": ""
+              },
+              "lineHeight": {
+               "value": 18.0,
+               "units": "PIXELS"
+              },
+              "letterSpacing": {
+               "value": 0.0,
+               "units": "PERCENT"
+              },
+              "alignH": "CENTER",
+              "alignV": "BOTTOM",
+              "case": null,
+              "decoration": null,
+              "autoResize": "WIDTH_AND_HEIGHT"
+             }
+            }
+           ]
+          }
+         ]
+        },
+        {
+         "name": "Icon Buttons / Special",
+         "type": "FRAME",
+         "x": 255.5,
+         "y": 12.0,
+         "w": 64.0,
+         "h": 94.0,
+         "strokeWeight": 1.0,
+         "strokeAlign": "INSIDE",
+         "stackMode": "VERTICAL",
+         "stackSpacing": 8.0,
+         "stackCounterAlignItems": "CENTER",
+         "stackCounterSizing": "RESIZE_TO_FIT_WITH_IMPLICIT_SIZE",
+         "frameMaskDisabled": true,
+         "children": [
+          {
+           "name": "Icon Buttons / Special",
+           "type": "FRAME",
+           "x": 0.0,
+           "y": 0.0,
+           "w": 64.0,
+           "h": 64.0,
+           "strokeWeight": 1.0,
+           "strokeAlign": "INSIDE",
+           "stackMode": "VERTICAL",
+           "stackSpacing": 8.0,
+           "stackPrimaryAlignItems": "CENTER",
+           "stackCounterAlignItems": "CENTER",
+           "stackPrimarySizing": "FIXED",
+           "frameMaskDisabled": true,
+           "children": [
+            {
+             "name": "Frame 1000004195",
+             "type": "FRAME",
+             "x": 0.0,
+             "y": 0.0,
+             "w": 64.0,
+             "h": 64.0,
+             "cornerRadius": 64.0,
+             "rectangleTopLeftCornerRadius": 64.0,
+             "rectangleTopRightCornerRadius": 64.0,
+             "rectangleBottomLeftCornerRadius": 64.0,
+             "rectangleBottomRightCornerRadius": 64.0,
+             "strokeWeight": 1.0,
+             "strokeAlign": "INSIDE",
+             "stackMode": "HORIZONTAL",
+             "stackSpacing": 10.0,
+             "stackPaddingRight": 12.0,
+             "stackPaddingBottom": 12.0,
+             "stackPrimaryAlignItems": "CENTER",
+             "stackCounterAlignItems": "CENTER",
+             "stackPrimarySizing": "FIXED",
+             "frameMaskDisabled": true,
+             "fills": [
+              {
+               "type": "SOLID",
+               "color": "#E81818"
+              }
+             ],
+             "effects": [
+              {
+               "type": "DROP_SHADOW",
+               "color": "#F300002E",
+               "x": 0.0,
+               "y": 8.0,
+               "radius": 16.0
+              }
+             ],
+             "children": [
+              {
+               "name": "ic-end-call",
+               "type": "FRAME",
+               "x": 16.0,
+               "y": 16.0,
+               "w": 32.0,
+               "h": 32.0,
+               "strokeWeight": 1.0,
+               "strokeAlign": "INSIDE",
+               "children": [
+                {
+                 "name": "Vector",
+                 "type": "VECTOR",
+                 "x": 1.33,
+                 "y": 9.33,
+                 "w": 29.33333396911621,
+                 "h": 13.333333015441895,
+                 "strokeAlign": "CENTER",
+                 "horizontalConstraint": "SCALE",
+                 "verticalConstraint": "SCALE",
+                 "fills": [
+                  {
+                   "type": "SOLID",
+                   "color": "#EEFBFC"
+                  }
+                 ]
+                }
+               ]
+              }
+             ]
+            },
+            {
+             "name": "Label",
+             "type": "FRAME",
+             "x": 11.5,
+             "y": 56.0,
+             "w": 41.0,
+             "h": 20.0,
+             "visible": false,
+             "strokeWeight": 1.0,
+             "strokeAlign": "INSIDE",
+             "stackMode": "HORIZONTAL",
+             "stackSpacing": 8.0,
+             "stackPrimaryAlignItems": "CENTER",
+             "stackCounterAlignItems": "CENTER",
+             "stackCounterSizing": "RESIZE_TO_FIT_WITH_IMPLICIT_SIZE",
+             "frameMaskDisabled": true,
+             "children": [
+              {
+               "name": "9",
+               "type": "TEXT",
+               "x": 0.0,
+               "y": 0.0,
+               "w": 41.0,
+               "h": 20.0,
+               "strokeAlign": "CENTER",
+               "fills": [
+                {
+                 "type": "SOLID",
+                 "color": "#6A6A6A"
+                }
+               ],
+               "text": {
+                "characters": "Reject",
+                "fontSize": 14.0,
+                "font": {
+                 "family": "Noto Sans KR",
+                 "style": "Regular",
+                 "postscript": ""
+                },
+                "lineHeight": {
+                 "value": 20.0,
+                 "units": "PIXELS"
+                },
+                "letterSpacing": {
+                 "value": 0.0,
+                 "units": "PERCENT"
+                },
+                "alignH": "CENTER",
+                "alignV": "BOTTOM",
+                "case": null,
+                "decoration": null,
+                "autoResize": "WIDTH_AND_HEIGHT"
+               }
+              }
+             ]
+            }
+           ]
+          },
+          {
+           "name": "Label",
+           "type": "FRAME",
+           "x": 18.5,
+           "y": 72.0,
+           "w": 27.0,
+           "h": 22.0,
+           "strokeWeight": 1.0,
+           "strokeAlign": "INSIDE",
+           "stackMode": "HORIZONTAL",
+           "stackSpacing": 8.0,
+           "stackPrimaryAlignItems": "CENTER",
+           "stackCounterAlignItems": "CENTER",
+           "stackCounterSizing": "RESIZE_TO_FIT_WITH_IMPLICIT_SIZE",
+           "frameMaskDisabled": true,
+           "children": [
+            {
+             "name": "9",
+             "type": "TEXT",
+             "x": 0.0,
+             "y": 0.0,
+             "w": 27.0,
+             "h": 22.0,
+             "strokeAlign": "CENTER",
+             "fills": [
+              {
+               "type": "SOLID",
+               "color": "#121212"
+              }
+             ],
+             "text": {
+              "characters": "End",
+              "fontSize": 16.0,
+              "font": {
+               "family": "Roboto",
+               "style": "Regular",
+               "postscript": "Roboto-Regular"
+              },
+              "lineHeight": {
+               "value": 22.0,
+               "units": "PIXELS"
+              },
+              "letterSpacing": {
+               "value": 0.0,
+               "units": "PERCENT"
+              },
+              "alignH": "CENTER",
+              "alignV": "BOTTOM",
+              "case": null,
+              "decoration": null,
+              "autoResize": "WIDTH_AND_HEIGHT"
+             }
+            }
+           ]
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "name": "🧰/Home Indicator (iPhone)",
+       "type": "INSTANCE",
+       "x": 0.0,
+       "y": 138.0,
+       "w": 375.0,
+       "h": 34.0,
+       "strokeWeight": 1.0,
+       "strokeAlign": "INSIDE",
+       "frameMaskDisabled": true
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

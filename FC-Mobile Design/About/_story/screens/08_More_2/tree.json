@@ -1,0 +1,74 @@
+{
+ "name": "More",
+ "type": "FRAME",
+ "x": 1126.0,
+ "y": 327.0,
+ "w": 375.0,
+ "h": 887.0,
+ "strokeWeight": 4.0,
+ "strokeAlign": "INSIDE",
+ "stackSpacing": 8.0,
+ "stackCounterAlignItems": "CENTER",
+ "stackPrimarySizing": "FIXED",
+ "fills": [
+  {
+   "type": "SOLID",
+   "color": "#FFFFFF"
+  }
+ ],
+ "children": [
+  {
+   "name": "Top Navigation",
+   "type": "INSTANCE",
+   "x": 0.0,
+   "y": 0.0,
+   "w": 375.0,
+   "h": 127.0,
+   "strokeWeight": 1.0,
+   "strokeAlign": "INSIDE",
+   "stackMode": "VERTICAL",
+   "frameMaskDisabled": true
+  },
+  {
+   "name": "Normal Nav Bar",
+   "type": "INSTANCE",
+   "x": 0.0,
+   "y": 823.0,
+   "w": 375.0,
+   "h": 64.0,
+   "strokeWeight": 1.0,
+   "strokeAlign": "INSIDE",
+   "stackMode": "HORIZONTAL",
+   "stackPaddingRight": 8.0,
+   "stackCounterAlignItems": "CENTER",
+   "stackPrimarySizing": "FIXED",
+   "verticalConstraint": "MAX",
+   "frameMaskDisabled": true,
+   "fills": [
+    {
+     "type": "SOLID",
+     "color": "#FFFFFF"
+    }
+   ],
+   "strokes": [
+    {
+     "type": "SOLID",
+     "color": "#ECECEC"
+    }
+   ]
+  },
+  {
+   "name": "Check list",
+   "type": "INSTANCE",
+   "x": 16.0,
+   "y": 151.0,
+   "w": 343.0,
+   "h": 648.000244140625,
+   "strokeWeight": 1.0,
+   "strokeAlign": "INSIDE",
+   "stackMode": "VERTICAL",
+   "stackSpacing": 16.0,
+   "frameMaskDisabled": true
+  }
+ ]
+}
