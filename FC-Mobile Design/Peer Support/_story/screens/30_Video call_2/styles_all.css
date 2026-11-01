@@ -1,0 +1,1326 @@
+/* Video call */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 24px;
+
+position: relative;
+width: 375px;
+height: 815px;
+left: 1496px;
+top: 8120px;
+
+background: #FFFFFF;
+
+
+
+/* Container */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 0px;
+gap: 24px;
+
+width: 375px;
+height: 815px;
+
+background: url();
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 1;
+
+
+
+/* Status Bar (iPhone) */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: center;
+padding: 18px 26px 14px 27px;
+gap: 205px;
+isolation: isolate;
+
+width: 375px;
+height: 53px;
+
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+
+/* 🧰/Time (iPhone) */
+margin: 0 auto;
+width: 54px;
+height: 21px;
+
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+z-index: 0;
+
+
+
+/* Time */
+position: absolute;
+width: 54px;
+height: 22px;
+left: 0px;
+top: calc(50% - 22px/2 + 0.5px);
+
+
+/* Default/Body/Bold */
+font-family: 'SF Pro Text';
+font-style: normal;
+font-weight: 600;
+font-size: 17px;
+line-height: 22px;
+
+/* identical to box height, or 129% */
+text-align: center;
+letter-spacing: -0.408px;
+font-feature-settings: 'case' on;
+
+color: #FFFFFF;
+
+
+
+
+/* 🧰/Cellular,Wifi,Battery (iPhone) */
+margin: 0 auto;
+width: 78.26px;
+height: 13px;
+
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+z-index: 1;
+
+
+
+/* Battery */
+position: absolute;
+left: 65.08%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+
+
+
+/* Border */
+box-sizing: border-box;
+
+position: absolute;
+left: 65.08%;
+right: 2.97%;
+top: 0%;
+bottom: 0%;
+
+mix-blend-mode: normal;
+opacity: 0.35;
+border: 1px solid #FFFFFF;
+border-radius: 3.5px;
+
+
+
+/* Cap */
+position: absolute;
+left: 98.3%;
+right: 0%;
+top: 35.9%;
+bottom: 33.33%;
+
+background: #FFFFFF;
+mix-blend-mode: normal;
+opacity: 0.4;
+
+
+
+/* Capacity */
+position: absolute;
+left: 67.64%;
+right: 5.53%;
+top: 15.38%;
+bottom: 15.38%;
+
+background: #FFFFFF;
+border-radius: 1.33333px;
+
+
+
+/* Wifi */
+position: absolute;
+left: 33.99%;
+right: 44.29%;
+top: 5.13%;
+bottom: 2.56%;
+
+background: #FFFFFF;
+
+
+
+/* Wifi-path */
+position: absolute;
+left: 33.99%;
+right: 44.29%;
+top: 5.13%;
+bottom: 56.41%;
+
+background: #000000;
+
+
+
+/* Wifi-path */
+position: absolute;
+left: 37.82%;
+right: 48.12%;
+top: 35.9%;
+bottom: 33.33%;
+
+background: #000000;
+
+
+
+/* Wifi-path */
+position: absolute;
+left: 41.65%;
+right: 51.96%;
+top: 66.67%;
+bottom: 2.56%;
+
+background: #000000;
+
+
+
+/* Cellular Connection */
+position: absolute;
+left: 0%;
+right: 75.47%;
+top: 5.13%;
+bottom: 2.56%;
+
+background: #FFFFFF;
+
+
+
+/* Cellular-Connection-path */
+position: absolute;
+left: 0%;
+right: 95.91%;
+top: 62.05%;
+bottom: 2.56%;
+
+background: #000000;
+
+
+
+/* Cellular-Connection-path */
+position: absolute;
+left: 6.77%;
+right: 89.14%;
+top: 43.59%;
+bottom: 2.56%;
+
+background: #000000;
+
+
+
+/* Cellular-Connection-path */
+position: absolute;
+left: 13.67%;
+right: 82.24%;
+top: 23.59%;
+bottom: 2.56%;
+
+background: #000000;
+
+
+
+/* Cellular-Connection-path */
+position: absolute;
+left: 20.44%;
+right: 75.47%;
+top: 5.13%;
+bottom: 2.56%;
+
+background: #000000;
+
+
+
+/* Floating island */
+position: absolute;
+display: none;
+width: 127px;
+height: 37px;
+left: calc(50% - 127px/2 + 1px);
+top: calc(50% - 37px/2 + 3px);
+
+background: #000000;
+border-radius: 18.5px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 0;
+z-index: 2;
+
+
+
+/* body */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 0px;
+gap: 24px;
+
+width: 375px;
+height: 542px;
+
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 1;
+
+
+
+/* Profile Header */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 0px;
+gap: 12px;
+
+width: 375px;
+height: 160px;
+
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+
+/* Profile Header */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-end;
+padding: 0px 24px 0px 0px;
+gap: 12px;
+
+width: 375px;
+height: 160px;
+
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+
+/* Rectangle 142393 */
+width: 120px;
+height: 160px;
+
+background: url();
+border-radius: 16px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+
+/* Call Status */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 0px;
+gap: 16px;
+
+display: none;
+width: 375px;
+height: 20px;
+
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+
+
+/* 10 */
+width: 375px;
+height: 20px;
+
+
+/* Button small */
+font-family: 'Noto Sans KR';
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 20px;
+
+/* identical to box height, or 143% */
+display: flex;
+align-items: flex-end;
+text-align: center;
+
+color: #6A6A6A;
+
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+
+/* Call Status */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 0px;
+gap: 16px;
+
+display: none;
+width: 375px;
+height: 20px;
+
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+
+
+/* 10 */
+width: 375px;
+height: 20px;
+
+
+/* Button small */
+font-family: 'Noto Sans KR';
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 20px;
+
+/* identical to box height, or 143% */
+display: flex;
+align-items: flex-end;
+text-align: center;
+
+color: #6A6A6A;
+
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+
+/* Frame 1000004920 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+
+width: 375px;
+height: 172px;
+
+
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 0;
+
+
+
+/* Call/video */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 24px;
+gap: 24px;
+
+width: 375px;
+height: 138px;
+
+background: rgba(16, 16, 16, 0.7);
+backdrop-filter: blur(2px);
+
+/* Note: backdrop-filter has minimal browser support */
+border-radius: 12px 12px 0px 0px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+
+/* Icon Buttons / Actionable */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 0px;
+gap: 4px;
+
+display: none;
+width: 48px;
+height: 70px;
+
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+
+/* Icon Buttons / Actionable */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 0px;
+gap: 4px;
+
+width: 64px;
+height: 90px;
+
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+
+/* Frame 40198 */
+box-sizing: border-box;
+
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 12px;
+
+width: 64px;
+height: 64px;
+
+background: #F1F1F1;
+border-radius: 100px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+
+/* mic on */
+width: 30px;
+height: 30px;
+
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+
+/* Vector */
+position: absolute;
+left: 17.71%;
+right: 17.71%;
+top: 1.04%;
+bottom: 1.04%;
+
+background: #6A6A6A;
+
+
+
+/* Label */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 0px;
+gap: 8px;
+
+width: 37px;
+height: 22px;
+
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+
+/* 11 */
+width: 37px;
+height: 22px;
+
+
+/* Body L/Regular */
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 22px;
+
+/* identical to box height, or 138% */
+display: flex;
+align-items: flex-end;
+text-align: center;
+
+color: #FFFFFF;
+
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+
+/* Icon Buttons / Actionable */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 0px;
+gap: 4px;
+
+width: 64px;
+height: 90px;
+
+
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 0;
+
+
+
+/* Frame 40198 */
+box-sizing: border-box;
+
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 12px;
+
+width: 64px;
+height: 64px;
+
+background: #F1F1F1;
+border-radius: 100px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+
+/* on */
+width: 30px;
+height: 30px;
+
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+
+/* Vector */
+position: absolute;
+left: 1.04%;
+right: 1.04%;
+top: 17.71%;
+bottom: 17.71%;
+
+background: #6A6A6A;
+
+
+
+/* Label */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 0px;
+gap: 8px;
+
+width: 41px;
+height: 22px;
+
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+
+/* 11 */
+width: 41px;
+height: 22px;
+
+
+/* Body L/Regular */
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 22px;
+
+/* identical to box height, or 138% */
+display: flex;
+align-items: flex-end;
+text-align: center;
+
+color: #FFFFFF;
+
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+
+/* Icon Buttons / Actionable */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 0px;
+gap: 4px;
+
+width: 64px;
+height: 90px;
+
+
+
+/* Inside auto layout */
+flex: none;
+order: 3;
+flex-grow: 0;
+
+
+
+/* Frame 40198 */
+box-sizing: border-box;
+
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 12px;
+
+width: 64px;
+height: 64px;
+
+background: #F1F1F1;
+border-radius: 100px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+
+/* flip 1 */
+width: 32px;
+height: 32px;
+
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+
+/* Vector */
+position: absolute;
+width: 30.55px;
+left: calc(50% - 30.55px/2 - 0px);
+top: 8.33%;
+bottom: 4.17%;
+
+background: #6A6A6A;
+border: 0.4px solid #6A6A6A;
+
+
+
+/* Label */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 0px;
+gap: 8px;
+
+width: 57px;
+height: 22px;
+
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+
+/* 11 */
+width: 57px;
+height: 22px;
+
+
+/* Body L/Regular */
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 22px;
+
+/* identical to box height, or 138% */
+display: flex;
+align-items: flex-end;
+text-align: center;
+
+color: #FFFFFF;
+
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+
+/* Icon Buttons / Actionable */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 0px;
+gap: 4px;
+
+display: none;
+width: 48px;
+height: 70px;
+
+
+
+/* Inside auto layout */
+flex: none;
+order: 4;
+flex-grow: 0;
+
+
+
+/* Icon Buttons / Special */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 0px;
+gap: 8px;
+
+width: 48px;
+height: 48px;
+
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+
+/* Frame 1000004195 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 12px;
+gap: 10px;
+
+width: 48px;
+height: 48px;
+
+background: #F30000;
+/* button (red)
+
+shadow for button
+*/
+box-shadow: 0px 8px 16px rgba(243, 0, 0, 0.18);
+border-radius: 64px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+
+/* ic-end-call */
+width: 24px;
+height: 24px;
+
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+
+/* Vector */
+position: absolute;
+left: 4.17%;
+right: 4.17%;
+top: 29.17%;
+bottom: 29.17%;
+
+background: #FFFFFF;
+
+
+
+/* Label */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 0px;
+gap: 8px;
+
+display: none;
+width: 41px;
+height: 20px;
+
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+
+/* 9 */
+width: 41px;
+height: 20px;
+
+
+/* Body small */
+font-family: 'Noto Sans KR';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 20px;
+
+/* identical to box height, or 143% */
+display: flex;
+align-items: flex-end;
+text-align: center;
+
+color: #6A6A6A;
+
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+
+/* Label */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 0px;
+gap: 8px;
+
+width: 45px;
+height: 18px;
+
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+
+/* 11 */
+width: 45px;
+height: 18px;
+
+
+/* Description */
+font-family: 'Noto Sans KR';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 18px;
+
+/* identical to box height, or 150% */
+display: flex;
+align-items: flex-end;
+text-align: center;
+
+color: #6A6A6A;
+
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+
+/* Icon Buttons / Special */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 0px;
+gap: 4px;
+
+width: 64px;
+height: 90px;
+
+
+
+/* Inside auto layout */
+flex: none;
+order: 5;
+flex-grow: 0;
+
+
+
+/* Icon Buttons / Special */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 0px;
+gap: 8px;
+
+width: 64px;
+height: 64px;
+
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+
+/* Frame 1000004195 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 12px;
+gap: 10px;
+
+width: 64px;
+height: 64px;
+
+background: #E81818;
+/* button (red)
+
+shadow for button
+*/
+box-shadow: 0px 8px 16px rgba(243, 0, 0, 0.18);
+border-radius: 64px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+
+/* ic-end-call */
+width: 32px;
+height: 32px;
+
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+
+/* Vector */
+position: absolute;
+left: 4.17%;
+right: 4.16%;
+top: 29.17%;
+bottom: 29.17%;
+
+background: #FFFFFF;
+
+
+
+/* Label */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 0px;
+gap: 8px;
+
+display: none;
+width: 41px;
+height: 20px;
+
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+
+/* 9 */
+width: 41px;
+height: 20px;
+
+
+/* Body small */
+font-family: 'Noto Sans KR';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 20px;
+
+/* identical to box height, or 143% */
+display: flex;
+align-items: flex-end;
+text-align: center;
+
+color: #6A6A6A;
+
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+
+/* Label */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 0px;
+gap: 8px;
+
+width: 27px;
+height: 22px;
+
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+
+/* 9 */
+width: 27px;
+height: 22px;
+
+
+/* Body L/Regular */
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 22px;
+
+/* identical to box height, or 138% */
+display: flex;
+align-items: flex-end;
+text-align: center;
+
+color: #FFFFFF;
+
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+
+/* 🧰/Home Indicator (iPhone) */
+width: 375px;
+height: 34px;
+
+background: rgba(16, 16, 16, 0.7);
+backdrop-filter: blur(2px);
+
+/* Note: backdrop-filter has minimal browser support */
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+
+/* Home Indicator */
+position: absolute;
+width: 134px;
+height: 5px;
+left: calc(50% - 134px/2 + 0.5px);
+bottom: 8px;
+
+background: #FFFFFF;
+border-radius: 100px;
+
+

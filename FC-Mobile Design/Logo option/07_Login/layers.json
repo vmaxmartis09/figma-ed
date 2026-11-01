@@ -1,0 +1,588 @@
+{
+ "name": "Login",
+ "css": {
+  "display": "flex",
+  "flex-direction": "row",
+  "align-items": "center",
+  "padding": "0px",
+  "gap": "8px",
+  "position": "relative",
+  "width": "375px",
+  "height": "835px",
+  "left": "403px",
+  "top": "1564px",
+  "background": "#FFFFFF"
+ },
+ "children": [
+  {
+   "name": "Frame 1000004669",
+   "css": {
+    "display": "flex",
+    "flex-direction": "column",
+    "align-items": "center",
+    "padding": "0px",
+    "gap": "23px",
+    "width": "375px",
+    "height": "835px",
+    "flex": "none",
+    "order": "0",
+    "flex-grow": "0"
+   },
+   "children": [
+    {
+     "name": "Status Bar (iPhone)",
+     "css": {
+      "display": "flex",
+      "flex-direction": "row",
+      "justify-content": "space-between",
+      "align-items": "center",
+      "padding": "18px 26px 14px 27px",
+      "gap": "205px",
+      "isolation": "isolate",
+      "width": "375px",
+      "height": "53px",
+      "flex": "none",
+      "order": "0",
+      "align-self": "stretch",
+      "flex-grow": "0"
+     },
+     "children": [
+      {
+       "name": "🧰/Time (iPhone)",
+       "css": {
+        "margin": "0 auto",
+        "width": "54px",
+        "height": "21px",
+        "flex": "none",
+        "order": "0",
+        "flex-grow": "0",
+        "z-index": "0"
+       },
+       "children": [
+        {
+         "name": "Time",
+         "css": {
+          "position": "absolute",
+          "width": "54px",
+          "height": "22px",
+          "left": "0px",
+          "top": "calc(50% - 22px/2 + 0.5px)"
+         }
+        }
+       ]
+      },
+      {
+       "name": "🧰/Cellular,Wifi,Battery (iPhone)",
+       "css": {
+        "margin": "0 auto",
+        "width": "78.26px",
+        "height": "13px",
+        "flex": "none",
+        "order": "1",
+        "flex-grow": "0",
+        "z-index": "1"
+       },
+       "children": [
+        {
+         "name": "Cellular Connection",
+         "css": {
+          "position": "absolute",
+          "left": "0%",
+          "right": "75.47%",
+          "top": "5.13%",
+          "bottom": "2.56%",
+          "background": "#212121"
+         },
+         "children": [
+          {
+           "name": "Cellular-Connection-path"
+          },
+          {
+           "name": "Cellular-Connection-path"
+          },
+          {
+           "name": "Cellular-Connection-path"
+          },
+          {
+           "name": "Cellular-Connection-path"
+          }
+         ]
+        },
+        {
+         "name": "Wifi",
+         "css": {
+          "position": "absolute",
+          "left": "33.99%",
+          "right": "44.29%",
+          "top": "5.13%",
+          "bottom": "2.56%",
+          "background": "#212121"
+         },
+         "children": [
+          {
+           "name": "Wifi-path"
+          },
+          {
+           "name": "Wifi-path"
+          },
+          {
+           "name": "Wifi-path"
+          }
+         ]
+        },
+        {
+         "name": "Battery",
+         "css": {
+          "position": "absolute",
+          "left": "65.08%",
+          "right": "0%",
+          "top": "0%",
+          "bottom": "0%"
+         },
+         "children": [
+          {
+           "name": "Capacity",
+           "css": {
+            "position": "absolute",
+            "left": "67.64%",
+            "right": "5.53%",
+            "top": "15.38%",
+            "bottom": "15.38%",
+            "background": "#212121",
+            "border-radius": "1.33333px"
+           }
+          },
+          {
+           "name": "Cap",
+           "css": {
+            "position": "absolute",
+            "left": "98.3%",
+            "right": "0%",
+            "top": "35.9%",
+            "bottom": "33.33%",
+            "background": "#212121",
+            "mix-blend-mode": "normal",
+            "opacity": "0.4"
+           }
+          },
+          {
+           "name": "Border",
+           "css": {
+            "box-sizing": "border-box",
+            "position": "absolute",
+            "left": "65.08%",
+            "right": "2.98%",
+            "top": "0%",
+            "bottom": "0%",
+            "mix-blend-mode": "normal",
+            "opacity": "0.35",
+            "border": "1px solid #212121",
+            "border-radius": "3.5px"
+           }
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "name": "Floating island",
+       "css": {
+        "position": "absolute",
+        "display": "none",
+        "width": "127px",
+        "height": "37px",
+        "left": "calc(50% - 127px/2 + 1px)",
+        "top": "calc(50% - 37px/2 + 3px)",
+        "background": "#000000",
+        "border-radius": "18.5px",
+        "flex": "none",
+        "order": "2",
+        "flex-grow": "0",
+        "z-index": "2"
+       }
+      }
+     ]
+    },
+    {
+     "name": "Frame 1000004668",
+     "css": {
+      "display": "flex",
+      "flex-direction": "column",
+      "align-items": "center",
+      "padding": "0px",
+      "gap": "24px",
+      "width": "311px",
+      "height": "556px",
+      "flex": "none",
+      "order": "1",
+      "flex-grow": "0"
+     },
+     "children": [
+      {
+       "name": "logo",
+       "css": {
+        "width": "132px",
+        "height": "56px",
+        "flex": "none",
+        "order": "0",
+        "flex-grow": "0"
+       },
+       "children": [
+        {
+         "name": "Vector"
+        },
+        {
+         "name": "Nested Container",
+         "children": [
+          {
+           "name": "Vector",
+           "children": [
+            {
+             "name": "Link",
+             "children": [
+              {
+               "name": "Link text"
+              }
+             ]
+            }
+           ]
+          },
+          {
+           "name": "Password Field Container",
+           "css": {
+            "display": "flex",
+            "flex-direction": "column",
+            "align-items": "flex-start",
+            "padding": "0px",
+            "gap": "16px",
+            "width": "311px",
+            "height": "114px",
+            "flex": "none",
+            "order": "2",
+            "align-self": "stretch",
+            "flex-grow": "0"
+           },
+           "children": [
+            {
+             "name": "Dropdown field",
+             "css": {
+              "display": "flex",
+              "flex-direction": "column",
+              "align-items": "flex-start",
+              "padding": "0px",
+              "width": "311px",
+              "height": "74px",
+              "flex": "none",
+              "order": "0",
+              "align-self": "stretch",
+              "flex-grow": "0"
+             },
+             "children": [
+              {
+               "name": "Base/ Dropdown field (Multiple)",
+               "css": {
+                "display": "flex",
+                "flex-direction": "column",
+                "align-items": "flex-start",
+                "padding": "0px",
+                "gap": "4px",
+                "width": "311px",
+                "height": "74px",
+                "flex": "none",
+                "order": "0",
+                "align-self": "stretch",
+                "flex-grow": "0"
+               },
+               "children": [
+                {
+                 "name": "Container",
+                 "children": [
+                  {
+                   "name": "Label",
+                   "children": [
+                    {
+                     "name": "Label"
+                    },
+                    {
+                     "name": "*"
+                    },
+                    {
+                     "name": "Toggletip (icon)",
+                     "children": [
+                      {
+                       "name": "icon toogletip"
+                      },
+                      {
+                       "name": "Ellipse 142"
+                      }
+                     ]
+                    }
+                   ]
+                  },
+                  {
+                   "name": "Input",
+                   "children": [
+                    {
+                     "name": "Placeholder",
+                     "css": {
+                      "width": "261px",
+                      "height": "22px"
+                     }
+                    },
+                    {
+                     "name": "eye on",
+                     "css": {
+                      "width": "20px",
+                      "height": "20px",
+                      "flex": "none",
+                      "order": "1",
+                      "flex-grow": "0"
+                     },
+                     "children": [
+                      {
+                       "name": "Vector"
+                      }
+                     ]
+                    }
+                   ]
+                  }
+                 ]
+                },
+                {
+                 "name": "Help text",
+                 "children": [
+                  {
+                   "name": "Icon Error"
+                  },
+                  {
+                   "name": "Message"
+                  }
+                 ]
+                }
+               ]
+              }
+             ]
+            },
+            {
+             "name": "Remember Me Container",
+             "children": [
+              {
+               "name": "Checkbox",
+               "css": {
+                "display": "flex",
+                "flex-direction": "row",
+                "align-items": "center",
+                "padding": "0px",
+                "gap": "8px",
+                "width": "137px",
+                "height": "24px",
+                "flex": "none",
+                "order": "0",
+                "flex-grow": "0"
+               },
+               "children": [
+                {
+                 "name": "Box",
+                 "css": {
+                  "box-sizing": "border-box",
+                  "display": "flex",
+                  "flex-direction": "row",
+                  "align-items": "center",
+                  "padding": "0px",
+                  "gap": "10px",
+                  "width": "24px",
+                  "height": "24px",
+                  "border": "1px solid #828282",
+                  "border-radius": "4px",
+                  "flex": "none",
+                  "order": "0",
+                  "flex-grow": "0"
+                 }
+                },
+                {
+                 "name": "Label"
+                }
+               ]
+              },
+              {
+               "name": "Link",
+               "children": [
+                {
+                 "name": "Link text"
+                }
+               ]
+              }
+             ]
+            }
+           ]
+          }
+         ]
+        },
+        {
+         "name": "Login Button Container",
+         "css": {
+          "display": "flex",
+          "flex-direction": "row",
+          "align-items": "flex-start",
+          "padding": "0px",
+          "gap": "24px",
+          "width": "311px",
+          "height": "54px",
+          "flex": "none",
+          "order": "0",
+          "align-self": "stretch",
+          "flex-grow": "0"
+         },
+         "children": [
+          {
+           "name": "Button",
+           "children": [
+            {
+             "name": "Base button/Primary",
+             "css": {
+              "display": "flex",
+              "flex-direction": "row",
+              "justify-content": "center",
+              "align-items": "center",
+              "padding": "16px 24px",
+              "gap": "8px",
+              "width": "311px",
+              "height": "54px",
+              "background": "#1999A4",
+              "border-radius": "8px",
+              "flex": "none",
+              "order": "0",
+              "flex-grow": "1"
+             },
+             "children": [
+              {
+               "name": "Button text",
+               "css": {
+                "width": "44px",
+                "height": "22px"
+               }
+              }
+             ]
+            }
+           ]
+          },
+          {
+           "name": "Signup Container",
+           "children": [
+            {
+             "name": "Signup Text"
+            },
+            {
+             "name": "Link",
+             "children": [
+              {
+               "name": "Link text"
+              }
+             ]
+            }
+           ]
+          },
+          {
+           "name": "Signup Container",
+           "children": [
+            {
+             "name": "Signup Text"
+            },
+            {
+             "name": "Link",
+             "children": [
+              {
+               "name": "Link text"
+              }
+             ]
+            }
+           ]
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "name": "footer",
+     "css": {
+      "display": "flex",
+      "flex-direction": "column",
+      "align-items": "flex-start",
+      "padding": "0px",
+      "isolation": "isolate",
+      "width": "375px",
+      "height": "180px",
+      "flex": "none",
+      "order": "2",
+      "align-self": "stretch",
+      "flex-grow": "0"
+     },
+     "children": [
+      {
+       "name": "Footer Links Container",
+       "css": {
+        "display": "flex",
+        "flex-direction": "column",
+        "align-items": "center",
+        "padding": "20px 0px",
+        "gap": "20px",
+        "width": "375px",
+        "height": "100px",
+        "background": "#1999A4",
+        "flex": "none",
+        "order": "0",
+        "align-self": "stretch",
+        "flex-grow": "0",
+        "z-index": "0"
+       },
+       "children": [
+        {
+         "name": "Footer Bottom Links 1",
+         "css": {
+          "display": "flex",
+          "flex-direction": "row",
+          "justify-content": "center",
+          "align-items": "center",
+          "padding": "0px",
+          "gap": "12px",
+          "width": "282px",
+          "height": "20px",
+          "flex": "none",
+          "order": "0",
+          "flex-grow": "0"
+         },
+         "children": [
+          {
+           "name": "Link",
+           "children": [
+            {
+             "name": "Link text"
+            }
+           ]
+          },
+          {
+           "name": "Line 2"
+          },
+          {
+           "name": "Link",
+           "children": [
+            {
+             "name": "Link text"
+            }
+           ]
+          },
+          {
+           "name": "Line 3"
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

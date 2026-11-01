@@ -1,0 +1,1607 @@
+/* Create workshop-review-confirm */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+
+position: relative;
+width: 375px;
+height: 913px;
+min-height: 812px;
+left: 3050px;
+top: 198px;
+
+background: #FFFFFF;
+
+
+
+/* Top Navigation */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+
+width: 375px;
+height: 127px;
+
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+
+/* Status Bar (iPhone) */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: center;
+padding: 18px 26px 14px 27px;
+gap: 205px;
+isolation: isolate;
+
+width: 375px;
+height: 53px;
+
+background: #1999A4;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+
+/* 🧰/Time (iPhone) */
+margin: 0 auto;
+width: 54px;
+height: 21px;
+
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+z-index: 0;
+
+
+
+/* Time */
+position: absolute;
+width: 54px;
+height: 22px;
+left: 0px;
+top: calc(50% - 22px/2 + 0.5px);
+
+
+/* Default/Body/Bold */
+font-family: 'SF Pro Text';
+font-style: normal;
+font-weight: 600;
+font-size: 17px;
+line-height: 22px;
+
+/* identical to box height, or 129% */
+text-align: center;
+letter-spacing: -0.408px;
+font-feature-settings: 'case' on;
+
+color: #FFFFFF;
+
+
+
+
+/* 🧰/Cellular,Wifi,Battery (iPhone) */
+margin: 0 auto;
+width: 78.26px;
+height: 13px;
+
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+z-index: 1;
+
+
+
+/* Battery */
+position: absolute;
+left: 65.08%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+
+
+
+/* Border */
+box-sizing: border-box;
+
+position: absolute;
+left: 65.08%;
+right: 2.97%;
+top: 0%;
+bottom: 0%;
+
+mix-blend-mode: normal;
+opacity: 0.35;
+border: 1px solid #FFFFFF;
+border-radius: 3.5px;
+
+
+
+/* Cap */
+position: absolute;
+left: 98.3%;
+right: 0%;
+top: 35.9%;
+bottom: 33.33%;
+
+background: #FFFFFF;
+mix-blend-mode: normal;
+opacity: 0.4;
+
+
+
+/* Capacity */
+position: absolute;
+left: 67.64%;
+right: 5.53%;
+top: 15.38%;
+bottom: 15.38%;
+
+background: #FFFFFF;
+border-radius: 1.33333px;
+
+
+
+/* Wifi */
+position: absolute;
+left: 33.99%;
+right: 44.29%;
+top: 5.13%;
+bottom: 2.56%;
+
+background: #FFFFFF;
+
+
+
+/* Wifi-path */
+position: absolute;
+left: 33.99%;
+right: 44.29%;
+top: 5.13%;
+bottom: 56.41%;
+
+background: #000000;
+
+
+
+/* Wifi-path */
+position: absolute;
+left: 37.82%;
+right: 48.12%;
+top: 35.9%;
+bottom: 33.33%;
+
+background: #000000;
+
+
+
+/* Wifi-path */
+position: absolute;
+left: 41.66%;
+right: 51.96%;
+top: 66.67%;
+bottom: 2.56%;
+
+background: #000000;
+
+
+
+/* Cellular Connection */
+position: absolute;
+left: 0%;
+right: 75.47%;
+top: 5.13%;
+bottom: 2.56%;
+
+background: #FFFFFF;
+
+
+
+/* Cellular-Connection-path */
+position: absolute;
+left: 0%;
+right: 95.91%;
+top: 62.05%;
+bottom: 2.56%;
+
+background: #000000;
+
+
+
+/* Cellular-Connection-path */
+position: absolute;
+left: 6.77%;
+right: 89.14%;
+top: 43.59%;
+bottom: 2.56%;
+
+background: #000000;
+
+
+
+/* Cellular-Connection-path */
+position: absolute;
+left: 13.67%;
+right: 82.24%;
+top: 23.59%;
+bottom: 2.56%;
+
+background: #000000;
+
+
+
+/* Cellular-Connection-path */
+position: absolute;
+left: 20.44%;
+right: 75.47%;
+top: 5.13%;
+bottom: 2.56%;
+
+background: #000000;
+
+
+
+/* Floating island */
+position: absolute;
+display: none;
+width: 127px;
+height: 37px;
+left: calc(50% - 127px/2 + 1px);
+top: calc(50% - 37px/2 + 3px);
+
+background: #000000;
+border-radius: 18.5px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 0;
+z-index: 2;
+
+
+
+/* Bottom */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 24px 16px;
+gap: 8px;
+
+width: 375px;
+height: 74px;
+
+background: #1999A4;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+
+
+/* Left Action */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 4px;
+
+width: 76px;
+height: 22px;
+
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+
+/* symbol x */
+width: 20px;
+height: 20px;
+
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+
+/* Vector */
+position: absolute;
+left: 21.88%;
+right: 21.88%;
+top: 21.88%;
+bottom: 21.88%;
+
+background: #FFFFFF;
+
+
+
+/* Back */
+width: 49px;
+height: 22px;
+
+
+/* Body L/Regular */
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 22px;
+
+/* identical to box height, or 138% */
+color: #FFFFFF;
+
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+
+/* Title */
+width: 200px;
+max-width: 200px;
+height: 26px;
+
+
+/* Heading 7/Bold */
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 26px;
+
+/* identical to box height, or 130% */
+text-align: center;
+letter-spacing: -0.01em;
+
+color: #FFFFFF;
+
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 1;
+
+
+
+/* Right Action */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: flex-end;
+align-items: center;
+padding: 0px;
+gap: 4px;
+
+display: none;
+width: 76px;
+height: 22px;
+
+
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 0;
+
+
+
+/* Progress bar */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 8px 16px;
+gap: 10px;
+isolation: isolate;
+
+width: 375px;
+height: 36px;
+
+background: #EEFBFC;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+
+/* Progress bar info */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 2px;
+
+width: 295px;
+height: 20px;
+
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 1;
+z-index: 0;
+
+
+
+/* Step number */
+width: 45px;
+height: 20px;
+
+
+/* Body M/Bold */
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 20px;
+
+/* identical to box height, or 143% */
+color: #121212;
+
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+
+/* Screen title */
+width: 248px;
+height: 20px;
+
+
+/* Body M/Regular */
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 20px;
+
+/* identical to box height, or 143% */
+color: #121212;
+
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 1;
+
+
+
+/* Step count */
+width: 38px;
+height: 20px;
+
+
+/* Body M/Regular */
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 20px;
+
+/* identical to box height, or 143% */
+color: #555555;
+
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+z-index: 1;
+
+
+
+/* Progress background */
+position: absolute;
+width: 375px;
+height: 4px;
+left: 0px;
+bottom: 0px;
+
+background: #D8F6F9;
+
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 0;
+z-index: 2;
+
+
+
+/* Progress foreground 4 */
+position: absolute;
+width: 375px;
+height: 4px;
+left: 0px;
+bottom: 0px;
+
+background: #1999A4;
+border-radius: 0px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 3;
+flex-grow: 0;
+z-index: 3;
+
+
+
+/* Content */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 24px 16px;
+gap: 24px;
+
+width: 375px;
+height: 572px;
+
+
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+align-self: stretch;
+flex-grow: 0;
+
+
+
+/* Header title */
+width: 343px;
+height: 32px;
+
+
+/* Heading 6/Bold */
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 26px;
+line-height: 32px;
+
+/* identical to box height, or 123% */
+text-align: center;
+letter-spacing: -0.01em;
+
+color: #121212;
+
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+
+/* Frame */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 16px;
+gap: 16px;
+
+width: 343px;
+height: 250px;
+
+background: #EEFBFC;
+border-radius: 8px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+
+
+/* Frame */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 16px;
+
+width: 311px;
+height: 218px;
+
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+
+/* Frame */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 12px;
+
+width: 311px;
+height: 26px;
+
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+
+/* Understanding Dementia */
+width: 311px;
+height: 26px;
+
+
+/* Heading 7/Bold */
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 26px;
+
+/* identical to box height, or 130% */
+letter-spacing: -0.01em;
+
+color: #121212;
+
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+
+/* Frame */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 12px;
+
+width: 311px;
+height: 34px;
+
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+
+
+/* Frame */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: center;
+padding: 0px;
+
+width: 311px;
+height: 22px;
+
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+
+/* Date */
+width: 29px;
+height: 20px;
+
+
+/* Body M/Medium */
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 20px;
+
+/* identical to box height, or 143% */
+color: #555555;
+
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+
+/* 15/072026 */
+width: 80px;
+max-width: 200px;
+height: 22px;
+
+
+/* Body L/Semi */
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 22px;
+
+/* identical to box height, or 138% */
+text-align: right;
+
+color: #121212;
+
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+
+/* Line */
+box-sizing: border-box;
+
+width: 311px;
+height: 0px;
+
+border: 0.5px solid #E0E0E0;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+
+
+/* Frame */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 12px;
+
+width: 311px;
+height: 34px;
+
+
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+align-self: stretch;
+flex-grow: 0;
+
+
+
+/* Frame */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: center;
+padding: 0px;
+
+width: 311px;
+height: 22px;
+
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+
+/* Time */
+width: 32px;
+height: 20px;
+
+
+/* Body M/Medium */
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 20px;
+
+/* identical to box height, or 143% */
+color: #555555;
+
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+
+/* 10:00 AM – 12:00 AM */
+width: 158px;
+max-width: 200px;
+height: 22px;
+
+
+/* Body L/Semi */
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 22px;
+
+/* identical to box height, or 138% */
+text-align: right;
+
+color: #121212;
+
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+
+/* Line */
+box-sizing: border-box;
+
+width: 311px;
+height: 0px;
+
+border: 0.5px solid #E0E0E0;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+
+
+/* Frame */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 12px;
+
+width: 311px;
+height: 38px;
+
+
+
+/* Inside auto layout */
+flex: none;
+order: 3;
+align-self: stretch;
+flex-grow: 0;
+
+
+
+/* Frame */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: center;
+padding: 0px;
+
+width: 311px;
+height: 26px;
+
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+
+/* Mode */
+width: 36px;
+height: 20px;
+
+
+/* Body M/Medium */
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 20px;
+
+/* identical to box height, or 143% */
+color: #555555;
+
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Component 4
+
+🏷️ Info badge with label
+
+ℹ️ Informational badges help to highlight some information as particularly important. They draw attention to the badge without stating whether it was positive or a potential problem.
+
+🔎 get desktop info badge with label only
+*/
+
+box-sizing: border-box;
+
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 4px;
+gap: 4px;
+
+width: 43px;
+height: 26px;
+
+background: #F7F6F9;
+border: 1px solid #8B5ECB;
+border-radius: 6px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+
+/* Mental support */
+width: 35px;
+height: 18px;
+
+
+/* Body S/Semi */
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 600;
+font-size: 12px;
+line-height: 18px;
+
+/* identical to box height, or 150% */
+color: #8B5ECB;
+
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+
+/* Line */
+box-sizing: border-box;
+
+width: 311px;
+height: 0px;
+
+border: 0.5px solid #E0E0E0;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+
+
+/* Frame */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 12px;
+
+width: 311px;
+height: 22px;
+
+
+
+/* Inside auto layout */
+flex: none;
+order: 4;
+align-self: stretch;
+flex-grow: 0;
+
+
+
+/* Frame */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: center;
+padding: 0px;
+
+width: 311px;
+height: 22px;
+
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+
+/* Max Attendees */
+width: 95px;
+height: 20px;
+
+
+/* Body M/Medium */
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 20px;
+
+/* identical to box height, or 143% */
+color: #555555;
+
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+
+/* 04/30 */
+width: 43px;
+max-width: 200px;
+height: 22px;
+
+
+/* Body L/Semi */
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 22px;
+
+/* identical to box height, or 138% */
+text-align: right;
+
+color: #121212;
+
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+
+/* Frame */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 8px;
+
+width: 343px;
+height: 118px;
+
+
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+align-self: stretch;
+flex-grow: 0;
+
+
+
+/* Brief description */
+width: 343px;
+height: 22px;
+
+
+/* Body L/Bold */
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 22px;
+
+/* identical to box height, or 138% */
+color: #121212;
+
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+
+/* An interactive workshop to share strategies and experiences for living well using iSupport-D. Participants will engage in peer-to-peer learning and professional guidance session. */
+width: 343px;
+height: 88px;
+
+
+/* Body L/Regular */
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 22px;
+
+/* or 138% */
+color: #121212;
+
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+
+
+/* Frame */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 8px;
+
+width: 343px;
+height: 52px;
+
+
+
+/* Inside auto layout */
+flex: none;
+order: 3;
+align-self: stretch;
+flex-grow: 0;
+
+
+
+/* Reminder frequency */
+width: 343px;
+height: 22px;
+
+
+/* Body L/Bold */
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 22px;
+
+/* identical to box height, or 138% */
+color: #121212;
+
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+
+/* Frame */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 12px;
+
+width: 343px;
+height: 22px;
+
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+
+
+/* Frame */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: center;
+padding: 0px;
+
+width: 343px;
+height: 22px;
+
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+
+/* One day before */
+width: 108px;
+max-width: 200px;
+height: 22px;
+
+
+/* Body L/Regular */
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 22px;
+
+/* identical to box height, or 138% */
+color: #121212;
+
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+
+/* Form Footer */
+box-sizing: border-box;
+
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+
+width: 375px;
+height: 178px;
+
+background: #FFFFFF;
+border-top: 1px solid #E0E0E0;
+
+
+/* Inside auto layout */
+flex: none;
+order: 3;
+flex-grow: 0;
+
+
+
+/* Action container */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 16px 16px 8px;
+gap: 12px;
+
+width: 375px;
+height: 144px;
+
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Button
+
+<p>Owned by T-Design Team</p>
+*/
+
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+
+width: 343px;
+height: 54px;
+
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+
+/* Base button/Primary */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 16px 24px;
+gap: 8px;
+
+width: 343px;
+height: 54px;
+
+background: #1999A4;
+border-radius: 8px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 1;
+
+
+
+/* Button text */
+width: 122px;
+height: 22px;
+
+
+/* Body L/Semi */
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 22px;
+
+/* identical to box height, or 138% */
+text-align: center;
+
+color: #FFFFFF;
+
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Button
+
+<p>Owned by T-Design Team</p>
+*/
+
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+
+width: 343px;
+height: 54px;
+
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+
+
+/* Base button/Primary */
+box-sizing: border-box;
+
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 16px 24px;
+gap: 8px;
+
+width: 343px;
+height: 54px;
+
+background: #FFFFFF;
+border: 1px solid #1999A4;
+border-radius: 8px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 1;
+
+
+
+/* Button text */
+width: 36px;
+height: 22px;
+
+
+/* Body L/Semi */
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 22px;
+
+/* identical to box height, or 138% */
+text-align: center;
+
+color: #1999A4;
+
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+
+/* 🧰/Home Indicator (iPhone) */
+width: 375px;
+height: 34px;
+
+background: #FFFFFF;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+
+
+/* Home Indicator */
+position: absolute;
+width: 134px;
+height: 5px;
+left: calc(50% - 134px/2 + 0.5px);
+bottom: 8px;
+
+
+/* System Colours/Default Colors/SystemWhite&Black/Dark */
+background: #000000;
+border-radius: 100px;
+
+

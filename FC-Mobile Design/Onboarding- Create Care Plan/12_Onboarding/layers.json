@@ -1,0 +1,394 @@
+{
+ "name": "Onboarding",
+ "css": {
+  "position": "relative",
+  "width": "375px",
+  "height": "815px",
+  "left": "1758px",
+  "top": "615px",
+  "background": "#FFFFFF"
+ },
+ "children": [
+  {
+   "name": "Container",
+   "css": {
+    "display": "flex",
+    "flex-direction": "column",
+    "align-items": "center",
+    "padding": "0px",
+    "gap": "24px",
+    "position": "absolute",
+    "width": "343px",
+    "height": "436px",
+    "left": "16px",
+    "top": "calc(50% - 436px/2 - 0.5px)"
+   },
+   "children": [
+    {
+     "name": "Pending",
+     "css": {
+      "display": "flex",
+      "flex-direction": "row",
+      "align-items": "center",
+      "padding": "4px",
+      "gap": "10px",
+      "width": "64px",
+      "height": "64px",
+      "background": "#ECE0FC",
+      "border-radius": "16px",
+      "flex": "none",
+      "order": "0",
+      "flex-grow": "0"
+     },
+     "children": [
+      {
+       "name": "propaganda 1",
+       "css": {
+        "width": "56px",
+        "height": "56px",
+        "flex": "none",
+        "order": "0",
+        "flex-grow": "0"
+       },
+       "children": [
+        {
+         "name": "Vector"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "name": "Content Container",
+     "css": {
+      "display": "flex",
+      "flex-direction": "column",
+      "align-items": "flex-start",
+      "padding": "0px",
+      "gap": "32px",
+      "width": "343px",
+      "height": "348px",
+      "flex": "none",
+      "order": "1",
+      "align-self": "stretch",
+      "flex-grow": "0"
+     },
+     "children": [
+      {
+       "name": "Frame 1000004713",
+       "css": {
+        "display": "flex",
+        "flex-direction": "column",
+        "align-items": "flex-start",
+        "padding": "0px",
+        "gap": "24px",
+        "width": "343px",
+        "height": "262px",
+        "flex": "none",
+        "order": "0",
+        "align-self": "stretch",
+        "flex-grow": "0"
+       },
+       "children": [
+        {
+         "name": "Text Section",
+         "css": {
+          "display": "flex",
+          "flex-direction": "column",
+          "align-items": "flex-start",
+          "padding": "0px",
+          "gap": "16px",
+          "width": "343px",
+          "height": "124px",
+          "flex": "none",
+          "order": "0",
+          "align-self": "stretch",
+          "flex-grow": "0"
+         },
+         "children": [
+          {
+           "name": "Title",
+           "css": {
+            "width": "343px",
+            "height": "64px"
+           }
+          },
+          {
+           "name": "Description",
+           "css": {
+            "width": "343px",
+            "height": "44px"
+           }
+          }
+         ]
+        },
+        {
+         "name": "Bubble Info",
+         "css": {
+          "display": "flex",
+          "flex-direction": "column",
+          "justify-content": "center",
+          "align-items": "flex-start",
+          "padding": "16px 24px",
+          "gap": "8px",
+          "isolation": "isolate",
+          "width": "327px",
+          "height": "114px",
+          "background": "#F1F1F1",
+          "border-radius": "8px",
+          "flex": "none",
+          "order": "1",
+          "flex-grow": "0"
+         },
+         "children": [
+          {
+           "name": "It only takes a few minutes: • Tell us about your loved one • Answer a few simple questions",
+           "css": {
+            "width": "279px",
+            "height": "82px"
+           }
+          },
+          {
+           "name": "Polygon 1",
+           "css": {
+            "position": "absolute",
+            "width": "25.59px",
+            "height": "20.5px",
+            "left": "50px",
+            "top": "-20px",
+            "background": "#F1F1F1",
+            "flex": "none",
+            "order": "1",
+            "flex-grow": "0",
+            "z-index": "1"
+           }
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "name": "Button Container",
+       "css": {
+        "display": "flex",
+        "flex-direction": "column",
+        "align-items": "flex-start",
+        "padding": "0px",
+        "gap": "24px",
+        "width": "343px",
+        "height": "54px",
+        "flex": "none",
+        "order": "1",
+        "align-self": "stretch",
+        "flex-grow": "0"
+       },
+       "children": [
+        {
+         "name": "Button Wrapper",
+         "css": {
+          "display": "flex",
+          "flex-direction": "row",
+          "align-items": "flex-start",
+          "padding": "0px",
+          "gap": "24px",
+          "width": "343px",
+          "height": "54px",
+          "flex": "none",
+          "order": "0",
+          "align-self": "stretch",
+          "flex-grow": "0"
+         },
+         "children": [
+          {
+           "name": "Button",
+           "children": [
+            {
+             "name": "Base button/Primary",
+             "css": {
+              "display": "flex",
+              "flex-direction": "row",
+              "justify-content": "center",
+              "align-items": "center",
+              "padding": "16px 24px",
+              "gap": "8px",
+              "width": "343px",
+              "height": "54px",
+              "background": "#1999A4",
+              "border-radius": "8px",
+              "flex": "none",
+              "order": "0",
+              "flex-grow": "1"
+             },
+             "children": [
+              {
+               "name": "Button text",
+               "css": {
+                "width": "116px",
+                "height": "22px"
+               }
+              }
+             ]
+            }
+           ]
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "🧰/Home Indicator (iPhone)",
+   "css": {
+    "position": "absolute",
+    "width": "375px",
+    "height": "34px",
+    "left": "0px",
+    "bottom": "0px"
+   },
+   "children": [
+    {
+     "name": "Home Indicator",
+     "css": {
+      "position": "absolute",
+      "width": "134px",
+      "height": "5px",
+      "left": "calc(50% - 134px/2 + 0.5px)",
+      "bottom": "8px"
+     }
+    }
+   ]
+  },
+  {
+   "name": "Link",
+   "css": {
+    "display": "flex",
+    "flex-direction": "row",
+    "align-items": "center",
+    "padding": "0px",
+    "gap": "4px",
+    "position": "absolute",
+    "width": "122px",
+    "height": "22px",
+    "left": "29px",
+    "top": "770px"
+   },
+   "children": [
+    {
+     "name": "Link text",
+     "css": {
+      "display": "none",
+      "width": "122px",
+      "height": "22px"
+     }
+    }
+   ]
+  },
+  {
+   "name": "Status Bar (iPhone)",
+   "css": {
+    "display": "flex",
+    "flex-direction": "row",
+    "justify-content": "space-between",
+    "align-items": "center",
+    "padding": "18px 26px 14px 27px",
+    "gap": "205px",
+    "isolation": "isolate",
+    "position": "absolute",
+    "width": "375px",
+    "height": "53px",
+    "left": "0px",
+    "top": "0px"
+   },
+   "children": [
+    {
+     "name": "🧰/Time (iPhone)",
+     "css": {
+      "margin": "0 auto",
+      "width": "54px",
+      "height": "21px",
+      "flex": "none",
+      "order": "0",
+      "flex-grow": "0",
+      "z-index": "0"
+     },
+     "children": [
+      {
+       "name": "Time",
+       "css": {
+        "position": "absolute",
+        "width": "54px",
+        "height": "22px",
+        "left": "0px",
+        "top": "calc(50% - 22px/2 + 0.5px)"
+       }
+      }
+     ]
+    },
+    {
+     "name": "🧰/Cellular,Wifi,Battery (iPhone)",
+     "css": {
+      "margin": "0 auto",
+      "width": "78.26px",
+      "height": "13px",
+      "flex": "none",
+      "order": "1",
+      "flex-grow": "0",
+      "z-index": "1"
+     },
+     "children": [
+      {
+       "name": "Cellular Connection",
+       "css": {
+        "position": "absolute",
+        "left": "0%",
+        "right": "75.47%",
+        "top": "5.12%",
+        "bottom": "2.57%",
+        "background": "#121212"
+       },
+       "children": [
+        {
+         "name": "Cellular-Connection-path"
+        },
+        {
+         "name": "Cellular-Connection-path"
+        },
+        {
+         "name": "Cellular-Connection-path"
+        },
+        {
+         "name": "Cellular-Connection-path"
+        }
+       ]
+      },
+      {
+       "name": "Wifi",
+       "css": {
+        "position": "absolute",
+        "left": "33.99%",
+        "right": "44.29%",
+        "top": "5.12%",
+        "bottom": "2.57%",
+        "background": "#121212"
+       },
+       "children": [
+        {
+         "name": "Wifi-path"
+        },
+        {
+         "name": "Wifi-path"
+        },
+        {
+         "name": "Wifi-path"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,215 @@
+{
+  "source": "Library > Color > Color - Token",
+  "notes": [
+    "Labels inside the Figma token board sometimes carry a stale hex (e.g. Border/Strong shows #1999A4 but references Gray-500). Hex here is resolved from the referenced Main color.",
+    "Illustrations/Highlight is labelled 'Purple-300' with hex #E0DAE8 in Figma, which does not match Purple 300 (#ECE0FC) in the Main palette; verify with design.",
+    "Background/Highlight-Tertiary label says #D8F6F9 but references Primary-100; resolved to Primary 100."
+  ],
+  "tokens": [
+    {
+      "token": "Background/Highlight-Primary",
+      "ref": "Main color/Primary-700",
+      "hex": "#1999A4"
+    },
+    {
+      "token": "Background/Highlight-Secondary",
+      "ref": "Main color/Primary-200",
+      "hex": "#D8F6F9"
+    },
+    {
+      "token": "Background/Highlight-Tertiary",
+      "ref": "Main color/Primary-100",
+      "hex": "#EEFBFC"
+    },
+    {
+      "token": "Background/Primary",
+      "ref": "Main color/Gray-0",
+      "hex": "#FFFFFF"
+    },
+    {
+      "token": "Background/Secondary",
+      "ref": "Main color/Gray-50",
+      "hex": "#FAFAFA"
+    },
+    {
+      "token": "Background/Tertiary",
+      "ref": "Main color/Gray-100",
+      "hex": "#F1F1F1"
+    },
+    {
+      "token": "Border/Strong",
+      "ref": "Main color/Gray-500",
+      "hex": "#828282"
+    },
+    {
+      "token": "Border/Medium",
+      "ref": "Main color/Gray-300",
+      "hex": "#C8C8C8"
+    },
+    {
+      "token": "Border/Default",
+      "ref": "Main color/Gray-200",
+      "hex": "#E0E0E0"
+    },
+    {
+      "token": "Border/Light",
+      "ref": "Main color/Gray-50",
+      "hex": "#FAFAFA"
+    },
+    {
+      "token": "Border/Highlight",
+      "ref": "Main color/Primary-700",
+      "hex": "#1999A4"
+    },
+    {
+      "token": "Text/Primary",
+      "ref": "Main color/Gray-700",
+      "hex": "#121212"
+    },
+    {
+      "token": "Text/Secondary",
+      "ref": "Main color/Gray-600",
+      "hex": "#555555"
+    },
+    {
+      "token": "Text/Tertiary",
+      "ref": "Main color/Primary-300",
+      "hex": "#B9F0F5"
+    },
+    {
+      "token": "Text/Highlight",
+      "ref": "Main color/Primary-700",
+      "hex": "#1999A4"
+    },
+    {
+      "token": "Text/On-Contrast",
+      "ref": "Main color/Gray-0",
+      "hex": "#FFFFFF"
+    },
+    {
+      "token": "Text/Disable",
+      "ref": "Main color/Gray-200",
+      "hex": "#E0E0E0"
+    },
+    {
+      "token": "Icon/Default",
+      "ref": "Main color/Gray-700",
+      "hex": "#121212"
+    },
+    {
+      "token": "Icon/Disable",
+      "ref": "Main color/Gray-200",
+      "hex": "#E0E0E0"
+    },
+    {
+      "token": "Icon/Highlight",
+      "ref": "Main color/Primary-700",
+      "hex": "#1999A4"
+    },
+    {
+      "token": "Icon/On-Contrast",
+      "ref": "Main color/Gray-0",
+      "hex": "#FFFFFF"
+    },
+    {
+      "token": "Illustrations/Primary",
+      "ref": "Main color/Purple-700",
+      "hex": "#8B5ECB"
+    },
+    {
+      "token": "Illustrations/Secondary",
+      "ref": "Main color/Orange-700",
+      "hex": "#FFB330"
+    },
+    {
+      "token": "Illustrations/Tertiary",
+      "ref": "Main color/Gray-600",
+      "hex": "#555555"
+    },
+    {
+      "token": "Illustrations/Highlight",
+      "ref": "Main color/Purple-300",
+      "hex": "#ECE0FC"
+    },
+    {
+      "token": "Illustrations/Disable",
+      "ref": "Main color/Gray-200",
+      "hex": "#E0E0E0"
+    },
+    {
+      "token": "Action/Primary/Default",
+      "ref": "Main color/Primary-700",
+      "hex": "#1999A4"
+    },
+    {
+      "token": "Action/Primary/Pressed",
+      "ref": "Main color/Primary-800",
+      "hex": "#0F5B62"
+    },
+    {
+      "token": "Action/Secondary/Default",
+      "ref": "Main color/Primary-700",
+      "hex": "#1999A4"
+    },
+    {
+      "token": "Action/Secondary/Pressed",
+      "ref": "Main color/Primary-200",
+      "hex": "#D8F6F9"
+    },
+    {
+      "token": "Action/Tertiary/Default",
+      "ref": "Main color/Gray-200",
+      "hex": "#E0E0E0"
+    },
+    {
+      "token": "Action/Tertiary/Pressed",
+      "ref": "Main color/Gray-400",
+      "hex": "#A8A8A8"
+    },
+    {
+      "token": "Action/Disable/Disable",
+      "ref": "Main color/Gray-200",
+      "hex": "#E0E0E0"
+    },
+    {
+      "token": "Alert/Icon-Text/Error",
+      "ref": "Main color/Red-700",
+      "hex": "#E81818"
+    },
+    {
+      "token": "Alert/Icon-Text/Warning",
+      "ref": "Main color/Orange-700",
+      "hex": "#FFB330"
+    },
+    {
+      "token": "Alert/Icon-Text/Info",
+      "ref": "Main color/Primary-700",
+      "hex": "#1999A4"
+    },
+    {
+      "token": "Alert/Icon-Text/Success",
+      "ref": "Main color/Green-800",
+      "hex": "#2D7927"
+    },
+    {
+      "token": "Alert/Background/Error",
+      "ref": "Main color/Red-100",
+      "hex": "#FDECEC"
+    },
+    {
+      "token": "Alert/Background/Warning",
+      "ref": "Main color/Orange-200",
+      "hex": "#FDF6EB"
+    },
+    {
+      "token": "Alert/Background/Info",
+      "ref": "Main color/Primary-200",
+      "hex": "#D8F6F9"
+    },
+    {
+      "token": "Alert/Background/Success",
+      "ref": "Main color/Green-200",
+      "hex": "#E9F8E8"
+    }
+  ]
+}

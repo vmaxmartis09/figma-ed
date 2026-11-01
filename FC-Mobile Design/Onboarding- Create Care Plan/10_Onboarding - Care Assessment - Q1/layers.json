@@ -1,0 +1,291 @@
+{
+ "name": "Onboarding - Care Assessment - Q1",
+ "css": {
+  "display": "flex",
+  "flex-direction": "column",
+  "align-items": "center",
+  "padding": "0px",
+  "gap": "24px",
+  "isolation": "isolate",
+  "position": "relative",
+  "width": "375px",
+  "height": "1299px",
+  "left": "3400px",
+  "top": "615px",
+  "background": "#FFFFFF"
+ },
+ "children": [
+  {
+   "name": "Container",
+   "children": [
+    {
+     "name": "Status Bar (iPhone)",
+     "css": {
+      "display": "flex",
+      "flex-direction": "row",
+      "justify-content": "space-between",
+      "align-items": "center",
+      "padding": "18px 26px 14px 27px",
+      "gap": "205px",
+      "isolation": "isolate",
+      "width": "375px",
+      "height": "53px",
+      "flex": "none",
+      "order": "0",
+      "align-self": "stretch",
+      "flex-grow": "0"
+     },
+     "children": [
+      {
+       "name": "🧰/Time (iPhone)",
+       "css": {
+        "margin": "0 auto",
+        "width": "54px",
+        "height": "21px",
+        "flex": "none",
+        "order": "0",
+        "flex-grow": "0",
+        "z-index": "0"
+       },
+       "children": [
+        {
+         "name": "Time",
+         "css": {
+          "position": "absolute",
+          "width": "54px",
+          "height": "22px",
+          "left": "0px",
+          "top": "calc(50% - 22px/2 + 0.5px)"
+         }
+        }
+       ]
+      },
+      {
+       "name": "🧰/Cellular,Wifi,Battery (iPhone)",
+       "css": {
+        "margin": "0 auto",
+        "width": "78.26px",
+        "height": "13px",
+        "flex": "none",
+        "order": "1",
+        "flex-grow": "0",
+        "z-index": "1"
+       },
+       "children": [
+        {
+         "name": "Cellular Connection",
+         "css": {
+          "position": "absolute",
+          "left": "0%",
+          "right": "75.47%",
+          "top": "5.12%",
+          "bottom": "2.57%",
+          "background": "#121212"
+         },
+         "children": [
+          {
+           "name": "Cellular-Connection-path"
+          },
+          {
+           "name": "Cellular-Connection-path"
+          },
+          {
+           "name": "Cellular-Connection-path"
+          },
+          {
+           "name": "Cellular-Connection-path"
+          }
+         ]
+        },
+        {
+         "name": "Wifi",
+         "css": {
+          "position": "absolute",
+          "left": "33.99%",
+          "right": "44.29%",
+          "top": "5.12%",
+          "bottom": "2.57%",
+          "background": "#121212"
+         },
+         "children": [
+          {
+           "name": "Wifi-path"
+          },
+          {
+           "name": "No time"
+          },
+          {
+           "name": "Checkbox",
+           "children": [
+            {
+             "name": "Box"
+            },
+            {
+             "name": "Label"
+            }
+           ]
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Link",
+   "css": {
+    "display": "flex",
+    "flex-direction": "row",
+    "align-items": "center",
+    "padding": "0px",
+    "gap": "4px",
+    "position": "absolute",
+    "width": "122px",
+    "height": "22px",
+    "left": "29px",
+    "top": "770px",
+    "flex": "none",
+    "order": "2",
+    "flex-grow": "0",
+    "z-index": "2"
+   },
+   "children": [
+    {
+     "name": "Link text",
+     "css": {
+      "display": "none",
+      "width": "122px",
+      "height": "22px"
+     }
+    }
+   ]
+  },
+  {
+   "name": "Form",
+   "children": [
+    {
+     "name": "Frame 1000004580",
+     "css": {
+      "box-sizing": "border-box",
+      "display": "none",
+      "flex-direction": "row",
+      "justify-content": "space-between",
+      "align-items": "center",
+      "padding": "8px 16px",
+      "gap": "76px",
+      "width": "375px",
+      "height": "38px",
+      "background": "#FAFAFA",
+      "flex": "none",
+      "order": "0",
+      "align-self": "stretch",
+      "flex-grow": "0"
+     },
+     "children": [
+      {
+       "name": "Label"
+      },
+      {
+       "name": "Label"
+      }
+     ]
+    },
+    {
+     "name": "Checkbox container",
+     "css": {
+      "display": "flex",
+      "flex-direction": "column",
+      "align-items": "center",
+      "padding": "16px 24px",
+      "gap": "24px",
+      "width": "375px",
+      "height": "86px",
+      "background": "#FFFFFF",
+      "flex": "none",
+      "order": "1",
+      "align-self": "stretch",
+      "flex-grow": "0"
+     },
+     "children": [
+      {
+       "name": "Account prompt container",
+       "css": {
+        "display": "flex",
+        "flex-direction": "row",
+        "align-items": "flex-start",
+        "padding": "0px",
+        "gap": "24px",
+        "width": "327px",
+        "height": "54px",
+        "flex": "none",
+        "order": "0",
+        "align-self": "stretch",
+        "flex-grow": "0"
+       },
+       "children": [
+        {
+         "name": "Button",
+         "children": [
+          {
+           "name": "Base button/Primary",
+           "css": {
+            "display": "flex",
+            "flex-direction": "row",
+            "justify-content": "center",
+            "align-items": "center",
+            "padding": "16px 24px",
+            "gap": "8px",
+            "width": "327px",
+            "height": "54px",
+            "background": "#1999A4",
+            "border-radius": "8px",
+            "flex": "none",
+            "order": "0",
+            "flex-grow": "1"
+           },
+           "children": [
+            {
+             "name": "Button text",
+             "css": {
+              "width": "118px",
+              "height": "22px"
+             }
+            }
+           ]
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "name": "🧰/Home Indicator (iPhone)",
+     "css": {
+      "width": "375px",
+      "height": "34px",
+      "background": "#FFFFFF",
+      "flex": "none",
+      "order": "2",
+      "align-self": "stretch",
+      "flex-grow": "0"
+     },
+     "children": [
+      {
+       "name": "Home Indicator",
+       "css": {
+        "position": "absolute",
+        "width": "134px",
+        "height": "5px",
+        "left": "calc(50% - 134px/2 + 0.5px)",
+        "bottom": "8px"
+       }
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

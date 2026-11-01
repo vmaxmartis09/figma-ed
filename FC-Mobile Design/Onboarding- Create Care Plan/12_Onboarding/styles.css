@@ -1,0 +1,573 @@
+/* Onboarding */
+.onboarding {
+  position: relative;
+  width: 375px;
+  height: 815px;
+  left: 1758px;
+  top: 615px;
+  background: #FFFFFF;
+}
+
+/* Vector */
+.vector {
+  position: absolute;
+  width: 395px;
+  height: 364px;
+  left: 137px;
+  top: 449px;
+  background: #EEFBFC;
+}
+
+/* Status Bar (iPhone) */
+.status-bar-iphone {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 18px 26px 14px 27px;
+  gap: 205px;
+  isolation: isolate;
+  position: absolute;
+  width: 375px;
+  height: 53px;
+  left: 0px;
+  top: 0px;
+}
+
+/* 🧰/Time (iPhone) */
+.time-iphone {
+  margin: 0 auto;
+  width: 54px;
+  height: 21px;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  z-index: 0;
+}
+
+/* Time */
+.time {
+  position: absolute;
+  width: 54px;
+  height: 22px;
+  left: 0px;
+  top: calc(50% - 22px/2 + 0.5px);
+}
+
+/* Default/Body/Bold */
+.default-body-bold {
+  font-family: 'SF Pro Text';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 17px;
+  line-height: 22px;
+}
+
+/* identical to box height, or 129% */
+.identical-to-box-height-or-129 {
+  text-align: center;
+  letter-spacing: -0.408px;
+  font-feature-settings: 'case' on;
+  color: #121212;
+}
+
+/* 🧰/Cellular,Wifi,Battery (iPhone) */
+.cellular-wifi-battery-iphone {
+  margin: 0 auto;
+  width: 78.26px;
+  height: 13px;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  z-index: 1;
+}
+
+/* Battery */
+.battery {
+  position: absolute;
+  left: 65.08%;
+  right: 0%;
+  top: 0%;
+  bottom: 0%;
+}
+
+/* Border */
+.border {
+  box-sizing: border-box;
+  position: absolute;
+  left: 65.08%;
+  right: 2.97%;
+  top: 0%;
+  bottom: 0%;
+  mix-blend-mode: normal;
+  opacity: 0.35;
+  border: 1px solid #121212;
+  border-radius: 3.5px;
+}
+
+/* Cap */
+.cap {
+  position: absolute;
+  left: 98.3%;
+  right: 0%;
+  top: 35.89%;
+  bottom: 33.34%;
+  background: #121212;
+  mix-blend-mode: normal;
+  opacity: 0.4;
+}
+
+/* Capacity */
+.capacity {
+  position: absolute;
+  left: 67.64%;
+  right: 5.53%;
+  top: 15.38%;
+  bottom: 15.38%;
+  background: #121212;
+  border-radius: 1.33333px;
+}
+
+/* Wifi */
+.wifi {
+  position: absolute;
+  left: 33.99%;
+  right: 44.29%;
+  top: 5.12%;
+  bottom: 2.57%;
+  background: #121212;
+}
+
+/* Wifi-path */
+.wifi-path {
+  position: absolute;
+  left: 33.99%;
+  right: 44.29%;
+  top: 5.12%;
+  bottom: 56.42%;
+  background: #000000;
+}
+
+/* Wifi-path */
+.wifi-path-2 {
+  position: absolute;
+  left: 37.82%;
+  right: 48.12%;
+  top: 35.89%;
+  bottom: 33.34%;
+  background: #000000;
+}
+
+/* Wifi-path */
+.wifi-path-3 {
+  position: absolute;
+  left: 41.66%;
+  right: 51.96%;
+  top: 66.66%;
+  bottom: 2.57%;
+  background: #000000;
+}
+
+/* Cellular Connection */
+.cellular-connection {
+  position: absolute;
+  left: 0%;
+  right: 75.47%;
+  top: 5.12%;
+  bottom: 2.57%;
+  background: #121212;
+}
+
+/* Cellular-Connection-path */
+.cellular-connection-path {
+  position: absolute;
+  left: 0%;
+  right: 95.91%;
+  top: 62.05%;
+  bottom: 2.57%;
+  background: #000000;
+}
+
+/* Cellular-Connection-path */
+.cellular-connection-path-2 {
+  position: absolute;
+  left: 6.77%;
+  right: 89.14%;
+  top: 43.58%;
+  bottom: 2.57%;
+  background: #000000;
+}
+
+/* Cellular-Connection-path */
+.cellular-connection-path-3 {
+  position: absolute;
+  left: 13.67%;
+  right: 82.24%;
+  top: 23.59%;
+  bottom: 2.57%;
+  background: #000000;
+}
+
+/* Cellular-Connection-path */
+.cellular-connection-path-4 {
+  position: absolute;
+  left: 20.44%;
+  right: 75.47%;
+  top: 5.12%;
+  bottom: 2.57%;
+  background: #000000;
+}
+
+/* Floating island */
+.floating-island {
+  position: absolute;
+  display: none;
+  width: 127px;
+  height: 37px;
+  left: calc(50% - 127px/2 + 1px);
+  top: calc(50% - 37px/2 + 3px);
+  background: #000000;
+  border-radius: 18.5px;
+  flex: none;
+  order: 2;
+  flex-grow: 0;
+  z-index: 2;
+}
+
+/* Link */
+.link {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+  gap: 4px;
+  position: absolute;
+  width: 122px;
+  height: 22px;
+  left: 29px;
+  top: 770px;
+}
+
+/* Link text */
+.link-text {
+  display: none;
+  width: 122px;
+  height: 22px;
+}
+
+/* Body L/Medium (Under) */
+.body-l-medium-under {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 22px;
+}
+
+/* identical to box height, or 138% */
+.identical-to-box-height-or-138 {
+  text-align: center;
+  text-decoration-line: underline;
+  color: #1999A4;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+/* 🧰/Home Indicator (iPhone) */
+.home-indicator-iphone {
+  position: absolute;
+  width: 375px;
+  height: 34px;
+  left: 0px;
+  bottom: 0px;
+}
+
+/* Home Indicator */
+.home-indicator {
+  position: absolute;
+  width: 134px;
+  height: 5px;
+  left: calc(50% - 134px/2 + 0.5px);
+  bottom: 8px;
+}
+
+/* System Colours/Default Colors/SystemWhite&Black/Dark */
+.system-colours-default-colors-systemwhite-black-dark {
+  background: #000000;
+  border-radius: 100px;
+}
+
+/* Container */
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0px;
+  gap: 24px;
+  position: absolute;
+  width: 343px;
+  height: 436px;
+  left: 16px;
+  top: calc(50% - 436px/2 - 0.5px);
+}
+
+/* Pending */
+.pending {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 4px;
+  gap: 10px;
+  width: 64px;
+  height: 64px;
+  background: #ECE0FC;
+  border-radius: 16px;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+/* propaganda 1 */
+.propaganda-1 {
+  width: 56px;
+  height: 56px;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+/* Vector */
+.vector-2 {
+  position: absolute;
+  left: 10.94%;
+  right: 10.94%;
+  top: 9.38%;
+  bottom: 9.38%;
+  background: #8B5ECB;
+}
+
+/* Content Container */
+.content-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 32px;
+  width: 343px;
+  height: 348px;
+  flex: none;
+  order: 1;
+  align-self: stretch;
+  flex-grow: 0;
+}
+
+/* Frame 1000004713 */
+.frame-1000004713 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 24px;
+  width: 343px;
+  height: 262px;
+  flex: none;
+  order: 0;
+  align-self: stretch;
+  flex-grow: 0;
+}
+
+/* Text Section */
+.text-section {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 16px;
+  width: 343px;
+  height: 124px;
+  flex: none;
+  order: 0;
+  align-self: stretch;
+  flex-grow: 0;
+}
+
+/* Title */
+.title {
+  width: 343px;
+  height: 64px;
+}
+
+/* Heading 6/Bold */
+.heading-6-bold {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 32px;
+}
+
+/* or 123% */
+.or-123 {
+  text-align: center;
+  letter-spacing: -0.01em;
+  color: #121212;
+  flex: none;
+  order: 0;
+  align-self: stretch;
+  flex-grow: 0;
+}
+
+/* Description */
+.description {
+  width: 343px;
+  height: 44px;
+}
+
+/* Body L/Regular */
+.body-l-regular {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+}
+
+/* or 138% */
+.or-138 {
+  text-align: center;
+  color: #555555;
+  flex: none;
+  order: 1;
+  align-self: stretch;
+  flex-grow: 0;
+}
+
+/* Bubble Info */
+.bubble-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 16px 24px;
+  gap: 8px;
+  isolation: isolate;
+  width: 327px;
+  height: 114px;
+  background: #F1F1F1;
+  border-radius: 8px;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+/* It only takes a few minutes: • Tell us about your loved one • Answer a few simple questions */
+.it-only-takes-a-few-minutes-tell-us-about-your-loved-one-answer-a-few-simple-questions {
+  width: 279px;
+  height: 82px;
+}
+
+/* Body L/Regular */
+.body-l-regular-2 {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+}
+
+/* or 138% */
+.or-138-2 {
+  text-align: center;
+  color: #121212;
+  flex: none;
+  order: 0;
+  align-self: stretch;
+  flex-grow: 0;
+  z-index: 0;
+}
+
+/* Polygon 1 */
+.polygon-1 {
+  position: absolute;
+  width: 25.59px;
+  height: 20.5px;
+  left: 50px;
+  top: -20px;
+  background: #F1F1F1;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  z-index: 1;
+}
+
+/* Button Container */
+.button-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 24px;
+  width: 343px;
+  height: 54px;
+  flex: none;
+  order: 1;
+  align-self: stretch;
+  flex-grow: 0;
+}
+
+/* Button Wrapper */
+.button-wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 24px;
+  width: 343px;
+  height: 54px;
+  flex: none;
+  order: 0;
+  align-self: stretch;
+  flex-grow: 0;
+}
+
+/* Base button/Primary */
+.base-button-primary {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 16px 24px;
+  gap: 8px;
+  width: 343px;
+  height: 54px;
+  background: #1999A4;
+  border-radius: 8px;
+  flex: none;
+  order: 0;
+  flex-grow: 1;
+}
+
+/* Button text */
+.button-text {
+  width: 116px;
+  height: 22px;
+}
+
+/* Body L/Semi */
+.body-l-semi {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 22px;
+}
+
+/* identical to box height, or 138% */
+.identical-to-box-height-or-138-2 {
+  text-align: center;
+  color: #FFFFFF;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}

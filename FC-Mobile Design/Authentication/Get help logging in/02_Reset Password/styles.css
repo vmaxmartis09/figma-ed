@@ -1,0 +1,2370 @@
+/* Reset Password */
+.reset-password {
+  position: relative;
+  width: 375px;
+  height: 815px;
+  left: 2280px;
+  top: 508px;
+  background: #FFFFFF;
+}
+
+/* Status Bar (iPhone) */
+.status-bar-iphone {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 18px 26px 14px 27px;
+  gap: 205px;
+  isolation: isolate;
+  position: absolute;
+  width: 375px;
+  height: 53px;
+  left: 0px;
+  top: 0px;
+}
+
+/* 🧰/Time (iPhone) */
+.time-iphone {
+  margin: 0 auto;
+  width: 54px;
+  height: 21px;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  z-index: 0;
+}
+
+/* Time */
+.time {
+  position: absolute;
+  width: 54px;
+  height: 22px;
+  left: 0px;
+  top: calc(50% - 22px/2 + 0.5px);
+}
+
+/* Default/Body/Bold */
+.default-body-bold {
+  font-family: 'SF Pro Text';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 17px;
+  line-height: 22px;
+}
+
+/* identical to box height, or 129% */
+.identical-to-box-height-or-129 {
+  text-align: center;
+  letter-spacing: -0.408px;
+  font-feature-settings: 'case' on;
+  color: #121212;
+}
+
+/* 🧰/Cellular,Wifi,Battery (iPhone) */
+.cellular-wifi-battery-iphone {
+  margin: 0 auto;
+  width: 78.26px;
+  height: 13px;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  z-index: 1;
+}
+
+/* Battery */
+.battery {
+  position: absolute;
+  left: 65.08%;
+  right: 0%;
+  top: 0%;
+  bottom: 0%;
+}
+
+/* Border */
+.border {
+  box-sizing: border-box;
+  position: absolute;
+  left: 65.08%;
+  right: 2.97%;
+  top: 0%;
+  bottom: 0%;
+  mix-blend-mode: normal;
+  opacity: 0.35;
+  border: 1px solid #121212;
+  border-radius: 3.5px;
+}
+
+/* Cap */
+.cap {
+  position: absolute;
+  left: 98.3%;
+  right: 0%;
+  top: 35.9%;
+  bottom: 33.33%;
+  background: #121212;
+  mix-blend-mode: normal;
+  opacity: 0.4;
+}
+
+/* Capacity */
+.capacity {
+  position: absolute;
+  left: 67.64%;
+  right: 5.53%;
+  top: 15.38%;
+  bottom: 15.38%;
+  background: #121212;
+  border-radius: 1.33333px;
+}
+
+/* Wifi */
+.wifi {
+  position: absolute;
+  left: 33.99%;
+  right: 44.29%;
+  top: 5.13%;
+  bottom: 2.56%;
+  background: #121212;
+}
+
+/* Wifi-path */
+.wifi-path {
+  position: absolute;
+  left: 33.99%;
+  right: 44.29%;
+  top: 5.13%;
+  bottom: 56.41%;
+  background: #000000;
+}
+
+/* Wifi-path */
+.wifi-path-2 {
+  position: absolute;
+  left: 37.82%;
+  right: 48.12%;
+  top: 35.9%;
+  bottom: 33.33%;
+  background: #000000;
+}
+
+/* Wifi-path */
+.wifi-path-3 {
+  position: absolute;
+  left: 41.66%;
+  right: 51.96%;
+  top: 66.67%;
+  bottom: 2.56%;
+  background: #000000;
+}
+
+/* Cellular Connection */
+.cellular-connection {
+  position: absolute;
+  left: 0%;
+  right: 75.47%;
+  top: 5.13%;
+  bottom: 2.56%;
+  background: #121212;
+}
+
+/* Cellular-Connection-path */
+.cellular-connection-path {
+  position: absolute;
+  left: 0%;
+  right: 95.91%;
+  top: 62.05%;
+  bottom: 2.56%;
+  background: #000000;
+}
+
+/* Cellular-Connection-path */
+.cellular-connection-path-2 {
+  position: absolute;
+  left: 6.77%;
+  right: 89.14%;
+  top: 43.59%;
+  bottom: 2.56%;
+  background: #000000;
+}
+
+/* Cellular-Connection-path */
+.cellular-connection-path-3 {
+  position: absolute;
+  left: 13.67%;
+  right: 82.24%;
+  top: 23.59%;
+  bottom: 2.56%;
+  background: #000000;
+}
+
+/* Cellular-Connection-path */
+.cellular-connection-path-4 {
+  position: absolute;
+  left: 20.44%;
+  right: 75.47%;
+  top: 5.13%;
+  bottom: 2.56%;
+  background: #000000;
+}
+
+/* Floating island */
+.floating-island {
+  position: absolute;
+  display: none;
+  width: 127px;
+  height: 37px;
+  left: calc(50% - 127px/2 + 1px);
+  top: calc(50% - 37px/2 + 3px);
+  background: #000000;
+  border-radius: 18.5px;
+  flex: none;
+  order: 2;
+  flex-grow: 0;
+  z-index: 2;
+}
+
+/* Link */
+.link {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+  gap: 4px;
+  position: absolute;
+  width: 122px;
+  height: 22px;
+  left: 29px;
+  top: 770px;
+}
+
+/* Link text */
+.link-text {
+  display: none;
+  width: 122px;
+  height: 22px;
+}
+
+/* Body L/Medium (Under) */
+.body-l-medium-under {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 22px;
+}
+
+/* identical to box height, or 138% */
+.identical-to-box-height-or-138 {
+  text-align: center;
+  text-decoration-line: underline;
+  color: #1999A4;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+/* 🧰/Home Indicator (iPhone) */
+.home-indicator-iphone {
+  position: absolute;
+  width: 375px;
+  height: 34px;
+  left: 0px;
+  bottom: 0px;
+  background: #FFFFFF;
+}
+
+/* Home Indicator */
+.home-indicator {
+  position: absolute;
+  width: 134px;
+  height: 5px;
+  left: calc(50% - 134px/2 + 0.5px);
+  bottom: 8px;
+}
+
+/* System Colours/Default Colors/SystemWhite&Black/Dark */
+.system-colours-default-colors-systemwhite-black-dark {
+  background: #000000;
+  border-radius: 100px;
+}
+
+/* Forgot Password Form */
+.forgot-password-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0px;
+  gap: 24px;
+  position: absolute;
+  width: 343px;
+  height: 546px;
+  left: calc(50% - 343px/2);
+  top: 73px;
+}
+
+/* Password */
+.password {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 4px;
+  gap: 10px;
+  width: 64px;
+  height: 64px;
+  background: #ECE0FC;
+  border-radius: 16px;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+/* forgot-password (1) 1 */
+.forgot-password-1-1 {
+  width: 56px;
+  height: 56px;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+/* Group */
+.group {
+  position: absolute;
+  left: 16.07%;
+  right: 24.29%;
+  top: 9.68%;
+  bottom: 11.27%;
+}
+
+/* Group */
+.group-2 {
+  position: absolute;
+  left: 24.89%;
+  right: 33.11%;
+  top: 9.68%;
+  bottom: 59.08%;
+}
+
+/* Vector */
+.vector {
+  position: absolute;
+  left: 24.89%;
+  right: 33.11%;
+  top: 9.68%;
+  bottom: 59.08%;
+  background: #555555;
+}
+
+/* Group */
+.group-3 {
+  position: absolute;
+  left: 16.07%;
+  right: 24.29%;
+  top: 39.31%;
+  bottom: 11.27%;
+}
+
+/* Union */
+.union {
+  position: absolute;
+  width: 33.4px;
+  height: 27.68px;
+  left: 9px;
+  top: 22.01px;
+  background: #8B5ECB;
+}
+
+/* Vector */
+.vector-2 {
+  position: absolute;
+  left: 16.07%;
+  right: 24.29%;
+  top: 39.31%;
+  bottom: 11.27%;
+  background: #8B5ECB;
+}
+
+/* Vector */
+.vector-3 {
+  position: absolute;
+  left: 16.07%;
+  right: 24.29%;
+  top: 39.31%;
+  bottom: 11.27%;
+  background: #8B5ECB;
+  transform: matrix(-1, 0, 0, 1, 0, 0);
+}
+
+/* Group */
+.group-4 {
+  position: absolute;
+  left: 28.85%;
+  right: 3.67%;
+  top: 48.21%;
+  bottom: 14.95%;
+}
+
+/* Vector */
+.vector-4 {
+  position: absolute;
+  left: 28.85%;
+  right: 3.67%;
+  top: 48.21%;
+  bottom: 14.95%;
+  background: #FFB330;
+}
+
+/* Group */
+.group-5 {
+  position: absolute;
+  left: 37.5%;
+  right: 12.32%;
+  top: 53.69%;
+  bottom: 31.22%;
+}
+
+/* Vector */
+.vector-5 {
+  position: absolute;
+  left: 37.5%;
+  right: 49.06%;
+  top: 53.69%;
+  bottom: 31.22%;
+  background: #FFFFFF;
+}
+
+/* Vector */
+.vector-6 {
+  position: absolute;
+  left: 55.87%;
+  right: 30.69%;
+  top: 53.69%;
+  bottom: 31.22%;
+  background: #FFFFFF;
+}
+
+/* Vector */
+.vector-7 {
+  position: absolute;
+  left: 74.24%;
+  right: 12.32%;
+  top: 53.69%;
+  bottom: 31.22%;
+  background: #FFFFFF;
+}
+
+/* Password Container */
+.password-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 32px;
+  width: 343px;
+  height: 458px;
+  flex: none;
+  order: 1;
+  align-self: stretch;
+  flex-grow: 0;
+}
+
+/* Header Container */
+.header-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 12px;
+  width: 343px;
+  height: 32px;
+  flex: none;
+  order: 0;
+  align-self: stretch;
+  flex-grow: 0;
+}
+
+/* Header */
+.header {
+  width: 343px;
+  height: 32px;
+}
+
+/* Heading 6/Bold */
+.heading-6-bold {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 32px;
+}
+
+/* identical to box height, or 123% */
+.identical-to-box-height-or-123 {
+  text-align: center;
+  letter-spacing: -0.01em;
+  color: #121212;
+  flex: none;
+  order: 0;
+  align-self: stretch;
+  flex-grow: 0;
+}
+
+/* Password Fields Container */
+.password-fields-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 20px;
+  width: 343px;
+  height: 308px;
+  flex: none;
+  order: 1;
+  align-self: stretch;
+  flex-grow: 0;
+}
+
+/* Password Field Container */
+.password-field-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 12px;
+  width: 343px;
+  height: 214px;
+  flex: none;
+  order: 0;
+  align-self: stretch;
+  flex-grow: 0;
+}
+
+/* Dropdown field */
+.dropdown-field {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  width: 343px;
+  height: 74px;
+  flex: none;
+  order: 0;
+  align-self: stretch;
+  flex-grow: 0;
+}
+
+/* Base/ Dropdown field (Multiple) */
+.base-dropdown-field-multiple {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 4px;
+  width: 343px;
+  height: 74px;
+  flex: none;
+  order: 0;
+  align-self: stretch;
+  flex-grow: 0;
+}
+
+/* Container */
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 6px;
+  width: 343px;
+  height: 74px;
+  flex: none;
+  order: 0;
+  align-self: stretch;
+  flex-grow: 0;
+}
+
+/* Label */
+.label {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+  gap: 4px;
+  width: 93px;
+  height: 20px;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+/* Label */
+.label-2 {
+  width: 93px;
+  height: 20px;
+}
+
+/* Body M/Medium */
+.body-m-medium {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+/* identical to box height, or 143% */
+.identical-to-box-height-or-143 {
+  display: flex;
+  align-items: center;
+  color: #555555;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+/* * */
+.layer {
+  display: none;
+  width: 7px;
+  height: 20px;
+}
+
+/* Body M/Regular */
+.body-m-regular {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+/* identical to box height, or 143% */
+.identical-to-box-height-or-143-2 {
+  color: #E81818;
+  flex: none;
+  order: 2;
+  flex-grow: 0;
+  ymbol: Help</p>
+*/
+
+display: none;
+  width: 20px;
+  height: 20px;
+}
+
+/* Ellipse 142 */
+.ellipse-142 {
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  left: calc(50% - 16px/2);
+  top: calc(50% - 16px/2);
+  background: #FFFFFF;
+}
+
+/* icon toogletip */
+.icon-toogletip {
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  left: calc(50% - 16px/2);
+  top: calc(50% - 16px/2);
+}
+
+/* icon */
+.icon {
+  position: absolute;
+  left: 0%;
+  right: 0%;
+  top: 0%;
+  bottom: 0%;
+  background: #1999A4;
+}
+
+/* Input */
+.input {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 13px 12px;
+  gap: 6px;
+  width: 343px;
+  height: 48px;
+  background: #FFFFFF;
+  border: 1px solid #C8C8C8;
+  border-radius: 8px;
+  flex: none;
+  order: 1;
+  align-self: stretch;
+  flex-grow: 0;
+}
+
+/* Placeholder */
+.placeholder {
+  width: 293px;
+  height: 22px;
+}
+
+/* Body L/Regular */
+.body-l-regular {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+}
+
+/* identical to box height, or 138% */
+.identical-to-box-height-or-138-2 {
+  display: flex;
+  align-items: center;
+  color: #A8A8A8;
+  flex: none;
+  order: 0;
+  flex-grow: 1;
+}
+
+/* eye on */
+.eye-on {
+  width: 20px;
+  height: 20px;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+/* Vector */
+.vector-8 {
+  position: absolute;
+  left: 1.04%;
+  right: 1.04%;
+  top: 13.54%;
+  bottom: 13.54%;
+  background: #121212;
+}
+
+/* Help text */
+.help-text {
+  display: none;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 4px;
+  width: 320px;
+  height: 20px;
+  flex: none;
+  order: 1;
+  align-self: stretch;
+  flex-grow: 0;
+}
+
+/* Icon Error */
+.icon-error {
+  display: none;
+  width: 12px;
+  height: 12px;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+/* Message */
+.message {
+  width: 320px;
+  height: 20px;
+}
+
+/* Body M/Regular */
+.body-m-regular-2 {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+/* identical to box height, or 143% */
+.identical-to-box-height-or-143-3 {
+  display: flex;
+  align-items: center;
+  color: #555555;
+  flex: none;
+  order: 1;
+  flex-grow: 1;
+}
+
+/* Password Requirements Container */
+.password-requirements-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 4px;
+  width: 285px;
+  height: 128px;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+/* Password Requirements Heading */
+.password-requirements-heading {
+  width: 275px;
+  height: 18px;
+}
+
+/* Body S/Semi */
+.body-s-semi {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 18px;
+}
+
+/* identical to box height, or 150% */
+.identical-to-box-height-or-150 {
+  text-align: center;
+  color: #121212;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+/* Requirement Container */
+.requirement-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 4px;
+  width: 150px;
+  height: 18px;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+/* Requirement Details Container */
+.requirement-details-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+  gap: 4px;
+  width: 150px;
+  height: 18px;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+/* Requirement Icon */
+.requirement-icon {
+  width: 12px;
+  height: 12px;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+/* Vector */
+.vector-9 {
+  position: absolute;
+  left: 13.54%;
+  right: 13.54%;
+  top: 21.88%;
+  bottom: 26.04%;
+  background: #A8A8A8;
+}
+
+/* Requirement Text */
+.requirement-text {
+  width: 134px;
+  height: 18px;
+}
+
+/* Body S/Regular */
+.body-s-regular {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 18px;
+}
+
+/* identical to box height, or 150% */
+.identical-to-box-height-or-150-2 {
+  text-align: center;
+  color: #121212;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+/* Frame 1000004428 */
+.frame-1000004428 {
+  display: none;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+  gap: 4px;
+  width: 291px;
+  height: 20px;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+/* check */
+.check {
+  width: 12px;
+  height: 12px;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+/* Vector (Stroke) */
+.vector-stroke {
+  position: absolute;
+  left: 13.54%;
+  right: 13.54%;
+  top: 21.88%;
+  bottom: 26.04%;
+  background: #BDBDBD;
+}
+
+/* Include at least 1 number or special character */
+.include-at-least-1-number-or-special-character {
+  width: 275px;
+  height: 20px;
+}
+
+/* Body M/Medium */
+.body-m-medium-2 {
+  font-family: 'Barlow';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+/* identical to box height, or 143% */
+.identical-to-box-height-or-143-4 {
+  text-align: center;
+  color: #616161;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+/* Frame 1000004429 */
+.frame-1000004429 {
+  display: none;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+  gap: 4px;
+  width: 244px;
+  height: 20px;
+  flex: none;
+  order: 2;
+  flex-grow: 0;
+}
+
+/* check */
+.check-2 {
+  width: 12px;
+  height: 12px;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+/* Vector (Stroke) */
+.vector-stroke-2 {
+  position: absolute;
+  left: 13.54%;
+  right: 13.54%;
+  top: 21.88%;
+  bottom: 26.04%;
+  background: #BDBDBD;
+}
+
+/* Include at least 1 lowercase character */
+.include-at-least-1-lowercase-character {
+  width: 228px;
+  height: 20px;
+}
+
+/* Body M/Medium */
+.body-m-medium-3 {
+  font-family: 'Barlow';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+/* identical to box height, or 143% */
+.identical-to-box-height-or-143-5 {
+  text-align: center;
+  color: #616161;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+/* Frame 1000004427 */
+.frame-1000004427 {
+  display: none;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+  gap: 4px;
+  width: 246px;
+  height: 20px;
+  flex: none;
+  order: 3;
+  flex-grow: 0;
+}
+
+/* check */
+.check-3 {
+  width: 12px;
+  height: 12px;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+/* Vector (Stroke) */
+.vector-stroke-3 {
+  position: absolute;
+  left: 13.54%;
+  right: 13.54%;
+  top: 21.88%;
+  bottom: 26.04%;
+  background: #BDBDBD;
+}
+
+/* Include at least 1 uppercase character */
+.include-at-least-1-uppercase-character {
+  width: 230px;
+  height: 20px;
+}
+
+/* Body M/Medium */
+.body-m-medium-4 {
+  font-family: 'Barlow';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+/* identical to box height, or 143% */
+.identical-to-box-height-or-143-6 {
+  text-align: center;
+  color: #616161;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+/* Requirement Container */
+.requirement-container-2 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 4px;
+  width: 186px;
+  height: 18px;
+  flex: none;
+  order: 2;
+  flex-grow: 0;
+}
+
+/* Requirement Details Container */
+.requirement-details-container-2 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+  gap: 4px;
+  width: 186px;
+  height: 18px;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+/* Requirement Icon */
+.requirement-icon-2 {
+  width: 12px;
+  height: 12px;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+/* Vector */
+.vector-10 {
+  position: absolute;
+  left: 13.54%;
+  right: 13.54%;
+  top: 21.88%;
+  bottom: 26.04%;
+  background: #A8A8A8;
+}
+
+/* Requirement Text */
+.requirement-text-2 {
+  width: 170px;
+  height: 18px;
+}
+
+/* Body S/Regular */
+.body-s-regular-2 {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 18px;
+}
+
+/* identical to box height, or 150% */
+.identical-to-box-height-or-150-3 {
+  text-align: center;
+  color: #121212;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+/* Frame 1000004428 */
+.frame-1000004428-2 {
+  display: none;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+  gap: 4px;
+  width: 291px;
+  height: 20px;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+/* check */
+.check-4 {
+  width: 12px;
+  height: 12px;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+/* Vector (Stroke) */
+.vector-stroke-4 {
+  position: absolute;
+  left: 13.54%;
+  right: 13.54%;
+  top: 21.88%;
+  bottom: 26.04%;
+  background: #BDBDBD;
+}
+
+/* Include at least 1 number or special character */
+.include-at-least-1-number-or-special-character-2 {
+  width: 275px;
+  height: 20px;
+}
+
+/* Body M/Medium */
+.body-m-medium-5 {
+  font-family: 'Barlow';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+/* identical to box height, or 143% */
+.identical-to-box-height-or-143-7 {
+  text-align: center;
+  color: #616161;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+/* Frame 1000004429 */
+.frame-1000004429-2 {
+  display: none;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+  gap: 4px;
+  width: 244px;
+  height: 20px;
+  flex: none;
+  order: 2;
+  flex-grow: 0;
+}
+
+/* check */
+.check-5 {
+  width: 12px;
+  height: 12px;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+/* Vector (Stroke) */
+.vector-stroke-5 {
+  position: absolute;
+  left: 13.54%;
+  right: 13.54%;
+  top: 21.88%;
+  bottom: 26.04%;
+  background: #BDBDBD;
+}
+
+/* Include at least 1 lowercase character */
+.include-at-least-1-lowercase-character-2 {
+  width: 228px;
+  height: 20px;
+}
+
+/* Body M/Medium */
+.body-m-medium-6 {
+  font-family: 'Barlow';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+/* identical to box height, or 143% */
+.identical-to-box-height-or-143-8 {
+  text-align: center;
+  color: #616161;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+/* Frame 1000004427 */
+.frame-1000004427-2 {
+  display: none;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+  gap: 4px;
+  width: 246px;
+  height: 20px;
+  flex: none;
+  order: 3;
+  flex-grow: 0;
+}
+
+/* check */
+.check-6 {
+  width: 12px;
+  height: 12px;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+/* Vector (Stroke) */
+.vector-stroke-6 {
+  position: absolute;
+  left: 13.54%;
+  right: 13.54%;
+  top: 21.88%;
+  bottom: 26.04%;
+  background: #BDBDBD;
+}
+
+/* Include at least 1 uppercase character */
+.include-at-least-1-uppercase-character-2 {
+  width: 230px;
+  height: 20px;
+}
+
+/* Body M/Medium */
+.body-m-medium-7 {
+  font-family: 'Barlow';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+/* identical to box height, or 143% */
+.identical-to-box-height-or-143-9 {
+  text-align: center;
+  color: #616161;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+/* Requirement Container */
+.requirement-container-3 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 4px;
+  width: 190px;
+  height: 18px;
+  flex: none;
+  order: 3;
+  flex-grow: 0;
+}
+
+/* Requirement Details Container */
+.requirement-details-container-3 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+  gap: 4px;
+  width: 190px;
+  height: 18px;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+/* Requirement Icon */
+.requirement-icon-3 {
+  width: 12px;
+  height: 12px;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+/* Vector */
+.vector-11 {
+  position: absolute;
+  left: 13.54%;
+  right: 13.54%;
+  top: 21.88%;
+  bottom: 26.04%;
+  background: #A8A8A8;
+}
+
+/* Requirement Text */
+.requirement-text-3 {
+  width: 174px;
+  height: 18px;
+}
+
+/* Body S/Regular */
+.body-s-regular-3 {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 18px;
+}
+
+/* identical to box height, or 150% */
+.identical-to-box-height-or-150-4 {
+  text-align: center;
+  color: #121212;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+/* Frame 1000004428 */
+.frame-1000004428-3 {
+  display: none;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+  gap: 4px;
+  width: 291px;
+  height: 20px;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+/* check */
+.check-7 {
+  width: 12px;
+  height: 12px;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+/* Vector (Stroke) */
+.vector-stroke-7 {
+  position: absolute;
+  left: 13.54%;
+  right: 13.54%;
+  top: 21.88%;
+  bottom: 26.04%;
+  background: #BDBDBD;
+}
+
+/* Include at least 1 number or special character */
+.include-at-least-1-number-or-special-character-3 {
+  width: 275px;
+  height: 20px;
+}
+
+/* Body M/Medium */
+.body-m-medium-8 {
+  font-family: 'Barlow';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+/* identical to box height, or 143% */
+.identical-to-box-height-or-143-10 {
+  text-align: center;
+  color: #616161;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+/* Frame 1000004429 */
+.frame-1000004429-3 {
+  display: none;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+  gap: 4px;
+  width: 244px;
+  height: 20px;
+  flex: none;
+  order: 2;
+  flex-grow: 0;
+}
+
+/* check */
+.check-8 {
+  width: 12px;
+  height: 12px;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+/* Vector (Stroke) */
+.vector-stroke-8 {
+  position: absolute;
+  left: 13.54%;
+  right: 13.54%;
+  top: 21.88%;
+  bottom: 26.04%;
+  background: #BDBDBD;
+}
+
+/* Include at least 1 lowercase character */
+.include-at-least-1-lowercase-character-3 {
+  width: 228px;
+  height: 20px;
+}
+
+/* Body M/Medium */
+.body-m-medium-9 {
+  font-family: 'Barlow';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+/* identical to box height, or 143% */
+.identical-to-box-height-or-143-11 {
+  text-align: center;
+  color: #616161;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+/* Frame 1000004427 */
+.frame-1000004427-3 {
+  display: none;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+  gap: 4px;
+  width: 246px;
+  height: 20px;
+  flex: none;
+  order: 3;
+  flex-grow: 0;
+}
+
+/* check */
+.check-9 {
+  width: 12px;
+  height: 12px;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+/* Vector (Stroke) */
+.vector-stroke-9 {
+  position: absolute;
+  left: 13.54%;
+  right: 13.54%;
+  top: 21.88%;
+  bottom: 26.04%;
+  background: #BDBDBD;
+}
+
+/* Include at least 1 uppercase character */
+.include-at-least-1-uppercase-character-3 {
+  width: 230px;
+  height: 20px;
+}
+
+/* Body M/Medium */
+.body-m-medium-10 {
+  font-family: 'Barlow';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+/* identical to box height, or 143% */
+.identical-to-box-height-or-143-12 {
+  text-align: center;
+  color: #616161;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+/* Requirement Container */
+.requirement-container-4 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 4px;
+  width: 149px;
+  height: 18px;
+  flex: none;
+  order: 4;
+  flex-grow: 0;
+}
+
+/* Requirement Details Container */
+.requirement-details-container-4 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+  gap: 4px;
+  width: 149px;
+  height: 18px;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+/* Requirement Icon */
+.requirement-icon-4 {
+  width: 12px;
+  height: 12px;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+/* Vector */
+.vector-12 {
+  position: absolute;
+  left: 13.54%;
+  right: 13.54%;
+  top: 21.88%;
+  bottom: 26.04%;
+  background: #A8A8A8;
+}
+
+/* Requirement Text */
+.requirement-text-4 {
+  width: 133px;
+  height: 18px;
+}
+
+/* Body S/Regular */
+.body-s-regular-4 {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 18px;
+}
+
+/* identical to box height, or 150% */
+.identical-to-box-height-or-150-5 {
+  text-align: center;
+  color: #121212;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+/* Frame 1000004428 */
+.frame-1000004428-4 {
+  display: none;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+  gap: 4px;
+  width: 291px;
+  height: 20px;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+/* check */
+.check-10 {
+  width: 12px;
+  height: 12px;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+/* Vector (Stroke) */
+.vector-stroke-10 {
+  position: absolute;
+  left: 13.54%;
+  right: 13.54%;
+  top: 21.88%;
+  bottom: 26.04%;
+  background: #BDBDBD;
+}
+
+/* Include at least 1 number or special character */
+.include-at-least-1-number-or-special-character-4 {
+  width: 275px;
+  height: 20px;
+}
+
+/* Body M/Medium */
+.body-m-medium-11 {
+  font-family: 'Barlow';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+/* identical to box height, or 143% */
+.identical-to-box-height-or-143-13 {
+  text-align: center;
+  color: #616161;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+/* Frame 1000004429 */
+.frame-1000004429-4 {
+  display: none;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+  gap: 4px;
+  width: 244px;
+  height: 20px;
+  flex: none;
+  order: 2;
+  flex-grow: 0;
+}
+
+/* check */
+.check-11 {
+  width: 12px;
+  height: 12px;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+/* Vector (Stroke) */
+.vector-stroke-11 {
+  position: absolute;
+  left: 13.54%;
+  right: 13.54%;
+  top: 21.88%;
+  bottom: 26.04%;
+  background: #BDBDBD;
+}
+
+/* Include at least 1 lowercase character */
+.include-at-least-1-lowercase-character-4 {
+  width: 228px;
+  height: 20px;
+}
+
+/* Body M/Medium */
+.body-m-medium-12 {
+  font-family: 'Barlow';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+/* identical to box height, or 143% */
+.identical-to-box-height-or-143-14 {
+  text-align: center;
+  color: #616161;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+/* Frame 1000004427 */
+.frame-1000004427-4 {
+  display: none;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+  gap: 4px;
+  width: 246px;
+  height: 20px;
+  flex: none;
+  order: 3;
+  flex-grow: 0;
+}
+
+/* check */
+.check-12 {
+  width: 12px;
+  height: 12px;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+/* Vector (Stroke) */
+.vector-stroke-12 {
+  position: absolute;
+  left: 13.54%;
+  right: 13.54%;
+  top: 21.88%;
+  bottom: 26.04%;
+  background: #BDBDBD;
+}
+
+/* Include at least 1 uppercase character */
+.include-at-least-1-uppercase-character-4 {
+  width: 230px;
+  height: 20px;
+}
+
+/* Body M/Medium */
+.body-m-medium-13 {
+  font-family: 'Barlow';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+/* identical to box height, or 143% */
+.identical-to-box-height-or-143-15 {
+  text-align: center;
+  color: #616161;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+/* Password Requirements Item Container */
+.password-requirements-item-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 4px;
+  width: 285px;
+  height: 18px;
+  flex: none;
+  order: 5;
+  flex-grow: 0;
+}
+
+/* Password Requirements Item */
+.password-requirements-item {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+  gap: 4px;
+  width: 285px;
+  height: 18px;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+/* Check Icon */
+.check-icon {
+  width: 12px;
+  height: 12px;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+/* Vector */
+.vector-13 {
+  position: absolute;
+  left: 13.54%;
+  right: 13.54%;
+  top: 21.88%;
+  bottom: 26.04%;
+  background: #A8A8A8;
+}
+
+/* Requirement Text */
+.requirement-text-5 {
+  width: 269px;
+  height: 18px;
+}
+
+/* Body S/Regular */
+.body-s-regular-5 {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 18px;
+}
+
+/* identical to box height, or 150% */
+.identical-to-box-height-or-150-6 {
+  text-align: center;
+  color: #121212;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+/* Frame 1000004428 */
+.frame-1000004428-5 {
+  display: none;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+  gap: 4px;
+  width: 291px;
+  height: 20px;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+/* check */
+.check-13 {
+  width: 12px;
+  height: 12px;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+/* Vector (Stroke) */
+.vector-stroke-13 {
+  position: absolute;
+  left: 13.54%;
+  right: 13.54%;
+  top: 21.88%;
+  bottom: 26.04%;
+  background: #BDBDBD;
+}
+
+/* Include at least 1 number or special character */
+.include-at-least-1-number-or-special-character-5 {
+  width: 275px;
+  height: 20px;
+}
+
+/* Body M/Medium */
+.body-m-medium-14 {
+  font-family: 'Barlow';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+/* identical to box height, or 143% */
+.identical-to-box-height-or-143-16 {
+  text-align: center;
+  color: #616161;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+/* Frame 1000004429 */
+.frame-1000004429-5 {
+  display: none;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+  gap: 4px;
+  width: 244px;
+  height: 20px;
+  flex: none;
+  order: 2;
+  flex-grow: 0;
+}
+
+/* check */
+.check-14 {
+  width: 12px;
+  height: 12px;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+/* Vector (Stroke) */
+.vector-stroke-14 {
+  position: absolute;
+  left: 13.54%;
+  right: 13.54%;
+  top: 21.88%;
+  bottom: 26.04%;
+  background: #BDBDBD;
+}
+
+/* Include at least 1 lowercase character */
+.include-at-least-1-lowercase-character-5 {
+  width: 228px;
+  height: 20px;
+}
+
+/* Body M/Medium */
+.body-m-medium-15 {
+  font-family: 'Barlow';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+/* identical to box height, or 143% */
+.identical-to-box-height-or-143-17 {
+  text-align: center;
+  color: #616161;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+/* Frame 1000004427 */
+.frame-1000004427-5 {
+  display: none;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+  gap: 4px;
+  width: 246px;
+  height: 20px;
+  flex: none;
+  order: 3;
+  flex-grow: 0;
+}
+
+/* check */
+.check-15 {
+  width: 12px;
+  height: 12px;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+/* Vector (Stroke) */
+.vector-stroke-15 {
+  position: absolute;
+  left: 13.54%;
+  right: 13.54%;
+  top: 21.88%;
+  bottom: 26.04%;
+  background: #BDBDBD;
+}
+
+/* Include at least 1 uppercase character */
+.include-at-least-1-uppercase-character-5 {
+  width: 230px;
+  height: 20px;
+}
+
+/* Body M/Medium */
+.body-m-medium-16 {
+  font-family: 'Barlow';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+/* identical to box height, or 143% */
+.identical-to-box-height-or-143-18 {
+  text-align: center;
+  color: #616161;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+/* Dropdown field */
+.dropdown-field-2 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  width: 343px;
+  height: 74px;
+  flex: none;
+  order: 1;
+  align-self: stretch;
+  flex-grow: 0;
+}
+
+/* Base/ Dropdown field (Multiple) */
+.base-dropdown-field-multiple-2 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 4px;
+  width: 343px;
+  height: 74px;
+  flex: none;
+  order: 0;
+  align-self: stretch;
+  flex-grow: 0;
+}
+
+/* Container */
+.container-2 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 6px;
+  width: 343px;
+  height: 74px;
+  flex: none;
+  order: 0;
+  align-self: stretch;
+  flex-grow: 0;
+}
+
+/* Label */
+.label-3 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+  gap: 4px;
+  width: 144px;
+  height: 20px;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+/* Label */
+.label-4 {
+  width: 144px;
+  height: 20px;
+}
+
+/* Body M/Medium */
+.body-m-medium-17 {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+/* identical to box height, or 143% */
+.identical-to-box-height-or-143-19 {
+  display: flex;
+  align-items: center;
+  color: #555555;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+/* * */
+.layer-2 {
+  display: none;
+  width: 7px;
+  height: 20px;
+}
+
+/* Body M/Regular */
+.body-m-regular-3 {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+/* identical to box height, or 143% */
+.identical-to-box-height-or-143-20 {
+  color: #E81818;
+  flex: none;
+  order: 2;
+  flex-grow: 0;
+  ymbol: Help</p>
+*/
+
+display: none;
+  width: 20px;
+  height: 20px;
+}
+
+/* Ellipse 142 */
+.ellipse-142-2 {
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  left: calc(50% - 16px/2);
+  top: calc(50% - 16px/2);
+  background: #FFFFFF;
+}
+
+/* icon toogletip */
+.icon-toogletip-2 {
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  left: calc(50% - 16px/2);
+  top: calc(50% - 16px/2);
+}
+
+/* icon */
+.icon-2 {
+  position: absolute;
+  left: 0%;
+  right: 0%;
+  top: 0%;
+  bottom: 0%;
+  background: #1999A4;
+}
+
+/* Input */
+.input-2 {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 13px 12px;
+  gap: 6px;
+  width: 343px;
+  height: 48px;
+  background: #FFFFFF;
+  border: 1px solid #C8C8C8;
+  border-radius: 8px;
+  flex: none;
+  order: 1;
+  align-self: stretch;
+  flex-grow: 0;
+}
+
+/* Placeholder */
+.placeholder-2 {
+  width: 293px;
+  height: 22px;
+}
+
+/* Body L/Regular */
+.body-l-regular-2 {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+}
+
+/* identical to box height, or 138% */
+.identical-to-box-height-or-138-3 {
+  display: flex;
+  align-items: center;
+  color: #A8A8A8;
+  flex: none;
+  order: 0;
+  flex-grow: 1;
+}
+
+/* eye on */
+.eye-on-2 {
+  width: 20px;
+  height: 20px;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+/* Vector */
+.vector-14 {
+  position: absolute;
+  left: 1.04%;
+  right: 1.04%;
+  top: 13.54%;
+  bottom: 13.54%;
+  background: #121212;
+}
+
+/* Help text */
+.help-text-2 {
+  display: none;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 4px;
+  width: 320px;
+  height: 18px;
+  flex: none;
+  order: 1;
+  align-self: stretch;
+  flex-grow: 0;
+}
+
+/* Icon Error */
+.icon-error-2 {
+  display: none;
+  width: 12px;
+  height: 12px;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+/* Message */
+.message-2 {
+  width: 320px;
+  height: 20px;
+}
+
+/* Body M/Regular */
+.body-m-regular-4 {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+/* identical to box height, or 143% */
+.identical-to-box-height-or-143-21 {
+  display: flex;
+  align-items: center;
+  color: #555555;
+  flex: none;
+  order: 1;
+  flex-grow: 1;
+}
+
+/* Button Container */
+.button-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 24px;
+  width: 343px;
+  height: 54px;
+  flex: none;
+  order: 2;
+  align-self: stretch;
+  flex-grow: 0;
+}
+
+/* Button */
+.button {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 24px;
+  width: 343px;
+  height: 54px;
+  flex: none;
+  order: 0;
+  align-self: stretch;
+  flex-grow: 0;
+}
+
+/* Base button/Primary */
+.base-button-primary {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 16px 24px;
+  gap: 8px;
+  width: 343px;
+  height: 54px;
+  background: #1999A4;
+  border-radius: 8px;
+  flex: none;
+  order: 0;
+  flex-grow: 1;
+}
+
+/* Button text */
+.button-text {
+  width: 115px;
+  height: 22px;
+}
+
+/* Body L/Semi */
+.body-l-semi {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 22px;
+}
+
+/* identical to box height, or 138% */
+.identical-to-box-height-or-138-4 {
+  text-align: center;
+  color: #FFFFFF;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}

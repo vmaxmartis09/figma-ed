@@ -1,0 +1,2871 @@
+/* Help Options */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 8px;
+
+position: relative;
+width: 375px;
+height: 869px;
+left: 930px;
+top: 508px;
+
+background: #FFFFFF;
+
+
+/* Main Container */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 416px;
+
+width: 375px;
+height: 869px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Header Container */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 0px;
+gap: 24px;
+
+width: 375px;
+height: 365px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Status Bar (iPhone) */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: center;
+padding: 18px 26px 14px 27px;
+gap: 205px;
+isolation: isolate;
+
+width: 375px;
+height: 53px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* 🧰/Time (iPhone) */
+
+margin: 0 auto;
+width: 54px;
+height: 21px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+z-index: 0;
+
+
+/* Time */
+
+position: absolute;
+width: 54px;
+height: 22px;
+left: 0px;
+top: calc(50% - 22px/2 + 0.5px);
+
+/* Default/Body/Bold */
+font-family: 'SF Pro Text';
+font-style: normal;
+font-weight: 600;
+font-size: 17px;
+line-height: 22px;
+/* identical to box height, or 129% */
+text-align: center;
+letter-spacing: -0.408px;
+font-feature-settings: 'case' on;
+
+color: #121212;
+
+
+
+/* 🧰/Cellular,Wifi,Battery (iPhone) */
+
+margin: 0 auto;
+width: 78.26px;
+height: 13px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+z-index: 1;
+
+
+/* Battery */
+
+position: absolute;
+left: 65.08%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+
+
+/* Border */
+
+box-sizing: border-box;
+
+position: absolute;
+left: 65.08%;
+right: 2.97%;
+top: 0%;
+bottom: 0%;
+
+mix-blend-mode: normal;
+opacity: 0.35;
+border: 1px solid #121212;
+border-radius: 3.5px;
+
+
+/* Cap */
+
+position: absolute;
+left: 98.3%;
+right: 0%;
+top: 35.9%;
+bottom: 33.33%;
+
+background: #121212;
+mix-blend-mode: normal;
+opacity: 0.4;
+
+
+/* Capacity */
+
+position: absolute;
+left: 67.64%;
+right: 5.53%;
+top: 15.38%;
+bottom: 15.38%;
+
+background: #121212;
+border-radius: 1.33333px;
+
+
+/* Wifi */
+
+position: absolute;
+left: 33.99%;
+right: 44.29%;
+top: 5.13%;
+bottom: 2.56%;
+
+background: #121212;
+
+
+/* Wifi-path */
+
+position: absolute;
+left: 33.99%;
+right: 44.29%;
+top: 5.13%;
+bottom: 56.41%;
+
+background: #000000;
+
+
+/* Wifi-path */
+
+position: absolute;
+left: 37.82%;
+right: 48.12%;
+top: 35.9%;
+bottom: 33.33%;
+
+background: #000000;
+
+
+/* Wifi-path */
+
+position: absolute;
+left: 41.66%;
+right: 51.96%;
+top: 66.67%;
+bottom: 2.56%;
+
+background: #000000;
+
+
+/* Cellular Connection */
+
+position: absolute;
+left: 0%;
+right: 75.47%;
+top: 5.13%;
+bottom: 2.56%;
+
+background: #121212;
+
+
+/* Cellular-Connection-path */
+
+position: absolute;
+left: 0%;
+right: 95.91%;
+top: 62.05%;
+bottom: 2.56%;
+
+background: #000000;
+
+
+/* Cellular-Connection-path */
+
+position: absolute;
+left: 6.77%;
+right: 89.14%;
+top: 43.59%;
+bottom: 2.56%;
+
+background: #000000;
+
+
+/* Cellular-Connection-path */
+
+position: absolute;
+left: 13.67%;
+right: 82.24%;
+top: 23.59%;
+bottom: 2.56%;
+
+background: #000000;
+
+
+/* Cellular-Connection-path */
+
+position: absolute;
+left: 20.44%;
+right: 75.47%;
+top: 5.13%;
+bottom: 2.56%;
+
+background: #000000;
+
+
+/* Floating island */
+
+position: absolute;
+display: none;
+width: 127px;
+height: 37px;
+left: calc(50% - 127px/2 + 1px);
+top: calc(50% - 37px/2 + 3px);
+
+background: #000000;
+border-radius: 18.5px;
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 0;
+z-index: 2;
+
+
+/* Content Container */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 0px;
+gap: 32px;
+
+width: 343px;
+height: 288px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Lock Icon */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 0px;
+gap: 24px;
+
+width: 327px;
+height: 126px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* logo */
+
+width: 140px;
+height: 36px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Exclude */
+
+position: absolute;
+width: 41.33px;
+height: 36px;
+left: 0px;
+top: 0px;
+
+background: #8470AF;
+
+
+/* Vector */
+
+position: absolute;
+left: 0%;
+right: 70.48%;
+top: 0%;
+bottom: 0%;
+
+background: #8471B0;
+
+
+/* Vector */
+
+position: absolute;
+left: 4.25%;
+right: 74.45%;
+top: 15.49%;
+bottom: 12.22%;
+
+background: #FFFFFF;
+
+
+/* Exclude */
+
+position: absolute;
+width: 11.59px;
+height: 13.52px;
+left: 128.41px;
+top: 14.61px;
+
+background: #1F656A;
+
+
+/* Vector */
+
+position: absolute;
+left: 91.72%;
+right: 0%;
+top: 40.58%;
+bottom: 21.86%;
+
+background: #1F656A;
+
+
+/* Vector */
+
+position: absolute;
+left: 93.33%;
+right: 1.73%;
+top: 46.47%;
+bottom: 27.54%;
+
+background: #FFFFFF;
+
+
+/* Exclude */
+
+position: absolute;
+width: 9.52px;
+height: 13.86px;
+left: 84.97px;
+top: 18.21px;
+
+background: #1F656A;
+
+
+/* Vector */
+
+position: absolute;
+left: 60.69%;
+right: 32.51%;
+top: 50.57%;
+bottom: 10.93%;
+
+background: #1F656A;
+
+
+/* Vector */
+
+position: absolute;
+left: 62.37%;
+right: 34.2%;
+top: 56%;
+bottom: 26.77%;
+
+background: #FFFFFF;
+
+
+/* Exclude */
+
+position: absolute;
+width: 9.54px;
+height: 13.85px;
+left: 73.9px;
+top: 18.22px;
+
+background: #1F656A;
+
+
+/* Vector */
+
+position: absolute;
+left: 52.79%;
+right: 40.4%;
+top: 50.6%;
+bottom: 10.92%;
+
+background: #1F656A;
+
+
+/* Vector */
+
+position: absolute;
+left: 54.42%;
+right: 42.08%;
+top: 55.98%;
+bottom: 26.55%;
+
+background: #FFFFFF;
+
+
+/* Exclude */
+
+position: absolute;
+width: 9.83px;
+height: 10.1px;
+left: 95.34px;
+top: 18.16px;
+
+background: #1F656A;
+
+
+/* Vector */
+
+position: absolute;
+left: 68.1%;
+right: 24.88%;
+top: 50.44%;
+bottom: 21.5%;
+
+background: #1F656A;
+
+
+/* Vector */
+
+position: absolute;
+left: 69.83%;
+right: 26.58%;
+top: 55.99%;
+bottom: 26.86%;
+
+background: #FFFFFF;
+
+
+/* Vector */
+
+position: absolute;
+left: 37.29%;
+right: 56.93%;
+top: 39.78%;
+bottom: 21.53%;
+
+background: #1F656A;
+
+
+/* Vector */
+
+position: absolute;
+left: 44.51%;
+right: 49.07%;
+top: 51.06%;
+bottom: 21.48%;
+
+background: #1F656A;
+
+
+/* Vector */
+
+position: absolute;
+left: 81.14%;
+right: 14.22%;
+top: 44.22%;
+bottom: 21.49%;
+
+background: #1F656A;
+
+
+/* Vector */
+
+position: absolute;
+left: 76.28%;
+right: 19.3%;
+top: 50.64%;
+bottom: 22%;
+
+background: #1F656A;
+
+
+/* Vector */
+
+position: absolute;
+left: 33.95%;
+right: 64.35%;
+top: 50.84%;
+bottom: 22%;
+
+background: #1F656A;
+
+
+/* Vector */
+
+position: absolute;
+left: 86.55%;
+right: 9.94%;
+top: 61.58%;
+bottom: 33.07%;
+
+background: #1F656A;
+
+
+/* Vector */
+
+position: absolute;
+left: 33.72%;
+right: 64.09%;
+top: 35.9%;
+bottom: 55.36%;
+
+background: #1F656A;
+
+
+/* Form Container */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 32px;
+
+width: 327px;
+height: 66px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Form Header */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 12px;
+
+width: 327px;
+height: 66px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Form Title */
+
+width: 327px;
+height: 32px;
+
+/* Heading 6/Bold */
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 26px;
+line-height: 32px;
+/* identical to box height, or 123% */
+text-align: center;
+letter-spacing: -0.01em;
+
+color: #121212;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Form Subtitle */
+
+width: 327px;
+height: 22px;
+
+/* Body L/Regular */
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 22px;
+/* identical to box height, or 138% */
+text-align: center;
+
+color: #555555;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Check list */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 16px;
+
+width: 343px;
+height: 130px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Checkbox Item */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 8px;
+
+width: 343px;
+height: 22px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Frame 1000004542 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 8px;
+
+width: 315px;
+height: 22px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 1;
+
+
+/* Family-Card-36px */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 2px;
+gap: 10px;
+
+display: none;
+width: 36px;
+height: 36px;
+
+background: #ECE0FC;
+border-radius: 8px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* social-worker 2 */
+
+width: 32px;
+height: 32px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Group */
+
+position: absolute;
+left: 16.59%;
+right: 16.59%;
+top: 2.67%;
+bottom: 2.65%;
+
+
+
+/* Group */
+
+position: absolute;
+left: 34.41%;
+right: 33.71%;
+top: 13.48%;
+bottom: 44.12%;
+
+
+
+/* Vector */
+
+position: absolute;
+left: 34.41%;
+right: 33.71%;
+top: 13.48%;
+bottom: 44.12%;
+
+background: #FF8C83;
+
+
+/* Group */
+
+position: absolute;
+left: 29.17%;
+right: 28.58%;
+top: 2.67%;
+bottom: 66.73%;
+
+
+
+/* Vector */
+
+position: absolute;
+left: 29.17%;
+right: 28.58%;
+top: 2.67%;
+bottom: 66.73%;
+
+background: #212121;
+
+
+/* Group */
+
+position: absolute;
+left: 16.59%;
+right: 16.59%;
+top: 55.7%;
+bottom: 2.65%;
+
+
+
+/* Vector */
+
+position: absolute;
+left: 16.59%;
+right: 16.59%;
+top: 55.7%;
+bottom: 2.65%;
+
+background: #8B5ECB;
+
+
+/* Group */
+
+position: absolute;
+left: 29.17%;
+right: 60.35%;
+top: 28.88%;
+bottom: 60.45%;
+
+
+
+/* Vector */
+
+position: absolute;
+left: 29.17%;
+right: 60.35%;
+top: 28.88%;
+bottom: 60.45%;
+
+background: #FFB330;
+
+
+/* Group */
+
+position: absolute;
+left: 61.03%;
+right: 28.48%;
+top: 28.88%;
+bottom: 60.45%;
+
+
+
+/* Vector */
+
+position: absolute;
+left: 61.03%;
+right: 28.48%;
+top: 28.88%;
+bottom: 60.45%;
+
+background: #FFB330;
+
+
+/* Group */
+
+position: absolute;
+left: 41.58%;
+right: 40.42%;
+top: 55.7%;
+bottom: 19.76%;
+
+
+
+/* Vector */
+
+position: absolute;
+left: 41.58%;
+right: 40.42%;
+top: 55.7%;
+bottom: 19.76%;
+
+background: #FFB95C;
+
+
+/* Group */
+
+position: absolute;
+left: 40.61%;
+right: 39.55%;
+top: 41.12%;
+bottom: 32.74%;
+
+
+
+/* Vector */
+
+position: absolute;
+left: 40.61%;
+right: 39.55%;
+top: 41.12%;
+bottom: 32.74%;
+
+background: #FFB330;
+
+
+/* Group */
+
+position: absolute;
+left: 50.35%;
+right: 33.86%;
+top: 53.8%;
+bottom: 19.74%;
+
+
+
+/* Vector */
+
+position: absolute;
+left: 50.35%;
+right: 33.86%;
+top: 53.8%;
+bottom: 19.74%;
+
+background: #E5E5E5;
+
+
+/* Group */
+
+position: absolute;
+left: 34.55%;
+right: 49.65%;
+top: 53.8%;
+bottom: 19.74%;
+
+
+
+/* Vector */
+
+position: absolute;
+left: 34.55%;
+right: 49.65%;
+top: 53.8%;
+bottom: 19.74%;
+
+background: #E5E5E5;
+
+
+/* Group */
+
+position: absolute;
+left: 34.41%;
+right: 33.73%;
+top: 20.48%;
+bottom: 44.13%;
+
+
+
+/* Vector */
+
+position: absolute;
+left: 34.41%;
+right: 33.73%;
+top: 20.48%;
+bottom: 44.13%;
+
+background: #FFC45F;
+
+
+/* Label */
+
+width: 148px;
+height: 22px;
+
+/* Body L/Regular */
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 22px;
+/* identical to box height, or 138% */
+
+color: #121212;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* chevron-right */
+
+width: 20px;
+height: 20px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Vector */
+
+position: absolute;
+left: 29.17%;
+right: 29.17%;
+top: 12.5%;
+bottom: 12.5%;
+
+background: #1999A4;
+
+
+/* Line 589 */
+
+width: 343px;
+height: 0px;
+
+border: 1px solid #E0E0E0;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Checkbox Item */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 8px;
+
+width: 343px;
+height: 22px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Frame 1000004542 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 8px;
+
+width: 315px;
+height: 22px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 1;
+
+
+/* Family-Card-36px */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 2px;
+gap: 10px;
+
+display: none;
+width: 36px;
+height: 36px;
+
+background: #ECE0FC;
+border-radius: 8px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* social-worker 2 */
+
+width: 32px;
+height: 32px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Group */
+
+position: absolute;
+left: 16.59%;
+right: 16.59%;
+top: 2.67%;
+bottom: 2.65%;
+
+
+
+/* Group */
+
+position: absolute;
+left: 34.41%;
+right: 33.71%;
+top: 13.48%;
+bottom: 44.12%;
+
+
+
+/* Vector */
+
+position: absolute;
+left: 34.41%;
+right: 33.71%;
+top: 13.48%;
+bottom: 44.12%;
+
+background: #FF8C83;
+
+
+/* Group */
+
+position: absolute;
+left: 29.17%;
+right: 28.58%;
+top: 2.67%;
+bottom: 66.73%;
+
+
+
+/* Vector */
+
+position: absolute;
+left: 29.17%;
+right: 28.58%;
+top: 2.67%;
+bottom: 66.73%;
+
+background: #212121;
+
+
+/* Group */
+
+position: absolute;
+left: 16.59%;
+right: 16.59%;
+top: 55.7%;
+bottom: 2.65%;
+
+
+
+/* Vector */
+
+position: absolute;
+left: 16.59%;
+right: 16.59%;
+top: 55.7%;
+bottom: 2.65%;
+
+background: #8B5ECB;
+
+
+/* Group */
+
+position: absolute;
+left: 29.17%;
+right: 60.35%;
+top: 28.88%;
+bottom: 60.45%;
+
+
+
+/* Vector */
+
+position: absolute;
+left: 29.17%;
+right: 60.35%;
+top: 28.88%;
+bottom: 60.45%;
+
+background: #FFB330;
+
+
+/* Group */
+
+position: absolute;
+left: 61.03%;
+right: 28.48%;
+top: 28.88%;
+bottom: 60.45%;
+
+
+
+/* Vector */
+
+position: absolute;
+left: 61.03%;
+right: 28.48%;
+top: 28.88%;
+bottom: 60.45%;
+
+background: #FFB330;
+
+
+/* Group */
+
+position: absolute;
+left: 41.58%;
+right: 40.42%;
+top: 55.7%;
+bottom: 19.76%;
+
+
+
+/* Vector */
+
+position: absolute;
+left: 41.58%;
+right: 40.42%;
+top: 55.7%;
+bottom: 19.76%;
+
+background: #FFB95C;
+
+
+/* Group */
+
+position: absolute;
+left: 40.61%;
+right: 39.55%;
+top: 41.12%;
+bottom: 32.74%;
+
+
+
+/* Vector */
+
+position: absolute;
+left: 40.61%;
+right: 39.55%;
+top: 41.12%;
+bottom: 32.74%;
+
+background: #FFB330;
+
+
+/* Group */
+
+position: absolute;
+left: 50.35%;
+right: 33.86%;
+top: 53.8%;
+bottom: 19.74%;
+
+
+
+/* Vector */
+
+position: absolute;
+left: 50.35%;
+right: 33.86%;
+top: 53.8%;
+bottom: 19.74%;
+
+background: #E5E5E5;
+
+
+/* Group */
+
+position: absolute;
+left: 34.55%;
+right: 49.65%;
+top: 53.8%;
+bottom: 19.74%;
+
+
+
+/* Vector */
+
+position: absolute;
+left: 34.55%;
+right: 49.65%;
+top: 53.8%;
+bottom: 19.74%;
+
+background: #E5E5E5;
+
+
+/* Group */
+
+position: absolute;
+left: 34.41%;
+right: 33.73%;
+top: 20.48%;
+bottom: 44.13%;
+
+
+
+/* Vector */
+
+position: absolute;
+left: 34.41%;
+right: 33.73%;
+top: 20.48%;
+bottom: 44.13%;
+
+background: #FFC45F;
+
+
+/* Label */
+
+width: 184px;
+height: 22px;
+
+/* Body L/Regular */
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 22px;
+/* identical to box height, or 138% */
+
+color: #121212;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* chevron-right */
+
+width: 20px;
+height: 20px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Vector */
+
+position: absolute;
+left: 29.17%;
+right: 29.17%;
+top: 12.5%;
+bottom: 12.5%;
+
+background: #1999A4;
+
+
+/* Line 588 */
+
+width: 343px;
+height: 0px;
+
+border: 1px solid #E0E0E0;
+
+/* Inside auto layout */
+flex: none;
+order: 3;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Checkbox Item */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 8px;
+
+width: 343px;
+height: 22px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 4;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Frame 1000004542 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 8px;
+
+width: 315px;
+height: 22px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 1;
+
+
+/* Family-Card-36px */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 2px;
+gap: 10px;
+
+display: none;
+width: 36px;
+height: 36px;
+
+background: #ECE0FC;
+border-radius: 8px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* social-worker 2 */
+
+width: 32px;
+height: 32px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Group */
+
+position: absolute;
+left: 16.59%;
+right: 16.59%;
+top: 2.67%;
+bottom: 2.65%;
+
+
+
+/* Group */
+
+position: absolute;
+left: 34.41%;
+right: 33.71%;
+top: 13.48%;
+bottom: 44.12%;
+
+
+
+/* Vector */
+
+position: absolute;
+left: 34.41%;
+right: 33.71%;
+top: 13.48%;
+bottom: 44.12%;
+
+background: #FF8C83;
+
+
+/* Group */
+
+position: absolute;
+left: 29.17%;
+right: 28.58%;
+top: 2.67%;
+bottom: 66.73%;
+
+
+
+/* Vector */
+
+position: absolute;
+left: 29.17%;
+right: 28.58%;
+top: 2.67%;
+bottom: 66.73%;
+
+background: #212121;
+
+
+/* Group */
+
+position: absolute;
+left: 16.59%;
+right: 16.59%;
+top: 55.7%;
+bottom: 2.65%;
+
+
+
+/* Vector */
+
+position: absolute;
+left: 16.59%;
+right: 16.59%;
+top: 55.7%;
+bottom: 2.65%;
+
+background: #8B5ECB;
+
+
+/* Group */
+
+position: absolute;
+left: 29.17%;
+right: 60.35%;
+top: 28.88%;
+bottom: 60.45%;
+
+
+
+/* Vector */
+
+position: absolute;
+left: 29.17%;
+right: 60.35%;
+top: 28.88%;
+bottom: 60.45%;
+
+background: #FFB330;
+
+
+/* Group */
+
+position: absolute;
+left: 61.03%;
+right: 28.48%;
+top: 28.88%;
+bottom: 60.45%;
+
+
+
+/* Vector */
+
+position: absolute;
+left: 61.03%;
+right: 28.48%;
+top: 28.88%;
+bottom: 60.45%;
+
+background: #FFB330;
+
+
+/* Group */
+
+position: absolute;
+left: 41.58%;
+right: 40.42%;
+top: 55.7%;
+bottom: 19.76%;
+
+
+
+/* Vector */
+
+position: absolute;
+left: 41.58%;
+right: 40.42%;
+top: 55.7%;
+bottom: 19.76%;
+
+background: #FFB95C;
+
+
+/* Group */
+
+position: absolute;
+left: 40.61%;
+right: 39.55%;
+top: 41.12%;
+bottom: 32.74%;
+
+
+
+/* Vector */
+
+position: absolute;
+left: 40.61%;
+right: 39.55%;
+top: 41.12%;
+bottom: 32.74%;
+
+background: #FFB330;
+
+
+/* Group */
+
+position: absolute;
+left: 50.35%;
+right: 33.86%;
+top: 53.8%;
+bottom: 19.74%;
+
+
+
+/* Vector */
+
+position: absolute;
+left: 50.35%;
+right: 33.86%;
+top: 53.8%;
+bottom: 19.74%;
+
+background: #E5E5E5;
+
+
+/* Group */
+
+position: absolute;
+left: 34.55%;
+right: 49.65%;
+top: 53.8%;
+bottom: 19.74%;
+
+
+
+/* Vector */
+
+position: absolute;
+left: 34.55%;
+right: 49.65%;
+top: 53.8%;
+bottom: 19.74%;
+
+background: #E5E5E5;
+
+
+/* Group */
+
+position: absolute;
+left: 34.41%;
+right: 33.73%;
+top: 20.48%;
+bottom: 44.13%;
+
+
+
+/* Vector */
+
+position: absolute;
+left: 34.41%;
+right: 33.73%;
+top: 20.48%;
+bottom: 44.13%;
+
+background: #FFC45F;
+
+
+/* Label */
+
+width: 77px;
+height: 22px;
+
+/* Body L/Regular */
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 22px;
+/* identical to box height, or 138% */
+
+color: #121212;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* chevron-right */
+
+width: 20px;
+height: 20px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Vector */
+
+position: absolute;
+left: 29.17%;
+right: 29.17%;
+top: 12.5%;
+bottom: 12.5%;
+
+background: #1999A4;
+
+
+/* Line 590 */
+
+display: none;
+width: 343px;
+height: 0px;
+
+border: 1px solid #E0E0E0;
+
+/* Inside auto layout */
+flex: none;
+order: 5;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Checkbox Item */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 8px;
+
+display: none;
+width: 343px;
+height: 22px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 6;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Frame 1000004542 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 8px;
+
+width: 315px;
+height: 22px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 1;
+
+
+/* Family-Card-36px */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 2px;
+gap: 10px;
+
+display: none;
+width: 36px;
+height: 36px;
+
+background: #ECE0FC;
+border-radius: 8px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Label */
+
+width: 31px;
+height: 22px;
+
+/* Body L/Regular */
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 22px;
+/* identical to box height, or 138% */
+
+color: #121212;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* chevron-right */
+
+width: 20px;
+height: 20px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Vector */
+
+position: absolute;
+left: 29.17%;
+right: 29.17%;
+top: 12.5%;
+bottom: 12.5%;
+
+background: #1999A4;
+
+
+/* Line 592 */
+
+display: none;
+width: 343px;
+height: 0px;
+
+border: 1px solid #E0E0E0;
+
+/* Inside auto layout */
+flex: none;
+order: 7;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Checkbox Item */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 8px;
+
+display: none;
+width: 343px;
+height: 22px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 8;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Frame 1000004542 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 8px;
+
+width: 315px;
+height: 22px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 1;
+
+
+/* Family-Card-36px */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 2px;
+gap: 10px;
+
+display: none;
+width: 36px;
+height: 36px;
+
+background: #ECE0FC;
+border-radius: 8px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Label */
+
+width: 31px;
+height: 22px;
+
+/* Body L/Regular */
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 22px;
+/* identical to box height, or 138% */
+
+color: #121212;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* chevron-right */
+
+width: 20px;
+height: 20px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Vector */
+
+position: absolute;
+left: 29.17%;
+right: 29.17%;
+top: 12.5%;
+bottom: 12.5%;
+
+background: #1999A4;
+
+
+/* Line 591 */
+
+display: none;
+width: 343px;
+height: 0px;
+
+border: 1px solid #E0E0E0;
+
+/* Inside auto layout */
+flex: none;
+order: 9;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Checkbox Item */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 8px;
+
+display: none;
+width: 343px;
+height: 22px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 10;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Frame 1000004542 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 8px;
+
+width: 315px;
+height: 22px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 1;
+
+
+/* Family-Card-36px */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 2px;
+gap: 10px;
+
+display: none;
+width: 36px;
+height: 36px;
+
+background: #ECE0FC;
+border-radius: 8px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Label */
+
+width: 31px;
+height: 22px;
+
+/* Body L/Regular */
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 22px;
+/* identical to box height, or 138% */
+
+color: #121212;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* chevron-right */
+
+width: 20px;
+height: 20px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Vector */
+
+position: absolute;
+left: 29.17%;
+right: 29.17%;
+top: 12.5%;
+bottom: 12.5%;
+
+background: #1999A4;
+
+
+/* Line 593 */
+
+display: none;
+width: 343px;
+height: 0px;
+
+border: 1px solid #E0E0E0;
+
+/* Inside auto layout */
+flex: none;
+order: 11;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Checkbox Item */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 8px;
+
+display: none;
+width: 343px;
+height: 22px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 12;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Frame 1000004542 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 8px;
+
+width: 315px;
+height: 22px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 1;
+
+
+/* Family-Card-36px */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 2px;
+gap: 10px;
+
+display: none;
+width: 36px;
+height: 36px;
+
+background: #ECE0FC;
+border-radius: 8px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Label */
+
+width: 31px;
+height: 22px;
+
+/* Body L/Regular */
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 22px;
+/* identical to box height, or 138% */
+
+color: #121212;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* chevron-right */
+
+width: 20px;
+height: 20px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Vector */
+
+position: absolute;
+left: 29.17%;
+right: 29.17%;
+top: 12.5%;
+bottom: 12.5%;
+
+background: #1999A4;
+
+
+/* Line 594 */
+
+display: none;
+width: 343px;
+height: 0px;
+
+border: 1px solid #E0E0E0;
+
+/* Inside auto layout */
+flex: none;
+order: 13;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Checkbox Item */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 8px;
+
+display: none;
+width: 343px;
+height: 22px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 14;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Frame 1000004542 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 8px;
+
+width: 315px;
+height: 22px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 1;
+
+
+/* Family-Card-36px */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 2px;
+gap: 10px;
+
+display: none;
+width: 36px;
+height: 36px;
+
+background: #ECE0FC;
+border-radius: 8px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Label */
+
+width: 31px;
+height: 22px;
+
+/* Body L/Regular */
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 22px;
+/* identical to box height, or 138% */
+
+color: #121212;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* chevron-right */
+
+width: 20px;
+height: 20px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Vector */
+
+position: absolute;
+left: 29.17%;
+right: 29.17%;
+top: 12.5%;
+bottom: 12.5%;
+
+background: #1999A4;
+
+
+/* Line 595 */
+
+display: none;
+width: 343px;
+height: 0px;
+
+border: 1px solid #E0E0E0;
+
+/* Inside auto layout */
+flex: none;
+order: 15;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Checkbox Item */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 8px;
+
+display: none;
+width: 343px;
+height: 22px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 16;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Frame 1000004542 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 8px;
+
+width: 315px;
+height: 22px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 1;
+
+
+/* Family-Card-36px */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 2px;
+gap: 10px;
+
+display: none;
+width: 36px;
+height: 36px;
+
+background: #ECE0FC;
+border-radius: 8px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Label */
+
+width: 31px;
+height: 22px;
+
+/* Body L/Regular */
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 22px;
+/* identical to box height, or 138% */
+
+color: #121212;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* chevron-right */
+
+width: 20px;
+height: 20px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Vector */
+
+position: absolute;
+left: 29.17%;
+right: 29.17%;
+top: 12.5%;
+bottom: 12.5%;
+
+background: #1999A4;
+
+
+/* Line 596 */
+
+display: none;
+width: 343px;
+height: 0px;
+
+border: 1px solid #E0E0E0;
+
+/* Inside auto layout */
+flex: none;
+order: 17;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Checkbox Item */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 8px;
+
+display: none;
+width: 343px;
+height: 22px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 18;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Frame 1000004542 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 8px;
+
+width: 315px;
+height: 22px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 1;
+
+
+/* Family-Card-36px */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 2px;
+gap: 10px;
+
+display: none;
+width: 36px;
+height: 36px;
+
+background: #ECE0FC;
+border-radius: 8px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Label */
+
+width: 31px;
+height: 22px;
+
+/* Body L/Regular */
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 22px;
+/* identical to box height, or 138% */
+
+color: #121212;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* chevron-right */
+
+width: 20px;
+height: 20px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Vector */
+
+position: absolute;
+left: 29.17%;
+right: 29.17%;
+top: 12.5%;
+bottom: 12.5%;
+
+background: #1999A4;
+
+
+/* Line 597 */
+
+display: none;
+width: 343px;
+height: 0px;
+
+border: 1px solid #E0E0E0;
+
+/* Inside auto layout */
+flex: none;
+order: 19;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Checkbox Item */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 8px;
+
+display: none;
+width: 343px;
+height: 22px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 20;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Frame 1000004542 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 8px;
+
+width: 315px;
+height: 22px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 1;
+
+
+/* Family-Card-36px */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 2px;
+gap: 10px;
+
+display: none;
+width: 36px;
+height: 36px;
+
+background: #ECE0FC;
+border-radius: 8px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Label */
+
+width: 31px;
+height: 22px;
+
+/* Body L/Regular */
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 22px;
+/* identical to box height, or 138% */
+
+color: #121212;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* chevron-right */
+
+width: 20px;
+height: 20px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Vector */
+
+position: absolute;
+left: 29.17%;
+right: 29.17%;
+top: 12.5%;
+bottom: 12.5%;
+
+background: #1999A4;
+
+
+/* Footer Container */
+
+box-sizing: border-box;
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+
+width: 375px;
+height: 88px;
+
+border-top: 1px solid #E0E0E0;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Footer Link Container */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 16px;
+gap: 24px;
+
+width: 375px;
+height: 54px;
+
+background: #FFFFFF;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Footer Text and Link */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 0px;
+gap: 4px;
+
+width: 311px;
+height: 22px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Footer Text */
+
+width: 182px;
+height: 22px;
+
+/* Body L/Regular */
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 22px;
+/* identical to box height, or 138% */
+
+color: #121212;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Link */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 4px;
+
+width: 44px;
+height: 22px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Link text */
+
+width: 44px;
+height: 22px;
+
+/* Body L/Medium (Under) */
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 22px;
+/* identical to box height, or 138% */
+text-align: center;
+text-decoration-line: underline;
+
+color: #1999A4;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* 🧰/Home Indicator (iPhone) */
+
+width: 375px;
+height: 34px;
+
+background: #FFFFFF;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Home Indicator */
+
+position: absolute;
+width: 134px;
+height: 5px;
+left: calc(50% - 134px/2 + 0.5px);
+bottom: 8px;
+
+/* System Colours/Default Colors/SystemWhite&Black/Dark */
+background: #000000;
+border-radius: 100px;

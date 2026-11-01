@@ -1,0 +1,715 @@
+/* Sample */
+position: relative;
+width: 375px;
+height: 812px;
+left: 1326px;
+top: 7711px;
+
+background: url(), #FFFFFF;
+
+
+
+/* Wallpaper */
+position: absolute;
+left: 0%;
+right: -10.4%;
+top: 0%;
+bottom: -10.4%;
+
+background: url();
+
+
+
+/* Dock */
+position: absolute;
+left: 2.93%;
+right: 2.4%;
+top: 87.19%;
+bottom: 1.23%;
+
+background: rgba(0, 0, 0, 0.3);
+backdrop-filter: blur(40.8197px);
+
+/* Note: backdrop-filter has minimal browser support */
+border-radius: 31px;
+
+
+
+/* Frame 1000004533 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 10px;
+
+position: absolute;
+width: 60px;
+height: 81px;
+left: 20px;
+top: 94px;
+
+
+
+
+/* App (iPhone) */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 0px;
+gap: 5px;
+
+width: 60px;
+height: 81px;
+
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+
+/* ✏️ App Icon */
+width: 60px;
+height: 60px;
+
+background: #1999A4;
+border-radius: 13px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+
+/* Notification Count */
+position: absolute;
+width: 23px;
+height: 23px;
+right: -9px;
+top: -9px;
+
+
+/* System Colours/Default Colors/SystemRed/Light */
+background: #FF3B30;
+border-radius: 100px;
+
+
+
+/* Number */
+position: absolute;
+height: 19px;
+left: 7px;
+right: 8px;
+top: calc(50% - 19px/2);
+
+font-family: 'SF Pro';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+
+/* identical to box height */
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #FFFFFF;
+
+
+
+
+/* Vector */
+position: absolute;
+left: 8.33%;
+right: 10%;
+top: 11.67%;
+bottom: 13.33%;
+
+background: #FFFFFF;
+
+
+
+/* ✏️ App Name */
+width: 74px;
+height: 16px;
+
+font-family: 'SF Pro Text';
+font-style: normal;
+font-weight: 500;
+font-size: 12px;
+line-height: 16px;
+
+/* identical to box height, or 133% */
+text-align: center;
+
+
+/* System Colours/Label Colour/Primary/Dark */
+color: #FFFFFF;
+
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+
+/* 🧰/Apps (iPhone) */
+position: absolute;
+width: 74px;
+height: 93px;
+left: calc(50% - 74px/2 - 97.5px);
+top: 725px;
+
+
+
+
+/* Label */
+position: absolute;
+visibility: hidden;
+height: 26px;
+left: 1px;
+right: 1px;
+top: 67px;
+
+font-family: 'SF Pro';
+font-style: normal;
+font-weight: 400;
+font-size: 11px;
+line-height: 13px;
+
+/* or 118% */
+text-align: center;
+
+
+/* System Colours/Label Colour/Primary/Light */
+color: #000000;
+
+
+
+
+/* Messages App Icon */
+position: absolute;
+left: 9.46%;
+right: 9.46%;
+top: 0%;
+bottom: 35.48%;
+
+background: url(Image.png);
+border: 0.5px solid rgba(0, 0, 0, 0.2);
+border-radius: 13px;
+
+
+
+/* 🧰/Apps (iPhone) */
+position: absolute;
+width: 74px;
+height: 93px;
+left: calc(50% - 74px/2 + 0.5px);
+top: 725px;
+
+
+
+
+/* Label */
+position: absolute;
+visibility: hidden;
+height: 26px;
+left: 1px;
+right: 1px;
+top: 67px;
+
+font-family: 'SF Pro';
+font-style: normal;
+font-weight: 400;
+font-size: 11px;
+line-height: 13px;
+
+/* or 118% */
+text-align: center;
+
+
+/* System Colours/Label Colour/Primary/Light */
+color: #000000;
+
+
+
+
+/* Mail App Icon */
+position: absolute;
+left: 9.46%;
+right: 9.46%;
+top: 0%;
+bottom: 35.48%;
+
+background: url(Image.png);
+border: 0.5px solid rgba(0, 0, 0, 0.2);
+border-radius: 13px;
+
+
+
+/* 🧰/Apps (iPhone) */
+position: absolute;
+width: 74px;
+height: 93px;
+left: calc(50% - 74px/2 + 98.5px);
+top: 725px;
+
+
+
+
+/* Label */
+position: absolute;
+visibility: hidden;
+height: 26px;
+left: 1px;
+right: 1px;
+top: 67px;
+
+font-family: 'SF Pro';
+font-style: normal;
+font-weight: 400;
+font-size: 11px;
+line-height: 13px;
+
+/* or 118% */
+text-align: center;
+
+
+/* System Colours/Label Colour/Primary/Light */
+color: #000000;
+
+
+
+
+/* Notes App Icon */
+position: absolute;
+left: 9.46%;
+right: 9.46%;
+top: 0%;
+bottom: 35.48%;
+
+background: url(Image.png);
+border-radius: 13px;
+
+
+
+/* Status Bar - iPhone */
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 93.35%;
+
+backdrop-filter: blur(2px);
+
+/* Note: backdrop-filter has minimal browser support */
+
+/* Time */
+position: absolute;
+height: 54px;
+left: 0%;
+right: 64.25%;
+top: calc(50% - 54px/2);
+
+
+
+
+/* Time */
+position: absolute;
+left: 35.46%;
+right: 36.94%;
+top: 33.96%;
+bottom: 25.3%;
+
+font-family: 'SF Pro';
+font-style: normal;
+font-weight: 590;
+font-size: 17px;
+line-height: 22px;
+
+/* identical to box height, or 129% */
+text-align: center;
+
+color: #FFFFFF;
+
+
+
+
+/* Levels */
+position: absolute;
+height: 54px;
+left: 64.25%;
+right: 0%;
+top: calc(50% - 54px/2);
+
+
+
+
+/* Battery */
+position: absolute;
+left: 58.18%;
+right: 21.44%;
+top: 42.59%;
+bottom: 33.33%;
+
+
+
+
+/* Border */
+box-sizing: border-box;
+
+position: absolute;
+width: 25px;
+left: calc(50% - 25px/2 + 23.47px);
+top: 42.59%;
+bottom: 33.33%;
+
+mix-blend-mode: normal;
+opacity: 0.35;
+border: 1px solid #FFFFFF;
+border-radius: 4.3px;
+
+
+
+/* Cap */
+position: absolute;
+width: 1.33px;
+left: calc(50% - 1.33px/2 + 37.63px);
+top: 51.45%;
+bottom: 41.01%;
+
+background: #FFFFFF;
+mix-blend-mode: normal;
+opacity: 0.4;
+
+
+
+/* Capacity */
+position: absolute;
+width: 21px;
+left: calc(50% - 21px/2 + 23.47px);
+top: 46.3%;
+bottom: 37.04%;
+
+background: #FFFFFF;
+border-radius: 2.5px;
+
+
+
+/* Wifi */
+position: absolute;
+width: 17.14px;
+left: calc(50% - 17.14px/2 - 4.76px);
+top: 43.77%;
+bottom: 33.4%;
+
+background: #FFFFFF;
+
+
+
+/* Cellular Connection */
+position: absolute;
+width: 19.2px;
+left: calc(50% - 19.2px/2 - 30.43px);
+top: 43.58%;
+bottom: 33.77%;
+
+background: #FFFFFF;
+
+
+
+/* Component 3 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 14px 16px;
+
+position: absolute;
+width: 343px;
+height: 100px;
+left: 16px;
+top: 52px;
+
+background: rgba(255, 255, 255, 0.88);
+backdrop-filter: blur(5px);
+
+/* Note: backdrop-filter has minimal browser support */
+border-radius: 16px;
+
+
+
+/* Frame 1194 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 12px;
+
+width: 308px;
+height: 72px;
+
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+
+/* Frame 1185 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: flex-end;
+align-items: center;
+padding: 0px;
+gap: 28px;
+
+width: 276px;
+height: 16px;
+
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+
+/* Frame 1157 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 6px;
+
+width: 276px;
+height: 16px;
+
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+
+/* Vector */
+width: 16px;
+height: 14px;
+
+background: #816AA2;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+
+/* appName */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+gap: 10px;
+
+width: 36px;
+height: 16px;
+
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+
+/* Hangouts */
+width: 36px;
+height: 16px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 16px;
+
+/* identical to box height, or 133% */
+display: flex;
+align-items: center;
+
+color: #828282;
+
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+
+/* 1d */
+width: 30px;
+height: 16px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 16px;
+
+/* identical to box height, or 133% */
+display: flex;
+align-items: center;
+
+color: #595959;
+
+
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 0;
+
+
+
+/* Frame 1183 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 4px;
+
+width: 308px;
+height: 44px;
+
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+
+/* contentTitle */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+gap: 10px;
+
+width: 161px;
+height: 20px;
+
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+
+/* Lucile Banks */
+width: 161px;
+height: 20px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 20px;
+
+/* identical to box height, or 133% */
+display: flex;
+align-items: center;
+
+
+/* Settings first title */
+color: #222222;
+
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+
+/* contentText */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+gap: 10px;
+
+width: 328px;
+height: 20px;
+
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+
+/* Don`t forget buy a w */
+width: 328px;
+height: 20px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 13px;
+line-height: 20px;
+
+/* identical to box height, or 154% */
+display: flex;
+align-items: center;
+
+
+/* Secondary color */
+color: #686868;
+
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 1;

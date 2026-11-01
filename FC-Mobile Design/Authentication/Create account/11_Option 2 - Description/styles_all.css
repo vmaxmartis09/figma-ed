@@ -1,0 +1,63 @@
+/* Option 2 - Description */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 16px;
+gap: 8px;
+
+position: relative;
+width: 540px;
+height: 238px;
+left: 107px;
+top: 274px;
+
+background: #FFFFFF;
+border-radius: 8px;
+
+
+/* Option2 */
+
+width: 508px;
+height: 22px;
+
+/* Body L/Bold */
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 22px;
+/* identical to box height, or 138% */
+
+color: #121212;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Option 2 is better if the priority is improving usability and the overall onboarding experience on mobile. The step-by-step structure helps users: Focus on smaller tasks Understand the registration process more clearly Complete the form more comfortably on smaller screens This approach is particularly helpful for less tech-savvy users or older users, who may find long forms difficult to complete. */
+
+width: 508px;
+height: 176px;
+
+/* Body L/Regular */
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 22px;
+/* or 138% */
+
+color: #121212;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;

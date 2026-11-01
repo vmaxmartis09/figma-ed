@@ -1,0 +1,831 @@
+{
+ "name": "Help Options",
+ "css": {
+  "display": "flex",
+  "flex-direction": "row",
+  "align-items": "center",
+  "padding": "0px",
+  "gap": "8px",
+  "position": "relative",
+  "width": "375px",
+  "height": "869px",
+  "left": "930px",
+  "top": "508px",
+  "background": "#FFFFFF"
+ },
+ "children": [
+  {
+   "name": "Main Container",
+   "css": {
+    "display": "flex",
+    "flex-direction": "column",
+    "align-items": "flex-start",
+    "padding": "0px",
+    "gap": "416px",
+    "width": "375px",
+    "height": "869px",
+    "flex": "none",
+    "order": "0",
+    "flex-grow": "0"
+   },
+   "children": [
+    {
+     "name": "Header Container",
+     "css": {
+      "display": "flex",
+      "flex-direction": "column",
+      "align-items": "center",
+      "padding": "0px",
+      "gap": "24px",
+      "width": "375px",
+      "height": "365px",
+      "flex": "none",
+      "order": "0",
+      "align-self": "stretch",
+      "flex-grow": "0"
+     },
+     "children": [
+      {
+       "name": "Status Bar (iPhone)",
+       "css": {
+        "display": "flex",
+        "flex-direction": "row",
+        "justify-content": "space-between",
+        "align-items": "center",
+        "padding": "18px 26px 14px 27px",
+        "gap": "205px",
+        "isolation": "isolate",
+        "width": "375px",
+        "height": "53px",
+        "flex": "none",
+        "order": "0",
+        "align-self": "stretch",
+        "flex-grow": "0"
+       },
+       "children": [
+        {
+         "name": "🧰/Time (iPhone)",
+         "css": {
+          "margin": "0 auto",
+          "width": "54px",
+          "height": "21px",
+          "flex": "none",
+          "order": "0",
+          "flex-grow": "0",
+          "z-index": "0"
+         },
+         "children": [
+          {
+           "name": "Time",
+           "css": {
+            "position": "absolute",
+            "width": "54px",
+            "height": "22px",
+            "left": "0px",
+            "top": "calc(50% - 22px/2 + 0.5px)"
+           }
+          }
+         ]
+        },
+        {
+         "name": "🧰/Cellular,Wifi,Battery (iPhone)",
+         "css": {
+          "margin": "0 auto",
+          "width": "78.26px",
+          "height": "13px",
+          "flex": "none",
+          "order": "1",
+          "flex-grow": "0",
+          "z-index": "1"
+         },
+         "children": [
+          {
+           "name": "Cellular Connection",
+           "css": {
+            "position": "absolute",
+            "left": "0%",
+            "right": "75.47%",
+            "top": "5.13%",
+            "bottom": "2.56%",
+            "background": "#121212"
+           },
+           "children": [
+            {
+             "name": "Cellular-Connection-path"
+            },
+            {
+             "name": "Cellular-Connection-path"
+            },
+            {
+             "name": "Cellular-Connection-path"
+            },
+            {
+             "name": "Cellular-Connection-path"
+            }
+           ]
+          },
+          {
+           "name": "Wifi",
+           "css": {
+            "position": "absolute",
+            "left": "33.99%",
+            "right": "44.29%",
+            "top": "5.13%",
+            "bottom": "2.56%",
+            "background": "#121212"
+           },
+           "children": [
+            {
+             "name": "Wifi-path"
+            },
+            {
+             "name": "Wifi-path"
+            },
+            {
+             "name": "Wifi-path"
+            }
+           ]
+          },
+          {
+           "name": "Battery",
+           "css": {
+            "position": "absolute",
+            "left": "65.08%",
+            "right": "0%",
+            "top": "0%",
+            "bottom": "0%"
+           },
+           "children": [
+            {
+             "name": "Capacity",
+             "css": {
+              "position": "absolute",
+              "left": "67.64%",
+              "right": "5.53%",
+              "top": "15.38%",
+              "bottom": "15.38%",
+              "background": "#121212",
+              "border-radius": "1.33333px"
+             }
+            },
+            {
+             "name": "Cap",
+             "css": {
+              "position": "absolute",
+              "left": "98.3%",
+              "right": "0%",
+              "top": "35.9%",
+              "bottom": "33.33%",
+              "background": "#121212",
+              "mix-blend-mode": "normal",
+              "opacity": "0.4"
+             }
+            },
+            {
+             "name": "Border",
+             "css": {
+              "box-sizing": "border-box",
+              "position": "absolute",
+              "left": "65.08%",
+              "right": "2.97%",
+              "top": "0%",
+              "bottom": "0%",
+              "mix-blend-mode": "normal",
+              "opacity": "0.35",
+              "border": "1px solid #121212",
+              "border-radius": "3.5px"
+             }
+            }
+           ]
+          }
+         ]
+        },
+        {
+         "name": "Floating island",
+         "css": {
+          "position": "absolute",
+          "display": "none",
+          "width": "127px",
+          "height": "37px",
+          "left": "calc(50% - 127px/2 + 1px)",
+          "top": "calc(50% - 37px/2 + 3px)",
+          "background": "#000000",
+          "border-radius": "18.5px",
+          "flex": "none",
+          "order": "2",
+          "flex-grow": "0",
+          "z-index": "2"
+         }
+        }
+       ]
+      },
+      {
+       "name": "Content Container",
+       "css": {
+        "display": "flex",
+        "flex-direction": "column",
+        "align-items": "center",
+        "padding": "0px",
+        "gap": "32px",
+        "width": "343px",
+        "height": "288px",
+        "flex": "none",
+        "order": "1",
+        "flex-grow": "0"
+       },
+       "children": [
+        {
+         "name": "Lock Icon",
+         "css": {
+          "display": "flex",
+          "flex-direction": "column",
+          "align-items": "center",
+          "padding": "0px",
+          "gap": "24px",
+          "width": "327px",
+          "height": "126px",
+          "flex": "none",
+          "order": "0",
+          "flex-grow": "0"
+         },
+         "children": [
+          {
+           "name": "logo",
+           "css": {
+            "width": "140px",
+            "height": "36px",
+            "flex": "none",
+            "order": "0",
+            "flex-grow": "0"
+           },
+           "children": [
+            {
+             "name": "Vector"
+            },
+            {
+             "name": "Vector"
+            },
+            {
+             "name": "Vector"
+            },
+            {
+             "name": "Vector"
+            },
+            {
+             "name": "Vector"
+            },
+            {
+             "name": "Vector"
+            },
+            {
+             "name": "Vector"
+            },
+            {
+             "name": "Exclude",
+             "children": [
+              {
+               "name": "Vector"
+              },
+              {
+               "name": "Vector"
+              }
+             ]
+            },
+            {
+             "name": "Exclude",
+             "children": [
+              {
+               "name": "Vector"
+              },
+              {
+               "name": "Vector"
+              }
+             ]
+            },
+            {
+             "name": "Exclude",
+             "children": [
+              {
+               "name": "Vector"
+              },
+              {
+               "name": "Vector"
+              }
+             ]
+            },
+            {
+             "name": "Exclude",
+             "children": [
+              {
+               "name": "Vector"
+              },
+              {
+               "name": "Vector"
+              }
+             ]
+            },
+            {
+             "name": "Exclude",
+             "children": [
+              {
+               "name": "Vector"
+              },
+              {
+               "name": "Vector"
+              }
+             ]
+            }
+           ]
+          },
+          {
+           "name": "Form Container",
+           "css": {
+            "display": "flex",
+            "flex-direction": "column",
+            "align-items": "flex-start",
+            "padding": "0px",
+            "gap": "32px",
+            "width": "327px",
+            "height": "66px",
+            "flex": "none",
+            "order": "1",
+            "align-self": "stretch",
+            "flex-grow": "0"
+           },
+           "children": [
+            {
+             "name": "Form Header",
+             "css": {
+              "display": "flex",
+              "flex-direction": "column",
+              "align-items": "flex-start",
+              "padding": "0px",
+              "gap": "12px",
+              "width": "327px",
+              "height": "66px",
+              "flex": "none",
+              "order": "0",
+              "align-self": "stretch",
+              "flex-grow": "0"
+             },
+             "children": [
+              {
+               "name": "Form Title",
+               "css": {
+                "width": "327px",
+                "height": "32px"
+               }
+              },
+              {
+               "name": "Form Subtitle",
+               "css": {
+                "width": "327px",
+                "height": "22px"
+               }
+              }
+             ]
+            }
+           ]
+          }
+         ]
+        },
+        {
+         "name": "Check list",
+         "css": {
+          "display": "flex",
+          "flex-direction": "column",
+          "align-items": "flex-start",
+          "padding": "0px",
+          "gap": "16px",
+          "width": "343px",
+          "height": "130px",
+          "flex": "none",
+          "order": "1",
+          "align-self": "stretch",
+          "flex-grow": "0"
+         },
+         "children": [
+          {
+           "name": "Checkbox Item",
+           "children": [
+            {
+             "name": "Frame 1000004542",
+             "children": [
+              {
+               "name": "Family-Card-36px",
+               "children": [
+                {
+                 "name": "social-worker 2"
+                }
+               ]
+              },
+              {
+               "name": "Label"
+              }
+             ]
+            },
+            {
+             "name": "chevron-right",
+             "children": [
+              {
+               "name": "Vector"
+              }
+             ]
+            }
+           ]
+          },
+          {
+           "name": "Line 589",
+           "css": {
+            "width": "343px",
+            "height": "0px",
+            "border": "1px solid #E0E0E0",
+            "flex": "none",
+            "order": "1",
+            "align-self": "stretch",
+            "flex-grow": "0"
+           }
+          },
+          {
+           "name": "Checkbox Item",
+           "children": [
+            {
+             "name": "Frame 1000004542",
+             "children": [
+              {
+               "name": "Family-Card-36px",
+               "children": [
+                {
+                 "name": "social-worker 2"
+                }
+               ]
+              },
+              {
+               "name": "Label"
+              }
+             ]
+            },
+            {
+             "name": "chevron-right",
+             "children": [
+              {
+               "name": "Vector"
+              }
+             ]
+            }
+           ]
+          },
+          {
+           "name": "Line 588",
+           "css": {
+            "width": "343px",
+            "height": "0px",
+            "border": "1px solid #E0E0E0",
+            "flex": "none",
+            "order": "3",
+            "align-self": "stretch",
+            "flex-grow": "0"
+           }
+          },
+          {
+           "name": "Checkbox Item",
+           "children": [
+            {
+             "name": "Frame 1000004542",
+             "children": [
+              {
+               "name": "Family-Card-36px",
+               "children": [
+                {
+                 "name": "social-worker 2"
+                }
+               ]
+              },
+              {
+               "name": "Label"
+              }
+             ]
+            },
+            {
+             "name": "chevron-right",
+             "children": [
+              {
+               "name": "Vector"
+              }
+             ]
+            }
+           ]
+          },
+          {
+           "name": "Line 590",
+           "css": {
+            "display": "none",
+            "width": "343px",
+            "height": "0px",
+            "border": "1px solid #E0E0E0",
+            "flex": "none",
+            "order": "5",
+            "align-self": "stretch",
+            "flex-grow": "0"
+           }
+          },
+          {
+           "name": "Checkbox Item",
+           "children": [
+            {
+             "name": "Frame 1000004542"
+            },
+            {
+             "name": "chevron-right"
+            }
+           ]
+          },
+          {
+           "name": "Line 592",
+           "css": {
+            "display": "none",
+            "width": "343px",
+            "height": "0px",
+            "border": "1px solid #E0E0E0",
+            "flex": "none",
+            "order": "7",
+            "align-self": "stretch",
+            "flex-grow": "0"
+           }
+          },
+          {
+           "name": "Checkbox Item",
+           "children": [
+            {
+             "name": "Frame 1000004542"
+            },
+            {
+             "name": "chevron-right"
+            }
+           ]
+          },
+          {
+           "name": "Line 591",
+           "css": {
+            "display": "none",
+            "width": "343px",
+            "height": "0px",
+            "border": "1px solid #E0E0E0",
+            "flex": "none",
+            "order": "9",
+            "align-self": "stretch",
+            "flex-grow": "0"
+           }
+          },
+          {
+           "name": "Checkbox Item",
+           "children": [
+            {
+             "name": "Frame 1000004542"
+            },
+            {
+             "name": "chevron-right"
+            }
+           ]
+          },
+          {
+           "name": "Line 593",
+           "css": {
+            "display": "none",
+            "width": "343px",
+            "height": "0px",
+            "border": "1px solid #E0E0E0",
+            "flex": "none",
+            "order": "11",
+            "align-self": "stretch",
+            "flex-grow": "0"
+           }
+          },
+          {
+           "name": "Checkbox Item",
+           "children": [
+            {
+             "name": "Frame 1000004542"
+            },
+            {
+             "name": "chevron-right"
+            }
+           ]
+          },
+          {
+           "name": "Line 594",
+           "css": {
+            "display": "none",
+            "width": "343px",
+            "height": "0px",
+            "border": "1px solid #E0E0E0",
+            "flex": "none",
+            "order": "13",
+            "align-self": "stretch",
+            "flex-grow": "0"
+           }
+          },
+          {
+           "name": "Checkbox Item",
+           "children": [
+            {
+             "name": "Frame 1000004542"
+            },
+            {
+             "name": "chevron-right"
+            }
+           ]
+          },
+          {
+           "name": "Line 595",
+           "css": {
+            "display": "none",
+            "width": "343px",
+            "height": "0px",
+            "border": "1px solid #E0E0E0",
+            "flex": "none",
+            "order": "15",
+            "align-self": "stretch",
+            "flex-grow": "0"
+           }
+          },
+          {
+           "name": "Checkbox Item",
+           "children": [
+            {
+             "name": "Frame 1000004542"
+            },
+            {
+             "name": "chevron-right"
+            }
+           ]
+          },
+          {
+           "name": "Line 596",
+           "css": {
+            "display": "none",
+            "width": "343px",
+            "height": "0px",
+            "border": "1px solid #E0E0E0",
+            "flex": "none",
+            "order": "17",
+            "align-self": "stretch",
+            "flex-grow": "0"
+           }
+          },
+          {
+           "name": "Checkbox Item",
+           "children": [
+            {
+             "name": "Frame 1000004542"
+            },
+            {
+             "name": "chevron-right"
+            }
+           ]
+          },
+          {
+           "name": "Line 597",
+           "css": {
+            "display": "none",
+            "width": "343px",
+            "height": "0px",
+            "border": "1px solid #E0E0E0",
+            "flex": "none",
+            "order": "19",
+            "align-self": "stretch",
+            "flex-grow": "0"
+           }
+          },
+          {
+           "name": "Checkbox Item",
+           "children": [
+            {
+             "name": "Frame 1000004542"
+            },
+            {
+             "name": "chevron-right"
+            }
+           ]
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "name": "Footer Container",
+     "css": {
+      "box-sizing": "border-box",
+      "display": "flex",
+      "flex-direction": "column",
+      "align-items": "flex-start",
+      "padding": "0px",
+      "width": "375px",
+      "height": "88px",
+      "border-top": "1px solid #E0E0E0",
+      "flex": "none",
+      "order": "1",
+      "align-self": "stretch",
+      "flex-grow": "0"
+     },
+     "children": [
+      {
+       "name": "Footer Link Container",
+       "css": {
+        "display": "flex",
+        "flex-direction": "column",
+        "align-items": "center",
+        "padding": "16px",
+        "gap": "24px",
+        "width": "375px",
+        "height": "54px",
+        "background": "#FFFFFF",
+        "flex": "none",
+        "order": "0",
+        "align-self": "stretch",
+        "flex-grow": "0"
+       },
+       "children": [
+        {
+         "name": "Footer Text and Link",
+         "css": {
+          "display": "flex",
+          "flex-direction": "row",
+          "justify-content": "center",
+          "align-items": "center",
+          "padding": "0px",
+          "gap": "4px",
+          "width": "311px",
+          "height": "22px",
+          "flex": "none",
+          "order": "0",
+          "flex-grow": "0"
+         },
+         "children": [
+          {
+           "name": "Footer Text",
+           "css": {
+            "width": "182px",
+            "height": "22px"
+           }
+          },
+          {
+           "name": "Link",
+           "css": {
+            "display": "flex",
+            "flex-direction": "row",
+            "align-items": "center",
+            "padding": "0px",
+            "gap": "4px",
+            "width": "44px",
+            "height": "22px",
+            "flex": "none",
+            "order": "1",
+            "flex-grow": "0"
+           },
+           "children": [
+            {
+             "name": "Link text",
+             "css": {
+              "width": "44px",
+              "height": "22px"
+             }
+            }
+           ]
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "name": "🧰/Home Indicator (iPhone)",
+       "css": {
+        "width": "375px",
+        "height": "34px",
+        "background": "#FFFFFF",
+        "flex": "none",
+        "order": "1",
+        "align-self": "stretch",
+        "flex-grow": "0"
+       },
+       "children": [
+        {
+         "name": "Home Indicator",
+         "css": {
+          "position": "absolute",
+          "width": "134px",
+          "height": "5px",
+          "left": "calc(50% - 134px/2 + 0.5px)",
+          "bottom": "8px"
+         }
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

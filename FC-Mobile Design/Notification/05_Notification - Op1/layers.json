@@ -1,0 +1,610 @@
+{
+ "name": "Notification - Op1",
+ "css": {
+  "display": "flex",
+  "flex-direction": "row",
+  "align-items": "center",
+  "padding": "0px 0px 24px",
+  "gap": "10px",
+  "position": "relative",
+  "width": "375px",
+  "height": "1507px",
+  "left": "2010px",
+  "top": "1058px",
+  "background": "#FFFFFF"
+ },
+ "children": [
+  {
+   "name": "Frame 1000004930",
+   "css": {
+    "display": "flex",
+    "flex-direction": "column",
+    "align-items": "center",
+    "padding": "0px",
+    "gap": "24px",
+    "width": "375px",
+    "height": "1483px",
+    "flex": "none",
+    "order": "0",
+    "flex-grow": "0"
+   },
+   "children": [
+    {
+     "name": "Top Navigation",
+     "css": {
+      "display": "flex",
+      "flex-direction": "column",
+      "align-items": "flex-start",
+      "padding": "0px",
+      "width": "375px",
+      "height": "127px",
+      "flex": "none",
+      "order": "0",
+      "align-self": "stretch",
+      "flex-grow": "0"
+     },
+     "children": [
+      {
+       "name": "Status Bar (iPhone)",
+       "css": {
+        "display": "flex",
+        "flex-direction": "row",
+        "justify-content": "space-between",
+        "align-items": "center",
+        "padding": "18px 26px 14px 27px",
+        "gap": "205px",
+        "isolation": "isolate",
+        "width": "375px",
+        "height": "53px",
+        "background": "#1999A4",
+        "flex": "none",
+        "order": "0",
+        "align-self": "stretch",
+        "flex-grow": "0"
+       },
+       "children": [
+        {
+         "name": "🧰/Time (iPhone)",
+         "css": {
+          "margin": "0 auto",
+          "width": "54px",
+          "height": "21px",
+          "flex": "none",
+          "order": "0",
+          "flex-grow": "0",
+          "z-index": "0"
+         },
+         "children": [
+          {
+           "name": "Time",
+           "css": {
+            "position": "absolute",
+            "width": "54px",
+            "height": "22px",
+            "left": "0px",
+            "top": "calc(50% - 22px/2 + 0.5px)"
+           }
+          }
+         ]
+        },
+        {
+         "name": "🧰/Cellular,Wifi,Battery (iPhone)",
+         "css": {
+          "margin": "0 auto",
+          "width": "78.26px",
+          "height": "13px",
+          "flex": "none",
+          "order": "1",
+          "flex-grow": "0",
+          "z-index": "1"
+         },
+         "children": [
+          {
+           "name": "Cellular Connection",
+           "css": {
+            "position": "absolute",
+            "left": "0%",
+            "right": "75.47%",
+            "top": "5.12%",
+            "bottom": "2.57%",
+            "background": "#FFFFFF"
+           },
+           "children": [
+            {
+             "name": "Cellular-Connection-path"
+            },
+            {
+             "name": "Cellular-Connection-path"
+            },
+            {
+             "name": "Cellular-Connection-path"
+            },
+            {
+             "name": "Cellular-Connection-path"
+            }
+           ]
+          },
+          {
+           "name": "Wifi",
+           "css": {
+            "position": "absolute",
+            "left": "33.99%",
+            "right": "44.29%",
+            "top": "5.12%",
+            "bottom": "2.57%",
+            "background": "#FFFFFF"
+           },
+           "children": [
+            {
+             "name": "Wifi-path"
+            },
+            {
+             "name": "Wifi-path"
+            },
+            {
+             "name": "Wifi-path"
+            }
+           ]
+          },
+          {
+           "name": "Battery",
+           "css": {
+            "position": "absolute",
+            "left": "65.08%",
+            "right": "0%",
+            "top": "0%",
+            "bottom": "0%"
+           },
+           "children": [
+            {
+             "name": "Capacity",
+             "css": {
+              "position": "absolute",
+              "left": "67.64%",
+              "right": "5.53%",
+              "top": "15.38%",
+              "bottom": "15.38%",
+              "background": "#FFFFFF",
+              "border-radius": "1.33333px"
+             }
+            },
+            {
+             "name": "Cap",
+             "css": {
+              "position": "absolute",
+              "left": "98.3%",
+              "right": "0%",
+              "top": "35.89%",
+              "bottom": "33.34%",
+              "background": "#FFFFFF",
+              "mix-blend-mode": "normal",
+              "opacity": "0.4"
+             }
+            },
+            {
+             "name": "Border",
+             "css": {
+              "box-sizing": "border-box",
+              "position": "absolute",
+              "left": "65.08%",
+              "right": "2.98%",
+              "top": "0%",
+              "bottom": "0%",
+              "mix-blend-mode": "normal",
+              "opacity": "0.35",
+              "border": "1px solid #FFFFFF",
+              "border-radius": "3.5px"
+             }
+            }
+           ]
+          }
+         ]
+        },
+        {
+         "name": "Floating island",
+         "css": {
+          "position": "absolute",
+          "display": "none",
+          "width": "127px",
+          "height": "37px",
+          "left": "calc(50% - 127px/2 + 1px)",
+          "top": "calc(50% - 37px/2 + 3px)",
+          "background": "#000000",
+          "border-radius": "18.5px",
+          "flex": "none",
+          "order": "2",
+          "flex-grow": "0",
+          "z-index": "2"
+         }
+        }
+       ]
+      },
+      {
+       "name": "Bottom",
+       "css": {
+        "display": "flex",
+        "flex-direction": "row",
+        "align-items": "center",
+        "padding": "24px 16px",
+        "gap": "8px",
+        "width": "375px",
+        "height": "74px",
+        "background": "#1999A4",
+        "flex": "none",
+        "order": "1",
+        "align-self": "stretch",
+        "flex-grow": "0"
+       },
+       "children": [
+        {
+         "name": "Left Action",
+         "css": {
+          "display": "flex",
+          "flex-direction": "row",
+          "align-items": "center",
+          "padding": "0px",
+          "gap": "4px",
+          "width": "76px",
+          "height": "22px",
+          "flex": "none",
+          "order": "0",
+          "flex-grow": "0"
+         },
+         "children": [
+          {
+           "name": "chevron-left",
+           "css": {
+            "width": "20px",
+            "height": "20px",
+            "flex": "none",
+            "order": "0",
+            "flex-grow": "0"
+           },
+           "children": [
+            {
+             "name": "Vector"
+            }
+           ]
+          },
+          {
+           "name": "Back",
+           "css": {
+            "width": "36px",
+            "height": "22px"
+           }
+          }
+         ]
+        },
+        {
+         "name": "Title",
+         "css": {
+          "width": "200px",
+          "max-width": "200px",
+          "height": "26px"
+         }
+        },
+        {
+         "name": "Right Action",
+         "css": {
+          "display": "none",
+          "flex-direction": "row",
+          "justify-content": "flex-end",
+          "align-items": "center",
+          "padding": "0px",
+          "gap": "4px",
+          "width": "76px",
+          "height": "22px",
+          "flex": "none",
+          "order": "2",
+          "flex-grow": "0"
+         },
+         "children": [
+          {
+           "name": "settings",
+           "css": {
+            "width": "20px",
+            "height": "20px",
+            "flex": "none",
+            "order": "0",
+            "flex-grow": "0"
+           }
+          },
+          {
+           "name": "Setting",
+           "css": {
+            "width": "51px",
+            "height": "22px"
+           }
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "name": "Container",
+     "children": [
+      {
+       "name": "Container",
+       "children": [
+        {
+         "name": "Heading",
+         "children": [
+          {
+           "name": "Checkbox",
+           "children": [
+            {
+             "name": "Box"
+            },
+            {
+             "name": "Label"
+            }
+           ]
+          },
+          {
+           "name": "Notification Content",
+           "children": [
+            {
+             "name": "Add-32px",
+             "css": {
+              "display": "flex",
+              "flex-direction": "row",
+              "justify-content": "center",
+              "align-items": "center",
+              "padding": "4px",
+              "gap": "10px",
+              "width": "40px",
+              "height": "40px",
+              "background": "#ECE0FC",
+              "border-radius": "20px",
+              "flex": "none",
+              "order": "0",
+              "flex-grow": "0"
+             },
+             "children": [
+              {
+               "name": "add-user 1",
+               "css": {
+                "width": "32px",
+                "height": "32px",
+                "flex": "none",
+                "order": "0",
+                "flex-grow": "0"
+               },
+               "children": [
+                {
+                 "name": "Group 2214",
+                 "css": {
+                  "position": "absolute",
+                  "width": "16.03px",
+                  "height": "16px",
+                  "left": "13.47px",
+                  "top": "14.93px"
+                 },
+                 "children": [
+                  {
+                   "name": "Vector"
+                  },
+                  {
+                   "name": "Vector"
+                  }
+                 ]
+                },
+                {
+                 "name": "Vector"
+                },
+                {
+                 "name": "Vector"
+                }
+               ]
+              }
+             ]
+            },
+            {
+             "name": "Notification Text",
+             "children": [
+              {
+               "name": "Notification Header",
+               "children": [
+                {
+                 "name": "Notification Title"
+                },
+                {
+                 "name": "Notification Body Container",
+                 "children": [
+                  {
+                   "name": "Notification Body"
+                  }
+                 ]
+                },
+                {
+                 "name": "Contact Information Container",
+                 "css": {
+                  "box-sizing": "border-box",
+                  "display": "flex",
+                  "flex-direction": "column",
+                  "justify-content": "center",
+                  "align-items": "center",
+                  "padding": "16px",
+                  "gap": "16px",
+                  "width": "247px",
+                  "height": "128px",
+                  "background": "#FFFFFF",
+                  "border": "1px solid #C8C8C8",
+                  "border-radius": "8px",
+                  "flex": "none",
+                  "order": "2",
+                  "align-self": "stretch",
+                  "flex-grow": "0"
+                 },
+                 "children": [
+                  {
+                   "name": "Contact Information",
+                   "css": {
+                    "display": "flex",
+                    "flex-direction": "row",
+                    "align-items": "center",
+                    "padding": "0px",
+                    "gap": "8px",
+                    "width": "215px",
+                    "height": "44px",
+                    "flex": "none",
+                    "order": "0",
+                    "align-self": "stretch",
+                    "flex-grow": "0"
+                   },
+                   "children": [
+                    {
+                     "name": "Contact Avatar Container",
+                     "css": {
+                      "width": "36px",
+                      "height": "36px",
+                      "flex": "none",
+                      "order": "0",
+                      "flex-grow": "0"
+                     },
+                     "children": [
+                      {
+                       "name": "Ellipse 2285",
+                       "css": {
+                        "box-sizing": "border-box",
+                        "position": "absolute",
+                        "width": "12px",
+                        "height": "12px",
+                        "left": "24px",
+                        "top": "28px",
+                        "background": "#2D7927",
+                        "border": "1px solid #E9F8E8"
+                       }
+                      },
+                      {
+                       "name": "Contact Avatar",
+                       "css": {
+                        "position": "absolute",
+                        "width": "36px",
+                        "height": "36px",
+                        "left": "0px",
+                        "top": "4px",
+                        "background": "url(.jpg)",
+                        "border-radius": "18px"
+                       }
+                      }
+                     ]
+                    },
+                    {
+                     "name": "Contact Details",
+                     "css": {
+                      "display": "flex",
+                      "flex-direction": "column",
+                      "justify-content": "center",
+                      "align-items": "flex-start",
+                      "padding": "0px",
+                      "gap": "2px",
+                      "width": "171px",
+                      "height": "44px",
+                      "flex": "none",
+                      "order": "1",
+                      "flex-grow": "1"
+                     },
+                     "children": [
+                      {
+                       "name": "Label"
+                      },
+                      {
+                       "name": "Frame 1000004712",
+                       "css": {
+                        "display": "flex",
+                        "flex-direction": "row",
+                        "align-items": "center",
+                        "padding": "0px",
+                        "gap": "4px",
+                        "width": "171px",
+                        "height": "20px",
+                        "flex": "none",
+                        "order": "1",
+                        "align-self": "stretch",
+                        "flex-grow": "0"
+                       }
+                      }
+                     ]
+                    }
+                   ]
+                  },
+                  {
+                   "name": "Notification Button Container",
+                   "children": [
+                    {
+                     "name": "Button",
+                     "children": [
+                      {
+                       "name": "Base button/Primary"
+                      }
+                     ]
+                    },
+                    {
+                     "name": "Button",
+                     "children": [
+                      {
+                       "name": "Base button/Primary"
+                      }
+                     ]
+                    }
+                   ]
+                  }
+                 ]
+                }
+               ]
+              },
+              {
+               "name": "Notification Time"
+              }
+             ]
+            }
+           ]
+          },
+          {
+           "name": "Ellipse 2275"
+          },
+          {
+           "name": "Line 585"
+          },
+          {
+           "name": "Notification",
+           "children": [
+            {
+             "name": "Checkbox",
+             "children": [
+              {
+               "name": "Box"
+              },
+              {
+               "name": "Label"
+              }
+             ]
+            },
+            {
+             "name": "Notification Content",
+             "children": [
+              {
+               "name": "Team-32px",
+               "children": [
+                {
+                 "name": "group 1"
+                }
+               ]
+              }
+             ]
+            }
+           ]
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

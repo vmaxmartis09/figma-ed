@@ -1,0 +1,115 @@
+{
+ "name": "Progress bar/Default",
+ "css": {
+  "box-sizing": "border-box",
+  "display": "flex",
+  "flex-direction": "row",
+  "justify-content": "space-between",
+  "align-items": "center",
+  "padding": "0px 0px 0px 80px",
+  "gap": "80px",
+  "width": "1203px",
+  "height": "156px",
+  "background": "#FFFFFF",
+  "border": "1px solid #C8C8C8",
+  "border-radius": "0px 40px 40px 0px",
+  "flex": "none",
+  "order": "0",
+  "align-self": "stretch",
+  "flex-grow": "0"
+ },
+ "children": [
+  {
+   "name": "Date",
+   "css": {
+    "display": "flex",
+    "flex-direction": "row",
+    "justify-content": "center",
+    "align-items": "center",
+    "padding": "0px",
+    "gap": "32px",
+    "margin": "0 auto",
+    "width": "224px",
+    "height": "108px",
+    "flex": "none",
+    "order": "0",
+    "flex-grow": "0"
+   },
+   "children": [
+    {
+     "name": "Frame 1000002141",
+     "css": {
+      "display": "flex",
+      "flex-direction": "column",
+      "align-items": "flex-start",
+      "padding": "0px",
+      "gap": "24px",
+      "width": "224px",
+      "height": "108px",
+      "flex": "none",
+      "order": "0",
+      "flex-grow": "0"
+     },
+     "children": [
+      {
+       "name": "Label Date",
+       "css": {
+        "width": "85px",
+        "height": "36px",
+        "font-family": "'Montserrat'",
+        "font-style": "normal",
+        "font-weight": "600",
+        "font-size": "30px",
+        "line-height": "120%"
+       }
+      },
+      {
+       "name": "Value Date",
+       "css": {
+        "width": "224px",
+        "height": "48px",
+        "font-family": "'Montserrat'",
+        "font-style": "normal",
+        "font-weight": "600",
+        "font-size": "40px",
+        "line-height": "120%"
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Status flow",
+   "css": {
+    "display": "flex",
+    "flex-direction": "row",
+    "justify-content": "center",
+    "align-items": "center",
+    "padding": "57px",
+    "margin": "0 auto",
+    "width": "850px",
+    "height": "156px",
+    "background": "#128217",
+    "border-radius": "0px 40px",
+    "flex": "none",
+    "order": "1",
+    "flex-grow": "0"
+   },
+   "children": [
+    {
+     "name": "Status name",
+     "css": {
+      "width": "736px",
+      "height": "70px",
+      "font-family": "'Montserrat'",
+      "font-style": "normal",
+      "font-weight": "700",
+      "font-size": "50px",
+      "line-height": "140%"
+     }
+    }
+   ]
+  }
+ ]
+}

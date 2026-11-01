@@ -1,0 +1,123 @@
+{
+ "name": "Onboarding",
+ "css": {
+  "display": "flex",
+  "flex-direction": "column",
+  "align-items": "flex-start",
+  "padding": "0px",
+  "gap": "102px",
+  "position": "relative",
+  "width": "375px",
+  "height": "815px",
+  "left": "777px",
+  "top": "762px",
+  "background": "#1999A4"
+ },
+ "children": [
+  {
+   "name": "Frame 1000004659",
+   "css": {
+    "display": "flex",
+    "flex-direction": "column",
+    "align-items": "center",
+    "padding": "0px",
+    "gap": "16px",
+    "width": "375px",
+    "height": "589px",
+    "flex": "none",
+    "order": "0",
+    "align-self": "stretch",
+    "flex-grow": "0"
+   },
+   "children": [
+    {
+     "name": "Component 1",
+     "css": {
+      "display": "flex",
+      "flex-direction": "column",
+      "align-items": "flex-start",
+      "padding": "0px",
+      "width": "375px",
+      "height": "53px",
+      "flex": "none",
+      "order": "0",
+      "align-self": "stretch",
+      "flex-grow": "0"
+     },
+     "children": [
+      {
+       "name": "Status Bar (iPhone)",
+       "css": {
+        "display": "flex",
+        "flex-direction": "row",
+        "justify-content": "space-between",
+        "align-items": "center",
+        "padding": "18px 26px 14px 27px",
+        "gap": "205px",
+        "isolation": "isolate",
+        "width": "375px",
+        "height": "53px",
+        "background": "#1999A4",
+        "flex": "none",
+        "order": "0",
+        "align-self": "stretch",
+        "flex-grow": "0"
+       },
+       "children": [
+        {
+         "name": "🧰/Time (iPhone)",
+         "css": {
+          "margin": "0 auto",
+          "width": "54px",
+          "height": "21px",
+          "flex": "none",
+          "order": "0",
+          "flex-grow": "0",
+          "z-index": "0"
+         },
+         "children": [
+          {
+           "name": "Time",
+           "css": {
+            "position": "absolute",
+            "width": "54px",
+            "height": "22px",
+            "left": "0px",
+            "top": "calc(50% - 22px/2 + 0.5px)"
+           }
+          }
+         ]
+        },
+        {
+         "name": "🧰/Cellular,Wifi,Battery (iPhone)",
+         "css": {
+          "margin": "0 auto",
+          "width": "78.26px",
+          "height": "13px",
+          "flex": "none",
+          "order": "1",
+          "flex-grow": "0",
+          "z-index": "1"
+         },
+         "children": [
+          {
+           "name": "Cellular Connection",
+           "css": {
+            "position": "absolute",
+            "left": "0%",
+            "right": "75.47%",
+            "top": "5.13%",
+            "bottom": "2.56%",
+            "background": "#FFFFFF"
+           }
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

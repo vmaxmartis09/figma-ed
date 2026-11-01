@@ -1,0 +1,970 @@
+{
+ "name": "Create an account - Step 22",
+ "css": {
+  "position": "relative",
+  "width": "375px",
+  "height": "947px",
+  "left": "3904px",
+  "top": "3260px",
+  "background": "#FFFFFF"
+ },
+ "children": [
+  {
+   "name": "Progress bar",
+   "css": {
+    "display": "flex",
+    "flex-direction": "row",
+    "align-items": "center",
+    "padding": "8px 16px",
+    "gap": "10px",
+    "isolation": "isolate",
+    "position": "absolute",
+    "width": "375px",
+    "height": "36px",
+    "left": "0px",
+    "top": "53px",
+    "background": "#EEFBFC"
+   },
+   "children": [
+    {
+     "name": "Progress bar info",
+     "css": {
+      "display": "flex",
+      "flex-direction": "row",
+      "align-items": "center",
+      "padding": "0px",
+      "gap": "2px",
+      "width": "295px",
+      "height": "20px",
+      "flex": "none",
+      "order": "0",
+      "flex-grow": "1",
+      "z-index": "0"
+     },
+     "children": [
+      {
+       "name": "Step label",
+       "css": {
+        "width": "45px",
+        "height": "20px"
+       }
+      },
+      {
+       "name": "Step name",
+       "css": {
+        "width": "248px",
+        "height": "20px"
+       }
+      }
+     ]
+    },
+    {
+     "name": "Steps counter",
+     "css": {
+      "width": "38px",
+      "height": "20px"
+     }
+    },
+    {
+     "name": "Progress background",
+     "css": {
+      "position": "absolute",
+      "width": "375px",
+      "height": "4px",
+      "left": "0px",
+      "bottom": "0px",
+      "background": "#D8F6F9",
+      "flex": "none",
+      "order": "2",
+      "flex-grow": "0",
+      "z-index": "2"
+     }
+    },
+    {
+     "name": "Progress foreground 1",
+     "css": {
+      "position": "absolute",
+      "width": "375px",
+      "height": "4px",
+      "left": "0px",
+      "bottom": "0px",
+      "background": "#1999A4",
+      "flex": "none",
+      "order": "3",
+      "flex-grow": "0",
+      "z-index": "3"
+     }
+    }
+   ]
+  },
+  {
+   "name": "🧰/Home Indicator (iPhone)",
+   "css": {
+    "position": "absolute",
+    "width": "375px",
+    "height": "34px",
+    "left": "0px",
+    "bottom": "0px",
+    "background": "#FFFFFF"
+   },
+   "children": [
+    {
+     "name": "Home Indicator",
+     "css": {
+      "position": "absolute",
+      "width": "134px",
+      "height": "5px",
+      "left": "calc(50% - 134px/2 + 0.5px)",
+      "bottom": "8px"
+     }
+    }
+   ]
+  },
+  {
+   "name": "Footer Container",
+   "css": {
+    "display": "flex",
+    "flex-direction": "column",
+    "align-items": "flex-start",
+    "padding": "0px",
+    "gap": "32px",
+    "position": "absolute",
+    "width": "327px",
+    "height": "780px",
+    "left": "calc(50% - 327px/2)",
+    "top": "121px"
+   },
+   "children": [
+    {
+     "name": "Header container",
+     "css": {
+      "display": "flex",
+      "flex-direction": "row",
+      "justify-content": "center",
+      "align-items": "center",
+      "padding": "0px",
+      "gap": "32px",
+      "isolation": "isolate",
+      "width": "327px",
+      "height": "32px",
+      "flex": "none",
+      "order": "0",
+      "align-self": "stretch",
+      "flex-grow": "0"
+     },
+     "children": [
+      {
+       "name": "Header title",
+       "css": {
+        "width": "201px",
+        "height": "32px"
+       }
+      },
+      {
+       "name": "Back icon",
+       "css": {
+        "position": "absolute",
+        "width": "24px",
+        "height": "24px",
+        "left": "0px",
+        "top": "4px",
+        "flex": "none",
+        "order": "1",
+        "flex-grow": "0",
+        "z-index": "1"
+       },
+       "children": [
+        {
+         "name": "Vector"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "name": "Form container",
+     "css": {
+      "display": "flex",
+      "flex-direction": "column",
+      "align-items": "flex-start",
+      "padding": "0px",
+      "gap": "20px",
+      "width": "327px",
+      "height": "584px",
+      "flex": "none",
+      "order": "1",
+      "align-self": "stretch",
+      "flex-grow": "0"
+     },
+     "children": [
+      {
+       "name": "Dropdown field",
+       "children": [
+        {
+         "name": "Base/ Dropdown field (Single)",
+         "children": [
+          {
+           "name": "Container",
+           "children": [
+            {
+             "name": "Label",
+             "children": [
+              {
+               "name": "Label"
+              },
+              {
+               "name": "*"
+              },
+              {
+               "name": "Toggletip (icon)",
+               "children": [
+                {
+                 "name": "icon toogletip"
+                },
+                {
+                 "name": "Ellipse 142"
+                }
+               ]
+              }
+             ]
+            },
+            {
+             "name": "Input",
+             "children": [
+              {
+               "name": "Placeholder"
+              },
+              {
+               "name": "icon / outlined / directions / chevron / down",
+               "children": [
+                {
+                 "name": "Vector"
+                }
+               ]
+              }
+             ]
+            }
+           ]
+          },
+          {
+           "name": "Help text",
+           "children": [
+            {
+             "name": "Icon Error"
+            },
+            {
+             "name": "Message"
+            }
+           ]
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "name": "Text Field",
+       "children": [
+        {
+         "name": "Field",
+         "children": [
+          {
+           "name": "Container",
+           "children": [
+            {
+             "name": "Label",
+             "children": [
+              {
+               "name": "Label"
+              },
+              {
+               "name": "*"
+              },
+              {
+               "name": "Toggletip (icon)",
+               "children": [
+                {
+                 "name": "icon toogletip"
+                },
+                {
+                 "name": "Ellipse 142"
+                }
+               ]
+              }
+             ]
+            },
+            {
+             "name": "Input",
+             "children": [
+              {
+               "name": "Input Item/ Addon",
+               "children": [
+                {
+                 "name": "Payment method icon"
+                },
+                {
+                 "name": "icon / outlined / directions / chevron / down"
+                }
+               ]
+              },
+              {
+               "name": "Input",
+               "children": [
+                {
+                 "name": "Text prefix"
+                },
+                {
+                 "name": "text value"
+                },
+                {
+                 "name": "Text suffix"
+                }
+               ]
+              },
+              {
+               "name": "Input Item/ Addon",
+               "children": [
+                {
+                 "name": "wrapper"
+                },
+                {
+                 "name": "icon / outlined / directions / chevron / down"
+                }
+               ]
+              }
+             ]
+            }
+           ]
+          },
+          {
+           "name": "Help text",
+           "children": [
+            {
+             "name": "Icon Error"
+            },
+            {
+             "name": "Message"
+            }
+           ]
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "name": "Line 589",
+       "css": {
+        "width": "327px",
+        "height": "0px",
+        "border": "1px solid #E0E0E0",
+        "flex": "none",
+        "order": "2",
+        "align-self": "stretch",
+        "flex-grow": "0"
+       }
+      },
+      {
+       "name": "Dropdown field",
+       "children": [
+        {
+         "name": "Base/ Dropdown field (Single)",
+         "children": [
+          {
+           "name": "Container",
+           "children": [
+            {
+             "name": "Label",
+             "children": [
+              {
+               "name": "Label"
+              },
+              {
+               "name": "*"
+              },
+              {
+               "name": "Toggletip (icon)",
+               "children": [
+                {
+                 "name": "icon toogletip"
+                },
+                {
+                 "name": "Ellipse 142"
+                }
+               ]
+              }
+             ]
+            },
+            {
+             "name": "Input",
+             "children": [
+              {
+               "name": "Placeholder"
+              },
+              {
+               "name": "icon / outlined / directions / chevron / down",
+               "children": [
+                {
+                 "name": "Vector"
+                }
+               ]
+              }
+             ]
+            }
+           ]
+          },
+          {
+           "name": "Help text",
+           "children": [
+            {
+             "name": "Icon Error"
+            },
+            {
+             "name": "Message"
+            }
+           ]
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "name": "Text Field",
+       "children": [
+        {
+         "name": "Field",
+         "children": [
+          {
+           "name": "Container",
+           "children": [
+            {
+             "name": "Label",
+             "children": [
+              {
+               "name": "Label"
+              },
+              {
+               "name": "*"
+              },
+              {
+               "name": "Toggletip (icon)",
+               "children": [
+                {
+                 "name": "icon toogletip"
+                },
+                {
+                 "name": "Ellipse 142"
+                }
+               ]
+              }
+             ]
+            },
+            {
+             "name": "Input",
+             "children": [
+              {
+               "name": "Input Item/ Addon",
+               "children": [
+                {
+                 "name": "Payment method icon"
+                },
+                {
+                 "name": "icon / outlined / directions / chevron / down"
+                }
+               ]
+              },
+              {
+               "name": "Input",
+               "children": [
+                {
+                 "name": "Text prefix"
+                },
+                {
+                 "name": "text value"
+                },
+                {
+                 "name": "Text suffix"
+                }
+               ]
+              },
+              {
+               "name": "Input Item/ Addon",
+               "children": [
+                {
+                 "name": "wrapper"
+                },
+                {
+                 "name": "icon / outlined / directions / chevron / down"
+                }
+               ]
+              }
+             ]
+            }
+           ]
+          },
+          {
+           "name": "Help text",
+           "children": [
+            {
+             "name": "Icon Error"
+            },
+            {
+             "name": "Message"
+            }
+           ]
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "name": "Line 590",
+       "css": {
+        "width": "327px",
+        "height": "0px",
+        "border": "1px solid #E0E0E0",
+        "flex": "none",
+        "order": "5",
+        "align-self": "stretch",
+        "flex-grow": "0"
+       }
+      },
+      {
+       "name": "Dropdown field",
+       "children": [
+        {
+         "name": "Base/ Dropdown field (Single)",
+         "children": [
+          {
+           "name": "Container",
+           "children": [
+            {
+             "name": "Label",
+             "children": [
+              {
+               "name": "Label"
+              },
+              {
+               "name": "*"
+              },
+              {
+               "name": "Toggletip (icon)",
+               "children": [
+                {
+                 "name": "icon toogletip"
+                },
+                {
+                 "name": "Ellipse 142"
+                }
+               ]
+              }
+             ]
+            },
+            {
+             "name": "Input",
+             "children": [
+              {
+               "name": "Placeholder"
+              },
+              {
+               "name": "icon / outlined / directions / chevron / down",
+               "children": [
+                {
+                 "name": "Vector"
+                }
+               ]
+              }
+             ]
+            }
+           ]
+          },
+          {
+           "name": "Help text",
+           "children": [
+            {
+             "name": "Icon Error"
+            },
+            {
+             "name": "Message"
+            }
+           ]
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "name": "Text Field",
+       "children": [
+        {
+         "name": "Field",
+         "children": [
+          {
+           "name": "Container",
+           "children": [
+            {
+             "name": "Label",
+             "children": [
+              {
+               "name": "Label"
+              },
+              {
+               "name": "*"
+              },
+              {
+               "name": "Toggletip (icon)",
+               "children": [
+                {
+                 "name": "icon toogletip"
+                },
+                {
+                 "name": "Ellipse 142"
+                }
+               ]
+              }
+             ]
+            },
+            {
+             "name": "Input",
+             "children": [
+              {
+               "name": "Input Item/ Addon",
+               "children": [
+                {
+                 "name": "Payment method icon"
+                },
+                {
+                 "name": "icon / outlined / directions / chevron / down"
+                }
+               ]
+              },
+              {
+               "name": "Input",
+               "children": [
+                {
+                 "name": "Text prefix"
+                },
+                {
+                 "name": "text value"
+                },
+                {
+                 "name": "Text suffix"
+                }
+               ]
+              },
+              {
+               "name": "Input Item/ Addon",
+               "children": [
+                {
+                 "name": "wrapper"
+                },
+                {
+                 "name": "icon / outlined / directions / chevron / down"
+                }
+               ]
+              }
+             ]
+            }
+           ]
+          },
+          {
+           "name": "Help text",
+           "children": [
+            {
+             "name": "Icon Error"
+            },
+            {
+             "name": "Message"
+            }
+           ]
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "name": "Footer",
+     "css": {
+      "display": "flex",
+      "flex-direction": "column",
+      "align-items": "flex-start",
+      "padding": "0px",
+      "gap": "24px",
+      "width": "327px",
+      "height": "100px",
+      "flex": "none",
+      "order": "2",
+      "align-self": "stretch",
+      "flex-grow": "0"
+     },
+     "children": [
+      {
+       "name": "Button container",
+       "css": {
+        "display": "flex",
+        "flex-direction": "row",
+        "align-items": "flex-start",
+        "padding": "0px",
+        "gap": "24px",
+        "width": "327px",
+        "height": "54px",
+        "flex": "none",
+        "order": "0",
+        "align-self": "stretch",
+        "flex-grow": "0"
+       },
+       "children": [
+        {
+         "name": "Button",
+         "children": [
+          {
+           "name": "Base button/Primary",
+           "css": {
+            "display": "flex",
+            "flex-direction": "row",
+            "justify-content": "center",
+            "align-items": "center",
+            "padding": "16px 24px",
+            "gap": "8px",
+            "width": "327px",
+            "height": "54px",
+            "background": "#1999A4",
+            "border-radius": "8px",
+            "flex": "none",
+            "order": "0",
+            "flex-grow": "1"
+           },
+           "children": [
+            {
+             "name": "Button text",
+             "css": {
+              "width": "109px",
+              "height": "22px"
+             }
+            }
+           ]
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "name": "Login prompt",
+       "css": {
+        "display": "flex",
+        "flex-direction": "row",
+        "justify-content": "center",
+        "align-items": "center",
+        "padding": "0px",
+        "gap": "4px",
+        "width": "311px",
+        "height": "22px",
+        "flex": "none",
+        "order": "1",
+        "flex-grow": "0"
+       },
+       "children": [
+        {
+         "name": "Login prompt text",
+         "css": {
+          "width": "182px",
+          "height": "22px"
+         }
+        },
+        {
+         "name": "Link",
+         "children": [
+          {
+           "name": "Link text"
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Link",
+   "children": [
+    {
+     "name": "Link text"
+    }
+   ]
+  },
+  {
+   "name": "Status Bar (iPhone)",
+   "css": {
+    "display": "flex",
+    "flex-direction": "row",
+    "justify-content": "space-between",
+    "align-items": "center",
+    "padding": "18px 26px 14px 27px",
+    "gap": "205px",
+    "isolation": "isolate",
+    "position": "absolute",
+    "width": "375px",
+    "height": "53px",
+    "left": "0px",
+    "top": "0px"
+   },
+   "children": [
+    {
+     "name": "🧰/Time (iPhone)",
+     "css": {
+      "margin": "0 auto",
+      "width": "54px",
+      "height": "21px",
+      "flex": "none",
+      "order": "0",
+      "flex-grow": "0",
+      "z-index": "0"
+     },
+     "children": [
+      {
+       "name": "Time",
+       "css": {
+        "position": "absolute",
+        "width": "54px",
+        "height": "22px",
+        "left": "0px",
+        "top": "calc(50% - 22px/2 + 0.5px)"
+       }
+      }
+     ]
+    },
+    {
+     "name": "🧰/Cellular,Wifi,Battery (iPhone)",
+     "css": {
+      "margin": "0 auto",
+      "width": "78.26px",
+      "height": "13px",
+      "flex": "none",
+      "order": "1",
+      "flex-grow": "0",
+      "z-index": "1"
+     },
+     "children": [
+      {
+       "name": "Cellular Connection",
+       "css": {
+        "position": "absolute",
+        "left": "0%",
+        "right": "75.47%",
+        "top": "5.13%",
+        "bottom": "2.56%",
+        "background": "#121212"
+       },
+       "children": [
+        {
+         "name": "Cellular-Connection-path"
+        },
+        {
+         "name": "Cellular-Connection-path"
+        },
+        {
+         "name": "Cellular-Connection-path"
+        },
+        {
+         "name": "Cellular-Connection-path"
+        }
+       ]
+      },
+      {
+       "name": "Wifi",
+       "css": {
+        "position": "absolute",
+        "left": "33.99%",
+        "right": "44.29%",
+        "top": "5.13%",
+        "bottom": "2.56%",
+        "background": "#121212"
+       },
+       "children": [
+        {
+         "name": "Wifi-path"
+        },
+        {
+         "name": "Wifi-path"
+        },
+        {
+         "name": "Wifi-path"
+        }
+       ]
+      },
+      {
+       "name": "Battery",
+       "css": {
+        "position": "absolute",
+        "left": "65.08%",
+        "right": "0%",
+        "top": "0%",
+        "bottom": "0%"
+       },
+       "children": [
+        {
+         "name": "Capacity",
+         "css": {
+          "position": "absolute",
+          "left": "67.64%",
+          "right": "5.53%",
+          "top": "15.38%",
+          "bottom": "15.38%",
+          "background": "#121212",
+          "border-radius": "1.33333px"
+         }
+        },
+        {
+         "name": "Cap",
+         "css": {
+          "position": "absolute",
+          "left": "98.3%",
+          "right": "0%",
+          "top": "35.9%",
+          "bottom": "33.33%",
+          "background": "#121212",
+          "mix-blend-mode": "normal",
+          "opacity": "0.4"
+         }
+        },
+        {
+         "name": "Border",
+         "css": {
+          "box-sizing": "border-box",
+          "position": "absolute",
+          "left": "65.08%",
+          "right": "2.97%",
+          "top": "0%",
+          "bottom": "0%",
+          "mix-blend-mode": "normal",
+          "opacity": "0.35",
+          "border": "1px solid #121212",
+          "border-radius": "3.5px"
+         }
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "name": "Floating island",
+     "css": {
+      "position": "absolute",
+      "display": "none",
+      "width": "127px",
+      "height": "37px",
+      "left": "calc(50% - 127px/2 + 1px)",
+      "top": "calc(50% - 37px/2 + 3px)",
+      "background": "#000000",
+      "border-radius": "18.5px",
+      "flex": "none",
+      "order": "2",
+      "flex-grow": "0",
+      "z-index": "2"
+     }
+    }
+   ]
+  }
+ ]
+}

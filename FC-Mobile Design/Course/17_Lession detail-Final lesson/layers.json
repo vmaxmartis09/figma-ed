@@ -1,0 +1,135 @@
+{
+ "name": "Lession detail-Final lesson",
+ "css": {
+  "position": "relative",
+  "width": "375px",
+  "height": "1277px",
+  "left": "3817px",
+  "top": "552px",
+  "background": "#FFFFFF"
+ },
+ "children": [
+  {
+   "name": "Progress bar",
+   "css": {
+    "display": "flex",
+    "flex-direction": "row",
+    "align-items": "center",
+    "padding": "8px 16px",
+    "gap": "10px",
+    "isolation": "isolate",
+    "position": "absolute",
+    "width": "375px",
+    "height": "36px",
+    "left": "0px",
+    "top": "209px",
+    "background": "#EEFBFC"
+   },
+   "children": [
+    {
+     "name": "Progress bar info",
+     "css": {
+      "display": "flex",
+      "flex-direction": "row",
+      "align-items": "center",
+      "padding": "0px",
+      "gap": "2px",
+      "width": "295px",
+      "height": "20px",
+      "flex": "none",
+      "order": "0",
+      "flex-grow": "1",
+      "z-index": "0"
+     },
+     "children": [
+      {
+       "name": "Step label",
+       "css": {
+        "width": "124px",
+        "height": "20px"
+       }
+      },
+      {
+       "name": "Screen title",
+       "css": {
+        "display": "none",
+        "width": "220px",
+        "height": "20px"
+       }
+      }
+     ]
+    },
+    {
+     "name": "Step count",
+     "css": {
+      "width": "38px",
+      "height": "20px"
+     }
+    },
+    {
+     "name": "Progress background",
+     "css": {
+      "position": "absolute",
+      "width": "375px",
+      "height": "4px",
+      "left": "0px",
+      "bottom": "0px",
+      "background": "#D8F6F9",
+      "flex": "none",
+      "order": "2",
+      "flex-grow": "0",
+      "z-index": "2"
+     }
+    },
+    {
+     "name": "Progress foreground 4",
+     "css": {
+      "position": "absolute",
+      "width": "75px",
+      "height": "4px",
+      "left": "0px",
+      "bottom": "0px",
+      "background": "#1999A4",
+      "border-radius": "0px",
+      "flex": "none",
+      "order": "3",
+      "flex-grow": "0",
+      "z-index": "3"
+     }
+    },
+    {
+     "name": "Progress foreground 5",
+     "css": {
+      "position": "absolute",
+      "width": "75px",
+      "height": "4px",
+      "left": "75px",
+      "bottom": "0px",
+      "background": "#1999A4",
+      "border-radius": "0px",
+      "flex": "none",
+      "order": "4",
+      "flex-grow": "0",
+      "z-index": "4"
+     }
+    },
+    {
+     "name": "Progress foreground 6",
+     "css": {
+      "position": "absolute",
+      "width": "75px",
+      "height": "4px",
+      "left": "150px",
+      "bottom": "0px",
+      "background": "#1999A4",
+      "border-radius": "0px",
+      "flex": "none",
+      "order": "5",
+      "flex-grow": "0",
+      "z-index": "5"
+     }
+    }
+   ]
+  }
+ ]
+}

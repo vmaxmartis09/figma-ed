@@ -1,0 +1,4314 @@
+/* Tracking */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 4px;
+
+position: relative;
+width: 1239px;
+height: 1067px;
+left: 0px;
+top: 0px;
+
+
+
+/* Progress bar/Default */
+
+box-sizing: border-box;
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: center;
+padding: 0px 0px 0px 80px;
+gap: 80px;
+
+width: 1239px;
+height: 156px;
+
+background: #FFFFFF;
+border: 1px solid #C8C8C8;
+border-radius: 0px 40px 40px 0px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Date */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 0px;
+gap: 32px;
+
+margin: 0 auto;
+width: 222px;
+height: 108px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Frame 1000002141 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 24px;
+
+width: 222px;
+height: 108px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Label Date */
+
+width: 85px;
+height: 36px;
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 600;
+font-size: 30px;
+line-height: 120%;
+/* identical to box height, or 36px */
+text-transform: uppercase;
+
+/* Gray/500 */
+color: #667085;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Value Date */
+
+width: 222px;
+height: 48px;
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 600;
+font-size: 40px;
+line-height: 120%;
+/* identical to box height, or 48px */
+
+/* Gray/700 */
+color: #344054;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Status flow */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 57px;
+
+margin: 0 auto;
+width: 850px;
+height: 156px;
+
+background: #128217;
+border-radius: 0px 40px;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Status name */
+
+width: 736px;
+height: 70px;
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 50px;
+line-height: 140%;
+/* identical to box height, or 70px */
+
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Changelog */
+
+box-sizing: border-box;
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 56px;
+gap: 80px;
+
+width: 1239px;
+height: 907px;
+
+background: #FFFFFF;
+border-width: 0px 1px 1px 1px;
+border-style: solid;
+border-color: #C8C8C8;
+border-radius: 0px 0px 40px 0px;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Section */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 4px;
+
+width: 458px;
+height: 112px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Flow Name */
+
+width: 458px;
+height: 112px;
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 80px;
+line-height: 140%;
+/* identical to box height, or 112px */
+
+/* Gray/800 */
+color: #1D2939;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Changelog */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: flex-start;
+padding: 0px;
+gap: 32px;
+
+width: 1127px;
+height: 603px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Section */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 8px;
+
+width: 260px;
+height: 53px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Versions */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 8px;
+
+width: 260px;
+height: 24px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Title */
+
+width: 260px;
+height: 24px;
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 24px;
+
+color: #000000;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Description */
+
+width: 120px;
+height: 21px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 15px;
+line-height: 140%;
+/* identical to box height, or 21px */
+text-decoration-line: underline;
+
+/* Gray/500 */
+color: #667085;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Line 1 */
+
+width: 1127px;
+height: 0px;
+
+border: 2px solid #C8C8C8;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Section */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 24px;
+
+display: none;
+width: 995px;
+height: 24px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Logs */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 16px;
+
+width: 995px;
+height: 24px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Body */
+
+width: 308px;
+height: 24px;
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 17px;
+line-height: 24px;
+/* identical to box height, or 141% */
+letter-spacing: -0.0141em;
+
+color: rgba(255, 85, 85, 0.87);
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* New */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: flex-start;
+padding: 0px;
+gap: 32px;
+
+display: none;
+width: 995px;
+height: 56px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Copy */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 8px;
+
+width: 995px;
+height: 56px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 1;
+
+
+/* Title */
+
+width: 995px;
+height: 24px;
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 24px;
+
+color: #000000;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Body */
+
+width: 995px;
+height: 24px;
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 400;
+font-size: 17px;
+line-height: 24px;
+/* identical to box height, or 141% */
+letter-spacing: -0.0141em;
+
+/* Text + icons/Light/Primary */
+color: rgba(0, 0, 0, 0.87);
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Images */
+
+display: none;
+width: 148px;
+height: 148px;
+
+/* Greys/01 */
+background: #F5F5F5;
+border-radius: 20.996px;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* .Device•iPhone 12 */
+
+position: absolute;
+left: 11.5%;
+right: 26.37%;
+top: 3.19%;
+bottom: -28.64%;
+
+filter: drop-shadow(54.8652px 54.8652px 33.7632px rgba(18, 25, 34, 0.01)) drop-shadow(27.4326px 27.4326px 16.4596px rgba(18, 25, 34, 0.02)) drop-shadow(16.4596px 16.4596px 9.70692px rgba(18, 25, 34, 0.03)) drop-shadow(10.551px 10.551px 6.3306px rgba(18, 25, 34, 0.04)) drop-shadow(6.75264px 6.75264px 4.2204px rgba(18, 25, 34, 0.05)) drop-shadow(4.2204px 4.2204px 2.53224px rgba(18, 25, 34, 0.06)) drop-shadow(2.32122px 2.32122px 1.47714px rgba(18, 25, 34, 0.07)) drop-shadow(1.0551px 1.0551px 1.0551px rgba(18, 25, 34, 0.08));
+
+
+/* Frame */
+
+position: absolute;
+left: 0.92%;
+right: 0.92%;
+top: 0%;
+bottom: 0%;
+
+background: #FFFFFF;
+border: 0.10551px solid #FFFFFF;
+box-shadow: inset 0px 0px 0px 0.42204px #000000, inset 0px 0px 0px 0.73857px #F7F7F7, inset 0px 0px 0px 1.47714px rgba(255, 255, 255, 0.69), inset 0px 0px 0px 4.00938px #030303;
+border-radius: 13.4209px;
+
+
+/* .Screen•iPhone12 */
+
+position: absolute;
+left: 4.64%;
+right: 4.4%;
+top: 2.12%;
+bottom: 2.12%;
+
+/* Greys/00 */
+background: #FFFFFF;
+border-radius: 5.06448px;
+
+
+/* Frame 4495 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 1.69px;
+
+position: absolute;
+width: 65.63px;
+height: 31.69px;
+left: 6.75px;
+top: 70.06px;
+
+
+
+/* 😎 I made you look. */
+
+width: 65.63px;
+height: 18px;
+
+font-family: 'SF Pro Display';
+font-style: normal;
+font-weight: 600;
+font-size: 7.17468px;
+line-height: 120%;
+/* or 9px */
+letter-spacing: 0.0041em;
+
+/* Text + Icons/Light • High Emphasis */
+color: rgba(0, 0, 0, 0.87);
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* You can have the rest of the empty space here. */
+
+width: 65.63px;
+height: 12px;
+
+font-family: 'SF Pro Display';
+font-style: normal;
+font-weight: 500;
+font-size: 5.06448px;
+line-height: 120%;
+/* or 6px */
+letter-spacing: 0.0007em;
+
+/* Text + Icons/Light • Disabled */
+color: rgba(0, 0, 0, 0.38);
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Eyebrow */
+
+position: absolute;
+width: 46.19px;
+height: 6.71px;
+left: 22.14px;
+top: 3.86px;
+
+
+
+/* Rectangle 1 */
+
+position: absolute;
+height: 6.71px;
+left: 24.53%;
+right: 24.3%;
+top: 3.86px;
+
+background: #000000;
+
+
+/* Rectangle 2 */
+
+position: absolute;
+left: 44.86%;
+right: 44.39%;
+top: 3.18%;
+bottom: 96.25%;
+
+background: #151515;
+border-radius: 0.406693px;
+
+
+/* Ellipse 1 */
+
+position: absolute;
+left: 59.49%;
+right: 36.77%;
+top: 2.56%;
+bottom: 95.63%;
+
+background: #151515;
+
+
+/* Ellipse 3 */
+
+position: absolute;
+left: 60.24%;
+right: 38.11%;
+top: 2.92%;
+bottom: 96.28%;
+
+background: linear-gradient(180deg, #2E436C 0%, rgba(45, 45, 45, 0) 50%, #3559A0 84.9%, #4C8DD9 100%);
+box-shadow: inset 0px 0px 0.406693px rgba(179, 237, 255, 0.3);
+transform: matrix(0.87, -0.5, 0.5, 0.87, 0, 0);
+
+
+/* Holes */
+
+position: absolute;
+left: 0.92%;
+right: 0.92%;
+top: 0%;
+bottom: 0%;
+
+
+
+/* Rectangle 3 */
+
+position: absolute;
+left: 78.44%;
+right: 20.13%;
+top: 0%;
+bottom: 99.17%;
+
+background: linear-gradient(180deg, #FFFFFF 0%, #DEDEDE 100%);
+
+
+/* Rectangle 4 */
+
+position: absolute;
+left: 97.62%;
+right: 0.95%;
+top: 9.79%;
+bottom: 89.5%;
+
+background: linear-gradient(180deg, #FFFFFF 0%, #DEDEDE 100%);
+transform: rotate(90deg);
+
+
+/* Rectangle 5 */
+
+position: absolute;
+left: 0.95%;
+right: 97.62%;
+top: 9.79%;
+bottom: 89.51%;
+
+background: linear-gradient(180deg, #FFFFFF 0%, #DEDEDE 100%);
+transform: rotate(-90deg);
+
+
+/* Rectangle 6 */
+
+position: absolute;
+left: 97.65%;
+right: 0.92%;
+top: 89.77%;
+bottom: 9.52%;
+
+background: linear-gradient(180deg, #FFFFFF 0%, #DEDEDE 100%);
+transform: rotate(90deg);
+
+
+/* Rectangle 7 */
+
+position: absolute;
+left: 0.92%;
+right: 97.65%;
+top: 89.52%;
+bottom: 9.77%;
+
+background: linear-gradient(180deg, #FFFFFF 0%, #DEDEDE 100%);
+transform: rotate(-90deg);
+
+
+/* Rectangle 8 */
+
+position: absolute;
+left: 20.13%;
+right: 78.44%;
+top: 99.29%;
+bottom: 0%;
+
+background: linear-gradient(180deg, #FFFFFF 0%, #DEDEDE 100%);
+transform: rotate(180deg);
+
+
+/* Buttons */
+
+position: absolute;
+left: 0.23%;
+right: 0.24%;
+top: 16.14%;
+bottom: 60.22%;
+
+
+
+/* Rectangle 14 */
+
+position: absolute;
+left: 0.24%;
+right: 98.81%;
+top: 16.14%;
+bottom: 80.44%;
+
+background: linear-gradient(180deg, #000000 0%, #FFFFFF 21.53%, #FFFFFF 75.7%, rgba(0, 0, 0, 0.98) 100%);
+box-shadow: inset -0.084408px 0px 0.042204px 0.084408px rgba(0, 0, 0, 0.8), inset 0.084408px 0px 0.042204px 0.084408px #000000;
+border-radius: 0.21102px 0px 0px 0.21102px;
+
+
+/* Rectangle 10 */
+
+position: absolute;
+left: 0.23%;
+right: 98.82%;
+top: 23.18%;
+bottom: 69.55%;
+
+background: linear-gradient(180deg, #000000 0%, #FFFFFF 21.53%, #FFFFFF 75.7%, rgba(0, 0, 0, 0.98) 100%);
+box-shadow: inset -0.084408px 0px 0.042204px 0.084408px rgba(0, 0, 0, 0.8), inset 0.084408px 0px 0.042204px 0.084408px #000000;
+border-radius: 0.21102px 0px 0px 0.21102px;
+
+
+/* Rectangle 13 */
+
+position: absolute;
+left: 0.23%;
+right: 98.82%;
+top: 32.5%;
+bottom: 60.22%;
+
+background: linear-gradient(180deg, #000000 0%, #FFFFFF 21.53%, #FFFFFF 75.7%, rgba(0, 0, 0, 0.98) 100%);
+box-shadow: inset -0.084408px 0px 0.042204px 0.084408px rgba(0, 0, 0, 0.8), inset 0.084408px 0px 0.042204px 0.084408px #000000;
+border-radius: 0.21102px 0px 0px 0.21102px;
+
+
+/* Rectangle 12 */
+
+position: absolute;
+left: 98.81%;
+right: 0.24%;
+top: 25.71%;
+bottom: 62.5%;
+
+background: linear-gradient(180deg, #000000 0%, #FFFFFF 21.53%, #FFFFFF 75.7%, rgba(0, 0, 0, 0.98) 100%);
+box-shadow: inset 0.084408px 0.84408px 0.042204px 0.042204px rgba(0, 0, 0, 0.8), inset -0.084408px 0px 0.042204px 0.084408px #000000;
+border-radius: 0.42204px 0px 0px 0.42204px;
+transform: rotate(180deg);
+
+
+/* Change */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: flex-start;
+padding: 0px;
+gap: 32px;
+
+display: none;
+width: 995px;
+height: 54px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Copy */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 8px;
+
+width: 995px;
+height: 54px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 1;
+
+
+/* Title */
+
+width: 995px;
+height: 24px;
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 24px;
+
+color: #000000;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Body */
+
+width: 995px;
+height: 22px;
+
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Images */
+
+display: none;
+width: 148px;
+height: 148px;
+
+/* Greys/01 */
+background: #F5F5F5;
+border-radius: 20.996px;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* .Device•iPhone 12 */
+
+position: absolute;
+left: 11.5%;
+right: 26.37%;
+top: 3.19%;
+bottom: -28.64%;
+
+filter: drop-shadow(54.8652px 54.8652px 33.7632px rgba(18, 25, 34, 0.01)) drop-shadow(27.4326px 27.4326px 16.4596px rgba(18, 25, 34, 0.02)) drop-shadow(16.4596px 16.4596px 9.70692px rgba(18, 25, 34, 0.03)) drop-shadow(10.551px 10.551px 6.3306px rgba(18, 25, 34, 0.04)) drop-shadow(6.75264px 6.75264px 4.2204px rgba(18, 25, 34, 0.05)) drop-shadow(4.2204px 4.2204px 2.53224px rgba(18, 25, 34, 0.06)) drop-shadow(2.32122px 2.32122px 1.47714px rgba(18, 25, 34, 0.07)) drop-shadow(1.0551px 1.0551px 1.0551px rgba(18, 25, 34, 0.08));
+
+
+/* Frame */
+
+position: absolute;
+left: 0.92%;
+right: 0.92%;
+top: 0%;
+bottom: 0%;
+
+background: #FFFFFF;
+border: 0.10551px solid #FFFFFF;
+box-shadow: inset 0px 0px 0px 0.42204px #000000, inset 0px 0px 0px 0.73857px #F7F7F7, inset 0px 0px 0px 1.47714px rgba(255, 255, 255, 0.69), inset 0px 0px 0px 4.00938px #030303;
+border-radius: 13.4209px;
+
+
+/* .Screen•iPhone12 */
+
+position: absolute;
+left: 4.64%;
+right: 4.4%;
+top: 2.12%;
+bottom: 2.12%;
+
+/* Greys/00 */
+background: #FFFFFF;
+border-radius: 5.06448px;
+
+
+/* Frame 4495 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 1.69px;
+
+position: absolute;
+width: 65.63px;
+height: 31.69px;
+left: 6.75px;
+top: 70.06px;
+
+
+
+/* 😎 I made you look. */
+
+width: 65.63px;
+height: 18px;
+
+font-family: 'SF Pro Display';
+font-style: normal;
+font-weight: 600;
+font-size: 7.17468px;
+line-height: 120%;
+/* or 9px */
+letter-spacing: 0.0041em;
+
+/* Text + Icons/Light • High Emphasis */
+color: rgba(0, 0, 0, 0.87);
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* You can have the rest of the empty space here. */
+
+width: 65.63px;
+height: 12px;
+
+font-family: 'SF Pro Display';
+font-style: normal;
+font-weight: 500;
+font-size: 5.06448px;
+line-height: 120%;
+/* or 6px */
+letter-spacing: 0.0007em;
+
+/* Text + Icons/Light • Disabled */
+color: rgba(0, 0, 0, 0.38);
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Eyebrow */
+
+position: absolute;
+width: 46.19px;
+height: 6.71px;
+left: 22.14px;
+top: 3.86px;
+
+
+
+/* Rectangle 1 */
+
+position: absolute;
+height: 6.71px;
+left: 24.53%;
+right: 24.3%;
+top: 3.86px;
+
+background: #000000;
+
+
+/* Rectangle 2 */
+
+position: absolute;
+left: 44.86%;
+right: 44.39%;
+top: 3.18%;
+bottom: 96.25%;
+
+background: #151515;
+border-radius: 0.406693px;
+
+
+/* Ellipse 1 */
+
+position: absolute;
+left: 59.49%;
+right: 36.77%;
+top: 2.56%;
+bottom: 95.63%;
+
+background: #151515;
+
+
+/* Ellipse 3 */
+
+position: absolute;
+left: 60.24%;
+right: 38.11%;
+top: 2.92%;
+bottom: 96.28%;
+
+background: linear-gradient(180deg, #2E436C 0%, rgba(45, 45, 45, 0) 50%, #3559A0 84.9%, #4C8DD9 100%);
+box-shadow: inset 0px 0px 0.406693px rgba(179, 237, 255, 0.3);
+transform: matrix(0.87, -0.5, 0.5, 0.87, 0, 0);
+
+
+/* Holes */
+
+position: absolute;
+left: 0.92%;
+right: 0.92%;
+top: 0%;
+bottom: 0%;
+
+
+
+/* Rectangle 3 */
+
+position: absolute;
+left: 78.44%;
+right: 20.13%;
+top: 0%;
+bottom: 99.17%;
+
+background: linear-gradient(180deg, #FFFFFF 0%, #DEDEDE 100%);
+
+
+/* Rectangle 4 */
+
+position: absolute;
+left: 97.62%;
+right: 0.95%;
+top: 9.79%;
+bottom: 89.5%;
+
+background: linear-gradient(180deg, #FFFFFF 0%, #DEDEDE 100%);
+transform: rotate(90deg);
+
+
+/* Rectangle 5 */
+
+position: absolute;
+left: 0.95%;
+right: 97.62%;
+top: 9.79%;
+bottom: 89.51%;
+
+background: linear-gradient(180deg, #FFFFFF 0%, #DEDEDE 100%);
+transform: rotate(-90deg);
+
+
+/* Rectangle 6 */
+
+position: absolute;
+left: 97.65%;
+right: 0.92%;
+top: 89.77%;
+bottom: 9.52%;
+
+background: linear-gradient(180deg, #FFFFFF 0%, #DEDEDE 100%);
+transform: rotate(90deg);
+
+
+/* Rectangle 7 */
+
+position: absolute;
+left: 0.92%;
+right: 97.65%;
+top: 89.52%;
+bottom: 9.77%;
+
+background: linear-gradient(180deg, #FFFFFF 0%, #DEDEDE 100%);
+transform: rotate(-90deg);
+
+
+/* Rectangle 8 */
+
+position: absolute;
+left: 20.13%;
+right: 78.44%;
+top: 99.29%;
+bottom: 0%;
+
+background: linear-gradient(180deg, #FFFFFF 0%, #DEDEDE 100%);
+transform: rotate(180deg);
+
+
+/* Buttons */
+
+position: absolute;
+left: 0.23%;
+right: 0.24%;
+top: 16.14%;
+bottom: 60.22%;
+
+
+
+/* Rectangle 14 */
+
+position: absolute;
+left: 0.24%;
+right: 98.81%;
+top: 16.14%;
+bottom: 80.44%;
+
+background: linear-gradient(180deg, #000000 0%, #FFFFFF 21.53%, #FFFFFF 75.7%, rgba(0, 0, 0, 0.98) 100%);
+box-shadow: inset -0.084408px 0px 0.042204px 0.084408px rgba(0, 0, 0, 0.8), inset 0.084408px 0px 0.042204px 0.084408px #000000;
+border-radius: 0.21102px 0px 0px 0.21102px;
+
+
+/* Rectangle 10 */
+
+position: absolute;
+left: 0.23%;
+right: 98.82%;
+top: 23.18%;
+bottom: 69.55%;
+
+background: linear-gradient(180deg, #000000 0%, #FFFFFF 21.53%, #FFFFFF 75.7%, rgba(0, 0, 0, 0.98) 100%);
+box-shadow: inset -0.084408px 0px 0.042204px 0.084408px rgba(0, 0, 0, 0.8), inset 0.084408px 0px 0.042204px 0.084408px #000000;
+border-radius: 0.21102px 0px 0px 0.21102px;
+
+
+/* Rectangle 13 */
+
+position: absolute;
+left: 0.23%;
+right: 98.82%;
+top: 32.5%;
+bottom: 60.22%;
+
+background: linear-gradient(180deg, #000000 0%, #FFFFFF 21.53%, #FFFFFF 75.7%, rgba(0, 0, 0, 0.98) 100%);
+box-shadow: inset -0.084408px 0px 0.042204px 0.084408px rgba(0, 0, 0, 0.8), inset 0.084408px 0px 0.042204px 0.084408px #000000;
+border-radius: 0.21102px 0px 0px 0.21102px;
+
+
+/* Rectangle 12 */
+
+position: absolute;
+left: 98.81%;
+right: 0.24%;
+top: 25.71%;
+bottom: 62.5%;
+
+background: linear-gradient(180deg, #000000 0%, #FFFFFF 21.53%, #FFFFFF 75.7%, rgba(0, 0, 0, 0.98) 100%);
+box-shadow: inset 0.084408px 0.84408px 0.042204px 0.042204px rgba(0, 0, 0, 0.8), inset -0.084408px 0px 0.042204px 0.084408px #000000;
+border-radius: 0.42204px 0px 0px 0.42204px;
+transform: rotate(180deg);
+
+
+/* Section */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 24px;
+
+width: 1127px;
+height: 166px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 3;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Logs */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 16px;
+
+width: 1127px;
+height: 166px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Body */
+
+width: 213px;
+height: 24px;
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 17px;
+line-height: 24px;
+/* identical to box height, or 141% */
+letter-spacing: -0.0141em;
+
+color: rgba(255, 85, 85, 0.87);
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* New */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: flex-start;
+padding: 0px;
+gap: 32px;
+
+width: 1127px;
+height: 56px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Copy */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 8px;
+
+width: 1127px;
+height: 56px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 1;
+
+
+/* Title */
+
+width: 150px;
+height: 24px;
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 24px;
+
+color: #000000;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Body */
+
+width: 1127px;
+height: 24px;
+
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Images */
+
+display: none;
+width: 148px;
+height: 148px;
+
+/* Greys/01 */
+background: #F5F5F5;
+border-radius: 20.996px;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* .Device•iPhone 12 */
+
+position: absolute;
+left: 11.5%;
+right: 26.37%;
+top: 3.19%;
+bottom: -28.64%;
+
+filter: drop-shadow(54.8652px 54.8652px 33.7632px rgba(18, 25, 34, 0.01)) drop-shadow(27.4326px 27.4326px 16.4596px rgba(18, 25, 34, 0.02)) drop-shadow(16.4596px 16.4596px 9.70692px rgba(18, 25, 34, 0.03)) drop-shadow(10.551px 10.551px 6.3306px rgba(18, 25, 34, 0.04)) drop-shadow(6.75264px 6.75264px 4.2204px rgba(18, 25, 34, 0.05)) drop-shadow(4.2204px 4.2204px 2.53224px rgba(18, 25, 34, 0.06)) drop-shadow(2.32122px 2.32122px 1.47714px rgba(18, 25, 34, 0.07)) drop-shadow(1.0551px 1.0551px 1.0551px rgba(18, 25, 34, 0.08));
+
+
+/* Frame */
+
+position: absolute;
+left: 0.92%;
+right: 0.92%;
+top: 0%;
+bottom: 0%;
+
+background: #FFFFFF;
+border: 0.10551px solid #FFFFFF;
+box-shadow: inset 0px 0px 0px 0.42204px #000000, inset 0px 0px 0px 0.73857px #F7F7F7, inset 0px 0px 0px 1.47714px rgba(255, 255, 255, 0.69), inset 0px 0px 0px 4.00938px #030303;
+border-radius: 13.4209px;
+
+
+/* .Screen•iPhone12 */
+
+position: absolute;
+left: 4.64%;
+right: 4.4%;
+top: 2.12%;
+bottom: 2.12%;
+
+/* Greys/00 */
+background: #FFFFFF;
+border-radius: 5.06448px;
+
+
+/* Frame 4495 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 1.69px;
+
+position: absolute;
+width: 65.63px;
+height: 31.69px;
+left: 6.75px;
+top: 70.06px;
+
+
+
+/* 😎 I made you look. */
+
+width: 65.63px;
+height: 18px;
+
+font-family: 'SF Pro Display';
+font-style: normal;
+font-weight: 600;
+font-size: 7.17468px;
+line-height: 120%;
+/* or 9px */
+letter-spacing: 0.0041em;
+
+/* Text + Icons/Light • High Emphasis */
+color: rgba(0, 0, 0, 0.87);
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* You can have the rest of the empty space here. */
+
+width: 65.63px;
+height: 12px;
+
+font-family: 'SF Pro Display';
+font-style: normal;
+font-weight: 500;
+font-size: 5.06448px;
+line-height: 120%;
+/* or 6px */
+letter-spacing: 0.0007em;
+
+/* Text + Icons/Light • Disabled */
+color: rgba(0, 0, 0, 0.38);
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Eyebrow */
+
+position: absolute;
+width: 46.19px;
+height: 6.71px;
+left: 22.14px;
+top: 3.86px;
+
+
+
+/* Rectangle 1 */
+
+position: absolute;
+height: 6.71px;
+left: 24.53%;
+right: 24.3%;
+top: 3.86px;
+
+background: #000000;
+
+
+/* Rectangle 2 */
+
+position: absolute;
+left: 44.86%;
+right: 44.39%;
+top: 3.18%;
+bottom: 96.25%;
+
+background: #151515;
+border-radius: 0.406693px;
+
+
+/* Ellipse 1 */
+
+position: absolute;
+left: 59.49%;
+right: 36.77%;
+top: 2.56%;
+bottom: 95.63%;
+
+background: #151515;
+
+
+/* Ellipse 3 */
+
+position: absolute;
+left: 60.24%;
+right: 38.11%;
+top: 2.92%;
+bottom: 96.28%;
+
+background: linear-gradient(180deg, #2E436C 0%, rgba(45, 45, 45, 0) 50%, #3559A0 84.9%, #4C8DD9 100%);
+box-shadow: inset 0px 0px 0.406693px rgba(179, 237, 255, 0.3);
+transform: matrix(0.87, -0.5, 0.5, 0.87, 0, 0);
+
+
+/* Holes */
+
+position: absolute;
+left: 0.92%;
+right: 0.92%;
+top: 0%;
+bottom: 0%;
+
+
+
+/* Rectangle 3 */
+
+position: absolute;
+left: 78.44%;
+right: 20.13%;
+top: 0%;
+bottom: 99.17%;
+
+background: linear-gradient(180deg, #FFFFFF 0%, #DEDEDE 100%);
+
+
+/* Rectangle 4 */
+
+position: absolute;
+left: 97.62%;
+right: 0.95%;
+top: 9.79%;
+bottom: 89.5%;
+
+background: linear-gradient(180deg, #FFFFFF 0%, #DEDEDE 100%);
+transform: rotate(90deg);
+
+
+/* Rectangle 5 */
+
+position: absolute;
+left: 0.95%;
+right: 97.62%;
+top: 9.79%;
+bottom: 89.51%;
+
+background: linear-gradient(180deg, #FFFFFF 0%, #DEDEDE 100%);
+transform: rotate(-90deg);
+
+
+/* Rectangle 6 */
+
+position: absolute;
+left: 97.65%;
+right: 0.92%;
+top: 89.77%;
+bottom: 9.52%;
+
+background: linear-gradient(180deg, #FFFFFF 0%, #DEDEDE 100%);
+transform: rotate(90deg);
+
+
+/* Rectangle 7 */
+
+position: absolute;
+left: 0.92%;
+right: 97.65%;
+top: 89.52%;
+bottom: 9.77%;
+
+background: linear-gradient(180deg, #FFFFFF 0%, #DEDEDE 100%);
+transform: rotate(-90deg);
+
+
+/* Rectangle 8 */
+
+position: absolute;
+left: 20.13%;
+right: 78.44%;
+top: 99.29%;
+bottom: 0%;
+
+background: linear-gradient(180deg, #FFFFFF 0%, #DEDEDE 100%);
+transform: rotate(180deg);
+
+
+/* Buttons */
+
+position: absolute;
+left: 0.23%;
+right: 0.24%;
+top: 16.14%;
+bottom: 60.22%;
+
+
+
+/* Rectangle 14 */
+
+position: absolute;
+left: 0.24%;
+right: 98.81%;
+top: 16.14%;
+bottom: 80.44%;
+
+background: linear-gradient(180deg, #000000 0%, #FFFFFF 21.53%, #FFFFFF 75.7%, rgba(0, 0, 0, 0.98) 100%);
+box-shadow: inset -0.084408px 0px 0.042204px 0.084408px rgba(0, 0, 0, 0.8), inset 0.084408px 0px 0.042204px 0.084408px #000000;
+border-radius: 0.21102px 0px 0px 0.21102px;
+
+
+/* Rectangle 10 */
+
+position: absolute;
+left: 0.23%;
+right: 98.82%;
+top: 23.18%;
+bottom: 69.55%;
+
+background: linear-gradient(180deg, #000000 0%, #FFFFFF 21.53%, #FFFFFF 75.7%, rgba(0, 0, 0, 0.98) 100%);
+box-shadow: inset -0.084408px 0px 0.042204px 0.084408px rgba(0, 0, 0, 0.8), inset 0.084408px 0px 0.042204px 0.084408px #000000;
+border-radius: 0.21102px 0px 0px 0.21102px;
+
+
+/* Rectangle 13 */
+
+position: absolute;
+left: 0.23%;
+right: 98.82%;
+top: 32.5%;
+bottom: 60.22%;
+
+background: linear-gradient(180deg, #000000 0%, #FFFFFF 21.53%, #FFFFFF 75.7%, rgba(0, 0, 0, 0.98) 100%);
+box-shadow: inset -0.084408px 0px 0.042204px 0.084408px rgba(0, 0, 0, 0.8), inset 0.084408px 0px 0.042204px 0.084408px #000000;
+border-radius: 0.21102px 0px 0px 0.21102px;
+
+
+/* Rectangle 12 */
+
+position: absolute;
+left: 98.81%;
+right: 0.24%;
+top: 25.71%;
+bottom: 62.5%;
+
+background: linear-gradient(180deg, #000000 0%, #FFFFFF 21.53%, #FFFFFF 75.7%, rgba(0, 0, 0, 0.98) 100%);
+box-shadow: inset 0.084408px 0.84408px 0.042204px 0.042204px rgba(0, 0, 0, 0.8), inset -0.084408px 0px 0.042204px 0.084408px #000000;
+border-radius: 0.42204px 0px 0px 0.42204px;
+transform: rotate(180deg);
+
+
+/* Change */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: flex-start;
+padding: 0px;
+gap: 32px;
+
+width: 1127px;
+height: 54px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Copy */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 8px;
+
+width: 1127px;
+height: 54px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 1;
+
+
+/* Title */
+
+width: 1127px;
+height: 24px;
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 24px;
+
+color: #000000;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Body */
+
+width: 1127px;
+height: 22px;
+
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Images */
+
+display: none;
+width: 148px;
+height: 148px;
+
+/* Greys/01 */
+background: #F5F5F5;
+border-radius: 20.996px;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* .Device•iPhone 12 */
+
+position: absolute;
+left: 11.5%;
+right: 26.37%;
+top: 3.19%;
+bottom: -28.64%;
+
+filter: drop-shadow(54.8652px 54.8652px 33.7632px rgba(18, 25, 34, 0.01)) drop-shadow(27.4326px 27.4326px 16.4596px rgba(18, 25, 34, 0.02)) drop-shadow(16.4596px 16.4596px 9.70692px rgba(18, 25, 34, 0.03)) drop-shadow(10.551px 10.551px 6.3306px rgba(18, 25, 34, 0.04)) drop-shadow(6.75264px 6.75264px 4.2204px rgba(18, 25, 34, 0.05)) drop-shadow(4.2204px 4.2204px 2.53224px rgba(18, 25, 34, 0.06)) drop-shadow(2.32122px 2.32122px 1.47714px rgba(18, 25, 34, 0.07)) drop-shadow(1.0551px 1.0551px 1.0551px rgba(18, 25, 34, 0.08));
+
+
+/* Frame */
+
+position: absolute;
+left: 0.92%;
+right: 0.92%;
+top: 0%;
+bottom: 0%;
+
+background: #FFFFFF;
+border: 0.10551px solid #FFFFFF;
+box-shadow: inset 0px 0px 0px 0.42204px #000000, inset 0px 0px 0px 0.73857px #F7F7F7, inset 0px 0px 0px 1.47714px rgba(255, 255, 255, 0.69), inset 0px 0px 0px 4.00938px #030303;
+border-radius: 13.4209px;
+
+
+/* .Screen•iPhone12 */
+
+position: absolute;
+left: 4.64%;
+right: 4.4%;
+top: 2.12%;
+bottom: 2.12%;
+
+/* Greys/00 */
+background: #FFFFFF;
+border-radius: 5.06448px;
+
+
+/* Frame 4495 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 1.69px;
+
+position: absolute;
+width: 65.63px;
+height: 31.69px;
+left: 6.75px;
+top: 70.06px;
+
+
+
+/* 😎 I made you look. */
+
+width: 65.63px;
+height: 18px;
+
+font-family: 'SF Pro Display';
+font-style: normal;
+font-weight: 600;
+font-size: 7.17468px;
+line-height: 120%;
+/* or 9px */
+letter-spacing: 0.0041em;
+
+/* Text + Icons/Light • High Emphasis */
+color: rgba(0, 0, 0, 0.87);
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* You can have the rest of the empty space here. */
+
+width: 65.63px;
+height: 12px;
+
+font-family: 'SF Pro Display';
+font-style: normal;
+font-weight: 500;
+font-size: 5.06448px;
+line-height: 120%;
+/* or 6px */
+letter-spacing: 0.0007em;
+
+/* Text + Icons/Light • Disabled */
+color: rgba(0, 0, 0, 0.38);
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Eyebrow */
+
+position: absolute;
+width: 46.19px;
+height: 6.71px;
+left: 22.14px;
+top: 3.86px;
+
+
+
+/* Rectangle 1 */
+
+position: absolute;
+height: 6.71px;
+left: 24.53%;
+right: 24.3%;
+top: 3.86px;
+
+background: #000000;
+
+
+/* Rectangle 2 */
+
+position: absolute;
+left: 44.86%;
+right: 44.39%;
+top: 3.18%;
+bottom: 96.25%;
+
+background: #151515;
+border-radius: 0.406693px;
+
+
+/* Ellipse 1 */
+
+position: absolute;
+left: 59.49%;
+right: 36.77%;
+top: 2.56%;
+bottom: 95.63%;
+
+background: #151515;
+
+
+/* Ellipse 3 */
+
+position: absolute;
+left: 60.24%;
+right: 38.11%;
+top: 2.92%;
+bottom: 96.28%;
+
+background: linear-gradient(180deg, #2E436C 0%, rgba(45, 45, 45, 0) 50%, #3559A0 84.9%, #4C8DD9 100%);
+box-shadow: inset 0px 0px 0.406693px rgba(179, 237, 255, 0.3);
+transform: matrix(0.87, -0.5, 0.5, 0.87, 0, 0);
+
+
+/* Holes */
+
+position: absolute;
+left: 0.92%;
+right: 0.92%;
+top: 0%;
+bottom: 0%;
+
+
+
+/* Rectangle 3 */
+
+position: absolute;
+left: 78.44%;
+right: 20.13%;
+top: 0%;
+bottom: 99.17%;
+
+background: linear-gradient(180deg, #FFFFFF 0%, #DEDEDE 100%);
+
+
+/* Rectangle 4 */
+
+position: absolute;
+left: 97.62%;
+right: 0.95%;
+top: 9.79%;
+bottom: 89.5%;
+
+background: linear-gradient(180deg, #FFFFFF 0%, #DEDEDE 100%);
+transform: rotate(90deg);
+
+
+/* Rectangle 5 */
+
+position: absolute;
+left: 0.95%;
+right: 97.62%;
+top: 9.79%;
+bottom: 89.51%;
+
+background: linear-gradient(180deg, #FFFFFF 0%, #DEDEDE 100%);
+transform: rotate(-90deg);
+
+
+/* Rectangle 6 */
+
+position: absolute;
+left: 97.65%;
+right: 0.92%;
+top: 89.77%;
+bottom: 9.52%;
+
+background: linear-gradient(180deg, #FFFFFF 0%, #DEDEDE 100%);
+transform: rotate(90deg);
+
+
+/* Rectangle 7 */
+
+position: absolute;
+left: 0.92%;
+right: 97.65%;
+top: 89.52%;
+bottom: 9.77%;
+
+background: linear-gradient(180deg, #FFFFFF 0%, #DEDEDE 100%);
+transform: rotate(-90deg);
+
+
+/* Rectangle 8 */
+
+position: absolute;
+left: 20.13%;
+right: 78.44%;
+top: 99.29%;
+bottom: 0%;
+
+background: linear-gradient(180deg, #FFFFFF 0%, #DEDEDE 100%);
+transform: rotate(180deg);
+
+
+/* Buttons */
+
+position: absolute;
+left: 0.23%;
+right: 0.24%;
+top: 16.14%;
+bottom: 60.22%;
+
+
+
+/* Rectangle 14 */
+
+position: absolute;
+left: 0.24%;
+right: 98.81%;
+top: 16.14%;
+bottom: 80.44%;
+
+background: linear-gradient(180deg, #000000 0%, #FFFFFF 21.53%, #FFFFFF 75.7%, rgba(0, 0, 0, 0.98) 100%);
+box-shadow: inset -0.084408px 0px 0.042204px 0.084408px rgba(0, 0, 0, 0.8), inset 0.084408px 0px 0.042204px 0.084408px #000000;
+border-radius: 0.21102px 0px 0px 0.21102px;
+
+
+/* Rectangle 10 */
+
+position: absolute;
+left: 0.23%;
+right: 98.82%;
+top: 23.18%;
+bottom: 69.55%;
+
+background: linear-gradient(180deg, #000000 0%, #FFFFFF 21.53%, #FFFFFF 75.7%, rgba(0, 0, 0, 0.98) 100%);
+box-shadow: inset -0.084408px 0px 0.042204px 0.084408px rgba(0, 0, 0, 0.8), inset 0.084408px 0px 0.042204px 0.084408px #000000;
+border-radius: 0.21102px 0px 0px 0.21102px;
+
+
+/* Rectangle 13 */
+
+position: absolute;
+left: 0.23%;
+right: 98.82%;
+top: 32.5%;
+bottom: 60.22%;
+
+background: linear-gradient(180deg, #000000 0%, #FFFFFF 21.53%, #FFFFFF 75.7%, rgba(0, 0, 0, 0.98) 100%);
+box-shadow: inset -0.084408px 0px 0.042204px 0.084408px rgba(0, 0, 0, 0.8), inset 0.084408px 0px 0.042204px 0.084408px #000000;
+border-radius: 0.21102px 0px 0px 0.21102px;
+
+
+/* Rectangle 12 */
+
+position: absolute;
+left: 98.81%;
+right: 0.24%;
+top: 25.71%;
+bottom: 62.5%;
+
+background: linear-gradient(180deg, #000000 0%, #FFFFFF 21.53%, #FFFFFF 75.7%, rgba(0, 0, 0, 0.98) 100%);
+box-shadow: inset 0.084408px 0.84408px 0.042204px 0.042204px rgba(0, 0, 0, 0.8), inset -0.084408px 0px 0.042204px 0.084408px #000000;
+border-radius: 0.42204px 0px 0px 0.42204px;
+transform: rotate(180deg);
+
+
+/* Body */
+
+display: none;
+width: 223px;
+height: 24px;
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 17px;
+line-height: 24px;
+/* identical to box height, or 141% */
+letter-spacing: -0.0141em;
+
+color: #084ACC;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Section */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 24px;
+
+display: none;
+width: 995px;
+height: 24px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 4;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Logs */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 16px;
+
+width: 995px;
+height: 24px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Body */
+
+width: 202px;
+height: 24px;
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 17px;
+line-height: 24px;
+/* identical to box height, or 141% */
+letter-spacing: -0.0141em;
+
+color: #084ACC;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* New */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: flex-start;
+padding: 0px;
+gap: 32px;
+
+display: none;
+width: 995px;
+height: 80px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Copy */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 8px;
+
+width: 995px;
+height: 80px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 1;
+
+
+/* Title */
+
+width: 150px;
+height: 24px;
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 24px;
+
+color: #000000;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Body */
+
+width: 995px;
+height: 48px;
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 400;
+font-size: 17px;
+line-height: 24px;
+/* or 141% */
+letter-spacing: -0.0141em;
+
+/* Text + icons/Light/Primary */
+color: rgba(0, 0, 0, 0.87);
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Images */
+
+display: none;
+width: 148px;
+height: 148px;
+
+/* Greys/01 */
+background: #F5F5F5;
+border-radius: 20.996px;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* .Device•iPhone 12 */
+
+position: absolute;
+left: 11.5%;
+right: 26.37%;
+top: 3.19%;
+bottom: -28.64%;
+
+filter: drop-shadow(54.8652px 54.8652px 33.7632px rgba(18, 25, 34, 0.01)) drop-shadow(27.4326px 27.4326px 16.4596px rgba(18, 25, 34, 0.02)) drop-shadow(16.4596px 16.4596px 9.70692px rgba(18, 25, 34, 0.03)) drop-shadow(10.551px 10.551px 6.3306px rgba(18, 25, 34, 0.04)) drop-shadow(6.75264px 6.75264px 4.2204px rgba(18, 25, 34, 0.05)) drop-shadow(4.2204px 4.2204px 2.53224px rgba(18, 25, 34, 0.06)) drop-shadow(2.32122px 2.32122px 1.47714px rgba(18, 25, 34, 0.07)) drop-shadow(1.0551px 1.0551px 1.0551px rgba(18, 25, 34, 0.08));
+
+
+/* Frame */
+
+position: absolute;
+left: 0.92%;
+right: 0.92%;
+top: 0%;
+bottom: 0%;
+
+background: #FFFFFF;
+border: 0.10551px solid #FFFFFF;
+box-shadow: inset 0px 0px 0px 0.42204px #000000, inset 0px 0px 0px 0.73857px #F7F7F7, inset 0px 0px 0px 1.47714px rgba(255, 255, 255, 0.69), inset 0px 0px 0px 4.00938px #030303;
+border-radius: 13.4209px;
+
+
+/* .Screen•iPhone12 */
+
+position: absolute;
+left: 4.64%;
+right: 4.4%;
+top: 2.12%;
+bottom: 2.12%;
+
+/* Greys/00 */
+background: #FFFFFF;
+border-radius: 5.06448px;
+
+
+/* Frame 4495 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 1.69px;
+
+position: absolute;
+width: 65.63px;
+height: 31.69px;
+left: 6.75px;
+top: 70.06px;
+
+
+
+/* 😎 I made you look. */
+
+width: 65.63px;
+height: 18px;
+
+font-family: 'SF Pro Display';
+font-style: normal;
+font-weight: 600;
+font-size: 7.17468px;
+line-height: 120%;
+/* or 9px */
+letter-spacing: 0.0041em;
+
+/* Text + Icons/Light • High Emphasis */
+color: rgba(0, 0, 0, 0.87);
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* You can have the rest of the empty space here. */
+
+width: 65.63px;
+height: 12px;
+
+font-family: 'SF Pro Display';
+font-style: normal;
+font-weight: 500;
+font-size: 5.06448px;
+line-height: 120%;
+/* or 6px */
+letter-spacing: 0.0007em;
+
+/* Text + Icons/Light • Disabled */
+color: rgba(0, 0, 0, 0.38);
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Eyebrow */
+
+position: absolute;
+width: 46.19px;
+height: 6.71px;
+left: 22.14px;
+top: 3.86px;
+
+
+
+/* Rectangle 1 */
+
+position: absolute;
+height: 6.71px;
+left: 24.53%;
+right: 24.3%;
+top: 3.86px;
+
+background: #000000;
+
+
+/* Rectangle 2 */
+
+position: absolute;
+left: 44.86%;
+right: 44.39%;
+top: 3.18%;
+bottom: 96.25%;
+
+background: #151515;
+border-radius: 0.406693px;
+
+
+/* Ellipse 1 */
+
+position: absolute;
+left: 59.49%;
+right: 36.77%;
+top: 2.56%;
+bottom: 95.63%;
+
+background: #151515;
+
+
+/* Ellipse 3 */
+
+position: absolute;
+left: 60.24%;
+right: 38.11%;
+top: 2.92%;
+bottom: 96.28%;
+
+background: linear-gradient(180deg, #2E436C 0%, rgba(45, 45, 45, 0) 50%, #3559A0 84.9%, #4C8DD9 100%);
+box-shadow: inset 0px 0px 0.406693px rgba(179, 237, 255, 0.3);
+transform: matrix(0.87, -0.5, 0.5, 0.87, 0, 0);
+
+
+/* Holes */
+
+position: absolute;
+left: 0.92%;
+right: 0.92%;
+top: 0%;
+bottom: 0%;
+
+
+
+/* Rectangle 3 */
+
+position: absolute;
+left: 78.44%;
+right: 20.13%;
+top: 0%;
+bottom: 99.17%;
+
+background: linear-gradient(180deg, #FFFFFF 0%, #DEDEDE 100%);
+
+
+/* Rectangle 4 */
+
+position: absolute;
+left: 97.62%;
+right: 0.95%;
+top: 9.79%;
+bottom: 89.5%;
+
+background: linear-gradient(180deg, #FFFFFF 0%, #DEDEDE 100%);
+transform: rotate(90deg);
+
+
+/* Rectangle 5 */
+
+position: absolute;
+left: 0.95%;
+right: 97.62%;
+top: 9.79%;
+bottom: 89.51%;
+
+background: linear-gradient(180deg, #FFFFFF 0%, #DEDEDE 100%);
+transform: rotate(-90deg);
+
+
+/* Rectangle 6 */
+
+position: absolute;
+left: 97.65%;
+right: 0.92%;
+top: 89.77%;
+bottom: 9.52%;
+
+background: linear-gradient(180deg, #FFFFFF 0%, #DEDEDE 100%);
+transform: rotate(90deg);
+
+
+/* Rectangle 7 */
+
+position: absolute;
+left: 0.92%;
+right: 97.65%;
+top: 89.52%;
+bottom: 9.77%;
+
+background: linear-gradient(180deg, #FFFFFF 0%, #DEDEDE 100%);
+transform: rotate(-90deg);
+
+
+/* Rectangle 8 */
+
+position: absolute;
+left: 20.13%;
+right: 78.44%;
+top: 99.29%;
+bottom: 0%;
+
+background: linear-gradient(180deg, #FFFFFF 0%, #DEDEDE 100%);
+transform: rotate(180deg);
+
+
+/* Buttons */
+
+position: absolute;
+left: 0.23%;
+right: 0.24%;
+top: 16.14%;
+bottom: 60.22%;
+
+
+
+/* Rectangle 14 */
+
+position: absolute;
+left: 0.24%;
+right: 98.81%;
+top: 16.14%;
+bottom: 80.44%;
+
+background: linear-gradient(180deg, #000000 0%, #FFFFFF 21.53%, #FFFFFF 75.7%, rgba(0, 0, 0, 0.98) 100%);
+box-shadow: inset -0.084408px 0px 0.042204px 0.084408px rgba(0, 0, 0, 0.8), inset 0.084408px 0px 0.042204px 0.084408px #000000;
+border-radius: 0.21102px 0px 0px 0.21102px;
+
+
+/* Rectangle 10 */
+
+position: absolute;
+left: 0.23%;
+right: 98.82%;
+top: 23.18%;
+bottom: 69.55%;
+
+background: linear-gradient(180deg, #000000 0%, #FFFFFF 21.53%, #FFFFFF 75.7%, rgba(0, 0, 0, 0.98) 100%);
+box-shadow: inset -0.084408px 0px 0.042204px 0.084408px rgba(0, 0, 0, 0.8), inset 0.084408px 0px 0.042204px 0.084408px #000000;
+border-radius: 0.21102px 0px 0px 0.21102px;
+
+
+/* Rectangle 13 */
+
+position: absolute;
+left: 0.23%;
+right: 98.82%;
+top: 32.5%;
+bottom: 60.22%;
+
+background: linear-gradient(180deg, #000000 0%, #FFFFFF 21.53%, #FFFFFF 75.7%, rgba(0, 0, 0, 0.98) 100%);
+box-shadow: inset -0.084408px 0px 0.042204px 0.084408px rgba(0, 0, 0, 0.8), inset 0.084408px 0px 0.042204px 0.084408px #000000;
+border-radius: 0.21102px 0px 0px 0.21102px;
+
+
+/* Rectangle 12 */
+
+position: absolute;
+left: 98.81%;
+right: 0.24%;
+top: 25.71%;
+bottom: 62.5%;
+
+background: linear-gradient(180deg, #000000 0%, #FFFFFF 21.53%, #FFFFFF 75.7%, rgba(0, 0, 0, 0.98) 100%);
+box-shadow: inset 0.084408px 0.84408px 0.042204px 0.042204px rgba(0, 0, 0, 0.8), inset -0.084408px 0px 0.042204px 0.084408px #000000;
+border-radius: 0.42204px 0px 0px 0.42204px;
+transform: rotate(180deg);
+
+
+/* Change */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: flex-start;
+padding: 0px;
+gap: 32px;
+
+display: none;
+width: 995px;
+height: 54px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Copy */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 8px;
+
+width: 995px;
+height: 54px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 1;
+
+
+/* Title */
+
+width: 995px;
+height: 24px;
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 24px;
+
+color: #000000;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Body */
+
+width: 995px;
+height: 22px;
+
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Images */
+
+display: none;
+width: 148px;
+height: 148px;
+
+/* Greys/01 */
+background: #F5F5F5;
+border-radius: 20.996px;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* .Device•iPhone 12 */
+
+position: absolute;
+left: 11.5%;
+right: 26.37%;
+top: 3.19%;
+bottom: -28.64%;
+
+filter: drop-shadow(54.8652px 54.8652px 33.7632px rgba(18, 25, 34, 0.01)) drop-shadow(27.4326px 27.4326px 16.4596px rgba(18, 25, 34, 0.02)) drop-shadow(16.4596px 16.4596px 9.70692px rgba(18, 25, 34, 0.03)) drop-shadow(10.551px 10.551px 6.3306px rgba(18, 25, 34, 0.04)) drop-shadow(6.75264px 6.75264px 4.2204px rgba(18, 25, 34, 0.05)) drop-shadow(4.2204px 4.2204px 2.53224px rgba(18, 25, 34, 0.06)) drop-shadow(2.32122px 2.32122px 1.47714px rgba(18, 25, 34, 0.07)) drop-shadow(1.0551px 1.0551px 1.0551px rgba(18, 25, 34, 0.08));
+
+
+/* Frame */
+
+position: absolute;
+left: 0.92%;
+right: 0.92%;
+top: 0%;
+bottom: 0%;
+
+background: #FFFFFF;
+border: 0.10551px solid #FFFFFF;
+box-shadow: inset 0px 0px 0px 0.42204px #000000, inset 0px 0px 0px 0.73857px #F7F7F7, inset 0px 0px 0px 1.47714px rgba(255, 255, 255, 0.69), inset 0px 0px 0px 4.00938px #030303;
+border-radius: 13.4209px;
+
+
+/* .Screen•iPhone12 */
+
+position: absolute;
+left: 4.64%;
+right: 4.4%;
+top: 2.12%;
+bottom: 2.12%;
+
+/* Greys/00 */
+background: #FFFFFF;
+border-radius: 5.06448px;
+
+
+/* Frame 4495 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 1.69px;
+
+position: absolute;
+width: 65.63px;
+height: 31.69px;
+left: 6.75px;
+top: 70.06px;
+
+
+
+/* 😎 I made you look. */
+
+width: 65.63px;
+height: 18px;
+
+font-family: 'SF Pro Display';
+font-style: normal;
+font-weight: 600;
+font-size: 7.17468px;
+line-height: 120%;
+/* or 9px */
+letter-spacing: 0.0041em;
+
+/* Text + Icons/Light • High Emphasis */
+color: rgba(0, 0, 0, 0.87);
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* You can have the rest of the empty space here. */
+
+width: 65.63px;
+height: 12px;
+
+font-family: 'SF Pro Display';
+font-style: normal;
+font-weight: 500;
+font-size: 5.06448px;
+line-height: 120%;
+/* or 6px */
+letter-spacing: 0.0007em;
+
+/* Text + Icons/Light • Disabled */
+color: rgba(0, 0, 0, 0.38);
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Eyebrow */
+
+position: absolute;
+width: 46.19px;
+height: 6.71px;
+left: 22.14px;
+top: 3.86px;
+
+
+
+/* Rectangle 1 */
+
+position: absolute;
+height: 6.71px;
+left: 24.53%;
+right: 24.3%;
+top: 3.86px;
+
+background: #000000;
+
+
+/* Rectangle 2 */
+
+position: absolute;
+left: 44.86%;
+right: 44.39%;
+top: 3.18%;
+bottom: 96.25%;
+
+background: #151515;
+border-radius: 0.406693px;
+
+
+/* Ellipse 1 */
+
+position: absolute;
+left: 59.49%;
+right: 36.77%;
+top: 2.56%;
+bottom: 95.63%;
+
+background: #151515;
+
+
+/* Ellipse 3 */
+
+position: absolute;
+left: 60.24%;
+right: 38.11%;
+top: 2.92%;
+bottom: 96.28%;
+
+background: linear-gradient(180deg, #2E436C 0%, rgba(45, 45, 45, 0) 50%, #3559A0 84.9%, #4C8DD9 100%);
+box-shadow: inset 0px 0px 0.406693px rgba(179, 237, 255, 0.3);
+transform: matrix(0.87, -0.5, 0.5, 0.87, 0, 0);
+
+
+/* Holes */
+
+position: absolute;
+left: 0.92%;
+right: 0.92%;
+top: 0%;
+bottom: 0%;
+
+
+
+/* Rectangle 3 */
+
+position: absolute;
+left: 78.44%;
+right: 20.13%;
+top: 0%;
+bottom: 99.17%;
+
+background: linear-gradient(180deg, #FFFFFF 0%, #DEDEDE 100%);
+
+
+/* Rectangle 4 */
+
+position: absolute;
+left: 97.62%;
+right: 0.95%;
+top: 9.79%;
+bottom: 89.5%;
+
+background: linear-gradient(180deg, #FFFFFF 0%, #DEDEDE 100%);
+transform: rotate(90deg);
+
+
+/* Rectangle 5 */
+
+position: absolute;
+left: 0.95%;
+right: 97.62%;
+top: 9.79%;
+bottom: 89.51%;
+
+background: linear-gradient(180deg, #FFFFFF 0%, #DEDEDE 100%);
+transform: rotate(-90deg);
+
+
+/* Rectangle 6 */
+
+position: absolute;
+left: 97.65%;
+right: 0.92%;
+top: 89.77%;
+bottom: 9.52%;
+
+background: linear-gradient(180deg, #FFFFFF 0%, #DEDEDE 100%);
+transform: rotate(90deg);
+
+
+/* Rectangle 7 */
+
+position: absolute;
+left: 0.92%;
+right: 97.65%;
+top: 89.52%;
+bottom: 9.77%;
+
+background: linear-gradient(180deg, #FFFFFF 0%, #DEDEDE 100%);
+transform: rotate(-90deg);
+
+
+/* Rectangle 8 */
+
+position: absolute;
+left: 20.13%;
+right: 78.44%;
+top: 99.29%;
+bottom: 0%;
+
+background: linear-gradient(180deg, #FFFFFF 0%, #DEDEDE 100%);
+transform: rotate(180deg);
+
+
+/* Buttons */
+
+position: absolute;
+left: 0.23%;
+right: 0.24%;
+top: 16.14%;
+bottom: 60.22%;
+
+
+
+/* Rectangle 14 */
+
+position: absolute;
+left: 0.24%;
+right: 98.81%;
+top: 16.14%;
+bottom: 80.44%;
+
+background: linear-gradient(180deg, #000000 0%, #FFFFFF 21.53%, #FFFFFF 75.7%, rgba(0, 0, 0, 0.98) 100%);
+box-shadow: inset -0.084408px 0px 0.042204px 0.084408px rgba(0, 0, 0, 0.8), inset 0.084408px 0px 0.042204px 0.084408px #000000;
+border-radius: 0.21102px 0px 0px 0.21102px;
+
+
+/* Rectangle 10 */
+
+position: absolute;
+left: 0.23%;
+right: 98.82%;
+top: 23.18%;
+bottom: 69.55%;
+
+background: linear-gradient(180deg, #000000 0%, #FFFFFF 21.53%, #FFFFFF 75.7%, rgba(0, 0, 0, 0.98) 100%);
+box-shadow: inset -0.084408px 0px 0.042204px 0.084408px rgba(0, 0, 0, 0.8), inset 0.084408px 0px 0.042204px 0.084408px #000000;
+border-radius: 0.21102px 0px 0px 0.21102px;
+
+
+/* Rectangle 13 */
+
+position: absolute;
+left: 0.23%;
+right: 98.82%;
+top: 32.5%;
+bottom: 60.22%;
+
+background: linear-gradient(180deg, #000000 0%, #FFFFFF 21.53%, #FFFFFF 75.7%, rgba(0, 0, 0, 0.98) 100%);
+box-shadow: inset -0.084408px 0px 0.042204px 0.084408px rgba(0, 0, 0, 0.8), inset 0.084408px 0px 0.042204px 0.084408px #000000;
+border-radius: 0.21102px 0px 0px 0.21102px;
+
+
+/* Rectangle 12 */
+
+position: absolute;
+left: 98.81%;
+right: 0.24%;
+top: 25.71%;
+bottom: 62.5%;
+
+background: linear-gradient(180deg, #000000 0%, #FFFFFF 21.53%, #FFFFFF 75.7%, rgba(0, 0, 0, 0.98) 100%);
+box-shadow: inset 0.084408px 0.84408px 0.042204px 0.042204px rgba(0, 0, 0, 0.8), inset -0.084408px 0px 0.042204px 0.084408px #000000;
+border-radius: 0.42204px 0px 0px 0.42204px;
+transform: rotate(180deg);
+
+
+/* Body */
+
+width: 234px;
+height: 24px;
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 17px;
+line-height: 24px;
+/* identical to box height, or 141% */
+letter-spacing: -0.0141em;
+
+color: rgba(255, 85, 85, 0.87);
+
+
+/* Inside auto layout */
+flex: none;
+order: 5;
+flex-grow: 0;
+
+
+/* Change */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: flex-start;
+padding: 0px;
+gap: 32px;
+
+width: 1127px;
+height: 176px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 6;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Copy */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 8px;
+
+width: 1127px;
+height: 176px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 1;
+
+
+/* Title */
+
+width: 1127px;
+height: 24px;
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 24px;
+
+color: #000000;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Body */
+
+width: 397px;
+height: 24px;
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 400;
+font-size: 17px;
+line-height: 24px;
+/* identical to box height, or 141% */
+letter-spacing: -0.0141em;
+
+/* Text + icons/Light/Primary */
+color: rgba(0, 0, 0, 0.87);
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Body */
+
+width: 397px;
+height: 24px;
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 400;
+font-size: 17px;
+line-height: 24px;
+/* identical to box height, or 141% */
+letter-spacing: -0.0141em;
+
+/* Text + icons/Light/Primary */
+color: rgba(0, 0, 0, 0.87);
+
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 0;
+
+
+/* Body */
+
+width: 397px;
+height: 48px;
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 400;
+font-size: 17px;
+line-height: 24px;
+/* or 141% */
+letter-spacing: -0.0141em;
+
+/* Text + icons/Light/Primary */
+color: rgba(0, 0, 0, 0.87);
+
+
+/* Inside auto layout */
+flex: none;
+order: 3;
+flex-grow: 0;
+
+
+/* Body */
+
+width: 397px;
+height: 24px;
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 400;
+font-size: 17px;
+line-height: 24px;
+/* identical to box height, or 141% */
+letter-spacing: -0.0141em;
+
+/* Text + icons/Light/Primary */
+color: rgba(0, 0, 0, 0.87);
+
+
+/* Inside auto layout */
+flex: none;
+order: 4;
+flex-grow: 0;
+
+
+/* Images */
+
+display: none;
+width: 148px;
+height: 148px;
+
+/* Greys/01 */
+background: #F5F5F5;
+border-radius: 20.996px;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* .Device•iPhone 12 */
+
+position: absolute;
+left: 11.5%;
+right: 26.37%;
+top: 3.19%;
+bottom: -28.64%;
+
+filter: drop-shadow(54.8652px 54.8652px 33.7632px rgba(18, 25, 34, 0.01)) drop-shadow(27.4326px 27.4326px 16.4596px rgba(18, 25, 34, 0.02)) drop-shadow(16.4596px 16.4596px 9.70692px rgba(18, 25, 34, 0.03)) drop-shadow(10.551px 10.551px 6.3306px rgba(18, 25, 34, 0.04)) drop-shadow(6.75264px 6.75264px 4.2204px rgba(18, 25, 34, 0.05)) drop-shadow(4.2204px 4.2204px 2.53224px rgba(18, 25, 34, 0.06)) drop-shadow(2.32122px 2.32122px 1.47714px rgba(18, 25, 34, 0.07)) drop-shadow(1.0551px 1.0551px 1.0551px rgba(18, 25, 34, 0.08));
+
+
+/* Frame */
+
+position: absolute;
+left: 0.92%;
+right: 0.92%;
+top: 0%;
+bottom: 0%;
+
+background: #FFFFFF;
+border: 0.10551px solid #FFFFFF;
+box-shadow: inset 0px 0px 0px 0.42204px #000000, inset 0px 0px 0px 0.73857px #F7F7F7, inset 0px 0px 0px 1.47714px rgba(255, 255, 255, 0.69), inset 0px 0px 0px 4.00938px #030303;
+border-radius: 13.4209px;
+
+
+/* .Screen•iPhone12 */
+
+position: absolute;
+left: 4.64%;
+right: 4.4%;
+top: 2.12%;
+bottom: 2.12%;
+
+/* Greys/00 */
+background: #FFFFFF;
+border-radius: 5.06448px;
+
+
+/* Frame 4495 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 1.69px;
+
+position: absolute;
+width: 65.63px;
+height: 31.69px;
+left: 6.75px;
+top: 70.06px;
+
+
+
+/* 😎 I made you look. */
+
+width: 65.63px;
+height: 18px;
+
+font-family: 'SF Pro Display';
+font-style: normal;
+font-weight: 600;
+font-size: 7.17468px;
+line-height: 120%;
+/* or 9px */
+letter-spacing: 0.0041em;
+
+/* Text + Icons/Light • High Emphasis */
+color: rgba(0, 0, 0, 0.87);
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* You can have the rest of the empty space here. */
+
+width: 65.63px;
+height: 12px;
+
+font-family: 'SF Pro Display';
+font-style: normal;
+font-weight: 500;
+font-size: 5.06448px;
+line-height: 120%;
+/* or 6px */
+letter-spacing: 0.0007em;
+
+/* Text + Icons/Light • Disabled */
+color: rgba(0, 0, 0, 0.38);
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Eyebrow */
+
+position: absolute;
+width: 46.19px;
+height: 6.71px;
+left: 22.14px;
+top: 3.86px;
+
+
+
+/* Rectangle 1 */
+
+position: absolute;
+height: 6.71px;
+left: 24.53%;
+right: 24.3%;
+top: 3.86px;
+
+background: #000000;
+
+
+/* Rectangle 2 */
+
+position: absolute;
+left: 44.86%;
+right: 44.39%;
+top: 3.18%;
+bottom: 96.25%;
+
+background: #151515;
+border-radius: 0.406693px;
+
+
+/* Ellipse 1 */
+
+position: absolute;
+left: 59.49%;
+right: 36.77%;
+top: 2.56%;
+bottom: 95.63%;
+
+background: #151515;
+
+
+/* Ellipse 3 */
+
+position: absolute;
+left: 60.24%;
+right: 38.11%;
+top: 2.92%;
+bottom: 96.28%;
+
+background: linear-gradient(180deg, #2E436C 0%, rgba(45, 45, 45, 0) 50%, #3559A0 84.9%, #4C8DD9 100%);
+box-shadow: inset 0px 0px 0.406693px rgba(179, 237, 255, 0.3);
+transform: matrix(0.87, -0.5, 0.5, 0.87, 0, 0);
+
+
+/* Holes */
+
+position: absolute;
+left: 0.92%;
+right: 0.92%;
+top: 0%;
+bottom: 0%;
+
+
+
+/* Rectangle 3 */
+
+position: absolute;
+left: 78.44%;
+right: 20.13%;
+top: 0%;
+bottom: 99.17%;
+
+background: linear-gradient(180deg, #FFFFFF 0%, #DEDEDE 100%);
+
+
+/* Rectangle 4 */
+
+position: absolute;
+left: 97.62%;
+right: 0.95%;
+top: 9.79%;
+bottom: 89.5%;
+
+background: linear-gradient(180deg, #FFFFFF 0%, #DEDEDE 100%);
+transform: rotate(90deg);
+
+
+/* Rectangle 5 */
+
+position: absolute;
+left: 0.95%;
+right: 97.62%;
+top: 9.79%;
+bottom: 89.51%;
+
+background: linear-gradient(180deg, #FFFFFF 0%, #DEDEDE 100%);
+transform: rotate(-90deg);
+
+
+/* Rectangle 6 */
+
+position: absolute;
+left: 97.65%;
+right: 0.92%;
+top: 89.77%;
+bottom: 9.52%;
+
+background: linear-gradient(180deg, #FFFFFF 0%, #DEDEDE 100%);
+transform: rotate(90deg);
+
+
+/* Rectangle 7 */
+
+position: absolute;
+left: 0.92%;
+right: 97.65%;
+top: 89.52%;
+bottom: 9.77%;
+
+background: linear-gradient(180deg, #FFFFFF 0%, #DEDEDE 100%);
+transform: rotate(-90deg);
+
+
+/* Rectangle 8 */
+
+position: absolute;
+left: 20.13%;
+right: 78.44%;
+top: 99.29%;
+bottom: 0%;
+
+background: linear-gradient(180deg, #FFFFFF 0%, #DEDEDE 100%);
+transform: rotate(180deg);
+
+
+/* Buttons */
+
+position: absolute;
+left: 0.23%;
+right: 0.24%;
+top: 16.14%;
+bottom: 60.22%;
+
+
+
+/* Rectangle 14 */
+
+position: absolute;
+left: 0.24%;
+right: 98.81%;
+top: 16.14%;
+bottom: 80.44%;
+
+background: linear-gradient(180deg, #000000 0%, #FFFFFF 21.53%, #FFFFFF 75.7%, rgba(0, 0, 0, 0.98) 100%);
+box-shadow: inset -0.084408px 0px 0.042204px 0.084408px rgba(0, 0, 0, 0.8), inset 0.084408px 0px 0.042204px 0.084408px #000000;
+border-radius: 0.21102px 0px 0px 0.21102px;
+
+
+/* Rectangle 10 */
+
+position: absolute;
+left: 0.23%;
+right: 98.82%;
+top: 23.18%;
+bottom: 69.55%;
+
+background: linear-gradient(180deg, #000000 0%, #FFFFFF 21.53%, #FFFFFF 75.7%, rgba(0, 0, 0, 0.98) 100%);
+box-shadow: inset -0.084408px 0px 0.042204px 0.084408px rgba(0, 0, 0, 0.8), inset 0.084408px 0px 0.042204px 0.084408px #000000;
+border-radius: 0.21102px 0px 0px 0.21102px;
+
+
+/* Rectangle 13 */
+
+position: absolute;
+left: 0.23%;
+right: 98.82%;
+top: 32.5%;
+bottom: 60.22%;
+
+background: linear-gradient(180deg, #000000 0%, #FFFFFF 21.53%, #FFFFFF 75.7%, rgba(0, 0, 0, 0.98) 100%);
+box-shadow: inset -0.084408px 0px 0.042204px 0.084408px rgba(0, 0, 0, 0.8), inset 0.084408px 0px 0.042204px 0.084408px #000000;
+border-radius: 0.21102px 0px 0px 0.21102px;
+
+
+/* Rectangle 12 */
+
+position: absolute;
+left: 98.81%;
+right: 0.24%;
+top: 25.71%;
+bottom: 62.5%;
+
+background: linear-gradient(180deg, #000000 0%, #FFFFFF 21.53%, #FFFFFF 75.7%, rgba(0, 0, 0, 0.98) 100%);
+box-shadow: inset 0.084408px 0.84408px 0.042204px 0.042204px rgba(0, 0, 0, 0.8), inset -0.084408px 0px 0.042204px 0.084408px #000000;
+border-radius: 0.42204px 0px 0px 0.42204px;
+transform: rotate(180deg);
+
+
+/* Section */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 24px;
+
+width: 1127px;
+height: 24px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 7;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Logs */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 16px;
+
+width: 1127px;
+height: 24px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Body */
+
+width: 346px;
+height: 24px;
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 17px;
+line-height: 24px;
+/* identical to box height, or 141% */
+letter-spacing: -0.0141em;
+
+color: #128217;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* New */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: flex-start;
+padding: 0px;
+gap: 32px;
+
+display: none;
+width: 995px;
+height: 80px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Copy */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 8px;
+
+width: 995px;
+height: 80px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 1;
+
+
+/* Title */
+
+width: 150px;
+height: 24px;
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 24px;
+
+color: #000000;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Body */
+
+width: 995px;
+height: 48px;
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 400;
+font-size: 17px;
+line-height: 24px;
+/* or 141% */
+letter-spacing: -0.0141em;
+
+/* Text + icons/Light/Primary */
+color: rgba(0, 0, 0, 0.87);
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Images */
+
+display: none;
+width: 148px;
+height: 148px;
+
+/* Greys/01 */
+background: #F5F5F5;
+border-radius: 20.996px;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* .Device•iPhone 12 */
+
+position: absolute;
+left: 11.5%;
+right: 26.37%;
+top: 3.19%;
+bottom: -28.64%;
+
+filter: drop-shadow(54.8652px 54.8652px 33.7632px rgba(18, 25, 34, 0.01)) drop-shadow(27.4326px 27.4326px 16.4596px rgba(18, 25, 34, 0.02)) drop-shadow(16.4596px 16.4596px 9.70692px rgba(18, 25, 34, 0.03)) drop-shadow(10.551px 10.551px 6.3306px rgba(18, 25, 34, 0.04)) drop-shadow(6.75264px 6.75264px 4.2204px rgba(18, 25, 34, 0.05)) drop-shadow(4.2204px 4.2204px 2.53224px rgba(18, 25, 34, 0.06)) drop-shadow(2.32122px 2.32122px 1.47714px rgba(18, 25, 34, 0.07)) drop-shadow(1.0551px 1.0551px 1.0551px rgba(18, 25, 34, 0.08));
+
+
+/* Frame */
+
+position: absolute;
+left: 0.92%;
+right: 0.92%;
+top: 0%;
+bottom: 0%;
+
+background: #FFFFFF;
+border: 0.10551px solid #FFFFFF;
+box-shadow: inset 0px 0px 0px 0.42204px #000000, inset 0px 0px 0px 0.73857px #F7F7F7, inset 0px 0px 0px 1.47714px rgba(255, 255, 255, 0.69), inset 0px 0px 0px 4.00938px #030303;
+border-radius: 13.4209px;
+
+
+/* .Screen•iPhone12 */
+
+position: absolute;
+left: 4.64%;
+right: 4.4%;
+top: 2.12%;
+bottom: 2.12%;
+
+/* Greys/00 */
+background: #FFFFFF;
+border-radius: 5.06448px;
+
+
+/* Frame 4495 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 1.69px;
+
+position: absolute;
+width: 65.63px;
+height: 31.69px;
+left: 6.75px;
+top: 70.06px;
+
+
+
+/* 😎 I made you look. */
+
+width: 65.63px;
+height: 18px;
+
+font-family: 'SF Pro Display';
+font-style: normal;
+font-weight: 600;
+font-size: 7.17468px;
+line-height: 120%;
+/* or 9px */
+letter-spacing: 0.0041em;
+
+/* Text + Icons/Light • High Emphasis */
+color: rgba(0, 0, 0, 0.87);
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* You can have the rest of the empty space here. */
+
+width: 65.63px;
+height: 12px;
+
+font-family: 'SF Pro Display';
+font-style: normal;
+font-weight: 500;
+font-size: 5.06448px;
+line-height: 120%;
+/* or 6px */
+letter-spacing: 0.0007em;
+
+/* Text + Icons/Light • Disabled */
+color: rgba(0, 0, 0, 0.38);
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Eyebrow */
+
+position: absolute;
+width: 46.19px;
+height: 6.71px;
+left: 22.14px;
+top: 3.86px;
+
+
+
+/* Rectangle 1 */
+
+position: absolute;
+height: 6.71px;
+left: 24.53%;
+right: 24.3%;
+top: 3.86px;
+
+background: #000000;
+
+
+/* Rectangle 2 */
+
+position: absolute;
+left: 44.86%;
+right: 44.39%;
+top: 3.18%;
+bottom: 96.25%;
+
+background: #151515;
+border-radius: 0.406693px;
+
+
+/* Ellipse 1 */
+
+position: absolute;
+left: 59.49%;
+right: 36.77%;
+top: 2.56%;
+bottom: 95.63%;
+
+background: #151515;
+
+
+/* Ellipse 3 */
+
+position: absolute;
+left: 60.24%;
+right: 38.11%;
+top: 2.92%;
+bottom: 96.28%;
+
+background: linear-gradient(180deg, #2E436C 0%, rgba(45, 45, 45, 0) 50%, #3559A0 84.9%, #4C8DD9 100%);
+box-shadow: inset 0px 0px 0.406693px rgba(179, 237, 255, 0.3);
+transform: matrix(0.87, -0.5, 0.5, 0.87, 0, 0);
+
+
+/* Holes */
+
+position: absolute;
+left: 0.92%;
+right: 0.92%;
+top: 0%;
+bottom: 0%;
+
+
+
+/* Rectangle 3 */
+
+position: absolute;
+left: 78.44%;
+right: 20.13%;
+top: 0%;
+bottom: 99.17%;
+
+background: linear-gradient(180deg, #FFFFFF 0%, #DEDEDE 100%);
+
+
+/* Rectangle 4 */
+
+position: absolute;
+left: 97.62%;
+right: 0.95%;
+top: 9.79%;
+bottom: 89.5%;
+
+background: linear-gradient(180deg, #FFFFFF 0%, #DEDEDE 100%);
+transform: rotate(90deg);
+
+
+/* Rectangle 5 */
+
+position: absolute;
+left: 0.95%;
+right: 97.62%;
+top: 9.79%;
+bottom: 89.51%;
+
+background: linear-gradient(180deg, #FFFFFF 0%, #DEDEDE 100%);
+transform: rotate(-90deg);
+
+
+/* Rectangle 6 */
+
+position: absolute;
+left: 97.65%;
+right: 0.92%;
+top: 89.77%;
+bottom: 9.52%;
+
+background: linear-gradient(180deg, #FFFFFF 0%, #DEDEDE 100%);
+transform: rotate(90deg);
+
+
+/* Rectangle 7 */
+
+position: absolute;
+left: 0.92%;
+right: 97.65%;
+top: 89.52%;
+bottom: 9.77%;
+
+background: linear-gradient(180deg, #FFFFFF 0%, #DEDEDE 100%);
+transform: rotate(-90deg);
+
+
+/* Rectangle 8 */
+
+position: absolute;
+left: 20.13%;
+right: 78.44%;
+top: 99.29%;
+bottom: 0%;
+
+background: linear-gradient(180deg, #FFFFFF 0%, #DEDEDE 100%);
+transform: rotate(180deg);
+
+
+/* Buttons */
+
+position: absolute;
+left: 0.23%;
+right: 0.24%;
+top: 16.14%;
+bottom: 60.22%;
+
+
+
+/* Rectangle 14 */
+
+position: absolute;
+left: 0.24%;
+right: 98.81%;
+top: 16.14%;
+bottom: 80.44%;
+
+background: linear-gradient(180deg, #000000 0%, #FFFFFF 21.53%, #FFFFFF 75.7%, rgba(0, 0, 0, 0.98) 100%);
+box-shadow: inset -0.084408px 0px 0.042204px 0.084408px rgba(0, 0, 0, 0.8), inset 0.084408px 0px 0.042204px 0.084408px #000000;
+border-radius: 0.21102px 0px 0px 0.21102px;
+
+
+/* Rectangle 10 */
+
+position: absolute;
+left: 0.23%;
+right: 98.82%;
+top: 23.18%;
+bottom: 69.55%;
+
+background: linear-gradient(180deg, #000000 0%, #FFFFFF 21.53%, #FFFFFF 75.7%, rgba(0, 0, 0, 0.98) 100%);
+box-shadow: inset -0.084408px 0px 0.042204px 0.084408px rgba(0, 0, 0, 0.8), inset 0.084408px 0px 0.042204px 0.084408px #000000;
+border-radius: 0.21102px 0px 0px 0.21102px;
+
+
+/* Rectangle 13 */
+
+position: absolute;
+left: 0.23%;
+right: 98.82%;
+top: 32.5%;
+bottom: 60.22%;
+
+background: linear-gradient(180deg, #000000 0%, #FFFFFF 21.53%, #FFFFFF 75.7%, rgba(0, 0, 0, 0.98) 100%);
+box-shadow: inset -0.084408px 0px 0.042204px 0.084408px rgba(0, 0, 0, 0.8), inset 0.084408px 0px 0.042204px 0.084408px #000000;
+border-radius: 0.21102px 0px 0px 0.21102px;
+
+
+/* Rectangle 12 */
+
+position: absolute;
+left: 98.81%;
+right: 0.24%;
+top: 25.71%;
+bottom: 62.5%;
+
+background: linear-gradient(180deg, #000000 0%, #FFFFFF 21.53%, #FFFFFF 75.7%, rgba(0, 0, 0, 0.98) 100%);
+box-shadow: inset 0.084408px 0.84408px 0.042204px 0.042204px rgba(0, 0, 0, 0.8), inset -0.084408px 0px 0.042204px 0.084408px #000000;
+border-radius: 0.42204px 0px 0px 0.42204px;
+transform: rotate(180deg);
+
+
+/* Change */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: flex-start;
+padding: 0px;
+gap: 32px;
+
+display: none;
+width: 995px;
+height: 54px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Copy */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 8px;
+
+width: 995px;
+height: 54px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 1;
+
+
+/* Title */
+
+width: 995px;
+height: 24px;
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 24px;
+
+color: #000000;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Body */
+
+width: 995px;
+height: 22px;
+
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Images */
+
+display: none;
+width: 148px;
+height: 148px;
+
+/* Greys/01 */
+background: #F5F5F5;
+border-radius: 20.996px;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* .Device•iPhone 12 */
+
+position: absolute;
+left: 11.5%;
+right: 26.37%;
+top: 3.19%;
+bottom: -28.64%;
+
+filter: drop-shadow(54.8652px 54.8652px 33.7632px rgba(18, 25, 34, 0.01)) drop-shadow(27.4326px 27.4326px 16.4596px rgba(18, 25, 34, 0.02)) drop-shadow(16.4596px 16.4596px 9.70692px rgba(18, 25, 34, 0.03)) drop-shadow(10.551px 10.551px 6.3306px rgba(18, 25, 34, 0.04)) drop-shadow(6.75264px 6.75264px 4.2204px rgba(18, 25, 34, 0.05)) drop-shadow(4.2204px 4.2204px 2.53224px rgba(18, 25, 34, 0.06)) drop-shadow(2.32122px 2.32122px 1.47714px rgba(18, 25, 34, 0.07)) drop-shadow(1.0551px 1.0551px 1.0551px rgba(18, 25, 34, 0.08));
+
+
+/* Frame */
+
+position: absolute;
+left: 0.92%;
+right: 0.92%;
+top: 0%;
+bottom: 0%;
+
+background: #FFFFFF;
+border: 0.10551px solid #FFFFFF;
+box-shadow: inset 0px 0px 0px 0.42204px #000000, inset 0px 0px 0px 0.73857px #F7F7F7, inset 0px 0px 0px 1.47714px rgba(255, 255, 255, 0.69), inset 0px 0px 0px 4.00938px #030303;
+border-radius: 13.4209px;
+
+
+/* .Screen•iPhone12 */
+
+position: absolute;
+left: 4.64%;
+right: 4.4%;
+top: 2.12%;
+bottom: 2.12%;
+
+/* Greys/00 */
+background: #FFFFFF;
+border-radius: 5.06448px;
+
+
+/* Frame 4495 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 1.69px;
+
+position: absolute;
+width: 65.63px;
+height: 31.69px;
+left: 6.75px;
+top: 70.06px;
+
+
+
+/* 😎 I made you look. */
+
+width: 65.63px;
+height: 18px;
+
+font-family: 'SF Pro Display';
+font-style: normal;
+font-weight: 600;
+font-size: 7.17468px;
+line-height: 120%;
+/* or 9px */
+letter-spacing: 0.0041em;
+
+/* Text + Icons/Light • High Emphasis */
+color: rgba(0, 0, 0, 0.87);
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* You can have the rest of the empty space here. */
+
+width: 65.63px;
+height: 12px;
+
+font-family: 'SF Pro Display';
+font-style: normal;
+font-weight: 500;
+font-size: 5.06448px;
+line-height: 120%;
+/* or 6px */
+letter-spacing: 0.0007em;
+
+/* Text + Icons/Light • Disabled */
+color: rgba(0, 0, 0, 0.38);
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Eyebrow */
+
+position: absolute;
+width: 46.19px;
+height: 6.71px;
+left: 22.14px;
+top: 3.86px;
+
+
+
+/* Rectangle 1 */
+
+position: absolute;
+height: 6.71px;
+left: 24.53%;
+right: 24.3%;
+top: 3.86px;
+
+background: #000000;
+
+
+/* Rectangle 2 */
+
+position: absolute;
+left: 44.86%;
+right: 44.39%;
+top: 3.18%;
+bottom: 96.25%;
+
+background: #151515;
+border-radius: 0.406693px;
+
+
+/* Ellipse 1 */
+
+position: absolute;
+left: 59.49%;
+right: 36.77%;
+top: 2.56%;
+bottom: 95.63%;
+
+background: #151515;
+
+
+/* Ellipse 3 */
+
+position: absolute;
+left: 60.24%;
+right: 38.11%;
+top: 2.92%;
+bottom: 96.28%;
+
+background: linear-gradient(180deg, #2E436C 0%, rgba(45, 45, 45, 0) 50%, #3559A0 84.9%, #4C8DD9 100%);
+box-shadow: inset 0px 0px 0.406693px rgba(179, 237, 255, 0.3);
+transform: matrix(0.87, -0.5, 0.5, 0.87, 0, 0);
+
+
+/* Holes */
+
+position: absolute;
+left: 0.92%;
+right: 0.92%;
+top: 0%;
+bottom: 0%;
+
+
+
+/* Rectangle 3 */
+
+position: absolute;
+left: 78.44%;
+right: 20.13%;
+top: 0%;
+bottom: 99.17%;
+
+background: linear-gradient(180deg, #FFFFFF 0%, #DEDEDE 100%);
+
+
+/* Rectangle 4 */
+
+position: absolute;
+left: 97.62%;
+right: 0.95%;
+top: 9.79%;
+bottom: 89.5%;
+
+background: linear-gradient(180deg, #FFFFFF 0%, #DEDEDE 100%);
+transform: rotate(90deg);
+
+
+/* Rectangle 5 */
+
+position: absolute;
+left: 0.95%;
+right: 97.62%;
+top: 9.79%;
+bottom: 89.51%;
+
+background: linear-gradient(180deg, #FFFFFF 0%, #DEDEDE 100%);
+transform: rotate(-90deg);
+
+
+/* Rectangle 6 */
+
+position: absolute;
+left: 97.65%;
+right: 0.92%;
+top: 89.77%;
+bottom: 9.52%;
+
+background: linear-gradient(180deg, #FFFFFF 0%, #DEDEDE 100%);
+transform: rotate(90deg);
+
+
+/* Rectangle 7 */
+
+position: absolute;
+left: 0.92%;
+right: 97.65%;
+top: 89.52%;
+bottom: 9.77%;
+
+background: linear-gradient(180deg, #FFFFFF 0%, #DEDEDE 100%);
+transform: rotate(-90deg);
+
+
+/* Rectangle 8 */
+
+position: absolute;
+left: 20.13%;
+right: 78.44%;
+top: 99.29%;
+bottom: 0%;
+
+background: linear-gradient(180deg, #FFFFFF 0%, #DEDEDE 100%);
+transform: rotate(180deg);
+
+
+/* Buttons */
+
+position: absolute;
+left: 0.23%;
+right: 0.24%;
+top: 16.14%;
+bottom: 60.22%;
+
+
+
+/* Rectangle 14 */
+
+position: absolute;
+left: 0.24%;
+right: 98.81%;
+top: 16.14%;
+bottom: 80.44%;
+
+background: linear-gradient(180deg, #000000 0%, #FFFFFF 21.53%, #FFFFFF 75.7%, rgba(0, 0, 0, 0.98) 100%);
+box-shadow: inset -0.084408px 0px 0.042204px 0.084408px rgba(0, 0, 0, 0.8), inset 0.084408px 0px 0.042204px 0.084408px #000000;
+border-radius: 0.21102px 0px 0px 0.21102px;
+
+
+/* Rectangle 10 */
+
+position: absolute;
+left: 0.23%;
+right: 98.82%;
+top: 23.18%;
+bottom: 69.55%;
+
+background: linear-gradient(180deg, #000000 0%, #FFFFFF 21.53%, #FFFFFF 75.7%, rgba(0, 0, 0, 0.98) 100%);
+box-shadow: inset -0.084408px 0px 0.042204px 0.084408px rgba(0, 0, 0, 0.8), inset 0.084408px 0px 0.042204px 0.084408px #000000;
+border-radius: 0.21102px 0px 0px 0.21102px;
+
+
+/* Rectangle 13 */
+
+position: absolute;
+left: 0.23%;
+right: 98.82%;
+top: 32.5%;
+bottom: 60.22%;
+
+background: linear-gradient(180deg, #000000 0%, #FFFFFF 21.53%, #FFFFFF 75.7%, rgba(0, 0, 0, 0.98) 100%);
+box-shadow: inset -0.084408px 0px 0.042204px 0.084408px rgba(0, 0, 0, 0.8), inset 0.084408px 0px 0.042204px 0.084408px #000000;
+border-radius: 0.21102px 0px 0px 0.21102px;
+
+
+/* Rectangle 12 */
+
+position: absolute;
+left: 98.81%;
+right: 0.24%;
+top: 25.71%;
+bottom: 62.5%;
+
+background: linear-gradient(180deg, #000000 0%, #FFFFFF 21.53%, #FFFFFF 75.7%, rgba(0, 0, 0, 0.98) 100%);
+box-shadow: inset 0.084408px 0.84408px 0.042204px 0.042204px rgba(0, 0, 0, 0.8), inset -0.084408px 0px 0.042204px 0.084408px #000000;
+border-radius: 0.42204px 0px 0px 0.42204px;
+transform: rotate(180deg);

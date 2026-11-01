@@ -1,0 +1,114 @@
+/* Screen Description */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+
+position: relative;
+width: 495px;
+height: 80px;
+left: 4031px;
+top: 451px;
+
+
+
+/* Screen Name */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 40px;
+
+width: 495px;
+height: 80px;
+
+background: #EEEAF2;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Line 87 */
+
+width: 80px;
+height: 0px;
+
+border: 8px solid #8B5ECB;
+transform: rotate(90deg);
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Title */
+
+width: 366px;
+height: 80px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 48px;
+line-height: 80px;
+/* identical to box height, or 167% */
+
+color: #121212;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Content */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 16px 40px;
+gap: 8px;
+
+display: none;
+width: 834px;
+height: 54px;
+
+background: #FFFFFF;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Content */
+
+display: none;
+width: 754px;
+height: 66px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 22px;
+/* or 138% */
+
+color: #121212;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 1;

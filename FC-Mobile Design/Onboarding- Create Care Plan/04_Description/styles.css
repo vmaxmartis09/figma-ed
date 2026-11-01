@@ -1,0 +1,63 @@
+/* Description */
+.description {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 16px;
+  gap: 8px;
+  position: relative;
+  width: 595px;
+  height: 238px;
+  left: 1215px;
+  top: 283px;
+  background: #FFFFFF;
+  border-radius: 8px;
+}
+
+/* Onboarding - Create Care Plan */
+.onboarding-create-care-plan {
+  width: 563px;
+  height: 22px;
+}
+
+/* Body L/Bold */
+.body-l-bold {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 22px;
+}
+
+/* identical to box height, or 138% */
+.identical-to-box-height-or-138 {
+  color: #121212;
+  flex: none;
+  order: 0;
+  align-self: stretch;
+  flex-grow: 0;
+}
+
+/* Apply this flow for the first login of user after creating account successful. ---- User without an account: Access the app → select language → create account (since they don’t have an account, they can’t log in and therefore can’t create a care plan yet). User with an account (first-time login – for FC and FC mode): Log in successfully → onboarding: create care plan (no language selection here, as it was already chosen during the first app access). */
+.apply-this-flow-for-the-first-login-of-user-after-creating-account-successful-user-without-an-account-access-the-app-select-language-create-account-since-they-don-t-have-an-account-they-can-t-log-in-and-therefore-can-t-create-a-care-plan-yet-user-with-an-account-first-time-login-for-fc-and-fc-mode-log-in-successfully-onboarding-create-care-plan-no-language-selection-here-as-it-was-already-chosen-during-the-first-app-access {
+  width: 563px;
+  height: 176px;
+}
+
+/* Body L/Regular */
+.body-l-regular {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+}
+
+/* or 138% */
+.or-138 {
+  color: #121212;
+  flex: none;
+  order: 1;
+  align-self: stretch;
+  flex-grow: 0;
+}

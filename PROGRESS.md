@@ -1,0 +1,485 @@
+# Figma extraction checklist — Nari (Aus) (Customer)
+
+Legend: [x] done · [~] running · [ ] todo · [?] story list not yet discovered
+
+Out of scope (user decision): FC - Web UI Design, HCP - Web UI Design, Wireframe.
+
+## Pages
+- [ ] Cover
+- [ ] HCP - Mobile UI Design
+- [~] FC - Mobile UI Design
+- [ ] FC - Mobile Translation
+- [~] Library
+- [ ] Proposal
+- [ ] Archive
+
+## Library
+- [x] Typo (typography.json, app_text_styles.dart)
+- [x] Color - Main (colors-main.json)
+- [x] Color - Token (colors-token.json, app_colors.dart)
+- [ ] Icons Outline — per-icon SVG/PNG (only the full board PNG exists)
+- [ ] Illustration — per-item SVG/PNG (only the full board PNG exists)
+
+## FC - Mobile UI Design (19 groups)
+### Authentication
+- [x] Create account — 9 main screens done; extra items (Name flow, Option 2 - Description, Login x3) running
+- [x] Get help logging in — 15 items run
+- [~] Onboarding and Login — 13 items, running
+- [ ] Tracking — 2 items
+
+### Other groups
+- [ ] Dementia Resources (4 items)
+    - [ ] Dementia Resources - Without Log In
+    - [ ] Dementia Resources - Logged in
+    - [ ] Tracking
+    - [ ] Name flow
+- [ ] Chatbot (33 items)
+    - [ ] Group 2252
+    - [ ] Group 2251
+    - [ ] Home
+    - [ ] Home
+    - [ ] Home
+    - [ ] Frame 1000005021
+    - [ ] Frame 1000005020
+    - [ ] Frame 1000005022
+    - [ ] Frame 1000005019
+    - [ ] Chatbot-default
+    - [ ] Frame 1000005010
+    - [ ] Frame 1000005001
+    - [ ] Frame 1000005009
+    - [ ] Frame 1000005008
+    - [ ] Frame 1000005007
+    - [ ] Frame 1000005006
+    - [ ] Frame 1000005005
+    - [ ] Frame 1000005018
+    - [ ] Frame 1000005017
+    - [ ] Frame 1000005016
+    - [ ] Frame 1000005015
+    - [ ] Frame 1000005014
+    - [ ] Frame 1000005013
+    - [ ] Frame 1000005004
+    - [ ] Frame 1000005012
+    - [ ] Frame 1000005003
+    - [ ] Frame 1000005011
+    - [ ] Frame 1000005002
+    - [ ] Chatbot-default
+    - [ ] Tracking
+    - [ ] Name flow
+    - [ ] Name flow
+    - [ ] Name flow
+- [ ] Search (25 items)
+    - [ ] Screen Description
+    - [ ] Search result
+    - [ ] Group 2249
+    - [ ] Group 2248
+    - [ ] Group 2247
+    - [ ] Group 2246
+    - [ ] Group 2250
+    - [ ] Tracking
+    - [ ] Video&Course - Topic detail
+    - [ ] Video Detail
+    - [ ] Home
+    - [ ] Name flow
+    - [ ] Name flow
+    - [ ] Name flow
+    - [ ] Home
+    - [ ] Home
+    - [ ] Search
+    - [ ] Search
+    - [ ] Search
+    - [ ] Search
+    - [ ] Search
+    - [ ] Typing
+    - [ ] No Result
+    - [ ] Search result
+    - [ ] Typing
+- [ ] Setting (7 items)
+    - [ ] Setting - Privacy Setting
+    - [ ] Setting - Language
+    - [ ] More
+    - [ ] Setting - Notifications
+    - [ ] image 31
+    - [ ] Tracking
+    - [ ] Name flow
+- [ ] Offline mode (15 items)
+    - [ ] Group 2245
+    - [ ] Video&Course - VideoDownload
+    - [ ] Tracking
+    - [ ] Name flow
+    - [ ] Screen Description
+    - [ ] Screen Description
+    - [ ] Screen Description
+    - [ ] Home
+    - [ ] Video&Course - Course
+    - [ ] Vector 5
+    - [ ] Vector 4
+    - [ ] Video&Course - Course
+    - [ ] Video&Course - Course
+    - [ ] Video&Course - VideoDownload
+    - [ ] Video&Course - VideoDownload
+- [ ] Calendar (30 items)
+    - [ ] Edit repeat
+    - [ ] Edit repeat
+    - [ ] image 32
+    - [ ] Name flow
+    - [ ] Name flow
+    - [ ] Name flow
+    - [ ] Edit catgegory
+    - [ ] Selected colors
+    - [ ] Add new catgegory
+    - [ ] Add new catgegory
+    - [ ] Category
+    - [ ] Delete catgegory
+    - [ ] Category
+    - [ ] Edit event
+    - [ ] Edit event
+    - [ ] Add new event
+    - [ ] Category popup
+    - [ ] Add new event
+    - [ ] Add new event
+    - [ ] Add new event
+    - [ ] Calendar - create by other
+    - [ ] Deteled popup
+    - [ ] Calendar-No category
+    - [ ] Calendar
+    - [ ] Calendar
+    - [ ] Calendar
+    - [ ] Calendar
+    - [ ] Calendar
+    - [ ] More
+    - [ ] Tracking
+- [ ] Survey feeback (10 items)
+    - [ ] Survey - result
+    - [ ] Survey - error
+    - [ ] Survey Q4
+    - [ ] Survey Q3
+    - [ ] Survey - error case
+    - [ ] Survey Q2
+    - [ ] Survey Q1
+    - [ ] image 31
+    - [ ] Tracking
+    - [ ] Name flow
+- [ ] Notification (10 items)
+    - [ ] Frame 1000004968
+    - [ ] Frame 1000004967
+    - [ ] Push noti
+    - [ ] image 31
+    - [ ] Tracking
+    - [ ] Notification - Empty
+    - [ ] Notification - Op1
+    - [ ] Notification - Toast
+    - [ ] Home
+    - [ ] Name flow
+- [ ] Peer Support (7 items)
+    - [ ] Group-Group info-Leave group
+    - [ ] Group-Group info-Member
+    - [ ] Group
+    - [ ] Messages
+    - [ ] Care Forum
+    - [ ] Contacts
+    - [ ] Tracking
+- [ ] Dementia Care Services (11 items)
+    - [ ] Tracking
+    - [ ] Name flow
+    - [ ] Group 2232
+    - [ ] Group 2233
+    - [ ] Group 2231
+    - [ ] Dementia Care Services-Service popup
+    - [ ] Dementia Care Services-Distance popup
+    - [ ] Dementia Care Services-View service
+    - [ ] Dementia Care Services
+    - [ ] Dementia Care Services
+    - [ ] Dementia Care Services
+- [ ] Course (28 items)
+    - [ ] Other lesson
+    - [ ] Video&Course - Course detail
+    - [ ] Video&Course - Course
+    - [ ] Name flow
+    - [ ] Lession detail
+    - [ ] Video&Course - Topic detail
+    - [ ] Video&Course - Course detail
+    - [ ] Video&Course - Course
+    - [ ] Video&Course - Course
+    - [ ] Screen Description
+    - [ ] Tracking
+    - [ ] Topic outline
+    - [ ] Lession detail-No content
+    - [ ] Group 2230
+    - [ ] Group 2229
+    - [ ] Group 2228
+    - [ ] Group 2227
+    - [ ] Group 2226
+    - [ ] Lession detail-Error
+    - [ ] Module-completed
+    - [ ] Lession detail-completed
+    - [ ] Lession detail-Final lesson
+    - [ ] Lession detail
+    - [ ] Video&Course - Topic detail
+    - [ ] Video&Course - Course detail- DOne 100%
+    - [ ] Video&Course - Course detail
+    - [ ] Name flow
+    - [ ] Video&Course - Course
+- [ ] Videos (4 items)
+    - [ ] Watch History & Downloads
+    - [ ] Video Detail
+    - [ ] Videos: Search & Filter
+    - [ ] Tracking
+- [ ] Profile (6 items)
+    - [ ] Profile: Recommended for you
+    - [ ] View assessment answer
+    - [ ] Care Recipient
+    - [ ] Profile Management
+    - [ ] Tracking
+    - [ ] Name flow
+- [ ] Onboarding: Create Care Plan (14 items)
+    - [ ] Home
+    - [ ] Profile: Recommended for you - Video
+    - [ ] Tracking
+    - [ ] Description
+    - [ ] Name flow
+    - [ ] Onboarding - Care Assessment - Completed
+    - [ ] Out-date - Onboarding - Care Assessment - Completed
+    - [ ] Onboarding - Care Assessment - Q3
+    - [ ] Onboarding - Care Assessment - Q2
+    - [ ] Onboarding - Care Assessment - Q1
+    - [ ] Onboarding -  Add New Recipient - Completed
+    - [ ] Onboarding
+    - [ ] Onboarding - Add New Recipient
+    - [ ] Login
+- [ ] Home: User đã login và đã hoàn thành assessment (13 items)
+    - [ ] Tracking
+    - [ ] Home
+    - [ ] Home
+    - [ ] Home
+    - [ ] Home - Setup reminder
+    - [ ] Home
+    - [ ] Home
+    - [ ] Home
+    - [ ] Login
+    - [ ] Login
+    - [ ] Name flow
+    - [ ] Name flow
+    - [ ] Name flow
+- [ ] Logo option (8 items)
+    - [ ] Screen Description
+    - [ ] Screen Description
+    - [ ] For HP: Choose type of account
+    - [ ] For HP: Choose type of account
+    - [ ] Home
+    - [ ] Home
+    - [ ] Login
+    - [ ] Login
+- [ ] About (7 items)
+    - [ ] Research Team - vesion 2 (01/04)
+    - [ ] How to use this page
+    - [ ] Research Team - Out date
+    - [ ] Privacy Statement
+    - [ ] Contact us
+    - [ ] About Us
+    - [ ] Tracking
+
+## HCP - Mobile UI Design
+- [ ] Home (7 items)
+    - [ ] Screen Description
+    - [ ] Screen Description
+    - [ ] Vector 6
+    - [ ] Tracking
+    - [ ] Home - avatar bottom sheet
+    - [ ] HCP Home- No Recommended
+    - [ ] HCP Home- Has Recommendation
+- [ ] Onboard and Follow up session (10 items)
+    - [ ] View/Edit Meeting note & Survey flows
+    - [ ] Add Meeting note & Survey flows
+    - [ ] Edit session
+    - [ ] Calendar View
+    - [ ] Add Schedule
+    - [ ] Add Session
+    - [ ] Name flow
+    - [ ] Onboarding & follow-up sessions - Add family carer
+    - [ ] FC List - Session List - Session Detail
+    - [ ] Tracking
+- [ ] Workshop (5 items)
+    - [ ] Group 2257
+    - [ ] Workshop list
+    - [ ] Workshop Detail & actions
+    - [ ] Create Workshop
+    - [ ] Tracking
+
+## FC - Mobile Translation
+- [ ] Translation (7 items)
+    - [ ] Arabic: Option B — RTL baseline version
+    - [ ] Italian
+    - [ ] Arabic: Option A — Feedback-based version
+    - [ ] Cantonese
+    - [ ] Tracking
+    - [ ] Vietnamese
+    - [ ] Mandarin
+
+## Cover
+- [ ] Cover page (6 items)
+    - [ ] Frame 5
+    - [ ] Frame
+    - [ ] logo
+    - [ ] Exclude
+    - [ ] Group 4589
+    - [ ] Exclude
+
+## Proposal
+- [ ] New Update - 20.06 (22 items)
+    - [ ] Notification
+    - [ ] Notification
+    - [ ] Popup
+    - [ ] Popup
+    - [ ] Choose type of account
+    - [ ] Home
+    - [ ] Fixed
+    - [ ] Scrolls
+    - [ ] Notification setting
+    - [ ] Choose type of account
+    - [ ] Notification
+    - [ ] Frame 1000004552
+    - [ ] Frame 1000004551
+    - [ ] Popup
+    - [ ] Fixed
+    - [ ] Scrolls
+    - [ ] Home
+    - [ ] Fixed
+    - [ ] Scrolls
+    - [ ] Home
+    - [ ] Fixed
+    - [ ] Scrolls
+- [ ] Notification flow (37 items)
+    - [ ] Sample
+    - [ ] Sample
+    - [ ] Notification setting
+    - [ ] Notification setting
+    - [ ] Notification setting
+    - [ ] Notification
+    - [ ] Notification
+    - [ ] Notification
+    - [ ] Frame 1000004440
+    - [ ] Frame 1000004439
+    - [ ] Frame 1000004438
+    - [ ] Frame 1000004410
+    - [ ] Popup
+    - [ ] Fixed
+    - [ ] Scrolls
+    - [ ] Popup
+    - [ ] Fixed
+    - [ ] Scrolls
+    - [ ] Popup
+    - [ ] Fixed
+    - [ ] Scrolls
+    - [ ] Home
+    - [ ] Fixed
+    - [ ] Scrolls
+    - [ ] Home
+    - [ ] Fixed
+    - [ ] Scrolls
+    - [ ] Home
+    - [ ] Fixed
+    - [ ] Scrolls
+    - [ ] Popup
+    - [ ] Fixed
+    - [ ] Scrolls
+    - [ ] Home
+    - [ ] Fixed
+    - [ ] Scrolls
+    - [ ] Push noti
+- [ ] Chatbot (20 items)
+    - [ ] Home
+    - [ ] Fixed
+    - [ ] Scrolls
+    - [ ] Frame 1000004540
+    - [ ] Frame 1000004543
+    - [ ] Frame 1000004550
+    - [ ] Frame 1000004549
+    - [ ] Frame 1000004548
+    - [ ] Frame 1000004547
+    - [ ] Frame 1000004546
+    - [ ] Frame 1000004544
+    - [ ] Frame 1000004541
+    - [ ] Frame 1000004538
+    - [ ] Frame 1000004545
+    - [ ] Frame 1000004542
+    - [ ] Frame 1000004537
+    - [ ] Frame 1000004445
+    - [ ] Frame 1000004444
+    - [ ] Frame 1000004443
+    - [ ] Frame 1000004442
+
+## Archive
+- [ ] Calendar (30 items)
+    - [ ] Edit repeat
+    - [ ] Edit repeat
+    - [ ] image 32
+    - [ ] Name flow
+    - [ ] Name flow
+    - [ ] Name flow
+    - [ ] Edit catgegory
+    - [ ] Selected colors
+    - [ ] Add new catgegory
+    - [ ] Add new catgegory
+    - [ ] Category
+    - [ ] Delete catgegory
+    - [ ] Category
+    - [ ] Edit event
+    - [ ] Edit event
+    - [ ] Add new event
+    - [ ] Category popup
+    - [ ] Add new event
+    - [ ] Add new event
+    - [ ] Add new event
+    - [ ] Calendar - create by other
+    - [ ] Deteled popup
+    - [ ] Calendar-No category
+    - [ ] Calendar - Create by me
+    - [ ] Calendar
+    - [ ] Calendar
+    - [ ] Calendar
+    - [ ] Calendar
+    - [ ] More
+    - [ ] Tracking
+- [ ] About (6 items)
+    - [ ] How to use this page
+    - [ ] Research Team
+    - [ ] Privacy Statement
+    - [ ] Contact us
+    - [ ] About Us
+    - [ ] Tracking
+- [ ] FC: Privacy Statement Logged in (7 items)
+    - [ ] More
+    - [ ] FC: Privacy Statement -  Data Breach Logged in
+    - [ ] FC: Privacy Statement -  Research Participation Logged in
+    - [ ] FC: Privacy Statement - Privacy Notice Logged in
+    - [ ] FC: Privacy Statement - Privacy Notice Logged in
+    - [ ] Screen Description
+    - [ ] FC: Privacy Statement Logged in
+- [ ] Create account - Opt 2 (6 items)
+    - [ ] Screen Description
+    - [ ] Dementia Care Services-Service popup
+    - [ ] Dementia Care Services-Distance popup
+    - [ ] Dementia Care Services
+    - [ ] Dementia Care Services-expand
+    - [ ] Name flow
+- [ ] Create account - Opt 1 (14 items)
+    - [ ] Create an account - Step 8
+    - [ ] Fixed
+    - [ ] Scrolls
+    - [ ] Name flow
+    - [ ] Option 1 - Description
+    - [ ] Login
+    - [ ] Login
+    - [ ] Login-Error
+    - [ ] Create an account - Step 7
+    - [ ] Waiting Approval
+    - [ ] Laguage-bottomsheet
+    - [ ] Laguage-bottomsheet
+    - [ ] Laguage-bottomsheet
+    - [ ] Create an account - Step 6
+
+## Final deliverables
+- [ ] manifest.json + README.md index
+- [ ] _design-tokens/ (from Library)
+- [ ] _shared-assets/ (deduplicated icons)
+- [ ] QA pass per story (asset count, CSS size, PNG opens)
